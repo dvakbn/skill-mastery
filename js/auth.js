@@ -6,6 +6,8 @@ export class Auth {
   _save(s) { this.session = s; try { s ? localStorage.setItem(KEY, JSON.stringify(s)) : localStorage.removeItem(KEY); } catch { } for (const f of this.listeners) f(s); }
   onChange(f) { this.listeners.add(f); return () => this.listeners.delete(f); }
   user() { return this.session && this.session.user; }
+  // Where confirmation / reset emails should send the person back to (must also be allowed in Supabase URL Configuration).
+  _home() { try { return encodeURIComponent(location.origin + location.pathname.replace(/[^/]*$/, '')); } catch { return ''; } }
   async _call(path, body, token) {
     const res = await fetch(this.cfg.url + path, { method: 'POST', headers: { apikey: this.cfg.anonKey, 'Content-Type': 'application/json', ...(token ? { Authorization: 'Bearer ' + token } : {}) }, body: JSON.stringify(body) });
     const j = await res.json().catch(() => ({}));
@@ -14,12 +16,12 @@ export class Auth {
   }
   _adopt(j) { const s = { access_token: j.access_token, refresh_token: j.refresh_token, expires_at: j.expires_at || (Math.floor(Date.now() / 1000) + (j.expires_in || 3600)), user: j.user }; this._save(s); return s; }
   async signUp(email, password) {
-    const j = await this._call('/auth/v1/signup', { email, password });
+    const j = await this._call('/auth/v1/signup?redirect_to=' + this._home(), { email, password });
     if (j.access_token) { this._adopt(j); return { signedIn: true }; }
     return { signedIn: false, needsConfirmation: true };
   }
   async signIn(email, password) { const j = await this._call('/auth/v1/token?grant_type=password', { email, password }); this._adopt(j); return { signedIn: true }; }
-  async resetPassword(email) { await this._call('/auth/v1/recover', { email }); }
+  async resetPassword(email) { await this._call('/auth/v1/recover?redirect_to=' + this._home(), { email }); }
   async signOut() { const t = this.session && this.session.access_token; this._save(null); if (t) { try { await this._call('/auth/v1/logout', {}, t); } catch { } } }
   async accessToken() {
     const s = this.session; if (!s) return null;
