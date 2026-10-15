@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e">
+<meta name="color-scheme" content="light dark">
+<title>Skill Mastery</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top"><a class="brand" href="#/today"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 17l6-6 4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Skill Mastery</span></a><a id="sync-chip" class="chip idle" href="#/settings" aria-live="polite">Local only</a></header>
+<div id="banner" class="offline" hidden role="status"></div>
+<main id="app" tabindex="-1"><p class="loading">Loading your curriculum…</p></main>
+<nav class="main" aria-label="Main">
+  <a data-r="today" href="#/today"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/></svg><span>Today</span></a>
+  <a data-r="plan" href="#/plan"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><span>Plan</span></a>
+  <a data-r="skills" href="#/skills"><svg viewBox="0 0 24 24"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg><span>Skills</span></a>
+  <a data-r="progress" href="#/progress"><svg viewBox="0 0 24 24"><path d="M5 20V10M12 20V4M19 20v-7"/></svg><span>Progress</span></a>
+  <a data-r="mistakes" href="#/mistakes"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6M12 16.5v.5"/></svg><span>Mistakes</span></a>
+  <a data-r="history" href="#/history"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>History</span></a>
+  <a data-r="settings" href="#/settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg><span>Settings</span></a>
+</nav>
+<noscript>This app needs JavaScript.</noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
