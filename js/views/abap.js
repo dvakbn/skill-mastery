@@ -2,6 +2,8 @@
 // Stored as ordinary synced documents (kind "abap_diag"); the 26-skill engine never sees them.
 import { h, mdEl, pctText, bar, toast, confirmDialog, fmtDate } from '../ui/lib.js';
 import { uuid, dayKey } from '../engine/util.js';
+import { loadCourse, renderCourse, readStates, readSrs } from './abapday.js';
+import * as CE from '../engine/abapcourse.js';
 import { scoreDiagnostic, summaryText, DONT_KNOW, STATUS_RULES } from '../engine/abap.js';
 
 let BANK = null;
@@ -14,9 +16,10 @@ const dayOf = iso => dayKey(new Date(iso));
 export function abapView(ctx, arg) {
   const { repo } = ctx; const root = h('div', { class: 'view abap' }); const view = { el: root };
   const fail = e => { root.replaceChildren(h('h1', 'SAP ABAP'), h('p', { class: 'note warn' }, 'The ABAP diagnostic could not be loaded. Open the app once while online so it can be saved for offline use. (' + (e && e.message) + ')')); };
-  loadBank().then(bank => { arg === 'diagnostic' ? diagnostic(bank) : hub(bank); }).catch(fail);
+  if (arg === 'plan' || arg === 'review' || /^day-\d+$/.test(arg || '')) loadCourse().then(c => renderCourse(root, ctx, c, arg)).catch(fail);
+  else Promise.all([loadBank(), loadCourse()]).then(([bank, course]) => { arg === 'diagnostic' ? diagnostic(bank) : hub(bank, course); }).catch(fail);
 
-  function hub(bank) {
+  function hub(bank, course) {
     const cur = openRun(repo), done = lastDone(repo), n = bank.questions.length;
     root.replaceChildren(h('h1', 'SAP ABAP'),
       h('p', { class: 'lead' }, 'A separate, mastery-based track to build strong ABAP fundamentals in 30 days or less. You already write programs, so it begins by measuring exactly where you stand.'),
@@ -27,8 +30,14 @@ export function abapView(ctx, arg) {
           !cur ? h('a', { class: 'btn', href: '#/abap/diagnostic', onclick: async e => { e.preventDefault(); await start(); location.hash = '#/abap/diagnostic'; } }, done ? 'Take the diagnostic again' : 'Start the diagnostic') : null,
           done && !cur ? h('a', { class: 'btn ghost', href: '#/abap/diagnostic?view=result' }, `View last result (${dayOf(done.data.submittedAt)})`) : null),
         done ? h('p', { class: 'sm muted' }, `Last result: ${Math.round(done.data.result.overall.pct * 100)}% on ${fmtDate(dayOf(done.data.submittedAt))}.`) : null),
-      h('section', { class: 'card' }, h('p', { class: 'eyebrow' }, 'Step 2 · Your 30-day plan'), h('h2', 'Built from your results'),
-        h('p', done ? 'Your diagnostic is saved. The plan is designed from it next: missing concepts and weak areas first, then a cycle for every chapter (read, example, hands-on exercise in SAP Logon, quiz, review, retest if needed).' : 'Locked until you finish the diagnostic. The plan is designed from your answers, not from a fixed syllabus, so nothing is built yet.')));
+      planCard(done, course));
+  }
+  function planCard(done, course) {
+    if (!done) return h('section', { class: 'card' }, h('p', { class: 'eyebrow' }, 'Step 2 · Your 30-day plan'), h('h2', 'Built from your results'), h('p', 'Locked until you finish the diagnostic. The plan is designed from your answers, not from a fixed syllabus.'));
+    const sts = readStates(repo, course), srs = readSrs(repo), cur = CE.currentDay(course, sts), sum = CE.summary(course, sts, srs, dayKey()), t = course.plan.find(p => p.n === cur);
+    return h('section', { class: 'card' }, h('p', { class: 'eyebrow' }, 'Step 2 · Your 30-day plan'), h('h2', cur ? `Day ${cur}: ${t.title}` : 'Days written so far are finished'),
+      h('p', { class: 'sm muted' }, `${sum.daysDone} of 30 days finished · ${sum.due} concept${sum.due === 1 ? '' : 's'} due for review.`), bar(sum.daysDone / 30),
+      h('div', { class: 'row wrap' }, cur ? h('a', { class: 'btn', href: '#/abap/day-' + cur }, sum.daysDone ? `Continue Day ${cur}` : 'Start Day 1') : null, sum.due ? h('a', { class: 'btn ghost', href: '#/abap/review' }, `Warm-up (${sum.due} due)`) : null, h('a', { class: 'btn ghost', href: '#/abap/plan' }, 'Roadmap')));
   }
   async function start() { await repo.saveDoc('abap_diag', uuid(), { status: 'in_progress', startedAt: new Date().toISOString(), version: BANK.version, answers: {} }); }
 
