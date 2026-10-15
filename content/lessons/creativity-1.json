@@ -1,0 +1,324 @@
+{
+  "id": "creativity-1",
+  "skillId": "creativity",
+  "n": 1,
+  "title": "Generating Ideas",
+  "summary": "Separate idea generation from judging, aim for quantity, use SCAMPER and constraints, and set idea quotas.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain divergent and convergent thinking and keep them apart.",
+    "Generate many ideas using SCAMPER and constraints.",
+    "Use an idea quota to push past obvious answers."
+  ],
+  "concepts": [
+    {
+      "id": "creativity.divergent-convergent",
+      "label": "Divergent and convergent thinking"
+    },
+    {
+      "id": "creativity.quantity-first",
+      "label": "Quantity first"
+    },
+    {
+      "id": "creativity.scamper",
+      "label": "SCAMPER prompts"
+    },
+    {
+      "id": "creativity.constraints",
+      "label": "Constraints and quotas"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Two kinds of thinking",
+      "body": "Creative work uses two modes. **Divergent thinking** opens up possibilities: many ideas, wild ones included, no judging. **Convergent thinking** narrows: compare, test and choose. Problems begin when both run together. If you criticise each idea as it appears, you stop after two or three safe ones. The rule is simple: generate first, judge later, and never in the same breath.\n\nSchedule them separately. Spend ten minutes only producing ideas, then take a break, then spend ten minutes selecting. Even a small gap protects the first stage from your inner critic."
+    },
+    {
+      "heading": "Quantity first",
+      "body": "The first ideas that come to mind are usually the obvious ones that everybody else has too. Better ideas often appear after the obvious ones are exhausted, so aim for **quantity**. Set a target, for example 20 ideas in 10 minutes, and keep writing when it feels empty. Write short phrases, not essays. Include silly or impossible ideas; they often contain a usable part. Do not edit while writing. If you are working in a group, let everyone write alone first, then share, so that loud voices do not steer the list."
+    },
+    {
+      "heading": "The SCAMPER method",
+      "body": "**SCAMPER** is a set of prompts for changing something that already exists. **S**ubstitute: what could replace a part? **C**ombine: what could be merged? **A**dapt: what can be borrowed from elsewhere? **M**odify: change size, shape or frequency. **P**ut to another use: who else could use this? **E**liminate: what can be removed? **R**earrange or reverse: change order or roles.\n\nApply it to a student attendance app: Combine attendance with timetable reminders; Eliminate manual roll calls by using a QR code; Put to another use: track lab equipment returns; Reverse: let students mark teachers' lateness. One familiar object, seven fresh directions."
+    },
+    {
+      "heading": "Constraints and quotas",
+      "body": "It seems odd, but limits improve creativity. A blank page offers too many options, while a constraint such as \"design a study tool using only paper and no more than three steps\" forces new thinking. Try limits on cost, time, materials or words.\n\nAn **idea quota** works the same way: \"five ideas every morning before checking my phone\". Over a month that is 150 ideas, and even a few useful ones change your work. Keep an idea list so that none are lost. Treat the quota as practice for the habit, not a test of quality. The more you practise producing, the less frightening an empty page becomes."
+    }
+  ],
+  "examples": [
+    {
+      "title": "SCAMPER on a notebook",
+      "body": "Substitute paper with a tablet; combine with a planner; adapt a ledger layout; modify to pocket size; put to another use as a bug log; eliminate lines; reverse so the back page is the index. Five minutes gave seven concepts, two of them new.",
+      "takeaway": "A framework gives you somewhere to start when your mind is blank."
+    },
+    {
+      "title": "Constraint at work",
+      "body": "Asked to improve onboarding, Neha limits herself to \"one page, no meeting\". Ideas: a checklist, a welcome video, a buddy list. Without limits she had only suggested more meetings.",
+      "takeaway": "Constraints push you off the obvious path."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "creativity-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "creativity.divergent-convergent",
+      "prompt": "Which is divergent thinking?",
+      "options": [
+        "Writing 20 possible ideas without judging",
+        "Picking the best idea",
+        "Testing a prototype",
+        "Rejecting weak ideas"
+      ],
+      "answer": 0,
+      "why": "Divergent thinking opens possibilities without judging."
+    },
+    {
+      "id": "creativity-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "creativity.scamper",
+      "prompt": "In SCAMPER, the letter E stands for ____. (one word)",
+      "accept": [
+        "eliminate"
+      ],
+      "why": "E means eliminate: what can you remove?"
+    },
+    {
+      "id": "creativity-1.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "creativity.scamper",
+      "prompt": "Pick an everyday object (for example a water bottle or a to-do list app). Write at least six ideas using SCAMPER prompts, labelling each with its letter.",
+      "minWords": 47,
+      "rubric": [
+        {
+          "id": "count",
+          "label": "Number of ideas",
+          "weight": 40,
+          "descriptors": {
+            "0": "One or two.",
+            "1": "Three or four.",
+            "2": "Five.",
+            "3": "Six or more."
+          }
+        },
+        {
+          "id": "variety",
+          "label": "Variety of prompts used",
+          "weight": 30,
+          "descriptors": {
+            "0": "One prompt.",
+            "1": "Two prompts.",
+            "2": "Three or four prompts.",
+            "3": "Five or more prompts."
+          }
+        },
+        {
+          "id": "originality",
+          "label": "Some unusual ideas",
+          "weight": 30,
+          "descriptors": {
+            "0": "All obvious.",
+            "1": "Mostly obvious.",
+            "2": "A few unusual.",
+            "3": "Several unusual but plausible."
+          }
+        }
+      ],
+      "modelAnswer": "Water bottle. S: substitute the cap with a filter. C: combine with a reminder light that glows each hour. A: adapt a cycling bottle clip for backpacks. M: make it collapsible. P: reuse as a desk pen holder. E: eliminate the label to save ink. R: reverse the flow so the bottle fills from the bottom.",
+      "guidance": "Strong answers label each idea with its SCAMPER letter and include some unusual but plausible options. Avoid stopping after the first three."
+    },
+    {
+      "id": "creativity-1.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "creativity.quantity-first",
+      "prompt": "In a group brainstorm someone says \"That will never work\" to your first idea. What helps most?",
+      "options": [
+        {
+          "text": "Stop sharing ideas.",
+          "score": 0,
+          "feedback": "This ends idea generation completely."
+        },
+        {
+          "text": "Suggest the group separate generating from judging and continue listing.",
+          "score": 3,
+          "feedback": "It protects the divergent stage."
+        },
+        {
+          "text": "Argue until they agree.",
+          "score": 0,
+          "feedback": "Arguing mixes the two stages."
+        },
+        {
+          "text": "Switch to the safest idea.",
+          "score": 1,
+          "feedback": "Safe ideas are usually obvious."
+        }
+      ],
+      "why": "Keep generation and evaluation separate."
+    }
+  ],
+  "task": {
+    "title": "Ten-minute idea sprint",
+    "brief": "Generate 20 ideas on a real problem and then choose three.",
+    "steps": [
+      "Write the problem as a question.",
+      "Set a timer for ten minutes and list 20 ideas without judging.",
+      "Use two SCAMPER prompts if you get stuck.",
+      "After a break, mark your three best ideas and say why."
+    ],
+    "checklist": [
+      "I wrote 20 ideas",
+      "I did not judge while writing",
+      "I used SCAMPER",
+      "I picked three and gave reasons"
+    ],
+    "evidencePrompt": "Write your problem and your three best ideas.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "creativity-1.q1",
+      "type": "mcq",
+      "concept": "creativity.divergent-convergent",
+      "prompt": "Judging every idea as it appears will:",
+      "options": [
+        "Increase the number of ideas",
+        "Improve diversity",
+        "Stop idea flow early",
+        "Make a group faster"
+      ],
+      "answer": 2,
+      "why": "Early judging blocks divergent thinking."
+    },
+    {
+      "id": "creativity-1.q2",
+      "type": "mcq",
+      "concept": "creativity.quantity-first",
+      "prompt": "Why aim for quantity first?",
+      "options": [
+        "Obvious ideas come first and better ones later",
+        "More paper is better",
+        "It is faster",
+        "Quality does not matter"
+      ],
+      "answer": 0,
+      "why": "Better ideas appear after the obvious ones."
+    },
+    {
+      "id": "creativity-1.q3",
+      "type": "mcq",
+      "concept": "creativity.scamper",
+      "prompt": "Which is a SCAMPER prompt?",
+      "options": [
+        "Calculate",
+        "Combine",
+        "Argue",
+        "Delay"
+      ],
+      "answer": 1,
+      "why": "Combine is the C in SCAMPER."
+    },
+    {
+      "id": "creativity-1.q4",
+      "type": "fill",
+      "concept": "creativity.constraints",
+      "prompt": "A limit such as time or materials is called a ____. (one word)",
+      "accept": [
+        "constraint"
+      ],
+      "why": "Constraints focus thinking and push beyond the obvious."
+    }
+  ],
+  "bank": [
+    {
+      "id": "creativity-1.b1",
+      "type": "mcq",
+      "concept": "creativity.divergent-convergent",
+      "prompt": "Convergent thinking is for:",
+      "options": [
+        "Selecting and testing",
+        "Brainstorming wildly",
+        "Daydreaming",
+        "Avoiding decisions"
+      ],
+      "answer": 0,
+      "why": "Convergent thinking narrows to choose."
+    },
+    {
+      "id": "creativity-1.b2",
+      "type": "mcq",
+      "concept": "creativity.constraints",
+      "prompt": "An idea quota of five a day builds:",
+      "options": [
+        "A habit of producing ideas",
+        "Stress only",
+        "Waste",
+        "Perfect ideas"
+      ],
+      "answer": 0,
+      "why": "Regular practice builds the idea habit."
+    },
+    {
+      "id": "creativity-1.b3",
+      "type": "mcq",
+      "concept": "creativity.scamper",
+      "prompt": "The R in SCAMPER means:",
+      "options": [
+        "Repeat",
+        "Rearrange or reverse",
+        "Rush",
+        "Reject"
+      ],
+      "answer": 1,
+      "why": "Rearrange or reverse changes order or roles."
+    }
+  ],
+  "cards": [
+    {
+      "id": "creativity-1.c1",
+      "concept": "creativity.divergent-convergent",
+      "front": "Divergent versus convergent?",
+      "back": "Divergent opens many options without judging; convergent narrows, compares and chooses."
+    },
+    {
+      "id": "creativity-1.c2",
+      "concept": "creativity.quantity-first",
+      "front": "Why quantity first?",
+      "back": "Obvious ideas come first; better ones come after you push past them."
+    },
+    {
+      "id": "creativity-1.c3",
+      "concept": "creativity.scamper",
+      "front": "SCAMPER letters?",
+      "back": "Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Rearrange/Reverse."
+    },
+    {
+      "id": "creativity-1.c4",
+      "concept": "creativity.constraints",
+      "front": "Why constraints help?",
+      "back": "Limits remove the blank-page problem and force new routes."
+    }
+  ],
+  "reflection": "When do you usually stop generating ideas too early, and what judging voice interrupts you?",
+  "revision": {
+    "keyPoints": [
+      "Generate first and judge later.",
+      "Push for quantity.",
+      "Use SCAMPER when stuck.",
+      "Constraints and quotas build the habit."
+    ],
+    "redo": "Repeat the idea sprint on a different problem with a 25-idea target."
+  }
+}

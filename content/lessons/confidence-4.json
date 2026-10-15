@@ -1,0 +1,325 @@
+{
+  "id": "confidence-4",
+  "skillId": "confidence",
+  "n": 4,
+  "title": "Assertive Communication",
+  "summary": "Tell passive, aggressive and assertive styles apart, use I-statements, say no, ask for what you need and receive criticism calmly.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Identify passive, aggressive and assertive replies.",
+    "Write an I-statement and a polite no.",
+    "Receive criticism without defending or collapsing."
+  ],
+  "concepts": [
+    {
+      "id": "confidence.styles",
+      "label": "Three communication styles"
+    },
+    {
+      "id": "confidence.i-statements",
+      "label": "I-statements"
+    },
+    {
+      "id": "confidence.saying-no",
+      "label": "Saying no and asking"
+    },
+    {
+      "id": "confidence.receiving-criticism",
+      "label": "Receiving criticism"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Three styles",
+      "body": "**Passive** communication avoids conflict: you stay silent, agree when you disagree, and resentment builds. **Aggressive** communication wins at others' expense: blame, sarcasm, raised voice. **Assertive** communication states your needs and respects the other person's: calm, direct, specific.\n\nExample: a teammate keeps submitting work late. Passive: \"No problem, I will manage.\" Aggressive: \"You are always useless.\" Assertive: \"The last two reports arrived after the deadline, which delayed my part. Can you send by Wednesday noon?\" Assertiveness is not about being louder; it is about being clear and fair. You can be assertive in a soft voice, and you can be aggressive while smiling. The test is whether your message is honest about your needs and leaves the other person their dignity. Aim for this style with seniors, friends and family alike, adjusting tone but not honesty. Most people respond better to a clear request than to hints or hostility, and relationships usually improve once people know where you stand."
+    },
+    {
+      "heading": "Using I-statements",
+      "body": "An **I-statement** describes your experience instead of accusing. Use the pattern: \"When [specific behaviour], I feel [feeling] because [impact]. I would like [request].\" For example: \"When meetings start 15 minutes late, I feel stressed because I miss my next class. I would like us to start on time.\" Compare with \"You never respect time.\" The I-statement is harder to argue with because it describes facts and effects, not character. Keep it short and avoid sneaking in blame. Say it calmly, preferably soon after the event and in private. If the other person reacts defensively, repeat your request once in a quieter voice rather than raising your own."
+    },
+    {
+      "heading": "Saying no and asking",
+      "body": "To say no, give a clear refusal, a brief reason if you wish and, if possible, an alternative: \"I cannot take this on today. I can do it Friday, or help you find someone else.\" Do not over-explain; long excuses invite negotiation. To ask for what you need, be specific and make it easy to agree: \"Could you review my draft by Thursday? Two pages, focus on the introduction.\" People cannot read your mind, and vague hints rarely get results."
+    },
+    {
+      "heading": "Receiving criticism",
+      "body": "When criticised, you can feel the urge to defend or to collapse. Instead try four steps: **listen** without interrupting, **clarify** (\"Can you give an example?\"), **acknowledge** the valid part (\"You are right that the summary was unclear\") and **decide** later what to change. You do not have to agree with everything. Thank the person and take time. Separating \"this work has an issue\" from \"I am a bad person\" keeps you steady and open to learning."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Polite no",
+      "body": "A senior asks Karan to cover a shift on the day before his exam. He says: \"I cannot do Thursday because I have an exam on Friday. I can cover next Monday if that helps.\"",
+      "takeaway": "Clear no plus an alternative."
+    },
+    {
+      "title": "Taking feedback",
+      "body": "Manager: \"Your report was hard to follow.\" Meera: \"Which part was hardest?\" Manager: \"The conclusion.\" Meera: \"Thanks, I will add a summary box and share the new version tomorrow.\"",
+      "takeaway": "Listen, clarify, acknowledge, act."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "confidence-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "confidence.styles",
+      "prompt": "Which reply is assertive?",
+      "options": [
+        "I need the data by noon. Can you send it by then?",
+        "It is fine, whatever you want.",
+        "You are always late and useless.",
+        "Maybe someone could possibly look at it sometime."
+      ],
+      "answer": 0,
+      "why": "It is specific, direct and respectful."
+    },
+    {
+      "id": "confidence-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "confidence.i-statements",
+      "prompt": "An I-statement describes your feeling and the ____ of a behaviour rather than accusing the person. (one word)",
+      "accept": [
+        "impact",
+        "effect"
+      ],
+      "why": "It states the impact on you, which is harder to dispute than a character attack."
+    },
+    {
+      "id": "confidence-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "confidence.i-statements",
+      "prompt": "A teammate often interrupts you in meetings. Write an I-statement and a specific request you could say to them.",
+      "minWords": 32,
+      "rubric": [
+        {
+          "id": "behaviour",
+          "label": "Specific behaviour named",
+          "weight": 30,
+          "descriptors": {
+            "0": "Not named.",
+            "1": "Vague.",
+            "2": "Named but generalised.",
+            "3": "Specific, observable behaviour."
+          }
+        },
+        {
+          "id": "impact",
+          "label": "Feeling and impact stated",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Feeling only.",
+            "2": "Impact only.",
+            "3": "Both feeling and impact."
+          }
+        },
+        {
+          "id": "request",
+          "label": "Clear request, no blame",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague or blaming.",
+            "2": "Clear but harsh.",
+            "3": "Clear, respectful request."
+          }
+        }
+      ],
+      "modelAnswer": "When I am interrupted before I finish a point in team meetings, I feel frustrated because the idea gets lost. I would like to finish my sentence before we discuss it. Could we try that in tomorrow's meeting?",
+      "guidance": "Strong answers avoid words like always and never, name an observable behaviour and finish with a request."
+    },
+    {
+      "id": "confidence-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "confidence.receiving-criticism",
+      "prompt": "A senior says your code has several naming problems. What is the best first response?",
+      "options": [
+        {
+          "text": "Explain why they are wrong.",
+          "score": 0,
+          "feedback": "Defending first blocks learning."
+        },
+        {
+          "text": "Say sorry repeatedly and offer to redo everything.",
+          "score": 1,
+          "feedback": "Collapsing is not constructive."
+        },
+        {
+          "text": "Listen, ask for one example, thank them and say when you will fix it.",
+          "score": 3,
+          "feedback": "This keeps you open and professional."
+        },
+        {
+          "text": "Ignore it and change nothing.",
+          "score": 0,
+          "feedback": "Ignoring useful feedback wastes learning."
+        }
+      ],
+      "why": "Listen, clarify, acknowledge and then decide."
+    }
+  ],
+  "task": {
+    "title": "Assertive scripts",
+    "brief": "Write and use two scripts: one I-statement and one polite no.",
+    "steps": [
+      "Think of a real situation needing an I-statement.",
+      "Write it using the four-part pattern.",
+      "Write a polite no with an alternative for another situation.",
+      "Use at least one of them in real life today."
+    ],
+    "checklist": [
+      "I wrote an I-statement",
+      "I wrote a polite no",
+      "I used one script",
+      "I noted the result"
+    ],
+    "evidencePrompt": "Write both scripts and the other person's reaction.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "confidence-4.q1",
+      "type": "mcq",
+      "concept": "confidence.styles",
+      "prompt": "Passive communication usually leads to:",
+      "options": [
+        "Respect",
+        "Built-up resentment",
+        "Clarity",
+        "Quick wins"
+      ],
+      "answer": 1,
+      "why": "Unspoken needs build resentment."
+    },
+    {
+      "id": "confidence-4.q2",
+      "type": "mcq",
+      "concept": "confidence.i-statements",
+      "prompt": "An I-statement avoids:",
+      "options": [
+        "Feelings",
+        "Accusing the person's character",
+        "Requests",
+        "Facts"
+      ],
+      "answer": 1,
+      "why": "It describes behaviour and impact, not character."
+    },
+    {
+      "id": "confidence-4.q3",
+      "type": "mcq",
+      "concept": "confidence.saying-no",
+      "prompt": "A good no usually includes:",
+      "options": [
+        "A long excuse",
+        "A clear refusal and an alternative",
+        "Silence",
+        "A threat"
+      ],
+      "answer": 1,
+      "why": "Short, clear and helpful."
+    },
+    {
+      "id": "confidence-4.q4",
+      "type": "fill",
+      "concept": "confidence.receiving-criticism",
+      "prompt": "When criticised, you should first ____ without interrupting. (one word)",
+      "accept": [
+        "listen"
+      ],
+      "why": "Listening first prevents defensiveness and gathers information."
+    }
+  ],
+  "bank": [
+    {
+      "id": "confidence-4.b1",
+      "type": "mcq",
+      "concept": "confidence.styles",
+      "prompt": "Which style respects both sides?",
+      "options": [
+        "Passive",
+        "Aggressive",
+        "Assertive",
+        "Sarcastic"
+      ],
+      "answer": 2,
+      "why": "Assertive respects your needs and theirs."
+    },
+    {
+      "id": "confidence-4.b2",
+      "type": "mcq",
+      "concept": "confidence.saying-no",
+      "prompt": "Why not over-explain a no?",
+      "options": [
+        "It is rude",
+        "Long excuses invite negotiation",
+        "It saves paper",
+        "Nobody listens"
+      ],
+      "answer": 1,
+      "why": "Brief refusals are harder to bargain with."
+    },
+    {
+      "id": "confidence-4.b3",
+      "type": "mcq",
+      "concept": "confidence.receiving-criticism",
+      "prompt": "Asking for an example helps because it:",
+      "options": [
+        "Shows doubt",
+        "Clarifies what to change",
+        "Ends the talk",
+        "Avoids work"
+      ],
+      "answer": 1,
+      "why": "Specific examples make feedback usable."
+    }
+  ],
+  "cards": [
+    {
+      "id": "confidence-4.c1",
+      "concept": "confidence.styles",
+      "front": "Three styles?",
+      "back": "Passive avoids, aggressive attacks, assertive is clear and respectful."
+    },
+    {
+      "id": "confidence-4.c2",
+      "concept": "confidence.i-statements",
+      "front": "I-statement pattern?",
+      "back": "When [behaviour], I feel [feeling] because [impact]. I would like [request]."
+    },
+    {
+      "id": "confidence-4.c3",
+      "concept": "confidence.saying-no",
+      "front": "Formula for a polite no?",
+      "back": "Clear refusal, brief reason, alternative."
+    },
+    {
+      "id": "confidence-4.c4",
+      "concept": "confidence.receiving-criticism",
+      "front": "Four steps for criticism?",
+      "back": "Listen, clarify, acknowledge, decide later."
+    }
+  ],
+  "reflection": "Where do you tend to be passive or aggressive, and what would an assertive version of that conversation sound like?",
+  "revision": {
+    "keyPoints": [
+      "Assertive means clear and fair.",
+      "I-statements describe impact, not character.",
+      "No plus alternative is a strong pattern.",
+      "Listen and clarify when criticised."
+    ],
+    "redo": "Rewrite one recent difficult message in an assertive style."
+  }
+}

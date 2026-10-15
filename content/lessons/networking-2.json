@@ -1,0 +1,341 @@
+{
+  "id": "networking-2",
+  "skillId": "networking",
+  "n": 2,
+  "title": "Conversations and Introductions",
+  "summary": "Prepare a short self-introduction, make small talk with open questions, remember names and handle events with a simple plan.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Deliver a clear ten-second and thirty-second self-introduction.",
+    "Start and sustain small talk with open questions and genuine curiosity.",
+    "Use simple techniques to remember names and prepare for an event."
+  ],
+  "concepts": [
+    {
+      "id": "networking.self-introduction",
+      "label": "Self-introduction"
+    },
+    {
+      "id": "networking.small-talk",
+      "label": "Small talk and open questions"
+    },
+    {
+      "id": "networking.remembering-names",
+      "label": "Remembering names"
+    },
+    {
+      "id": "networking.event-plan",
+      "label": "Event plan"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "A short, clear introduction",
+      "body": "In the first lesson you set a goal and found places to meet people. Now you need to say who you are in a way that is easy to remember. A strong **self-introduction** has three parts: *who you are*, *what you do or are learning*, and *a hook*, a hint of what you are curious about or can help with.\n\nTen-second version: \"Hi, I am Deepak, an MCA student in Faridabad learning SAP ABAP.\" Thirty-second version adds the hook: \"Before this I built web apps with Node.js, and now I am curious how SAP teams handle reporting for clients.\" The hook gives the other person something to respond to. Avoid reading out your whole CV, using vague phrases like \"I am just a student\", or apologising. Practise aloud until it sounds natural, and adjust for context: a teacher, a recruiter and a fellow student need different emphasis."
+    },
+    {
+      "heading": "Small talk with open questions",
+      "body": "Small talk feels pointless until you see its job: it builds enough comfort for deeper conversation. Start with something shared: the event, the speaker, the venue or the place. \"What brought you to this session?\" works better than \"Do you come here often?\" because it is **open**, inviting a story rather than yes or no.\n\nA simple loop is **ask, listen, follow up, share**. Ask an open question. Listen for a detail they mention, such as \"I moved from testing to development\". Follow up on that detail: \"What made you switch?\" Then share something short of your own. Most people like to talk about their work and experiences, so curiosity makes you memorable. Avoid interrogation by balancing questions and sharing, and avoid sensitive topics such as salary, religion and politics with new acquaintances."
+    },
+    {
+      "heading": "Remembering names",
+      "body": "Remembering a name is a small signal of respect. Three steps help. First, **pay attention** when you hear it, which means not thinking about your own reply. Second, **repeat it** at once: \"Nice to meet you, Kavya.\" Third, **use it** once or twice in the conversation and link it to something, such as an image or fact: \"Kavya, who works on SAP reporting in Gurugram.\" If you forget, say honestly, \"I am sorry, I have forgotten your name. Could you remind me?\" It is far better than guessing. After the event, jot down names and one fact for each."
+    },
+    {
+      "heading": "Handling events",
+      "body": "Events become manageable with a plan. Before: know the purpose, check who is attending, set a small goal such as speaking to three new people, and prepare your introduction and two questions. During: arrive early, when groups are small, and approach people standing alone or groups with open space. To join a group, stand near, listen, and add a comment when there is a pause. To leave gracefully, say \"It was great talking to you. I am going to meet a few other people. Can I connect with you on LinkedIn?\" After: within 48 hours, send a short note to each person, which the next lesson covers in detail."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Two self-introductions",
+      "body": "Weak: \"Hi, I am just a final-year student, nothing special, looking for any job.\" Strong: \"Hi, I am Sana, a final-year BCA student. I have built two small inventory apps in SQL and C#, and I am exploring ABAP for reporting roles. What is your team's work like?\" The strong version states identity, evidence and a question.",
+      "takeaway": "A hook and a question turn an introduction into the start of a conversation."
+    },
+    {
+      "title": "Following up on a detail",
+      "body": "At a college seminar, Rohit asks the speaker, \"What made you choose consulting?\" The speaker mentions travelling to client sites. Rohit follows up: \"What is a typical first week at a client site like?\" The speaker lights up and shares a story, and later remembers Rohit.",
+      "takeaway": "Following up on a detail they mention shows real interest and keeps the conversation going."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "networking-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "networking.self-introduction",
+      "prompt": "Which is the best element to end a 30-second introduction with?",
+      "options": [
+        "A hook that shows your interest or invites a question",
+        "An apology for your inexperience",
+        "Your full marks list",
+        "A request for a job"
+      ],
+      "answer": 0,
+      "why": "A hook gives the listener something to respond to. Apologies and marks lists weaken the introduction and a job request is premature."
+    },
+    {
+      "id": "networking-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "networking.small-talk",
+      "prompt": "A question that invites a story, such as \"What brought you here?\", is called an ____ question. (one word)",
+      "accept": [
+        "open"
+      ],
+      "why": "Open questions cannot be answered with yes or no."
+    },
+    {
+      "id": "networking-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "networking.remembering-names",
+      "prompt": "You meet someone, shake hands, and forget their name five minutes later. What should you do?",
+      "options": [
+        {
+          "text": "Avoid using any name for the whole conversation.",
+          "score": 1,
+          "feedback": "Avoiding it hides the problem and misses the chance to connect."
+        },
+        {
+          "text": "Guess a name and hope it is right.",
+          "score": 0,
+          "feedback": "A wrong guess embarrasses both people."
+        },
+        {
+          "text": "Say \"Sorry, I have forgotten your name, could you remind me?\" and repeat it.",
+          "score": 3,
+          "feedback": "Being honest is respectful and quickly solves it."
+        },
+        {
+          "text": "Check their name tag only after leaving.",
+          "score": 1,
+          "feedback": "It is too late to use the name in conversation."
+        }
+      ],
+      "why": "An honest quick request and repeating the name builds trust better than hiding the lapse."
+    },
+    {
+      "id": "networking-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "networking.event-plan",
+      "prompt": "You will attend a one-day SAP community meetup next Saturday, knowing nobody. Write your plan: a goal, your 30-second introduction, two open questions you will ask, and how you will end a conversation politely.",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "goal",
+          "label": "Realistic goal",
+          "weight": 15,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Specific but unrealistic.",
+            "3": "Small, specific and realistic."
+          }
+        },
+        {
+          "id": "intro",
+          "label": "Introduction with hook",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Name only.",
+            "2": "Identity and evidence.",
+            "3": "Identity, evidence and a hook."
+          }
+        },
+        {
+          "id": "questions",
+          "label": "Two open questions",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Closed questions.",
+            "2": "One open question.",
+            "3": "Two open what or how questions."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "what",
+              "how"
+            ],
+            "min": 1,
+            "label": "Uses open question words"
+          }
+        },
+        {
+          "id": "exit",
+          "label": "Polite exit line",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Abrupt.",
+            "2": "Polite but no follow-up.",
+            "3": "Polite with a follow-up such as connecting."
+          }
+        }
+      ],
+      "modelAnswer": "Goal: speak to three new people and collect two names with one fact each. Introduction: Hi, I am Aarav, an MCA student; I built web apps with Node.js and I am now learning ABAP, curious about how consultants handle reports. Questions: What brought you to this session? How did you start in SAP? Exit: It was great meeting you; I am going to say hello to a few others. May I connect with you on LinkedIn?",
+      "guidance": "A strong plan has a small goal, an introduction with identity, evidence and a hook, two open questions starting with what or how, and a warm exit with a next step. Avoid plans that say only \"be confident\". Score yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "Practise introductions and open questions",
+    "brief": "Say your introduction to three people and hold three short conversations using the ask, listen, follow up, share loop.",
+    "steps": [
+      "Write your ten-second and thirty-second introductions and say them aloud twice.",
+      "Speak to three people, which can be classmates, a teacher or an online meetup attendee.",
+      "In each conversation ask two open questions and follow up on one detail.",
+      "Repeat each name and write down names with one fact afterwards."
+    ],
+    "checklist": [
+      "I wrote two versions of my introduction",
+      "I held three conversations",
+      "I followed up on a detail each time",
+      "I recorded three names and facts"
+    ],
+    "evidencePrompt": "Write your 30-second introduction and one follow-up question that worked.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "networking-2.q1",
+      "type": "mcq",
+      "concept": "networking.self-introduction",
+      "prompt": "What are the three parts of a strong introduction?",
+      "options": [
+        "Name, marks, hobbies",
+        "Greeting, apology, request",
+        "Who you are, what you do or learn, and a hook",
+        "Company, salary, location"
+      ],
+      "answer": 2,
+      "why": "Identity, current focus and a hook make an introduction memorable."
+    },
+    {
+      "id": "networking-2.q2",
+      "type": "mcq",
+      "concept": "networking.small-talk",
+      "prompt": "The loop for small talk is:",
+      "options": [
+        "Interrogate, argue, leave",
+        "Ask, listen, follow up, share",
+        "Talk, talk, talk",
+        "Wait, stare, nod"
+      ],
+      "answer": 1,
+      "why": "It balances curiosity with sharing and keeps conversation flowing."
+    },
+    {
+      "id": "networking-2.q3",
+      "type": "fill",
+      "concept": "networking.remembering-names",
+      "prompt": "After hearing a name, repeat it immediately and ____ it in conversation. (one word)",
+      "accept": [
+        "use"
+      ],
+      "why": "Using a name once or twice helps memory and shows respect."
+    },
+    {
+      "id": "networking-2.q4",
+      "type": "mcq",
+      "concept": "networking.event-plan",
+      "prompt": "The best time to arrive at a networking event is:",
+      "options": [
+        "Late, to avoid awkwardness",
+        "Early, when groups are small",
+        "Right at the end",
+        "Exactly in the middle"
+      ],
+      "answer": 1,
+      "why": "Early arrival makes joining small groups easier."
+    }
+  ],
+  "bank": [
+    {
+      "id": "networking-2.b1",
+      "type": "mcq",
+      "concept": "networking.small-talk",
+      "prompt": "At a seminar, the person next to you says they work in supply chain. Which follow-up question is best?",
+      "options": [
+        "Is that boring?",
+        "What kind of problems do you solve in supply chain?",
+        "Do you earn well?",
+        "Is it your first job?"
+      ],
+      "answer": 1,
+      "why": "It is open, curious and on topic. The others are closed, judgemental or too personal."
+    },
+    {
+      "id": "networking-2.b2",
+      "type": "fill",
+      "concept": "networking.self-introduction",
+      "prompt": "A short self-introduction can include a ____ that invites the other person to respond. (one word)",
+      "accept": [
+        "hook",
+        "question"
+      ],
+      "why": "The hook or question gives the other person a way into the conversation."
+    },
+    {
+      "id": "networking-2.b3",
+      "type": "mcq",
+      "concept": "networking.event-plan",
+      "prompt": "You want to leave a conversation politely. What works best?",
+      "options": [
+        "Walk away silently",
+        "Say you enjoyed it, mention you will meet others, and offer to connect",
+        "Check your phone repeatedly",
+        "Say you are bored"
+      ],
+      "answer": 1,
+      "why": "A warm closing and a next step keeps the relationship positive."
+    }
+  ],
+  "cards": [
+    {
+      "id": "networking-2.c1",
+      "concept": "networking.self-introduction",
+      "front": "What goes into a self-introduction?",
+      "back": "Who you are, what you do or are learning, and a hook showing a curiosity or interest. Keep a ten-second and a thirty-second version."
+    },
+    {
+      "id": "networking-2.c2",
+      "concept": "networking.small-talk",
+      "front": "What is the small talk loop?",
+      "back": "Ask an open question, listen for a detail, follow up on it, then share something short of your own. Avoid salary and politics."
+    },
+    {
+      "id": "networking-2.c3",
+      "concept": "networking.remembering-names",
+      "front": "How can you remember names?",
+      "back": "Pay attention, repeat the name at once, use it once or twice, link it to a fact and note it afterwards. If you forget, ask honestly."
+    },
+    {
+      "id": "networking-2.c4",
+      "concept": "networking.event-plan",
+      "front": "What is a simple event plan?",
+      "back": "Set a small goal, prepare an introduction and two questions, arrive early, join open groups, exit politely and follow up within 48 hours."
+    }
+  ],
+  "reflection": "When did a conversation with a stranger go well, and which of its moves could you repeat deliberately?",
+  "revision": {
+    "keyPoints": [
+      "Introduce yourself with identity, focus and a hook.",
+      "Use open questions and follow up on details.",
+      "Repeat and use names; ask if you forget.",
+      "Plan events with a small goal and a polite exit."
+    ],
+    "redo": "Say your 30-second introduction aloud once and refine one sentence."
+  }
+}

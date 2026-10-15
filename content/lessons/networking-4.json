@@ -1,0 +1,344 @@
+{
+  "id": "networking-4",
+  "skillId": "networking",
+  "n": 4,
+  "title": "Sustaining Relationships",
+  "summary": "Keep relationships alive by giving value, staying in touch, finding mentors, joining communities and following networking ethics.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Give value to your contacts in small, regular ways.",
+    "Stay in touch without being pushy and find or approach a mentor.",
+    "Apply ethical principles to networking, including honesty and respect for privacy."
+  ],
+  "concepts": [
+    {
+      "id": "networking.giving-value",
+      "label": "Giving value"
+    },
+    {
+      "id": "networking.staying-in-touch",
+      "label": "Staying in touch"
+    },
+    {
+      "id": "networking.mentors-communities",
+      "label": "Mentors and communities"
+    },
+    {
+      "id": "networking.networking-ethics",
+      "label": "Networking ethics"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Relationships need maintenance",
+      "body": "You have learned to meet people, start conversations and follow up. The final skill is keeping relationships alive, because a network you contact only when you need something fades fast and feels transactional. Think of it as a garden: small, regular watering beats a flood once a year.\n\nA simple principle is **giving value** in small ways that cost you little. Share an article or tool relevant to their work. Congratulate them on a promotion or a talk. Make an introduction between two people who would benefit. Give honest feedback on something they asked you to try. Thank them publicly in a post when their advice helped. For a student, value can also be energy and fresh perspective: \"I built a small project using the approach you suggested, and here is what I learned.\""
+    },
+    {
+      "heading": "Staying in touch lightly",
+      "body": "You do not need long conversations. Use **light touches**: a short note on a festival such as Diwali or Eid, a reply to their post, a message after you see their company in the news, or a quick update when you act on their advice (\"I followed your tip about practising ALV reports and cleared my first mock interview\"). A rhythm of every two to three months for important contacts is enough.\n\nUse your tracker: add a reminder date for each key contact and a note about something personal they shared, such as an upcoming exam or a trip. Avoid generic mass messages, since people can sense them. And keep updates truthful and brief, because the aim is connection, not performance."
+    },
+    {
+      "heading": "Mentors and communities",
+      "body": "A **mentor** is someone with more experience who offers guidance over time. You rarely need to ask \"Will you be my mentor?\" up front, which feels heavy. Start with a specific question, act on the answer, report back, and let the relationship grow. Over time you might say, \"Your advice has helped me a lot. Would you be open to a short chat every couple of months?\" Respect the mentor's time, come prepared, and always close the loop.\n\n**Communities** such as alumni groups, SAP learning circles, college clubs or open-source projects give regular contact with many people at once. Contribute: answer questions, share notes, help organise a session. Roles like organiser or volunteer build trust quickly. Also become a mentor yourself, since juniors in your college can use your recent experience, and teaching deepens your own learning."
+    },
+    {
+      "heading": "Networking ethics",
+      "body": "Networking rests on trust, so ethics are practical, not decorative. Be **honest**: do not exaggerate your skills, claim a relationship that does not exist, or drop names. **Respect privacy**: do not share someone's phone number, emails or confidential company information without permission. **Respect boundaries**: accept \"no\" or silence gracefully. **Reciprocate**: if someone helps you, find a way to help back or help someone else. **Avoid using people**: do not collect contacts just to spam them with requests, and do not ask a contact to compromise their integrity, for example by sharing an exam paper or confidential hiring details.\n\nA useful test: would you be comfortable if the other person saw exactly how you described them and why you contacted them? If not, change your approach."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A light touch that works",
+      "body": "Three months after a call, Neha messages her contact: \"You suggested practising ALV reports. I built three, cleared my first mock interview and wanted to say thank you. Here is the simple report I made, in case it is useful for your own juniors.\" He responds with an introduction to his hiring manager.",
+      "takeaway": "Reporting back on advice proves the guidance mattered, and the offer to share adds value."
+    },
+    {
+      "title": "An ethics decision",
+      "body": "A friend working at a services firm tells Arjun about an upcoming internal hiring drive and shares a confidential question set. Arjun thanks him but declines the question set, explaining that he prefers to earn the opportunity, and asks instead for general interview tips he can share openly.",
+      "takeaway": "Honesty protects your reputation and your friend, and trust is worth more than a shortcut."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "networking-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "networking.giving-value",
+      "prompt": "Which is the best low-cost way to give value to a contact?",
+      "options": [
+        "Share one relevant article with a personal line about why it fits them",
+        "Send a generic forward every day",
+        "Ask for a favour",
+        "Tag them in every post"
+      ],
+      "answer": 0,
+      "why": "A relevant, personal share is useful without being burdensome. Daily forwards and constant tags become noise."
+    },
+    {
+      "id": "networking-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "networking.staying-in-touch",
+      "prompt": "A short, low-effort contact such as a festival greeting or a congratulation is called a light ____. (one word)",
+      "accept": [
+        "touch"
+      ],
+      "why": "Light touches keep relationships warm without a big time cost."
+    },
+    {
+      "id": "networking-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "networking.mentors-communities",
+      "prompt": "You want a particular senior consultant as a mentor. What is the best approach?",
+      "options": [
+        {
+          "text": "Message \"Will you be my mentor?\" on day one.",
+          "score": 1,
+          "feedback": "It is a heavy ask from a stranger and easy to refuse."
+        },
+        {
+          "text": "Ask a specific question, act on the advice, report back, and later propose occasional chats.",
+          "score": 3,
+          "feedback": "A relationship built on action and reporting back makes mentoring natural."
+        },
+        {
+          "text": "Send daily messages seeking guidance.",
+          "score": 0,
+          "feedback": "Constant messages overwhelm and push people away."
+        },
+        {
+          "text": "Wait silently for them to notice you.",
+          "score": 1,
+          "feedback": "Without any contact, nothing starts."
+        }
+      ],
+      "why": "Mentoring grows from specific questions, visible action and respect for the mentor's time."
+    },
+    {
+      "id": "networking-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "networking.networking-ethics",
+      "prompt": "A classmate offers to share a confidential list of interview questions that his cousin, an HR employee, passed him. Write what you would say or do, explaining your reasoning with at least two ethical principles from this lesson, and say what you would do instead to prepare.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "decision",
+          "label": "Clear decision",
+          "weight": 20,
+          "descriptors": {
+            "0": "Accepts.",
+            "1": "Unclear.",
+            "2": "Declines without reasons.",
+            "3": "Declines clearly and politely."
+          }
+        },
+        {
+          "id": "principles",
+          "label": "Applies two principles",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One implied.",
+            "2": "One named.",
+            "3": "Two named such as honesty, privacy, integrity and reputation."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "honest",
+              "privacy",
+              "integrity",
+              "trust",
+              "confidential",
+              "reputation"
+            ],
+            "min": 2,
+            "label": "Names ethical ideas"
+          }
+        },
+        {
+          "id": "alternative",
+          "label": "Alternative preparation",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "One specific step.",
+            "3": "Specific, legitimate steps such as mock interviews or asking for general tips."
+          }
+        },
+        {
+          "id": "relationship",
+          "label": "Protects the relationship",
+          "weight": 20,
+          "descriptors": {
+            "0": "Harsh.",
+            "1": "Cold.",
+            "2": "Polite.",
+            "3": "Polite and kind, protects the classmate and cousin."
+          }
+        }
+      ],
+      "modelAnswer": "Thanks for thinking of me, but I will not use the list. It is confidential, so using it would breach the company's trust and could harm your cousin if it came out, and I want my opportunity to be honest. Instead I will practise with mock interviews and ask your cousin only for general advice about the process. I hope you will also reconsider sharing it.",
+      "guidance": "A strong answer declines kindly, names ethical ideas like honesty, confidentiality and trust, and offers a legitimate alternative. Avoid lecturing the classmate or pretending the issue does not exist. Score yourself honestly."
+    }
+  ],
+  "task": {
+    "title": "Run a relationship maintenance round",
+    "brief": "Review your contacts and make five meaningful light touches while joining or contributing to one community.",
+    "steps": [
+      "Open your contact tracker and choose five contacts you have not spoken to in two months.",
+      "Write a personal light-touch message for each, with value or an update.",
+      "Join one community and contribute one answer, share or helpful comment.",
+      "Update the tracker with dates and the next touch date, and list one ethical line you will keep."
+    ],
+    "checklist": [
+      "I messaged five contacts with personal notes",
+      "Each message offered value or an update",
+      "I contributed to a community",
+      "I wrote down one ethical rule for myself"
+    ],
+    "evidencePrompt": "List your five touches in one line each and your ethical rule.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "networking-4.q1",
+      "type": "mcq",
+      "concept": "networking.giving-value",
+      "prompt": "Which counts as giving value?",
+      "options": [
+        "Asking for a referral",
+        "Sending a message only when you need help",
+        "Making an introduction between two people who could help each other",
+        "Posting about yourself"
+      ],
+      "answer": 2,
+      "why": "Introductions create benefit for both parties at almost no cost to you."
+    },
+    {
+      "id": "networking-4.q2",
+      "type": "mcq",
+      "concept": "networking.staying-in-touch",
+      "prompt": "How often should you contact important connections?",
+      "options": [
+        "Daily",
+        "Every few months with a genuine reason",
+        "Never",
+        "Only when you need something"
+      ],
+      "answer": 1,
+      "why": "Regular but light contact keeps relationships alive without overwhelming people."
+    },
+    {
+      "id": "networking-4.q3",
+      "type": "fill",
+      "concept": "networking.mentors-communities",
+      "prompt": "After a mentor gives advice, you should act on it and report ____. (one word)",
+      "accept": [
+        "back"
+      ],
+      "why": "Reporting back shows you valued the advice and builds the relationship."
+    },
+    {
+      "id": "networking-4.q4",
+      "type": "mcq",
+      "concept": "networking.networking-ethics",
+      "prompt": "Which action is unethical in networking?",
+      "options": [
+        "Declining a favour politely",
+        "Sharing a contact's phone number without permission",
+        "Thanking a helper",
+        "Admitting you do not know something"
+      ],
+      "answer": 1,
+      "why": "Sharing private details without permission breaks trust and privacy."
+    }
+  ],
+  "bank": [
+    {
+      "id": "networking-4.b1",
+      "type": "mcq",
+      "concept": "networking.networking-ethics",
+      "prompt": "A contact asks you to keep something they told you confidential. What do you do?",
+      "options": [
+        "Share it with a friend who might benefit",
+        "Keep it confidential",
+        "Post it carefully",
+        "Hint about it"
+      ],
+      "answer": 1,
+      "why": "Respecting confidentiality is the foundation of trust."
+    },
+    {
+      "id": "networking-4.b2",
+      "type": "fill",
+      "concept": "networking.mentors-communities",
+      "prompt": "A person with more experience who guides you over time is called a ____. (one word)",
+      "accept": [
+        "mentor"
+      ],
+      "why": "A mentor offers guidance and perspective over time."
+    },
+    {
+      "id": "networking-4.b3",
+      "type": "mcq",
+      "concept": "networking.giving-value",
+      "prompt": "A contact helped you with advice and you passed your mock interview. What is the best next step?",
+      "options": [
+        "Say nothing",
+        "Message to tell them the result and thank them",
+        "Ask for another favour immediately",
+        "Post about their private advice without asking"
+      ],
+      "answer": 1,
+      "why": "Closing the loop shows appreciation and keeps the relationship warm."
+    }
+  ],
+  "cards": [
+    {
+      "id": "networking-4.c1",
+      "concept": "networking.giving-value",
+      "front": "How can you give value cheaply?",
+      "back": "Share a relevant article, congratulate, make an introduction, give feedback, thank people publicly and report progress on their advice."
+    },
+    {
+      "id": "networking-4.c2",
+      "concept": "networking.staying-in-touch",
+      "front": "What is a light touch?",
+      "back": "A short, personal message such as a festival greeting, congratulation or update on their advice, sent every two to three months to key contacts."
+    },
+    {
+      "id": "networking-4.c3",
+      "concept": "networking.mentors-communities",
+      "front": "How do you find a mentor?",
+      "back": "Ask a specific question, act on the answer, report back, then propose occasional chats. Join communities and contribute, and mentor juniors yourself."
+    },
+    {
+      "id": "networking-4.c4",
+      "concept": "networking.networking-ethics",
+      "front": "What are the core networking ethics?",
+      "back": "Be honest, respect privacy and boundaries, reciprocate, never use people or ask them to compromise integrity. Test: would you be comfortable if they saw your approach?"
+    }
+  ],
+  "reflection": "Whose help have you never properly acknowledged, and what message could you send this week to close that loop?",
+  "revision": {
+    "keyPoints": [
+      "Give value in small, regular ways.",
+      "Keep contact light and genuine every few months.",
+      "Mentors grow from action and reporting back.",
+      "Honesty, privacy and reciprocity protect trust."
+    ],
+    "redo": "Send one thank-you or progress update to someone who helped you."
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "id": "gk-3",
+  "skillId": "gk",
+  "n": 3,
+  "title": "History, Science and Environment",
+  "summary": "Link key turning points in world and Indian history, the scientific method and everyday science, and the basics of climate and environment.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Place major world and Indian historical turning points in order and explain why they mattered.",
+    "Apply the scientific method and spot correlation versus causation in daily claims.",
+    "Explain the greenhouse effect, ozone layer and weather versus climate in simple words."
+  ],
+  "concepts": [
+    {
+      "id": "gk.turning-points",
+      "label": "Historical turning points"
+    },
+    {
+      "id": "gk.scientific-method",
+      "label": "Scientific method"
+    },
+    {
+      "id": "gk.daily-science",
+      "label": "Everyday science"
+    },
+    {
+      "id": "gk.climate-basics",
+      "label": "Climate and environment basics"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "History as a chain of turning points",
+      "body": "Earlier lessons covered institutions and the economy. Both are shaped by history, and history is easiest to remember as a short chain of turning points rather than a list of dates.\n\nFor India: the Indus Valley Civilisation reached maturity around 2500 BCE with planned cities. The Maurya Empire, with Ashoka in the third century BCE, united much of the subcontinent. The Mughal Empire began after the First Battle of Panipat in 1526. The revolt of 1857 was the first large-scale challenge to the East India Company's rule, after which the Crown took direct control. Under Gandhi, the Salt March of 1930 and the Quit India movement of 1942 mobilised the masses, and India became independent on 15 August 1947.\n\nFor the world: Gutenberg's printing press (about 1450) spread knowledge cheaply, the French Revolution (1789) spread ideas of liberty and equality, the Industrial Revolution (from the late eighteenth century) changed how goods were made, and the Second World War (1939 to 1945) led to the United Nations. For each turning point ask: what changed, and what did it cause next?"
+    },
+    {
+      "heading": "The scientific method",
+      "body": "Science is not a list of facts; it is a method for finding out when we are wrong. The steps are: observe something, ask a question, form a **hypothesis** (a testable explanation), run an experiment or collect data, analyse it, and share the result so others can repeat it.\n\nA good experiment changes one factor while keeping others constant. Example: a student claims that studying with music improves coding marks. A fair test uses similar tasks, the same time of day and the same person, once with music and once without. If many people show a gain, the evidence strengthens.\n\nThe classic trap is **correlation is not causation**. Ice-cream sales and drowning cases both rise in summer, but ice cream does not cause drowning; heat causes both. Whenever a claim says \"X causes Y\", ask whether a third factor could explain both, and whether the sample was big enough."
+    },
+    {
+      "heading": "Science in daily life",
+      "body": "Basic physics and biology show up everywhere. Water boils at 100 degrees Celsius at sea level, but at lower temperatures at high altitude because air pressure is lower, which is why food cooks slowly in hill stations and why a **pressure cooker** raises the pressure so food cooks faster. Newton's first law explains why you lurch forward when a bus brakes suddenly: your body keeps moving. Light bends when it passes between materials, which is why a straw looks bent in water.\n\nIn biology, green plants use sunlight, water and carbon dioxide to make food and release oxygen, a process called **photosynthesis**. Vaccines train the immune system to recognise a germ without causing the full disease. DNA carries the instructions that make living things. Ordinary habits connect to this: washing hands removes germs, and boiled water kills many disease-causing organisms."
+    },
+    {
+      "heading": "Climate and environment basics",
+      "body": "**Weather** is what is happening in the atmosphere today; **climate** is the pattern over many years, commonly around 30. A cold day does not disprove climate change, any more than one good exam proves a student is excellent.\n\nThe **greenhouse effect** is natural: gases such as carbon dioxide, methane and water vapour trap heat and keep Earth warm enough for life. The concern is that burning coal, oil and gas adds extra carbon dioxide, trapping more heat and raising average temperatures. The **ozone layer** high in the atmosphere absorbs harmful ultraviolet radiation; it was damaged by certain chemicals, and the Montreal Protocol (1987) successfully phased those out. The Paris Agreement (2015) is a global agreement to limit warming well below 2 degrees Celsius. Biodiversity, the variety of living species, supports food, water and medicine, so protecting forests and wetlands is also practical self-interest."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Testing a study claim",
+      "body": "Aman says, \"Everyone who tops our class wakes up at 5 a.m., so early waking gives high marks.\" A sharper reading notes that toppers might also sleep earlier, study more consistently or have fewer distractions. To test the claim, you would compare similar students who changed only their wake-up time for a month.",
+      "takeaway": "Look for a third factor and a fair comparison before accepting a cause."
+    },
+    {
+      "title": "Reading a hot-day argument",
+      "body": "A friend says a cool morning in Dehradun in June shows global warming is a myth. The answer is the weather-climate distinction: one day is weather. Climate is judged from many years of averages across many places.",
+      "takeaway": "Single events are weather; patterns over decades are climate."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gk-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "gk.turning-points",
+      "prompt": "Which event came first?",
+      "options": [
+        "Revolt of 1857",
+        "Quit India movement",
+        "Salt March",
+        "Independence of India"
+      ],
+      "answer": 0,
+      "why": "The sequence is 1857, Salt March (1930), Quit India (1942), independence (1947)."
+    },
+    {
+      "id": "gk-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "gk.scientific-method",
+      "prompt": "A testable explanation that you check with an experiment is called a ____. (one word)",
+      "accept": [
+        "hypothesis"
+      ],
+      "why": "A hypothesis is a testable explanation, the second step after observation and a question."
+    },
+    {
+      "id": "gk-3.e3",
+      "level": 2,
+      "type": "mcq",
+      "concept": "gk.daily-science",
+      "prompt": "Why does food cook faster in a pressure cooker?",
+      "options": [
+        "It lowers the boiling point of water",
+        "It adds more heat from the stove",
+        "It raises the pressure so water boils at a higher temperature",
+        "It removes oxygen from the food"
+      ],
+      "answer": 2,
+      "why": "Higher pressure raises water's boiling point, so food reaches a higher temperature. Lowering the boiling point would cook slower."
+    },
+    {
+      "id": "gk-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "gk.climate-basics",
+      "prompt": "A classmate says, \"It snowed heavily last week, so global warming is false.\" In 4 to 6 sentences, explain the difference between weather and climate and how the greenhouse effect is meant to be understood.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "wc",
+          "label": "Weather vs climate",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Confused.",
+            "2": "States difference loosely.",
+            "3": "Weather is short-term; climate is a long-term pattern, about 30 years."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "weather",
+              "climate",
+              "long-term",
+              "average",
+              "years"
+            ],
+            "min": 3,
+            "label": "Uses weather, climate, years"
+          }
+        },
+        {
+          "id": "ge",
+          "label": "Greenhouse effect",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Wrong.",
+            "2": "Partly right.",
+            "3": "Natural heat-trapping; extra gases raise temperatures."
+          }
+        },
+        {
+          "id": "link",
+          "label": "Answers the claim",
+          "weight": 20,
+          "descriptors": {
+            "0": "No.",
+            "1": "Dismisses.",
+            "2": "Links partly.",
+            "3": "Shows why one snowfall does not disprove a trend."
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Respectful tone",
+          "weight": 15,
+          "descriptors": {
+            "0": "Rude.",
+            "1": "Blunt.",
+            "2": "Neutral.",
+            "3": "Polite and persuasive."
+          }
+        }
+      ],
+      "modelAnswer": "Weather is the condition on a particular day, while climate is the average pattern over many years, usually around thirty. One heavy snowfall is weather and cannot show the long-term trend. The greenhouse effect is natural, since gases like carbon dioxide trap heat and keep Earth habitable. Extra gases from burning fuels trap more heat, so the long-term average temperature rises even though individual days can still be cold.",
+      "guidance": "A strong answer separates short-term from long-term, explains the greenhouse effect as natural plus enhanced, and stays polite. Common mistakes are saying the greenhouse effect itself is harmful or that cold days prove nothing without saying why."
+    }
+  ],
+  "task": {
+    "title": "Fact-check a daily claim",
+    "brief": "Take one health, science or environment claim from social media and test it using the scientific method.",
+    "steps": [
+      "Write the claim exactly as you saw it.",
+      "Write what hypothesis it implies and what evidence would support or contradict it.",
+      "Check for correlation versus causation, sample size and a third factor.",
+      "Write a verdict: supported, unsupported or unclear, with one reason."
+    ],
+    "checklist": [
+      "I quoted the claim",
+      "I named the evidence needed",
+      "I checked for a third factor",
+      "I wrote a verdict with a reason"
+    ],
+    "evidencePrompt": "Paste the claim and your verdict with one reason.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "gk-3.q1",
+      "type": "mcq",
+      "concept": "gk.turning-points",
+      "prompt": "India became independent on:",
+      "options": [
+        "26 January 1950",
+        "15 August 1947",
+        "2 October 1947",
+        "30 January 1948"
+      ],
+      "answer": 1,
+      "why": "Independence was on 15 August 1947; 26 January 1950 marks the Constitution."
+    },
+    {
+      "id": "gk-3.q2",
+      "type": "mcq",
+      "concept": "gk.scientific-method",
+      "prompt": "\"Ice-cream sales and drownings rise together\" best illustrates:",
+      "options": [
+        "Causation",
+        "Correlation without causation",
+        "A controlled experiment",
+        "A hypothesis"
+      ],
+      "answer": 1,
+      "why": "Both are driven by summer heat, so one does not cause the other."
+    },
+    {
+      "id": "gk-3.q3",
+      "type": "fill",
+      "concept": "gk.daily-science",
+      "prompt": "Plants make food from sunlight, water and carbon dioxide in a process called ____. (one word)",
+      "accept": [
+        "photosynthesis"
+      ],
+      "why": "Photosynthesis is how green plants produce food and release oxygen."
+    },
+    {
+      "id": "gk-3.q4",
+      "type": "mcq",
+      "concept": "gk.climate-basics",
+      "prompt": "The Montreal Protocol of 1987 concerned:",
+      "options": [
+        "Ozone-depleting substances",
+        "Nuclear weapons",
+        "Ocean fishing",
+        "Plastic waste"
+      ],
+      "answer": 0,
+      "why": "It phased out chemicals that damaged the ozone layer."
+    }
+  ],
+  "bank": [
+    {
+      "id": "gk-3.b1",
+      "type": "mcq",
+      "concept": "gk.turning-points",
+      "prompt": "Which invention around 1450 helped spread knowledge cheaply across Europe?",
+      "options": [
+        "The steam engine",
+        "The printing press",
+        "The telephone",
+        "The compass"
+      ],
+      "answer": 1,
+      "why": "Gutenberg's printing press made books far cheaper."
+    },
+    {
+      "id": "gk-3.b2",
+      "type": "mcq",
+      "concept": "gk.scientific-method",
+      "prompt": "A fair experiment on whether a new study app improves scores should:",
+      "options": [
+        "Change many things at once",
+        "Change one factor and keep the others the same",
+        "Use only one friend",
+        "Skip comparison"
+      ],
+      "answer": 1,
+      "why": "Controlling variables isolates the effect of the one factor."
+    },
+    {
+      "id": "gk-3.b3",
+      "type": "fill",
+      "concept": "gk.climate-basics",
+      "prompt": "The pattern of weather over many years, commonly about 30, is called ____. (one word)",
+      "accept": [
+        "climate"
+      ],
+      "why": "Climate is the long-term pattern; weather is the day-to-day state."
+    }
+  ],
+  "cards": [
+    {
+      "id": "gk-3.c1",
+      "concept": "gk.turning-points",
+      "front": "Key Indian freedom dates?",
+      "back": "Revolt of 1857, Salt March 1930, Quit India 1942, independence 15 August 1947, Constitution in force 26 January 1950."
+    },
+    {
+      "id": "gk-3.c2",
+      "concept": "gk.scientific-method",
+      "front": "Correlation vs causation?",
+      "back": "Two things rising together do not mean one causes the other; a third factor or chance may explain both."
+    },
+    {
+      "id": "gk-3.c3",
+      "concept": "gk.daily-science",
+      "front": "Why do pressure cookers work?",
+      "back": "Higher pressure raises the boiling point of water, so food cooks at a higher temperature and faster."
+    },
+    {
+      "id": "gk-3.c4",
+      "concept": "gk.climate-basics",
+      "front": "Weather vs climate?",
+      "back": "Weather is short-term conditions; climate is the long-term average pattern, around 30 years."
+    }
+  ],
+  "reflection": "Which claim did you accept recently without testing it, and how would you check it now?",
+  "revision": {
+    "keyPoints": [
+      "History is a chain of turning points with causes and effects.",
+      "Scientific method: observe, hypothesise, test, share.",
+      "Correlation is not causation.",
+      "Weather is a day; climate is decades.",
+      "The greenhouse effect is natural; extra gases enhance it."
+    ],
+    "redo": "Pick one claim you heard today and name the missing evidence."
+  }
+}

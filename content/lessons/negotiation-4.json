@@ -1,0 +1,376 @@
+{
+  "id": "negotiation-4",
+  "skillId": "negotiation",
+  "n": 4,
+  "title": "Everyday and Difficult Negotiations",
+  "summary": "Handle pressure tactics calmly, stay ethical, close agreements clearly and follow up, using realistic practice scenarios.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Recognise common pressure tactics and respond without panic.",
+    "Apply an ethics test to avoid manipulation and keep the relationship.",
+    "Close with a written summary and follow-up for everyday agreements."
+  ],
+  "concepts": [
+    {
+      "id": "negotiation.pressure-tactics",
+      "label": "Pressure tactics"
+    },
+    {
+      "id": "negotiation.ethics",
+      "label": "Ethical negotiation"
+    },
+    {
+      "id": "negotiation.closing-followup",
+      "label": "Closing and follow-up"
+    },
+    {
+      "id": "negotiation.practice-roleplays",
+      "label": "Practice and review"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Common pressure tactics",
+      "body": "You have learned preparation, tactics and offers. Real negotiations sometimes include pressure. Recognising the tactic is half of resisting it.\n\n- **Deadline pressure**: \"This offer expires in an hour.\" Reply: \"I want to decide properly. Could I have until tomorrow evening?\" Genuine deadlines can usually flex a little.\n- **Good cop, bad cop**: one person is harsh, another sympathetic. Respond to the proposal, not the performance.\n- **The nibble**: after agreement, a small extra request, such as \"include free maintenance too.\" Reply: \"That was not in our scope; I can add it for a fee.\"\n- **Lowball and bluff**: an absurdly low number to move your anchor. Do not counter inside it.\n- **Take it or leave it**: check your BATNA; if it is better, leave politely.\n\nA good rule: **slow down**. Say \"Let me think and get back to you\" and use the time."
+    },
+    {
+      "heading": "Ethics: firm without manipulating",
+      "body": "Negotiators are tempted to bluff: \"I have another offer,\" when they do not. Besides being wrong, it is risky. Claims get checked, and trust in your industry circle is small and lasting.\n\nA useful test with three questions: **Would I be comfortable if the other side saw exactly what I am doing? Would I be comfortable if my college seniors heard about it? Am I telling the truth about facts?** You may keep your reservation point private and choose what to emphasise, but you may not invent facts. Hard on the problem, soft on the person: disagree about terms without insulting the other party.\n\nEveryday example: when a tenant asks a landlord for a lower deposit, naming a real alternative flat is honest leverage; claiming a false offer is not."
+    },
+    {
+      "heading": "Closing and follow-up",
+      "body": "Agreements fade without a clear close. Close in four steps:\n\n1. **Summarise** the terms aloud: price, date, scope, payment method.\n2. **Check** for confusion: \"Have I missed anything?\"\n3. **Write** it down the same day, in a short message or email. For example: \"To confirm: ₹7,000 per month for three months, payment by the 5th via UPI, starting 1 November.\"\n4. **Follow up** on the date promised and thank them.\n\nIf you cannot reach agreement, close the conversation anyway: \"Let us pause here and revisit on Friday after checking numbers.\" This keeps the door open."
+    },
+    {
+      "heading": "Practising and reviewing",
+      "body": "Negotiation is a skill built by reps, not by reading. Practise with low-stakes cases: canteen group orders, deadline swaps with project partners, a gym membership, a rickshaw fare, a second-hand purchase. Use the three-minute review after each one: What was my goal? What did I trade? What did I say that helped or hurt? What will I do differently?\n\nWhen the stakes are high, role-play with a friend: ask them to play a tough counterpart, then switch roles to learn how it feels from their side. Keep notes in one place so lessons accumulate."
+    }
+  ],
+  "examples": [
+    {
+      "title": "The nibble after agreement",
+      "body": "Arjun agrees to design a poster for a fest for ₹2,000. As he sends the final file, the organiser says, \"Please also make Instagram and WhatsApp versions, it is only a small change.\" Arjun answers, \"Happy to. The two extra sizes are ₹600 together, and I can send them by tonight.\" The organiser agrees.",
+      "takeaway": "Naming the extra as a separate, priced item turned a free grab into a fair trade."
+    },
+    {
+      "title": "Closing message",
+      "body": "After a call about a shared flat, Neha writes: \"Confirming what we agreed: rent ₹9,500 including maintenance, deposit of two months, move-in 1 December, water and electricity split equally. Please reply yes if this matches your understanding.\" The owner replies yes and later cannot dispute the deposit.",
+      "takeaway": "A short written summary turns a spoken agreement into a shared record."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "negotiation-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "negotiation.pressure-tactics",
+      "prompt": "A vendor says \"This price is only valid for the next 30 minutes.\" What is the best response?",
+      "options": [
+        "Ask politely for a bit more time and check your alternatives",
+        "Pay immediately",
+        "Call him a liar",
+        "Offer half the price"
+      ],
+      "answer": 0,
+      "why": "Many deadlines can flex; slowing down protects your decision. Panic payment or insult serves no one."
+    },
+    {
+      "id": "negotiation-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "negotiation.closing-followup",
+      "prompt": "After agreeing terms you should send a written ____ the same day. (one word)",
+      "accept": [
+        "summary",
+        "confirmation"
+      ],
+      "why": "A written summary prevents misunderstandings later."
+    },
+    {
+      "id": "negotiation-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "negotiation.ethics",
+      "prompt": "A manager asks you, \"Do you have competing internship offers?\" and you have none. Write your honest reply in 3 to 4 sentences that stays positive and still states a researched stipend range.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "honest",
+          "label": "Honest about facts",
+          "weight": 40,
+          "descriptors": {
+            "0": "Invents an offer.",
+            "1": "Evasive or misleading.",
+            "2": "Honest but flat.",
+            "3": "Clearly honest without weakening your position."
+          }
+        },
+        {
+          "id": "interest",
+          "label": "Shows genuine interest",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Weak.",
+            "2": "Some interest.",
+            "3": "Specific reason for wanting this team."
+          }
+        },
+        {
+          "id": "ask",
+          "label": "States a range or ask",
+          "weight": 35,
+          "descriptors": {
+            "0": "No ask.",
+            "1": "Vague ask.",
+            "2": "An ask.",
+            "3": "A researched range with a reason."
+          }
+        }
+      ],
+      "modelAnswer": "I do not have another offer at the moment, but this team is my first choice because of its SAP work. From seniors and the placement cell, I understand stipends for similar roles run between ₹12,000 and ₹15,000. Could we look at the upper part of that range given my project experience?",
+      "guidance": "Strong answers admit the lack of an offer without apology, show real interest and give a researched range. Common mistakes are bluffing, which is dishonest and risky, or saying nothing, which loses your ask. Score honestly against the model."
+    },
+    {
+      "id": "negotiation-4.e4",
+      "level": 3,
+      "type": "roleplay",
+      "concept": "negotiation.pressure-tactics",
+      "setup": "You are a fresher who accepted a verbal job offer. HR now says on call that the joining date and the bond terms are changed. You want to protect your position calmly. You are the candidate.",
+      "turns": [
+        {
+          "they": "The bond is now two years instead of one, and you must confirm today.",
+          "options": [
+            {
+              "text": "Fine, I will confirm.",
+              "score": 0,
+              "feedback": "Agreeing under pressure to a major new term is risky.",
+              "reply": "Thank you, we will send the letter."
+            },
+            {
+              "text": "This changes our earlier discussion. Please send the revised terms in writing, and I will respond by tomorrow evening.",
+              "score": 3,
+              "feedback": "You slow down, ask for writing and set a reasonable reply time.",
+              "reply": "Okay, I can send it in an hour. Tomorrow evening is fine."
+            },
+            {
+              "text": "This is unfair. I will complain to everyone.",
+              "score": 1,
+              "feedback": "Threats escalate and harm your reputation.",
+              "reply": "There is no need to be rude."
+            }
+          ]
+        },
+        {
+          "they": "The bond was always two years; our offers all carry it.",
+          "options": [
+            {
+              "text": "The earlier message I received states one year. Could we check it together? I would like to continue if we can align.",
+              "score": 3,
+              "feedback": "You use facts calmly and keep the door open.",
+              "reply": "Let me check the email trail and revert today."
+            },
+            {
+              "text": "You are lying.",
+              "score": 0,
+              "feedback": "Accusations end the cooperation.",
+              "reply": "I do not appreciate that tone."
+            },
+            {
+              "text": "Then I accept.",
+              "score": 1,
+              "feedback": "Giving in ignores contradicting evidence.",
+              "reply": "Good, we shall proceed."
+            }
+          ]
+        },
+        {
+          "they": "I checked; a one-year bond was a mistake. What else can we do to settle it?",
+          "options": [
+            {
+              "text": "One year as originally stated, with the same joining date. Please confirm in the revised letter.",
+              "score": 3,
+              "feedback": "You restate the agreed term and ask for it in writing.",
+              "reply": "Yes, I will send it today."
+            },
+            {
+              "text": "Remove the bond completely.",
+              "score": 1,
+              "feedback": "A new demand after they corrected the error may feel like overreach.",
+              "reply": "That is not possible."
+            },
+            {
+              "text": "Whatever, I do not care.",
+              "score": 0,
+              "feedback": "Disengaging leaves terms unclear.",
+              "reply": "Then we will proceed as in the letter."
+            }
+          ]
+        }
+      ],
+      "why": "Slow down, use written facts and restate the agreement."
+    }
+  ],
+  "task": {
+    "title": "Practise with an everyday negotiation",
+    "brief": "Run one low-stakes negotiation this week and finish with a written close.",
+    "steps": [
+      "Pick a small case: a group order, a deadline swap, a purchase.",
+      "Write your goal, limit and one tradeable.",
+      "Hold the conversation using one tactic from this skill.",
+      "Send a same-day message summarising what was agreed.",
+      "Do the three-minute review."
+    ],
+    "checklist": [
+      "I had a goal and a limit",
+      "I stayed honest",
+      "I sent a written summary",
+      "I wrote down one improvement"
+    ],
+    "evidencePrompt": "Write the agreed terms and one thing you will do differently.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "negotiation-4.q1",
+      "type": "mcq",
+      "concept": "negotiation.pressure-tactics",
+      "prompt": "What is the nibble?",
+      "options": [
+        "A very low first offer",
+        "A fake deadline",
+        "A small extra request made after agreement",
+        "Taking a break"
+      ],
+      "answer": 2,
+      "why": "The nibble asks for a small add-on at the end; respond by pricing it."
+    },
+    {
+      "id": "negotiation-4.q2",
+      "type": "mcq",
+      "concept": "negotiation.ethics",
+      "prompt": "Which is acceptable in ethical negotiation?",
+      "options": [
+        "Inventing a rival offer",
+        "Keeping your reservation point private",
+        "Misstating costs",
+        "Insulting the other side"
+      ],
+      "answer": 1,
+      "why": "You may protect private information but must not lie about facts."
+    },
+    {
+      "id": "negotiation-4.q3",
+      "type": "fill",
+      "concept": "negotiation.closing-followup",
+      "prompt": "The first step in closing is to ____ the agreed terms aloud. (one word)",
+      "accept": [
+        "summarise",
+        "summarize",
+        "repeat"
+      ],
+      "why": "Summarising checks that both sides understood the same terms."
+    },
+    {
+      "id": "negotiation-4.q4",
+      "type": "mcq",
+      "concept": "negotiation.practice-roleplays",
+      "prompt": "What is the best way to improve negotiation skill?",
+      "options": [
+        "Read many tips",
+        "Practise in low-stakes cases and review each",
+        "Wait for high-stakes moments",
+        "Copy a famous negotiator"
+      ],
+      "answer": 1,
+      "why": "Deliberate practice and review build skill faster than reading."
+    }
+  ],
+  "bank": [
+    {
+      "id": "negotiation-4.b1",
+      "type": "mcq",
+      "concept": "negotiation.pressure-tactics",
+      "prompt": "Two interviewers, one harsh and one friendly, ask you to lower your expectations. What should you do?",
+      "options": [
+        "Trust the friendly one",
+        "Respond to the proposal itself and ask for time",
+        "Leave immediately",
+        "Agree to end the discomfort"
+      ],
+      "answer": 1,
+      "why": "Good cop, bad cop is a performance; judge the offer and slow down."
+    },
+    {
+      "id": "negotiation-4.b2",
+      "type": "mcq",
+      "concept": "negotiation.ethics",
+      "prompt": "Which test checks if a tactic is ethical?",
+      "options": [
+        "Would I be comfortable if the other side saw exactly what I am doing?",
+        "Does it work?",
+        "Does my friend do it?",
+        "Is it legal in my city?"
+      ],
+      "answer": 0,
+      "why": "Transparency, truthfulness and long-term trust are the standard, not just effectiveness."
+    },
+    {
+      "id": "negotiation-4.b3",
+      "type": "fill",
+      "concept": "negotiation.closing-followup",
+      "prompt": "Two days after a verbal agreement you realise terms are unclear. What kind of message would have prevented it? (one word)",
+      "accept": [
+        "written",
+        "summary",
+        "confirmation",
+        "email"
+      ],
+      "why": "A written confirmation sent the same day prevents disputes."
+    }
+  ],
+  "cards": [
+    {
+      "id": "negotiation-4.c1",
+      "concept": "negotiation.pressure-tactics",
+      "front": "Name three pressure tactics.",
+      "back": "Deadline pressure, good cop and bad cop, the nibble, lowball or bluff, and take it or leave it. Slow down, ask for time and check your BATNA."
+    },
+    {
+      "id": "negotiation-4.c2",
+      "concept": "negotiation.ethics",
+      "front": "Ethical negotiation test?",
+      "back": "Would I be comfortable if they saw my tactic? Am I truthful about facts? You may keep limits private but not invent facts; be hard on the problem, soft on the person."
+    },
+    {
+      "id": "negotiation-4.c3",
+      "concept": "negotiation.closing-followup",
+      "front": "How to close an agreement?",
+      "back": "Summarise aloud, check for gaps, send a written confirmation the same day and follow up on the promised date."
+    },
+    {
+      "id": "negotiation-4.c4",
+      "concept": "negotiation.practice-roleplays",
+      "front": "How to practise negotiation?",
+      "back": "Use low-stakes cases and friend role-plays, then run a three-minute review: goal, trade, what helped, what to change."
+    }
+  ],
+  "reflection": "Which pressure tactic would make you give in fastest, and what one sentence will you use to slow it down?",
+  "revision": {
+    "keyPoints": [
+      "Slow down against pressure and ask for writing.",
+      "Be truthful: private limits are fine, invented facts are not.",
+      "Close with a same-day written summary.",
+      "Practise small and review each time."
+    ],
+    "redo": "Write a three-line confirmation message for any agreement you made this week."
+  }
+}

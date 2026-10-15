@@ -1,0 +1,199 @@
+{
+ "id": "week-7",
+ "week": 7,
+ "day": 49,
+ "title": "Week 7 Assessment: Negotiation, Teams and Finance",
+ "intro": "This assessment deepens what you have practised: negotiating, resolving team conflict, leading change and thinking about money and evidence. Part A is auto-graded from lessons you completed. Part B has a decision scenario, a conflict role-play and a written task.",
+ "coverage": [
+  "negotiation",
+  "conflict",
+  "leadership",
+  "adapt",
+  "creativity",
+  "research",
+  "gk",
+  "ai",
+  "finance",
+  "tech",
+  "etiquette",
+  "networking"
+ ],
+ "concepts": [
+  {
+   "id": "finance.applied",
+   "label": "Financial Literacy: applied"
+  },
+  {
+   "id": "conflict.applied",
+   "label": "Conflict Resolution: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-7.a1",
+   "skills": [
+    "finance",
+    "research"
+   ],
+   "type": "scenario",
+   "concept": "finance.applied",
+   "prompt": "A social media post promises \"guaranteed 30% monthly returns\" from a new investment scheme and says it is limited to the first 50 people. What is the best response?",
+   "options": [
+    {
+     "text": "Invest quickly before slots end.",
+     "score": 0,
+     "feedback": "False urgency and guaranteed returns are warning signs."
+    },
+    {
+     "text": "Treat it as a likely scam, check regulator registration and avoid sending any money.",
+     "score": 3,
+     "feedback": "Guaranteed high returns and pressure are classic red flags."
+    },
+    {
+     "text": "Invest a small amount to test it.",
+     "score": 1,
+     "feedback": "Even a small amount can be lost and may lead to more demands."
+    },
+    {
+     "text": "Share it with friends to help them.",
+     "score": 0,
+     "feedback": "Sharing spreads possible fraud."
+    }
+   ],
+   "why": "No legitimate investment can guarantee extreme returns, and urgency is a warning sign."
+  },
+  {
+   "id": "week-7.a2",
+   "skills": [
+    "conflict",
+    "negotiation",
+    "leadership"
+   ],
+   "type": "roleplay",
+   "concept": "conflict.applied",
+   "setup": "Two team members both want to present the final demo to the client. You are the project lead and need to resolve it fairly.",
+   "turns": [
+    {
+     "they": "I should present. I did most of the work!",
+     "options": [
+      {
+       "text": "Fine, you can present.",
+       "score": 1,
+       "feedback": "Giving in without discussion ignores the other person.",
+       "reply": "Great."
+      },
+      {
+       "text": "Let us each say why this matters to us. What do you want from presenting?",
+       "score": 3,
+       "feedback": "It looks for interests behind positions.",
+       "reply": "I want to show my module to the client."
+      },
+      {
+       "text": "Nobody will present then.",
+       "score": 0,
+       "feedback": "This punishes both people.",
+       "reply": "That is unfair!"
+      }
+     ]
+    },
+    {
+     "they": "I want to present because my part is the most visible to the client.",
+     "options": [
+      {
+       "text": "Then you are both wrong.",
+       "score": 0,
+       "feedback": "Judging does not solve the problem.",
+       "reply": "Why are you saying that?"
+      },
+      {
+       "text": "So each of you wants your module shown. Could each present your part for five minutes, with one of you opening and the other closing?",
+       "score": 3,
+       "feedback": "It creates an option that meets both interests.",
+       "reply": "That could work."
+      },
+      {
+       "text": "Flip a coin.",
+       "score": 1,
+       "feedback": "A coin toss ignores interests but is quick.",
+       "reply": "Okay, I guess."
+      }
+     ]
+    },
+    {
+     "they": "That works, but who will decide the order?",
+     "options": [
+      {
+       "text": "I do not care, decide yourselves.",
+       "score": 1,
+       "feedback": "Avoiding the decision invites a new dispute.",
+       "reply": "We will argue again."
+      },
+      {
+       "text": "I will propose the order based on the demo flow and send it in writing, and we review it after the client call.",
+       "score": 3,
+       "feedback": "A clear agreement that is written and reviewed.",
+       "reply": "Good, let us do that."
+      },
+      {
+       "text": "The loudest person decides.",
+       "score": 0,
+       "feedback": "This is unfair and unprofessional.",
+       "reply": "That is not fair."
+      }
+     ]
+    }
+   ],
+   "why": "Find interests, create options and agree in writing with a review."
+  },
+  {
+   "id": "week-7.a3",
+   "skills": [
+    "finance",
+    "goals",
+    "negotiation"
+   ],
+   "type": "written",
+   "concept": "finance.applied",
+   "prompt": "Write 100 to 130 words: a simple monthly budget plan for a first-job salary of Rs 30,000 (you decide the categories and amounts), including one saving goal and one item you would negotiate or reduce.",
+   "minWords": 51,
+   "rubric": [
+    {
+     "id": "budget",
+     "label": "Realistic budget categories",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Few categories.",
+      "2": "Categories without amounts.",
+      "3": "Categories with amounts that add up."
+     }
+    },
+    {
+     "id": "saving",
+     "label": "Saving goal",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Specific amount only.",
+      "3": "Specific amount, purpose and date."
+     }
+    },
+    {
+     "id": "reduce",
+     "label": "Item to reduce or negotiate",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Item without a method.",
+      "3": "Specific item with a method."
+     }
+    }
+   ],
+   "modelAnswer": "Rent and food Rs 12,000; transport Rs 3,000; phone and internet Rs 1,000; learning Rs 2,000; family Rs 4,000; emergency fund Rs 4,000; personal Rs 3,000; buffer Rs 1,000. Goal: build an emergency fund of Rs 30,000 by next March by saving Rs 4,000 a month. I will reduce rent by sharing a flat and negotiate a monthly transport pass to cut travel costs.",
+   "guidance": "Strong answers give categories with amounts that add up to the salary, a specific saving goal with a date and a concrete way to reduce a cost."
+  }
+ ]
+}

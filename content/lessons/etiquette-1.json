@@ -1,0 +1,351 @@
+{
+  "id": "etiquette-1",
+  "skillId": "etiquette",
+  "n": 1,
+  "title": "First Impressions and Workplace Basics",
+  "summary": "Make a steady first impression through punctuality, greetings, handshakes, introductions and respectful everyday behaviour.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Apply a simple punctuality rule and handle a delay gracefully.",
+    "Greet, shake hands and introduce yourself and others correctly.",
+    "Remember names using a short repeat-and-use technique."
+  ],
+  "concepts": [
+    {
+      "id": "etiquette.punctuality",
+      "label": "Punctuality and delays"
+    },
+    {
+      "id": "etiquette.greetings",
+      "label": "Greetings and handshakes"
+    },
+    {
+      "id": "etiquette.introductions",
+      "label": "Introductions and names"
+    },
+    {
+      "id": "etiquette.everyday-conduct",
+      "label": "Everyday workplace conduct"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why the first minutes matter",
+      "body": "People form an initial view of you within moments, and then tend to read later behaviour through that view. Etiquette is not about being fancy. It is a set of small signals that say: I respect your time, I am paying attention, and I can be trusted around clients. For a fresher joining an IT services firm, those signals count even before anyone sees your code or your SAP knowledge.\n\nThe good news is that first-impression behaviours are learnable habits, not personality traits. Four are worth mastering: arriving on time, greeting well, introducing people correctly, and behaving considerately in shared spaces."
+    },
+    {
+      "heading": "Punctuality and handling delays",
+      "body": "Treat the start time as the time you are ready, not the time you leave home. A practical rule is **arrive 10 minutes early for interviews and client meetings, and 5 minutes early for internal meetings**. In Indian cities, add a buffer for traffic, metro delays or a late bus; plan for the bad day, not the average one.\n\nIf you will still be late, message **as soon as you know**, not when you are already late. A good message has three parts: the fact, your new arrival time, and an offer. Example: \"Good morning Mr Verma, a metro delay means I will reach by 10:20, not 10:00. Please start without me or reschedule if you prefer.\" Do not over-apologise or give a long story. Once you arrive, give one short apology and move on."
+    },
+    {
+      "heading": "Greetings, handshakes and introductions",
+      "body": "Greet with a clear \"Good morning\" or \"Namaste\" while making brief eye contact and smiling. In many Indian offices a handshake is common, but some people prefer folded hands, especially across gender or age lines. Follow the other person's lead: if they offer a hand, shake it; if they fold their hands, return the gesture. A good handshake is firm but not crushing, lasts about two seconds, with eye contact.\n\nFor self-introductions, give name, role or context, and one hook: \"Hello, I am Deepak Raj, an MCA student, currently learning SAP ABAP.\" When introducing two people, **introduce the junior to the senior first**: \"Ma'am, this is Kiran, our new trainee. Kiran, this is Ms Rao, our delivery head.\" Use titles such as Sir, Ma'am or Mr/Ms until invited to use first names."
+    },
+    {
+      "heading": "Remembering names and everyday conduct",
+      "body": "Names are easy to lose in the first five seconds because you are thinking about your own reply. Use **hear, repeat, use**: listen fully, repeat the name back (\"Nice to meet you, Priya\"), then use it once more within the conversation. If you forget, ask again early rather than guess: \"Sorry, I missed your name once more.\"\n\nEveryday conduct completes the picture. Put your phone on silent and face down in meetings. Knock before entering a cabin. Keep your voice low in open offices, and avoid strong-smelling food at your desk. Say please and thank you to support staff, security guards and the cafeteria team as readily as to managers. People notice how you treat those who cannot help your career."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A late-arrival message",
+      "body": "At 9:35 Rhea realises her cab is stuck and her 10:00 interview is at risk. She messages the HR coordinator: \"Good morning Ms Singh, I am stuck in traffic near Sector 14 and will reach by 10:15. I am sorry for the inconvenience. Please let me know if you would prefer to reschedule.\"",
+      "takeaway": "The message is early, gives a specific time, and offers a choice, which shows respect without drama."
+    },
+    {
+      "title": "Introducing a trainee",
+      "body": "In the corridor you meet your project lead with a new joiner. You say: \"Sir, meet Aman, who joined the ABAP team today. Aman, this is Mr Khanna, our project lead.\" Mr Khanna shakes hands, Aman says \"Pleased to meet you, sir\" and repeats \"Mr Khanna\" once while asking about his own role.",
+      "takeaway": "Junior first to senior, a clear context line, and the name used again make the introduction smooth."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "etiquette-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "etiquette.punctuality",
+      "prompt": "You expect to be 15 minutes late for a client meeting. What is the best first step?",
+      "options": [
+        "Message as soon as you know, with a new arrival time and an offer",
+        "Hurry and apologise when you arrive",
+        "Wait to see whether traffic clears",
+        "Ask a colleague to explain later"
+      ],
+      "answer": 0,
+      "why": "Early notice with a specific time lets others adjust. Silence or a late apology wastes their time and looks careless."
+    },
+    {
+      "id": "etiquette-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "etiquette.introductions",
+      "prompt": "When introducing two people, you first name the ____ person to the senior person. (one word)",
+      "accept": [
+        "junior",
+        "younger",
+        "less senior"
+      ],
+      "why": "The convention is to present the junior person to the senior one, as a sign of respect for seniority."
+    },
+    {
+      "id": "etiquette-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "etiquette.greetings",
+      "prompt": "You meet a senior woman manager at a client site. She smiles and folds her hands in a namaste. What do you do?",
+      "options": [
+        {
+          "text": "Extend your hand anyway because handshakes are professional.",
+          "score": 1,
+          "feedback": "Ignoring her cue can feel awkward; follow the greeting style the other person chooses."
+        },
+        {
+          "text": "Return the namaste with a warm smile and a clear greeting.",
+          "score": 3,
+          "feedback": "Mirroring her greeting respects her preference and keeps the moment comfortable."
+        },
+        {
+          "text": "Nod briefly and walk on.",
+          "score": 0,
+          "feedback": "A nod without a greeting can feel dismissive to a senior person."
+        },
+        {
+          "text": "Say \"Hey!\" and wave.",
+          "score": 0,
+          "feedback": "Casual slang is too informal for a first meeting with a senior client contact."
+        }
+      ],
+      "why": "Following the other person's lead on greeting style shows awareness and respect, while a clear verbal greeting keeps it warm."
+    },
+    {
+      "id": "etiquette-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "etiquette.introductions",
+      "prompt": "Write the exact words you would say when introducing yourself to a new project lead on day one, followed by the exact words you would use to introduce a new colleague to your senior manager. Add one line on how you will remember the lead's name.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "self",
+          "label": "Self-introduction has name, context and hook",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing most parts.",
+            "1": "Has a name only.",
+            "2": "Name and context, but no hook.",
+            "3": "Name, context and one specific hook."
+          }
+        },
+        {
+          "id": "order",
+          "label": "Introduces junior to senior correctly",
+          "weight": 30,
+          "descriptors": {
+            "0": "Order is wrong or unclear.",
+            "1": "Order unclear in wording.",
+            "2": "Correct order but no context.",
+            "3": "Correct order with a context line for both people."
+          }
+        },
+        {
+          "id": "titles",
+          "label": "Uses suitable titles and tone",
+          "weight": 20,
+          "descriptors": {
+            "0": "Tone is casual or rude.",
+            "1": "Tone is mixed.",
+            "2": "Mostly polite and formal.",
+            "3": "Consistently polite with correct titles."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "sir",
+              "ma'am",
+              "mr",
+              "ms",
+              "mrs"
+            ],
+            "min": 1,
+            "label": "Uses a respectful title"
+          }
+        },
+        {
+          "id": "name-memory",
+          "label": "Names a name-memory technique",
+          "weight": 20,
+          "descriptors": {
+            "0": "No technique.",
+            "1": "Vague intention to remember.",
+            "2": "Mentions repeating the name.",
+            "3": "Hear, repeat and use at least once, with timing."
+          }
+        }
+      ],
+      "modelAnswer": "Hello, I am Deepak Raj, an MCA student who has just joined as a trainee in the ABAP team. I am keen to learn from you. Ma'am, this is Kiran, who joined our team this week from Pune. Kiran, this is Ms Rao, our delivery head. To remember the lead's name I will repeat it back when we meet and use it once more in my first question.",
+      "guidance": "Strong answers are short, spoken-style and complete: your name, your context and a hook, then the junior introduced to the senior with a context line. A common mistake is introducing the senior to the junior or skipping titles. Score yourself on each part."
+    }
+  ],
+  "task": {
+    "title": "Practise a five-part first impression",
+    "brief": "Rehearse greeting, introduction and name recall in a real setting this week.",
+    "steps": [
+      "Write a 15-second self-introduction with name, context and a hook.",
+      "Say it aloud twice, with a smile and eye contact.",
+      "Use it with one new person at college, a meetup or online.",
+      "Apply hear, repeat, use to their name.",
+      "Note what felt natural and what to adjust."
+    ],
+    "checklist": [
+      "I wrote my introduction",
+      "I said it aloud",
+      "I used it with a real person",
+      "I repeated their name"
+    ],
+    "evidencePrompt": "Write your introduction line and one thing you would change next time.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "etiquette-1.q1",
+      "type": "mcq",
+      "concept": "etiquette.punctuality",
+      "prompt": "For an internal team meeting, a sensible arrival time is:",
+      "options": [
+        "Exactly at the start",
+        "About five minutes early",
+        "Ten minutes late",
+        "Whenever your previous task ends"
+      ],
+      "answer": 1,
+      "why": "Arriving slightly early means you start ready; arriving on the dot or late risks delaying others."
+    },
+    {
+      "id": "etiquette-1.q2",
+      "type": "mcq",
+      "concept": "etiquette.greetings",
+      "prompt": "A good handshake is:",
+      "options": [
+        "Very firm for several seconds",
+        "Soft and brief with no eye contact",
+        "Firm but not crushing, about two seconds, with eye contact",
+        "Done only with seniors"
+      ],
+      "answer": 2,
+      "why": "A firm, short handshake with eye contact projects confidence without discomfort."
+    },
+    {
+      "id": "etiquette-1.q3",
+      "type": "fill",
+      "concept": "etiquette.introductions",
+      "prompt": "The three steps for remembering a name are hear, repeat and ____. (one word)",
+      "accept": [
+        "use"
+      ],
+      "why": "Using the name again in conversation fixes it in memory and shows attention."
+    },
+    {
+      "id": "etiquette-1.q4",
+      "type": "mcq",
+      "concept": "etiquette.everyday-conduct",
+      "prompt": "Which behaviour shows good office conduct?",
+      "options": [
+        "Taking calls loudly at your desk",
+        "Knocking before entering a cabin and silencing your phone in meetings",
+        "Ignoring support staff",
+        "Eating strong-smelling food at your desk daily"
+      ],
+      "answer": 1,
+      "why": "Small considerate acts such as knocking and silencing phones show respect for others' space and focus."
+    }
+  ],
+  "bank": [
+    {
+      "id": "etiquette-1.b1",
+      "type": "mcq",
+      "concept": "etiquette.punctuality",
+      "prompt": "Your train is delayed and you will miss a 10 am call start by 10 minutes. The best message says:",
+      "options": [
+        "Sorry, running late",
+        "I will join at 10:10 due to a train delay; please start without me",
+        "Will explain later",
+        "Do not wait for me"
+      ],
+      "answer": 1,
+      "why": "A specific time and a clear offer lets the team plan, unlike vague or dismissive messages."
+    },
+    {
+      "id": "etiquette-1.b2",
+      "type": "mcq",
+      "concept": "etiquette.introductions",
+      "prompt": "You forget the name of someone you met five minutes ago. Best action?",
+      "options": [
+        "Avoid using their name",
+        "Guess one confidently",
+        "Admit it and ask again politely",
+        "Ask someone else behind their back"
+      ],
+      "answer": 2,
+      "why": "Asking early is honest and respectful; guessing wrong or avoiding the name is worse."
+    },
+    {
+      "id": "etiquette-1.b3",
+      "type": "mcq",
+      "concept": "etiquette.everyday-conduct",
+      "prompt": "A security guard at the client site greets you each morning. Good etiquette is to:",
+      "options": [
+        "Ignore him",
+        "Greet him back politely and thank him",
+        "Greet only if your manager is watching",
+        "Nod only when entering"
+      ],
+      "answer": 1,
+      "why": "Courtesy to everyone, regardless of rank, reflects character and is noticed by colleagues."
+    }
+  ],
+  "cards": [
+    {
+      "id": "etiquette-1.c1",
+      "concept": "etiquette.punctuality",
+      "front": "Punctuality rule?",
+      "back": "Arrive 10 minutes early for interviews and client meetings, 5 for internal ones; if delayed, message early with a new time and an offer."
+    },
+    {
+      "id": "etiquette-1.c2",
+      "concept": "etiquette.greetings",
+      "front": "Handshake or namaste?",
+      "back": "Follow the other person's lead. A handshake is firm, about two seconds, with eye contact; return folded hands if offered."
+    },
+    {
+      "id": "etiquette-1.c3",
+      "concept": "etiquette.introductions",
+      "front": "Introduction order?",
+      "back": "Introduce the junior person to the senior person, with a short context line for each."
+    },
+    {
+      "id": "etiquette-1.c4",
+      "concept": "etiquette.introductions",
+      "front": "Name memory method?",
+      "back": "Hear, repeat, use: listen fully, repeat the name back, use it once more soon after."
+    }
+  ],
+  "reflection": "Think of a first meeting where someone left you with a strong impression. Which of their small behaviours created it, and which will you copy?",
+  "revision": {
+    "keyPoints": [
+      "Arrive 10 minutes early for key meetings and message early if late.",
+      "Mirror the greeting style the other person chooses.",
+      "Introduce the junior to the senior with context.",
+      "Hear, repeat and use a name to remember it.",
+      "Courtesy to everyone, including support staff, is part of professionalism."
+    ],
+    "redo": "Say your 15-second introduction aloud once and check it has name, context and a hook."
+  }
+}

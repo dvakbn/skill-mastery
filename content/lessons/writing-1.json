@@ -1,0 +1,422 @@
+{
+  "id": "writing-1",
+  "skillId": "writing",
+  "n": 1,
+  "title": "Clear Writing",
+  "summary": "Write for a specific reader and purpose, using plain words, short active sentences and one idea per paragraph.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Name the reader and purpose of a piece of writing before drafting it.",
+    "Rewrite wordy, passive sentences into short, active, plain-language ones.",
+    "Organise a message so each paragraph carries exactly one idea."
+  ],
+  "concepts": [
+    {
+      "id": "writing.audience-purpose",
+      "label": "Audience and purpose"
+    },
+    {
+      "id": "writing.plain-language",
+      "label": "Plain language and short sentences"
+    },
+    {
+      "id": "writing.active-voice",
+      "label": "Active voice and cutting filler"
+    },
+    {
+      "id": "writing.paragraphs",
+      "label": "One idea per paragraph"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Start with the reader and the purpose",
+      "body": "Clear writing begins before the first word. Ask two questions: **Who is reading this?** and **What do I want them to know, decide or do afterwards?** A status note to your project manager, an assignment for a professor and a message to a client may share facts, but they need different words, different detail and a different order.\n\nA quick tool is the one-line brief: *'I am telling [reader] that [main point] so that they can [action].'* For example: 'I am telling my team lead that the login module will be one day late so that she can warn the client.' If you cannot fill in that sentence, you are not ready to write, and the draft will wander.\n\nAlso judge what the reader already knows. A senior developer does not need 'API' explained; a business user does. Writing for the wrong level is the most common reason a message is misunderstood."
+    },
+    {
+      "heading": "Plain language and short sentences",
+      "body": "Plain language means choosing the word your reader uses in conversation. Write *use*, not *utilise*; *start*, not *commence*; *help*, not *facilitate*; *because*, not *owing to the fact that*. Plain words are not childish. They are faster to read and harder to misread.\n\nKeep most sentences between 12 and 20 words. A long sentence is not wrong in itself, but each extra clause is another place for the reader to lose the thread. When a sentence has more than one main point, split it.\n\n**Worked example.** Before: 'Due to the fact that the database migration, which was scheduled for Friday, could not be completed owing to a lack of access permissions, the release has been postponed.' (30 words.) After: 'The database migration failed on Friday because we lacked access permissions. We have postponed the release.' (16 words, two sentences.) Same facts, much easier to take in."
+    },
+    {
+      "heading": "Active voice and cutting filler",
+      "body": "In an **active** sentence the doer comes first: *The testing team found three defects.* In a **passive** sentence the doer is hidden or delayed: *Three defects were found by the testing team*, or worse, *Three defects were found.* Passive is not forbidden. Use it when the doer is unknown or unimportant ('The server was restarted at 2 a.m.'). But as a default, active voice is shorter, more direct and shows who is responsible, which is what clients and managers want to see.\n\nNow filler. Filler is any word or phrase that adds length but no meaning: *it should be noted that*, *in order to*, *at this point in time*, *basically*, *really*, *I just wanted to*. Test each phrase: delete it and see if the meaning changes. If not, it was filler.\n\n- 'In order to submit' becomes 'To submit'.\n- 'At this point in time' becomes 'now'.\n- 'It is requested that you kindly' becomes 'Please'.\n\nBe careful not to cut so hard that you sound rude. Please, thank you and a clear greeting are not filler; they are tone."
+    },
+    {
+      "heading": "One idea per paragraph, and a method to practise",
+      "body": "A paragraph is a container for one idea. When the idea changes, start a new paragraph. In practice, put the main point of the paragraph in its first sentence, then add the reason, detail or example. A reader who skims only the first sentence of every paragraph should still follow your message.\n\nOn screen, keep paragraphs short: two to four sentences. A wall of text signals effort to the reader before they have read a single word, and many will simply skip it.\n\n**A four-step method for any draft:**\n1. Write the one-line brief (reader, point, action).\n2. Draft fast without polishing.\n3. Cut: delete filler, split long sentences, switch passives to active where the doer matters.\n4. Check each paragraph has one idea and a clear first sentence.\n\nThe common mistake is to try to write and polish at the same time. Draft first, then clean; you will do both faster. To practise, take one email or note you wrote this week and reduce it by 25 percent without losing any fact."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A wordy update, before and after",
+      "body": "Before: 'I just wanted to let you know that, as per our discussion, it should be noted that the testing of the payment module has been completed by us and several issues were identified which need to be looked into at the earliest.'\n\nAfter: 'We finished testing the payment module and found several issues. Please review them today.'",
+      "takeaway": "The after version has 15 words instead of 42, names who acted (we), uses an active verb and states the action wanted."
+    },
+    {
+      "title": "Same facts, two readers",
+      "body": "For a professor: 'Our survey of 120 students found that 68 percent study after 10 p.m., and we link this to lower attendance in 9 a.m. classes.'\n\nFor a friend in the hostel: 'Most of us study late, so we skip morning classes. Our survey showed it.'",
+      "takeaway": "The facts are the same; the vocabulary, formality and level of detail change with the reader."
+    },
+    {
+      "title": "Splitting one paragraph into two ideas",
+      "body": "Before (one block): 'The login bug is fixed. We also need to discuss the leave policy for the launch week because two people have exams, and the server upgrade is planned for Sunday.'\n\nAfter: 'The login bug is fixed and ready for testing.'\n\n'Two other items need a decision. First, two teammates have exams in launch week, so we need to plan leave. Second, the server upgrade is planned for Sunday; please confirm that date.'",
+      "takeaway": "Each paragraph now has one idea and a first sentence that announces it."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "writing-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "writing.audience-purpose",
+      "prompt": "You must tell your team lead that a module will be late. What should you decide first?",
+      "options": [
+        "Who the reader is and what you want them to do with the news",
+        "Which formal words will make the message sound impressive",
+        "How long the message should be so it looks thorough",
+        "Whether to copy everyone in the department"
+      ],
+      "answer": 0,
+      "hint": "Think about the one-line brief before drafting.",
+      "why": "Clear writing starts with the reader and purpose: your lead needs to know the new date and what decision or action follows. Impressive words and length do not help the reader, and copying people is a later decision."
+    },
+    {
+      "id": "writing-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "writing.plain-language",
+      "prompt": "Replace the wordy phrase with one plain word: 'We will commence the testing on Monday.' Write the single word that replaces 'commence'.",
+      "accept": [
+        "start",
+        "begin"
+      ],
+      "hint": "What would you say in conversation?",
+      "why": "'Start' or 'begin' means the same as 'commence' in everyday, shorter language. Plain words are faster for the reader and still professional."
+    },
+    {
+      "id": "writing-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "writing.active-voice",
+      "prompt": "Rewrite this status message for a client in plain, active language, in two or three short sentences, keeping every fact: 'It should be noted that, due to the fact that the vendor API was found to be unavailable by our developers during the integration testing, the delivery of the invoice module is being delayed by two days and a revised plan will be shared by us at the earliest.'",
+      "minWords": 25,
+      "rubric": [
+        {
+          "id": "active",
+          "label": "Active voice with a clear doer",
+          "weight": 30,
+          "descriptors": {
+            "0": "Still mostly passive; the doer is hidden.",
+            "1": "One or two verbs switched to active but the key passive remains.",
+            "2": "Mostly active; one passive or unclear doer remains.",
+            "3": "Clear doers throughout (our developers, we, the vendor API) with active verbs."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "it should be noted",
+              "due to the fact",
+              "was found to be",
+              "is being delayed",
+              "by us at the earliest"
+            ],
+            "label": "None of the original filler or passive phrases remain"
+          }
+        },
+        {
+          "id": "plain",
+          "label": "Plain words and no filler",
+          "weight": 30,
+          "descriptors": {
+            "0": "Filler and long phrases remain.",
+            "1": "Some filler removed but wordy phrases remain.",
+            "2": "Mostly plain; one wordy phrase remains.",
+            "3": "Concise, plain wording; every phrase earns its place."
+          }
+        },
+        {
+          "id": "facts",
+          "label": "All facts kept",
+          "weight": 25,
+          "descriptors": {
+            "0": "Key facts lost.",
+            "1": "Two facts missing (cause, delay, next step).",
+            "2": "One small fact missing.",
+            "3": "Cause (vendor API unavailable), two-day delay and revised plan are all present."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "api",
+              "two days",
+              "2 days",
+              "plan"
+            ],
+            "min": 3,
+            "label": "Mentions the API, the two-day delay and the plan"
+          }
+        },
+        {
+          "id": "length",
+          "label": "Short sentences",
+          "weight": 15,
+          "descriptors": {
+            "0": "One long sentence.",
+            "1": "Sentences still run past 30 words.",
+            "2": "Mostly under 25 words.",
+            "3": "Two or three sentences, each under about 20 words."
+          },
+          "auto": {
+            "type": "minSentences",
+            "min": 2,
+            "label": "At least two sentences"
+          }
+        }
+      ],
+      "modelAnswer": "Our developers found that the vendor API was unavailable during integration testing. As a result, the invoice module will be two days late. We will share a revised plan today.",
+      "guidance": "A strong answer names the doer (our developers), puts the cause first and the consequence second, and ends with the next step. Common mistakes: keeping 'it should be noted', turning one long sentence into one slightly shorter long sentence, and dropping the promise of a revised plan. 'At the earliest' is vague; a specific time like 'today' or 'by Friday' is better only if you can keep it, so choose honestly. Score each criterion against the model answer."
+    },
+    {
+      "id": "writing-1.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "writing.paragraphs",
+      "prompt": "Situation: you are a final-year MCA student. Write a short message (about 4 to 6 sentences, in two short paragraphs) to your project guide. Paragraph one: say your project demo is ready and ask for a date this week. Paragraph two: report one open problem (the report chapter on testing is only half done) and say when you will finish it. Use plain language, active voice and a clear first sentence in each paragraph.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "purpose",
+          "label": "Clear purpose and ask",
+          "weight": 30,
+          "descriptors": {
+            "0": "No clear ask.",
+            "1": "Ask is buried or vague (no date or timeframe).",
+            "2": "Ask is clear but not stated in the first sentence.",
+            "3": "First paragraph states the demo is ready and asks for a specific date this week."
+          }
+        },
+        {
+          "id": "paras",
+          "label": "One idea per paragraph",
+          "weight": 30,
+          "descriptors": {
+            "0": "One block of text.",
+            "1": "Two paragraphs but ideas are mixed.",
+            "2": "Two paragraphs, one has a stray idea.",
+            "3": "Paragraph one is the demo ask; paragraph two is the open problem and its deadline."
+          }
+        },
+        {
+          "id": "style",
+          "label": "Plain, active, short sentences",
+          "weight": 25,
+          "descriptors": {
+            "0": "Wordy and passive.",
+            "1": "Some filler or passive phrases.",
+            "2": "Mostly plain; one long sentence.",
+            "3": "Short, active sentences with no filler."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "i just wanted to",
+              "it should be noted",
+              "kindly do the needful",
+              "at the earliest"
+            ],
+            "label": "No filler such as 'I just wanted to' or 'kindly do the needful'"
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Respectful tone",
+          "weight": 15,
+          "descriptors": {
+            "0": "Rude or too casual.",
+            "1": "Tone slips in places.",
+            "2": "Polite with one stiff or casual phrase.",
+            "3": "Polite and direct: greeting, thanks, sign-off."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "dear",
+              "hello",
+              "hi",
+              "thank",
+              "regards",
+              "sir",
+              "madam"
+            ],
+            "min": 1,
+            "label": "Includes a greeting or thanks"
+          }
+        }
+      ],
+      "modelAnswer": "Dear Professor Mehta,\n\nMy project demo is ready. Could we schedule it for Thursday or Friday this week? I can show it in 15 minutes.\n\nOne item is still open: the testing chapter of my report is half written. I will finish it by Wednesday evening and send you the full draft. Thank you for your guidance.\n\nRegards,\nDeepak",
+      "guidance": "A strong message opens with the news and the ask, so the guide knows what to do in the first line. The second paragraph is for the problem and your promised date; keep it separate. Common mistakes are long apologies, passive phrases like 'it is requested', and mixing the demo ask with the report problem. Offer two possible days to make it easy to reply. Score honestly: if you cannot point to your ask in the first sentence, mark yourself down."
+    }
+  ],
+  "task": {
+    "title": "Cut a real message by a quarter",
+    "brief": "Take something you actually wrote and make it clearer.",
+    "steps": [
+      "Pick a real email, assignment paragraph or chat message of 100 to 200 words that you wrote recently.",
+      "Write its one-line brief: reader, main point, action wanted.",
+      "Cut filler, split long sentences and change key passives to active.",
+      "Count the words before and after, and aim for at least 25 percent shorter.",
+      "Check that each paragraph starts with its main point."
+    ],
+    "checklist": [
+      "I wrote the one-line brief",
+      "I deleted filler phrases",
+      "I changed at least two passive sentences to active where the doer matters",
+      "Every paragraph has one idea",
+      "I kept every important fact"
+    ],
+    "evidencePrompt": "Write your word count before and after, plus one sentence you improved.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "writing-1.q1",
+      "type": "mcq",
+      "concept": "writing.audience-purpose",
+      "prompt": "Which one-line brief is complete and usable?",
+      "options": [
+        "I want to write about the server problem.",
+        "I am telling the client that the server issue is fixed so that they can resume testing.",
+        "I will write a long, detailed email on all server topics.",
+        "The server problem is serious."
+      ],
+      "answer": 1,
+      "why": "A usable brief names the reader, the main point and the action. The others state only a topic, a size or an opinion, so they give no direction on what to write."
+    },
+    {
+      "id": "writing-1.q2",
+      "type": "mcq",
+      "concept": "writing.plain-language",
+      "prompt": "Which version is plainest and best for a busy reader?",
+      "options": [
+        "We shall endeavour to facilitate the resolution of the issue.",
+        "We will try to help to resolve the issue.",
+        "We will fix the issue by Friday.",
+        "The issue is being looked into."
+      ],
+      "answer": 2,
+      "why": "'We will fix the issue by Friday' is short, concrete and gives a date. The first two are padded with abstract words, and the last is vague and passive."
+    },
+    {
+      "id": "writing-1.q3",
+      "type": "fill",
+      "concept": "writing.active-voice",
+      "prompt": "Make this active by writing the doer first: 'The report was submitted by Ananya.' Write the new sentence.",
+      "accept": [
+        "ananya submitted the report",
+        "ananya submitted the report."
+      ],
+      "why": "The doer (Ananya) moves to the front, followed by the verb and object: Ananya submitted the report. This is shorter and shows who acted."
+    },
+    {
+      "id": "writing-1.q4",
+      "type": "mcq",
+      "concept": "writing.paragraphs",
+      "prompt": "A paragraph starts with the leave plan, then discusses a server upgrade, then asks about lunch. What is the best fix?",
+      "options": [
+        "Make the paragraph longer so it feels complete",
+        "Split it into separate paragraphs, one idea each",
+        "Delete the first sentence",
+        "Join it with the next paragraph"
+      ],
+      "answer": 1,
+      "why": "One idea per paragraph means each new idea gets its own paragraph. Making it longer or merging it increases the clutter; deleting content loses information."
+    }
+  ],
+  "bank": [
+    {
+      "id": "writing-1.b1",
+      "type": "fill",
+      "concept": "writing.plain-language",
+      "prompt": "Cut the filler and write the shorter phrase: 'In order to apply, upload your resume.' Write the sentence with 'In order to' shortened.",
+      "accept": [
+        "to apply, upload your resume",
+        "to apply upload your resume",
+        "to apply, upload your resume."
+      ],
+      "why": "'In order to' almost always becomes 'to' with no loss of meaning."
+    },
+    {
+      "id": "writing-1.b2",
+      "type": "mcq",
+      "concept": "writing.active-voice",
+      "prompt": "A manager is reviewing an incident report. Which sentence best shows who is accountable?",
+      "options": [
+        "Mistakes were made during deployment.",
+        "The deployment was not done properly.",
+        "Our team deployed the wrong build.",
+        "A wrong build was deployed."
+      ],
+      "answer": 2,
+      "why": "Active voice with a named doer ('Our team deployed the wrong build') makes responsibility clear. The others hide the doer in passive constructions."
+    },
+    {
+      "id": "writing-1.b3",
+      "type": "mcq",
+      "concept": "writing.audience-purpose",
+      "prompt": "You are explaining a database index to a non-technical business user. Which opening works best?",
+      "options": [
+        "An index is a B-tree structure that reduces seek time on disk.",
+        "An index works like the index of a book: it lets the system find records quickly without reading everything.",
+        "Indexes are important for performance tuning.",
+        "You should ask the DBA about indexes."
+      ],
+      "answer": 1,
+      "why": "Matching the reader's level means using an everyday comparison. The first uses jargon, the third says nothing specific, and the fourth avoids the question."
+    }
+  ],
+  "cards": [
+    {
+      "id": "writing-1.c1",
+      "concept": "writing.audience-purpose",
+      "front": "What is the one-line brief?",
+      "back": "'I am telling [reader] that [main point] so that they can [action].' If you cannot complete it, you are not ready to write."
+    },
+    {
+      "id": "writing-1.c2",
+      "concept": "writing.plain-language",
+      "front": "Target sentence length and word choice?",
+      "back": "Mostly 12 to 20 words. Choose everyday words: use not utilise, start not commence, because not owing to the fact that."
+    },
+    {
+      "id": "writing-1.c3",
+      "concept": "writing.active-voice",
+      "front": "Active vs passive: when to use which?",
+      "back": "Default to active (doer first) for clarity and accountability. Use passive only when the doer is unknown or unimportant. Delete filler like 'it should be noted'."
+    },
+    {
+      "id": "writing-1.c4",
+      "concept": "writing.paragraphs",
+      "front": "How should a paragraph be built?",
+      "back": "One idea, with the main point in the first sentence, then reason or example. Two to four sentences on screen."
+    }
+  ],
+  "reflection": "Think of a message you wrote recently that was misunderstood or ignored. What was its purpose, who was the reader, and what one change from this lesson would have helped?",
+  "revision": {
+    "keyPoints": [
+      "Name the reader, point and action before drafting.",
+      "Plain words and 12 to 20 word sentences.",
+      "Active voice by default; delete filler.",
+      "One idea per paragraph, main point first.",
+      "Draft first, then cut."
+    ],
+    "redo": "Take one sentence from a message you sent today and rewrite it in plain, active words, aiming for at least a third shorter."
+  }
+}

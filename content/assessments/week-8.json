@@ -1,0 +1,199 @@
+{
+ "id": "week-8",
+ "week": 8,
+ "day": 56,
+ "title": "Week 8 Assessment: Integration",
+ "intro": "This assessment integrates careers, conflict, presenting and networking with everything before it. Part A is auto-graded from lessons you completed. Part B has a decision scenario, an interview role-play and a written task. Combine skills as you would in a real workplace.",
+ "coverage": [
+  "negotiation",
+  "leadership",
+  "conflict",
+  "etiquette",
+  "career",
+  "presentation",
+  "creativity",
+  "gk",
+  "finance",
+  "adapt",
+  "networking",
+  "grooming"
+ ],
+ "concepts": [
+  {
+   "id": "career.applied",
+   "label": "Career Planning and Personal Branding: applied"
+  },
+  {
+   "id": "negotiation.applied",
+   "label": "Negotiation: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-8.a1",
+   "skills": [
+    "career",
+    "etiquette"
+   ],
+   "type": "scenario",
+   "concept": "career.applied",
+   "prompt": "You reach an interview 20 minutes early. The receptionist asks you to wait, and the interviewer is delayed by 30 minutes. What is the best behaviour?",
+   "options": [
+    {
+     "text": "Complain loudly about the delay.",
+     "score": 0,
+     "feedback": "Complaining creates a poor first impression."
+    },
+    {
+     "text": "Wait calmly, review your notes, keep your phone silent and greet people politely.",
+     "score": 3,
+     "feedback": "Patience and courtesy are part of professionalism."
+    },
+    {
+     "text": "Leave and send an angry message.",
+     "score": 0,
+     "feedback": "Leaving without discussion damages your chances."
+    },
+    {
+     "text": "Scroll videos with sound on.",
+     "score": 1,
+     "feedback": "Noise and distraction look careless."
+    }
+   ],
+   "why": "Everyone you meet may influence the decision, so stay patient and polite."
+  },
+  {
+   "id": "week-8.a2",
+   "skills": [
+    "career",
+    "adapt",
+    "presentation"
+   ],
+   "type": "roleplay",
+   "concept": "career.applied",
+   "setup": "You are in an interview for an entry-level SAP ABAP role. The panel will ask about your preparation, a failure and a conflict at work.",
+   "turns": [
+    {
+     "they": "Tell us about a time you failed and what you learned.",
+     "options": [
+      {
+       "text": "I have never failed.",
+       "score": 0,
+       "feedback": "Claiming no failures sounds unreal.",
+       "reply": "Everyone fails at something."
+      },
+      {
+       "text": "I failed a mock technical test because I had not practised under time limits. I did a post-mortem, took three timed practice sets and improved from 40 to 70 per cent.",
+       "score": 3,
+       "feedback": "A specific story with analysis and results.",
+       "reply": "That shows good learning."
+      },
+      {
+       "text": "It was my teacher's fault.",
+       "score": 1,
+       "feedback": "Blaming others suggests low responsibility.",
+       "reply": "Hmm."
+      }
+     ]
+    },
+    {
+     "they": "How do you handle disagreement in a team?",
+     "options": [
+      {
+       "text": "I avoid people I disagree with.",
+       "score": 0,
+       "feedback": "Avoidance cannot work in teams.",
+       "reply": "That may be a problem."
+      },
+      {
+       "text": "I clarify what matters to each of us, offer options and agree on a specific next step, in writing if needed.",
+       "score": 3,
+       "feedback": "It shows interest-based problem solving.",
+       "reply": "That is a mature approach."
+      },
+      {
+       "text": "I just do what the loudest person says.",
+       "score": 1,
+       "feedback": "Passive compliance is not a strategy.",
+       "reply": "Not ideal."
+      }
+     ]
+    },
+    {
+     "they": "Do you have any questions for us?",
+     "options": [
+      {
+       "text": "No questions.",
+       "score": 1,
+       "feedback": "A good candidate usually asks something.",
+       "reply": "Alright then."
+      },
+      {
+       "text": "What would the first 90 days look like for a trainee, and how is learning supported?",
+       "score": 3,
+       "feedback": "A thoughtful question that shows planning.",
+       "reply": "Good question; let me explain."
+      },
+      {
+       "text": "How soon can I get a raise?",
+       "score": 0,
+       "feedback": "This focuses on pay before contribution.",
+       "reply": "We will talk later."
+      }
+     ]
+    }
+   ],
+   "why": "Use specific stories, constructive conflict habits and thoughtful questions in interviews."
+  },
+  {
+   "id": "week-8.a3",
+   "skills": [
+    "negotiation",
+    "networking",
+    "leadership"
+   ],
+   "type": "written",
+   "concept": "negotiation.applied",
+   "prompt": "Write 100 to 130 words: a follow-up message to a senior professional you met last week that thanks them, reminds them of your conversation, makes one specific small request and offers something useful in return.",
+   "minWords": 69,
+   "rubric": [
+    {
+     "id": "thanks",
+     "label": "Thanks and context",
+     "weight": 25,
+     "descriptors": {
+      "0": "None.",
+      "1": "Generic.",
+      "2": "Thanks only.",
+      "3": "Specific thanks recalling the conversation."
+     }
+    },
+    {
+     "id": "ask",
+     "label": "Specific small request",
+     "weight": 40,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Specific but large.",
+      "3": "Specific and easy to grant."
+     }
+    },
+    {
+     "id": "give",
+     "label": "Offer of value and tone",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague offer.",
+      "2": "Offer but stiff.",
+      "3": "Real offer with a warm, professional tone."
+     }
+    }
+   ],
+   "modelAnswer": "Dear Ms Rao, thank you for the time you gave me at the campus event last Thursday. Your point about writing clean ABAP and testing small programs stayed with me. I have started a weekly mini-program habit based on it. If you are open to it, could I send you a short summary of my practice projects and ask for two lines of feedback? I would be happy to share the notes I made from the session with other students in return. Thank you again. Regards, Deepak.",
+   "guidance": "Strong messages are short, specific about the earlier conversation, make a small clear ask and offer something in return. Avoid asking for a job directly in the first message."
+  }
+ ]
+}

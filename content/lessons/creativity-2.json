@@ -1,0 +1,325 @@
+{
+  "id": "creativity-2",
+  "skillId": "creativity",
+  "n": 2,
+  "title": "Reframing and Connecting",
+  "summary": "Reframe problems with How Might We questions, analogies, random input and inversion, and combine unrelated ideas.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Turn a problem into several How Might We questions.",
+    "Use analogies and random input to find new angles.",
+    "Use inversion to expose hidden assumptions."
+  ],
+  "concepts": [
+    {
+      "id": "creativity.hmw",
+      "label": "How Might We questions"
+    },
+    {
+      "id": "creativity.analogies",
+      "label": "Analogies and random input"
+    },
+    {
+      "id": "creativity.inversion",
+      "label": "Inversion"
+    },
+    {
+      "id": "creativity.combining",
+      "label": "Combining unrelated ideas"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "The question shapes the answers",
+      "body": "A problem stated one way allows only a few solutions. \"How do we stop students coming late?\" leads to penalties. Reframed as \"How might we make the first ten minutes worth arriving for?\", it opens up quizzes, announcements and short activities. Creativity often begins with a better question rather than a better answer.\n\nReframing is a skill you can practise. Always ask yourself whether the problem is stated too narrowly, whether it describes a symptom rather than a cause and whether it assumes one particular solution."
+    },
+    {
+      "heading": "How Might We questions",
+      "body": "A **How Might We (HMW)** question has three parts: \"How\" suggests an answer exists, \"Might\" allows many options, \"We\" shares ownership. Good HMW questions are neither too broad (\"How might we fix education?\") nor too narrow (\"How might we add a button on page 3?\"). Take one problem and write five or more HMWs by changing the focus: the user, the cause, the moment, the opposite and the emotion. Choose one and generate ideas for it.\n\nExample: \"Students forget revision.\" HMWs: How might we make revision part of their daily routine? How might we make forgetting visible before the exam? How might we make revising a social activity?"
+    },
+    {
+      "heading": "Analogies and random input",
+      "body": "An **analogy** borrows a solution from another field. How does a hospital triage emergencies? Could a help desk use the same colour system? How does a gym keep people returning? Could a study app do the same? Ask \"Who has already solved a similar problem?\" The **random input** technique adds a surprise: pick a random word, such as \"umbrella\", and force connections. An umbrella protects, folds, is shared in rain. For a software release this could suggest a rollback \"cover\", a compact deployment kit and shared rollback ownership. Most connections will be weak, but one or two can be useful."
+    },
+    {
+      "heading": "Inversion and combining",
+      "body": "**Inversion** flips the problem: instead of \"How can we make users love our app?\" ask \"How could we make users hate it?\" The list (slow loading, confusing menus, constant pop-ups) is easy to produce, and reversing it yields a quality checklist. Inversion also exposes assumptions: \"Customers must visit a shop.\" What if the shop visits them?\n\n**Combining** unrelated ideas creates new ones: a map and a diary became a travel journal app; a camera and a phone became the smartphone. List two columns of unrelated things, such as tools and places, and pair items at random. Ask what each pair could become and keep the interesting ones."
+    }
+  ],
+  "examples": [
+    {
+      "title": "HMW in practice",
+      "body": "Problem: \"Team meetings run too long\". HMWs: How might we make decisions before meetings? How might we make every minute visible? How might we make standing the default? The team chose the second and added a visible timer.",
+      "takeaway": "Reframing creates choices that the original problem hid."
+    },
+    {
+      "title": "Inversion for quality",
+      "body": "To improve a college website, students listed how to make it worst: hide the timetable, ask for login three times, use tiny fonts. Reversing gave a five-point improvement list.",
+      "takeaway": "Listing failures is easy and reveals what to protect."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "creativity-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "creativity.hmw",
+      "prompt": "Which is a good How Might We question?",
+      "options": [
+        "How might we make the first ten minutes of class worth attending?",
+        "How do we fix everything?",
+        "Add a button on page 3",
+        "Why are students late?"
+      ],
+      "answer": 0,
+      "why": "It is open, specific and focuses on one angle."
+    },
+    {
+      "id": "creativity-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "creativity.inversion",
+      "prompt": "Asking \"How could we make this fail?\" is called ____. (one word)",
+      "accept": [
+        "inversion"
+      ],
+      "why": "Inversion flips the problem to reveal assumptions."
+    },
+    {
+      "id": "creativity-2.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "creativity.hmw",
+      "prompt": "Take the problem \"People in my hostel waste a lot of food.\" Write five different How Might We questions that each change the focus (user, cause, moment, emotion, opposite).",
+      "minWords": 44,
+      "rubric": [
+        {
+          "id": "count",
+          "label": "Five HMW questions",
+          "weight": 40,
+          "descriptors": {
+            "0": "One or two.",
+            "1": "Three.",
+            "2": "Four.",
+            "3": "Five."
+          }
+        },
+        {
+          "id": "range",
+          "label": "Different angles",
+          "weight": 35,
+          "descriptors": {
+            "0": "All the same.",
+            "1": "Slight variations.",
+            "2": "Some different angles.",
+            "3": "Clearly different angles."
+          }
+        },
+        {
+          "id": "form",
+          "label": "Open and well sized",
+          "weight": 25,
+          "descriptors": {
+            "0": "Closed questions.",
+            "1": "Too broad or narrow.",
+            "2": "Mostly open.",
+            "3": "All open and well sized."
+          }
+        }
+      ],
+      "modelAnswer": "How might we help students order only what they will eat? How might we make leftovers valuable to someone else? How might we show the cost of waste at the moment of serving? How might we make taking small portions feel normal? How might we make wasting food harder than saving it?",
+      "guidance": "Good HMWs differ in angle (user, cause, moment, emotion, opposite), stay open and avoid naming the solution."
+    },
+    {
+      "id": "creativity-2.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "creativity.analogies",
+      "prompt": "Your college library queue is long. Which approach uses analogy well?",
+      "options": [
+        {
+          "text": "Add more chairs.",
+          "score": 1,
+          "feedback": "It treats a symptom only."
+        },
+        {
+          "text": "Look at how bakeries or railway counters manage queues and borrow one idea.",
+          "score": 3,
+          "feedback": "Borrowing from similar problems is analogy."
+        },
+        {
+          "text": "Remove the library.",
+          "score": 0,
+          "feedback": "This ignores the goal."
+        },
+        {
+          "text": "Ask everyone to arrive early.",
+          "score": 1,
+          "feedback": "It shifts rather than solves the problem."
+        }
+      ],
+      "why": "Look to other fields that solved a similar problem."
+    }
+  ],
+  "task": {
+    "title": "Reframe a real problem",
+    "brief": "Take one real problem and run HMW, inversion and a random word on it.",
+    "steps": [
+      "Write the problem in one sentence.",
+      "Write five HMW questions and pick one.",
+      "List ten ways to make the problem worse, then reverse them.",
+      "Add a random word and write two connections."
+    ],
+    "checklist": [
+      "I wrote five HMWs",
+      "I did an inversion list",
+      "I used a random word",
+      "I picked one direction"
+    ],
+    "evidencePrompt": "Write your chosen HMW and the best idea from inversion.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "creativity-2.q1",
+      "type": "mcq",
+      "concept": "creativity.hmw",
+      "prompt": "In HMW, the word \"might\" signals:",
+      "options": [
+        "Certainty",
+        "Blame",
+        "Many possible options",
+        "A deadline"
+      ],
+      "answer": 2,
+      "why": "Might allows many possibilities."
+    },
+    {
+      "id": "creativity-2.q2",
+      "type": "mcq",
+      "concept": "creativity.analogies",
+      "prompt": "An analogy borrows:",
+      "options": [
+        "A grade",
+        "A tool",
+        "Time",
+        "A solution from another field"
+      ],
+      "answer": 3,
+      "why": "Analogy transfers solutions across fields."
+    },
+    {
+      "id": "creativity-2.q3",
+      "type": "mcq",
+      "concept": "creativity.inversion",
+      "prompt": "Why is inversion useful?",
+      "options": [
+        "It is quick and exposes assumptions",
+        "It makes problems worse",
+        "It avoids work",
+        "It needs no thinking"
+      ],
+      "answer": 0,
+      "why": "Listing failures is easy and reveals what to fix."
+    },
+    {
+      "id": "creativity-2.q4",
+      "type": "fill",
+      "concept": "creativity.combining",
+      "prompt": "Pairing two unrelated items to see what they become is called ____ ideas. (one word)",
+      "accept": [
+        "combining",
+        "combine"
+      ],
+      "why": "Combining unrelated ideas can create something new."
+    }
+  ],
+  "bank": [
+    {
+      "id": "creativity-2.b1",
+      "type": "mcq",
+      "concept": "creativity.hmw",
+      "prompt": "An HMW that is too narrow is:",
+      "options": [
+        "How might we add a button on page 3?",
+        "How might we help students revise?",
+        "How might we reduce waste?",
+        "How might we learn?"
+      ],
+      "answer": 0,
+      "why": "It names a solution already."
+    },
+    {
+      "id": "creativity-2.b2",
+      "type": "mcq",
+      "concept": "creativity.analogies",
+      "prompt": "Random input works by:",
+      "options": [
+        "Forcing connections to a random word",
+        "Waiting for luck",
+        "Avoiding ideas",
+        "Copying"
+      ],
+      "answer": 0,
+      "why": "The random word triggers new links."
+    },
+    {
+      "id": "creativity-2.b3",
+      "type": "mcq",
+      "concept": "creativity.inversion",
+      "prompt": "Reversing a list of ways to fail gives:",
+      "options": [
+        "A quality checklist",
+        "Nothing",
+        "More failure",
+        "A budget"
+      ],
+      "answer": 0,
+      "why": "The opposites become standards."
+    }
+  ],
+  "cards": [
+    {
+      "id": "creativity-2.c1",
+      "concept": "creativity.hmw",
+      "front": "HMW parts?",
+      "back": "How (answer exists), Might (many options), We (shared ownership); not too broad or narrow."
+    },
+    {
+      "id": "creativity-2.c2",
+      "concept": "creativity.analogies",
+      "front": "Analogy question?",
+      "back": "Who has already solved a similar problem in another field?"
+    },
+    {
+      "id": "creativity-2.c3",
+      "concept": "creativity.inversion",
+      "front": "Inversion method?",
+      "back": "Ask how to make it fail, list answers, reverse them into guidelines."
+    },
+    {
+      "id": "creativity-2.c4",
+      "concept": "creativity.combining",
+      "front": "Combining technique?",
+      "back": "List two unrelated columns, pair items randomly, keep interesting combinations."
+    }
+  ],
+  "reflection": "Which problem in your life is stated in a way that already assumes a solution?",
+  "revision": {
+    "keyPoints": [
+      "A better question opens better answers.",
+      "HMW questions reframe from many angles.",
+      "Analogy and random input import new ideas.",
+      "Inversion exposes assumptions."
+    ],
+    "redo": "Rewrite one problem as five HMW questions and rank them."
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "id": "ai-3",
+  "skillId": "ai",
+  "n": 3,
+  "title": "Digital Safety and Privacy",
+  "summary": "Protect your accounts and money with unique passwords, two-factor authentication, scam recognition, sensible privacy settings and backups.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build strong, unique credentials using a password manager and two-factor authentication.",
+    "Recognise phishing and UPI or OTP scams by their pressure tactics and stop before acting.",
+    "Reduce your exposure with privacy settings, a tested backup routine and a managed digital footprint."
+  ],
+  "concepts": [
+    {
+      "id": "ai.passwords-2fa",
+      "label": "Passwords, managers and two-factor authentication"
+    },
+    {
+      "id": "ai.phishing-scams",
+      "label": "Phishing and UPI or OTP scams"
+    },
+    {
+      "id": "ai.privacy-backups",
+      "label": "Privacy settings and backups"
+    },
+    {
+      "id": "ai.digital-footprint",
+      "label": "Your digital footprint"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Passwords: long, unique and never memorised twice",
+      "body": "Earlier in this skill you saw that AI tools only know what you give them, so you learned to be careful about what you paste. The same care applies to every account you own. Most account break-ins do not come from clever hacking. They come from **reused passwords**: a small website you joined years ago is breached, and attackers try that same email and password on your email, your bank and your cloud storage.\n\nThe fix has two parts. First, make every password **unique**. Second, make it **long**, because length matters more than clever symbols. *Tr0ub4dor!* is short and predictable; *four unrelated words such as 'monsoon-lantern-cricket-slate'* is long, easy to remember and very hard to guess. Nobody can remember fifty unique passwords, so use a **password manager** (the one built into your phone or browser is acceptable; a dedicated manager is better). You remember one strong master passphrase; the manager generates and stores the rest.\n\nTurn on **two-factor authentication (2FA)** for email first, because email resets every other account, then for banking, cloud storage and your college or work login. Prefer an authenticator app or a hardware key over SMS codes where you have the choice. Save the backup codes offline, so losing your phone does not lock you out for good."
+    },
+    {
+      "heading": "Phishing and OTP scams: pressure is the signal",
+      "body": "**Phishing** is a message designed to make you act before you think. It may arrive by email, SMS, WhatsApp or a phone call. Scam content changes constantly, but the tricks are stable: **urgency** ('your account will be blocked in two hours'), **authority** (a bank, a courier, the police, a recruiter), a **reward** (a refund, a lottery, a high-paying job) and a **request** (click, install, share a code or move money).\n\nSome rules never change. **No genuine bank, UPI app or company will ask for your OTP, UPI PIN, card CVV or password**, by phone or message. An OTP is a key that authorises something; if someone asks for it, they are the ones trying to authorise something. You enter a UPI PIN only to *send* money, never to *receive* it, so any request screen that asks for your PIN to 'receive a refund' is a trap. Be wary of screen-sharing apps and unknown APK files sent on chat, since both give a stranger control of your phone.\n\nWorked example: you get an SMS, 'Your electricity will be cut tonight, call this number immediately.' The pressure (tonight), the authority (the utility) and the demand (call now) are the pattern. Your response is a three-step pause: **stop, verify through a channel you already trust** (the official app or the number printed on your bill), then act. If you already shared something, call your bank at once to block the card or account and report the fraud through the national cybercrime helpline or portal. Speed limits the damage."
+    },
+    {
+      "heading": "Privacy settings and backups",
+      "body": "Privacy settings decide what apps, strangers and companies can see. Spend twenty minutes once and review them every few months. Check which apps can use your **location, contacts, microphone and camera** and switch off what an app does not need: a torch app has no reason to read your contacts. Set social accounts to the narrowest audience you are comfortable with, and check who can see your phone number and profile photo on messaging apps.\n\nOn public Wi-Fi, avoid logging into banking or sensitive accounts; use mobile data instead. Keep your phone and apps updated, because updates close known holes. Lock your phone with a PIN or biometric and set it to lock quickly.\n\nBackups protect you from a different threat: loss, theft, a failed drive or ransomware. A useful rule is **3-2-1**: keep **three** copies of important files, on **two** different kinds of storage, with **one** copy away from your main device (cloud or a drive kept elsewhere). An untested backup is only a hope, so once in a while open a file from the backup to confirm that it restores. For a student, the important items are project code, certificates, ID scans and assignments. Put code in a private repository; keep scans in an encrypted or access-controlled folder."
+    },
+    {
+      "heading": "Your digital footprint is permanent enough to matter",
+      "body": "Your **digital footprint** is everything about you that can be found online: what you post, what others post about you, tags, comments, old accounts and data collected by apps. Recruiters and IT-services firms often search a candidate's name before an interview, and clients may do the same with consultants.\n\nManage it deliberately. **Search for yourself** using your name with your city and college, and look at the first two pages of results and the images. **Delete or lock** old accounts and posts you would not want a hiring manager to read. **Separate** identities where useful: one professional email for applications and professional profiles, another for shopping and sign-ups. Before you post, ask: would I be comfortable if my manager, a client and my family all saw this in five years?\n\nAlso limit what you reveal that helps scammers: your full birth date, home address, ID numbers, boarding passes and photos of cards or documents. Scammers assemble small facts into a convincing story. A good habit is a **quarterly security check**: update passwords on your top three accounts if needed, review app permissions, confirm that backups work and search your own name."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A 'refund' scam, stage by stage",
+      "body": "A caller says: 'Sir, your online order was double-charged. I will send you a collect request. Please approve it with your UPI PIN to get the refund.' You receive a request that asks for your PIN. If you enter it, money leaves your account.\n\nThe safe path: say nothing about your PIN, end the call, open your payment app yourself and look at the request. It says 'pay', not 'receive'. Contact the merchant through the official app or website.",
+      "takeaway": "A PIN is only for sending money. A 'refund' that needs your PIN, an OTP or a caller who rushes you is a scam by definition."
+    },
+    {
+      "title": "Fixing a weak password setup",
+      "body": "Before: one password, 'Deepak@123', used on email, a shopping site, a gaming forum and a college portal. No 2FA.\n\nAfter: a password manager generates a unique 16-character password for each account; the email account gets an authenticator app as 2FA; the master passphrase is four unrelated words; backup codes are printed and kept in a folder at home.",
+      "takeaway": "One breach no longer unlocks everything, and the account that resets all others, your email, is the best protected."
+    },
+    {
+      "title": "A footprint audit before placement season",
+      "body": "A student searches 'Rohan Mehta Faridabad MCA' and finds a public forum post from Class 11 with insulting language, an old gaming handle that links to a profile with a public phone number, and no professional profile at all. In an hour he deletes the post, locks the old account, removes the phone number, and creates a clean profile showing his projects.",
+      "takeaway": "Employers search first. Cleaning up and adding something positive takes an hour and changes the first impression."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ai-3.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "ai.passwords-2fa",
+      "prompt": "Which single habit reduces the damage when one website you use is breached?",
+      "options": [
+        "Using a different password on every account",
+        "Adding a symbol such as ! to the end of your usual password",
+        "Changing your one shared password every year",
+        "Choosing a password that is easy to type on mobile"
+      ],
+      "answer": 0,
+      "hint": "Think about what attackers try on other sites after a breach.",
+      "why": "Unique passwords stop one breach from unlocking your other accounts. A symbol at the end is predictable and the password is still shared; yearly changes leave a reused password exposed for months; and ease of typing says nothing about safety."
+    },
+    {
+      "id": "ai-3.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "ai.phishing-scams",
+      "prompt": "Complete the rule with one word: a UPI PIN is needed only to ____ money, never to receive it.",
+      "accept": [
+        "send",
+        "pay",
+        "sending",
+        "paying"
+      ],
+      "hint": "Which direction does money move when you authorise with a PIN?",
+      "why": "You authorise outgoing payments with your PIN. A screen asking for your PIN in order to 'receive' money is a scam to take money out of your account."
+    },
+    {
+      "id": "ai-3.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "ai.phishing-scams",
+      "prompt": "You receive this WhatsApp message: 'Dear candidate, you are shortlisted for a work-from-home job paying a high monthly salary. Pay a refundable registration fee on the link below within one hour or your slot will be given to someone else.' Explain in 3-5 sentences whether to trust it, naming at least two warning signs and the exact steps you will take.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "signs",
+          "label": "Identifies warning signs",
+          "weight": 40,
+          "descriptors": {
+            "0": "Does not name any warning sign.",
+            "1": "Names one sign vaguely, such as 'looks fake'.",
+            "2": "Names two signs, for example the upfront fee and the one-hour deadline.",
+            "3": "Names three or more signs: upfront fee, urgency, unsolicited offer, unrealistic pay, unverified link."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "fee",
+              "urgent",
+              "urgency",
+              "one hour",
+              "deadline",
+              "pressure",
+              "unsolicited",
+              "salary",
+              "link"
+            ],
+            "min": 2,
+            "label": "Mentions at least two warning signs"
+          }
+        },
+        {
+          "id": "steps",
+          "label": "Concrete safe actions",
+          "weight": 40,
+          "descriptors": {
+            "0": "No action given, or advice to pay to check.",
+            "1": "Says to ignore it but gives no verification or reporting step.",
+            "2": "Gives one safe step such as not clicking, or verifying the company independently.",
+            "3": "Gives several steps: do not pay or click, verify through the company's official channel, block and report the number."
+          }
+        },
+        {
+          "id": "reasoning",
+          "label": "Reasoning is clear",
+          "weight": 20,
+          "descriptors": {
+            "0": "Conclusion without reasons.",
+            "1": "Reasons are listed but not connected to the decision.",
+            "2": "Reasons support the conclusion with minor gaps.",
+            "3": "A clear conclusion supported by the pattern of pressure, reward and request."
+          }
+        }
+      ],
+      "modelAnswer": "I would not trust this message. A genuine employer does not ask for a registration fee, so the upfront payment is the first warning. The one-hour deadline is pressure meant to stop me thinking, and the very high pay for work from home with no interview is another. I will not click the link or pay. I will search for the company myself through its official website or a trusted careers page to see whether the role exists, then block and report the number.",
+      "guidance": "Strong answers recognise the pattern: reward plus urgency plus a request for money. A common mistake is to say 'it may be real, I'll pay a small amount to check', which is exactly what the scam relies on. Another is only to ignore the message without verifying or reporting. Score yourself honestly on whether you named specific signs and gave at least one verification step that does not use the link provided."
+    },
+    {
+      "id": "ai-3.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "ai.passwords-2fa",
+      "prompt": "At 11 pm you get a call: 'This is your bank's fraud team. We have blocked a suspicious payment. To keep your account safe we will send an OTP; please read it out so we can cancel the transaction.' Your phone then shows an OTP SMS that says it is for approving a payment. The caller is calm and knows your name. What do you do?",
+      "options": [
+        {
+          "text": "Read out the OTP quickly, because the caller knows your name and the bank is protecting you.",
+          "score": 0,
+          "feedback": "Knowing your name proves nothing, since names are easy to find. The OTP is for approving a payment, and reading it out completes the fraud."
+        },
+        {
+          "text": "Ask the caller to verify by telling you your last transaction, then share the OTP if he is right.",
+          "score": 1,
+          "feedback": "Scammers often have partial data from earlier leaks, so a correct detail is not proof. The rule is never to share an OTP at all."
+        },
+        {
+          "text": "End the call without sharing anything, then call the bank using the number on your card or the official app, and report the attempt.",
+          "score": 3,
+          "feedback": "Correct. You break the pressure, verify through a channel you trust and report. If any real fraud exists, the bank can see it on its own side."
+        },
+        {
+          "text": "Stay on the line and keep arguing until the caller admits it is a scam.",
+          "score": 1,
+          "feedback": "Engaging keeps you under their pressure and risks a slip. Ending the call is safer than winning the argument."
+        }
+      ],
+      "why": "The OTP message itself tells you its purpose: to authorise a payment. A bank protecting you never needs it from you. Hanging up and calling the number you already trust removes the caller's control."
+    }
+  ],
+  "task": {
+    "title": "Your 20-minute security upgrade",
+    "brief": "Make three real improvements to your digital safety today and record what changed.",
+    "steps": [
+      "Open the account settings of your main email and turn on two-factor authentication using an authenticator app; save the backup codes somewhere offline.",
+      "Check your password manager (or set one up) and replace the password on your email and one other important account with a unique long one.",
+      "Review the permissions of five apps on your phone and switch off one location, contacts, camera or microphone permission that is not needed.",
+      "Search your own name with your city or college and note one thing you will delete, lock or improve."
+    ],
+    "checklist": [
+      "Two-factor authentication is on for my email",
+      "Two important accounts now have unique passwords",
+      "I reviewed at least five app permissions",
+      "I noted one footprint item to fix"
+    ],
+    "evidencePrompt": "List the three changes you made and the one footprint item you will fix next.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "ai-3.q1",
+      "type": "mcq",
+      "concept": "ai.passwords-2fa",
+      "prompt": "Which password is the strongest choice if each is used on only one account?",
+      "options": [
+        "Faridabad@2025",
+        "Pa$$w0rd!",
+        "monsoon-lantern-cricket-slate",
+        "123456789012"
+      ],
+      "answer": 2,
+      "why": "Four unrelated words are long and hard to guess. The others are short, follow common patterns or rely on obvious substitutions, which cracking tools try first."
+    },
+    {
+      "id": "ai-3.q2",
+      "type": "mcq",
+      "concept": "ai.phishing-scams",
+      "prompt": "Which feature most reliably marks a message as a likely scam?",
+      "options": [
+        "It contains a link",
+        "It comes from an unknown number",
+        "It combines urgency with a request for money, an OTP or a PIN",
+        "It is written in English"
+      ],
+      "answer": 2,
+      "why": "Genuine messages can have links and some come from unfamiliar numbers, but pressure combined with a request for secrets or money is the core pattern of fraud."
+    },
+    {
+      "id": "ai-3.q3",
+      "type": "fill",
+      "concept": "ai.privacy-backups",
+      "prompt": "In the 3-2-1 backup rule, how many copy should be kept off-site or away from your main device? (a number)",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "why": "3-2-1 means three copies, two types of storage, one copy away from your main device, so a theft, fire or ransomware attack does not take everything."
+    },
+    {
+      "id": "ai-3.q4",
+      "type": "mcq",
+      "concept": "ai.digital-footprint",
+      "prompt": "What is the most useful first step in managing your digital footprint before applying for jobs?",
+      "options": [
+        "Delete every social media account you own",
+        "Search for your own name and review what appears",
+        "Make all your posts public so recruiters can see them",
+        "Use a nickname on your CV"
+      ],
+      "answer": 1,
+      "why": "You cannot fix what you have not seen. Deleting everything removes positive evidence, public posts raise exposure and a nickname does not stop a search."
+    }
+  ],
+  "bank": [
+    {
+      "id": "ai-3.b1",
+      "type": "mcq",
+      "concept": "ai.passwords-2fa",
+      "prompt": "A friend says: 'I use the same strong password everywhere, so I am safe.' What is the main flaw?",
+      "options": [
+        "A strong password should never be written down",
+        "Once any one site leaks it, attackers can use it on all your other accounts",
+        "Strong passwords expire after thirty days",
+        "Two-factor authentication cannot be used with strong passwords"
+      ],
+      "answer": 1,
+      "why": "Strength does not protect against reuse. A single breach exposes the password everywhere. Strong passwords do not automatically expire, and 2FA works well with them."
+    },
+    {
+      "id": "ai-3.b2",
+      "type": "mcq",
+      "concept": "ai.phishing-scams",
+      "prompt": "A courier message says your parcel is held and you must pay a small customs fee through a link within two hours. What is the best response?",
+      "options": [
+        "Pay quickly, since the amount is small",
+        "Reply asking for more details",
+        "Ignore the link and check the parcel through the courier's official app or the seller's order page",
+        "Forward the message to friends to ask what to do"
+      ],
+      "answer": 2,
+      "why": "Verify through a source you already trust. A small amount is the lure; replying confirms your number is active; forwarding spreads the risk."
+    },
+    {
+      "id": "ai-3.b3",
+      "type": "fill",
+      "concept": "ai.privacy-backups",
+      "prompt": "Name the practice of occasionally opening a file from your backup to confirm it works. Answer with one word that completes: 'an untested backup is only a ____'.",
+      "accept": [
+        "hope",
+        "a hope"
+      ],
+      "why": "A backup only has value if you can restore from it. Test restores occasionally so you discover problems before you need the files."
+    }
+  ],
+  "cards": [
+    {
+      "id": "ai-3.c1",
+      "concept": "ai.passwords-2fa",
+      "front": "What are the three habits that protect most accounts?",
+      "back": "Long unique passwords stored in a password manager, two-factor authentication starting with email, and offline backup codes."
+    },
+    {
+      "id": "ai-3.c2",
+      "concept": "ai.phishing-scams",
+      "front": "Which details does a genuine bank never ask you for?",
+      "back": "Your OTP, UPI PIN, card CVV or password. Hang up, then verify through the official app or the number on your card."
+    },
+    {
+      "id": "ai-3.c3",
+      "concept": "ai.privacy-backups",
+      "front": "What does the 3-2-1 backup rule mean?",
+      "back": "Three copies of important files, on two kinds of storage, with one copy kept away from your main device. Test restores occasionally."
+    },
+    {
+      "id": "ai-3.c4",
+      "concept": "ai.digital-footprint",
+      "front": "How do you audit your digital footprint?",
+      "back": "Search your name with city and college, review results and images, delete or lock what you would not want an employer to see, and add something professional."
+    }
+  ],
+  "reflection": "Which of your accounts would do you the most harm if someone took it over, and is it protected as well as it deserves to be today?",
+  "revision": {
+    "keyPoints": [
+      "Unique, long passwords in a manager; 2FA on email first.",
+      "Urgency plus a request for money, OTP or PIN is the scam pattern.",
+      "Stop, verify through a trusted channel, then act.",
+      "Back up with 3-2-1 and test the restore.",
+      "Search your own name before employers do."
+    ],
+    "redo": "Pick one account, check whether it has a unique password and 2FA, and fix whichever is missing."
+  }
+}

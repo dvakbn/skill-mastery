@@ -1,0 +1,340 @@
+{
+  "id": "gk-4",
+  "skillId": "gk",
+  "n": 4,
+  "title": "Following the World and Remembering It",
+  "summary": "Know the main international organisations, build a sustainable news routine, remember what you read with notes and mnemonics, and verify claims before sharing.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Describe what the UN, WTO and IMF do and how they differ.",
+    "Set up a daily news routine and a knowledge notebook that actually gets reviewed.",
+    "Use mnemonics and verification habits to remember accurately and avoid misinformation."
+  ],
+  "concepts": [
+    {
+      "id": "gk.intl-orgs",
+      "label": "International organisations"
+    },
+    {
+      "id": "gk.news-routine",
+      "label": "News routine and notebook"
+    },
+    {
+      "id": "gk.memory-techniques",
+      "label": "Mnemonics and memory palace"
+    },
+    {
+      "id": "gk.verifying-claims",
+      "label": "Verifying claims"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Who does what internationally",
+      "body": "The **United Nations** was founded in 1945 after the Second World War to maintain peace and promote cooperation. It is headquartered in New York. Its main organs include the **General Assembly**, where every member state has one vote; the **Security Council**, with 15 members, five of them permanent (China, France, Russia, the United Kingdom and the United States) holding a veto; the **International Court of Justice** at The Hague; and the Secretariat led by the Secretary-General.\n\nThe **World Trade Organization (WTO)**, set up in 1995 as successor to the GATT, is based in Geneva. It provides rules for trade between countries and a forum to settle trade disputes. The **International Monetary Fund (IMF)** and the **World Bank** came from the Bretton Woods conference of 1944 and sit in Washington DC. The IMF promotes monetary stability and lends to countries with balance-of-payments problems, while the World Bank finances development projects such as roads and schools. A one-line way to remember: UN for peace, WTO for trade, IMF for monetary stability, World Bank for development."
+    },
+    {
+      "heading": "A news routine that lasts",
+      "body": "The earlier lessons gave you facts; this one gives you the habit of keeping them fresh. Most people fail at news by overdoing it: three hours of scrolling leaves nothing behind. A sustainable routine is **20 to 30 minutes daily**.\n\nA workable pattern: spend 10 minutes scanning headlines from one or two reliable newspapers, 10 minutes reading one story in depth, and 5 minutes writing a note. Choose a mix: one national, one international, one economy or science item. Avoid reading only breaking news; follow stories over weeks to see how they develop.\n\nThen build a **knowledge notebook**, on paper or a notes app. For each item write the fact, why it matters, and a question you could be asked about it. On Sundays, spend 15 minutes reviewing the week's notes and turning the best five into flashcards. Without review, notes become a graveyard."
+    },
+    {
+      "heading": "Mnemonics and the memory palace",
+      "body": "Memory is helped by structure, vivid images and repetition at spaced intervals. A **mnemonic** is a memory aid. An acronym example: for the six fundamental-rights groups you could build a short sentence from their first letters. A rhyme or story works for lists of dates.\n\nThe **memory palace** (method of loci) uses a place you know well, say your home in Faridabad. Place one vivid image per item along a fixed route: to remember the five permanent members of the Security Council, imagine a giant dragon at the gate (China), a baguette on the sofa (France), a bear in the kitchen (Russia), a tea cup on the table (UK) and a burger on the bed (US). Walk the route in your mind to recall them. Make images exaggerated, funny and sensory. Then review at increasing gaps: next day, after three days, after a week."
+    },
+    {
+      "heading": "Verifying before you believe or share",
+      "body": "Forwarded messages claiming \"a new law from tomorrow\" or \"scientists warn\" spread because they provoke emotion. Build a short verification habit.\n\n1. **Pause** when a claim makes you angry or excited.\n2. **Find the source**: who said it, and can you see the original statement or document?\n3. **Check the date**: old stories are often recirculated as new.\n4. **Read laterally**: open other reliable outlets and see whether they report the same fact.\n5. **Look for numbers and context**: a percentage with no base, or a screenshot with no link to the original, is weak.\n\nExample: a forward says \"WTO bans all online payments in India from next month.\" The WTO sets trade rules between countries; it does not ban domestic payment systems. That mismatch with what the institution actually does is itself a warning sign. If you cannot verify it, do not share it."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A one-page Sunday review",
+      "body": "Priya keeps a notebook with three columns: fact, why it matters, possible question. Her Sunday entry: \"IMF lends to countries with balance-of-payments problems. Matters because it shapes news about loans. Question: which institution funds development projects? (World Bank).\" She converts five such entries into flashcards and reviews them again on Wednesday.",
+      "takeaway": "A fact, a reason and a question turn reading into usable knowledge."
+    },
+    {
+      "title": "Checking a forwarded message",
+      "body": "A WhatsApp forward says \"UN announces new world currency from next week.\" Rohan checks: the UN does not issue currency; there is no source link; the screenshot has no date. He searches reliable news outlets and finds nothing. He does not forward it and replies in the group with the reasons.",
+      "takeaway": "Match the claim with what the institution can actually do, and look for the original source."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gk-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "gk.intl-orgs",
+      "prompt": "Which organisation provides rules for trade between countries and a forum for settling trade disputes?",
+      "options": [
+        "WTO",
+        "IMF",
+        "World Bank",
+        "International Court of Justice"
+      ],
+      "answer": 0,
+      "why": "The WTO (1995, Geneva) handles trade rules. The IMF deals with monetary stability and the World Bank with development finance."
+    },
+    {
+      "id": "gk-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "gk.intl-orgs",
+      "prompt": "The number of permanent members of the UN Security Council is ____. (number)",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "why": "Five permanent members hold a veto: China, France, Russia, the United Kingdom and the United States."
+    },
+    {
+      "id": "gk-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "gk.verifying-claims",
+      "prompt": "A forward says \"RBI will cancel all ₹500 notes tomorrow, tell everyone\". You feel anxious. What is the best step?",
+      "options": [
+        {
+          "text": "Forward it to family groups to be safe.",
+          "score": 0,
+          "feedback": "Forwarding unverified alarming claims spreads panic."
+        },
+        {
+          "text": "Pause, look for the original statement, and check reliable news outlets or the official source before acting.",
+          "score": 3,
+          "feedback": "Pausing and checking the source and other outlets is the core verification habit."
+        },
+        {
+          "text": "Ignore it only because it was forwarded by many people.",
+          "score": 1,
+          "feedback": "Popularity does not verify a claim, and ignoring without checking means you cannot reassure others."
+        },
+        {
+          "text": "Rush to the bank and withdraw cash.",
+          "score": 0,
+          "feedback": "Acting on an unverified claim can cost you and spread panic."
+        }
+      ],
+      "why": "Verification beats reaction: pause, find the source, read laterally."
+    },
+    {
+      "id": "gk-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "gk.news-routine",
+      "prompt": "Design a 25-minute daily news routine for yourself. In 4 to 6 sentences, state what you read, for how long, how you record it and when you review it weekly.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "time",
+          "label": "Time-boxed plan",
+          "weight": 30,
+          "descriptors": {
+            "0": "No times.",
+            "1": "One vague time.",
+            "2": "Times for most steps.",
+            "3": "Clear minutes for each step totalling about 25."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes numbers for minutes"
+          }
+        },
+        {
+          "id": "record",
+          "label": "Recording method",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Mentions notes.",
+            "3": "Notebook with fact, why it matters and a question."
+          }
+        },
+        {
+          "id": "review",
+          "label": "Weekly review",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Says review.",
+            "3": "Specific day, minutes and flashcards."
+          }
+        },
+        {
+          "id": "realistic",
+          "label": "Realistic",
+          "weight": 20,
+          "descriptors": {
+            "0": "No.",
+            "1": "Too heavy.",
+            "2": "Mostly.",
+            "3": "Sustainable for months."
+          }
+        }
+      ],
+      "modelAnswer": "Every morning for 10 minutes I scan headlines from one national and one international newspaper, then read one story in depth for 10 minutes. In the last 5 minutes I write a note in my notebook with the fact, why it matters and a question. Every Sunday I spend 15 minutes reviewing the notes and turning the best five into flashcards for the coming week.",
+      "guidance": "A strong answer is concrete about minutes and days, includes both capture and review, and is small enough to sustain. Common mistakes are planning hours of reading, having no review step, or listing apps without a method. Rate yourself honestly."
+    }
+  ],
+  "task": {
+    "title": "Build your knowledge notebook",
+    "brief": "Start a notebook and use a memory palace for one list.",
+    "steps": [
+      "Create a notebook with columns: fact, why it matters, possible question.",
+      "Add five facts from today's reliable news or this course.",
+      "Choose a route in your home and place five images for the five UN Security Council permanent members.",
+      "Schedule a 15-minute review slot on Sunday."
+    ],
+    "checklist": [
+      "I created the columns",
+      "I added five facts",
+      "I walked the memory route twice",
+      "I scheduled a Sunday review"
+    ],
+    "evidencePrompt": "List your five facts and the route stops you used.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "gk-4.q1",
+      "type": "mcq",
+      "concept": "gk.intl-orgs",
+      "prompt": "The IMF and the World Bank were created following the conference of:",
+      "options": [
+        "Yalta, 1945",
+        "Geneva, 1995",
+        "Bretton Woods, 1944",
+        "Paris, 2015"
+      ],
+      "answer": 2,
+      "why": "Bretton Woods (1944) created both. Geneva 1995 is the WTO."
+    },
+    {
+      "id": "gk-4.q2",
+      "type": "fill",
+      "concept": "gk.news-routine",
+      "prompt": "A sustainable news routine takes about 20 to 30 ____ per day. (one word, unit of time)",
+      "accept": [
+        "minutes",
+        "mins"
+      ],
+      "why": "Short daily sessions are sustainable; hours of scrolling are not."
+    },
+    {
+      "id": "gk-4.q3",
+      "type": "mcq",
+      "concept": "gk.memory-techniques",
+      "prompt": "The memory palace technique places vivid images:",
+      "options": [
+        "On a random list",
+        "Along a familiar route in a known place",
+        "Only on flashcards",
+        "In alphabetical order"
+      ],
+      "answer": 1,
+      "why": "The method of loci uses a familiar route as the structure for recall."
+    },
+    {
+      "id": "gk-4.q4",
+      "type": "mcq",
+      "concept": "gk.verifying-claims",
+      "prompt": "A forward claims \"new law from tomorrow\". What is the first thing to check?",
+      "options": [
+        "How many people shared it",
+        "The original source and date",
+        "The font used",
+        "Whether it sounds scary"
+      ],
+      "answer": 1,
+      "why": "Source and date quickly show whether it is genuine or old and recirculated."
+    }
+  ],
+  "bank": [
+    {
+      "id": "gk-4.b1",
+      "type": "mcq",
+      "concept": "gk.intl-orgs",
+      "prompt": "Which UN organ has all member states as members with one vote each?",
+      "options": [
+        "Security Council",
+        "General Assembly",
+        "Secretariat",
+        "ICJ"
+      ],
+      "answer": 1,
+      "why": "The General Assembly is the only organ where every member has one vote."
+    },
+    {
+      "id": "gk-4.b2",
+      "type": "mcq",
+      "concept": "gk.news-routine",
+      "prompt": "You read for three hours daily but cannot recall anything. Which change helps most?",
+      "options": [
+        "Read more hours",
+        "Read less, write a short note and review weekly",
+        "Stop reading news",
+        "Only read headlines"
+      ],
+      "answer": 1,
+      "why": "Shorter reading with notes and review builds retention."
+    },
+    {
+      "id": "gk-4.b3",
+      "type": "fill",
+      "concept": "gk.verifying-claims",
+      "prompt": "Checking whether other reliable outlets report the same fact is called reading ____. (one word)",
+      "accept": [
+        "laterally",
+        "lateral"
+      ],
+      "why": "Lateral reading means leaving the page to see what other sources say."
+    }
+  ],
+  "cards": [
+    {
+      "id": "gk-4.c1",
+      "concept": "gk.intl-orgs",
+      "front": "UN, WTO, IMF, World Bank in a line each?",
+      "back": "UN: peace and cooperation. WTO: trade rules. IMF: monetary stability and lending. World Bank: development finance."
+    },
+    {
+      "id": "gk-4.c2",
+      "concept": "gk.news-routine",
+      "front": "What does a knowledge notebook entry hold?",
+      "back": "The fact, why it matters and a question you could be asked. Review weekly and convert the best items to flashcards."
+    },
+    {
+      "id": "gk-4.c3",
+      "concept": "gk.memory-techniques",
+      "front": "How does a memory palace work?",
+      "back": "Place vivid, exaggerated images for each item along a familiar route, then walk the route in your mind to recall them."
+    },
+    {
+      "id": "gk-4.c4",
+      "concept": "gk.verifying-claims",
+      "front": "Five-step verification?",
+      "back": "Pause, find the source, check the date, read laterally, look for numbers and context. Do not share if you cannot verify."
+    }
+  ],
+  "reflection": "Which source or habit of yours would you change after this lesson to know the world better and share only what is true?",
+  "revision": {
+    "keyPoints": [
+      "The UN keeps peace, WTO sets trade rules, IMF and World Bank handle money and development.",
+      "Aim for 20 to 30 minutes of news daily, with notes.",
+      "Review weekly or the notes are wasted.",
+      "Memory palaces turn lists into routes.",
+      "Verify source, date and other outlets before sharing."
+    ],
+    "redo": "Walk your memory-palace route and name the five items."
+  }
+}

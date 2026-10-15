@@ -1,0 +1,322 @@
+{
+  "id": "confidence-3",
+  "skillId": "confidence",
+  "n": 3,
+  "title": "Acting Despite Fear",
+  "summary": "Build courage with an exposure ladder, small wins, and a calm response to public mistakes.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build an exposure ladder for one feared situation.",
+    "Use small wins to expand your comfort zone.",
+    "Respond to a public mistake in a calm, brief way."
+  ],
+  "concepts": [
+    {
+      "id": "confidence.exposure-ladder",
+      "label": "Exposure ladder"
+    },
+    {
+      "id": "confidence.small-wins",
+      "label": "Small wins"
+    },
+    {
+      "id": "confidence.public-mistakes",
+      "label": "Handling public mistakes"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Confidence comes after action",
+      "body": "Many people wait to feel confident before acting. It works the other way round. Confidence is the memory of having done something and survived. Each time you face a feared situation, your brain updates its estimate of the danger. Avoidance feels like relief but teaches the brain that the situation really was dangerous, so the fear grows.\n\nThis lesson gives you a practical way to act while still afraid: climb in small steps, collect evidence of progress and know what to do when you make a mistake in front of others."
+    },
+    {
+      "heading": "The exposure ladder",
+      "body": "An **exposure ladder** is a list of steps from easy to hard for one feared situation. Suppose you fear speaking in class. Rung 1: ask the teacher a question privately. Rung 2: answer a question in a small group. Rung 3: ask a question in class. Rung 4: share an opinion in class. Rung 5: present for two minutes. Rate each rung from 0 to 10 for how scary it feels, and aim for rungs rated 3 to 5.\n\nStay on a rung until the fear drops by about half or you have done it three times, then move up. Do not jump to the top. Expect your heart to race; that is normal and fades with repetition."
+    },
+    {
+      "heading": "Small wins",
+      "body": "A **small win** is a step so manageable that you almost always succeed, such as greeting a new classmate or posting one comment in a group. Small wins matter because they provide real proof of your ability, and proof is what confidence is built from. Record each one in a \"wins list\" with the date. When doubt arrives, reading the list gives evidence against it. Comfort zones expand a few centimetres at a time; one stretch per day is enough. Choose wins that are visible to you and repeatable, such as starting a conversation, asking for clarification in a lecture or volunteering for the first turn in a group exercise. Over a month these add up to a clear change in what feels normal."
+    },
+    {
+      "heading": "Mistakes in public",
+      "body": "You will sometimes stumble: a wrong answer, a forgotten line, a mispronounced word. Most audiences notice far less than you fear, and they judge you mainly by how you recover. Use three moves: pause and breathe, correct briefly (\"Let me restate that\"), and continue. Do not apologise repeatedly or explain at length. Afterwards, note one thing to improve and drop the rest. Treat the mistake as data, not a verdict on your worth."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A ladder for interviews",
+      "body": "Ravi fears interviews. His ladder: tell a friend his introduction, record himself, do a mock interview with a senior, apply for a practice interview at a campus drive, attend a real one. He climbs one rung per week and notes each win.",
+      "takeaway": "Small ordered steps made a huge fear manageable."
+    },
+    {
+      "title": "Recovering on stage",
+      "body": "Sana forgets a line in a talk. She pauses, takes a breath, says \"Let me restate that point\", and continues. The audience barely notices. Later she writes: \"Practise the transition between slides 3 and 4.\"",
+      "takeaway": "Pause, restate, continue, then learn quietly."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "confidence-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "confidence.exposure-ladder",
+      "prompt": "In an exposure ladder, you should begin with:",
+      "options": [
+        "An easy step you rate around 3",
+        "The scariest step",
+        "Waiting until you feel ready",
+        "A step nobody sees"
+      ],
+      "answer": 0,
+      "why": "Begin with a manageable step and climb gradually."
+    },
+    {
+      "id": "confidence-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "confidence.small-wins",
+      "prompt": "Recording each success in a ____ list gives you evidence against doubt. (one word)",
+      "accept": [
+        "wins",
+        "win"
+      ],
+      "why": "A wins list provides proof of progress when doubt appears."
+    },
+    {
+      "id": "confidence-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "confidence.exposure-ladder",
+      "prompt": "Choose one situation you avoid. Write a five-rung exposure ladder from easy to hard, with a 0-10 scare rating for each rung and which rung you will try this week.",
+      "minWords": 41,
+      "rubric": [
+        {
+          "id": "steps",
+          "label": "Five graded steps",
+          "weight": 40,
+          "descriptors": {
+            "0": "Fewer than three steps.",
+            "1": "Three or four steps, uneven.",
+            "2": "Five steps, mostly graded.",
+            "3": "Five clearly graded steps."
+          }
+        },
+        {
+          "id": "ratings",
+          "label": "Scare ratings given",
+          "weight": 30,
+          "descriptors": {
+            "0": "No ratings.",
+            "1": "Some ratings.",
+            "2": "All rated but unrealistic.",
+            "3": "All rated and increasing."
+          }
+        },
+        {
+          "id": "next",
+          "label": "Specific rung this week",
+          "weight": 30,
+          "descriptors": {
+            "0": "None chosen.",
+            "1": "Vague choice.",
+            "2": "Rung chosen without a date.",
+            "3": "Specific rung with a day."
+          }
+        }
+      ],
+      "modelAnswer": "Situation: speaking in class. 1) Ask the teacher one question after class (2). 2) Answer in my study group (3). 3) Ask a question in class (5). 4) Share an opinion in class (6). 5) Present for two minutes (8). This week I will do rung 2 on Thursday.",
+      "guidance": "Good ladders increase gradually, begin with an easy step and include a date. Avoid making rung 1 as scary as rung 5."
+    },
+    {
+      "id": "confidence-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "confidence.public-mistakes",
+      "prompt": "You give a wrong figure during a team demo and someone points it out. Best response?",
+      "options": [
+        {
+          "text": "Apologise repeatedly and stop the demo.",
+          "score": 0,
+          "feedback": "Over-apologising draws more attention to the error."
+        },
+        {
+          "text": "Say \"Thanks, the correct figure is 42\", and continue.",
+          "score": 3,
+          "feedback": "A brief correction followed by continuing shows composure."
+        },
+        {
+          "text": "Argue that your figure was fine.",
+          "score": 0,
+          "feedback": "Defending a wrong figure damages trust."
+        },
+        {
+          "text": "Say nothing and hope nobody noticed.",
+          "score": 1,
+          "feedback": "Ignoring a pointed error leaves it uncorrected."
+        }
+      ],
+      "why": "Recover briefly and keep moving."
+    }
+  ],
+  "task": {
+    "title": "Climb one rung",
+    "brief": "Build a ladder and complete one rung before the day ends.",
+    "steps": [
+      "Pick one situation you avoid.",
+      "Write five rungs with scare ratings.",
+      "Do the easiest rung rated 2 to 4 today.",
+      "Add the result to your wins list with the date."
+    ],
+    "checklist": [
+      "I wrote a ladder",
+      "I rated each rung",
+      "I completed a rung",
+      "I recorded a win"
+    ],
+    "evidencePrompt": "Write your ladder and what happened when you did the rung.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "confidence-3.q1",
+      "type": "mcq",
+      "concept": "confidence.exposure-ladder",
+      "prompt": "Avoidance usually leads to:",
+      "options": [
+        "Less fear over time",
+        "Instant confidence",
+        "A stronger fear",
+        "Better grades"
+      ],
+      "answer": 2,
+      "why": "Avoidance teaches the brain the situation is dangerous."
+    },
+    {
+      "id": "confidence-3.q2",
+      "type": "mcq",
+      "concept": "confidence.small-wins",
+      "prompt": "Why record small wins?",
+      "options": [
+        "To impress others",
+        "To build proof of your ability",
+        "To avoid risks",
+        "To lower standards"
+      ],
+      "answer": 1,
+      "why": "Recorded proof counters doubt."
+    },
+    {
+      "id": "confidence-3.q3",
+      "type": "mcq",
+      "concept": "confidence.public-mistakes",
+      "prompt": "After a public mistake, a good move is to:",
+      "options": [
+        "Apologise at length",
+        "Pause, correct briefly and continue",
+        "Leave the room",
+        "Blame the audience"
+      ],
+      "answer": 1,
+      "why": "Brief recovery shows composure."
+    },
+    {
+      "id": "confidence-3.q4",
+      "type": "fill",
+      "concept": "confidence.exposure-ladder",
+      "prompt": "You move up a rung after the fear drops by about ____. (one word)",
+      "accept": [
+        "half",
+        "50%"
+      ],
+      "why": "Stay until the fear drops by about half or you have done it three times."
+    }
+  ],
+  "bank": [
+    {
+      "id": "confidence-3.b1",
+      "type": "mcq",
+      "concept": "confidence.exposure-ladder",
+      "prompt": "A good first rung is rated around:",
+      "options": [
+        "9 out of 10",
+        "3 to 5 out of 10",
+        "0 out of 10 only",
+        "It does not matter"
+      ],
+      "answer": 1,
+      "why": "Moderate difficulty gives learning without overwhelm."
+    },
+    {
+      "id": "confidence-3.b2",
+      "type": "mcq",
+      "concept": "confidence.small-wins",
+      "prompt": "Which is a small win?",
+      "options": [
+        "Winning a national award",
+        "Asking one question in a group chat",
+        "Quitting",
+        "Waiting"
+      ],
+      "answer": 1,
+      "why": "Small wins are manageable steps you can reliably complete."
+    },
+    {
+      "id": "confidence-3.b3",
+      "type": "mcq",
+      "concept": "confidence.public-mistakes",
+      "prompt": "How do audiences judge you after a slip?",
+      "options": [
+        "Mostly by the slip",
+        "Mainly by how you recover",
+        "Not at all",
+        "By your marks"
+      ],
+      "answer": 1,
+      "why": "Recovery matters more than the error itself."
+    }
+  ],
+  "cards": [
+    {
+      "id": "confidence-3.c1",
+      "concept": "confidence.exposure-ladder",
+      "front": "Exposure ladder steps?",
+      "back": "List 5 rungs from easy to hard, rate each 0-10, stay until fear halves, then move up."
+    },
+    {
+      "id": "confidence-3.c2",
+      "concept": "confidence.small-wins",
+      "front": "Why keep a wins list?",
+      "back": "It is proof of progress that answers doubt with evidence."
+    },
+    {
+      "id": "confidence-3.c3",
+      "concept": "confidence.public-mistakes",
+      "front": "Three moves after a public slip?",
+      "back": "Pause and breathe, correct briefly, continue."
+    },
+    {
+      "id": "confidence-3.c4",
+      "concept": "confidence.exposure-ladder",
+      "front": "Why not jump to the top rung?",
+      "back": "Too much fear overwhelms and reinforces avoidance; small steps build real confidence."
+    }
+  ],
+  "reflection": "Which situation do you avoid most, and what is the smallest first rung you could try this week?",
+  "revision": {
+    "keyPoints": [
+      "Confidence follows action.",
+      "Climb gradually with an exposure ladder.",
+      "Record small wins as proof.",
+      "Recover briefly from public mistakes."
+    ],
+    "redo": "Do the next rung of your ladder and update the wins list."
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "discipline-2",
+  "skillId": "discipline",
+  "n": 2,
+  "title": "Designing Your Environment",
+  "summary": "Shape your surroundings so good habits are easy and distractions are hard, using friction, commitment devices, temptation bundling and urge surfing.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Add friction to a distraction and remove friction from a helpful habit.",
+    "Design a commitment device and a temptation bundle for one of your own habits.",
+    "Ride out an urge with a short urge-surfing routine and set clear phone boundaries."
+  ],
+  "concepts": [
+    {
+      "id": "discipline.friction",
+      "label": "Friction and phone boundaries"
+    },
+    {
+      "id": "discipline.commitment",
+      "label": "Commitment devices"
+    },
+    {
+      "id": "discipline.bundling",
+      "label": "Temptation bundling"
+    },
+    {
+      "id": "discipline.urge-surfing",
+      "label": "Urge surfing"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Environment beats willpower: friction up, friction down",
+      "body": "In the last lesson you built a tiny habit with a cue. Now look at where you do it. We do what is easy and visible. Willpower is a limited and unreliable resource, but your surroundings work for you 24 hours a day.\n\n**Friction** is the number of steps and the effort between you and an action. To build a habit, **remove friction**: leave your laptop open on the study table with the practice file ready, so starting is one step. To break a habit, **add friction**: log out of Instagram, move the app into a folder on the last screen, and charge your phone in another room, so a scroll takes seven steps instead of one.\n\nA useful rule: make the good action take under 20 seconds to start and make the bad action take over 60 seconds. You are not trying to be strong; you are trying to be the person whose room makes the right choice easy."
+    },
+    {
+      "heading": "Phone boundaries in three layers",
+      "body": "The phone is the biggest source of friction problems for most students, so set boundaries in layers.\n\n1. **Remove**: delete apps you never planned to use, and turn off notifications for everything except calls and people. A buzz is a cue you did not choose.\n2. **Hide and delay**: move social apps off the home screen, use a screen-time limit that needs a password someone else knows, and keep the phone in another room during focus blocks.\n3. **Replace**: put a book, notebook or practice file where the phone used to sit.\n\nIllustrative arithmetic: if you unlock your phone 60 times a day and each unlock costs about 3 minutes once you count getting back on track, that is 180 minutes, three hours, a day. Cutting unlocks in half returns an hour and a half. Your numbers will differ; the logic is the same."
+    },
+    {
+      "heading": "Commitment devices and temptation bundling",
+      "body": "A **commitment device** is a choice made now that binds your future self. You use it when you know that at 9 pm you will want to give up. Examples: pay for a mock test series in advance, book a study slot with a friend who will wait for you, or agree that you pay your friend ₹200 for every missed session. If you plan five sessions a week and miss two, you pay ₹400, which is real enough to matter but small enough to be safe. A good device is specific, easy to check, and cannot be quietly cancelled by you.\n\n**Temptation bundling** joins something you *need* to do with something you *want* to do, allowed only together. Examples: your favourite podcast only while doing flashcards; a cricket highlights video only after the day's code practice; a special coffee only while updating your resume. The want becomes the reward in the habit loop from Lesson 1."
+    },
+    {
+      "heading": "Urge surfing: when the craving arrives anyway",
+      "body": "Even with a good environment, urges come: the urge to check a message, open a video, or skip the session. An urge behaves like a wave. It rises, peaks and falls, usually within a few minutes, whether you obey it or not. **Urge surfing** means watching the wave instead of acting on it.\n\nA simple routine:\n\n1. Name it: 'This is an urge to check Instagram.'\n2. Rate it from 1 to 10 and notice where you feel it (restless hands, tight chest).\n3. Breathe slowly and set a 10-minute timer. Do not argue with the urge. Just watch the number change.\n4. When the timer ends, re-rate it. If it is still high, take a two-minute walk, then restart the timer.\n\nNotice that this is not about suppressing anything. You are showing your brain that an urge can exist without being obeyed, and each time you do this the next wave is a little weaker."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A room redesign for a study evening",
+      "body": "Before: phone on the bed, laptop in the bag, charger in the study corner, YouTube tab always open.\n\nAfter:\n- Phone charges in the hall at 6 pm (friction up: 12 steps to reach it).\n- Laptop sits open on the desk with the ABAP practice file loaded (friction down: 1 step to start).\n- A sticky note on the screen: 'One SELECT statement first.'\n- YouTube logged out on the laptop.\n\nResult: the first action in the room is the practice file, not the phone.",
+      "takeaway": "Two moves, adding friction to the distraction and removing it from the habit, change behaviour without any extra willpower."
+    },
+    {
+      "title": "A commitment device with arithmetic",
+      "body": "Priya plans to practise on 5 days a week for 4 weeks, which is 20 sessions. She tells her friend Ananya: 'For every missed session, I pay you ₹150.' In week 1 she misses one session, so she pays ₹150. In week 2 she misses none. By week 4 her total is ₹150, and because the stake was real she studied on days she would normally have skipped.\n\nIf she had missed 4 sessions, she would have paid 4 x ₹150 = ₹600.",
+      "takeaway": "A stake is useful when it is fixed in advance, small enough to be safe, and enforced by another person."
+    },
+    {
+      "title": "Surfing a 9 pm urge",
+      "body": "9:05 pm: 'I want to check reels.' Rating: 8/10. Timer for 10 minutes. 9:08: 7/10, feel restless in the hands, so I stretch. 9:12: 5/10. 9:15: 3/10, the timer ends and I go back to flashcards. I did not delete anything or shout at myself. I just waited.",
+      "takeaway": "The urge fell from 8 to 3 without being obeyed. Watching numbers change turns an emergency into an event."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "discipline-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "discipline.friction",
+      "prompt": "You want to practise coding every evening and also scroll less. Which setup uses friction correctly?",
+      "options": [
+        "Keep the phone on the desk with notifications off and open the laptop only when you feel motivated.",
+        "Charge the phone in another room and leave the laptop open on your practice file.",
+        "Delete the phone's browser and keep the laptop in your bag.",
+        "Keep both on the desk and rely on willpower."
+      ],
+      "answer": 1,
+      "hint": "Add friction to the distraction and remove it from the habit.",
+      "why": "Charging the phone away adds friction to the distraction, and an open practice file removes friction from the habit. The first option leaves the phone in reach and waits for motivation, the third makes the good habit harder, and the fourth uses no design at all."
+    },
+    {
+      "id": "discipline-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "discipline.friction",
+      "prompt": "Illustration: you unlock your phone 60 times a day and each unlock costs 3 minutes of lost focus. How many hours is that per day? (number only)",
+      "accept": [
+        "3",
+        "3 hours",
+        "3 hrs",
+        "3 h",
+        "3.0"
+      ],
+      "hint": "60 x 3 gives minutes. Divide by 60 for hours.",
+      "why": "60 x 3 = 180 minutes, which is 3 hours. Even if your own numbers are smaller, the cost of frequent unlocks is much larger than any single glance suggests."
+    },
+    {
+      "id": "discipline-2.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "discipline.bundling",
+      "prompt": "Design one temptation bundle and one commitment device for the habit of doing 30 minutes of ABAP practice on 5 evenings a week. State the want you will bundle, the rule that links it to the habit, and the stake with its rupee amount and the person who enforces it.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "bundle",
+          "label": "Temptation bundle: a want tied only to the habit",
+          "weight": 30,
+          "descriptors": {
+            "0": "No bundle, or the want is available anytime anyway.",
+            "1": "A want is named but it is not restricted to the habit.",
+            "2": "A want is tied to the habit, but the rule is loose.",
+            "3": "A specific enjoyable thing allowed only during or right after the practice, with a clear rule."
+          }
+        },
+        {
+          "id": "stake",
+          "label": "Commitment device with a clear stake",
+          "weight": 35,
+          "descriptors": {
+            "0": "No stake or consequence.",
+            "1": "A vague stake such as 'I will feel guilty'.",
+            "2": "A stake is stated but the amount or trigger is unclear.",
+            "3": "A specific rupee amount, a clear trigger (per missed session) and a total that checks out."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "(₹|rs\\.?|rupees|inr)\\s*\\d+|\\d+\\s*(rupees|rs)",
+            "flags": "i",
+            "label": "States a rupee amount"
+          }
+        },
+        {
+          "id": "enforce",
+          "label": "Enforcement by another person or fixed system",
+          "weight": 20,
+          "descriptors": {
+            "0": "Only you control the consequence.",
+            "1": "Someone is named but has no real role.",
+            "2": "Someone is named and checks, but the process is unclear.",
+            "3": "A named person or system enforces the stake without your permission."
+          }
+        },
+        {
+          "id": "safe",
+          "label": "Realistic and safe",
+          "weight": 15,
+          "descriptors": {
+            "0": "Extreme or harmful stake.",
+            "1": "Too large or too small to be sensible.",
+            "2": "Reasonable but not tested against a bad week.",
+            "3": "A modest stake that you could afford to lose and that fits a bad week."
+          }
+        }
+      ],
+      "modelAnswer": "Bundle: I watch my favourite cricket analysis video only while I am doing the 30-minute practice, or right after it, never before. Device: I will pay my friend Ananya ₹150 for each of the 5 weekly evening sessions I miss. If I miss 2 in a week, I pay ₹300. Ananya checks my session log on Sunday and I send the money by UPI the same night.",
+      "guidance": "A strong answer joins a genuine pleasure to the habit with a firm rule, and sets a stake that is real but safe, fixed in advance, and enforced by someone else. Common mistakes are bundling something you can have anytime (so it is no incentive), and punishing yourself with a stake you could cancel. Check that your arithmetic is correct: amount per miss times missed sessions."
+    },
+    {
+      "id": "discipline-2.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "discipline.urge-surfing",
+      "prompt": "It is 9:30 pm and you are 20 minutes into a practice session. A strong urge hits to open a video platform 'just for 5 minutes'. Your phone is on the desk. What is the best response?",
+      "options": [
+        {
+          "text": "Give in for five minutes; it is only five minutes.",
+          "score": 0,
+          "feedback": "Giving in rewards the urge and strengthens the loop; five minutes rarely stays five."
+        },
+        {
+          "text": "Name the urge, rate it, move the phone to the hall, set a 10-minute timer and keep working.",
+          "score": 3,
+          "feedback": "Right: you surf the urge as it fades and add friction so the next one is easier to resist."
+        },
+        {
+          "text": "Scold yourself for being weak and force yourself to sit still.",
+          "score": 1,
+          "feedback": "Self-criticism relies on willpower and adds stress, without changing the environment or the urge."
+        },
+        {
+          "text": "Quit for the evening and promise to do double tomorrow.",
+          "score": 1,
+          "feedback": "One wave becomes a lost day, and the double-tomorrow promise usually fails too."
+        }
+      ],
+      "why": "Surf the urge and add friction at the same time. Naming and rating makes the urge an event, and moving the phone adds friction for next time. Giving in rewards the urge and feeds the loop, scolding relies on willpower, and quitting turns one wave into a lost day."
+    }
+  ],
+  "task": {
+    "title": "Redesign one study spot",
+    "brief": "Change your environment tonight so that your ABAP practice is easier to start and your biggest distraction is harder to reach.",
+    "steps": [
+      "Identify your biggest distraction (an app, a game or a site) and note how many steps it takes to open it now.",
+      "Add at least two friction steps: for example log out, move the app into a hidden folder, set a password-protected time limit, or charge the phone in another room.",
+      "Remove friction from your habit: open the practice file or notes and leave the laptop ready on the desk.",
+      "Write one temptation bundle rule and one stake with an amount and a friend who checks.",
+      "Tomorrow, count how many times you reached for the distraction compared with today."
+    ],
+    "checklist": [
+      "I wrote the number of steps before and after",
+      "I added at least two friction steps to the distraction",
+      "My habit takes one step to begin",
+      "I wrote a bundle rule and a stake with an amount"
+    ],
+    "evidencePrompt": "Describe your two friction changes, your bundle rule and your stake.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "discipline-2.q1",
+      "type": "mcq",
+      "concept": "discipline.friction",
+      "prompt": "Which action ADDS friction to a distracting habit?",
+      "options": [
+        "Logging out and moving the app into a folder on the last screen",
+        "Placing the app on your home screen",
+        "Keeping the phone on the desk for convenience",
+        "Turning on notifications so you do not miss anything"
+      ],
+      "answer": 0,
+      "why": "Logging out and burying the app adds steps. The other options make the app easier or louder, which strengthens the cue."
+    },
+    {
+      "id": "discipline-2.q2",
+      "type": "mcq",
+      "concept": "discipline.commitment",
+      "prompt": "Which of these is the best commitment device?",
+      "options": [
+        "Telling yourself you will try harder next week",
+        "Making a private promise in your diary",
+        "Writing a long list of goals",
+        "Pre-paying for a 10-session mock test series and booking each slot with a friend"
+      ],
+      "answer": 3,
+      "why": "Pre-paying and booking with a friend commits your future self and involves another person. Private promises and lists can be quietly ignored."
+    },
+    {
+      "id": "discipline-2.q3",
+      "type": "mcq",
+      "concept": "discipline.bundling",
+      "prompt": "Which is a true temptation bundle?",
+      "options": [
+        "Watching your favourite series whenever you like, and studying whenever you can",
+        "Studying for an hour and then deciding what to do next",
+        "Listening to your favourite podcast only while doing flashcards",
+        "Buying a new notebook because you studied once"
+      ],
+      "answer": 2,
+      "why": "Bundling links something you want to something you need to do, and allows the want only with the need. The other options do not tie the two together."
+    },
+    {
+      "id": "discipline-2.q4",
+      "type": "fill",
+      "concept": "discipline.urge-surfing",
+      "prompt": "Urge surfing treats an urge like a ____ that rises, peaks and falls. Fill in the one-word image.",
+      "accept": [
+        "wave",
+        "a wave"
+      ],
+      "why": "An urge rises, peaks and falls like a wave, usually within minutes, whether or not you obey it. You watch it instead of acting."
+    }
+  ],
+  "bank": [
+    {
+      "id": "discipline-2.b1",
+      "type": "mcq",
+      "concept": "discipline.friction",
+      "prompt": "Arjun wants to drink more water at work. His bottle is in his bag under the desk. What is the best friction fix?",
+      "options": [
+        "Place a filled bottle on the desk in view",
+        "Set a reminder to drink water more often",
+        "Feel guilty when he forgets",
+        "Buy a bigger bottle and keep it in the bag"
+      ],
+      "answer": 0,
+      "why": "Putting the bottle in view removes friction and adds a visual cue. Reminders and guilt rely on willpower, and a bigger bottle in the bag does not change visibility."
+    },
+    {
+      "id": "discipline-2.b2",
+      "type": "fill",
+      "concept": "discipline.commitment",
+      "prompt": "You agree to pay a friend ₹100 for every skipped workout. Over a month you skip 3 workouts. How much do you pay in rupees? (number only)",
+      "accept": [
+        "300",
+        "₹300",
+        "rs 300",
+        "rs.300",
+        "300 rupees"
+      ],
+      "why": "3 x ₹100 = ₹300. Predictable arithmetic is part of what makes a commitment device effective."
+    },
+    {
+      "id": "discipline-2.b3",
+      "type": "mcq",
+      "concept": "discipline.urge-surfing",
+      "prompt": "During urge surfing, you rate an urge 8 out of 10, wait 10 minutes and rate it 4. What does this show?",
+      "options": [
+        "The method failed because the urge is still there",
+        "Urges fade on their own when you watch them instead of obeying",
+        "You must suppress urges completely to succeed",
+        "You are naturally strong-willed"
+      ],
+      "answer": 1,
+      "why": "The drop from 8 to 4 shows that urges pass without being acted on. The goal is not zero urge or special willpower, but seeing that you can let it pass."
+    }
+  ],
+  "cards": [
+    {
+      "id": "discipline-2.c1",
+      "concept": "discipline.friction",
+      "front": "How do you use friction to change habits?",
+      "back": "Remove steps between you and the habit you want (laptop open, file ready). Add steps before the distraction (log out, hide the app, charge the phone elsewhere)."
+    },
+    {
+      "id": "discipline-2.c2",
+      "concept": "discipline.commitment",
+      "front": "What makes a commitment device work?",
+      "back": "It is decided in advance, specific, with a modest real stake, and enforced by another person or system so you cannot quietly cancel it."
+    },
+    {
+      "id": "discipline-2.c3",
+      "concept": "discipline.bundling",
+      "front": "What is temptation bundling?",
+      "back": "Pairing something you want with something you need to do, and allowing the want only together with the need, for example a favourite podcast only during flashcards."
+    },
+    {
+      "id": "discipline-2.c4",
+      "concept": "discipline.urge-surfing",
+      "front": "What are the steps of urge surfing?",
+      "back": "Name the urge, rate it 1 to 10, breathe, set a 10-minute timer and watch the number change without acting. Re-rate at the end."
+    }
+  ],
+  "reflection": "Which distraction in your space has the lowest friction right now, and what is the single smallest change that would make it harder to reach tonight?",
+  "revision": {
+    "keyPoints": [
+      "Add friction to distractions; remove it from the habit you want.",
+      "Use layers for the phone: remove, hide and delay, replace.",
+      "A commitment device is specific, small, and enforced by someone else.",
+      "Bundle a want with a need, only together.",
+      "Name, rate and wait out an urge for 10 minutes."
+    ],
+    "redo": "Look at your desk or phone and make one change that adds a step to a distraction or removes a step from your habit."
+  }
+}

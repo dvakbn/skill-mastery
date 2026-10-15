@@ -1,0 +1,326 @@
+{
+  "id": "leadership-1",
+  "skillId": "leadership",
+  "n": 1,
+  "title": "What Leaders Actually Do",
+  "summary": "Understand how leadership differs from management, how to influence without a title, and how ownership and direction-setting show up in student teams.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Distinguish leadership from management with concrete examples.",
+    "Use influence without authority to move a team forward.",
+    "Show ownership and set a clear direction in a small project."
+  ],
+  "concepts": [
+    {
+      "id": "leadership.leader-vs-manager",
+      "label": "Leadership vs management"
+    },
+    {
+      "id": "leadership.influence",
+      "label": "Influence without authority"
+    },
+    {
+      "id": "leadership.ownership",
+      "label": "Ownership"
+    },
+    {
+      "id": "leadership.direction",
+      "label": "Setting direction"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Leadership is not a title",
+      "body": "Many students think leadership means being the team head, the class representative or the manager. In practice, leadership is **helping a group move towards a goal**, and anyone can do it. A fourth-semester student who organises a revision plan for the whole class is leading, even without a post.\n\nManagement and leadership overlap but differ. **Management** keeps the work running: plans, schedules, budgets, tracking. **Leadership** deals with change and direction: deciding where we are headed, aligning people and inspiring effort. A project manager who tracks tasks in a sheet is managing; the person who says \"our demo should solve the hostel mess problem, not just show screens\" is leading. Good teams need both, and most people do both on different days."
+    },
+    {
+      "heading": "Influence without authority",
+      "body": "In your first IT-services job, you will rarely be anyone's boss, yet you will need seniors, testers and client contacts to act. This is **influence without authority**. Four practical levers:\n\n1. **Credibility**: do reliable work and keep promises. People follow people whose small commitments hold.\n2. **Relationships**: spend time understanding what others need. A five-minute chat about a colleague's deadline makes a later request easier.\n3. **Reasons tied to their interests**: instead of \"please review my code,\" say \"a quick review now will avoid a late defect in your testing next week.\"\n4. **Making it easy**: bring a draft, a checklist or a clear option, not an open-ended problem.\n\nThe common mistake is relying on pressure or escalating to a manager first. That works once and costs goodwill."
+    },
+    {
+      "heading": "Ownership: act as if it is yours",
+      "body": "**Ownership** means taking responsibility for an outcome, not only for your assigned task. A student who says \"my module is done\" has finished a task; one who says \"the whole demo must work on Friday, so I will test the full flow\" has taken ownership. Signs of ownership: you flag risks early, fix problems outside your narrow job when sensible, and report honestly on mistakes. A simple phrase helps: **\"What would I do if this were my own project?\"**\n\nOwnership does not mean doing everything. It means making sure the outcome happens, whether by doing, asking or escalating."
+    },
+    {
+      "heading": "Setting direction",
+      "body": "A group without direction works hard and goes nowhere. Setting direction takes three short statements:\n\n- **Purpose**: why this matters. (\"We are building a canteen pre-order app so students waste less time in queues.\")\n- **Goal**: what done looks like. (\"Working demo with login, menu and payment screen by 20 November.\")\n- **First steps**: who does what this week.\n\nPractise by writing these three lines at the start of every group assignment and sharing them in the group chat. Ask whether everyone agrees. Clear direction prevents most arguments later."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Leading without a title",
+      "body": "In a four-member college project, nobody is leader. Ishaan notices three people are working on the same page. He writes a list of tasks in the group chat with names, asks \"Does this split work?\" and offers to merge the code on Thursdays. Two members adjust; the meeting that was going to be a quarrel is not needed.",
+      "takeaway": "He used a small, easy-to-accept proposal and took ownership of a gap, without a title."
+    },
+    {
+      "title": "Manager vs leader statement",
+      "body": "Statement A: \"Tasks are due by Friday; please update the sheet.\" Statement B: \"Our client wants fewer manual steps, so let us make the form self-checking.\" A is management: coordination of work. B is leadership: it gives direction and meaning, and invites ideas.",
+      "takeaway": "Management organises the work; leadership explains why and where."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leadership-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "leadership.leader-vs-manager",
+      "prompt": "Which action is closest to leadership rather than management?",
+      "options": [
+        "Explaining the purpose of the project and agreeing a goal",
+        "Updating the task tracker",
+        "Booking the meeting room",
+        "Checking attendance"
+      ],
+      "answer": 0,
+      "why": "Setting direction and creating alignment is leadership; the others are coordination tasks, which belong to management."
+    },
+    {
+      "id": "leadership-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "leadership.ownership",
+      "prompt": "Taking responsibility for the whole outcome, not only your task, is called ____. (one word)",
+      "accept": [
+        "ownership"
+      ],
+      "why": "Ownership means caring that the outcome happens."
+    },
+    {
+      "id": "leadership-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "leadership.influence",
+      "prompt": "You need a senior engineer to review your code but she is busy. Which approach shows influence without authority?",
+      "options": [
+        {
+          "text": "Tell your manager she is not cooperating.",
+          "score": 1,
+          "feedback": "Escalating first costs goodwill and may slow things further."
+        },
+        {
+          "text": "Send a short note: what you want reviewed, how long it takes, and how it avoids a defect in her test phase.",
+          "score": 3,
+          "feedback": "You make it easy and link the request to her interests."
+        },
+        {
+          "text": "Wait until she is free without telling anyone.",
+          "score": 1,
+          "feedback": "Silence leaves your deadline at risk."
+        },
+        {
+          "text": "Insist it is her duty.",
+          "score": 0,
+          "feedback": "Appeals to duty create resentment and do not give her a reason."
+        }
+      ],
+      "why": "Influence works through easy asks tied to the other person interests."
+    },
+    {
+      "id": "leadership-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "leadership.direction",
+      "prompt": "Your three-member group has a week to make a mini-project on a library book-tracking system. Write purpose, goal and first steps in 4 to 6 sentences as a message to the group.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "purpose",
+          "label": "Purpose stated",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Clear.",
+            "3": "Clear and meaningful to users."
+          }
+        },
+        {
+          "id": "goal",
+          "label": "Goal measurable with date",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "A goal.",
+            "3": "A goal that shows what done looks like with a date."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d|monday|tuesday|wednesday|thursday|friday|saturday|sunday",
+            "label": "Mentions a time or date"
+          }
+        },
+        {
+          "id": "steps",
+          "label": "First steps with names",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Some steps.",
+            "3": "Specific steps with owners."
+          }
+        }
+      ],
+      "modelAnswer": "Hi all, our purpose is to help students find and return library books without queues. By Friday evening we need a working demo with search, issue and return. This week: Arun builds the database and search, Neha the issue and return screens, and I will write the report and test the full flow on Thursday. Does this split work for everyone?",
+      "guidance": "Strong messages state why, what done looks like with a date and who does what, and invite agreement. Common mistakes are listing only tasks and leaving out the purpose. Compare honestly."
+    }
+  ],
+  "task": {
+    "title": "Lead one small thing",
+    "brief": "Without waiting for permission, lead a small piece of a group activity this week.",
+    "steps": [
+      "Choose a group task such as a study group or project.",
+      "Write purpose, goal and first steps in three lines.",
+      "Share them and ask for agreement.",
+      "Take ownership of one gap nobody owns.",
+      "Note what response you got."
+    ],
+    "checklist": [
+      "I wrote purpose, goal and steps",
+      "I asked for agreement",
+      "I took ownership of one gap",
+      "I noted the response"
+    ],
+    "evidencePrompt": "Paste your three lines and what happened.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "leadership-1.q1",
+      "type": "mcq",
+      "concept": "leadership.leader-vs-manager",
+      "prompt": "Management mainly focuses on:",
+      "options": [
+        "Inspiring people",
+        "Setting a vision",
+        "Running the work: plans, schedules, tracking",
+        "Avoiding change"
+      ],
+      "answer": 2,
+      "why": "Management keeps work organised; leadership handles direction and change."
+    },
+    {
+      "id": "leadership-1.q2",
+      "type": "mcq",
+      "concept": "leadership.influence",
+      "prompt": "Which is a lever of influence without authority?",
+      "options": [
+        "Threats",
+        "Credibility and making the ask easy",
+        "Seniority",
+        "Shouting"
+      ],
+      "answer": 1,
+      "why": "Reliable work and easy, interest-based asks move people without formal power."
+    },
+    {
+      "id": "leadership-1.q3",
+      "type": "fill",
+      "concept": "leadership.ownership",
+      "prompt": "The phrase \"What would I do if this were my own ____?\" helps ownership. (one word)",
+      "accept": [
+        "project"
+      ],
+      "why": "Treating the outcome as yours changes what you do."
+    },
+    {
+      "id": "leadership-1.q4",
+      "type": "mcq",
+      "concept": "leadership.direction",
+      "prompt": "Which trio sets direction?",
+      "options": [
+        "Purpose, goal and first steps",
+        "Rules, penalties and reports",
+        "Tools, budget and staff",
+        "Hope, luck and effort"
+      ],
+      "answer": 0,
+      "why": "Purpose explains why, the goal what done looks like, and first steps start action."
+    }
+  ],
+  "bank": [
+    {
+      "id": "leadership-1.b1",
+      "type": "mcq",
+      "concept": "leadership.ownership",
+      "prompt": "Your module works, but you find the final demo may fail at login written by a teammate. An owner would:",
+      "options": [
+        "Ignore it; not your module",
+        "Tell the teammate, offer to test together and flag the risk",
+        "Blame the teammate in class",
+        "Rewrite it secretly"
+      ],
+      "answer": 1,
+      "why": "Owners protect the outcome through communication and help, not blame or secrecy."
+    },
+    {
+      "id": "leadership-1.b2",
+      "type": "fill",
+      "concept": "leadership.influence",
+      "prompt": "Using credibility, relationships and reasons to move people without any formal power is influence without ____. (one word)",
+      "accept": [
+        "authority"
+      ],
+      "why": "It means influencing without having formal authority."
+    },
+    {
+      "id": "leadership-1.b3",
+      "type": "mcq",
+      "concept": "leadership.direction",
+      "prompt": "A team keeps fighting about features. The most useful leadership move is to:",
+      "options": [
+        "Pick a winner by seniority",
+        "Restate the purpose and goal and judge features against it",
+        "Postpone the project",
+        "Split the team"
+      ],
+      "answer": 1,
+      "why": "A shared purpose gives a fair test for decisions and ends circular arguments."
+    }
+  ],
+  "cards": [
+    {
+      "id": "leadership-1.c1",
+      "concept": "leadership.leader-vs-manager",
+      "front": "Leadership vs management?",
+      "back": "Management runs the work through plans and tracking; leadership sets direction, aligns people and drives change. Most people need both."
+    },
+    {
+      "id": "leadership-1.c2",
+      "concept": "leadership.influence",
+      "front": "Four levers of influence without authority?",
+      "back": "Credibility, relationships, reasons tied to their interests and making the request easy by bringing a draft or option."
+    },
+    {
+      "id": "leadership-1.c3",
+      "concept": "leadership.ownership",
+      "front": "What is ownership?",
+      "back": "Taking responsibility for the whole outcome: flagging risks early, helping beyond your narrow task and being honest about mistakes."
+    },
+    {
+      "id": "leadership-1.c4",
+      "concept": "leadership.direction",
+      "front": "How do you set direction?",
+      "back": "State purpose, goal with date and first steps with names, then check agreement before starting."
+    }
+  ],
+  "reflection": "Where in your current group work is direction unclear, and what three lines could you write to fix it?",
+  "revision": {
+    "keyPoints": [
+      "Leadership is an act, not a title.",
+      "Influence comes from credibility and easy, relevant asks.",
+      "Ownership means caring about the whole outcome.",
+      "Direction is purpose, goal and first steps."
+    ],
+    "redo": "Write purpose, goal and first steps for your next group task in three lines."
+  }
+}

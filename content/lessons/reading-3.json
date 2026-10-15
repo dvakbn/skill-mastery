@@ -1,0 +1,340 @@
+{
+  "id": "reading-3",
+  "skillId": "reading",
+  "n": 3,
+  "title": "Reading Non-Fiction and Technical Text",
+  "summary": "Read papers, documentation and long articles by structure, summarise in your own words and slow down deliberately for dense passages.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Use the structure of a text, conclusion first, to decide how deeply to read.",
+    "Summarise a section in your own words without looking back.",
+    "Apply a slow-reading routine to dense technical documentation."
+  ],
+  "concepts": [
+    {
+      "id": "reading.structure",
+      "label": "Reading by structure"
+    },
+    {
+      "id": "reading.summarising",
+      "label": "Summarising in your own words"
+    },
+    {
+      "id": "reading.dense-text",
+      "label": "Slowing down for dense material"
+    },
+    {
+      "id": "reading.documentation",
+      "label": "Reading documentation and long articles"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Read the map before the territory",
+      "body": "In the previous lesson you learned to set a purpose and preview before reading. Non-fiction and technical text reward that habit even more, because they are built with structure: titles, headings, abstracts, summaries, diagrams and conclusions. A story is meant to be read in order; a technical article is not.\n\nFor a research paper or long report, read in this order: title, abstract (or executive summary), headings, the **conclusion**, then any figures and tables. Only then decide what to read in full. Reading the conclusion first sounds like cheating, but it tells you what the author wants you to believe, so you can judge the evidence with a question in mind: \"Do these results really support that claim?\"\n\nExample: you are preparing an MCA seminar on cloud migration. A 20-page case study opens with an abstract of 150 words. Five minutes on the abstract, headings and conclusion shows that only sections 3 and 5 relate to your topic. You save an hour."
+    },
+    {
+      "heading": "Summarise in your own words",
+      "body": "The fastest test of understanding is to close the page and explain a section aloud or on paper without looking. If you cannot, you did not understand it; you only recognised the words. This is why highlighting alone fails: it feels productive but moves nothing into memory.\n\nUse the **stop-and-say rule**. After each section, close the book and write one to three sentences: \"This section says that... because... which matters since...\". Then check against the text and fix errors. Keep summaries about one tenth of the original length. A common mistake is copying phrases: if you reuse the author's sentences, you are transcribing, not thinking. Change the vocabulary, use an example from your own life, such as comparing a database index to the index at the back of a textbook."
+    },
+    {
+      "heading": "Slowing down for dense material",
+      "body": "Skimming is a skill for deciding, but dense material needs deliberate slowness. Signs you are in dense territory: new vocabulary every sentence, formulas, long chains of conditions, or the same paragraph re-read three times without sense.\n\nA slow-reading routine:\n\n1. Read the paragraph once at normal speed to get the gist.\n2. Mark every term you cannot define and look each one up or infer it from context.\n3. Read again slowly, turning each sentence into plain words.\n4. Make a tiny example. If the text describes an ABAP internal table with a header line, write three sample rows.\n5. Summarise in one sentence.\n\nIf you are stuck after two passes, read an easier source first and come back. That is not weakness; it is sequencing."
+    },
+    {
+      "heading": "Documentation and long articles",
+      "body": "Technical documentation is a reference, not a novel. Start with the overview or \"concepts\" page to learn the vocabulary, then follow one tutorial from start to end, and only then use the reference pages when you need a specific detail. Read code samples by running or tracing them, and change one thing to see what happens.\n\nFor long articles and reports, break the reading into sessions of 20 to 30 minutes with a clear stopping point at a heading. Before each session write the question you want answered. Afterwards, add one line to a running summary so the whole piece builds into a page you can reuse. Do not read a 40-page manual from the first line; read the table of contents first and pick the path you need."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Triage of a research paper",
+      "body": "Priya has to cite one paper in her project report. She reads the abstract (what was tested), the conclusion (what was found), and glances at two charts. The paper compares query performance across indexing methods, and the conclusion says B-tree indexes were fastest for range queries. That is exactly what she needs, so she reads the method section in full and skips the literature review.",
+      "takeaway": "Structure tells you where to spend your attention before you invest an hour."
+    },
+    {
+      "title": "Stop-and-say on a dense paragraph",
+      "body": "Paragraph: \"Normalisation reduces redundancy by decomposing relations so that each non-key attribute depends on the key, the whole key and nothing but the key.\" Amit closes the book and writes: \"Each column in a table should describe only that table's ID, so the same fact is not stored twice. Example: store the customer's city once in a customer table, not in every order row.\"",
+      "takeaway": "A plain-language rewrite with an example proves you understood, not just recognised, the sentence."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "reading-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "reading.structure",
+      "prompt": "You must decide quickly whether a 30-page industry report is useful for your project. What is the best first move?",
+      "options": [
+        "Read from page 1 without skipping",
+        "Read the abstract or summary, the headings and the conclusion",
+        "Read only the references",
+        "Skip it without looking"
+      ],
+      "answer": 1,
+      "why": "Summary, headings and conclusion reveal the claim and whether it matters. Starting at page 1 wastes time, and the references alone cannot tell you the findings."
+    },
+    {
+      "id": "reading-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "reading.summarising",
+      "prompt": "After reading a section, you close the book and write the main points without looking. This is the ____-and-say rule. (one word)",
+      "accept": [
+        "stop"
+      ],
+      "why": "The stop-and-say rule asks you to pause after each section and restate it from memory."
+    },
+    {
+      "id": "reading-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "reading.dense-text",
+      "prompt": "You re-read the same paragraph about foreign keys three times and it still does not make sense. What is the best next step?",
+      "options": [
+        {
+          "text": "Keep re-reading faster until it clicks.",
+          "score": 1,
+          "feedback": "Repeating the same pass rarely produces new understanding."
+        },
+        {
+          "text": "Mark the unknown terms, define them, then rewrite each sentence in plain words with a small example.",
+          "score": 3,
+          "feedback": "Defining terms and building an example turns dense text into something you can check."
+        },
+        {
+          "text": "Skip it and pretend you understood.",
+          "score": 0,
+          "feedback": "Gaps in basics tend to break later sections."
+        },
+        {
+          "text": "Highlight the whole paragraph in yellow.",
+          "score": 0,
+          "feedback": "Highlighting feels like progress but tests nothing."
+        }
+      ],
+      "why": "Dense text yields to slow, structured work: define, paraphrase, exemplify."
+    },
+    {
+      "id": "reading-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "reading.summarising",
+      "prompt": "Choose a paragraph of at least 100 words from any textbook or documentation. Write a summary in your own words (30 to 60 words), then give one example of your own, and list one thing you were unsure of. Include the original topic in your first line.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "accuracy",
+          "label": "Accurate summary",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mostly copied.",
+            "2": "Own words but missing a point.",
+            "3": "Accurate, concise, in own words."
+          }
+        },
+        {
+          "id": "example",
+          "label": "Own example",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Generic example.",
+            "2": "Relevant example.",
+            "3": "Original, concrete example from your own experience."
+          }
+        },
+        {
+          "id": "gap",
+          "label": "Honest unsure point",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Names a term.",
+            "3": "Names the exact term or step and how you will check it."
+          }
+        },
+        {
+          "id": "length",
+          "label": "Concise length",
+          "weight": 15,
+          "descriptors": {
+            "0": "Far too long or short.",
+            "1": "Slightly off.",
+            "2": "Close to the target.",
+            "3": "Within the target range."
+          }
+        }
+      ],
+      "modelAnswer": "Topic: database indexes. Summary: An index is a separate sorted structure that lets the database jump to rows without scanning the whole table, at the cost of extra storage and slower writes. Example: like the subject index at the back of a book that points to page numbers. Unsure: how the database chooses between two indexes; I will check by reading about query plans.",
+      "guidance": "Strong summaries are about a quarter to a half of the original length, avoid the author's phrases and include an example you invented. Honest gaps are a good sign, not a weakness. Mark yourself by comparing with the model."
+    }
+  ],
+  "task": {
+    "title": "Structure-first reading",
+    "brief": "Read one real non-fiction or technical document using structure, stop-and-say and a slow pass on one hard paragraph.",
+    "steps": [
+      "Pick a document of at least five pages from your course, an ABAP reference or a long article.",
+      "Preview the title, abstract or intro, headings and conclusion; write what you expect to learn.",
+      "Read one section, close it and write a three-sentence summary in your own words.",
+      "Choose one dense paragraph and use the five-step slow routine.",
+      "Note one idea you will use."
+    ],
+    "checklist": [
+      "I previewed before reading",
+      "I wrote a summary without looking",
+      "I defined unknown terms in a dense paragraph",
+      "I noted one idea to use"
+    ],
+    "evidencePrompt": "Paste your expected learning, one summary and one term you defined.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "reading-3.q1",
+      "type": "mcq",
+      "concept": "reading.structure",
+      "prompt": "A sensible order for scanning a research paper is:",
+      "options": [
+        "Abstract, headings, conclusion, then decide",
+        "Page 1 to the end without stopping",
+        "Only the references",
+        "Only the last paragraph of the appendix"
+      ],
+      "answer": 0,
+      "why": "Abstract, headings and conclusion give you the shape and the claim."
+    },
+    {
+      "id": "reading-3.q2",
+      "type": "mcq",
+      "concept": "reading.summarising",
+      "prompt": "Which proves you understood a section?",
+      "options": [
+        "You highlighted it",
+        "You re-read it twice",
+        "You explained it in your own words without looking",
+        "You copied the key sentences"
+      ],
+      "answer": 2,
+      "why": "Recall in your own words tests understanding directly."
+    },
+    {
+      "id": "reading-3.q3",
+      "type": "mcq",
+      "concept": "reading.dense-text",
+      "prompt": "A first step with a dense paragraph is:",
+      "options": [
+        "Memorise it",
+        "Read it once for the gist and mark unknown terms",
+        "Ignore it",
+        "Read it ten times fast"
+      ],
+      "answer": 1,
+      "why": "Gist first, then define the unknown terms."
+    },
+    {
+      "id": "reading-3.q4",
+      "type": "mcq",
+      "concept": "reading.documentation",
+      "prompt": "How should you approach a new tool's documentation?",
+      "options": [
+        "Start with the overview and one tutorial, then use the reference as needed",
+        "Read the reference from A to Z",
+        "Skip the docs and guess",
+        "Print and highlight everything"
+      ],
+      "answer": 0,
+      "why": "Overview and a tutorial build vocabulary; reference is for lookups."
+    }
+  ],
+  "bank": [
+    {
+      "id": "reading-3.b1",
+      "type": "mcq",
+      "concept": "reading.structure",
+      "prompt": "Why read a paper's conclusion early?",
+      "options": [
+        "It gives the claim so you can test the evidence against it",
+        "The conclusion is always wrong",
+        "It saves you from reading anything",
+        "It replaces the data"
+      ],
+      "answer": 0,
+      "why": "Knowing the claim lets you read the evidence critically."
+    },
+    {
+      "id": "reading-3.b2",
+      "type": "fill",
+      "concept": "reading.summarising",
+      "prompt": "A good summary is typically about what fraction of the original length? Answer as a number like 1/10.",
+      "accept": [
+        "1/10",
+        "one tenth",
+        "a tenth",
+        "10%",
+        "10 percent"
+      ],
+      "why": "Around one tenth forces you to keep only the key ideas."
+    },
+    {
+      "id": "reading-3.b3",
+      "type": "mcq",
+      "concept": "reading.documentation",
+      "prompt": "You need the exact parameters of one function in an unfamiliar library. Which part of the documentation fits best?",
+      "options": [
+        "The reference page for that function",
+        "The glossary only",
+        "A story-like blog about the library history",
+        "The licence file"
+      ],
+      "answer": 0,
+      "why": "Reference pages are for specific details once you know the concepts."
+    }
+  ],
+  "cards": [
+    {
+      "id": "reading-3.c1",
+      "concept": "reading.structure",
+      "front": "Best reading order for non-fiction?",
+      "back": "Title, abstract or summary, headings, conclusion, figures, then read in full only the parts you need."
+    },
+    {
+      "id": "reading-3.c2",
+      "concept": "reading.summarising",
+      "front": "What is the stop-and-say rule?",
+      "back": "After each section close the text and write one to three sentences in your own words, then check and fix."
+    },
+    {
+      "id": "reading-3.c3",
+      "concept": "reading.dense-text",
+      "front": "Slow-reading routine?",
+      "back": "Gist pass, mark unknown terms, plain-words pass, tiny example, one-sentence summary."
+    },
+    {
+      "id": "reading-3.c4",
+      "concept": "reading.documentation",
+      "front": "How to read documentation?",
+      "back": "Overview first, one tutorial end to end, then reference pages for details; run code and change one thing."
+    }
+  ],
+  "reflection": "Which type of text do you currently read front to back that you could triage by structure instead?",
+  "revision": {
+    "keyPoints": [
+      "Read structure and conclusion before deciding how deep to go.",
+      "Prove understanding by summarising from memory.",
+      "Dense text needs deliberate slow passes, definitions and examples.",
+      "Documentation: overview, tutorial, then reference."
+    ],
+    "redo": "Take one article you saved and summarise it using only abstract, headings and conclusion, then decide whether to read more."
+  }
+}

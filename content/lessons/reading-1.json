@@ -1,0 +1,301 @@
+{
+  "id": "reading-1",
+  "skillId": "reading",
+  "n": 1,
+  "title": "Building a Daily Reading Habit",
+  "summary": "Make reading automatic with a cue, a tiny routine, a reward, a friendly environment and a simple log.",
+  "difficulty": 1,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Design a cue-routine-reward loop that attaches reading to something you already do every day.",
+    "Set a minimum viable reading amount small enough to keep on your worst day.",
+    "Prepare your environment, keep a simple reading log and choose a first book list of three titles."
+  ],
+  "concepts": [
+    { "id": "reading.habit-loop", "label": "Cue, routine, reward" },
+    { "id": "reading.minimum", "label": "Minimum viable pages" },
+    { "id": "reading.environment", "label": "Environment and friction" },
+    { "id": "reading.log-and-list", "label": "Reading log and first book list" }
+  ],
+  "explanation": [
+    {
+      "heading": "Habits run on loops, not on willpower",
+      "body": "Most people who say 'I want to read more' have a goal but no loop. A habit is a loop of three parts: a **cue** (what triggers it), a **routine** (the action itself) and a **reward** (what makes your brain want to repeat it). Willpower is what you use when the loop is missing.\n\nThe strongest cues are things you already do without thinking: finishing dinner, getting into bed, boarding the metro, making your morning chai. Attach reading to one of them with a sentence: *After I pour my evening tea, I will read one page.* This is called a habit stack, and it works because the existing habit does the remembering for you.\n\nThe reward should be immediate and small. Tick a box on a wall calendar, enjoy the tea while you read, or write one line about what you liked. The pleasure of the book itself becomes the reward later, but in the first weeks you need a little extra."
+    },
+    {
+      "heading": "Make the minimum so small you cannot say no",
+      "body": "The biggest reason reading habits die is an ambitious plan: 'one hour every night'. On the first tiring day you skip it, and one skip becomes a week. Instead, define a **minimum viable amount**: the least you will do even on your worst day. For a new reader, that is **one page** or **five minutes**.\n\nThe minimum is not the target. It is the floor that keeps the streak alive. Most days, once you open the book, you will read for 15 or 20 minutes. But on the day you return from a long exam, a late-night deployment or a family function, one page still counts as a win, and the loop stays unbroken.\n\nHere is the arithmetic. A page of a typical paperback has around 250 words. Just ten pages a day is 3,650 pages in a year, roughly 12 books of 300 pages each. You do not need heroic effort; you need a daily habit that survives bad days."
+    },
+    {
+      "heading": "Shape the environment so reading is the easy option",
+      "body": "Behaviour follows friction. If your phone is on the pillow and the book is in a bag in the next room, the phone wins every time. Reverse it: put the book on the pillow, put the phone on charge across the room, and keep a second book or a reading app in your bag for commute gaps.\n\nPractical moves:\n\n- Keep one book visible at your cue spot (bedside, dining table, study desk).\n- Move the phone out of arm's reach during your reading slot, or use a do-not-disturb mode for 20 minutes.\n- Use a bookmark or a sticky note, so you always know where you stopped.\n- Choose a comfortable light and seat; reading in bad light makes the habit feel like a chore.\n\nAlso give yourself permission to **quit** a book that is not working after 50 pages. A dull book is the second biggest habit killer, after an over-large target."
+    },
+    {
+      "heading": "Track it, and choose a short first list",
+      "body": "A **reading log** can be a single page in a notebook with four columns: date, book, pages or minutes, and one line about what stood out. It takes under a minute. The log serves two purposes: it gives you the visible streak that rewards you, and it gives you something to review when your interest dips.\n\nChoose a **first book list of three titles**, not thirty. Pick one that is easy and enjoyable (a novel or a light memoir), one that is useful for your career (for example a book on clean code, communication or SAP basics), and one that stretches you a little. Start with the easy one: the aim of the first month is to build the habit, not to prove how serious a reader you are.\n\nWorked example: Deepa, an MCA student, wrote 'After I finish dinner, I will read one page of my novel on the sofa; minimum one page, target ten.' She kept the book on the dining table and logged each day with a tick and a line. In three weeks she had a 21-day streak and was averaging eight pages."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Turning a vague wish into a loop",
+      "body": "Wish: 'I should read more.'\n\nLoop: Cue - I sit on the bus seat for the morning commute. Routine - I open the e-book and read until my stop; the minimum is one page. Reward - I tick the day on my log and allow myself one song afterwards.",
+      "takeaway": "A specific cue, a tiny routine and an immediate reward replace a wish that depends on mood."
+    },
+    {
+      "title": "The bad-day rule in action",
+      "body": "It is 11:40 pm after a project deadline. Arjun is exhausted. He opens his book, reads one page, writes 'p. 84, 1 page, tired but done' in his log, and sleeps. The next evening he reads 12 pages without effort.",
+      "takeaway": "The minimum protects the identity of being someone who reads daily; skipping would have weakened it."
+    },
+    {
+      "title": "A realistic first list",
+      "body": "Easy: a short novel you have wanted to read. Useful: a beginner-friendly book on clean code or workplace communication. Stretch: a longer non-fiction book on a topic you care about. Read the easy one first and rotate if you get stuck.",
+      "takeaway": "Three titles with different jobs prevent both boredom and overload."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "reading-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "reading.habit-loop",
+      "prompt": "Which statement is a well-designed cue for a reading habit?",
+      "options": [
+        "I will read whenever I get free time.",
+        "After I brush my teeth at night, I will read in bed.",
+        "I will read when I feel motivated.",
+        "I will read a lot more from next month."
+      ],
+      "answer": 1,
+      "hint": "A cue should be something that already happens every day.",
+      "why": "Brushing your teeth is a fixed daily event, so it can trigger the routine. 'Free time' and 'when motivated' are not triggers because they may never happen, and 'from next month' is a postponed intention with no cue at all."
+    },
+    {
+      "id": "reading-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "reading.minimum",
+      "prompt": "Ten pages a day for a full year is 3,650 pages. About how many 300-page books is that? Write a whole number only.",
+      "accept": ["12", "twelve", "12 books", "about 12"],
+      "hint": "Divide 3,650 by 300 and round down to a whole number.",
+      "why": "3,650 divided by 300 is about 12.2, so roughly 12 books. A small daily amount adds up to a dozen books a year."
+    },
+    {
+      "id": "reading-1.e3",
+      "type": "scenario",
+      "level": 2,
+      "concept": "reading.environment",
+      "prompt": "You plan to read every night in bed, but you keep scrolling your phone until you fall asleep, and the book sits in your bag. Which change is most likely to make the habit stick?",
+      "options": [
+        { "text": "Promise yourself you will be more disciplined tonight.", "score": 0, "feedback": "A promise changes nothing about the environment that caused the problem." },
+        { "text": "Put the phone on charge across the room and place the book and bookmark on the pillow.", "score": 3, "feedback": "Correct: you added friction to the phone and removed friction from the book." },
+        { "text": "Switch to a much longer, harder book to make reading feel serious.", "score": 1, "feedback": "A harder book increases the effort and does not fix the phone problem." },
+        { "text": "Read only on weekends when you have more time.", "score": 1, "feedback": "Weekend-only reading is not a daily loop, and the evening phone habit would remain." }
+      ],
+      "why": "Behaviour follows friction. The best fix changes the setup so reading is the easiest option and scrolling is harder."
+    },
+    {
+      "id": "reading-1.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "reading.habit-loop",
+      "prompt": "Design your own reading loop. Write a short plan that states: your cue, your routine, your minimum viable amount, your reward, and one environment change you will make this week. Use your real daily routine.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "cue",
+          "label": "Specific cue tied to an existing habit",
+          "weight": 30,
+          "descriptors": {
+            "0": "No cue is named; the plan says only 'when I have time'.",
+            "1": "A vague cue such as 'in the evening'.",
+            "2": "A concrete time or place but not tied to an existing habit.",
+            "3": "A clear 'after I do X' cue that already happens every day."
+          },
+          "auto": { "type": "keywords", "any": ["after", "when i", "before"], "min": 1, "label": "Uses an 'after I...' style cue" }
+        },
+        {
+          "id": "minimum",
+          "label": "Minimum viable amount that survives a bad day",
+          "weight": 30,
+          "descriptors": {
+            "0": "No minimum amount is stated.",
+            "1": "A minimum is stated but it is large, such as 30 minutes.",
+            "2": "A smallish minimum but no target separate from it.",
+            "3": "A tiny minimum (a page or five minutes) and a separate, larger target."
+          },
+          "auto": { "type": "keywords", "any": ["page", "minute", "minimum"], "min": 1, "label": "States a minimum in pages or minutes" }
+        },
+        {
+          "id": "reward",
+          "label": "Immediate reward",
+          "weight": 20,
+          "descriptors": {
+            "0": "No reward is mentioned.",
+            "1": "A delayed reward, such as 'finishing the book'.",
+            "2": "An immediate reward that is unrelated to the routine.",
+            "3": "A small immediate reward that fits the routine, such as a tick and a line in the log."
+          }
+        },
+        {
+          "id": "environment",
+          "label": "Environment change",
+          "weight": 20,
+          "descriptors": {
+            "0": "No environment change is described.",
+            "1": "A change that depends on willpower only.",
+            "2": "A physical change but with no effect on phone or book access.",
+            "3": "A specific change that makes the book easier and distractions harder."
+          }
+        }
+      ],
+      "modelAnswer": "After I finish dinner, I will sit at the study desk and read my novel. The minimum is one page; my target is ten. My reward is a tick on the wall calendar and one line in my log about what I liked. This week I will keep the book and a bookmark on the desk and leave my phone charging in the other room during my 20-minute reading slot.",
+      "guidance": "A strong plan is specific enough that a stranger could picture it happening. The cue should be an action you already do daily, the minimum should be embarrassingly small, and the environment change should be physical. Common mistakes are listing only a goal ('read 30 minutes') and counting a delayed reward such as 'finish the book'. Score each criterion honestly against the model answer."
+    }
+  ],
+  "task": {
+    "title": "Set up your reading loop tonight",
+    "brief": "Prepare your cue, book, log and environment, then do your minimum once today.",
+    "steps": [
+      "Write your habit sentence on a sticky note: 'After I ___, I will read ___. Minimum: one page.'",
+      "Pick three books for your first list (easy, useful, stretch) and place the easy one where your cue happens.",
+      "Make a log page with four columns: date, book, pages or minutes, one-line note.",
+      "Move your phone out of reach for the reading slot, then read your minimum and fill in the log."
+    ],
+    "checklist": [
+      "My habit sentence is on a visible sticky note",
+      "I chose three books and placed one at my cue spot",
+      "My log page exists with four columns",
+      "I read at least my minimum today and logged it"
+    ],
+    "evidencePrompt": "Write your habit sentence, your three book titles, and what you logged today.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "reading-1.q1",
+      "type": "mcq",
+      "concept": "reading.habit-loop",
+      "prompt": "What are the three parts of a habit loop?",
+      "options": [
+        "Goal, plan, deadline",
+        "Motivation, discipline, result",
+        "Cue, routine, reward",
+        "Start, middle, finish"
+      ],
+      "answer": 2,
+      "why": "A habit runs on cue, routine and reward. Goal-plan-deadline describes project planning, and motivation and discipline are the very things a good loop makes unnecessary."
+    },
+    {
+      "id": "reading-1.q2",
+      "type": "mcq",
+      "concept": "reading.minimum",
+      "prompt": "Why should the minimum viable reading amount be very small?",
+      "options": [
+        "So you never read more than the minimum.",
+        "So you can keep the habit alive even on your worst day.",
+        "So you can finish books faster.",
+        "So you do not need a reading log."
+      ],
+      "answer": 1,
+      "why": "The minimum is a floor that protects the streak on bad days. It is not a cap, so you will often read more, and it does not replace the log."
+    },
+    {
+      "id": "reading-1.q3",
+      "type": "fill",
+      "concept": "reading.environment",
+      "prompt": "Finish the idea: behaviour follows ______. (one word: the amount of effort that stands between you and an action)",
+      "accept": ["friction"],
+      "why": "Friction is the effort between you and an action. Reduce friction for reading and add it to distractions."
+    },
+    {
+      "id": "reading-1.q4",
+      "type": "mcq",
+      "concept": "reading.log-and-list",
+      "prompt": "Which first book list is best for building the habit?",
+      "options": [
+        "Ten long, difficult classics so you never run out.",
+        "One easy and enjoyable book, one useful for your career and one stretch book.",
+        "Only technical manuals, because they are the most useful.",
+        "No list; pick a book when you feel like it."
+      ],
+      "answer": 1,
+      "why": "Three titles with different jobs keep reading enjoyable, useful and challenging. A huge list is overwhelming, an all-technical list leads to boredom and no list removes the decision that helps you start."
+    }
+  ],
+  "bank": [
+    {
+      "id": "reading-1.b1",
+      "type": "mcq",
+      "concept": "reading.habit-loop",
+      "prompt": "Meena wants to start reading every day. Which habit stack is the most likely to work?",
+      "options": [
+        "After I make my morning chai, I will read one page at the kitchen table.",
+        "I will read 50 pages every Sunday.",
+        "I will try to read whenever my phone is not in my hand.",
+        "I will read as soon as my exams are over."
+      ],
+      "answer": 0,
+      "why": "It ties a tiny routine to an existing daily event. Weekly targets, vague moments and postponed starts lack a daily cue."
+    },
+    {
+      "id": "reading-1.b2",
+      "type": "fill",
+      "concept": "reading.minimum",
+      "prompt": "A reader sets a minimum of 2 pages a day and a target of 10. On a day that goes badly, what is the smallest number of pages that still counts as keeping the habit? Write a number.",
+      "accept": ["2", "two", "2 pages", "two pages"],
+      "why": "The minimum is the floor that keeps the streak alive, so two pages is the smallest amount that counts. The target is only for good days."
+    },
+    {
+      "id": "reading-1.b3",
+      "type": "mcq",
+      "concept": "reading.log-and-list",
+      "prompt": "You have read 50 pages of a book and dread picking it up each night. What is the best response?",
+      "options": [
+        "Force yourself to finish it before starting anything else.",
+        "Stop reading altogether for a month.",
+        "Give yourself permission to put it aside and move to another title on your list.",
+        "Buy more books to feel motivated."
+      ],
+      "answer": 2,
+      "why": "A book you dread breaks the reward part of the loop. Moving to another title keeps the daily habit alive; forcing yourself or stopping the habit entirely both put the habit at risk."
+    }
+  ],
+  "cards": [
+    {
+      "id": "reading-1.c1",
+      "concept": "reading.habit-loop",
+      "front": "What are the three parts of a habit loop, and what makes a good cue?",
+      "back": "Cue, routine, reward. A good cue is something you already do daily, written as: After I [existing habit], I will read."
+    },
+    {
+      "id": "reading-1.c2",
+      "concept": "reading.minimum",
+      "front": "What is a minimum viable amount of reading?",
+      "back": "The least you will do even on your worst day, such as one page or five minutes. It is a floor that protects the streak, not a cap."
+    },
+    {
+      "id": "reading-1.c3",
+      "concept": "reading.environment",
+      "front": "How do you set up your environment for reading?",
+      "back": "Reduce friction for the book (visible, bookmarked, good light) and add friction for distractions (phone charging out of reach)."
+    },
+    {
+      "id": "reading-1.c4",
+      "concept": "reading.log-and-list",
+      "front": "What goes in a reading log and what is in a first book list?",
+      "back": "Log: date, book, pages or minutes, one-line note. First list: three titles - one easy and enjoyable, one useful, one stretch."
+    }
+  ],
+  "reflection": "What is the one daily event you could attach reading to, and what has stopped you from reading regularly in the past?",
+  "revision": {
+    "keyPoints": [
+      "A habit is a loop: cue, routine, reward.",
+      "Attach reading to something you already do daily.",
+      "Set a minimum so small you cannot say no, such as one page.",
+      "Make the book easy to reach and the phone hard to reach.",
+      "Log every day and keep a short list of three books."
+    ],
+    "redo": "Read your minimum today, write one line in your log, and say your habit sentence aloud."
+  }
+}

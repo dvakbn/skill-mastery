@@ -1,0 +1,201 @@
+{
+ "id": "week-5",
+ "week": 5,
+ "day": 35,
+ "title": "Week 5 Assessment: Careers, Money, Negotiation and Presenting",
+ "intro": "This assessment checks how you plan a career, handle money decisions, negotiate and present. Part A is auto-graded from completed lessons. Part B has a decision scenario, a negotiation role-play and a written task. Answer as you would on the job.",
+ "coverage": [
+  "career",
+  "goals",
+  "finance",
+  "time",
+  "presentation",
+  "confidence",
+  "conflict",
+  "negotiation",
+  "grooming",
+  "etiquette",
+  "ai",
+  "tech"
+ ],
+ "concepts": [
+  {
+   "id": "finance.applied",
+   "label": "Financial Literacy: applied"
+  },
+  {
+   "id": "negotiation.applied",
+   "label": "Negotiation: applied"
+  },
+  {
+   "id": "presentation.applied",
+   "label": "Presentation Skills: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-5.a1",
+   "skills": [
+    "finance",
+    "goals"
+   ],
+   "type": "scenario",
+   "concept": "finance.applied",
+   "prompt": "You receive your first stipend of Rs 20,000. You have no savings and a Rs 4,000 monthly phone instalment. What is the most sensible first move?",
+   "options": [
+    {
+     "text": "Spend most of it on gadgets.",
+     "score": 0,
+     "feedback": "This leaves no safety margin."
+    },
+    {
+     "text": "Make a simple budget, set aside a small emergency fund first and track spending for the month.",
+     "score": 3,
+     "feedback": "A budget and emergency fund are basic foundations."
+    },
+    {
+     "text": "Lend all of it to a friend.",
+     "score": 0,
+     "feedback": "Large loans without planning are risky."
+    },
+    {
+     "text": "Put it all into one risky investment.",
+     "score": 0,
+     "feedback": "Putting everything in a risk is unwise."
+    }
+   ],
+   "why": "Build a budget and a small buffer before taking risks."
+  },
+  {
+   "id": "week-5.a2",
+   "skills": [
+    "negotiation",
+    "confidence"
+   ],
+   "type": "roleplay",
+   "concept": "negotiation.applied",
+   "setup": "You receive a job offer from an IT services firm. The salary is slightly below the range you researched for entry-level roles, and you want to negotiate respectfully.",
+   "turns": [
+    {
+     "they": "We are happy to offer you the role at this salary. Please confirm.",
+     "options": [
+      {
+       "text": "I will take it, no questions.",
+       "score": 1,
+       "feedback": "Accepting without discussion forfeits your chance.",
+       "reply": "Great, welcome aboard."
+      },
+      {
+       "text": "Thank you, I am excited about the role. Based on my research for similar entry-level roles, could we discuss a figure closer to the middle of that range?",
+       "score": 3,
+       "feedback": "Appreciation, evidence and a clear request.",
+       "reply": "Let me see what is possible."
+      },
+      {
+       "text": "This is too low. Give me more.",
+       "score": 0,
+       "feedback": "Demanding without reasons rarely works.",
+       "reply": "That is not helpful."
+      }
+     ]
+    },
+    {
+     "they": "The budget is limited. What would make this work for you?",
+     "options": [
+      {
+       "text": "Whatever you can do.",
+       "score": 0,
+       "feedback": "This gives away your position.",
+       "reply": "I will check."
+      },
+      {
+       "text": "I would value a slightly higher base, or a joining bonus and a review after six months. Which is easier for you?",
+       "score": 3,
+       "feedback": "Offers flexible options with a trade-off.",
+       "reply": "We can look at a six-month review."
+      },
+      {
+       "text": "Nothing else matters.",
+       "score": 1,
+       "feedback": "Inflexibility closes off useful options.",
+       "reply": "Hmm."
+      }
+     ]
+    },
+    {
+     "they": "We can do a six-month review with a revised figure. Does that work?",
+     "options": [
+      {
+       "text": "Yes, please put it in writing.",
+       "score": 3,
+       "feedback": "Confirming and requesting it in writing protects you.",
+       "reply": "Of course, we will email it."
+      },
+      {
+       "text": "I guess so.",
+       "score": 1,
+       "feedback": "A weak reply risks later misunderstanding.",
+       "reply": "Okay."
+      },
+      {
+       "text": "No, never mind then.",
+       "score": 0,
+       "feedback": "Walking away without trying options wastes the progress.",
+       "reply": "Alright."
+      }
+     ]
+    }
+   ],
+   "why": "Prepare evidence, ask for a specific outcome, explore options and confirm in writing."
+  },
+  {
+   "id": "week-5.a3",
+   "skills": [
+    "presentation",
+    "time"
+   ],
+   "type": "written",
+   "concept": "presentation.applied",
+   "prompt": "You have five minutes to present your learning project to a panel. Write 100 to 130 words describing your core message, a three-part structure with time split and how you will handle one tough question.",
+   "minWords": 60,
+   "rubric": [
+    {
+     "id": "message",
+     "label": "Clear core message",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "A topic only.",
+      "2": "Claim without reason.",
+      "3": "One-sentence claim with a reason."
+     }
+    },
+    {
+     "id": "structure",
+     "label": "Structure and time budget",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Structure only.",
+      "2": "Time without structure.",
+      "3": "Three parts with minutes."
+     }
+    },
+    {
+     "id": "question",
+     "label": "Handling a tough question",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Defensive.",
+      "2": "Some structure.",
+      "3": "Acknowledge, answer briefly, check."
+     }
+    }
+   ],
+   "modelAnswer": "Message: A daily practice routine can make a beginner ready for ABAP tasks in eight weeks. Structure: one minute opening with a hook about interview rejections, three minutes with three points (habit, practice problems, review of errors) and one minute close with a call to join the group. If asked why not another language, I will acknowledge the question, explain that the target role uses ABAP, answer briefly and ask if that addresses their concern.",
+   "guidance": "Strong answers give one claim with a reason, a clear three-part time split and a calm structured response to a question. Avoid listing many messages."
+  }
+ ]
+}

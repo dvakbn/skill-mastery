@@ -1,0 +1,344 @@
+{
+  "id": "critical-1",
+  "skillId": "critical",
+  "n": 1,
+  "title": "Claims, Arguments and Evidence",
+  "summary": "Learn to separate premises from conclusions, weigh different kinds of evidence, and expose the hidden assumptions that hold an argument up.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Identify the conclusion and premises in a short argument.",
+    "Rank common types of evidence by how much weight they deserve.",
+    "Find the hidden assumption that an argument depends on."
+  ],
+  "concepts": [
+    {
+      "id": "critical.structure",
+      "label": "Premises and conclusions"
+    },
+    {
+      "id": "critical.evidence",
+      "label": "Types and quality of evidence"
+    },
+    {
+      "id": "critical.strength",
+      "label": "Strong vs weak arguments"
+    },
+    {
+      "id": "critical.assumptions",
+      "label": "Hidden assumptions"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "An argument is a conclusion plus its reasons",
+      "body": "In everyday talk, an 'argument' is a quarrel. In critical thinking it means something calmer: a **conclusion** (the claim you are asked to accept) supported by one or more **premises** (the reasons or facts offered in its favour). Your first job when you meet any pitch, article or forwarded message is to separate the two.\n\nLook for signal words. Conclusions often follow *therefore, so, hence, which shows that*. Premises often follow *because, since, given that, as*. Take this: 'Our app crashed twice this week, so we should delay the launch.' The conclusion is 'delay the launch'; the premise is 'it crashed twice this week'. Writing the argument out in two lines, premise then conclusion, instantly shows you what must be true for the claim to stand.\n\nNot every sentence is part of an argument. Opinions without reasons ('This framework is terrible') are bare claims, and a claim with no premises gives you nothing to evaluate."
+    },
+    {
+      "heading": "Not all evidence weighs the same",
+      "body": "Evidence comes in kinds, and a rough ladder helps you judge it. At the bottom are **anecdotes** ('my cousin got placed after that course'). Next come **expert opinion** and **testimonials**, useful when the expert is qualified in that exact area and has no stake in the outcome. Higher are **systematic data**: surveys with decent samples, logged measurements, placement statistics with the method disclosed. At the top are **controlled comparisons** where one factor was changed and the rest held constant.\n\nFour quick questions test any piece of evidence. Is it **relevant** to this exact claim? Is it **sufficient**, meaning enough of it? Is it **representative**, or only the best cases? Is the **source reliable**, with the means to know and no reason to bend the truth? A coaching institute that advertises 'our students got 12-lakh packages' fails representativeness if it quietly leaves out the other 95 students."
+    },
+    {
+      "heading": "Strong versus weak: two tests",
+      "body": "An argument can fail in two separate ways, so test both. First, **do the premises actually support the conclusion?** If every premise were true, how likely would the conclusion be? Second, **are the premises themselves true?** A beautifully shaped argument built on a false premise is still unsound, and a true premise that barely connects to the conclusion is still weak.\n\nWorked example. 'Rohan scored 90% in college; therefore he will be an excellent ABAP consultant.' The premise may be true, but the link is thin: marks measure exam skills, while consulting also needs communication, debugging patience and client handling. The argument is weak, not because Rohan is poor, but because the evidence does not reach the conclusion. Compare: 'Rohan debugged three live tickets in his internship and his lead rated them accurate and on time; therefore he can handle junior support tasks.' Here the premise is directly relevant to the conclusion, so the argument is stronger."
+    },
+    {
+      "heading": "Hidden assumptions: the missing bridge",
+      "body": "Most arguments skip a step. That skipped step is the **assumption**, a belief that must be true for the premise to lead to the conclusion. 'Every top developer I know uses this laptop, so I should buy it.' The bridge is: 'what works for those developers will work for my needs and budget.' Once written out, you can question it.\n\nTo find an assumption, ask: 'What would have to be true for this reasoning to work?' Then ask whether that is actually true here. The most dangerous assumptions are the ones that sound like common sense. Common mistake: treating a claim as proven because the speaker sounds confident. Practise by writing the one-line bridge between premise and conclusion for every argument you read this week."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Mapping a placement pitch",
+      "body": "Pitch: 'Join Skyline Institute. Last year our ABAP batch had 40 students and 34 were placed, so you will get a job too.'\n\nPremise: 34 of 40 were placed last year (that is 85%).\nConclusion: you will get a job.\nHidden assumption: your batch and the job market will resemble last year's, and 'placed' means a relevant role at a decent firm.\nQuestions to ask: how was 'placed' defined, and how many of the 34 got ABAP roles?",
+      "takeaway": "Writing the pitch as premise, conclusion and assumption turns a persuasive sales line into specific questions you can ask."
+    },
+    {
+      "title": "Ranking three pieces of evidence",
+      "body": "Claim: 'Pair programming reduces bugs.'\nA) A friend says his team had fewer bugs after trying it.\nB) A senior engineer says it works well.\nC) A company tracked bug counts for 20 teams over 6 months, with half of the teams pairing and half not, assigned at random.\n\nC is strongest because it compares groups and randomises the assignment. B is useful but based on one person's impression. A is an anecdote and could reflect many other changes in his team.",
+      "takeaway": "Prefer evidence that compares groups and rules out other explanations over evidence that merely tells a story."
+    },
+    {
+      "title": "Hunting the hidden bridge",
+      "body": "'The new hostel mess app has a 4.8 rating, so it will fix our food complaints.'\n\nPremise: the app has a high rating.\nConclusion: it will fix complaints.\nBridge: high ratings come from people like us, and the app addresses the actual complaint (taste and hygiene), not just ordering convenience.\nIf the ratings praise fast delivery, the bridge breaks.",
+      "takeaway": "A true premise can still fail to support the conclusion when the bridge between them is untested."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "critical-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "critical.structure",
+      "prompt": "Identify the conclusion: 'Our test coverage is only 30%, and two production bugs slipped through last month, so we should add tests before the next release.'",
+      "options": [
+        "We should add tests before the next release.",
+        "Our test coverage is only 30%.",
+        "Two production bugs slipped through last month.",
+        "The next release is arriving shortly."
+      ],
+      "answer": 0,
+      "hint": "Look for the word 'so'. What comes after it?",
+      "why": "The claim the speaker wants you to accept is 'we should add tests', signalled by 'so'. The other two statements are premises offered as reasons. The last option is not even stated in the text."
+    },
+    {
+      "id": "critical-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "critical.evidence",
+      "prompt": "A coaching ad shows only the three students who got top packages out of a batch of 60. Which of the four evidence questions (relevant, sufficient, representative, reliable) does it fail most clearly? Answer with one word.",
+      "accept": [
+        "representative",
+        "representativeness"
+      ],
+      "hint": "The ad shows only the best cases.",
+      "why": "Showing only the top three of sixty is a handpicked sample, so it is not representative of what a typical student experiences. It may be perfectly true and relevant, but it is not a fair picture."
+    },
+    {
+      "id": "critical-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "critical.assumptions",
+      "prompt": "Read this: 'Our college canteen raised prices by 10% last month and sales of snacks fell. Therefore the price rise caused the drop, and we should reverse it.' Write the conclusion, the premise, and one hidden assumption, then give one question you would ask before agreeing.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "structure",
+          "label": "Conclusion and premise correctly separated",
+          "weight": 35,
+          "descriptors": {
+            "0": "Conclusion and premise are mixed up or missing.",
+            "1": "One of the two is identified correctly.",
+            "2": "Both identified, with slight imprecision in wording.",
+            "3": "Conclusion (reverse the price rise) and premise (prices rose and sales fell) are clearly stated."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "conclusion",
+              "premise"
+            ],
+            "min": 2,
+            "label": "Uses the words conclusion and premise"
+          }
+        },
+        {
+          "id": "assumption",
+          "label": "A genuine hidden assumption",
+          "weight": 40,
+          "descriptors": {
+            "0": "No assumption named, or it restates the premise.",
+            "1": "An assumption is hinted at but vague.",
+            "2": "A reasonable assumption is named but not tied to the argument.",
+            "3": "Names a real bridge, such as 'nothing else changed, like exams or holidays', and explains why the argument needs it."
+          }
+        },
+        {
+          "id": "question",
+          "label": "A useful checking question",
+          "weight": 25,
+          "descriptors": {
+            "0": "No question, or a rhetorical one.",
+            "1": "A question that cannot be answered with evidence.",
+            "2": "A reasonable question, somewhat general.",
+            "3": "A specific, answerable question such as 'did sales fall in other canteens that did not raise prices?'"
+          }
+        }
+      ],
+      "modelAnswer": "Conclusion: the price rise caused the drop in snack sales and should be reversed. Premise: prices rose by 10% last month and snack sales fell afterwards. Hidden assumption: nothing else changed in that month, such as holidays, exams or a new competing stall, so the price is the only explanation. Question: did snack sales also fall at other outlets on campus that did not change their prices?",
+      "guidance": "A strong answer names the conclusion as the claim about cause and action, not simply a restatement of the facts. The assumption should be the missing bridge, the idea that price was the only thing that changed. A common mistake is to list opinions about prices instead of the reasoning gap. Score yourself on whether each part is specific enough that a colleague could go and check it."
+    },
+    {
+      "id": "critical-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "critical.strength",
+      "prompt": "Your team lead says: 'Everyone in the forum recommends switching to framework X, so we should rewrite our module in it.' The deadline is six weeks away. How do you respond?",
+      "options": [
+        {
+          "text": "Agree; a popular forum recommendation is reliable enough.",
+          "score": 0,
+          "feedback": "Popularity is not evidence of fit. You have no information about those users' projects, constraints or the cost of rewriting."
+        },
+        {
+          "text": "Dismiss it completely because forum posts are not trustworthy.",
+          "score": 1,
+          "feedback": "Rejecting the source outright skips the real work. Forum opinion is weak evidence, but it can point you to claims worth testing."
+        },
+        {
+          "text": "Ask what the forum users actually measured, whether their projects resemble ours, and what a rewrite would cost against the deadline; propose a small trial on one component.",
+          "score": 3,
+          "feedback": "This checks relevance and sufficiency, surfaces the hidden assumption (their results transfer to us), and offers a cheap way to gather stronger evidence."
+        },
+        {
+          "text": "Ask for the names of the forum users so you can verify who they are.",
+          "score": 1,
+          "feedback": "Knowing who posted helps a little, but it does not test whether their experience applies to your module or timeline."
+        }
+      ],
+      "why": "The best response treats the claim as a conclusion, identifies the weak premise (many people recommend it) and the hidden assumption (it will suit our project), and replaces opinion with a small, low-risk test."
+    }
+  ],
+  "task": {
+    "title": "Map one real argument",
+    "brief": "Take one persuasive message you received recently and lay out its structure on paper.",
+    "steps": [
+      "Pick a real message: a forwarded post, an advert, a course pitch or an opinion in a group chat.",
+      "Write the conclusion in one line, then each premise on its own line.",
+      "Write the hidden assumption that links premises to conclusion.",
+      "Rate each piece of evidence using the four questions: relevant, sufficient, representative, reliable.",
+      "Write one question you would ask the sender."
+    ],
+    "checklist": [
+      "I wrote the conclusion in a single sentence",
+      "I listed every premise separately",
+      "I named one hidden assumption",
+      "I rated the evidence on the four questions",
+      "I wrote a specific question for the sender"
+    ],
+    "evidencePrompt": "Write the conclusion, the key premise, and the hidden assumption you found.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "critical-1.q1",
+      "type": "mcq",
+      "concept": "critical.structure",
+      "prompt": "Which word most often signals a premise rather than a conclusion?",
+      "options": [
+        "therefore",
+        "hence",
+        "because",
+        "so"
+      ],
+      "answer": 2,
+      "why": "'Because' introduces a reason, so it points to a premise. 'Therefore', 'hence' and 'so' introduce what follows from the reasons, which is the conclusion."
+    },
+    {
+      "id": "critical-1.q2",
+      "type": "mcq",
+      "concept": "critical.evidence",
+      "prompt": "Which piece of evidence is generally strongest for the claim 'A new onboarding checklist reduces early errors'?",
+      "options": [
+        "A manager's belief that it helps",
+        "A comparison of error rates between new joiners who used it and similar joiners who did not",
+        "A single new joiner saying it was useful",
+        "A popular blog post praising checklists"
+      ],
+      "answer": 1,
+      "why": "A comparison between similar groups isolates the effect of the checklist. A manager's belief, one testimonial and a blog post are opinion or anecdote, and each could reflect many other factors."
+    },
+    {
+      "id": "critical-1.q3",
+      "type": "mcq",
+      "concept": "critical.strength",
+      "prompt": "'The sun was hot today, therefore the exam results will be good.' What is the main problem?",
+      "options": [
+        "The premise is false",
+        "The premise is true but irrelevant to the conclusion",
+        "The conclusion is too short",
+        "There are too many premises"
+      ],
+      "answer": 1,
+      "why": "Hot weather is probably true, but it has no link to exam results, so the premises do not support the conclusion. An argument can fail through weak support even when every premise is true."
+    },
+    {
+      "id": "critical-1.q4",
+      "type": "fill",
+      "concept": "critical.assumptions",
+      "prompt": "What is the name for the unstated belief that must be true for a premise to lead to a conclusion? Answer with one word.",
+      "accept": [
+        "assumption",
+        "an assumption",
+        "hidden assumption"
+      ],
+      "why": "The unstated bridge between premise and conclusion is the assumption. Finding it shows you what the speaker is relying on without saying so."
+    }
+  ],
+  "bank": [
+    {
+      "id": "critical-1.b1",
+      "type": "mcq",
+      "concept": "critical.structure",
+      "prompt": "In 'Because the client changed the scope twice, we will need two more weeks', what is the conclusion?",
+      "options": [
+        "The client changed the scope twice",
+        "We will need two more weeks",
+        "The client is difficult",
+        "Scope changes are common"
+      ],
+      "answer": 1,
+      "why": "The claim being supported is the need for two more weeks. The scope changes are the reason offered. The last two options are not stated in the sentence."
+    },
+    {
+      "id": "critical-1.b2",
+      "type": "mcq",
+      "concept": "critical.evidence",
+      "prompt": "A survey of 15 students at one hostel is used to claim 'Indian students prefer night-time study.' Which check does it fail most obviously?",
+      "options": [
+        "Relevance only",
+        "Representativeness and sufficiency of the sample",
+        "Nothing; surveys are always reliable",
+        "It is too recent"
+      ],
+      "answer": 1,
+      "why": "Fifteen students from one hostel cannot stand for all Indian students, so the sample is both too small and unrepresentative. Surveys are only as good as who they ask and how many."
+    },
+    {
+      "id": "critical-1.b3",
+      "type": "fill",
+      "concept": "critical.assumptions",
+      "prompt": "'Our competitor raised prices and lost customers, so if we raise prices we will lose customers too.' What must be assumed about our company? Answer with one word that completes: our situation is ____ to theirs.",
+      "accept": [
+        "similar",
+        "comparable",
+        "alike",
+        "the same"
+      ],
+      "why": "The argument only works if our customers, product and market behave like the competitor's. That similarity is the hidden assumption connecting the premise to the conclusion."
+    }
+  ],
+  "cards": [
+    {
+      "id": "critical-1.c1",
+      "concept": "critical.structure",
+      "front": "What are the two parts of an argument, and which signal words point to each?",
+      "back": "Conclusion (the claim; signalled by therefore, so, hence) and premises (the reasons; signalled by because, since, given that). Separate them first."
+    },
+    {
+      "id": "critical-1.c2",
+      "concept": "critical.evidence",
+      "front": "What four questions test a piece of evidence?",
+      "back": "Is it relevant, sufficient, representative and reliable? Anecdotes sit low; comparisons with controlled or random groups sit high."
+    },
+    {
+      "id": "critical-1.c3",
+      "concept": "critical.strength",
+      "front": "What two tests decide whether an argument is strong?",
+      "back": "Do the premises, if true, really support the conclusion? And are the premises themselves true? Failing either one weakens the argument."
+    },
+    {
+      "id": "critical-1.c4",
+      "concept": "critical.assumptions",
+      "front": "How do you find a hidden assumption?",
+      "back": "Ask: what would have to be true for this premise to lead to this conclusion? Write that bridge down in one line and question it."
+    }
+  ],
+  "reflection": "Think of a belief you hold because many people around you share it. What is the premise really supporting it, and what hidden assumption would you need to test?",
+  "revision": {
+    "keyPoints": [
+      "Split every argument into conclusion and premises.",
+      "Judge evidence by relevance, sufficiency, representativeness and reliability.",
+      "Test both the truth of premises and their support for the conclusion.",
+      "Write the hidden bridge assumption and question it."
+    ],
+    "redo": "Take one headline or advert you see today and write its conclusion, premise and hidden assumption in three short lines."
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "id": "english-3",
+  "skillId": "english",
+  "n": 3,
+  "title": "Precise Vocabulary and Collocations",
+  "summary": "Choose exact words, natural word partners and workplace phrasal verbs, and keep a notebook that makes new vocabulary stick.",
+  "difficulty": 2,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Use natural collocations such as make a decision and raise an issue instead of word-for-word translations.",
+    "Replace vague words like good, thing and nice with precise words that carry real information.",
+    "Run a vocabulary notebook that records phrases in context and is reviewed on a schedule."
+  ],
+  "concepts": [
+    { "id": "english.collocations", "label": "Collocations: words that go together" },
+    { "id": "english.precision", "label": "Replacing vague words and using word families" },
+    { "id": "english.phrasal-verbs", "label": "Workplace phrasal verbs" },
+    { "id": "english.notebook", "label": "A vocabulary notebook that sticks" }
+  ],
+  "explanation": [
+    {
+      "heading": "Words travel in pairs: collocations",
+      "body": "Last time you chose tenses by meaning. Vocabulary works the same way: you choose by what sounds natural to a fluent ear, not by what is logically possible. A **collocation** is a pair or group of words that native speakers habitually use together. We **make** a decision, **take** a break, **do** research, **pay** attention, **raise** a concern and **meet** a deadline. Saying *do a decision* or *take a research* is understandable but sounds off, like wearing a shoe on the wrong foot.\n\nThe verbs make, do, take and have cause the most trouble. A rough guide: **make** is for creating or producing something new (a plan, a mistake, an effort, progress); **do** is for tasks and activities (homework, the dishes, a favour, business); **take** is for actions you carry out (a decision is *made*, but a *step*, *notes*, a *risk*, a *look* are taken); **have** is for experiences and events (a meeting, a conversation, a problem).\n\nThe fix is to learn words in chunks. Do not write down *deadline*; write *meet a deadline* and *miss a deadline*. When you store the chunk, the right verb comes automatically."
+    },
+    {
+      "heading": "Replace vague words with precise ones",
+      "body": "Vague words such as *good*, *nice*, *thing*, *stuff*, *very* and *big* take up space but carry little information. 'The demo was good' tells the manager nothing. 'The demo was smooth: no errors and the client asked for a follow-up' tells her everything.\n\nA three-step method:\n\n1. **Spot** the vague word when you reread your draft.\n2. **Ask** 'In what way?' (fast, clear, thorough, reliable, polite, profitable).\n3. **Replace** it with the specific word, or with a number or fact.\n\nWorked example: 'We had a big problem with the thing in the login.' becomes 'We had a critical bug in the login module: users could not reset passwords.' *Critical* replaces *big*, *bug* replaces *problem*, *module* replaces *thing*, and the final clause adds evidence.\n\nUse **word families** to widen your reach. From one root you get several useful forms: *decide, decision, decisive, decisively*; *analyse, analysis, analyst, analytical*; *succeed, success, successful, successfully*. When you learn *efficient*, also pick up *efficiency, efficiently, inefficient*. Each family lets you fit the same idea into different sentence shapes, which keeps your writing flexible."
+    },
+    {
+      "heading": "Phrasal verbs you will meet in every IT office",
+      "body": "A phrasal verb is a verb plus a small word that changes the meaning: *look into* (investigate), *follow up* (check again later), *sort out* (solve), *roll out* (release gradually), *carry out* (perform), *set up* (arrange or install), *come up with* (invent), *run into* (meet by chance), *back up* (save a copy), *point out* (draw attention to), *hold up* (delay), *get back to* (reply later).\n\nIn a status call you might hear: 'We are **looking into** the outage; I will **get back to** you by five.' Or: 'The vendor **held up** the release, so we will **roll** it **out** next week.' Learn the meaning in one sentence, and notice that many have a more formal single-word partner: *look into = investigate*, *carry out = perform*, *set up = establish*, *point out = indicate*. In emails to clients prefer the formal verb; in team chats the phrasal verb is more natural.\n\nCommon mistake: guessing the particle. *Fill in a form* (or *fill out* in American English), *depend on*, *cope with*, *get along with* a colleague. If unsure, check how the whole chunk is written, not the verb alone."
+    },
+    {
+      "heading": "A notebook that actually sticks",
+      "body": "Most learners keep long word lists they never reread. A notebook that sticks has four rules.\n\n- **Record phrases in context.** Write the sentence where you met the word, plus one sentence of your own about your life or work.\n- **Keep it small.** Add three to five items per day, not thirty. Quality beats quantity.\n- **Add the family and the partners.** Under *efficient*, write *efficiency*, and *highly efficient*, *energy-efficient*.\n- **Review on a schedule.** Cover the answer and recall it after one day, one week and one month. Retrieving a word from memory is what locks it in; rereading does not.\n\nWorked example of one entry: *meet a deadline* - 'We must meet the deadline for the sprint demo.' - My sentence: 'I met the deadline for my project report.' - Opposite: *miss a deadline*. Then use each new item in a real message within 48 hours. A word you have used aloud or in writing once is far more likely to stay."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Fixing word-for-word translations",
+      "body": "Before: 'I did a mistake in the report, so I will do a correction and take the decision after the meeting.'\n\nAfter: 'I made a mistake in the report, so I will make a correction and take a decision after the meeting.' A fluent speaker would also say 'make a decision'.",
+      "takeaway": "Mistakes and corrections are made, decisions are made. Learn the verb together with the noun."
+    },
+    {
+      "title": "From vague to precise in a status update",
+      "body": "Before: 'The new feature is good and the testing was nice. There are some things left.'\n\nAfter: 'The new feature is stable: it passed all 40 test cases. Three items remain: the error message, the logout button and the report export.'",
+      "takeaway": "Replace evaluation words with evidence, and replace 'things' with a named list."
+    },
+    {
+      "title": "Phrasal verbs in a client call",
+      "body": "'We ran into a problem during setup, but we have sorted it out. I will follow up tomorrow and point out the changes in a short note.'",
+      "takeaway": "Four phrasal verbs carry four precise actions: met unexpectedly, solved, checked later, drew attention to."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "english-3.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "english.collocations",
+      "prompt": "Which sentence uses a natural collocation?",
+      "options": [
+        "We need to take a decision about the vendor immediately.",
+        "We need to do a decision about the vendor immediately.",
+        "We need to make a decision about the vendor immediately.",
+        "We need to put a decision about the vendor immediately."
+      ],
+      "answer": 2,
+      "hint": "Think of creating or producing a result.",
+      "why": "'Make a decision' is the standard collocation (take a decision is also used in British English, but make is safest). 'Do a decision' is a translation error; 'put a decision' is not used."
+    },
+    {
+      "id": "english-3.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "english.collocations",
+      "prompt": "Complete with one verb: 'We must ____ the deadline for the demo on Friday.'",
+      "accept": ["meet", "must meet", "meet the deadline"],
+      "hint": "The opposite is 'miss'.",
+      "why": "'Meet a deadline' is the collocation. Do not use 'catch' or 'reach' for deadlines in standard workplace English."
+    },
+    {
+      "id": "english-3.e3",
+      "type": "fill",
+      "level": 2,
+      "concept": "english.phrasal-verbs",
+      "prompt": "Complete with a two-word phrasal verb meaning 'investigate': 'The support team is ____ the outage and will update you by five.' (two words, ing form)",
+      "accept": ["looking into", "looking in to"],
+      "hint": "You look at a surface; you look ___ a problem to find the cause.",
+      "why": "'Looking into' means investigating. 'Looking at' only means examining visually, and 'looking after' means taking care of."
+    },
+    {
+      "id": "english-3.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "english.precision",
+      "prompt": "Rewrite this vague update for your project guide in 3 to 4 sentences, replacing every vague word with something precise (invent realistic facts): 'The project is going well. I did some good work on the thing this week and there are a few problems but nothing big. The next steps are nice and simple.'",
+      "minWords": 35,
+      "rubric": [
+        {
+          "id": "precision",
+          "label": "Vague words replaced with specific words or facts",
+          "weight": 40,
+          "descriptors": {
+            "0": "Vague words such as good, thing, nice or some remain.",
+            "1": "One or two vague words are replaced; others remain.",
+            "2": "Most vague words are replaced with specific words but one claim has no evidence.",
+            "3": "Every vague word is replaced with a precise word, number or named item."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": ["good work", "the thing", "a few problems", "nothing big", "nice and simple"],
+            "label": "None of the original vague phrases remain"
+          }
+        },
+        {
+          "id": "collocations",
+          "label": "Natural collocations and at least one phrasal verb",
+          "weight": 30,
+          "descriptors": {
+            "0": "Word-for-word or unnatural verb choices such as 'do a decision'.",
+            "1": "One natural collocation or phrasal verb used.",
+            "2": "Several natural collocations; phrasal verb missing or slightly misused.",
+            "3": "Natural collocations (make progress, meet a deadline, fix a bug) and a correct phrasal verb (sort out, follow up, look into)."
+          }
+        },
+        {
+          "id": "structure",
+          "label": "Clear sentences and next steps",
+          "weight": 30,
+          "descriptors": {
+            "0": "No clear progress or next steps.",
+            "1": "Progress or next steps are stated, but not both.",
+            "2": "Both stated with minor wordiness.",
+            "3": "Progress, one named problem and concrete next steps in short clear sentences."
+          },
+          "auto": {
+            "type": "minSentences",
+            "min": 3,
+            "label": "At least three sentences"
+          }
+        }
+      ],
+      "modelAnswer": "This week I completed the login module and fixed 12 of the 15 reported bugs. Three bugs remain: the password reset email is delayed, the logout button fails on mobile and the report export crashes on large files. I will sort these out by Wednesday and then run the full test cycle before I send you the demo link on Friday.",
+      "guidance": "A strong answer turns every evaluation word into a fact: a count, a named module, a date. It uses natural collocations such as 'complete a module', 'fix bugs' and a phrasal verb like 'sort out'. Common mistakes are replacing 'good' with another vague word like 'excellent' or 'great' and listing next steps without dates. Score yourself against the model: could your guide act on your message without asking a question?"
+    }
+  ],
+  "task": {
+    "title": "Start a ten-item vocabulary notebook",
+    "brief": "Build and use a small notebook from real material you read this week.",
+    "steps": [
+      "Read one work-related email, article or documentation page (about 300 words) and pick five chunks, not single words, that you would like to use.",
+      "Write each chunk in a notebook or notes app with the original sentence, one sentence of your own and any word-family forms.",
+      "Find five vague words in your own recent writing (good, thing, nice, very, some) and write a precise replacement for each.",
+      "Use at least three new chunks in a real message or conversation within 48 hours, and mark when you did.",
+      "Set a reminder to cover and recall the five chunks tomorrow, next week and next month."
+    ],
+    "checklist": [
+      "I recorded chunks, not single words",
+      "Each entry has a sentence of my own",
+      "I replaced five vague words in my own writing",
+      "I used at least three chunks in a real message",
+      "I set review reminders"
+    ],
+    "evidencePrompt": "List three chunks you recorded and one real sentence in which you used one of them.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "english-3.q1",
+      "type": "mcq",
+      "concept": "english.collocations",
+      "prompt": "Which verb completes the collocation: '____ attention to the error message'?",
+      "options": ["Pay", "Give a", "Do", "Take a"],
+      "answer": 0,
+      "why": "'Pay attention' is the fixed collocation. 'Give attention' is rare and 'do' or 'take a' are not used with attention in this sense."
+    },
+    {
+      "id": "english-3.q2",
+      "type": "mcq",
+      "concept": "english.precision",
+      "prompt": "Which sentence replaces the vague word best? Original: 'The app is very good.'",
+      "options": [
+        "The app is really very good.",
+        "The app is nice and good.",
+        "The app responds in under two seconds on a slow network.",
+        "The app is a good thing."
+      ],
+      "answer": 2,
+      "why": "Only the third option adds evidence. The others stack vague words on top of each other and tell the reader nothing new."
+    },
+    {
+      "id": "english-3.q3",
+      "type": "fill",
+      "concept": "english.phrasal-verbs",
+      "prompt": "Complete the phrasal verb meaning 'check again later': 'I will ____ up with the vendor tomorrow.' (one word)",
+      "accept": ["follow"],
+      "why": "'Follow up' means to check or act again after an earlier contact."
+    },
+    {
+      "id": "english-3.q4",
+      "type": "mcq",
+      "concept": "english.notebook",
+      "prompt": "Which notebook habit helps memory most?",
+      "options": [
+        "Adding thirty new words in one sitting",
+        "Writing each chunk with a sentence of your own and recalling it after one day, one week and one month",
+        "Copying definitions from a dictionary neatly",
+        "Highlighting words in different colours and rereading them"
+      ],
+      "answer": 1,
+      "why": "Retrieval at spaced intervals plus personal context builds memory. Large batches, copying and rereading feel productive but fade quickly."
+    }
+  ],
+  "bank": [
+    {
+      "id": "english-3.b1",
+      "type": "mcq",
+      "concept": "english.collocations",
+      "prompt": "Pick the natural sentence for a team meeting.",
+      "options": [
+        "Let me do a suggestion about the schedule.",
+        "Let me make a suggestion about the schedule.",
+        "Let me put a suggestion about the schedule.",
+        "Let me take a suggestion about the schedule."
+      ],
+      "answer": 1,
+      "why": "'Make a suggestion' is the standard collocation. 'Do' and 'take' do not combine with suggestion in this meaning."
+    },
+    {
+      "id": "english-3.b2",
+      "type": "fill",
+      "concept": "english.precision",
+      "prompt": "Give the noun form from the word family of 'efficient' (one word, meaning how well something uses time or resources).",
+      "accept": ["efficiency"],
+      "why": "The family is efficient, efficiently, efficiency, inefficient. The noun is efficiency."
+    },
+    {
+      "id": "english-3.b3",
+      "type": "mcq",
+      "concept": "english.phrasal-verbs",
+      "prompt": "A colleague says: 'We ran into a problem during setup.' What does 'ran into' mean here?",
+      "options": [
+        "Met or faced something unexpectedly",
+        "Crashed a vehicle into a wall",
+        "Escaped from a problem",
+        "Solved a problem quickly"
+      ],
+      "answer": 0,
+      "why": "In this context 'run into' means to meet something unexpected. It does not mean escaping or solving."
+    }
+  ],
+  "cards": [
+    {
+      "id": "english-3.c1",
+      "concept": "english.collocations",
+      "front": "Which verbs go with decision, mistake, deadline and research?",
+      "back": "Make a decision, make a mistake, meet a deadline, do research. Learn the verb and noun together as one chunk."
+    },
+    {
+      "id": "english-3.c2",
+      "concept": "english.precision",
+      "front": "Three-step method to replace a vague word?",
+      "back": "Spot it, ask 'In what way?', replace it with a precise word, number or fact."
+    },
+    {
+      "id": "english-3.c3",
+      "concept": "english.phrasal-verbs",
+      "front": "Meanings of look into, sort out, follow up, roll out?",
+      "back": "Investigate; solve; check again later; release gradually. Use the formal single verb in client emails."
+    },
+    {
+      "id": "english-3.c4",
+      "concept": "english.notebook",
+      "front": "Four rules of a notebook that sticks?",
+      "back": "Record phrases in context, keep it small, add family and partners, review by recall after a day, a week and a month."
+    }
+  ],
+  "reflection": "Which vague words or word-for-word translations appear most in your own speech or writing, and what is one precise replacement you will practise this week?",
+  "revision": {
+    "keyPoints": [
+      "Learn words as chunks: make a decision, meet a deadline.",
+      "Replace vague words with a precise word, number or fact.",
+      "Phrasal verbs: look into, sort out, follow up, roll out.",
+      "Review notebook entries by recall at one day, one week, one month."
+    ],
+    "redo": "Pick three vague words from a message you wrote today, replace each with a precise word, and say the improved sentence aloud."
+  }
+}

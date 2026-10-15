@@ -1,0 +1,405 @@
+{
+  "id": "confidence-1",
+  "skillId": "confidence",
+  "n": 1,
+  "title": "What Confidence Really Is",
+  "summary": "Understand confidence as a loop built from evidence and action, and use an evidence log, better self-talk and honest handling of imposter feelings to grow it.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain the competence-confidence loop and why waiting to feel confident backfires.",
+    "Keep an evidence log with situation, action and result entries that you can reread before a hard moment.",
+    "Replace harsh or vague self-talk and imposter thoughts with accurate, specific statements."
+  ],
+  "concepts": [
+    {
+      "id": "confidence.loop",
+      "label": "The competence-confidence loop"
+    },
+    {
+      "id": "confidence.evidence",
+      "label": "The evidence log"
+    },
+    {
+      "id": "confidence.self-talk",
+      "label": "Self-talk that is accurate, not harsh"
+    },
+    {
+      "id": "confidence.imposter",
+      "label": "Imposter feelings"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Confidence is a result, not a starting mood",
+      "body": "Many learners believe confident people feel calm first and then act. It usually runs the other way. Confidence is **trust in your ability to handle a situation**, and trust is built from evidence. The loop looks like this: you attempt something, you get some result, you notice what you did, and your trust rises a little. Next time the attempt feels slightly less frightening.\n\nThat is why waiting to feel ready is a trap. If Ravi avoids every classroom presentation until he feels confident, he never collects the evidence that would make him confident. Avoidance gives short relief and a long-term cost: the fear grows because it was never tested.\n\nTwo more points. First, confidence is specific. You can be confident writing SQL and shaky speaking to a client; that is normal. Second, confidence is not certainty about outcomes. It is trust that you can cope whatever the outcome is."
+    },
+    {
+      "heading": "Build an evidence log",
+      "body": "Our memory is biased towards threats and mistakes, so you must record the good evidence deliberately. An **evidence log** is a running note with three parts per entry: **Situation, Action, Result**. Keep it factual and small.\n\nWorked example. Meera, a final-year MCA student, writes on Tuesday:\n\n- Situation: Team call, I did not understand the join logic.\n- Action: I asked one question out loud instead of staying silent.\n- Result: Karan explained it in two minutes, and two others said they were confused too.\n\nThat is real evidence that she can ask for clarity and that it helps others. Aim for **three entries a day**, including small ones: a bug fixed, a polite refusal, a message sent that you were nervous about. Over four weeks of five working days, that is 3 x 5 x 4 = 60 entries.\n\nBefore an interview or a presentation, reread the last twenty entries. You are not trying to hype yourself; you are reminding your brain of facts it has filed away under *unimportant*."
+    },
+    {
+      "heading": "Self-talk: accurate beats cheerful",
+      "body": "You talk to yourself all day, and the tone matters. Harsh self-talk (*I am useless at this*) is inaccurate and demotivating. Forced positivity (*I am the best!*) is also inaccurate, and your mind will not believe it. Aim for **accurate and specific**.\n\nUse three moves. **Name the event, not your identity**: not *I am stupid*, but *I made an error in the loop condition*. **Add the word yet**: *I cannot write an ABAP report from scratch yet.* **Speak to yourself as you would to a friend**: what would you tell a classmate who made this mistake? Often it is also useful to use your own name or *you* when you coach yourself, for example *Aarav, you have prepared this twice; start with the first slide.* The small distance makes you calmer and more practical.\n\nCommon mistake: arguing with every negative thought. You only need to check it against evidence. If it is false or exaggerated, replace it with a more accurate version."
+    },
+    {
+      "heading": "Imposter feelings are common and checkable",
+      "body": "Imposter feelings are the sense that you are fooling people and will soon be found out. They are very common among students and new joiners, especially when you move into a new environment such as a first IT-services job, where everyone seems to know more.\n\nSeparate **feelings** from **facts**. The feeling says, *They selected me by mistake.* The facts are: you cleared the interviews, your assignments were accepted, and your manager gave you real work. Write down three facts that contradict the feeling. Then notice the second habit that feeds it: crediting luck for success and ability for failure. Reverse the test and ask, *What did I do that contributed to this result?*\n\nFinally, say it to one trusted person. A short sentence such as *I am finding the SAP landscape overwhelming, how did you cope in your first month?* usually turns up a shared experience and practical advice. Feeling like a beginner is accurate when you are one; it does not mean you are a fraud."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Avoidance versus the loop",
+      "body": "Two students are asked to explain their project to the class. Aman says, 'I will do it when I feel confident', and declines. Nisha is just as nervous, speaks for two minutes, stumbles once, and finishes. That evening she logs: Situation: class demo. Action: spoke for two minutes with notes. Result: finished, one classmate asked a question I could answer.\n\nSix weeks later, Aman still feels the same fear. Nisha has six logged talks, and the seventh feels easier.",
+      "takeaway": "Nisha was not less afraid at the start. She acted first and let the evidence build the confidence."
+    },
+    {
+      "title": "Rewriting a harsh thought",
+      "body": "Thought: 'I failed the mock technical round, so I am not cut out for ABAP.'\n\nCheck: What happened? I could not explain the difference between a table and a structure. Is the conclusion proven? No, it shows one gap.\n\nRewrite: 'I could not explain tables versus structures yet. I will study that tonight and retest tomorrow.'",
+      "takeaway": "The rewrite names the specific event, drops the identity verdict, adds yet, and ends with an action."
+    },
+    {
+      "title": "Answering an imposter thought with facts",
+      "body": "Feeling: 'Everyone on this client project is better than me.'\n\nFacts: I cleared the selection process. My unit test for the pricing module passed. My lead asked me to take the next ticket. Reframe: 'I am newer than most of them, which is expected. I am contributing at my level and learning fast.'",
+      "takeaway": "Being less experienced is not the same as being unqualified. The facts give a calm, true version."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "confidence-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "confidence.loop",
+      "prompt": "Sana says, 'I will start speaking in meetings once I feel confident.' Based on the competence-confidence loop, what is the main problem with this plan?",
+      "options": [
+        "She should have felt confident already because she is qualified.",
+        "Confidence is mostly a personality trait, so waiting will not change it.",
+        "Confidence grows from evidence of acting, so waiting removes the very experiences that build it.",
+        "She should speak only on topics she has fully mastered, never new ones."
+      ],
+      "answer": 2,
+      "hint": "Which comes first in the loop, acting or the feeling?",
+      "why": "The loop runs attempt, result, noticed evidence, more trust. Waiting removes the attempts. Confidence is not a fixed trait, and she does not need full mastery before speaking; small, real attempts are what build the trust."
+    },
+    {
+      "id": "confidence-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "confidence.evidence",
+      "prompt": "You log three evidence entries every working day (5 days a week). How many entries will you have after 3 weeks? Write a number.",
+      "accept": [
+        "45",
+        "45 entries"
+      ],
+      "hint": "Multiply 3 by 5 by 3.",
+      "why": "3 entries x 5 days x 3 weeks = 45 entries. A steady habit of small entries creates a large body of evidence quickly."
+    },
+    {
+      "id": "confidence-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "confidence.self-talk",
+      "prompt": "You made a mistake in a code review demo: you ran the wrong version of the program and the room went quiet. Your first thought is, 'I always embarrass myself.' Write (1) the harsh thought, (2) the facts of what actually happened, and (3) an accurate rewrite that includes the word yet or an action you will take.",
+      "minWords": 35,
+      "rubric": [
+        {
+          "id": "facts",
+          "label": "Facts separated from judgement",
+          "weight": 35,
+          "descriptors": {
+            "0": "Only repeats the harsh thought.",
+            "1": "Mentions the event but mixes in judgement words like always or embarrassing.",
+            "2": "States the event mostly neutrally.",
+            "3": "States the event neutrally and specifically: wrong version run, brief silence, nothing worse."
+          }
+        },
+        {
+          "id": "rewrite",
+          "label": "Accurate, specific rewrite",
+          "weight": 40,
+          "descriptors": {
+            "0": "No rewrite, or a forced positive statement that is not believable.",
+            "1": "Rewrite is vague or still attacks identity.",
+            "2": "Rewrite names the event, not the person, but has no next step.",
+            "3": "Rewrite names the event, drops the identity verdict, and includes yet or a concrete next action."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "yet",
+              "next time",
+              "will",
+              "check",
+              "before"
+            ],
+            "min": 1,
+            "label": "Includes yet or a forward-looking action"
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Friend-level tone",
+          "weight": 25,
+          "descriptors": {
+            "0": "Contemptuous or dramatic tone.",
+            "1": "Mostly critical.",
+            "2": "Neutral but flat.",
+            "3": "Kind, practical and believable, as to a friend."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "i always",
+              "i am useless",
+              "i am stupid",
+              "i never"
+            ],
+            "label": "No absolute self-criticism such as I always or I am useless"
+          }
+        }
+      ],
+      "modelAnswer": "1. Harsh thought: I always embarrass myself. 2. Facts: I ran the wrong version of the program. The room was quiet for about ten seconds. I switched to the correct version and finished the demo. 3. Rewrite: I made a preparation slip. I have not built a final checklist for demos yet. Next time I will check the version before I start, and one slip does not define how I present.",
+      "guidance": "Strong answers keep the facts small and observable, then replace the identity statement with a statement about the event and a next action. A common mistake is the opposite extreme, such as claiming it was perfect. Honest scoring: if your rewrite still contains always, never or a label about yourself, score that criterion at most 1."
+    },
+    {
+      "id": "confidence-1.e4",
+      "type": "roleplay",
+      "level": 3,
+      "concept": "confidence.imposter",
+      "prompt": "Practise talking about imposter feelings with a trusted senior.",
+      "setup": "You joined an IT-services team two weeks ago. You feel that everyone else is far ahead. You are chatting over tea with Neha, a senior consultant you trust. Goal: speak honestly, ask for useful advice and avoid either hiding it or catastrophising.",
+      "turns": [
+        {
+          "they": "You look a bit quiet this week. How is the first fortnight going?",
+          "options": [
+            {
+              "text": "Fine, no problem at all. Everything is under control.",
+              "score": 0,
+              "feedback": "Hiding the feeling blocks both support and perspective, and keeps the imposter thought untested.",
+              "reply": "Good to hear. Let me know if you need anything."
+            },
+            {
+              "text": "Honestly, I feel everyone knows much more than me, and I worry that I was selected by mistake.",
+              "score": 1,
+              "feedback": "Honest, but the sentence states the imposter conclusion as a fact and gives Neha little to work with.",
+              "reply": "Oh, that is a heavy thought. Why do you think you were selected by mistake?"
+            },
+            {
+              "text": "A bit overwhelmed. There is a lot of SAP terminology, and I feel behind. How did you handle your first month?",
+              "score": 3,
+              "feedback": "You name the feeling, tie it to a specific cause and ask for experience, which invites a useful answer.",
+              "reply": "Honestly, I was lost for weeks. I kept a notebook of terms and asked one question per day. It got better faster than I expected."
+            }
+          ]
+        },
+        {
+          "they": "Everyone feels behind at first. What is one thing you actually did well this fortnight?",
+          "options": [
+            {
+              "text": "Nothing really. Anyone could have done what I did.",
+              "score": 0,
+              "feedback": "Discounting every success is the imposter pattern. It keeps your evidence log empty.",
+              "reply": "Hmm, I doubt that. Think again, because I saw you at the stand-up."
+            },
+            {
+              "text": "I got my first test case to pass yesterday and asked the right question about the sales order flow. Small, but real.",
+              "score": 3,
+              "feedback": "Specific, factual, and credits your own action. This is the kind of entry that goes in an evidence log.",
+              "reply": "That is exactly what a good new joiner does. Keep noting those down."
+            },
+            {
+              "text": "Maybe I was just lucky with the easy test case.",
+              "score": 1,
+              "feedback": "Attributing success to luck and not to action is a classic imposter move; check the facts first.",
+              "reply": "Maybe, but easy tickets are not usually given to people who are not ready. Anyway, what else?"
+            }
+          ]
+        },
+        {
+          "they": "Would it help if I reviewed your next ticket with you before you hand it over?",
+          "options": [
+            {
+              "text": "No, I should not need help. I will manage on my own.",
+              "score": 0,
+              "feedback": "Refusing help to prove yourself usually slows learning and increases stress.",
+              "reply": "Okay, but my offer stands. People learn faster with a quick review."
+            },
+            {
+              "text": "Yes please. Could we spend fifteen minutes on Thursday? I will note down what I learn.",
+              "score": 3,
+              "feedback": "You accept help with a specific plan and tie it to evidence building.",
+              "reply": "Great. Thursday at four works. Bring your questions."
+            },
+            {
+              "text": "Sure, if you have time. It is probably not worth your effort.",
+              "score": 1,
+              "feedback": "You accept, but the self-minimising tone weakens the request and undervalues your learning.",
+              "reply": "It is worth my effort. Let us fix a time so it is not vague."
+            }
+          ]
+        }
+      ],
+      "why": "The best choices name the feeling honestly, give factual evidence of progress, and ask for specific help. Hiding the feeling, discounting successes and refusing support all keep imposter feelings alive."
+    }
+  ],
+  "task": {
+    "title": "Start your evidence log",
+    "brief": "Create a three-part evidence log today and write at least three entries about real things you did.",
+    "steps": [
+      "Open a notes app or notebook and write the headings Situation, Action, Result.",
+      "Write three entries from today or yesterday, including at least one small thing you almost skipped.",
+      "Pick one harsh thought you had this week and rewrite it in the accurate, specific form: event, not identity, plus yet or a next step.",
+      "Set a fixed time tomorrow, for example after dinner, when you will add three more entries."
+    ],
+    "checklist": [
+      "I wrote three entries with situation, action and result",
+      "Each entry is factual, not exaggerated",
+      "I rewrote one harsh thought accurately",
+      "I chose a fixed time to log tomorrow"
+    ],
+    "evidencePrompt": "Paste one of your entries and your rewritten thought.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "confidence-1.q1",
+      "type": "mcq",
+      "concept": "confidence.loop",
+      "prompt": "In the competence-confidence loop, what does the repeated experience of acting and noticing the result produce?",
+      "options": [
+        "A fixed personality trait you either have or lack",
+        "Certainty that every future attempt will succeed",
+        "The absence of nervousness",
+        "Growing trust in your ability to handle similar situations"
+      ],
+      "answer": 3,
+      "why": "Evidence from real attempts builds trust in your ability to cope. Confidence is not a fixed trait, does not guarantee success, and does not remove nervousness; you can feel nervous and still trust yourself to cope."
+    },
+    {
+      "id": "confidence-1.q2",
+      "type": "mcq",
+      "concept": "confidence.evidence",
+      "prompt": "Which entry is the best example of a useful evidence-log entry?",
+      "options": [
+        "Situation: stand-up. Action: asked about the join. Result: got a clear answer and finished the task.",
+        "I am improving a lot and feel great.",
+        "Today went well.",
+        "Situation: office. Action: worked hard. Result: good."
+      ],
+      "answer": 0,
+      "why": "A useful entry is specific and factual with three parts. The others are vague or just a feeling, so they carry no evidence you could reread later."
+    },
+    {
+      "id": "confidence-1.q3",
+      "type": "mcq",
+      "concept": "confidence.self-talk",
+      "prompt": "Which statement follows the accurate, specific self-talk approach after failing a mock test?",
+      "options": [
+        "I am the best, it was just bad luck.",
+        "I am hopeless at exams.",
+        "Exams are unfair, so there is no point in trying.",
+        "I did not answer the questions on joins yet; I will practise five joins tonight."
+      ],
+      "answer": 3,
+      "why": "It names the specific event, uses yet and ends with an action. Forced positivity, a harsh identity label and blaming the exam are each inaccurate and do not help you improve."
+    },
+    {
+      "id": "confidence-1.q4",
+      "type": "fill",
+      "concept": "confidence.imposter",
+      "prompt": "A feeling that you are fooling others and will be found out, despite evidence of your ability, is called ____ feelings (one word).",
+      "accept": [
+        "imposter",
+        "impostor",
+        "imposter syndrome",
+        "impostor syndrome"
+      ],
+      "why": "These are called imposter (or impostor) feelings. They are common and are best handled by checking facts against the feeling."
+    }
+  ],
+  "bank": [
+    {
+      "id": "confidence-1.b1",
+      "type": "mcq",
+      "concept": "confidence.loop",
+      "prompt": "Rahul has avoided asking questions in team calls for three months because he 'does not feel confident enough'. What is the most useful next step?",
+      "options": [
+        "Ask one small, prepared question this week and note the result.",
+        "Wait until he has finished two more certifications.",
+        "Decide that he is naturally shy and stop trying.",
+        "Ask five questions in the next call to prove himself."
+      ],
+      "answer": 0,
+      "why": "A small, achievable attempt creates real evidence and restarts the loop. More certifications postpone the test, a fixed shy label is inaccurate, and jumping to five questions is too big a leap and likely to be abandoned."
+    },
+    {
+      "id": "confidence-1.b2",
+      "type": "fill",
+      "concept": "confidence.evidence",
+      "prompt": "Name the three parts of an evidence-log entry in the order used in the lesson, separated by commas (three words).",
+      "accept": [
+        "situation, action, result",
+        "situation,action,result",
+        "situation action result"
+      ],
+      "why": "Situation, action, result keeps entries factual and easy to reread."
+    },
+    {
+      "id": "confidence-1.b3",
+      "type": "mcq",
+      "concept": "confidence.imposter",
+      "prompt": "After a successful client demo, Priya thinks, 'It only went well because I was lucky.' Which response best challenges the imposter pattern?",
+      "options": [
+        "Agree, since luck explains most results.",
+        "Tell herself the demo was perfect and ignore the doubts.",
+        "Ask herself what she did that contributed to the result, and note it in her log.",
+        "Avoid the next demo so nobody expects too much."
+      ],
+      "answer": 2,
+      "why": "Checking your own contribution tests the luck story against facts. Accepting luck, forced perfection, or avoidance all leave the imposter belief untested."
+    }
+  ],
+  "cards": [
+    {
+      "id": "confidence-1.c1",
+      "concept": "confidence.loop",
+      "front": "How does the competence-confidence loop work?",
+      "back": "You act, see a result, notice the evidence, and trust yourself a little more. Avoiding action removes the evidence, so confidence follows action, not the other way round."
+    },
+    {
+      "id": "confidence-1.c2",
+      "concept": "confidence.evidence",
+      "front": "What are the three parts of an evidence-log entry?",
+      "back": "Situation, Action, Result. Keep it factual, aim for three small entries a day, and reread the latest twenty before a hard moment."
+    },
+    {
+      "id": "confidence-1.c3",
+      "concept": "confidence.self-talk",
+      "front": "Three moves for accurate self-talk?",
+      "back": "Name the event, not your identity; add the word yet; speak to yourself as you would to a friend or by your own name."
+    },
+    {
+      "id": "confidence-1.c4",
+      "concept": "confidence.imposter",
+      "front": "How do you check an imposter thought?",
+      "back": "List facts that contradict the feeling, ask what you did to cause the success, and share it with one trusted person."
+    }
+  ],
+  "reflection": "Where in your life are you waiting to feel confident before acting, and what is one very small action that would start the loop this week?",
+  "revision": {
+    "keyPoints": [
+      "Confidence grows from evidence of acting; avoidance starves it.",
+      "Log situation, action, result: three small entries a day.",
+      "Accurate self-talk names the event, adds yet and ends in an action.",
+      "Check imposter feelings against facts and share them with one person."
+    ],
+    "redo": "Add one new evidence-log entry now, and reread your three most recent entries aloud."
+  }
+}

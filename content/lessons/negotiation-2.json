@@ -1,0 +1,376 @@
+{
+  "id": "negotiation-2",
+  "skillId": "negotiation",
+  "n": 2,
+  "title": "Tactics and Conversation",
+  "summary": "Use anchoring, careful concessions, good questions, silence and framing to steer a negotiation, and answer objections without getting defensive.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Make a first offer that is ambitious yet defensible and explain why anchoring matters.",
+    "Trade concessions in shrinking steps and ask for something in return.",
+    "Respond to an objection with a question and a reframe instead of an argument."
+  ],
+  "concepts": [
+    {
+      "id": "negotiation.anchoring",
+      "label": "Anchoring"
+    },
+    {
+      "id": "negotiation.concessions",
+      "label": "Concession patterns"
+    },
+    {
+      "id": "negotiation.questions-silence",
+      "label": "Questions and silence"
+    },
+    {
+      "id": "negotiation.framing-objections",
+      "label": "Framing and objections"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Anchoring: the first number",
+      "body": "In the last lesson you prepared interests, a BATNA and a target. Now you use them in conversation. The first number spoken tends to pull the final result towards it; this is **anchoring**. If you quote ₹15,000 for a freelance logo and the client counters ₹9,000, the deal will likely land near ₹12,000. Had you opened at ₹11,000, it would land near ₹10,000.\n\nA good anchor is ambitious but defensible: you can explain it with a reason. \"₹15,000 includes three concepts, two revisions and source files\" holds up; \"₹15,000 because I want it\" does not. If the other side anchors first with a very low figure, do not counter inside their range. Pause, restate your reasons and give your own number with its justification."
+    },
+    {
+      "heading": "Concessions: small, slower, never free",
+      "body": "A **concession** is something you give up. Three rules make them powerful. First, never concede without asking for something: \"I can deliver in five days if we agree on ₹13,000.\" Second, make concessions **smaller each time**, from ₹1,500 to ₹700 to ₹300, which signals you are nearing your limit. Third, concede slowly and label it as a cost to you, so it is valued.\n\nThe common mistake is the large first concession, which teaches the other side that your price was padded and invites a second request."
+    },
+    {
+      "heading": "Questions and silence",
+      "body": "Questions give you information and control. Prefer **open questions**: \"What budget did you plan for this?\" \"What would make this a good outcome for your team?\" Closed questions get yes or no and tell you little. Ask one question, then stop.\n\n**Silence** is a tool. After you state a number, stay quiet. Many people rush to fill the gap with a discount. Count to five in your head. The same applies after their answer: a short pause often brings the real reason out.\n\nUse **summaries** to check understanding: \"So the main concern is timeline, not price, is that right?\" It shows listening and prevents solving the wrong problem."
+    },
+    {
+      "heading": "Framing and objections",
+      "body": "**Framing** is how a request is presented. \"This saves your team four hours a week\" frames the price as a gain; \"This costs ₹13,000\" frames it as a loss. Link your ask to their interests.\n\nWhen someone says \"Your price is too high,\" do not defend. Use three steps: 1. *Acknowledge*: \"I understand budget is tight.\" 2. *Ask*: \"Compared with what, and what number works?\" 3. *Reframe or trade*: \"If we remove the source files, I can do ₹11,000.\" Often \"too high\" means \"I need a reason,\" \"I have a lower budget,\" or \"I need to justify it to my boss\". Asking finds out which one."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Concession ladder",
+      "body": "Meera freelances social-media posts and opens at ₹8,000 a month. The client asks for ₹6,000. Meera replies, \"I can go to ₹7,400 if you commit for three months.\" Client pushes. She moves to ₹7,100 for a 30-day payment term, then says ₹7,000 is her best and holds with silence. The client agrees at ₹7,000.",
+      "takeaway": "Steps shrank (600, 300, 100) and every concession bought something: commitment and fast payment."
+    },
+    {
+      "title": "Objection handled",
+      "body": "Interviewer HR: \"Your expectation looks above our band.\" Candidate: \"I understand there is a band. Could you share what range you have for this role, and which parts of my profile are driving the gap?\" HR names communication skills. Candidate offers examples of client calls from an internship and suggests reviewing after six months.",
+      "takeaway": "A question replaced a defence, revealing the real objection and opening a trade."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "negotiation-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "negotiation.anchoring",
+      "prompt": "A client opens by offering far less than your range. The best response is:",
+      "options": [
+        "Restate your value with reasons and give your own number",
+        "Counter just above their number to be fair",
+        "Accept to keep the relationship",
+        "Stay silent and leave"
+      ],
+      "answer": 0,
+      "why": "Countering within their range lets their anchor control the outcome. Give your own reasoned anchor instead."
+    },
+    {
+      "id": "negotiation-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "negotiation.concessions",
+      "prompt": "Concessions should get ____ each time, to signal you are near your limit. (one word)",
+      "accept": [
+        "smaller"
+      ],
+      "why": "Shrinking steps show you are running out of room."
+    },
+    {
+      "id": "negotiation-2.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "negotiation.framing-objections",
+      "prompt": "A client says: \"Your quote of ₹12,000 for the website is too high.\" Write your reply in three parts: acknowledge, ask a question, then reframe or trade.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "acknowledge",
+          "label": "Acknowledges the concern",
+          "weight": 20,
+          "descriptors": {
+            "0": "Defensive.",
+            "1": "Dismissive.",
+            "2": "Neutral acknowledgement.",
+            "3": "Warm and specific acknowledgement."
+          }
+        },
+        {
+          "id": "question",
+          "label": "Asks an open question",
+          "weight": 40,
+          "descriptors": {
+            "0": "No question.",
+            "1": "Closed question.",
+            "2": "Open question.",
+            "3": "Open question that finds the real objection."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\?",
+            "label": "Contains a question"
+          }
+        },
+        {
+          "id": "trade",
+          "label": "Reframes or trades",
+          "weight": 40,
+          "descriptors": {
+            "0": "Cuts price free.",
+            "1": "Vague.",
+            "2": "Offers a trade.",
+            "3": "Links price to their interest and trades a feature or term."
+          }
+        }
+      ],
+      "modelAnswer": "I understand the budget needs to feel right. What number or what part of the quote are you comparing it with? If your limit is ₹10,000, I can do that by removing the admin dashboard, which you can add later. If speed matters more, I can keep the full scope with payment in two parts.",
+      "guidance": "Strong replies stay calm, ask what the price is compared with, and offer something in return for any reduction. Common mistakes are arguing about worth or discounting immediately. Compare with the model answer honestly."
+    },
+    {
+      "id": "negotiation-2.e4",
+      "level": 3,
+      "type": "roleplay",
+      "concept": "negotiation.concessions",
+      "setup": "You are a final-year student selling a handmade project kit as a side income. A junior wants it cheaper. Your list price is ₹1,500, your reservation point is ₹1,100. You are the seller.",
+      "turns": [
+        {
+          "they": "Can you make it ₹900? Other kits are cheaper.",
+          "options": [
+            {
+              "text": "Sure, ₹900 then.",
+              "score": 0,
+              "feedback": "You are below your limit and made a huge free concession.",
+              "reply": "Great, thanks!"
+            },
+            {
+              "text": "I cannot do ₹900. Which kit are you comparing with, and what does it include?",
+              "score": 3,
+              "feedback": "A question tests the comparison and keeps you in control.",
+              "reply": "It has fewer components and no manual."
+            },
+            {
+              "text": "No, the price is fixed.",
+              "score": 1,
+              "feedback": "Rigid refusal gives no path forward.",
+              "reply": "Okay, I will look elsewhere."
+            }
+          ]
+        },
+        {
+          "they": "Mine is simpler, but it is ₹1,000.",
+          "options": [
+            {
+              "text": "Mine includes the manual and a spare part. I can do ₹1,350 if you take it today.",
+              "score": 3,
+              "feedback": "You justify value and trade with a smaller concession for a condition.",
+              "reply": "Hmm, ₹1,350 still feels a bit high."
+            },
+            {
+              "text": "Fine, ₹1,000.",
+              "score": 0,
+              "feedback": "Dropping straight to their number gives away more than needed.",
+              "reply": "Deal!"
+            },
+            {
+              "text": "That is rude to compare.",
+              "score": 0,
+              "feedback": "Defensiveness damages the relationship.",
+              "reply": "I was only asking."
+            }
+          ]
+        },
+        {
+          "they": "Can you do ₹1,200? That is my budget.",
+          "options": [
+            {
+              "text": "₹1,250, and I will help you set it up.",
+              "score": 3,
+              "feedback": "A last small concession, with service, stays above your reservation point.",
+              "reply": "Okay, ₹1,250 with help works."
+            },
+            {
+              "text": "₹1,200 and I lose all profit.",
+              "score": 1,
+              "feedback": "Complaining of loss without a trade weakens your stance.",
+              "reply": "Then ₹1,200 it is."
+            },
+            {
+              "text": "₹1,100, my absolute lowest.",
+              "score": 1,
+              "feedback": "Revealing your limit ends negotiation and leaves no room.",
+              "reply": "Okay, ₹1,100."
+            }
+          ]
+        }
+      ],
+      "why": "Ask before conceding, shrink each concession and attach a trade; do not reveal your limit."
+    }
+  ],
+  "task": {
+    "title": "Run a small anchored negotiation",
+    "brief": "Use anchoring, a question and a traded concession in one real conversation this month, such as a freelance quote, a rent matter or an online purchase from a small seller.",
+    "steps": [
+      "Prepare a reasoned first number.",
+      "Open with the number and one reason, then stay quiet.",
+      "Ask one open question about their situation.",
+      "Concede only against something in return, in shrinking steps.",
+      "Afterwards note what worked."
+    ],
+    "checklist": [
+      "I opened with a reasoned number",
+      "I used at least one pause",
+      "I asked an open question",
+      "I did not concede for free"
+    ],
+    "evidencePrompt": "Write your opening number, one question you asked and what you traded.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "negotiation-2.q1",
+      "type": "mcq",
+      "concept": "negotiation.anchoring",
+      "prompt": "Why does an opening number matter?",
+      "options": [
+        "It is binding",
+        "It shows desperation",
+        "It pulls the final outcome towards it",
+        "It sets the ZOPA"
+      ],
+      "answer": 2,
+      "why": "Anchors shape later expectations, so open with a defensible but ambitious figure."
+    },
+    {
+      "id": "negotiation-2.q2",
+      "type": "fill",
+      "concept": "negotiation.concessions",
+      "prompt": "Never concede without asking for something in ____. (one word)",
+      "accept": [
+        "return",
+        "exchange"
+      ],
+      "why": "Trade, do not give; each concession should buy something."
+    },
+    {
+      "id": "negotiation-2.q3",
+      "type": "mcq",
+      "concept": "negotiation.questions-silence",
+      "prompt": "After you state your price, the strongest move is to:",
+      "options": [
+        "Add a discount",
+        "Pause and let them respond",
+        "Explain your costs again",
+        "Ask whether it is fine"
+      ],
+      "answer": 1,
+      "why": "Silence lets the other party respond; rushing usually produces a needless discount."
+    },
+    {
+      "id": "negotiation-2.q4",
+      "type": "mcq",
+      "concept": "negotiation.framing-objections",
+      "prompt": "When told \"too expensive,\" first:",
+      "options": [
+        "Defend your value",
+        "Acknowledge and ask what they compare it with",
+        "Cut the price",
+        "End the call"
+      ],
+      "answer": 1,
+      "why": "A question finds the real concern before you trade."
+    }
+  ],
+  "bank": [
+    {
+      "id": "negotiation-2.b1",
+      "type": "mcq",
+      "concept": "negotiation.anchoring",
+      "prompt": "A seller of a second-hand bike writes ₹45,000 \"for reasons: low mileage, new tyres, full service history\". This anchor is strong because it is:",
+      "options": [
+        "Very high",
+        "Ambitious and backed by reasons",
+        "Round",
+        "Final"
+      ],
+      "answer": 1,
+      "why": "Defensible anchors carry reasons, so they resist being dismissed."
+    },
+    {
+      "id": "negotiation-2.b2",
+      "type": "fill",
+      "concept": "negotiation.questions-silence",
+      "prompt": "A question that cannot be answered with just yes or no is an ____ question. (one word)",
+      "accept": [
+        "open"
+      ],
+      "why": "Open questions bring information and keep the other person talking."
+    },
+    {
+      "id": "negotiation-2.b3",
+      "type": "mcq",
+      "concept": "negotiation.concessions",
+      "prompt": "Your concessions to a vendor were ₹500, ₹500, ₹500. What does this pattern suggest?",
+      "options": [
+        "You have reached your limit",
+        "There is more room, so keep asking",
+        "You are being fair",
+        "The vendor is bluffing"
+      ],
+      "answer": 1,
+      "why": "Equal steps suggest unlimited room. Shrinking steps signal a limit."
+    }
+  ],
+  "cards": [
+    {
+      "id": "negotiation-2.c1",
+      "concept": "negotiation.anchoring",
+      "front": "What is anchoring?",
+      "back": "The first number tends to pull the outcome towards it. Make it ambitious but defensible with a reason, and do not counter inside a lowball anchor."
+    },
+    {
+      "id": "negotiation-2.c2",
+      "concept": "negotiation.concessions",
+      "front": "Rules for concessions?",
+      "back": "Never give without getting, make each one smaller than the last, and concede slowly. Large early concessions invite more requests."
+    },
+    {
+      "id": "negotiation-2.c3",
+      "concept": "negotiation.questions-silence",
+      "front": "Why use open questions and silence?",
+      "back": "Open questions reveal interests and constraints; silence after a number often draws out concessions or the real reason."
+    },
+    {
+      "id": "negotiation-2.c4",
+      "concept": "negotiation.framing-objections",
+      "front": "Three steps for objections?",
+      "back": "Acknowledge the concern, ask a question to find the real issue, then reframe in terms of their interests or trade something."
+    }
+  ],
+  "reflection": "When did you last fill a silence with a discount or a concession? What might you say or not say next time?",
+  "revision": {
+    "keyPoints": [
+      "Anchor first with a reasoned, ambitious number.",
+      "Shrink concessions and trade, never give free.",
+      "Ask open questions and use silence.",
+      "Answer objections with acknowledge, ask, reframe."
+    ],
+    "redo": "Write a reasoned opening number and one open question for any negotiation you expect this week."
+  }
+}

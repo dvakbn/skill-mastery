@@ -1,0 +1,341 @@
+{
+  "id": "problem-4",
+  "skillId": "problem",
+  "n": 4,
+  "title": "Execute, Test and Learn",
+  "summary": "Test ideas with small experiments, estimate with Fermi methods, debug calmly, hold retrospectives and record what you learned.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Design a small experiment with a clear success measure.",
+    "Make a rough Fermi estimate and sanity-check it.",
+    "Run a short retrospective and write down a lesson."
+  ],
+  "concepts": [
+    {
+      "id": "problem.experiments",
+      "label": "Small experiments"
+    },
+    {
+      "id": "problem.fermi",
+      "label": "Fermi estimation"
+    },
+    {
+      "id": "problem.debugging",
+      "label": "Debugging mindset"
+    },
+    {
+      "id": "problem.retrospective",
+      "label": "Retrospectives and learning log"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Act, then learn",
+      "body": "You have defined a problem, broken it down and chosen an option. The last stage is to act and learn from what happens. Plans are guesses about the world; the faster you test them, the cheaper your mistakes. A common error is to spend three months perfecting a plan that one weekend of trying would have corrected."
+    },
+    {
+      "heading": "Small experiments and Fermi estimates",
+      "body": "A **small experiment** tests one idea cheaply. Template: \"We believe that **[change]** will cause **[result]**. We will try it for **[time]** and measure **[number]**. We will call it a success if **[threshold]**.\" Example: you believe that studying SQL before breakfast improves practice-problem accuracy. For two weeks you study at 6:30 am on weekdays, and track how many of ten problems you solve correctly, then compare with the previous two weeks. Success: at least two more correct out of ten. Keep experiments small enough that failure costs little, change one thing at a time, and decide before starting what result will count.\n\nSometimes you need a quick number before any data exists. **Fermi estimation** breaks an unknown into factors you can guess. Example: how many chai cups does a campus canteen sell in a day? Suppose 3,000 people on campus, of whom about one third buy tea once a day: 3,000 x 1/3 = 1,000. Peak sanity check: 1,000 cups over 8 hours is about 125 per hour, roughly two per minute, plausible for one or two counters. Fermi answers are rough on purpose. If your estimate is within a factor of two or three, it is useful for deciding whether a project is worth doing at all."
+    },
+    {
+      "heading": "Debugging mindset",
+      "body": "Debugging is problem solving on a small scale, and the mindset applies beyond code. Steps: **reproduce** the failure reliably; **isolate** where it happens by cutting the search space; **form a hypothesis** and change one thing at a time; **verify** the fix; **record** what the cause was. Avoid \"shotgun debugging\", where you change five things and cannot tell which one worked. Stay calm: the computer, or the situation, is doing exactly what it has been told. Explaining the problem aloud to a friend or even a rubber duck often exposes the faulty assumption."
+    },
+    {
+      "heading": "Retrospectives and a learning log",
+      "body": "After a project, week or experiment, hold a **retrospective**. Ask three questions: What went well? What did not go well? What will we change next time? Keep it blame-free and finish with one concrete change. For personal use, spend ten minutes on Sunday evening.\n\nThen keep a **learning log**: a short note with the date, situation, what you tried, the result and the lesson in one sentence. After three months you will have a list of your own patterns, such as \"I underestimate setup time\" or \"my first guess about the cause is often wrong\". This is how experience becomes skill instead of just time passing."
+    }
+  ],
+  "examples": [
+    {
+      "title": "An experiment on job applications",
+      "body": "Hypothesis: tailoring the first two lines of each application to the job description will raise reply rate. Meena sends 10 tailored and 10 generic applications over two weeks. Replies: 4 versus 1. Success threshold was 2 more replies; it passed. She keeps tailoring but notes the sample is small and repeats the test next month.",
+      "takeaway": "A threshold agreed in advance and an honest note about sample size keep the experiment trustworthy."
+    },
+    {
+      "title": "Fermi estimate of lecture-hall power use",
+      "body": "How much electricity does one lecture hall use in an hour? Assume 20 tube lights at 40 W (800 W), 12 fans at 70 W (840 W), 1 projector at 250 W: total about 1,890 W, close to 1.9 kWh per hour. For a six-hour day, about 11 kWh. Real numbers vary, but the order of magnitude helps decide whether to switch lights off during breaks.",
+      "takeaway": "Multiply simple guessed factors and check the order of magnitude instead of waiting for perfect data."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "problem-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "problem.experiments",
+      "prompt": "Which is a well-designed small experiment?",
+      "options": [
+        "Study 6:30 to 7:30 for two weeks, track problems solved correctly, and compare with the last two weeks",
+        "Change my study time, diet and sleep all at once and see what happens",
+        "Try something and hope",
+        "Ask friends what they feel"
+      ],
+      "answer": 0,
+      "why": "It changes one thing, has a time limit and a measure. Changing many things hides which one mattered."
+    },
+    {
+      "id": "problem-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "problem.fermi",
+      "prompt": "A rough estimate made by multiplying guessed factors, such as the cups of tea sold on a campus, is called a ____ estimate. (one word)",
+      "accept": [
+        "fermi"
+      ],
+      "why": "Fermi estimation breaks an unknown into simple factors."
+    },
+    {
+      "id": "problem-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "problem.debugging",
+      "prompt": "Your Python script crashes occasionally and you have no idea why. What is the best first step?",
+      "options": [
+        {
+          "text": "Change several lines at once and rerun until it works.",
+          "score": 1,
+          "feedback": "You will not know which change mattered, or whether you introduced a new bug."
+        },
+        {
+          "text": "Find a way to reproduce the crash reliably, then isolate where it occurs.",
+          "score": 3,
+          "feedback": "Reproduction and isolation narrow the search and make your fix testable."
+        },
+        {
+          "text": "Rewrite the script from scratch.",
+          "score": 1,
+          "feedback": "You may repeat the same mistake and learn nothing."
+        },
+        {
+          "text": "Ignore it since it is occasional.",
+          "score": 0,
+          "feedback": "Hidden bugs tend to appear at worst moments."
+        }
+      ],
+      "why": "Reproduce, isolate, hypothesise, change one thing, verify."
+    },
+    {
+      "id": "problem-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "problem.retrospective",
+      "prompt": "Think of a recent project, exam preparation or week. Write a mini retrospective with three headings (went well, did not go well, change next time), one experiment you will run based on it with a measure and threshold, and one entry for a learning log.",
+      "minWords": 56,
+      "rubric": [
+        {
+          "id": "retro",
+          "label": "Three-part retrospective",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "One part.",
+            "2": "Two parts.",
+            "3": "All three parts with specifics."
+          }
+        },
+        {
+          "id": "experiment",
+          "label": "Experiment with measure and threshold",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "An idea only.",
+            "2": "Has a measure.",
+            "3": "Has change, time, measure and success threshold."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes a number"
+          }
+        },
+        {
+          "id": "log",
+          "label": "Learning log entry",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Has a lesson.",
+            "3": "Date, situation, result and one-sentence lesson."
+          }
+        },
+        {
+          "id": "blame",
+          "label": "Blame-free tone",
+          "weight": 15,
+          "descriptors": {
+            "0": "Blames people.",
+            "1": "Some blame.",
+            "2": "Neutral.",
+            "3": "Focuses on process."
+          }
+        }
+      ],
+      "modelAnswer": "Went well: I finished SQL practice four days. Did not go well: I started the report two days before the deadline. Change: write the outline a week early. Experiment: for two weeks I will write one section every Tuesday and Thursday; success if the full draft exists three days before submission. Log: 12 Oct, report, late start, rushed edit; lesson: starting with an outline cuts rework.",
+      "guidance": "A strong retrospective deals with process, not people, and ends with one change you can measure. The learning log entry should be short and reusable. Avoid vague promises such as \"work harder\"."
+    }
+  ],
+  "task": {
+    "title": "Run a one-week experiment",
+    "brief": "Test one improvement for a week and record the result.",
+    "steps": [
+      "Choose one small change to test (for example, studying before breakfast or checking messages twice a day).",
+      "Write the experiment template with measure and success threshold.",
+      "Run it for five to seven days and record the number daily.",
+      "Hold a ten-minute retrospective at the end.",
+      "Add one entry to a learning log and decide: keep, change or drop."
+    ],
+    "checklist": [
+      "I changed only one thing",
+      "I recorded the number daily",
+      "I compared to the threshold",
+      "I wrote a log entry and a decision"
+    ],
+    "evidencePrompt": "Write your change, measure, result and decision.",
+    "evidenceWords": 50,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "problem-4.q1",
+      "type": "mcq",
+      "concept": "problem.experiments",
+      "prompt": "A small experiment should:",
+      "options": [
+        "Change everything",
+        "Avoid measuring",
+        "Change one thing, set a measure and define success in advance",
+        "Last a year"
+      ],
+      "answer": 2,
+      "why": "Clarity and small scope make results interpretable."
+    },
+    {
+      "id": "problem-4.q2",
+      "type": "mcq",
+      "concept": "problem.fermi",
+      "prompt": "A Fermi estimate is useful because it:",
+      "options": [
+        "Gives an exact answer",
+        "Gives a rough order of magnitude quickly",
+        "Replaces all data",
+        "Is always wrong"
+      ],
+      "answer": 1,
+      "why": "It helps decide before data exists."
+    },
+    {
+      "id": "problem-4.q3",
+      "type": "mcq",
+      "concept": "problem.debugging",
+      "prompt": "Shotgun debugging is:",
+      "options": [
+        "Changing many things at once without isolating the cause",
+        "A careful method",
+        "Reproducing the bug",
+        "Writing tests"
+      ],
+      "answer": 0,
+      "why": "It hides which change fixed the problem."
+    },
+    {
+      "id": "problem-4.q4",
+      "type": "mcq",
+      "concept": "problem.retrospective",
+      "prompt": "A retrospective ends with:",
+      "options": [
+        "A concrete change for next time",
+        "A list of faults of team members",
+        "Nothing",
+        "A new deadline"
+      ],
+      "answer": 0,
+      "why": "The purpose is to improve the next cycle."
+    }
+  ],
+  "bank": [
+    {
+      "id": "problem-4.b1",
+      "type": "mcq",
+      "concept": "problem.fermi",
+      "prompt": "Roughly estimate daily chai cups on a campus of 6,000 people if one in four buys one cup.",
+      "options": [
+        "150",
+        "1,500",
+        "15,000",
+        "600"
+      ],
+      "answer": 1,
+      "why": "6,000 divided by 4 is 1,500 cups."
+    },
+    {
+      "id": "problem-4.b2",
+      "type": "fill",
+      "concept": "problem.debugging",
+      "prompt": "The first debugging step is to ____ the failure reliably. (one word)",
+      "accept": [
+        "reproduce"
+      ],
+      "why": "If you cannot reproduce a bug you cannot know whether it is fixed."
+    },
+    {
+      "id": "problem-4.b3",
+      "type": "mcq",
+      "concept": "problem.experiments",
+      "prompt": "After a two-week experiment, results are mixed and your sample is tiny. What is the honest conclusion?",
+      "options": [
+        "It proves the idea",
+        "The evidence is weak, so extend or repeat with more data",
+        "It disproves the idea fully",
+        "Ignore the results"
+      ],
+      "answer": 1,
+      "why": "Small samples call for caution and repetition."
+    }
+  ],
+  "cards": [
+    {
+      "id": "problem-4.c1",
+      "concept": "problem.experiments",
+      "front": "Template for a small experiment?",
+      "back": "We believe change X causes result Y; try it for a set time, measure a number and fix the success threshold in advance."
+    },
+    {
+      "id": "problem-4.c2",
+      "concept": "problem.fermi",
+      "front": "What is Fermi estimation?",
+      "back": "Breaking an unknown into guessable factors and multiplying, then sanity-checking the order of magnitude."
+    },
+    {
+      "id": "problem-4.c3",
+      "concept": "problem.debugging",
+      "front": "Debugging steps?",
+      "back": "Reproduce, isolate, hypothesise, change one thing, verify and record the cause."
+    },
+    {
+      "id": "problem-4.c4",
+      "concept": "problem.retrospective",
+      "front": "Retrospective and learning log?",
+      "back": "Ask what went well, what did not and what to change; log date, situation, result and one-sentence lesson."
+    }
+  ],
+  "reflection": "What is one small experiment you could start this week, and what number will tell you if it worked?",
+  "revision": {
+    "keyPoints": [
+      "Test with small, measured experiments.",
+      "Estimate roughly to decide early.",
+      "Debug by reproducing, isolating and changing one thing.",
+      "Hold retrospectives and keep a learning log."
+    ],
+    "redo": "Write one experiment template for a habit you want to test and set the success threshold."
+  }
+}

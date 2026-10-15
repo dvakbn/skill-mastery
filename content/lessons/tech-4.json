@@ -1,0 +1,347 @@
+{
+  "id": "tech-4",
+  "skillId": "tech",
+  "n": 4,
+  "title": "Clean Code, Testing and Review",
+  "summary": "Write readable code with good names and small functions, test edge cases, review code kindly and understand how ABAP changes travel through transport requests.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Apply naming, small functions and why-comments to make code readable.",
+    "Write unit tests that cover normal cases and edge cases.",
+    "Give and receive code review, and describe how ABAP changes move through transports."
+  ],
+  "concepts": [
+    {
+      "id": "tech.clean-code",
+      "label": "Naming, functions and comments"
+    },
+    {
+      "id": "tech.testing",
+      "label": "Unit tests and edge cases"
+    },
+    {
+      "id": "tech.code-review",
+      "label": "Code review"
+    },
+    {
+      "id": "tech.transports",
+      "label": "Transport requests and landscape"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Code is read more than written",
+      "body": "Earlier lessons covered debugging, data access and version control. Now we ask how to write code that others, and your future self, can understand. Most of a developer's time goes to reading existing code, so readability is a productivity tool, not decoration.\n\nStart with **names**. A name should reveal intent: compare `lv_x` with `lv_overdue_days`, or `proc1` with `calculate_late_fee`. Use consistent conventions, since SAP teams usually follow prefixes such as lv_ for local variables and lt_ for local tables. Keep **functions small**: each should do one thing at one level of detail, ideally fitting on one screen. If you struggle to name a function without using \"and\", it probably does two jobs.\n\n**Comments** should explain *why*, not repeat *what*. \"Add 1 to counter\" is noise; \"Use 30 days because the contract allows a grace period\" is valuable. If a comment explains confusing code, try renaming or splitting the code first."
+    },
+    {
+      "heading": "Unit tests and edge cases",
+      "body": "A **unit test** runs a small piece of code with known input and checks the output. ABAP has a built-in framework, ABAP Unit, where test classes are marked FOR TESTING and use assertions to compare expected and actual values. Other languages have similar tools, such as Jest for JavaScript.\n\nGood tests cover the normal case and the **edge cases**, the boundaries where bugs live. For a late-fee function charging 2 percent after 30 days, test 29 days (no fee), 30 days (boundary), 31 days (fee), 0 days, a negative number and an empty input. Write the test name as a sentence, such as \"no_fee_within_grace_period\". Tests protect you when you change code later: if they still pass, you probably did not break anything. Tests that need a long setup often signal functions that are too large."
+    },
+    {
+      "heading": "Code review",
+      "body": "In a **code review**, a teammate reads your change before it is merged. It catches bugs, spreads knowledge and keeps style consistent. As an author, keep changes small, explain the purpose, and run tests before asking. As a reviewer, comment on the code, not the person, ask questions rather than issuing orders (\"What happens if the table is empty?\") and separate must-fix issues from preferences by marking the latter \"nit\".\n\nAs the author, treat feedback as information, say thanks, and ask when unclear. A reviewer's confusion usually means the code is confusing. Do not defend; improve it. Praise good work too, because a review that only lists faults teaches people to avoid reviews."
+    },
+    {
+      "heading": "How ABAP changes travel",
+      "body": "ABAP development usually happens in a **landscape** of separate SAP systems. Developers work in the **development system** (DEV), where code is changed. Changes are recorded in a **transport request**, a container listing the objects changed, such as programs, tables or classes. After the request is released, it is imported into the **quality or test system** (QAS), where testers check it against realistic data. Only after approval is it imported into **production** (PRD), where real business runs. Developing directly in production is avoided because a mistake affects live users.\n\nConceptually this mirrors git branches and releases: develop in isolation, test, then promote. Good habits include giving the request a descriptive text, keeping related changes in one request and never mixing unrelated work, so a transport can move cleanly and be traced if something goes wrong."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Renaming for clarity",
+      "body": "Before: FORM calc USING p1 p2. IF p1 > 30. p2 = p2 * 1.02. ENDIF. ENDFORM. After: FORM apply_late_fee USING iv_days_overdue CHANGING cv_amount. IF iv_days_overdue > gc_grace_days. cv_amount = cv_amount * gc_late_fee_factor. ENDIF. ENDFORM. The logic is unchanged, but a new team member now sees the rule without asking.",
+      "takeaway": "Good names and named constants turn magic numbers into readable business rules."
+    },
+    {
+      "title": "Edge-case tests for a late fee",
+      "body": "Rule: 2 percent fee after 30 days. Tests: 29 days, fee 0; 30 days, fee 0; 31 days, fee 2 percent; 0 days, fee 0; negative days, a clear error. The writer realises the original code used greater-or-equal and charged on day 30, so the boundary test exposes a bug before it reaches users.",
+      "takeaway": "Boundaries are where off-by-one errors hide, so test just below, at and just above them."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tech-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "tech.clean-code",
+      "prompt": "Which comment adds the most value?",
+      "options": [
+        "Add 1 to counter",
+        "Loop over the table",
+        "Use a 30-day cut-off because the contract allows a grace period",
+        "End of function"
+      ],
+      "answer": 2,
+      "why": "It explains why, which the code cannot show. The others repeat what the code already says."
+    },
+    {
+      "id": "tech-4.e2",
+      "level": 1,
+      "type": "mcq",
+      "concept": "tech.testing",
+      "prompt": "A discount function gives 10 percent for orders of 1,000 rupees or more. Which test input is the most important boundary check?",
+      "options": [
+        "An order of 5,000",
+        "An order of exactly 1,000",
+        "An order of 1",
+        "An order of 20,000"
+      ],
+      "answer": 1,
+      "why": "Boundaries, here exactly 1,000, are where comparison mistakes such as greater-than versus greater-or-equal appear."
+    },
+    {
+      "id": "tech-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "tech.code-review",
+      "prompt": "In a review you spot a function with no check for an empty input table. What is the best comment?",
+      "options": [
+        {
+          "text": "This is sloppy, you obviously did not think.",
+          "score": 0,
+          "feedback": "Personal criticism blocks learning and invites defence."
+        },
+        {
+          "text": "What happens if the input table is empty? It looks like it would raise an error here.",
+          "score": 3,
+          "feedback": "A specific question about behaviour is respectful and actionable."
+        },
+        {
+          "text": "Just write \"fix it\" and leave.",
+          "score": 1,
+          "feedback": "It gives no reason or detail, so the author learns nothing."
+        },
+        {
+          "text": "Approve silently and fix it yourself later.",
+          "score": 1,
+          "feedback": "Silent fixes hide the lesson and may surprise the author."
+        }
+      ],
+      "why": "Good review comments are specific, about the code, and phrased to invite a response."
+    },
+    {
+      "id": "tech-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "tech.transports",
+      "prompt": "Explain to a new joiner, in your own words, how an ABAP change moves from a developer to live users. Name the three kinds of system, what a transport request is, and why you do not change code directly in production.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "systems",
+          "label": "Names DEV, quality and production",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "One system.",
+            "2": "Two systems.",
+            "3": "All three with their purposes."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "development",
+              "quality",
+              "test",
+              "production"
+            ],
+            "min": 3,
+            "label": "Mentions the systems"
+          }
+        },
+        {
+          "id": "request",
+          "label": "Explains transport request",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Container of changes.",
+            "3": "Container of changed objects that is released and imported along the landscape."
+          }
+        },
+        {
+          "id": "why",
+          "label": "Why not production",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Mentions risk.",
+            "3": "Mentions live users, untested changes and traceability."
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear order",
+          "weight": 15,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Partly ordered.",
+            "2": "Mostly ordered.",
+            "3": "Clear step-by-step flow."
+          }
+        }
+      ],
+      "modelAnswer": "Developers change code in the development system. Their changes are recorded in a transport request, which is a container listing the changed objects such as programs and tables. Once released, the request is imported into the quality or test system, where testers check it with realistic data. After approval it is imported into production, where real users work. We avoid editing production directly because untested changes could break live business and be hard to trace.",
+      "guidance": "A strong answer gives the order DEV, test, production, explains the transport request as a container of changes, and gives a risk-based reason. Weak answers confuse transports with emails or skip the test system. Score yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "Clean one piece of your code and write tests",
+    "brief": "Take a function from a past project, improve it and add unit tests with edge cases.",
+    "steps": [
+      "Pick a function between 10 and 40 lines from your own project.",
+      "Rename two unclear variables or the function itself, and replace one magic number with a named constant.",
+      "Write at least four tests: normal, boundary, empty or zero, and invalid input.",
+      "Ask a friend, or imagine a reviewer, to give two comments in the \"What happens if...?\" style and respond to them."
+    ],
+    "checklist": [
+      "I renamed for intent",
+      "I replaced a magic number with a name",
+      "I wrote at least four tests including a boundary",
+      "I responded to review comments"
+    ],
+    "evidencePrompt": "Paste your before and after names and list your four test cases.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "tech-4.q1",
+      "type": "mcq",
+      "concept": "tech.clean-code",
+      "prompt": "A function name containing \"and\", such as validate_and_save, suggests:",
+      "options": [
+        "It is well designed",
+        "It probably does two jobs and should be split",
+        "It must be a database call",
+        "It needs a comment"
+      ],
+      "answer": 1,
+      "why": "One function should do one thing, so \"and\" signals two responsibilities."
+    },
+    {
+      "id": "tech-4.q2",
+      "type": "fill",
+      "concept": "tech.testing",
+      "prompt": "Test just below, at and just above a limit; these limit values are called ____ cases. (one word)",
+      "accept": [
+        "edge",
+        "boundary"
+      ],
+      "why": "Edge or boundary cases are where off-by-one errors often occur."
+    },
+    {
+      "id": "tech-4.q3",
+      "type": "mcq",
+      "concept": "tech.code-review",
+      "prompt": "A good reviewer comment is:",
+      "options": [
+        "Specific, about the code and phrased as a question or suggestion",
+        "About the author's ability",
+        "Always a command",
+        "Left out to save time"
+      ],
+      "answer": 0,
+      "why": "Specific, respectful comments help the author improve the code."
+    },
+    {
+      "id": "tech-4.q4",
+      "type": "mcq",
+      "concept": "tech.transports",
+      "prompt": "In an ABAP landscape, changes are made in development and then imported in order to:",
+      "options": [
+        "Production, then test",
+        "Test or quality, then production",
+        "Only production",
+        "Only the developer's laptop"
+      ],
+      "answer": 1,
+      "why": "Changes are tested in the quality system before moving to production."
+    }
+  ],
+  "bank": [
+    {
+      "id": "tech-4.b1",
+      "type": "mcq",
+      "concept": "tech.transports",
+      "prompt": "What does a transport request contain?",
+      "options": [
+        "Only the developer's password",
+        "A list of changed objects such as programs, tables and classes",
+        "A copy of production data",
+        "A meeting invite"
+      ],
+      "answer": 1,
+      "why": "It is a container that carries changed development objects through the landscape."
+    },
+    {
+      "id": "tech-4.b2",
+      "type": "fill",
+      "concept": "tech.clean-code",
+      "prompt": "A hard-coded number like 30 with no explanation in code is called a magic ____. (one word)",
+      "accept": [
+        "number"
+      ],
+      "why": "Replacing a magic number with a named constant explains its meaning."
+    },
+    {
+      "id": "tech-4.b3",
+      "type": "mcq",
+      "concept": "tech.code-review",
+      "prompt": "You get a review comment that stings. The best first response is to:",
+      "options": [
+        "Argue immediately",
+        "Thank the reviewer and ask for an example if unclear",
+        "Ignore it",
+        "Delete the pull request"
+      ],
+      "answer": 1,
+      "why": "Reviews are information, and a calm clarifying question moves things forward."
+    }
+  ],
+  "cards": [
+    {
+      "id": "tech-4.c1",
+      "concept": "tech.clean-code",
+      "front": "What makes code readable?",
+      "back": "Names that reveal intent, small single-purpose functions, named constants instead of magic numbers, and comments that explain why rather than what."
+    },
+    {
+      "id": "tech-4.c2",
+      "concept": "tech.testing",
+      "front": "Which cases should unit tests cover?",
+      "back": "The normal case, boundaries just below, at and above limits, zero or empty inputs and invalid inputs. Name tests as sentences."
+    },
+    {
+      "id": "tech-4.c3",
+      "concept": "tech.code-review",
+      "front": "How do you review kindly and effectively?",
+      "back": "Comment on the code, not the person, ask questions, separate must-fix from nits and praise good work. Authors say thanks and improve confusing code."
+    },
+    {
+      "id": "tech-4.c4",
+      "concept": "tech.transports",
+      "front": "How does an ABAP change reach production?",
+      "back": "It is recorded in a transport request in development, released, imported to the quality or test system, approved, then imported to production."
+    }
+  ],
+  "reflection": "Which piece of your own code would confuse you if you opened it in six months, and what two changes would make it clear?",
+  "revision": {
+    "keyPoints": [
+      "Names reveal intent and functions do one thing.",
+      "Comments explain why, not what.",
+      "Test normal, boundary, empty and invalid cases.",
+      "Review the code kindly; changes travel DEV, test, production by transport."
+    ],
+    "redo": "Pick one function and rename one variable and one constant for intent."
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "critical-3",
+  "skillId": "critical",
+  "n": 3,
+  "title": "Numbers, Statistics and Causation",
+  "summary": "Question statistics: separate correlation from causation, respect base rates and sample size, choose the right average and read percentages and charts carefully.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain why correlation does not prove causation and name alternative explanations.",
+    "Use base rates, sample size and the right average to judge a statistic.",
+    "Distinguish percentage from percentage points and spot misleading charts."
+  ],
+  "concepts": [
+    {
+      "id": "critical.causation",
+      "label": "Correlation vs causation"
+    },
+    {
+      "id": "critical.base-rates-samples",
+      "label": "Base rates and sample size"
+    },
+    {
+      "id": "critical.averages",
+      "label": "Mean vs median"
+    },
+    {
+      "id": "critical.percentages-charts",
+      "label": "Percentages and misleading charts"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why numbers deserve questions",
+      "body": "In the last lesson you looked at reasoning errors. Numbers add a new risk: they look objective, so we stop questioning them. A statistic can be perfectly accurate and still mislead. This lesson gives you five questions to ask whenever a number is used to persuade you, whether in a placement brochure, a news headline, or a client report."
+    },
+    {
+      "heading": "Correlation, causation, base rates and samples",
+      "body": "**Correlation** means two things move together. **Causation** means one makes the other happen. Students who attend extra coaching score higher marks. Does coaching cause higher marks? Perhaps. Or students who are already motivated choose coaching and also study more; motivation is a **confounder**. Or marks and coaching both rise with family income. When you see a link, ask: could it be coincidence, reverse causation or a third factor? Only controlled comparisons, such as randomly assigning coaching, can show cause strongly.\n\n**Base rates** are how common something is in general. Suppose a screening test is 90 percent accurate for a condition that affects 1 in 100 people. Test 1,000 people: 10 have it and about 9 are caught; of the 990 who do not, 10 percent, about 99, get a false alarm. So most positive results, 99 out of 108, are false alarms. Ignoring the base rate hides this. Always ask \"how common is this in the first place?\"\n\n**Sample size** matters too. \"9 out of 10 students loved the course\" means little if only ten were asked, or if they were picked by the trainer. Small or hand-picked samples swing wildly."
+    },
+    {
+      "heading": "Averages that hide the truth",
+      "body": "The **mean** adds everything and divides by the count; the **median** is the middle value when sorted. One extreme value drags the mean. A team of five freshers earns 4, 4, 5, 5 and 6 lakh a year, and the mean is 4.8. Add one executive at 50 lakh and the mean jumps to 12.3, yet five of six people still earn around 4 to 6. The median of 4, 4, 5, 5, 6, 50 is 5, which describes the typical person better. When a distribution is skewed, as with salaries or house prices, prefer the median and ask for the spread."
+    },
+    {
+      "heading": "Percentages and charts",
+      "body": "A **percentage change** and a **percentage point** change differ. If a pass rate goes from 40 percent to 50 percent, that is a 10 percentage point rise, but a 25 percent increase (10 divided by 40). Headlines may choose the larger sounding one. Also watch what the percentage is of: \"200 percent more risk\" from a tiny starting risk, say 1 in 10,000 to 3 in 10,000, is still very small in absolute terms.\n\nCharts can mislead through a **truncated axis** (a bar chart starting at 90 rather than 0 makes a 2-point difference look huge), cherry-picked time windows, or two axes scaled to suggest a link. Always read the axis labels and starting values, and ask what was left out."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Placement brochure average",
+      "body": "A college says the \"average package is 9 lakh\". The placed students earned: 4, 4, 4, 5, 5, 6, 6, 8, 12, 36 lakh (ten students). The mean is 9 lakh, but the median is 5.5 lakh, and 7 of 10 earned 6 lakh or less. A better question: \"What is the median package and how many students sat for placement?\"",
+      "takeaway": "A high outlier can lift the mean far above what most people experience; ask for the median and the number placed."
+    },
+    {
+      "title": "Percent vs percentage points",
+      "body": "A training firm says: \"Our pass rate rose by 50 percent.\" Last year 20 percent passed, this year 30 percent. The change is 10 percentage points, which is a 50 percent relative increase (10 divided by 20). Both are true; the second sounds larger. Check both figures and the batch size before judging.",
+      "takeaway": "Always find the actual starting and ending numbers behind a relative claim."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "critical-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "critical.causation",
+      "prompt": "Ice-cream sales and drowning incidents both rise in summer. What best explains this?",
+      "options": [
+        "Ice cream causes drowning",
+        "A third factor, hot weather, drives both",
+        "Drowning causes ice-cream sales",
+        "It is pure coincidence only"
+      ],
+      "answer": 1,
+      "why": "Hot weather is a confounder that raises both. The other options assume a direct link without evidence."
+    },
+    {
+      "id": "critical-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "critical.averages",
+      "prompt": "Five freshers earn 3, 4, 4, 5 and 14 lakh a year. The median salary in lakh is ____. (number)",
+      "accept": [
+        "4",
+        "4 lakh",
+        "rs 4 lakh"
+      ],
+      "why": "Sorted values are 3, 4, 4, 5, 14, and the middle one is 4."
+    },
+    {
+      "id": "critical-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "critical.base-rates-samples",
+      "prompt": "A coaching centre says, \"9 out of 10 students who took our course got placed.\" You find the 10 were chosen by the centre from 400 enrolled students. What do you conclude?",
+      "options": [
+        {
+          "text": "The result is reliable because 9 out of 10 is high.",
+          "score": 0,
+          "feedback": "A hand-picked, tiny sample says little about all 400."
+        },
+        {
+          "text": "It is a biased, small sample; ask how many of all 400 got placed and into which roles.",
+          "score": 3,
+          "feedback": "The denominator and selection method decide whether the claim means anything."
+        },
+        {
+          "text": "The centre is lying and should be reported.",
+          "score": 1,
+          "feedback": "Assuming dishonesty is premature; the claim is just uninformative."
+        },
+        {
+          "text": "Join immediately because most succeeded.",
+          "score": 0,
+          "feedback": "Acting on a cherry-picked statistic ignores selection bias."
+        }
+      ],
+      "why": "Check who was counted and how many in total; selected small samples cannot represent a population."
+    },
+    {
+      "id": "critical-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "critical.percentages-charts",
+      "prompt": "A company says: \"Employee satisfaction rose from 60 percent to 75 percent.\" Write (a) the change in percentage points, (b) the relative percentage increase with the working, and (c) three questions you would ask before trusting the claim, including at least one about the sample or chart.",
+      "minWords": 41,
+      "rubric": [
+        {
+          "id": "points",
+          "label": "Percentage points correct",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Wrong value.",
+            "2": "Right value, weak wording.",
+            "3": "15 percentage points stated clearly."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "15"
+            ],
+            "min": 1,
+            "label": "States the value 15"
+          }
+        },
+        {
+          "id": "relative",
+          "label": "Relative increase correct",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Wrong.",
+            "2": "Right result, no working.",
+            "3": "15 divided by 60 equals 25 percent, shown."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "25"
+            ],
+            "min": 1,
+            "label": "States the value 25"
+          }
+        },
+        {
+          "id": "questions",
+          "label": "Three good questions",
+          "weight": 40,
+          "descriptors": {
+            "0": "None.",
+            "1": "One.",
+            "2": "Two.",
+            "3": "Three, covering sample size, who was surveyed and the chart or time window."
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear explanation",
+          "weight": 15,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Understandable.",
+            "2": "Clear.",
+            "3": "Clear and concise."
+          }
+        }
+      ],
+      "modelAnswer": "(a) 75 minus 60 is 15 percentage points. (b) 15 divided by 60 is 0.25, so a 25 percent relative increase. (c) How many employees responded and were they chosen randomly? Was the survey anonymous? Does the chart start its axis at zero and which months does it cover?",
+      "guidance": "A strong answer states both measures correctly and shows the division. Questions should target sample size, selection, anonymity and the time window or axis. A frequent mistake is to say the satisfaction rose by 15 percent. Mark yourself honestly."
+    }
+  ],
+  "task": {
+    "title": "Audit one statistic",
+    "brief": "Find a real statistic from the news, a brochure or an advertisement and test it with the five questions.",
+    "steps": [
+      "Choose one claim with a number, and write it down exactly.",
+      "Ask: what is the comparison, the sample size, who was counted and how?",
+      "Check whether the average used is a mean or median and whether outliers matter.",
+      "Rewrite any percentage as both relative change and percentage points.",
+      "Note whether the chart or wording could mislead and write a fairer version of the claim."
+    ],
+    "checklist": [
+      "I recorded the exact claim",
+      "I checked sample and comparison",
+      "I identified the type of average or percentage",
+      "I wrote a fairer version of the claim"
+    ],
+    "evidencePrompt": "Paste the claim, your main doubt and your fairer wording.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "critical-3.q1",
+      "type": "mcq",
+      "concept": "critical.causation",
+      "prompt": "A confounder is:",
+      "options": [
+        "A third factor affecting both variables",
+        "A proof of causation",
+        "A type of chart",
+        "A large sample"
+      ],
+      "answer": 0,
+      "why": "It creates a link without direct cause."
+    },
+    {
+      "id": "critical-3.q2",
+      "type": "mcq",
+      "concept": "critical.base-rates-samples",
+      "prompt": "Which sample is most trustworthy for judging a course?",
+      "options": [
+        "A random sample of 200 of all students",
+        "Ten students picked by the trainer",
+        "Only students who posted reviews",
+        "Friends of the owner"
+      ],
+      "answer": 0,
+      "why": "Random and larger samples reflect the whole group better."
+    },
+    {
+      "id": "critical-3.q3",
+      "type": "mcq",
+      "concept": "critical.averages",
+      "prompt": "When a few very high salaries exist, which average better describes a typical person?",
+      "options": [
+        "Mean",
+        "Maximum",
+        "Median",
+        "Sum"
+      ],
+      "answer": 2,
+      "why": "The median resists extreme values."
+    },
+    {
+      "id": "critical-3.q4",
+      "type": "mcq",
+      "concept": "critical.percentages-charts",
+      "prompt": "A rate rises from 20 percent to 25 percent. This is:",
+      "options": [
+        "A 5 percentage point rise",
+        "A 5 percent rise exactly",
+        "A 25 point rise",
+        "No change"
+      ],
+      "answer": 0,
+      "why": "25 minus 20 is 5 percentage points; the relative rise is 25 percent."
+    }
+  ],
+  "bank": [
+    {
+      "id": "critical-3.b1",
+      "type": "mcq",
+      "concept": "critical.causation",
+      "prompt": "Students who sleep more score better. Which is the most careful statement?",
+      "options": [
+        "Sleep makes every student score higher",
+        "Sleep and marks are linked; other factors like health or routine may play a part",
+        "Marks cause sleep",
+        "There is no link at all"
+      ],
+      "answer": 1,
+      "why": "A link needs further evidence before claiming cause."
+    },
+    {
+      "id": "critical-3.b2",
+      "type": "fill",
+      "concept": "critical.averages",
+      "prompt": "Four values are 10, 12, 14 and 40. What is the mean? (number)",
+      "accept": [
+        "19",
+        "19.0"
+      ],
+      "why": "10 plus 12 plus 14 plus 40 is 76, divided by 4 is 19."
+    },
+    {
+      "id": "critical-3.b3",
+      "type": "mcq",
+      "concept": "critical.percentages-charts",
+      "prompt": "A bar chart compares two apps with bars starting at 95 instead of 0 on the axis. What is the risk?",
+      "options": [
+        "Small differences look huge",
+        "The bars will be too long",
+        "It improves honesty",
+        "No risk exists"
+      ],
+      "answer": 0,
+      "why": "A truncated axis exaggerates small differences."
+    }
+  ],
+  "cards": [
+    {
+      "id": "critical-3.c1",
+      "concept": "critical.causation",
+      "front": "Correlation vs causation?",
+      "back": "Correlation: things move together. Causation: one makes the other happen. Check coincidence, reverse cause and confounders."
+    },
+    {
+      "id": "critical-3.c2",
+      "concept": "critical.base-rates-samples",
+      "front": "Why base rates and sample size?",
+      "back": "Base rates show how common something is; samples must be large and unbiased to represent a group."
+    },
+    {
+      "id": "critical-3.c3",
+      "concept": "critical.averages",
+      "front": "Mean vs median?",
+      "back": "Mean is sensitive to outliers; median is the middle value and describes skewed data better."
+    },
+    {
+      "id": "critical-3.c4",
+      "concept": "critical.percentages-charts",
+      "front": "Percent vs percentage points?",
+      "back": "From 40 to 50 percent is 10 points but 25 percent relative. Check chart axes starting at zero and time windows."
+    }
+  ],
+  "reflection": "Which statistic have you recently believed without checking the sample, the average type or the base rate?",
+  "revision": {
+    "keyPoints": [
+      "Link does not prove cause; look for confounders.",
+      "Use base rates and ask how many and how chosen.",
+      "Prefer the median when outliers exist.",
+      "Differentiate percent from percentage points and read chart axes."
+    ],
+    "redo": "Take one headline number from today and ask for its sample size, average type and starting value."
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "id": "stress-2",
+  "skillId": "stress",
+  "n": 2,
+  "title": "Calming the Body",
+  "summary": "Use slow breathing, muscle release, movement and sleep habits to lower physical tension quickly.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Use extended-exhale and box breathing for one to three minutes.",
+    "Release tension with progressive muscle relaxation and short movement breaks.",
+    "Build three sleep habits that protect recovery."
+  ],
+  "concepts": [
+    {
+      "id": "stress.breathing",
+      "label": "Slow and extended-exhale breathing"
+    },
+    {
+      "id": "stress.muscle-release",
+      "label": "Muscle release and movement"
+    },
+    {
+      "id": "stress.sleep-basics",
+      "label": "Sleep basics"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why start with the body",
+      "body": "When you are tense, thinking your way to calm is hard because the body is feeding alarm signals to the brain. Calming the body first sends the opposite signal: it is safe to slow down. The tools in this lesson are fast, free and invisible, so you can use them before an interview or in a meeting.\n\nThink of the body as a dashboard with a few dials: breathing rate, muscle tension, movement and sleep. You cannot directly order your heart to slow down, but you can turn the dials that feed it. Each tool below turns one dial. Practise them when you are calm, for a minute or two, so they become automatic. Skills you have never practised rarely appear at the moment of highest pressure, which is exactly when you most need them."
+    },
+    {
+      "heading": "Breathing that actually calms",
+      "body": "Slow breathing works largely because a longer exhale engages the part of the nervous system that slows the heart. Try **extended exhale breathing**: inhale through the nose for 4 counts, exhale slowly through the mouth for 6 to 8 counts. Repeat for one to three minutes. Another is **box breathing**: inhale 4, hold 4, exhale 4, hold 4. If holding makes you uncomfortable or dizzy, skip the holds and just breathe slowly.\n\nKeep breaths gentle, not deep and forced. Over-breathing can cause lightheadedness. If you feel dizzy, return to normal breathing. Practise once when you are calm so it is easy when you are not."
+    },
+    {
+      "heading": "Muscle release and movement",
+      "body": "**Progressive muscle relaxation** means tensing one muscle group for about five seconds, then releasing for ten, moving through hands, arms, shoulders, face, stomach, legs and feet. The contrast teaches you what tension feels like so you can release it. Skip any area that is painful or injured.\n\nMovement is the other lever. A five-minute walk, stretching your neck and shoulders, or climbing stairs uses the energy the stress response created. Aim for a short movement break every 60 to 90 minutes of seated work."
+    },
+    {
+      "heading": "Sleep as recovery",
+      "body": "Sleep is where the body recovers from stress, and stress in turn damages sleep. Three habits help most. **Consistent timing:** wake at roughly the same time daily. **Screen wind-down:** stop scrolling 30 to 60 minutes before bed because bright screens and endless content keep the mind alert. **Worry dump:** write tomorrow's tasks and worries on paper before bed so your mind does not rehearse them. Most adults need around 7 to 9 hours. If sleep problems last for weeks despite good habits, speak to a doctor."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Breathing before a viva",
+      "body": "Outside the exam room, Meera does six rounds of inhale for 4 and exhale for 7. Her shoulders drop and her voice steadies as she walks in.",
+      "takeaway": "A longer exhale is the core of the technique; it works in under two minutes."
+    },
+    {
+      "title": "A worry dump",
+      "body": "At 10:15 pm Arjun writes: \"Tomorrow: send invoice, finish slide 5. Worry: client may reject the plan. Next step: ask for feedback at 11 am.\" He sleeps without replaying the plan.",
+      "takeaway": "Writing converts looping thoughts into a next step."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "stress-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "stress.breathing",
+      "prompt": "Which breathing pattern best calms the body?",
+      "options": [
+        "Inhale for 4 and exhale slowly for 6 to 8",
+        "Fast deep breaths through the mouth",
+        "Hold breath as long as possible",
+        "Very short sharp breaths"
+      ],
+      "answer": 0,
+      "why": "A longer exhale engages the calming branch of the nervous system. Fast or forced breathing can cause dizziness."
+    },
+    {
+      "id": "stress-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "stress.muscle-release",
+      "prompt": "In progressive muscle relaxation you tense a muscle group for about five seconds and then ____ it. (one word)",
+      "accept": [
+        "release",
+        "relax",
+        "let go"
+      ],
+      "why": "The contrast between tension and release teaches the body what relaxed feels like."
+    },
+    {
+      "id": "stress-2.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "stress.sleep-basics",
+      "prompt": "Write your own three-point sleep wind-down plan for tonight, including a specific time for stopping screens, one worry-dump step and your wake time.",
+      "minWords": 30,
+      "rubric": [
+        {
+          "id": "time",
+          "label": "Includes specific times",
+          "weight": 35,
+          "descriptors": {
+            "0": "No times.",
+            "1": "One time only.",
+            "2": "Two times given.",
+            "3": "Screen stop and wake time both specific."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d{1,2}(:\\d{2})?\\s*(am|pm)",
+            "label": "Includes at least one clock time"
+          }
+        },
+        {
+          "id": "worry",
+          "label": "Includes a worry-dump step",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentioned vaguely.",
+            "2": "Step described.",
+            "3": "Specific step with where and how."
+          }
+        },
+        {
+          "id": "realistic",
+          "label": "Plan is realistic and doable tonight",
+          "weight": 30,
+          "descriptors": {
+            "0": "Unrealistic.",
+            "1": "Partly realistic.",
+            "2": "Mostly realistic.",
+            "3": "Clearly doable with your actual schedule."
+          }
+        }
+      ],
+      "modelAnswer": "Tonight: screens off at 10:30 pm and phone charging outside my bed. At 10:35 I write tomorrow's three tasks and one worry on paper with a next step. Lights out by 11:00 and wake at 6:45 am, the same as weekdays.",
+      "guidance": "A good plan has clock times, a written worry-dump and fits your real evening. Avoid plans like \"sleep better\". Compare with the model and rate yourself."
+    },
+    {
+      "id": "stress-2.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "stress.breathing",
+      "prompt": "Five minutes before a live demo your hands shake and your heart races. Which action is best?",
+      "options": [
+        {
+          "text": "Tell yourself to stop being nervous.",
+          "score": 0,
+          "feedback": "Commands to yourself rarely calm the body."
+        },
+        {
+          "text": "Breathe in for 4 and out for 7 for two minutes, and relax your shoulders.",
+          "score": 3,
+          "feedback": "Slow breathing with a long exhale quickly lowers arousal and is invisible."
+        },
+        {
+          "text": "Drink three strong coffees.",
+          "score": 1,
+          "feedback": "Caffeine can increase shakiness and heart rate."
+        },
+        {
+          "text": "Skim the whole project again quickly.",
+          "score": 1,
+          "feedback": "Last-minute rushing adds tension instead of reducing it."
+        }
+      ],
+      "why": "Fast, discreet calming skills beat self-commands or stimulants before a short performance."
+    }
+  ],
+  "task": {
+    "title": "Two-minute breathing practice",
+    "brief": "Practise extended exhale breathing today at a calm moment.",
+    "steps": [
+      "Sit comfortably and set a two-minute timer.",
+      "Inhale through the nose for 4 and exhale slowly for 6 or more.",
+      "Rate your tension 0-10 before and after.",
+      "Plan one trigger moment tomorrow where you will use it."
+    ],
+    "checklist": [
+      "I timed two minutes",
+      "I rated tension before",
+      "I rated tension after",
+      "I chose a trigger moment"
+    ],
+    "evidencePrompt": "Write your before and after ratings and tomorrow's trigger.",
+    "evidenceWords": 15,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "stress-2.q1",
+      "type": "mcq",
+      "concept": "stress.breathing",
+      "prompt": "Why does a longer exhale help?",
+      "options": [
+        "It raises oxygen sharply",
+        "It tires the lungs",
+        "It engages the calming part of the nervous system",
+        "It increases heart rate"
+      ],
+      "answer": 2,
+      "why": "A long exhale slows the heart and signals safety to the body."
+    },
+    {
+      "id": "stress-2.q2",
+      "type": "mcq",
+      "concept": "stress.muscle-release",
+      "prompt": "When using muscle relaxation you should:",
+      "options": [
+        "Tense painful areas harder",
+        "Skip any painful or injured area",
+        "Hold tension for a full minute",
+        "Never release"
+      ],
+      "answer": 1,
+      "why": "Skip painful or injured areas; tension is brief and then released."
+    },
+    {
+      "id": "stress-2.q3",
+      "type": "mcq",
+      "concept": "stress.sleep-basics",
+      "prompt": "Which habit best protects sleep?",
+      "options": [
+        "Scrolling in bed",
+        "Keeping a consistent wake time",
+        "Sleeping in two hours on weekends only",
+        "Late heavy meals"
+      ],
+      "answer": 1,
+      "why": "A consistent wake time stabilises your body clock."
+    },
+    {
+      "id": "stress-2.q4",
+      "type": "fill",
+      "concept": "stress.sleep-basics",
+      "prompt": "Writing tomorrow's tasks and worries on paper before bed is called a worry ____. (one word)",
+      "accept": [
+        "dump"
+      ],
+      "why": "A worry dump moves looping thoughts onto paper with a next step."
+    }
+  ],
+  "bank": [
+    {
+      "id": "stress-2.b1",
+      "type": "mcq",
+      "concept": "stress.breathing",
+      "prompt": "In box breathing, the counts are:",
+      "options": [
+        "4-4-4-4 (in, hold, out, hold)",
+        "1-1-1-1",
+        "10-0-1-0",
+        "2-8-2-8"
+      ],
+      "answer": 0,
+      "why": "Box breathing is inhale 4, hold 4, exhale 4, hold 4. Skip holds if uncomfortable."
+    },
+    {
+      "id": "stress-2.b2",
+      "type": "mcq",
+      "concept": "stress.muscle-release",
+      "prompt": "A good movement break during long study sessions happens about every:",
+      "options": [
+        "5 hours",
+        "60 to 90 minutes",
+        "Never",
+        "10 seconds"
+      ],
+      "answer": 1,
+      "why": "A short break every 60 to 90 minutes uses stress energy and resets focus."
+    },
+    {
+      "id": "stress-2.b3",
+      "type": "mcq",
+      "concept": "stress.sleep-basics",
+      "prompt": "You cannot stop thinking about tomorrow at night. Best step?",
+      "options": [
+        "Check email again",
+        "Write tasks and worries with a next step",
+        "Drink coffee",
+        "Argue with the worry"
+      ],
+      "answer": 1,
+      "why": "Writing converts looping thoughts into next steps and lets the mind rest."
+    }
+  ],
+  "cards": [
+    {
+      "id": "stress-2.c1",
+      "concept": "stress.breathing",
+      "front": "Extended exhale breathing steps?",
+      "back": "Inhale through the nose for 4, exhale slowly for 6-8. Repeat for one to three minutes. Stay gentle."
+    },
+    {
+      "id": "stress-2.c2",
+      "concept": "stress.muscle-release",
+      "front": "How does progressive muscle relaxation work?",
+      "back": "Tense a muscle group about 5 seconds, release for about 10, move through the body. Skip painful areas."
+    },
+    {
+      "id": "stress-2.c3",
+      "concept": "stress.sleep-basics",
+      "front": "Three sleep habits?",
+      "back": "Consistent wake time, screen wind-down 30-60 minutes before bed, and a worry dump on paper."
+    },
+    {
+      "id": "stress-2.c4",
+      "concept": "stress.sleep-basics",
+      "front": "When should you speak to a doctor about sleep?",
+      "back": "If sleep problems last for weeks despite good habits."
+    }
+  ],
+  "reflection": "Which body-calming tool will you actually use this week, and at what exact moment?",
+  "revision": {
+    "keyPoints": [
+      "Calm the body first; thinking comes easier after.",
+      "Long exhale is the core of calming breath.",
+      "Release muscles and move every 60-90 minutes.",
+      "Protect sleep with a fixed wake time and a worry dump."
+    ],
+    "redo": "Do one minute of extended-exhale breathing now and note how your shoulders feel."
+  }
+}

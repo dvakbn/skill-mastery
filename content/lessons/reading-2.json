@@ -1,0 +1,302 @@
+{
+  "id": "reading-2",
+  "skillId": "reading",
+  "n": 2,
+  "title": "Active Reading",
+  "summary": "Read with a purpose: preview first, ask questions, annotate, and choose between reading, skimming and scanning.",
+  "difficulty": 2,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Set a purpose and preview a text before reading it in full.",
+    "Apply the SQ3R method (Survey, Question, Read, Recite, Review) to a chapter or article.",
+    "Choose between reading, skimming and scanning, and annotate in a way that helps later."
+  ],
+  "concepts": [
+    { "id": "reading.purpose-preview", "label": "Purpose and previewing" },
+    { "id": "reading.sq3r", "label": "The SQ3R method" },
+    { "id": "reading.annotation", "label": "Questions and annotation" },
+    { "id": "reading.modes", "label": "Reading, skimming and scanning" }
+  ],
+  "explanation": [
+    {
+      "heading": "Passive reading feels productive and is not",
+      "body": "In the previous lesson you built a daily habit with a cue and a small minimum. Now the question is quality: what happens in your head while your eyes move over the page? Passive reading means letting words wash past you. You finish the page and cannot say what it argued. Active reading means you are doing something mentally all the time: predicting, questioning, connecting and checking.\n\nThe first active move happens **before** you read. Ask: *Why am I reading this and what do I want from it?* A purpose might be 'understand how indexes speed up queries so I can answer an interview question' or 'decide whether this book is worth buying'. The purpose decides how closely you read, which parts you slow down for and what you write down. Reading without a purpose is like opening a map without a destination."
+    },
+    {
+      "heading": "Preview the text, then use SQ3R",
+      "body": "A **preview** takes two or three minutes. Look at the title, the introduction, the headings, the first sentence of each section, any diagrams or tables and the summary or conclusion. You are building a mental map so the details have a place to land.\n\n**SQ3R** is a classic study method with five steps:\n\n1. **Survey**: preview the chapter as described above.\n2. **Question**: turn each heading into a question. 'Types of joins' becomes 'What types of joins exist and when do I use each?'\n3. **Read**: read one section at a time, looking for the answer to your question.\n4. **Recite**: close the book and say or write the answer in your own words.\n5. **Review**: at the end, go back over your notes and check that you can answer all your questions.\n\nThe Recite step is the one that makes the difference. If you cannot say it without looking, you did not understand it yet, and that is useful information, not failure."
+    },
+    {
+      "heading": "Ask questions and annotate with a purpose",
+      "body": "Annotation does not mean highlighting every line. A page that is entirely yellow has no information in it. Use a small set of marks:\n\n- A **star** or underline for the single main idea of a section (at most one or two per page).\n- A **question mark** in the margin where you are confused.\n- A **short margin note** in your own words, such as 'cause of the delay' or 'same as the idea in ch. 2'.\n- An **arrow** where a point links to another page or to something you already know.\n\nDuring reading, keep asking: What is the author's main claim? What evidence supports it? Do I agree? How could I use this? On a screen, use the highlight and comment tools in the same way, or keep a notes file beside the reader. The rule of thumb is that for every ten lines you read, you should have written no more than one or two marks. Fewer, better marks."
+    },
+    {
+      "heading": "Three speeds: reading, skimming and scanning",
+      "body": "Skilled readers change speed according to purpose. **Reading** (careful) is for material you must understand and remember: a concept chapter, a contract, a specification. **Skimming** is moving quickly to get the gist: read the headings and first lines of paragraphs to decide whether a report or article is worth your time. **Scanning** is looking for one specific item, such as a date, a function name or an error code, while ignoring everything else.\n\nWorked example: you have a 20-page SAP training document. Step one, skim it for five minutes to see the structure. Step two, scan for the section on 'internal tables'. Step three, read that section carefully with SQ3R. You used all three speeds on one document, and you finished in a quarter of the time of reading all 20 pages evenly.\n\nThe common mistake is using only one speed. Reading everything slowly wastes hours; skimming everything gives you the feeling of knowing without understanding."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Turning headings into questions",
+      "body": "Chapter headings: 'What is normalisation?', 'First normal form', 'Why not normalise everything?'.\n\nYour questions: 'What problem does normalisation solve?', 'What rule makes a table first normal form?', 'When is it acceptable to break the rules?'",
+      "takeaway": "Questions give your reading a target, and the answers become your notes."
+    },
+    {
+      "title": "A margin that helps later",
+      "body": "Page text: a paragraph on how a late requirement change caused rework. Margin: '* scope change = rework cost (link: ch.3 estimates)' and '? who approves changes?' Nothing else is marked on the page.",
+      "takeaway": "One star, one link and one question tell you more when you return than a page of yellow."
+    },
+    {
+      "title": "Choosing the right speed",
+      "body": "Tuesday: you need the due date and marks split in a 12-page assignment brief - you scan. Wednesday: you want to know if an article on project management is relevant - you skim. Thursday: you study the chapter on joins for your exam - you read with SQ3R.",
+      "takeaway": "The task decides the speed. Use the fastest speed that still achieves your purpose."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "reading-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "reading.sq3r",
+      "prompt": "In SQ3R, which step involves closing the book and explaining a section in your own words?",
+      "options": [
+        "Recite",
+        "Survey",
+        "Question",
+        "Review"
+      ],
+      "answer": 0,
+      "hint": "It is the step with the Rs in the middle: Read, then ...",
+      "why": "Recite is the recall step. Survey is a preview, Question turns headings into questions, and Review comes at the end to go over everything again."
+    },
+    {
+      "id": "reading-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "reading.modes",
+      "prompt": "You need to find the deadline date in a long email thread and ignore everything else. Which speed is this: reading, skimming or scanning? Write one word.",
+      "accept": ["scanning", "scan", "scanning."],
+      "hint": "You are looking for one specific item.",
+      "why": "Scanning is a targeted search for a specific item. Skimming is for the gist, and careful reading is for understanding and remembering."
+    },
+    {
+      "id": "reading-2.e3",
+      "type": "scenario",
+      "level": 2,
+      "concept": "reading.annotation",
+      "prompt": "You are reading a chapter for an exam and you notice you have highlighted nearly every sentence. What is the best next step?",
+      "options": [
+        { "text": "Keep going; highlighting shows you are working hard.", "score": 0, "feedback": "When everything is highlighted, nothing stands out, and the highlighting replaces thinking." },
+        { "text": "Stop, remove most marks, and for each section write one margin note in your own words plus one question.", "score": 3, "feedback": "Correct: choosing one main idea per section forces understanding and creates review material." },
+        { "text": "Switch to a different colour for the rest of the chapter.", "score": 1, "feedback": "A new colour changes the look but not the problem that you are marking without deciding what matters." },
+        { "text": "Read the chapter twice without marking anything.", "score": 1, "feedback": "Rereading passively gives a false feeling of knowing; you need to produce something, such as notes or questions." }
+      ],
+      "why": "Active reading selects and rephrases. Fewer, better marks plus margin notes in your own words turn the page into something you can review."
+    },
+    {
+      "id": "reading-2.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "reading.purpose-preview",
+      "prompt": "Imagine you must read a 15-page article titled 'How Companies Migrate to the Cloud' before a client call tomorrow. Describe your plan: state your purpose, say what you would look at in your preview, write two heading-style questions you would ask, and say which parts you would read carefully and which you would skim.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "purpose",
+          "label": "A clear, specific purpose",
+          "weight": 25,
+          "descriptors": {
+            "0": "No purpose is stated.",
+            "1": "A vague purpose such as 'to learn about the cloud'.",
+            "2": "A purpose tied to the situation but not specific about what to extract.",
+            "3": "A purpose tied to the client call that states what you need to be able to say or ask."
+          },
+          "auto": { "type": "keywords", "any": ["purpose", "goal", "so that", "so i can", "in order to"], "min": 1, "label": "States a purpose" }
+        },
+        {
+          "id": "preview",
+          "label": "Preview steps",
+          "weight": 25,
+          "descriptors": {
+            "0": "No preview is mentioned.",
+            "1": "Mentions looking at the article but not what to look at.",
+            "2": "Names two preview elements such as title and headings.",
+            "3": "Names three or more elements, such as title, headings, first sentences, summary or conclusion."
+          },
+          "auto": { "type": "keywords", "any": ["heading", "summary", "conclusion", "introduction", "first sentence", "title"], "min": 2, "label": "Mentions at least two preview elements" }
+        },
+        {
+          "id": "questions",
+          "label": "Two useful questions",
+          "weight": 25,
+          "descriptors": {
+            "0": "No questions are written.",
+            "1": "One question, or questions that are too broad.",
+            "2": "Two questions that are relevant but generic.",
+            "3": "Two specific questions that match likely headings and the purpose."
+          }
+        },
+        {
+          "id": "speeds",
+          "label": "Choice of speeds",
+          "weight": 25,
+          "descriptors": {
+            "0": "No difference between sections is given.",
+            "1": "Says to read everything carefully or to skim everything.",
+            "2": "Names one careful section and one skimmed section without a reason.",
+            "3": "Matches each part to reading, skimming or scanning with a reason linked to the purpose."
+          },
+          "auto": { "type": "keywords", "any": ["skim", "scan"], "min": 1, "label": "Mentions skimming or scanning" }
+        }
+      ],
+      "modelAnswer": "My purpose is to be able to explain the main migration approaches and ask two sensible questions on tomorrow's client call. In a three-minute preview I would read the title, the introduction, every heading, the first sentence of each section and the conclusion. My questions: 'What are the main ways to migrate to the cloud?' and 'What risks do companies face during migration?' I would read the sections that answer those questions carefully, skim the case studies for the headline result, and scan for any cost figures I might need.",
+      "guidance": "Strong answers connect the plan to the client call, so the purpose is something you can test: 'I can explain three migration approaches'. Questions should be built from likely headings, not generic prompts. A common mistake is saying you will read all 15 pages carefully; with limited time, selecting what to read closely is the skill. Compare your plan with the model answer and score honestly."
+    }
+  ],
+  "task": {
+    "title": "Run SQ3R on one real chapter",
+    "brief": "Apply purpose, preview, questions, annotation and recitation to a chapter or article you choose.",
+    "steps": [
+      "Choose a chapter or an article of five to ten pages from a book, course material or an article you already have, and write one sentence stating why you are reading it.",
+      "Spend three minutes surveying it: title, headings, first lines, diagrams, summary. Turn each heading into a question on a sheet of paper.",
+      "Read one section at a time. Mark at most one main idea and one question per page, and write short margin notes in your own words.",
+      "After each section, close the book and write or say the answer to your question; then review all your answers at the end."
+    ],
+    "checklist": [
+      "I wrote my purpose before starting",
+      "I made a question from each heading",
+      "I limited my marks to the main ideas and questions",
+      "I recited each section's answer without looking"
+    ],
+    "evidencePrompt": "Name what you read, state your purpose, and write two of your questions with your answers.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "reading-2.q1",
+      "type": "mcq",
+      "concept": "reading.purpose-preview",
+      "prompt": "Why do you set a purpose before reading?",
+      "options": [
+        "It makes the text shorter.",
+        "It tells you how closely to read and what to look for.",
+        "It replaces the need to understand the text.",
+        "It guarantees you will remember everything."
+      ],
+      "answer": 1,
+      "why": "A purpose guides your attention and your speed. It does not shorten the text, replace understanding or guarantee memory."
+    },
+    {
+      "id": "reading-2.q2",
+      "type": "mcq",
+      "concept": "reading.sq3r",
+      "prompt": "What does the Q in SQ3R ask you to do?",
+      "options": [
+        "Quote the author in your notes.",
+        "Quickly finish the chapter.",
+        "Turn headings into questions.",
+        "Quit if the chapter is difficult."
+      ],
+      "answer": 2,
+      "why": "Q is for Question: convert headings into questions so you read to find answers. The other options are not part of the method."
+    },
+    {
+      "id": "reading-2.q3",
+      "type": "fill",
+      "concept": "reading.annotation",
+      "prompt": "Complete the rule: for each section, mark the main idea, not every ______. (one word)",
+      "accept": ["sentence", "line", "word"],
+      "why": "Highlighting every sentence hides what matters. Choose the main idea and add your own words in the margin."
+    },
+    {
+      "id": "reading-2.q4",
+      "type": "mcq",
+      "concept": "reading.modes",
+      "prompt": "You want to decide quickly whether a long report is relevant to your project. Which speed fits?",
+      "options": [
+        "Skimming",
+        "Careful reading of every page",
+        "Scanning for one word",
+        "Reciting"
+      ],
+      "answer": 0,
+      "why": "Skimming gives the gist so you can decide. Careful reading is too slow for a first decision, scanning looks for one item only, and reciting is a recall step."
+    }
+  ],
+  "bank": [
+    {
+      "id": "reading-2.b1",
+      "type": "mcq",
+      "concept": "reading.sq3r",
+      "prompt": "After reading a section on 'How garbage collection works', you close the book and cannot explain it without looking. What does this tell you?",
+      "options": [
+        "The book is badly written and you should stop.",
+        "You understood it, but your memory is poor.",
+        "You do not understand it yet and should reread the section, then try again.",
+        "You should move on; recall is not needed."
+      ],
+      "answer": 2,
+      "why": "Failing to recite shows a gap in understanding at the exact moment you can fix it. Blaming the book or skipping recall leaves the gap."
+    },
+    {
+      "id": "reading-2.b2",
+      "type": "fill",
+      "concept": "reading.modes",
+      "prompt": "You need the name of a single parameter in a 60-page technical manual. Which speed do you use: reading, skimming or scanning? Write one word.",
+      "accept": ["scanning", "scan"],
+      "why": "Scanning looks for one specific item and ignores the rest, which is the quickest way to find a parameter name."
+    },
+    {
+      "id": "reading-2.b3",
+      "type": "mcq",
+      "concept": "reading.purpose-preview",
+      "prompt": "A colleague hands you a report and says 'read this'. What is the best first move?",
+      "options": [
+        "Start at page one and read to the end.",
+        "Ask what you need from it, then preview the headings and summary with that purpose in mind.",
+        "Highlight the first paragraph of each page.",
+        "Put it aside until you have a free afternoon."
+      ],
+      "answer": 1,
+      "why": "Knowing the purpose and previewing first lets you choose the right speed. Reading from page one ignores the purpose, and highlighting or delaying does not help you read it well."
+    }
+  ],
+  "cards": [
+    {
+      "id": "reading-2.c1",
+      "concept": "reading.purpose-preview",
+      "front": "What do you do before you read in an active way?",
+      "back": "Set a purpose (why and what for), then preview the title, headings, first lines, visuals and conclusion for two or three minutes."
+    },
+    {
+      "id": "reading-2.c2",
+      "concept": "reading.sq3r",
+      "front": "What do the letters in SQ3R stand for?",
+      "back": "Survey, Question, Read, Recite, Review. Recite, saying the answer without looking, is the step that exposes gaps."
+    },
+    {
+      "id": "reading-2.c3",
+      "concept": "reading.annotation",
+      "front": "How should you annotate?",
+      "back": "Sparingly: one main-idea mark, question marks where confused, short margin notes in your own words and arrows for links."
+    },
+    {
+      "id": "reading-2.c4",
+      "concept": "reading.modes",
+      "front": "Reading vs skimming vs scanning?",
+      "back": "Reading: careful, to understand. Skimming: fast, for the gist. Scanning: targeted, to find one item."
+    }
+  ],
+  "reflection": "Think of the last long text you read. Did you read it with a purpose, and which of the three speeds should you have used?",
+  "revision": {
+    "keyPoints": [
+      "Set a purpose and preview before you read.",
+      "SQ3R: Survey, Question, Read, Recite, Review.",
+      "Turn headings into questions.",
+      "Mark the main idea and write notes in your own words.",
+      "Match the speed (reading, skimming, scanning) to the purpose."
+    ],
+    "redo": "Pick any page you read today, state its main idea aloud without looking, then check yourself."
+  }
+}

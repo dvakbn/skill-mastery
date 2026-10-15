@@ -1,0 +1,317 @@
+{
+  "id": "writing-3",
+  "skillId": "writing",
+  "n": 3,
+  "title": "Structure and Persuasion",
+  "summary": "Plan with outlines, build PEEL paragraphs, back claims with evidence and examples, and make reports and one-page briefs flow logically.",
+  "difficulty": 2,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Build a short outline before drafting a report or brief.",
+    "Write PEEL paragraphs: point, evidence, explain, link.",
+    "Support a recommendation with specific evidence and an example, in a logical order."
+  ],
+  "concepts": [
+    { "id": "writing.outline", "label": "Outlines and one-page briefs" },
+    { "id": "writing.peel", "label": "PEEL paragraphs" },
+    { "id": "writing.evidence", "label": "Evidence and examples" },
+    { "id": "writing.flow", "label": "Logical flow and transitions" }
+  ],
+  "explanation": [
+    {
+      "heading": "Outline first, so the writing has a spine",
+      "body": "Earlier you learned clear sentences and sharp emails. Longer documents such as reports, project proposals and briefs fail for a different reason: the structure is missing. A reader who cannot see where you are going stops trusting where you have been.\n\nAn **outline** is a five-minute plan with the main message at the top and three to five supporting points beneath. Write the message as a sentence: *We should move the college fest registration from Google Forms to a small web app because it will remove duplicate entries and cut manual work.* Then list the reasons: 1. duplicates, 2. manual effort, 3. cost and time to build, 4. recommendation and next step.\n\nFor a **one-page brief** use a fixed frame: **Purpose** (one sentence), **Background** (two or three lines), **Options or findings** (bullets), **Recommendation** (the answer, with reason), **Next steps** (owner and date). Put the recommendation near the top for a decision-maker; the rest justifies it."
+    },
+    {
+      "heading": "PEEL: a paragraph that does one job",
+      "body": "You already know a paragraph should carry one idea. **PEEL** gives it a shape:\n\n- **P**oint: the claim, in the first sentence.\n- **E**vidence: a fact, number, quote or observation that supports it.\n- **E**xplain: why that evidence proves the point.\n- **L**ink: connect back to your main message or forward to the next paragraph.\n\nExample: *Point: Manual registration is wasting the volunteers' time. Evidence: Last year, three volunteers spent about six hours checking 420 entries for duplicates. Explain: That is time they could have spent on logistics, and the work will grow if registrations increase. Link: An automated check would remove this step entirely.*\n\nThe explain step is the one beginners skip. Without it the reader must guess why your evidence matters. If a paragraph has no point, it is a pile of facts; if it has no evidence, it is an opinion."
+    },
+    {
+      "heading": "Evidence and examples that persuade",
+      "body": "Persuasion in professional writing is not decoration; it is **specific proof**. Three kinds of support work well: **data** (numbers with a source and a date), **examples** (a real case the reader can picture) and **authority** (a policy, standard or expert). Choose the type your reader respects. A finance head wants numbers; a team lead may be moved by a short example from a similar project.\n\nCompare: *Our system is slow and users are unhappy.* with *The report page takes about 14 seconds to load, and support received 23 complaints about it in September.* The second is checkable. Where you have only an estimate, say so: *roughly*, *based on a sample of 30 users*. Honest limits increase trust.\n\nAvoid three traps: **unsupported adjectives** (*terrible, amazing*), **one example presented as proof for everything**, and **evidence that does not match the claim**, such as showing that traffic grew to claim that users are happier."
+    },
+    {
+      "heading": "Flow: order and signposts",
+      "body": "A document flows when each part answers the question the previous part raised. Choose a logical order and keep to it: **problem, cause, solution, action** for proposals; **most to least important** for updates; **chronological** for incident reports. Then signpost. Transitions such as *because*, *as a result*, *however*, *for example* and *therefore* tell the reader how two ideas relate.\n\nHeadings and bullets help only if they are parallel and meaningful. 'Findings', 'Options', 'Recommendation' tell the story; 'Section 1, Section 2' do not. After drafting, do a **reverse outline**: write one line per paragraph summarising its point. If two lines say the same thing, merge them; if a line does not support your main message, cut or move it. Practise by outlining the next report or assignment for five minutes before writing a single paragraph."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A weak paragraph turned into PEEL",
+      "body": "Before: 'Our hostel Wi-Fi is really bad and everyone is frustrated. Something should be done soon.'\n\nAfter: 'The hostel Wi-Fi needs an upgrade before exam season. In a survey of 40 residents, 31 said video calls drop at least once a day, and eleven missed an online internship interview slot. Unreliable connections therefore cost students real opportunities, not just convenience. A second access point on each floor would address this.'",
+      "takeaway": "The after version leads with the point, uses numbers from a survey, explains why the evidence matters and links to the proposed action."
+    },
+    {
+      "title": "A one-page brief frame",
+      "body": "Purpose: Decide whether to adopt a shared notes tool for the project group.\nBackground: Five members keep notes in separate chats; two decisions were lost last sprint.\nOptions: (1) Keep chats. (2) Shared document with a decision log. (3) Full project tool, 2 days to set up.\nRecommendation: Option 2. It fixes lost decisions at no cost and takes under an hour.\nNext steps: Meera creates the document by Friday; everyone logs decisions from Monday.",
+      "takeaway": "A busy reader gets the decision, reason and action in under a minute; each heading answers a question."
+    },
+    {
+      "title": "Reverse outline catches a flaw",
+      "body": "Paragraph lines: 1. The app is slow. 2. Users complain about slowness. 3. Our server is old. 4. We should add a dark mode.\n\nThe reverse outline shows that paragraph 4 does not support the main message about performance. Move it to a different document or delete it, and add a paragraph on the fix for the slow server.",
+      "takeaway": "Summarising each paragraph in one line exposes repetition (1 and 2) and off-topic material (4)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "writing-3.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "writing.peel",
+      "prompt": "In a PEEL paragraph, which part tells the reader why the evidence proves the point?",
+      "options": [
+        "Point",
+        "Evidence",
+        "Explain",
+        "Link"
+      ],
+      "answer": 2,
+      "hint": "It is the step many beginners skip.",
+      "why": "The Explain step connects evidence to the point. Point states the claim, Evidence provides the proof, and Link connects the paragraph to the next idea or the main message."
+    },
+    {
+      "id": "writing-3.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "writing.outline",
+      "prompt": "In a one-page brief for a decision-maker, which section should appear near the top because the reader most needs it? Answer with one word.",
+      "accept": ["recommendation", "the recommendation", "recommendations"],
+      "hint": "It is the answer, not the background.",
+      "why": "Decision-makers need the recommendation early; background and options exist to justify it."
+    },
+    {
+      "id": "writing-3.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "writing.peel",
+      "prompt": "Situation: your project group of five students keeps missing deadlines because tasks are assigned verbally in a WhatsApp group and get buried. Using these facts: in the last sprint, 4 of 9 tasks were late; two members said they never saw their task; a shared task board would take under an hour to set up. Write ONE PEEL paragraph (60 to 110 words) arguing that the group should adopt a shared task board.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "point",
+          "label": "Clear point in the first sentence",
+          "weight": 20,
+          "descriptors": {
+            "0": "No identifiable claim.",
+            "1": "Claim appears but late or is vague.",
+            "2": "Claim is in the first sentence but mildly vague.",
+            "3": "First sentence clearly recommends the shared task board."
+          }
+        },
+        {
+          "id": "evidence",
+          "label": "Specific evidence from the facts given",
+          "weight": 30,
+          "descriptors": {
+            "0": "No facts used.",
+            "1": "Vague facts such as 'many tasks were late'.",
+            "2": "Uses one number or fact accurately.",
+            "3": "Uses at least two given facts accurately (4 of 9 late; two members never saw their task)."
+          },
+          "auto": { "type": "keywords", "any": ["4 of 9", "four of nine", "4 out of 9", "four out of nine", "two members", "never saw", "9 tasks", "nine tasks"], "min": 1, "label": "Uses a fact from the sprint data" }
+        },
+        {
+          "id": "explain",
+          "label": "Explains why the evidence supports the point",
+          "weight": 30,
+          "descriptors": {
+            "0": "Facts listed with no reasoning.",
+            "1": "Reasoning is implied but not stated.",
+            "2": "States a reason, but it is generic.",
+            "3": "States that verbal assignment in a busy chat leads to missed tasks and that a visible board gives each person a fixed place to check."
+          },
+          "auto": { "type": "keywords", "any": ["because", "therefore", "so ", "which means", "as a result", "this shows", "this means"], "min": 1, "label": "Uses a reasoning word" }
+        },
+        {
+          "id": "link",
+          "label": "Link to action",
+          "weight": 20,
+          "descriptors": {
+            "0": "Paragraph just stops.",
+            "1": "Ends with a general wish.",
+            "2": "Ends with a recommendation but no step.",
+            "3": "Ends by linking to the action: set up the board (under an hour) and use it from the next sprint."
+          }
+        }
+      ],
+      "modelAnswer": "The group should move task assignment from WhatsApp to a shared task board. In the last sprint, 4 of our 9 tasks were late, and two members said they never saw the message assigning their task. This shows that the chat buries decisions under daily conversation, so people cannot find what they own. A board gives each task one visible place, with a name and a date. Setting it up takes under an hour, so we can start with the next sprint.",
+      "guidance": "A strong paragraph opens with the claim, uses the numbers exactly as given, then does the explaining: why a buried chat causes late work and why a board fixes it. Weak answers repeat the facts without reasoning, exaggerate ('everyone always misses everything') or add facts that were not provided. Score each part separately, and rewrite the weakest part once."
+    },
+    {
+      "id": "writing-3.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "writing.flow",
+      "prompt": "You are drafting a one-page brief recommending that your team adopt automated tests. Your reverse outline reads: 1. Manual testing takes 6 hours per release. 2. Two bugs reached production last month. 3. Our new intern is very enthusiastic. 4. Automated tests could cut testing to 1 hour. 5. Recommendation and first step. What should you do with paragraph 3?",
+      "options": [
+        {
+          "text": "Keep it; it adds a human touch and the reader will like the personality.",
+          "score": 1,
+          "feedback": "Warmth is fine elsewhere, but here it does not support the recommendation and weakens the logical flow."
+        },
+        {
+          "text": "Cut it or move it elsewhere, because it does not support the main message of the brief.",
+          "score": 3,
+          "feedback": "Correct. The reverse outline shows a paragraph with no link to the recommendation. Every paragraph in a brief should earn its place."
+        },
+        {
+          "text": "Move it to the start so the brief opens with something friendly.",
+          "score": 0,
+          "feedback": "This puts an irrelevant point in the most prominent position and delays the main message."
+        },
+        {
+          "text": "Expand it to three paragraphs so the brief looks more thorough.",
+          "score": 0,
+          "feedback": "Padding makes a brief longer without making it more persuasive."
+        }
+      ],
+      "why": "A reverse outline is a test: each paragraph must support the main message. Paragraphs 1, 2 and 4 build the case; 5 closes it; 3 does not belong."
+    }
+  ],
+  "task": {
+    "title": "Outline and PEEL a real recommendation",
+    "brief": "Plan and draft a short recommendation about something real in your studies or work.",
+    "steps": [
+      "Choose a real decision (a tool for your project, a study plan, a hostel or lab issue) and write your main message in one sentence.",
+      "List three to four supporting points as an outline, with one fact or example for each.",
+      "Draft one PEEL paragraph for the strongest point, making sure the Explain step is present.",
+      "Do a reverse outline of your list: one line per point, and delete anything that does not support the message."
+    ],
+    "checklist": [
+      "Main message is one clear sentence",
+      "Each outline point has specific evidence",
+      "Paragraph includes all four PEEL parts",
+      "Off-topic points were cut"
+    ],
+    "evidencePrompt": "Write your main message and the first sentence of your PEEL paragraph.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "writing-3.q1",
+      "type": "mcq",
+      "concept": "writing.outline",
+      "prompt": "What should you write first when planning a report?",
+      "options": [
+        "The conclusion, so you can end quickly",
+        "The main message as one sentence, followed by supporting points",
+        "A list of every fact you know",
+        "The headings only, with no message"
+      ],
+      "answer": 1,
+      "why": "A one-sentence main message gives the whole document a spine, and supporting points follow from it. A list of every fact lacks direction, and headings alone do not say what you are arguing."
+    },
+    {
+      "id": "writing-3.q2",
+      "type": "mcq",
+      "concept": "writing.peel",
+      "prompt": "What does the L in PEEL stand for?",
+      "options": [
+        "Length",
+        "Link",
+        "List",
+        "Logic"
+      ],
+      "answer": 1,
+      "why": "L is Link: connect the paragraph back to the main message or forward to the next idea."
+    },
+    {
+      "id": "writing-3.q3",
+      "type": "mcq",
+      "concept": "writing.evidence",
+      "prompt": "Which sentence uses the strongest evidence?",
+      "options": [
+        "Our website is terrible and everybody hates it.",
+        "The checkout page takes about 12 seconds to load, and 18 of 50 test users abandoned it.",
+        "Many people say the page is slow.",
+        "It is obvious that the page needs work."
+      ],
+      "answer": 1,
+      "why": "It gives specific, checkable figures. The others rely on adjectives, vague 'many people' or an appeal to the obvious."
+    },
+    {
+      "id": "writing-3.q4",
+      "type": "fill",
+      "concept": "writing.flow",
+      "prompt": "A reverse outline has one line per what? Answer with one word.",
+      "accept": ["paragraph", "paragraphs", "a paragraph"],
+      "why": "In a reverse outline you summarise each paragraph in one line, so repetition and off-topic material become visible."
+    }
+  ],
+  "bank": [
+    {
+      "id": "writing-3.b1",
+      "type": "mcq",
+      "concept": "writing.peel",
+      "prompt": "A paragraph begins 'Our canteen is the problem' and then lists five complaints with no explanation. Which PEEL part is mainly missing?",
+      "options": [
+        "Explain, because the facts are not tied to a point or reason",
+        "Point, because the first sentence is too short",
+        "Link, because there is no heading",
+        "Evidence, because five complaints are too many"
+      ],
+      "answer": 0,
+      "why": "The paragraph has a vague claim and facts but no reasoning connecting them. Having five items of evidence is not a flaw, and headings are unrelated to Link."
+    },
+    {
+      "id": "writing-3.b2",
+      "type": "fill",
+      "concept": "writing.outline",
+      "prompt": "Name the one-page-brief section that states the owner and date for each action. Use two words.",
+      "accept": ["next steps", "next step", "action items", "action plan"],
+      "why": "The Next steps section turns the recommendation into owners and dates, so something actually happens."
+    },
+    {
+      "id": "writing-3.b3",
+      "type": "mcq",
+      "concept": "writing.evidence",
+      "prompt": "You write: 'Traffic to our app page doubled, so users are clearly happier.' What is wrong with the evidence?",
+      "options": [
+        "Nothing; doubling is strong proof.",
+        "Traffic growth does not show satisfaction, so the evidence does not match the claim.",
+        "The sentence needs more adjectives.",
+        "It should cite an authority instead of data."
+      ],
+      "answer": 1,
+      "why": "More visits can arise from marketing, curiosity or problems that make people return. Satisfaction needs matching evidence such as ratings, complaints or retention."
+    }
+  ],
+  "cards": [
+    {
+      "id": "writing-3.c1",
+      "concept": "writing.outline",
+      "front": "What are the sections of a one-page brief?",
+      "back": "Purpose, Background, Options or findings, Recommendation, Next steps (with owner and date). Put the recommendation near the top for decision-makers."
+    },
+    {
+      "id": "writing-3.c2",
+      "concept": "writing.peel",
+      "front": "What does PEEL stand for?",
+      "back": "Point, Evidence, Explain, Link. Claim first, proof second, reason why the proof matters third, then connect to the main message."
+    },
+    {
+      "id": "writing-3.c3",
+      "concept": "writing.evidence",
+      "front": "What makes evidence persuasive?",
+      "back": "It is specific, checkable and matches the claim. Use data, a real example or an authority, and state honest limits like sample size."
+    },
+    {
+      "id": "writing-3.c4",
+      "concept": "writing.flow",
+      "front": "How do you test the logical flow of a draft?",
+      "back": "Reverse outline: one line per paragraph. Merge repeats, cut or move lines that do not support the main message, and check transitions."
+    }
+  ],
+  "reflection": "Think of a time you tried to convince someone in writing or in a meeting. Which of the four parts of PEEL was weakest in what you said, and what evidence could you have added?",
+  "revision": {
+    "keyPoints": [
+      "Write the main message as one sentence before drafting.",
+      "PEEL: Point, Evidence, Explain, Link.",
+      "Specific, checkable evidence beats adjectives.",
+      "Match evidence to the claim.",
+      "Reverse outline: one line per paragraph; cut what does not support the message."
+    ],
+    "redo": "Pick any paragraph you wrote recently and label its P, E, E and L; add the missing part in one sentence."
+  }
+}

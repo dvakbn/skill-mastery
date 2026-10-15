@@ -1,0 +1,338 @@
+{
+  "id": "leadership-2",
+  "skillId": "leadership",
+  "n": 2,
+  "title": "Delegation and Motivation",
+  "summary": "Delegate with clear expectations, choose a suitable level of autonomy and understand what actually motivates people beyond money and marks.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Write a clear delegation brief covering outcome, standards, deadline and check-ins.",
+    "Choose a delegation level that matches a person skill and the task risk.",
+    "Identify motivation drivers and match tasks to them."
+  ],
+  "concepts": [
+    {
+      "id": "leadership.expectations",
+      "label": "Clear expectations"
+    },
+    {
+      "id": "leadership.delegation-levels",
+      "label": "Delegation levels"
+    },
+    {
+      "id": "leadership.autonomy",
+      "label": "Autonomy and trust"
+    },
+    {
+      "id": "leadership.motivation",
+      "label": "Motivation drivers"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why delegation fails",
+      "body": "The last lesson showed that leadership is about direction and ownership. Delegating is how a leader uses other people well. It fails in two ways. Some people **under-delegate**: \"It is faster if I do it,\" and they burn out while teammates idle. Others **dump**: \"Do the report\" with no detail, then are angry at a poor result.\n\nMost failed delegation is a failure of expectations, not of the other person. If two people picture different outcomes, disappointment is guaranteed."
+    },
+    {
+      "heading": "Clear expectations: the delegation brief",
+      "body": "Before handing over a task, cover five items:\n\n1. **Outcome**: what does done look like? (\"A five-slide summary of survey results.\")\n2. **Why**: how it fits the bigger goal.\n3. **Standards and limits**: quality bar, format, budget, what must not change.\n4. **Deadline and check-in points**: \"First draft by Wednesday noon; quick look together.\"\n5. **Authority**: what they can decide alone and what needs you.\n\nThen ask them to repeat it back in their words. This takes two minutes and removes most misunderstandings. Written briefs in the group chat are better than verbal ones, because everyone can refer to them later."
+    },
+    {
+      "heading": "Levels of delegation and autonomy",
+      "body": "Delegation is not all or nothing. A common ladder runs from low to high autonomy:\n\n- **Level 1**: Do exactly this, as I described.\n- **Level 2**: Research and recommend; I will decide.\n- **Level 3**: Decide, but check with me before acting.\n- **Level 4**: Act, then tell me what you did.\n- **Level 5**: Act on your own; report only exceptions.\n\nChoose the level from two factors: the person's **skill and experience** with this task, and the **risk** of a mistake. A new teammate preparing a client demo gets Level 2 or 3; an experienced one preparing minutes of a meeting gets Level 4 or 5. Move up as trust builds. Too much control kills motivation, since people want **autonomy**, and too little leaves beginners lost."
+    },
+    {
+      "heading": "What motivates people",
+      "body": "Money matters, but long-term effort is driven mostly by other things. Useful drivers are **autonomy** (some say in how), **mastery** (getting better at something), **purpose** (the work matters), **recognition** (being seen) and **belonging**. Different people value different ones. One teammate loves a challenging debugging task (mastery); another wants to present to the client (recognition).\n\nThe simplest method is to ask: \"What kind of work do you enjoy and want more of?\" Then match tasks where you can. Thank people specifically: \"Your test cases caught the date bug before the demo\" works better than \"good job.\""
+    }
+  ],
+  "examples": [
+    {
+      "title": "A delegation brief",
+      "body": "Priya leads a college fest team. She tells Vikram: \"I need a budget sheet for the sound and lighting (outcome) so the committee can approve spending on Monday (why). Use last year's vendors list and keep total under ₹40,000 (standards). First draft Friday at 5; show me before it goes out (check-in). You can negotiate with vendors up to ₹2,000 per item without asking me (authority).\" Vikram repeats it back and adds a question about GST.",
+      "takeaway": "A two-minute brief with all five items and a repeat-back prevented a day of rework."
+    },
+    {
+      "title": "Matching level to person",
+      "body": "Dev is new and has never contacted a vendor, so Priya picks Level 2: \"Get three quotes and recommend one; I will decide.\" For Sana, who has done it before, Priya picks Level 4: \"Book the vendor within budget and tell me.\" Next month Dev moves to Level 3 after handling quotes well.",
+      "takeaway": "The same task gets different levels depending on skill and risk, and levels rise with trust."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leadership-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "leadership.expectations",
+      "prompt": "Which item is most important to confirm after giving a brief?",
+      "options": [
+        "That they can repeat the outcome and deadline in their own words",
+        "That they feel flattered",
+        "That they will work late",
+        "That they have a tool licence"
+      ],
+      "answer": 0,
+      "why": "A repeat-back reveals different mental pictures before work begins."
+    },
+    {
+      "id": "leadership-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "leadership.delegation-levels",
+      "prompt": "At the delegation level \"research and recommend, I will decide\", the leader keeps the ____. (one word)",
+      "accept": [
+        "decision"
+      ],
+      "why": "At that level the other person gathers options but the leader decides."
+    },
+    {
+      "id": "leadership-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "leadership.autonomy",
+      "prompt": "A capable teammate asks to try a different method for a low-risk task and you disagree slightly. What do you do?",
+      "options": [
+        {
+          "text": "Insist on your method.",
+          "score": 1,
+          "feedback": "It reduces autonomy and may teach them nothing."
+        },
+        {
+          "text": "Agree on the outcome and deadline, let them try their method, and check in halfway.",
+          "score": 3,
+          "feedback": "Outcome clarity plus autonomy motivates and the risk is low."
+        },
+        {
+          "text": "Let them do whatever without any deadline.",
+          "score": 1,
+          "feedback": "No outcome or check-in is abdication, not delegation."
+        },
+        {
+          "text": "Give the task to someone else.",
+          "score": 0,
+          "feedback": "Reassigning punishes initiative and wastes the chance to build trust."
+        }
+      ],
+      "why": "For low-risk tasks, fix the outcome and give freedom on the method."
+    },
+    {
+      "id": "leadership-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "leadership.expectations",
+      "prompt": "You must delegate the task of collecting feedback forms from 60 students in your department and entering them in a sheet. Write a delegation brief of 4 to 6 sentences with outcome, why, standards, deadline with check-in and authority.",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "outcome",
+          "label": "Outcome and why",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Outcome only.",
+            "3": "Outcome and its purpose."
+          }
+        },
+        {
+          "id": "standards",
+          "label": "Standards and limits",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Some standard.",
+            "3": "Specific format or quality bar."
+          }
+        },
+        {
+          "id": "deadline",
+          "label": "Deadline and check-in",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Deadline only.",
+            "2": "Both mentioned.",
+            "3": "Dated deadline with a specific check-in."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d|monday|tuesday|wednesday|thursday|friday|saturday|sunday",
+            "label": "Mentions a date or time"
+          }
+        },
+        {
+          "id": "authority",
+          "label": "Decision authority",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Unclear.",
+            "2": "Some mention.",
+            "3": "Clear what they decide alone and what to ask."
+          }
+        }
+      ],
+      "modelAnswer": "Rohan, I need all 60 forms entered in the sheet so we can show the department head the results on Monday. Use the existing template with one row per student and mark missing answers as NA. Please finish entry by Friday 4 pm and show me the first 15 rows tomorrow so we can fix format issues early. You can chase students for missing forms yourself, but ask me before changing any question wording.",
+      "guidance": "Good briefs are short and complete. Weak ones say \"enter the forms soon.\" Common mistakes are leaving out standards and authority. Check against the model honestly."
+    }
+  ],
+  "task": {
+    "title": "Delegate one thing properly",
+    "brief": "Hand over a real task to a friend, teammate or sibling using the five-item brief and a chosen level.",
+    "steps": [
+      "Pick a task you would normally do yourself.",
+      "Write the five-item brief.",
+      "Choose a delegation level and say it aloud.",
+      "Ask for a repeat-back.",
+      "Check in at the agreed point and thank them specifically."
+    ],
+    "checklist": [
+      "I covered all five items",
+      "I chose a level on purpose",
+      "I asked for a repeat-back",
+      "I gave specific thanks"
+    ],
+    "evidencePrompt": "Paste your brief and the level you chose.",
+    "evidenceWords": 50,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "leadership-2.q1",
+      "type": "mcq",
+      "concept": "leadership.expectations",
+      "prompt": "Most failed delegation comes from:",
+      "options": [
+        "Lazy people",
+        "Short deadlines",
+        "Unclear expectations",
+        "Too many check-ins"
+      ],
+      "answer": 2,
+      "why": "Different pictures of the outcome cause most disappointments."
+    },
+    {
+      "id": "leadership-2.q2",
+      "type": "fill",
+      "concept": "leadership.delegation-levels",
+      "prompt": "Act first, then tell me what you did is a ____ level of delegation. (one word)",
+      "accept": [
+        "high",
+        "higher"
+      ],
+      "why": "It gives much autonomy, so it is a high level."
+    },
+    {
+      "id": "leadership-2.q3",
+      "type": "mcq",
+      "concept": "leadership.autonomy",
+      "prompt": "Too much control tends to:",
+      "options": [
+        "Raise motivation",
+        "Lower motivation and ownership",
+        "Speed everything",
+        "Build trust"
+      ],
+      "answer": 1,
+      "why": "People want some say in how they work."
+    },
+    {
+      "id": "leadership-2.q4",
+      "type": "mcq",
+      "concept": "leadership.motivation",
+      "prompt": "Which is a motivation driver besides money?",
+      "options": [
+        "Mastery",
+        "Seniority",
+        "Distance",
+        "Rank"
+      ],
+      "answer": 0,
+      "why": "Autonomy, mastery, purpose, recognition and belonging all drive effort."
+    }
+  ],
+  "bank": [
+    {
+      "id": "leadership-2.b1",
+      "type": "mcq",
+      "concept": "leadership.delegation-levels",
+      "prompt": "A first-year volunteer is asked to talk to a sponsor for the first time. Which level fits best?",
+      "options": [
+        "Act on your own",
+        "Research and recommend, then decide together",
+        "Report only exceptions",
+        "No guidance"
+      ],
+      "answer": 1,
+      "why": "A new person in a risky task needs a lower level with support."
+    },
+    {
+      "id": "leadership-2.b2",
+      "type": "mcq",
+      "concept": "leadership.motivation",
+      "prompt": "A teammate loves solving hard bugs and avoids presentations. Which assignment matches their driver?",
+      "options": [
+        "Lead the client demo",
+        "Own the trickiest defects",
+        "Write the invites",
+        "Take attendance"
+      ],
+      "answer": 1,
+      "why": "Mastery-seeking people stay engaged with challenging technical work."
+    },
+    {
+      "id": "leadership-2.b3",
+      "type": "fill",
+      "concept": "leadership.autonomy",
+      "prompt": "Giving people freedom over how to reach an agreed outcome supports their ____. (one word)",
+      "accept": [
+        "autonomy"
+      ],
+      "why": "Autonomy is the sense of having a say in the method."
+    }
+  ],
+  "cards": [
+    {
+      "id": "leadership-2.c1",
+      "concept": "leadership.expectations",
+      "front": "Five parts of a delegation brief?",
+      "back": "Outcome, why it matters, standards and limits, deadline with check-ins, and decision authority. Ask for a repeat-back."
+    },
+    {
+      "id": "leadership-2.c2",
+      "concept": "leadership.delegation-levels",
+      "front": "Describe the levels of delegation.",
+      "back": "From do exactly this, to research and recommend, decide after checking, act then tell me, and act alone reporting exceptions. Match to skill and risk."
+    },
+    {
+      "id": "leadership-2.c3",
+      "concept": "leadership.autonomy",
+      "front": "Why give autonomy?",
+      "back": "People want a say in how they work; fixing the outcome and freeing the method builds ownership and motivation, with check-ins for safety."
+    },
+    {
+      "id": "leadership-2.c4",
+      "concept": "leadership.motivation",
+      "front": "Name key motivation drivers.",
+      "back": "Autonomy, mastery, purpose, recognition and belonging. Ask people what work they enjoy and match tasks, thanking them specifically."
+    }
+  ],
+  "reflection": "Which task do you hold on to that someone else could do, and what holds you back?",
+  "revision": {
+    "keyPoints": [
+      "A five-item brief and repeat-back prevent rework.",
+      "Pick the delegation level from skill and risk.",
+      "Fix the outcome, free the method.",
+      "Match tasks to motivation drivers."
+    ],
+    "redo": "Pick one task and write its five-item brief in under two minutes."
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "id": "eq-2",
+  "skillId": "eq",
+  "n": 2,
+  "title": "Self-Regulation",
+  "summary": "Pause before you react, use the STOP technique, reframe the story you are telling yourself, and recover well after a misstep.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Use a deliberate pause to separate a feeling from the action that follows it.",
+    "Apply the four STOP steps and one reappraisal question in a heated moment.",
+    "Recover after a misstep with a short, specific repair instead of silence or over-apology."
+  ],
+  "concepts": [
+    {
+      "id": "eq.pause",
+      "label": "The pause: responding vs reacting"
+    },
+    {
+      "id": "eq.stop",
+      "label": "The STOP technique"
+    },
+    {
+      "id": "eq.reappraisal",
+      "label": "Reappraisal: changing the story"
+    },
+    {
+      "id": "eq.recovery",
+      "label": "Recovering after a misstep"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Between feeling and action there is a gap",
+      "body": "In the first lesson of this skill you practised naming emotions precisely. Naming is the first half; the second half is deciding what to do with the feeling. **Reacting** means the action follows the feeling in a split second: you snap, you send the angry message, you go silent for two days. **Responding** means you feel the same thing, but a short gap sits between the feeling and the action, and you choose.\n\nThe gap does not need to be long. Strong emotions peak and then fall; for most everyday irritations the sharpest part passes within a minute or two. A pause of even ten seconds, with one slow breath, is often enough to move you from reacting to responding. You are not hiding the feeling. You are choosing when and how it comes out."
+    },
+    {
+      "heading": "STOP: four steps for a heated moment",
+      "body": "STOP is a memorable routine for the moment you notice a rise in heat.\n\n1. **S - Stop.** Freeze what you are about to say or type. Hands off the keyboard.\n2. **T - Take a breath.** One slow breath in, a longer breath out. This calms the body signal you learned to spot earlier.\n3. **O - Observe.** Name the feeling, rate it out of 10, and notice the body signal. 'Irritated, 7 out of 10, jaw tight.'\n4. **P - Proceed.** Choose one action that fits your values: ask a question, ask for time, or reply briefly.\n\n**Worked example.** In a group project chat, a teammate writes, 'Anyone who read the brief would know this slide is wrong.' You feel heat rise. Reacting would be: 'Maybe do it yourself then.' With STOP you stop typing, breathe, observe 'insulted, 7 out of 10', and proceed with: 'Fair, I may have missed something. Which part of the brief does it contradict?' The conflict never starts."
+    },
+    {
+      "heading": "Reappraisal: change the story, not the facts",
+      "body": "Much of the heat comes not from the event but from the story you attach to it. The facts are 'my team lead replied with one word: Noted.' The story might be 'She is angry with me.' Reappraisal means generating at least one other story that fits the same facts: 'She is replying from her phone between meetings.'\n\nUse a simple question: **'What else could be true?'** List two alternatives, one neutral and one kind. You are not forcing yourself to believe the nicest story; you are loosening the grip of the first one so you can check it. Then, if it matters, check with a question: 'Does the draft need changes?'\n\nA common mistake is suppression: telling yourself 'do not feel angry'. Suppressing usually makes the feeling louder. Reappraisal works because it changes the meaning, so the feeling reduces naturally."
+    },
+    {
+      "heading": "Recovering after a misstep",
+      "body": "Everyone snaps sometimes. Emotional intelligence is not never slipping; it is how fast and how well you repair. A good repair has three parts: **name what you did** specifically, **own it without excuses**, and **say what you will do differently**. For example: 'I raised my voice in the meeting when you changed the plan. That was not fair to you. Next time I will ask for a minute and speak to you after.'\n\nTwo common mistakes: waiting weeks because it feels awkward, and over-apologising so the other person has to comfort you. Keep it short, do it soon, and then change the behaviour. After the repair, note what the trigger was; this feeds your emotion log, and next time the pause will come a little earlier."
+    }
+  ],
+  "examples": [
+    {
+      "title": "The family expectation moment",
+      "body": "At dinner, your uncle says, 'In IT you will never earn properly unless you leave this ABAP and do something government.' Heat rises: 8 out of 10, chest tight.\n\nReaction: 'You don't understand anything about my field!' and then a cold silence.\n\nSTOP response: breathe, observe 'defensive and dismissed', and reply calmly: 'I know you want me to be secure. I have thought about it; I can show you the plan after dinner.'",
+      "takeaway": "The feeling was identical in both versions. The pause changed the outcome, and the reply acknowledged the uncle's underlying value (security) without giving in."
+    },
+    {
+      "title": "Reappraising a one-word reply",
+      "body": "You send your team lead a long update and receive 'Ok.' Story one: 'He thinks it was poor.' Alternatives: 'He is in a client call', 'Ok means he accepted it'. You ask: 'Please let me know if anything needs a change before the review.' He replies, 'All good, thanks.'",
+      "takeaway": "Alternatives came from the same facts, and a quick check replaced hours of worry."
+    },
+    {
+      "title": "A short repair message",
+      "body": "After snapping at a project partner on a call, you message: 'I cut you off today and spoke sharply. That was not okay. I was anxious about the deadline, but that is my issue to manage. Can we go through your part again tomorrow? I will let you finish first.'",
+      "takeaway": "It names the act, owns it, gives a short reason without blaming, and states a change."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "eq-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "eq.pause",
+      "prompt": "What is the main difference between reacting and responding?",
+      "options": [
+        "Reacting means you feel the emotion; responding means you do not feel it.",
+        "Responding means a short gap exists between the feeling and the action, so you choose what to do.",
+        "Responding means you always stay silent until the feeling is gone.",
+        "Reacting is always loud, and responding is always polite agreement."
+      ],
+      "answer": 1,
+      "hint": "Think about what happens between the feeling and the action.",
+      "why": "Both involve feeling the emotion. The difference is the gap that lets you choose. Option 1 wrongly says you stop feeling; option 3 confuses a pause with permanent silence; option 4 treats responding as agreeing, which it is not."
+    },
+    {
+      "id": "eq-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "eq.stop",
+      "prompt": "In the STOP technique, what does the letter O stand for? (one word)",
+      "accept": [
+        "observe",
+        "observing"
+      ],
+      "hint": "You name the feeling and rate it out of 10.",
+      "why": "O is Observe: name the feeling, rate it and notice the body signal before choosing what to do."
+    },
+    {
+      "id": "eq-2.e3",
+      "type": "roleplay",
+      "level": 2,
+      "concept": "eq.stop",
+      "why": "The best path pauses first, accepts the valid part of the criticism, commits to a concrete fix, and makes a calm request for next time. Counter-attacks, silence and self-attack all keep the heat in charge.",
+      "setup": "You are a student in a group project. Rohan, a teammate, has just said in the group call that your section was 'copied and sloppy' in front of everyone. Your goal is to use STOP and keep the working relationship intact.",
+      "turns": [
+        {
+          "they": "Honestly, your section was copied and sloppy. We will lose marks because of it.",
+          "options": [
+            {
+              "text": "Say, 'Give me a second.' Take one slow breath, then say, 'That is harsh. Which parts concern you?'",
+              "score": 3,
+              "feedback": "You paused, named the sting in a calm way and asked for specifics.",
+              "reply": "Mostly slides 4 and 5. Some lines look exactly like the source."
+            },
+            {
+              "text": "Say, 'At least I did my part. Where is yours?'",
+              "score": 0,
+              "feedback": "A counter-attack is a reaction. It turns a feedback issue into a fight.",
+              "reply": "Oh, so now it is my fault? I am only saying what is true."
+            },
+            {
+              "text": "Say nothing and mute your mic for the rest of the call.",
+              "score": 1,
+              "feedback": "Not reacting is fine, but total silence leaves the issue unresolved and the heat inside you.",
+              "reply": "Hello? Are you there? Fine, we will move on then."
+            }
+          ]
+        },
+        {
+          "they": "Slides 4 and 5. Some lines are word for word from the source.",
+          "options": [
+            {
+              "text": "Say, 'You are right to flag it. I will rewrite both in my own words by tomorrow evening. Could you review them?'",
+              "score": 3,
+              "feedback": "You accept the valid part, commit to a specific action and a time, and invite collaboration.",
+              "reply": "Okay, that works. I will check them tomorrow night."
+            },
+            {
+              "text": "Say, 'I did not copy anything. You are exaggerating.'",
+              "score": 1,
+              "feedback": "You may be partly right, but flat denial without checking the slides escalates the argument.",
+              "reply": "I am looking at it right now. It is the same sentence."
+            },
+            {
+              "text": "Say, 'Fine, I will rewrite everything. Sorry, sorry, it is all my fault, I am useless.'",
+              "score": 0,
+              "feedback": "Over-apologising and self-attack drains you and makes the issue about your feelings, not the slides.",
+              "reply": "Uh, no, I did not say that. Let us just fix slides 4 and 5."
+            }
+          ]
+        },
+        {
+          "they": "Just fix them and we will see.",
+          "options": [
+            {
+              "text": "Say, 'Thanks. Also, next time please message me privately first; I find it easier to fix things that way.'",
+              "score": 3,
+              "feedback": "You set a calm, specific request for the future without blame.",
+              "reply": "Fair enough. I should have done that. I will message you first."
+            },
+            {
+              "text": "Say, 'You should never criticise people in front of the group.'",
+              "score": 1,
+              "feedback": "The point is valid but the absolute language sounds like a lecture.",
+              "reply": "I only said what the problem was. Anyway, send it by tomorrow."
+            },
+            {
+              "text": "Say nothing, and decide privately not to help Rohan again.",
+              "score": 0,
+              "feedback": "Silent resentment builds and nothing changes for the next project.",
+              "reply": "Okay, bye then."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eq-2.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "eq.recovery",
+      "prompt": "Yesterday you raised your voice at your team lead, Meena, when she changed the demo plan an hour before the client call. Today you must repair it. Write the exact message you would send (60 words or fewer is fine), including what you did, ownership, and what you will do differently.",
+      "minWords": 30,
+      "rubric": [
+        {
+          "id": "specific",
+          "label": "Names the specific behaviour",
+          "weight": 30,
+          "descriptors": {
+            "0": "No mention of what actually happened.",
+            "1": "Vague wording such as 'sorry for yesterday' only.",
+            "2": "Mentions raising the voice but without context.",
+            "3": "Names the act and context: raised voice when the plan changed before the call."
+          }
+        },
+        {
+          "id": "own",
+          "label": "Owns it without excuses or blame",
+          "weight": 30,
+          "descriptors": {
+            "0": "Blames Meena or the situation entirely.",
+            "1": "Apology followed by a 'but' that excuses the behaviour.",
+            "2": "Owns it, with a slight excuse.",
+            "3": "Clear ownership; any reason is given without shifting blame."
+          }
+        },
+        {
+          "id": "change",
+          "label": "States a concrete change",
+          "weight": 25,
+          "descriptors": {
+            "0": "No change mentioned.",
+            "1": "Vague promise such as 'I will be better'.",
+            "2": "A change that is somewhat specific.",
+            "3": "A specific behaviour for next time, such as asking for a minute and raising concerns calmly."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "next time",
+              "in future",
+              "from now",
+              "I will"
+            ],
+            "min": 1,
+            "label": "Includes a forward-looking commitment"
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Short and not over-apologising",
+          "weight": 15,
+          "descriptors": {
+            "0": "Long, dramatic or self-punishing.",
+            "1": "Several repeated apologies.",
+            "2": "Slightly long but balanced.",
+            "3": "Brief, calm and respectful."
+          }
+        }
+      ],
+      "modelAnswer": "Hi Meena, yesterday I raised my voice when the demo plan changed before the client call. That was not okay and it was not fair to you. I was worried about the preparation, but I should have asked for five minutes instead. Next time I will tell you my concern calmly and we can decide together. Thank you for handling the call so well.",
+      "guidance": "A strong repair is specific, short and forward-looking. Common mistakes are a vague 'sorry for yesterday', a long explanation that becomes an excuse, and apologising five times. Check that you named the exact behaviour and a future action you can really do. Score each criterion honestly against the model answer."
+    }
+  ],
+  "task": {
+    "title": "Run STOP in the wild",
+    "brief": "Practise the pause on three small irritations today or tomorrow, and write down what you chose to do.",
+    "steps": [
+      "Pick three mild triggers likely this week, such as a slow reply, a noisy room or a family comment.",
+      "When you notice heat, mentally say S, T, O, P and take one slow breath before acting.",
+      "Rate the feeling out of 10 before and after the pause.",
+      "Write one alternative story for each trigger using 'What else could be true?'"
+    ],
+    "checklist": [
+      "I used STOP at least twice",
+      "I rated the feeling before and after",
+      "I wrote an alternative story",
+      "I noted what I chose to do"
+    ],
+    "evidencePrompt": "Describe one moment you used STOP, the rating before and after, and what you did.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "eq-2.q1",
+      "type": "mcq",
+      "concept": "eq.pause",
+      "prompt": "Which action best shows responding rather than reacting?",
+      "options": [
+        "Replying instantly to a rude message to show you are not afraid.",
+        "Taking one breath, then replying briefly with a question.",
+        "Deleting the whole group chat.",
+        "Pretending the message did not bother you."
+      ],
+      "answer": 1,
+      "why": "A short pause followed by a chosen reply is responding. Instant replies are reactions, deleting the chat is avoidance, and pretending is suppression."
+    },
+    {
+      "id": "eq-2.q2",
+      "type": "mcq",
+      "concept": "eq.stop",
+      "prompt": "Which is the correct order of STOP?",
+      "options": [
+        "Observe, Stop, Proceed, Take a breath",
+        "Stop, Observe, Take a breath, Proceed",
+        "Take a breath, Stop, Proceed, Observe",
+        "Stop, Take a breath, Observe, Proceed"
+      ],
+      "answer": 3,
+      "why": "The order is Stop, Take a breath, Observe, Proceed. You freeze first, calm the body, name what you feel, and only then choose an action."
+    },
+    {
+      "id": "eq-2.q3",
+      "type": "mcq",
+      "concept": "eq.reappraisal",
+      "prompt": "Your lead replied only 'Noted.' Which is a reappraisal?",
+      "options": [
+        "I must not feel upset about this.",
+        "She is angry; I should stay away from her.",
+        "She may be busy and 'Noted' may simply mean she received it; I can check later.",
+        "I will reply with 'Noted.' too."
+      ],
+      "answer": 2,
+      "why": "Reappraisal finds another story that fits the same facts and then allows a check. Option 1 is suppression, option 2 keeps the same story, and option 4 is payback."
+    },
+    {
+      "id": "eq-2.q4",
+      "type": "fill",
+      "concept": "eq.recovery",
+      "prompt": "A good repair names what you did, owns it, and says what you will do ______. (one word)",
+      "accept": [
+        "differently",
+        "different"
+      ],
+      "why": "The third part of a repair is the change in future behaviour: what you will do differently."
+    }
+  ],
+  "bank": [
+    {
+      "id": "eq-2.b1",
+      "type": "mcq",
+      "concept": "eq.stop",
+      "prompt": "You are about to type an angry reply to a classmate who missed a deadline, and your hands are shaking. What is the best first move?",
+      "options": [
+        "Send the message, then apologise later.",
+        "Stop typing and take one slow breath before deciding anything.",
+        "Forward the chat to the professor immediately.",
+        "Ask others to take your side first."
+      ],
+      "answer": 1,
+      "why": "First, stop and breathe. Sending in anger or escalating to others before you have calmed down tends to make things worse."
+    },
+    {
+      "id": "eq-2.b2",
+      "type": "mcq",
+      "concept": "eq.reappraisal",
+      "prompt": "Which question best helps reappraise a situation?",
+      "options": [
+        "Why does this always happen to me?",
+        "What else could be true here?",
+        "Who should I blame?",
+        "How can I look unaffected?"
+      ],
+      "answer": 2,
+      "why": "'What else could be true?' generates alternative stories that fit the facts. The others strengthen blame or hide the feeling."
+    },
+    {
+      "id": "eq-2.b3",
+      "type": "fill",
+      "concept": "eq.recovery",
+      "prompt": "After snapping at a friend, should you repair soon or wait weeks until it feels less awkward? Answer with one word: soon or later.",
+      "accept": [
+        "soon"
+      ],
+      "why": "A repair works best soon and short. Waiting lets the hurt and the story grow."
+    }
+  ],
+  "cards": [
+    {
+      "id": "eq-2.c1",
+      "concept": "eq.pause",
+      "front": "What is reacting versus responding?",
+      "back": "Reacting: action follows the feeling instantly. Responding: a short gap lets you choose the action. You still feel the emotion."
+    },
+    {
+      "id": "eq-2.c2",
+      "concept": "eq.stop",
+      "front": "What are the four STOP steps?",
+      "back": "Stop, Take a breath, Observe (name and rate the feeling), Proceed with one chosen action."
+    },
+    {
+      "id": "eq-2.c3",
+      "concept": "eq.reappraisal",
+      "front": "What is reappraisal in emotional regulation?",
+      "back": "Changing the story you tell about the same facts. Ask 'What else could be true?' and check if it matters."
+    },
+    {
+      "id": "eq-2.c4",
+      "concept": "eq.recovery",
+      "front": "Three parts of a good repair?",
+      "back": "Name what you did, own it without excuses, and say what you will do differently. Keep it short and do it soon."
+    }
+  ],
+  "reflection": "Think of a recent moment you reacted when you wish you had responded. What was the earliest body signal, and where could a ten-second pause have fitted in?",
+  "revision": {
+    "keyPoints": [
+      "Feeling and action have a gap; use it.",
+      "STOP: Stop, Take a breath, Observe, Proceed.",
+      "Ask 'What else could be true?' before believing the first story.",
+      "Repair soon: name it, own it, change it.",
+      "Suppressing a feeling makes it louder; reframe instead."
+    ],
+    "redo": "Recall one irritation from today, rate it out of 10, write one alternative story, and say aloud what your STOP-proceed action would be."
+  }
+}

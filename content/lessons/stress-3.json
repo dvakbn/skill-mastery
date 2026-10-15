@@ -1,0 +1,322 @@
+{
+  "id": "stress-3",
+  "skillId": "stress",
+  "n": 3,
+  "title": "Calming the Mind",
+  "summary": "Use reframing, the circle of control, worry time and journaling to quiet anxious thinking.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Separate what you control, influence and cannot control.",
+    "Reframe an alarming thought into a balanced one.",
+    "Contain worry with scheduled worry time and short journaling."
+  ],
+  "concepts": [
+    {
+      "id": "stress.circle-of-control",
+      "label": "Circle of control"
+    },
+    {
+      "id": "stress.reframing",
+      "label": "Cognitive reframing"
+    },
+    {
+      "id": "stress.worry-time",
+      "label": "Worry time and journaling"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Thoughts shape stress",
+      "body": "Last lesson you calmed the body. Now the mind. The same event can feel threatening or manageable depending on what you tell yourself about it. \"I will fail this interview and my career is over\" produces far more stress than \"This interview is hard, and I can prepare for it\". You cannot stop thoughts from arriving, but you can examine them rather than obey them."
+    },
+    {
+      "heading": "The circle of control",
+      "body": "Draw three circles. In the **control** circle put things fully in your hands: your preparation, effort, reply time, how you speak to people. In the **influence** circle put things you can affect but not decide: the interviewer's impression, a teammate's mood. Outside is **no control**: the economy, other candidates, the weather, past events.\n\nStress grows when energy flows to the outer circle. Move attention to the inner circles and choose one action there. Example: you worry whether the client will like the demo (influence). Control actions: rehearse twice, prepare two backup slides, send the agenda in advance."
+    },
+    {
+      "heading": "Reframing a thought",
+      "body": "Reframing means testing a thought and replacing it with a more accurate one. Use three questions. **Evidence:** what facts support or contradict this thought? **Alternatives:** what else could be true? **Usefulness:** does believing this help me act well?\n\nTake \"I froze in the demo, so I am bad at presenting.\" Evidence against: two earlier demos went fine and the freeze lasted ten seconds. Alternative: I was under-rehearsed on that section. Balanced thought: \"One section went badly. I will rehearse that part and try again.\" A good reframe is realistic, not fake positivity."
+    },
+    {
+      "heading": "Worry time and journaling",
+      "body": "Trying not to worry usually backfires. Instead give worry a **scheduled slot**: 10 minutes, same time daily, away from bed. When a worry appears at other times, jot a two-word note and tell yourself it has an appointment. In the slot, write each worry and ask: can I act on this? If yes, write the next step. If no, write \"no control\" and let it go.\n\nA short **journal entry** of three lines also helps: what happened, what I felt, what I will do next. Keep it under five minutes and write by hand if you can, because slowing down helps you notice patterns. Over a few weeks, reread old entries: you will often see that most feared outcomes never happened, and that you coped better than you expected. That evidence makes the next reframe easier. If anxious thoughts are constant, interfere with daily life or last for weeks, speak to a counsellor or doctor."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Sorting a worry",
+      "body": "Worry: \"What if my seniors judge my code review comments?\" Control: write comments politely with reasons. Influence: ask a peer to preview one. No control: whether a senior is in a bad mood. Chosen action: draft comments in the \"what, why, suggestion\" format.",
+      "takeaway": "Moving to the inner circles turns a worry into a plan."
+    },
+    {
+      "title": "A balanced reframe",
+      "body": "Thought: \"Everyone will see I do not know SQL.\" Evidence: I have passed two SQL quizzes and one query bug was my only miss. Balanced: \"I am still learning joins; I will practise three queries a day for a week.\"",
+      "takeaway": "Check evidence, allow alternatives, then choose a useful thought."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "stress-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "stress.circle-of-control",
+      "prompt": "Which item belongs in the circle of CONTROL for an interview tomorrow?",
+      "options": [
+        "How well you prepare your answers tonight",
+        "Whether the panel is in a good mood",
+        "How many other candidates apply",
+        "The company's hiring budget"
+      ],
+      "answer": 0,
+      "why": "Your own preparation is fully in your control; the others are outside it."
+    },
+    {
+      "id": "stress-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "stress.reframing",
+      "prompt": "The three reframing questions are evidence, alternatives and ____. (one word)",
+      "accept": [
+        "usefulness",
+        "utility",
+        "helpfulness"
+      ],
+      "why": "Ask whether believing the thought helps you act well: usefulness."
+    },
+    {
+      "id": "stress-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "stress.reframing",
+      "prompt": "Choose a worry you have now. Write the thought, one piece of evidence for and against it, and a balanced replacement thought plus one control action.",
+      "minWords": 41,
+      "rubric": [
+        {
+          "id": "evidence",
+          "label": "Evidence for and against",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "One side only.",
+            "2": "Both sides but thin.",
+            "3": "Specific evidence on both sides."
+          }
+        },
+        {
+          "id": "balanced",
+          "label": "Balanced replacement thought",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Overly negative or falsely positive.",
+            "2": "Mostly realistic.",
+            "3": "Realistic, specific and useful."
+          }
+        },
+        {
+          "id": "action",
+          "label": "Control action",
+          "weight": 35,
+          "descriptors": {
+            "0": "No action.",
+            "1": "Vague action.",
+            "2": "Action but outside your control.",
+            "3": "Specific action within your control."
+          }
+        }
+      ],
+      "modelAnswer": "Thought: \"I will fail the technical round.\" For: I have not practised arrays recently. Against: I solved four similar problems last month and the round tests basics. Balanced: \"I may be rusty, but I can practise basics.\" Action: solve three array problems tonight and review the mistakes tomorrow morning.",
+      "guidance": "Strong answers use real evidence for both sides, avoid forced positivity and end in an action within your control. Avoid actions like \"make them like me\"."
+    },
+    {
+      "id": "stress-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "stress.worry-time",
+      "prompt": "At 11 pm you are lying awake worrying about a deadline that you cannot finish tonight. What helps most?",
+      "options": [
+        {
+          "text": "Keep thinking until you solve everything.",
+          "score": 0,
+          "feedback": "Rumination in bed rarely solves problems and delays sleep."
+        },
+        {
+          "text": "Write the worry and the first next step on paper, then tell yourself it will be handled at tomorrow's worry slot.",
+          "score": 3,
+          "feedback": "Parking the worry with a next step reduces mental looping."
+        },
+        {
+          "text": "Scroll your phone to forget about it.",
+          "score": 1,
+          "feedback": "Scrolling keeps the mind alert and can worsen sleep."
+        },
+        {
+          "text": "Tell yourself you must not think about it.",
+          "score": 1,
+          "feedback": "Suppression often increases intrusive thoughts later."
+        }
+      ],
+      "why": "Containing worry with a note and a next step beats suppression or scrolling."
+    }
+  ],
+  "task": {
+    "title": "Run a worry through all three tools",
+    "brief": "Take one real worry through the circle of control, reframing and worry time.",
+    "steps": [
+      "Write the worry in one sentence.",
+      "Place its parts into control, influence and no-control.",
+      "Write evidence for and against, then a balanced thought.",
+      "Schedule a 10-minute worry slot for tomorrow."
+    ],
+    "checklist": [
+      "I sorted the circles",
+      "I wrote evidence both ways",
+      "I wrote a balanced thought",
+      "I scheduled a worry slot"
+    ],
+    "evidencePrompt": "Write the worry, the balanced thought and your control action.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "stress-3.q1",
+      "type": "mcq",
+      "concept": "stress.circle-of-control",
+      "prompt": "Stress grows when attention goes mainly to:",
+      "options": [
+        "What you control",
+        "What you influence",
+        "What you cannot control",
+        "Your next step"
+      ],
+      "answer": 2,
+      "why": "Energy spent on things outside your control leaves nothing for action."
+    },
+    {
+      "id": "stress-3.q2",
+      "type": "mcq",
+      "concept": "stress.reframing",
+      "prompt": "A good reframe is:",
+      "options": [
+        "Falsely cheerful",
+        "Realistic and useful",
+        "Always negative",
+        "A way of ignoring facts"
+      ],
+      "answer": 1,
+      "why": "Reframes must fit the evidence and help you act."
+    },
+    {
+      "id": "stress-3.q3",
+      "type": "mcq",
+      "concept": "stress.worry-time",
+      "prompt": "Scheduled worry time works because:",
+      "options": [
+        "It forces you to worry more",
+        "It gives worry a container so it stops leaking into the day",
+        "It proves worries are true",
+        "It replaces sleep"
+      ],
+      "answer": 1,
+      "why": "A defined slot contains worry and lets you postpone it."
+    },
+    {
+      "id": "stress-3.q4",
+      "type": "fill",
+      "concept": "stress.circle-of-control",
+      "prompt": "Things you can affect but not decide belong in the circle of ____. (one word)",
+      "accept": [
+        "influence"
+      ],
+      "why": "Influence covers what you can affect but not decide, like a teammate's mood."
+    }
+  ],
+  "bank": [
+    {
+      "id": "stress-3.b1",
+      "type": "mcq",
+      "concept": "stress.reframing",
+      "prompt": "Which is the best balanced thought after a poor quiz score?",
+      "options": [
+        "I am hopeless",
+        "It does not matter",
+        "I missed these topics; I can revise them",
+        "Quizzes are unfair"
+      ],
+      "answer": 2,
+      "why": "It is realistic and points to action."
+    },
+    {
+      "id": "stress-3.b2",
+      "type": "mcq",
+      "concept": "stress.worry-time",
+      "prompt": "Outside your worry slot a worry appears. What do you do?",
+      "options": [
+        "Argue with it for an hour",
+        "Jot a short note and return to the task",
+        "Ignore sleep",
+        "Share it with everyone"
+      ],
+      "answer": 1,
+      "why": "A brief note postpones the worry to its slot."
+    },
+    {
+      "id": "stress-3.b3",
+      "type": "mcq",
+      "concept": "stress.circle-of-control",
+      "prompt": "Which action is within your control before a client call?",
+      "options": [
+        "Making the client happy",
+        "Preparing an agenda and two questions",
+        "Changing the client's deadline",
+        "Preventing network issues worldwide"
+      ],
+      "answer": 1,
+      "why": "Preparation is in your control; client emotions are only influenced."
+    }
+  ],
+  "cards": [
+    {
+      "id": "stress-3.c1",
+      "concept": "stress.circle-of-control",
+      "front": "What are the three circles?",
+      "back": "Control (your actions), influence (can affect, cannot decide), no control (leave it)."
+    },
+    {
+      "id": "stress-3.c2",
+      "concept": "stress.reframing",
+      "front": "Three reframing questions?",
+      "back": "Evidence? Alternatives? Is this thought useful?"
+    },
+    {
+      "id": "stress-3.c3",
+      "concept": "stress.worry-time",
+      "front": "How does worry time work?",
+      "back": "A fixed 10-minute daily slot. Note worries briefly outside it; in the slot write next steps or \"no control\"."
+    },
+    {
+      "id": "stress-3.c4",
+      "concept": "stress.worry-time",
+      "front": "When to seek professional help?",
+      "back": "If anxious thoughts are constant, interfere with daily life, or last for weeks."
+    }
+  ],
+  "reflection": "Which worry keeps returning, and which circle does it truly belong in?",
+  "revision": {
+    "keyPoints": [
+      "Examine thoughts instead of obeying them.",
+      "Spend energy in the control and influence circles.",
+      "Reframe with evidence, alternatives and usefulness.",
+      "Give worry a scheduled slot."
+    ],
+    "redo": "Pick one current worry and place it in a circle, then write one control action."
+  }
+}

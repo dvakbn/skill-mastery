@@ -1,0 +1,373 @@
+{
+  "id": "confidence-2",
+  "skillId": "confidence",
+  "n": 2,
+  "title": "Body Language and Voice",
+  "summary": "Use posture, eye contact, pace and preparation to look and sound steady, so that your delivery matches the quality of your ideas.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Set up an open posture and a steady eye-contact pattern for calls and in-person conversations.",
+    "Control pace, pauses, volume and filler words with simple, repeatable drills.",
+    "Prepare an opening, a structure and a rehearsal routine that lowers nerves before speaking."
+  ],
+  "concepts": [
+    {
+      "id": "confidence.posture",
+      "label": "Posture and settled movement"
+    },
+    {
+      "id": "confidence.eye-contact",
+      "label": "Eye contact and presence"
+    },
+    {
+      "id": "confidence.voice",
+      "label": "Voice: pace, pause and volume"
+    },
+    {
+      "id": "confidence.preparation",
+      "label": "Preparation as a confidence source"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Your body is read before your words are heard",
+      "body": "Last time we saw that confidence grows from evidence. Body language is the visible side of the same system: people judge how sure you are within seconds, and your own body also feeds back to your mind. You do not need dramatic gestures. You need **settled, open and steady**.\n\n**Posture.** Plant both feet, keep your spine long, drop your shoulders away from your ears, and let your arms hang or rest on the table. Avoid the usual leaks: crossed arms that shut you off, hands in pockets, rocking, hair or pen fidgeting, and hunching over a laptop. On a video call, raise the laptop to eye level with a few books so the camera looks straight at your face and not up your nose.\n\n**Movement.** Gestures are fine if they match your words. If you do not know what to do with your hands, rest them lightly together at waist level and release them when you make a point. Stillness between points looks confident; constant motion looks anxious."
+    },
+    {
+      "heading": "Eye contact: connect, do not stare",
+      "body": "Eye contact tells people you are engaged and honest. Too little suggests nervousness or hiding; too much feels like an interrogation. A comfortable pattern in a one-to-one chat is to hold the gaze for **three to five seconds**, then look away naturally to the side, not down at your shoes, and return.\n\nIn a group or panel interview, use the **one person, one thought** method: deliver a complete sentence to one person, then move to the next for the next sentence. This stops you from sweeping your eyes across the room, which looks nervous.\n\nOn a video call, the camera is the other person's eyes. Look at the lens when you make your key point and at the screen when you listen. If you read from notes, glance down in short bursts, and look up before you start speaking the sentence, not while you are still reading.\n\nIn Indian workplaces, norms vary with seniority and context. Respect is shown by attentiveness, so a steady, soft gaze with a nod is better than either staring or avoiding the eyes."
+    },
+    {
+      "heading": "Voice: pace, pause and volume",
+      "body": "Nervous speakers speed up, go quiet, and fill gaps with *um*, *like* and *basically*. Three controls fix most of it.\n\n**Pace.** Aim for roughly 120-150 words per minute in a presentation. A page of text of 300 words should therefore take about two to two and a half minutes. Check by timing yourself reading aloud; most people discover they rush by 30% or more when nervous.\n\n**Pause.** A silent pause of one to two seconds before a key point, and at the end of a sentence, gives the listener time to absorb and gives you time to breathe. A pause feels long to you and normal to them. Replace fillers with a silent pause, because silence is not failure.\n\n**Volume and pitch.** Speak slightly louder than feels natural and let your voice fall at the end of a statement. Rising pitch at the end of every sentence turns statements into questions. Before speaking, take one slow breath into your stomach, not your chest; this steadies the voice."
+    },
+    {
+      "heading": "Preparation is the most reliable confidence source",
+      "body": "No technique beats being ready. Preparation reduces the number of unknowns your brain can fear. Use a simple four-part routine:\n\n1. **Know your first 30 seconds word for word.** The opening is where nerves peak. A script such as *Good morning. I am Asha, and today I will show how our team reduced the report run time from 40 to 12 minutes.* gets you moving.\n2. **Structure the middle in three points** you can remember without slides.\n3. **Rehearse aloud, standing, twice**, ideally with a timer. Reading silently does not test your voice.\n4. **Prepare for two likely questions** and one 'I do not know' answer: *I do not have that figure now; I will check and email you by evening.*\n\nBefore going on, do a short physical reset: shake out your hands, breathe in for four counts and out for six, and place your feet firmly. Nerves do not disappear, but they become energy you can use. The common mistake is to rehearse only in your head; your mouth needs the practice too."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A video-call setup that helps",
+      "body": "Before: laptop on the bed, camera angled up, hoodie, window behind you, slouched posture, eyes on the face tile.\n\nAfter: laptop raised on books so the camera is at eye level, lamp or window in front of you, back straight on a chair, a glance at the lens when you give your main point, and notes placed next to the camera.",
+      "takeaway": "Small setup changes make you look composed without any change in your skill."
+    },
+    {
+      "title": "Pace arithmetic",
+      "body": "Your demo script is 450 words and your slot is 3 minutes. At 150 words per minute the script takes 450 / 150 = 3 minutes, leaving no room for pauses or a question. Cut it to about 330 words: at 140 words per minute that is a little under 2 minutes 25 seconds, leaving time for pauses and one question.",
+      "takeaway": "Writing too much and then rushing is a common cause of poor delivery. Cut words, not pauses."
+    },
+    {
+      "title": "Replacing filler with a pause",
+      "body": "Before: 'So, basically, um, the module, like, takes the order data and, um, validates it.'\n\nAfter: 'The module takes the order data. [pause] It validates each field before saving.'",
+      "takeaway": "Short sentences with silent pauses sound more confident and are easier to follow than long ones stuffed with fillers."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "confidence-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "confidence.posture",
+      "prompt": "You are about to join a video interview. Which setup best supports a confident impression?",
+      "options": [
+        "Laptop at eye level, light in front of you, shoulders down, back supported.",
+        "Laptop on your lap, camera looking up, relaxed slouch.",
+        "Standing and pacing so you look energetic.",
+        "Looking at your own video tile throughout to check how you appear."
+      ],
+      "answer": 0,
+      "hint": "Think about what the interviewer sees and where the camera is.",
+      "why": "An eye-level camera, front lighting and a supported, open posture give the interviewer a clear, steady view. A lap setup shows a poor angle, pacing is distracting, and staring at your own tile means you never look into the lens."
+    },
+    {
+      "id": "confidence-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "confidence.voice",
+      "prompt": "A script has 360 words and you speak at 120 words per minute. How many minutes will it take? Write a number.",
+      "accept": [
+        "3",
+        "3 minutes",
+        "3 min",
+        "3.0"
+      ],
+      "hint": "Divide words by words per minute.",
+      "why": "360 / 120 = 3 minutes. Always time your script, because nerves tend to speed you up."
+    },
+    {
+      "id": "confidence-2.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "confidence.preparation",
+      "prompt": "You must introduce your final-year project to a panel of three faculty members in 90 seconds tomorrow. Write your exact opening (first 30 seconds, roughly 60-70 words) and name your three main points. Then write one rehearsal step and one answer you will use if you do not know a question.",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "opening",
+          "label": "Clear scripted opening",
+          "weight": 30,
+          "descriptors": {
+            "0": "No opening written.",
+            "1": "Opening is vague, such as I will talk about my project.",
+            "2": "Opening names you and the project but not the value.",
+            "3": "Opening names you, the project and a concrete result or benefit in a few short sentences."
+          }
+        },
+        {
+          "id": "structure",
+          "label": "Three clear points",
+          "weight": 25,
+          "descriptors": {
+            "0": "No points.",
+            "1": "Points are listed but unclear or overlapping.",
+            "2": "Three points, but one is vague.",
+            "3": "Three distinct, memorable points that fit in 90 seconds."
+          }
+        },
+        {
+          "id": "rehearsal",
+          "label": "Rehearsal plan",
+          "weight": 25,
+          "descriptors": {
+            "0": "No rehearsal step.",
+            "1": "Plans to read it silently.",
+            "2": "Plans to rehearse aloud once.",
+            "3": "Plans to rehearse aloud, standing, with a timer, at least twice."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "aloud",
+              "out loud",
+              "timer",
+              "time myself",
+              "stand"
+            ],
+            "min": 1,
+            "label": "Mentions rehearsing aloud, standing or timing"
+          }
+        },
+        {
+          "id": "unknown",
+          "label": "Honest answer for unknown questions",
+          "weight": 20,
+          "descriptors": {
+            "0": "No plan or plans to bluff.",
+            "1": "Vague plan.",
+            "2": "Plans to admit not knowing.",
+            "3": "Admits not knowing, offers a follow-up with a time."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "do not know",
+              "don't know",
+              "check",
+              "follow up",
+              "get back"
+            ],
+            "min": 1,
+            "label": "Includes an honest I do not know with follow-up"
+          }
+        }
+      ],
+      "modelAnswer": "Opening: Good morning. I am Rohan Mehta, and my project is a fee-reminder system for our college accounts office. It sends UPI payment links by SMS and cut manual follow-ups from about forty calls a week to six. Points: 1. The problem and who it affects. 2. How the system works, in one diagram. 3. Results and what I would improve. Rehearsal: I will say it aloud standing up with a timer tonight and again tomorrow morning, adjusting until it is under 90 seconds. If I do not know an answer: I do not have that detail now; I will check and email you by this evening.",
+      "guidance": "Strong answers have a short, concrete opening that you could say word for word, a structure that fits the time, and a rehearsal plan that uses your voice, not only your eyes. A common mistake is writing a long script you cannot say in the time; at 140 words per minute, 90 seconds is only about 210 words. Honest scoring: if your opening has no result or benefit, cap it at 2."
+    },
+    {
+      "id": "confidence-2.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "confidence.eye-contact",
+      "prompt": "In a panel interview, one interviewer asks the question, but two others are watching you silently. You notice you are staring only at the person asking and feel stiff. What is the best adjustment?",
+      "options": [
+        {
+          "text": "Keep looking at the questioner only, since they are the one who asked.",
+          "score": 1,
+          "feedback": "It is natural but over time it can feel like a stare to the questioner and leaves the other panel members ignored."
+        },
+        {
+          "text": "Look at the questioner while they ask, then give one complete thought to each panel member in turn as you answer.",
+          "score": 3,
+          "feedback": "Correct. This one-person-one-thought pattern includes everyone and avoids a nervous sweep of the room."
+        },
+        {
+          "text": "Look at the ceiling or desk while you think so you stay focused.",
+          "score": 0,
+          "feedback": "Avoiding eyes during the entire answer signals discomfort or uncertainty; brief glances away to think are fine, but not for the whole answer."
+        },
+        {
+          "text": "Scan quickly across all three faces every few seconds.",
+          "score": 1,
+          "feedback": "Rapid scanning looks anxious. Settle on a person for a whole thought."
+        }
+      ],
+      "why": "Direct, unhurried eye contact distributed through the panel, one complete thought at a time, shows presence and respect for everyone. Fixed staring and scanning are both nervous patterns, and looking away throughout reduces trust."
+    }
+  ],
+  "task": {
+    "title": "Record, watch, adjust",
+    "brief": "Record a 60-second self-introduction on your phone, review it with a checklist, then record a second take after three adjustments.",
+    "steps": [
+      "Prop your phone at eye level and record a 60-second introduction: name, studies, one project, what you are aiming for.",
+      "Watch the video once with the sound on. Count your fillers, check where your eyes go, and note your posture and pace.",
+      "Choose three fixes, for example replace fillers with pauses, look at the lens at the key point, drop shoulders.",
+      "Record a second take and compare the two on the same checklist."
+    ],
+    "checklist": [
+      "I recorded both takes at eye level",
+      "I counted fillers in take one and take two",
+      "I looked at the lens when making my main point",
+      "I used at least two silent pauses in take two"
+    ],
+    "evidencePrompt": "Write your filler count in take one and take two, and the three adjustments you made.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "confidence-2.q1",
+      "type": "mcq",
+      "concept": "confidence.posture",
+      "prompt": "Which posture habit most clearly signals that you are open and steady?",
+      "options": [
+        "Crossed arms with a fixed smile",
+        "Feet planted, shoulders down, hands resting or gesturing with purpose",
+        "Hands in pockets with weight shifting side to side",
+        "Leaning on the desk with your back rounded"
+      ],
+      "answer": 1,
+      "why": "Planted feet, relaxed shoulders and purposeful hands show settled energy. Crossed arms close you off, pocketed hands and shifting look nervous, and a rounded back looks tired or disengaged."
+    },
+    {
+      "id": "confidence-2.q2",
+      "type": "mcq",
+      "concept": "confidence.eye-contact",
+      "prompt": "In a one-to-one conversation, which eye-contact pattern is most comfortable?",
+      "options": [
+        "Constant unbroken gaze to show confidence",
+        "Looking at the floor to show respect",
+        "Holding the gaze for a few seconds, looking away to the side, and returning",
+        "Looking at the person's forehead throughout"
+      ],
+      "answer": 2,
+      "why": "Holding for three to five seconds and breaking naturally feels engaged without being intense. A constant stare is uncomfortable, and looking down or at the forehead feels distant or odd."
+    },
+    {
+      "id": "confidence-2.q3",
+      "type": "mcq",
+      "concept": "confidence.voice",
+      "prompt": "What is the best way to deal with filler words such as um and basically?",
+      "options": [
+        "Speak faster so there is no space for them",
+        "Pause silently for a second, then continue",
+        "Speak more softly so they are less noticeable",
+        "Use longer sentences with more detail"
+      ],
+      "answer": 1,
+      "why": "A silent pause replaces a filler and gives you thinking and breathing time. Speaking faster, softer or longer increases the problem."
+    },
+    {
+      "id": "confidence-2.q4",
+      "type": "fill",
+      "concept": "confidence.preparation",
+      "prompt": "Which part of a talk should you know word for word because nerves peak there? (one word)",
+      "accept": [
+        "opening",
+        "the opening",
+        "start",
+        "beginning",
+        "introduction",
+        "intro",
+        "first 30 seconds"
+      ],
+      "why": "Your opening is the moment of highest nerves. Knowing it exactly gets you started smoothly and builds momentum."
+    }
+  ],
+  "bank": [
+    {
+      "id": "confidence-2.b1",
+      "type": "mcq",
+      "concept": "confidence.voice",
+      "prompt": "Your presentation script has 280 words, your slot is 2 minutes, and you speak at about 140 words per minute. What happens if you read all of it?",
+      "options": [
+        "It takes 3 minutes, so you must cut it.",
+        "It takes 2 minutes exactly, leaving no room for pauses, so trimming is wise.",
+        "It takes 1 minute, so you can add more content.",
+        "It takes 4 minutes because of nerves, so skip the rehearsal."
+      ],
+      "answer": 1,
+      "why": "280 / 140 = 2 minutes, which fills the slot with no pauses or questions. Cut some words so you have room to breathe. The other options miscalculate or ignore the need for rehearsal."
+    },
+    {
+      "id": "confidence-2.b2",
+      "type": "fill",
+      "concept": "confidence.preparation",
+      "prompt": "A client asks a question you cannot answer. Write the first four words of the honest, confident reply that the lesson recommends (starting with I).",
+      "accept": [
+        "i do not know",
+        "i dont know",
+        "i do not have"
+      ],
+      "why": "Saying you do not have the answer now and promising a follow-up is more credible than bluffing and builds trust."
+    },
+    {
+      "id": "confidence-2.b3",
+      "type": "mcq",
+      "concept": "confidence.posture",
+      "prompt": "You are on a video call with your laptop on a desk, and the camera looks up at your chin. Which fix is best?",
+      "options": [
+        "Lean closer to the screen.",
+        "Turn the camera off for the whole call.",
+        "Raise the laptop to eye level on a stack of books.",
+        "Stand up and hold the laptop in your hand."
+      ],
+      "answer": 2,
+      "why": "Raising the camera to eye level gives a natural, flattering angle without extra effort. Leaning in distorts the view, camera off removes your presence, and holding a laptop is unstable."
+    }
+  ],
+  "cards": [
+    {
+      "id": "confidence-2.c1",
+      "concept": "confidence.posture",
+      "front": "What does a settled, open posture look like?",
+      "back": "Feet planted, spine long, shoulders down, arms free. Raise your camera to eye level on calls and keep gestures purposeful, not fidgety."
+    },
+    {
+      "id": "confidence-2.c2",
+      "concept": "confidence.eye-contact",
+      "front": "What is the one person, one thought method?",
+      "back": "In a group, give one complete sentence or thought to one person, then move to the next. It avoids nervous scanning and includes everyone."
+    },
+    {
+      "id": "confidence-2.c3",
+      "concept": "confidence.voice",
+      "front": "Three vocal controls for nervous speakers?",
+      "back": "Slow to about 120-150 words per minute, replace fillers with silent pauses, and speak slightly louder with a falling end to statements."
+    },
+    {
+      "id": "confidence-2.c4",
+      "concept": "confidence.preparation",
+      "front": "What is the four-part preparation routine?",
+      "back": "Script the first 30 seconds, structure three points, rehearse aloud and standing with a timer, and prepare answers for likely and unknown questions."
+    }
+  ],
+  "reflection": "When you are nervous, which body or voice habit shows up first (rushing, fidgeting, avoiding eyes), and what small cue could you set to catch it?",
+  "revision": {
+    "keyPoints": [
+      "Settled posture: feet planted, shoulders down, camera at eye level.",
+      "Eye contact: three to five seconds, then look away naturally; one thought per person.",
+      "Pace about 120-150 words per minute; pause instead of fillers.",
+      "Script the opening, structure three points, rehearse aloud twice."
+    ],
+    "redo": "Say your 30-second self-introduction aloud, standing, with one deliberate pause and a look at an imaginary person."
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "id": "time-3",
+  "skillId": "time",
+  "n": 3,
+  "title": "Executing and Protecting Focus",
+  "summary": "Work in Pomodoro sprints, batch shallow tasks, say no politely and handle interruptions and meetings without losing your day.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Run a Pomodoro session and adjust its length to your task.",
+    "Batch similar shallow tasks into fixed windows.",
+    "Use a short script to decline, defer or shorten requests and meetings."
+  ],
+  "concepts": [
+    {
+      "id": "time.pomodoro",
+      "label": "Pomodoro sprints"
+    },
+    {
+      "id": "time.batching",
+      "label": "Batching shallow work"
+    },
+    {
+      "id": "time.saying-no",
+      "label": "Saying no and negotiating"
+    },
+    {
+      "id": "time.interruptions",
+      "label": "Interruptions and meetings"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Plans meet interruptions",
+      "body": "Last time you built a blocked day with buffers. A good plan still fails when the block starts and your phone buzzes, a friend asks for help, or a group chat explodes. This lesson is about executing the block and protecting the time you reserved.\n\nThe core idea is simple: attention is the scarce resource, and every switch between tasks costs a few minutes of recovery. So you protect long stretches for important work and give small, predictable windows to everything else."
+    },
+    {
+      "heading": "Pomodoro and batching",
+      "body": "The **Pomodoro technique** divides work into sprints: 25 minutes of single-task focus, then a 5-minute break; after four sprints take a longer break of 15 to 30 minutes. During a sprint you do one thing only. If a stray thought arrives (\"check cricket score\", \"reply to Neha\") you write it on a scrap and return. The timer makes starting easy because you only promise 25 minutes. Adjust it: debugging an ABAP report may need 45 minutes, a dull form may need 15.\n\n**Batching** groups similar shallow tasks into one window: reply to emails and WhatsApp at 1:00 and 5:00, pay bills on Sunday, do all photocopy and printing errands in one trip. Say you receive 30 messages a day and check them every ten minutes; that is roughly 40 interruptions. Checking at two fixed times removes almost all of them. Common mistake: batching your hardest work. Batching suits low-skill repetitive tasks, whereas deep work needs long unbroken blocks."
+    },
+    {
+      "heading": "Saying no without burning bridges",
+      "body": "Every yes to a request is a no to something already on your calendar. You are not being rude by protecting priorities, but how you say it matters. A useful structure has three moves: **acknowledge, state your constraint, offer an alternative**.\n\n\"Thanks for thinking of me. I am preparing for my exam on Thursday, so I cannot help with the poster this week. I could give you 20 minutes on Saturday, or share my template.\" Three alternatives you can use: decline fully, defer (\"after Friday\"), or shrink (\"I can review one page, not all ten\"). Avoid vague yeses like \"I will try\" which create guilt later."
+    },
+    {
+      "heading": "Interruptions and meetings",
+      "body": "Not all interruptions can be refused. Sort them: **urgent and important** (a senior needs a fix now) deserves a response; **urgent but not important** (a chat ping) can wait for your batch. For a drop-in visitor say \"I am in the middle of something; can I come to you at 4?\" For notifications, silence the phone and keep it out of reach during sprints.\n\nMeetings in IT-services teams eat the day. Before accepting ask: what is the purpose, am I needed for all of it, and is there an agenda? If you attend, go with one question or contribution, leave when your part is done if the culture allows it, and write down your action items before you close the call."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A Pomodoro morning",
+      "body": "Meera blocks 7:00 to 9:00 for her project. Sprint 1 (25 minutes): set up the database tables. Break 5 minutes: water. Sprint 2: write the insert queries. A thought about a hostel fee comes up; she scribbles \"fee\" on a pad and continues. After four sprints, she has finished two modules and clears her scribbled list in a 10-minute batch.",
+      "takeaway": "The scrap list lets you protect focus without forgetting the stray task."
+    },
+    {
+      "title": "Declining with an alternative",
+      "body": "A senior asks Karan to design slides for a department event on a day before his viva. Karan replies: \"I would like to help, but my viva is on Friday and I need that time. I can send you a clean template today, and I can look over your draft on Saturday.\" The senior thanks him and agrees.",
+      "takeaway": "Acknowledge, state the real constraint, offer something smaller you can really deliver."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "time-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "time.pomodoro",
+      "prompt": "A new idea about something unrelated pops up during a Pomodoro sprint. What should you do?",
+      "options": [
+        "Write it down on a scrap and return to the task",
+        "Stop and research it immediately",
+        "Start a second sprint at once",
+        "Cancel the timer"
+      ],
+      "answer": 0,
+      "why": "Capturing the thought protects focus and the thought is safe. Chasing it breaks the sprint and wastes the timer."
+    },
+    {
+      "id": "time-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "time.batching",
+      "prompt": "Checking messages only at two fixed times a day instead of constantly is an example of ____. (one word)",
+      "accept": [
+        "batching"
+      ],
+      "why": "Batching groups similar shallow tasks into set windows."
+    },
+    {
+      "id": "time-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "time.saying-no",
+      "prompt": "A classmate asks you to complete her part of a group assignment tonight; you have an exam tomorrow. Which reply is best?",
+      "options": [
+        {
+          "text": "\"Yes, I will try,\" and then worry all evening.",
+          "score": 1,
+          "feedback": "A vague yes creates guilt and may leave her without help anyway."
+        },
+        {
+          "text": "\"No.\" and leave without another word.",
+          "score": 1,
+          "feedback": "A bare refusal is clear but needlessly harsh on a friendship."
+        },
+        {
+          "text": "\"I cannot do it tonight because of my exam. I can help you outline it on Saturday morning.\"",
+          "score": 3,
+          "feedback": "It acknowledges her need, states your constraint and offers a deferred alternative."
+        },
+        {
+          "text": "Ignore her message and hope she forgets.",
+          "score": 0,
+          "feedback": "Silence leaves her guessing and damages trust."
+        }
+      ],
+      "why": "A good no is kind, clear about your constraint and offers something you can honestly deliver."
+    },
+    {
+      "id": "time-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "time.interruptions",
+      "prompt": "Your Monday has two deep-work blocks. A friend often drops by, your WhatsApp groups ping constantly, and a team meeting is called at short notice. Write what you will do for each of the three, including one sentence you would actually say aloud.",
+      "minWords": 43,
+      "rubric": [
+        {
+          "id": "interruptions",
+          "label": "Plan for each of the three",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One situation.",
+            "2": "Two situations.",
+            "3": "All three handled separately."
+          }
+        },
+        {
+          "id": "script",
+          "label": "Realistic script",
+          "weight": 30,
+          "descriptors": {
+            "0": "No spoken line.",
+            "1": "Rude or vague line.",
+            "2": "Polite line without alternative.",
+            "3": "Polite line with a reason and a later time."
+          }
+        },
+        {
+          "id": "batching",
+          "label": "Batching or silencing used",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentioned only.",
+            "2": "Specific fixed windows.",
+            "3": "Fixed windows plus notifications silenced."
+          }
+        },
+        {
+          "id": "meeting",
+          "label": "Meeting questions asked",
+          "weight": 15,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Attend without checking.",
+            "2": "Asks purpose or agenda.",
+            "3": "Asks purpose, role and agenda, then prepares an action list."
+          }
+        }
+      ],
+      "modelAnswer": "Friend: \"I am in a focus block until 10; can we chat at 10:15 over tea?\" WhatsApp: silenced during blocks and checked at 1 and 5 pm. Meeting: I will ask for the agenda and whether my part can come first; if I attend, I note my action items before leaving.",
+      "guidance": "A strong plan is specific: named windows, a polite script with a time, and a clear question about the meeting. Weak answers say \"avoid distractions\" without any mechanism. Check yours against the model answer."
+    }
+  ],
+  "task": {
+    "title": "Run three focus sprints",
+    "brief": "Protect one block on a real day using timed sprints, a scrap list and a message batch.",
+    "steps": [
+      "Choose one important task and set a timer for 25 minutes (or the length that suits it).",
+      "Silence notifications and keep the phone out of reach.",
+      "Write stray thoughts on a scrap instead of acting on them.",
+      "After three sprints, process the scrap list and messages in one batch.",
+      "Practise one polite no or defer script with someone this week."
+    ],
+    "checklist": [
+      "I completed at least three sprints",
+      "I kept a scrap list of stray thoughts",
+      "I checked messages only in a batch",
+      "I used one script to decline or defer"
+    ],
+    "evidencePrompt": "Describe your sprints, what the scrap list held and how the script went.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "time-3.q1",
+      "type": "mcq",
+      "concept": "time.pomodoro",
+      "prompt": "A standard Pomodoro cycle is:",
+      "options": [
+        "5 minutes work, 25 minutes break",
+        "3 hours work, 10 minutes break",
+        "25 minutes work, 5 minutes break",
+        "60 minutes work only"
+      ],
+      "answer": 2,
+      "why": "The classic pattern is 25 and 5, adjustable to the task."
+    },
+    {
+      "id": "time-3.q2",
+      "type": "mcq",
+      "concept": "time.batching",
+      "prompt": "Which task is the best fit for batching?",
+      "options": [
+        "Writing a thesis chapter",
+        "Replying to routine messages",
+        "Debugging a hard program",
+        "Learning a new topic"
+      ],
+      "answer": 1,
+      "why": "Routine shallow tasks suit batches; deep work needs unbroken blocks."
+    },
+    {
+      "id": "time-3.q3",
+      "type": "mcq",
+      "concept": "time.saying-no",
+      "prompt": "A polite no usually includes:",
+      "options": [
+        "An excuse and silence",
+        "Acknowledgement, your constraint and an alternative",
+        "A long apology",
+        "A vague promise to try"
+      ],
+      "answer": 1,
+      "why": "The three moves keep the relationship and make the answer clear."
+    },
+    {
+      "id": "time-3.q4",
+      "type": "mcq",
+      "concept": "time.interruptions",
+      "prompt": "A colleague drops by while you are in a focus block on a non-urgent matter. The best reply is:",
+      "options": [
+        "Drop everything and talk",
+        "Ask to meet at a specific later time",
+        "Pretend not to hear",
+        "Shout to keep quiet"
+      ],
+      "answer": 1,
+      "why": "Deferring to a named time respects both of you."
+    }
+  ],
+  "bank": [
+    {
+      "id": "time-3.b1",
+      "type": "mcq",
+      "concept": "time.pomodoro",
+      "prompt": "You need to debug a complex report that needs 45 minutes of unbroken thought. What is a sensible Pomodoro adjustment?",
+      "options": [
+        "Use a 45-minute sprint",
+        "Give up on timers",
+        "Use 5-minute sprints",
+        "Run two tasks in each sprint"
+      ],
+      "answer": 0,
+      "why": "The technique is a tool; longer sprints suit deep problems."
+    },
+    {
+      "id": "time-3.b2",
+      "type": "fill",
+      "concept": "time.batching",
+      "prompt": "If you check chat every 10 minutes during a 4-hour block you check about ____ times (number); batching into two checks removes most of them.",
+      "accept": [
+        "24",
+        "twenty four",
+        "twenty-four"
+      ],
+      "why": "4 hours is 240 minutes, divided by 10 gives 24 checks."
+    },
+    {
+      "id": "time-3.b3",
+      "type": "mcq",
+      "concept": "time.interruptions",
+      "prompt": "You are invited to a one-hour meeting with no agenda. What should you do first?",
+      "options": [
+        "Accept and say nothing",
+        "Ask for the purpose and agenda and whether you are needed",
+        "Decline silently",
+        "Arrive late"
+      ],
+      "answer": 1,
+      "why": "Clarifying purpose lets you decide whether attending is worth the hour."
+    }
+  ],
+  "cards": [
+    {
+      "id": "time-3.c1",
+      "concept": "time.pomodoro",
+      "front": "How does Pomodoro work?",
+      "back": "25 minutes single-task focus, 5-minute break, longer break after four. Jot stray thoughts on a scrap and adjust sprint length."
+    },
+    {
+      "id": "time-3.c2",
+      "concept": "time.batching",
+      "front": "What is batching?",
+      "back": "Handling similar shallow tasks together in fixed windows, such as messages twice a day."
+    },
+    {
+      "id": "time-3.c3",
+      "concept": "time.saying-no",
+      "front": "Formula for a polite no?",
+      "back": "Acknowledge, state your constraint, offer an alternative: decline, defer or shrink."
+    },
+    {
+      "id": "time-3.c4",
+      "concept": "time.interruptions",
+      "front": "How to handle interruptions and meetings?",
+      "back": "Sort urgent and important from the rest, defer to a named time, silence notifications, and ask purpose and agenda before meetings."
+    }
+  ],
+  "reflection": "Which interruption steals most of your best hours, and which script from this lesson would you try first?",
+  "revision": {
+    "keyPoints": [
+      "Single-task in timed sprints and capture stray thoughts.",
+      "Batch shallow work, protect long blocks for deep work.",
+      "Say no with acknowledgement, constraint and alternative.",
+      "Defer interruptions to named times and question meetings."
+    ],
+    "redo": "Run two 25-minute sprints with the phone out of reach and note what interrupted you."
+  }
+}

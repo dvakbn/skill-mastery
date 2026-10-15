@@ -1,0 +1,318 @@
+{
+  "id": "networking-3",
+  "skillId": "networking",
+  "n": 3,
+  "title": "Outreach and Follow-Up",
+  "summary": "Write short cold messages, request informational chats, ask for referrals respectfully, follow up at the right time and keep a simple contact tracker.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Write a short, specific cold message that makes saying yes easy.",
+    "Run an informational chat and ask about referrals respectfully.",
+    "Follow up on time and keep a simple contact tracker."
+  ],
+  "concepts": [
+    {
+      "id": "networking.cold-messages",
+      "label": "Cold messages"
+    },
+    {
+      "id": "networking.informational-chats",
+      "label": "Informational chats"
+    },
+    {
+      "id": "networking.referrals",
+      "label": "Referral requests"
+    },
+    {
+      "id": "networking.follow-up-tracker",
+      "label": "Follow-up and tracker"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Writing a cold message",
+      "body": "Last lesson you practised conversations face to face. Often you need to contact someone you have never met. A **cold message** works when it is short, specific and easy to answer. Use four parts: **who you are** in one line, **why this person** (a genuine reason), **a small ask**, and **thanks with an easy exit**.\n\nExample: \"Hello Ms Gupta, I am Deepak, an MCA student learning SAP ABAP. I read that you moved from development to functional consulting at your firm, which is the path I am considering. Could I ask you two questions over a ten-minute call, or by message if that is easier? Thank you for considering it, and I understand if you are busy.\"\n\nAvoid \"Please help me get a job\", walls of text, copy-paste messages with the wrong name, and asking for more than a person can give. Specific beats generic every time."
+    },
+    {
+      "heading": "Informational chats",
+      "body": "An **informational chat** is a short conversation, usually 10 to 20 minutes, where you learn about someone's work and path. It is not a job interview and you do not ask for a job. Prepare three to five questions: \"How did you get started?\", \"What does a typical week look like?\", \"What skills mattered most in your first year?\", \"What would you do differently?\", and \"Who else would you suggest I speak to?\"\n\nRespect their time by starting on schedule, keeping to the length, and listening more than you talk. At the end, thank them and mention one thing you will do with the advice. People remember students who act on suggestions."
+    },
+    {
+      "heading": "Asking for referrals",
+      "body": "A **referral** means an employee recommends you for an opening, which often gets an application noticed. Ask only after some relationship exists, and make it easy and low-pressure. Do your homework: find a specific vacancy, check that you meet the basics, and send a short summary plus your CV. \"Would you be comfortable referring me, or is there anyone better to ask? I understand if you would rather not.\" Never expect a referral from someone who has not seen your work or spoken to you. Whatever the answer, thank them, because a gracious reply keeps the relationship intact."
+    },
+    {
+      "heading": "Follow-up and a contact tracker",
+      "body": "Most outreach fails because of silence, not rejection. People are busy. A good rhythm: send a thank-you within 24 hours of any conversation, and if you get no reply to a first message, send one polite nudge after five to seven days, and then stop or wait a few weeks. \"Hello, I wanted to follow up on my earlier note in case it got buried. No worries at all if you are busy.\"\n\nA simple **contact tracker** is a spreadsheet with columns: name, how you know them, contact date, what you discussed, what you promised, and next follow-up date. Reviewing it weekly stops promises slipping, and it records useful details like a person's interests or a conference they mentioned."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Before and after cold message",
+      "body": "Before: \"Hi sir, I need a job in SAP. Please help.\" After: \"Hello Mr Verma, I am a final-year MCA student learning ABAP. I saw your talk on report optimisation at our college alumni session. Could I ask two questions about how freshers prepare for ABAP roles? A short reply would help a lot, and thank you in advance.\"",
+      "takeaway": "The second names a genuine reason, offers a small ask and makes it easy to reply."
+    },
+    {
+      "title": "A tracker row",
+      "body": "Name: Priya Nair. Source: alumni group. Contacted: 3 Nov. Discussed: advised practising ALV reports. Promise: I will send her my sample report. Follow-up: 17 Nov, share the report and thank her.",
+      "takeaway": "Recording promises and dates turns good intentions into follow-through."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "networking-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "networking.cold-messages",
+      "prompt": "Which is the best opening ask in a cold message?",
+      "options": [
+        "Could I ask two short questions about how you moved into SAP?",
+        "Please give me a job.",
+        "Tell me everything about your career.",
+        "Reply immediately, it is urgent."
+      ],
+      "answer": 0,
+      "why": "A small, specific ask is easy to answer. Asking for a job or everything puts pressure on a stranger."
+    },
+    {
+      "id": "networking-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "networking.informational-chats",
+      "prompt": "In an informational chat you learn about someone's work and you do not ask for a ____. (one word)",
+      "accept": [
+        "job"
+      ],
+      "why": "The aim is information and advice; asking for a job changes the tone and puts pressure on them."
+    },
+    {
+      "id": "networking-3.e3",
+      "level": 2,
+      "type": "mcq",
+      "concept": "networking.referrals",
+      "prompt": "When is it appropriate to ask for a referral?",
+      "options": [
+        "In your first message to a stranger",
+        "Only if you are desperate",
+        "After some relationship exists and you have a specific role in mind",
+        "Never"
+      ],
+      "answer": 2,
+      "why": "Referrals work after someone has some sense of you and can vouch for you for a specific opening."
+    },
+    {
+      "id": "networking-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "networking.cold-messages",
+      "prompt": "You want advice from an alumnus working as an SAP consultant at a large IT services firm. You have never met. Write the cold message you would send on LinkedIn (under 90 words), including who you are, a genuine reason, a small ask and an easy exit.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "who",
+          "label": "Who you are in one line",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Name only.",
+            "2": "Name and role.",
+            "3": "Name, status and current focus."
+          }
+        },
+        {
+          "id": "reason",
+          "label": "Specific genuine reason",
+          "weight": 30,
+          "descriptors": {
+            "0": "Generic or missing.",
+            "1": "Flattery only.",
+            "2": "Mentions their role.",
+            "3": "Mentions a specific shared link or detail."
+          }
+        },
+        {
+          "id": "ask",
+          "label": "Small, easy ask",
+          "weight": 30,
+          "descriptors": {
+            "0": "Asks for a job.",
+            "1": "Large ask.",
+            "2": "Reasonable ask.",
+            "3": "Two short questions or ten minutes, with message option."
+          }
+        },
+        {
+          "id": "exit",
+          "label": "Gracious exit and tone",
+          "weight": 20,
+          "descriptors": {
+            "0": "Demanding.",
+            "1": "Neutral.",
+            "2": "Polite.",
+            "3": "Polite with an easy way to decline."
+          }
+        }
+      ],
+      "modelAnswer": "Hello Mr Sharma, I am Rahul, a final-year MCA student at MDU learning SAP ABAP. I noticed we are from the same college and that you moved into SAP consulting after a development role, which is the path I am exploring. Could I ask you two short questions about how freshers prepare for ABAP roles, by message or a ten-minute call? Thank you for your time, and I understand if you are too busy.",
+      "guidance": "A strong message is short, specific, polite and easy to say yes to. Mistakes include asking for a job, writing over 150 words, flattery with no detail and no way to decline. Score yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "Send two messages and build a tracker",
+    "brief": "Create a contact tracker and send two real outreach messages using the four-part format.",
+    "steps": [
+      "Create a spreadsheet with columns for name, source, date, discussed, promised and next follow-up.",
+      "Write two cold messages, each with who, why them, a small ask and an easy exit.",
+      "Send them and note the dates in the tracker.",
+      "Set calendar reminders to follow up after five to seven days and to thank within 24 hours of any reply."
+    ],
+    "checklist": [
+      "My tracker has all six columns",
+      "I sent two specific messages",
+      "My messages contained a small ask",
+      "I set follow-up reminders"
+    ],
+    "evidencePrompt": "Paste one of your messages and the tracker row you created.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "networking-3.q1",
+      "type": "mcq",
+      "concept": "networking.cold-messages",
+      "prompt": "A good cold message is:",
+      "options": [
+        "Long and detailed",
+        "Short, specific and easy to answer",
+        "Copy-pasted for everyone",
+        "Demanding a quick reply"
+      ],
+      "answer": 1,
+      "why": "Short and specific messages respect the busy reader and make a reply easy."
+    },
+    {
+      "id": "networking-3.q2",
+      "type": "mcq",
+      "concept": "networking.informational-chats",
+      "prompt": "How long should an informational chat usually be?",
+      "options": [
+        "2 hours",
+        "About 10 to 20 minutes",
+        "1 minute",
+        "Whole day"
+      ],
+      "answer": 1,
+      "why": "A short, focused chat respects their time and is more likely to be agreed."
+    },
+    {
+      "id": "networking-3.q3",
+      "type": "fill",
+      "concept": "networking.referrals",
+      "prompt": "A referral is when an employee ____ you for an opening. (one word)",
+      "accept": [
+        "recommends",
+        "refers",
+        "recommend"
+      ],
+      "why": "The employee recommends you to the hiring team, which helps your application get noticed."
+    },
+    {
+      "id": "networking-3.q4",
+      "type": "mcq",
+      "concept": "networking.follow-up-tracker",
+      "prompt": "If you get no reply to a first message, you should:",
+      "options": [
+        "Send ten messages daily",
+        "Send one polite nudge after five to seven days",
+        "Never contact them again at all",
+        "Complain publicly"
+      ],
+      "answer": 1,
+      "why": "One polite reminder is acceptable, since busy people often miss messages."
+    }
+  ],
+  "bank": [
+    {
+      "id": "networking-3.b1",
+      "type": "mcq",
+      "concept": "networking.follow-up-tracker",
+      "prompt": "What is the main purpose of a contact tracker?",
+      "options": [
+        "To impress people",
+        "To record promises, dates and details so you follow through",
+        "To store passwords",
+        "To count followers"
+      ],
+      "answer": 1,
+      "why": "It helps you keep promises and follow up on time."
+    },
+    {
+      "id": "networking-3.b2",
+      "type": "fill",
+      "concept": "networking.cold-messages",
+      "prompt": "A cold message should include a genuine reason for choosing that ____. (one word)",
+      "accept": [
+        "person"
+      ],
+      "why": "A specific reason shows you chose them deliberately instead of mass messaging."
+    },
+    {
+      "id": "networking-3.b3",
+      "type": "mcq",
+      "concept": "networking.referrals",
+      "prompt": "A senior declines to give a referral. The best response is:",
+      "options": [
+        "Argue",
+        "Thank them politely and ask if they can suggest anyone else",
+        "Stop talking to them",
+        "Send the request again daily"
+      ],
+      "answer": 1,
+      "why": "A gracious reaction preserves the relationship and may open other doors."
+    }
+  ],
+  "cards": [
+    {
+      "id": "networking-3.c1",
+      "concept": "networking.cold-messages",
+      "front": "What are the four parts of a cold message?",
+      "back": "Who you are in one line, a genuine reason for this person, a small ask, and thanks with an easy exit. Keep it short."
+    },
+    {
+      "id": "networking-3.c2",
+      "concept": "networking.informational-chats",
+      "front": "What is an informational chat?",
+      "back": "A ten to twenty minute conversation to learn about someone's work and path. Prepare questions, keep to time and do not ask for a job."
+    },
+    {
+      "id": "networking-3.c3",
+      "concept": "networking.referrals",
+      "front": "How should you ask for a referral?",
+      "back": "Only after some relationship, for a specific role, with a short summary and CV. Make it easy to say no and thank them either way."
+    },
+    {
+      "id": "networking-3.c4",
+      "concept": "networking.follow-up-tracker",
+      "front": "What follow-up rhythm works?",
+      "back": "Thank within 24 hours, nudge once after five to seven days, then pause. Track names, dates, promises and next steps in a simple sheet."
+    }
+  ],
+  "reflection": "Which person have you been hesitating to message, and what is the smallest honest ask you could make?",
+  "revision": {
+    "keyPoints": [
+      "Cold messages are short, specific and easy to answer.",
+      "Informational chats seek advice, not jobs.",
+      "Ask for referrals only with a relationship and a specific role.",
+      "Follow up promptly and track promises."
+    ],
+    "redo": "Write a three-line cold message to a person you admire."
+  }
+}

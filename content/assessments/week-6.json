@@ -1,0 +1,198 @@
+{
+ "id": "week-6",
+ "week": 6,
+ "day": 42,
+ "title": "Week 6 Assessment: Leadership, Creativity and Knowledge",
+ "intro": "This assessment checks how you lead, generate ideas, adapt and communicate what you know. Part A is auto-graded from lessons you completed. Part B has a decision scenario, a leadership role-play and a written task. Think about what you would genuinely do.",
+ "coverage": [
+  "leadership",
+  "eq",
+  "creativity",
+  "problem",
+  "gk",
+  "writing",
+  "adapt",
+  "stress",
+  "finance",
+  "career",
+  "networking",
+  "presentation"
+ ],
+ "concepts": [
+  {
+   "id": "leadership.applied",
+   "label": "Leadership: applied"
+  },
+  {
+   "id": "creativity.applied",
+   "label": "Creativity: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-6.a1",
+   "skills": [
+    "leadership",
+    "eq"
+   ],
+   "type": "scenario",
+   "concept": "leadership.applied",
+   "prompt": "You lead a three-person project. One member is repeatedly late with tasks, and the deadline is in five days. What is the best step?",
+   "options": [
+    {
+     "text": "Redo their work silently every time.",
+     "score": 1,
+     "feedback": "This hides the problem and burns you out."
+    },
+    {
+     "text": "Talk privately, ask what is blocking them, agree a specific plan with check-in times and adjust the load if needed.",
+     "score": 3,
+     "feedback": "It combines empathy, clarity and accountability."
+    },
+    {
+     "text": "Announce their failures to the whole group.",
+     "score": 0,
+     "feedback": "Public blame damages trust."
+    },
+    {
+     "text": "Ignore it until the deadline passes.",
+     "score": 0,
+     "feedback": "Waiting makes the situation worse."
+    }
+   ],
+   "why": "Good leaders address the issue early, privately and with a plan."
+  },
+  {
+   "id": "week-6.a2",
+   "skills": [
+    "leadership",
+    "adapt"
+   ],
+   "type": "roleplay",
+   "concept": "leadership.applied",
+   "setup": "Your team's client has just changed an important requirement, and a teammate is upset because their work may be wasted.",
+   "turns": [
+    {
+     "they": "This is so unfair. All my work is wasted!",
+     "options": [
+      {
+       "text": "That is just how it goes, deal with it.",
+       "score": 0,
+       "feedback": "Dismissing feelings damages trust.",
+       "reply": "You do not care at all."
+      },
+      {
+       "text": "I understand why that is frustrating. Let us look at what can be reused and plan the changes together.",
+       "score": 3,
+       "feedback": "It validates feelings and moves to action.",
+       "reply": "Okay, some parts can stay."
+      },
+      {
+       "text": "Maybe we should blame the client.",
+       "score": 1,
+       "feedback": "Blame does not help the project.",
+       "reply": "True, but what now?"
+      }
+     ]
+    },
+    {
+     "they": "Some of it can be reused, but the deadline has not moved.",
+     "options": [
+      {
+       "text": "We will work through the night.",
+       "score": 1,
+       "feedback": "Overwork is not a plan.",
+       "reply": "That will burn us out."
+      },
+      {
+       "text": "Let us list the changes, estimate each, agree what is essential and discuss moving one item with the client.",
+       "score": 3,
+       "feedback": "Impact assessment and options are the right response.",
+       "reply": "That sounds sensible."
+      },
+      {
+       "text": "We should refuse the change.",
+       "score": 0,
+       "feedback": "Refusing flatly harms the relationship.",
+       "reply": "The client will not like that."
+      }
+     ]
+    },
+    {
+     "they": "Who will talk to the client about the timeline?",
+     "options": [
+      {
+       "text": "Not me, ask someone else.",
+       "score": 0,
+       "feedback": "Avoiding responsibility weakens leadership.",
+       "reply": "Then who?"
+      },
+      {
+       "text": "I will, and I will send a written summary of the impact and options today.",
+       "score": 3,
+       "feedback": "Taking ownership and confirming in writing.",
+       "reply": "Thank you, that helps."
+      },
+      {
+       "text": "Wait and see what they say.",
+       "score": 1,
+       "feedback": "Waiting loses valuable time here.",
+       "reply": "We do not have much time."
+      }
+     ]
+    }
+   ],
+   "why": "Acknowledge feelings, assess impact, give options and take ownership of communication."
+  },
+  {
+   "id": "week-6.a3",
+   "skills": [
+    "creativity",
+    "problem",
+    "writing"
+   ],
+   "type": "written",
+   "concept": "creativity.applied",
+   "prompt": "Your campus library has long queues at peak hours. Write 100 to 130 words: reframe the problem as two How Might We questions, list at least four varied ideas and state how you would test the best one cheaply.",
+   "minWords": 56,
+   "rubric": [
+    {
+     "id": "hmw",
+     "label": "Reframed questions",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "One closed question.",
+      "2": "Two similar questions.",
+      "3": "Two different open HMWs."
+     }
+    },
+    {
+     "id": "ideas",
+     "label": "Varied ideas",
+     "weight": 35,
+     "descriptors": {
+      "0": "One.",
+      "1": "Two.",
+      "2": "Three.",
+      "3": "Four or more varied ideas."
+     }
+    },
+    {
+     "id": "test",
+     "label": "Cheap test",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Test without measure.",
+      "3": "Cheap test with a clear measure."
+     }
+    }
+   ],
+   "modelAnswer": "HMW 1: How might we make the first hour of the library peak less crowded? HMW 2: How might we let students borrow without queueing? Ideas: self-checkout kiosks, a mobile pre-booking list, a pickup shelf, staggered class-wise slots, a returns drop box. Cheap test: for one week, set up a pickup shelf for pre-booked books and measure average waiting time compared with the previous week using a simple tally sheet.",
+   "guidance": "Strong answers reframe with open questions, offer varied ideas and propose a cheap test with a measurable result. Avoid proposing an expensive solution first."
+  }
+ ]
+}

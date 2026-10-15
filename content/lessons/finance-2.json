@@ -1,0 +1,347 @@
+{
+  "id": "finance-2",
+  "skillId": "finance",
+  "n": 2,
+  "title": "Interest, Inflation and Compounding",
+  "summary": "Compare simple and compound interest with worked rupee calculations, use the rule of 72, and understand how inflation reduces real returns.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Calculate simple and compound interest for a given amount, rate and time.",
+    "Use the rule of 72 to estimate how long money takes to double.",
+    "Explain inflation and estimate a real return from a nominal return."
+  ],
+  "concepts": [
+    {
+      "id": "finance.simple-vs-compound",
+      "label": "Simple vs compound interest"
+    },
+    {
+      "id": "finance.rule-of-72",
+      "label": "Rule of 72"
+    },
+    {
+      "id": "finance.inflation",
+      "label": "Inflation and real returns"
+    },
+    {
+      "id": "finance.time-value",
+      "label": "Time value of money"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why interest matters",
+      "body": "In the last lesson you tracked cash flow and learned to save first. Now the question is what saved money does while it waits. **Interest** is the price paid for using money. When you deposit, the bank pays you interest; when you borrow, you pay it. All figures in this lesson are illustrative round numbers, because real rates change often."
+    },
+    {
+      "heading": "Simple and compound interest",
+      "body": "**Simple interest** is calculated only on the original amount (the principal): SI = P x R x T / 100, where R is the yearly rate in percent and T is time in years. Example: ₹10,000 at 8 percent for 3 years gives 10,000 x 8 x 3 / 100 = ₹2,400, so the total is ₹12,400.\n\n**Compound interest** is calculated on the principal plus the interest already earned. With yearly compounding the amount is P x (1 + R/100)^T. Same example: 10,000 x 1.08^3. Year 1: 10,800. Year 2: 11,664. Year 3: 12,597.12. Interest earned is ₹2,597.12, which is ₹197.12 more than simple interest. The gap looks small over 3 years but grows fast with longer time, because interest starts earning interest. This is why starting early beats saving more later."
+    },
+    {
+      "heading": "The rule of 72",
+      "body": "A quick way to estimate doubling time is the **rule of 72**: divide 72 by the yearly rate in percent. At 8 percent, 72 / 8 = 9 years to double. At 6 percent, 12 years. At 12 percent, 6 years. It is an approximation that works best for rates between about 6 and 12 percent, and it assumes compounding with no withdrawals.\n\nUse it for sanity checks. If someone promises to double your money in two years, the rule implies a return of 72 / 2 = 36 percent every year, which should make you suspicious. It also shows the cost of high interest on debt: a loan at 24 percent doubles in about 3 years if unpaid."
+    },
+    {
+      "heading": "Inflation and real returns",
+      "body": "**Inflation** is the general rise in prices over time. If inflation is 6 percent, something costing ₹100 today costs about ₹106 next year, so each rupee buys less. Your **nominal return** is the percentage your money grew. Your **real return** is what remains after inflation, roughly nominal minus inflation. Example: money growing at 7 percent while inflation is 5 percent has a real return of about 2 percent. Precisely, 1.07 / 1.05 = 1.019, so 1.9 percent.\n\nThis is why cash under the mattress loses value, and why an account paying less than inflation slowly shrinks your buying power even though the balance rises."
+    },
+    {
+      "heading": "Time value of money",
+      "body": "**Time value of money** says ₹1 today is worth more than ₹1 later, because today's rupee can earn interest and later rupees are eroded by inflation. Using our example, ₹12,597.12 received after 3 years at 8 percent is equal to ₹10,000 today. So when comparing offers, such as a ₹1,00,000 payment now versus ₹1,10,000 in two years, you need to ask what the money could earn. At 8 percent, ₹1,00,000 would become 1,00,000 x 1.1664 = ₹1,16,640 in two years, which beats ₹1,10,000."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Two friends, one head start",
+      "body": "Kabir invests ₹5,000 at 8 percent for 9 years and Meera invests the same ₹5,000 for 18 years. By the rule of 72, money doubles every 9 years at 8 percent. Kabir has about ₹10,000. Meera has doubled twice: ₹20,000, not ₹15,000, though she held it only twice as long.",
+      "takeaway": "Doubling every period means extra time has an outsized effect."
+    },
+    {
+      "title": "Real return check",
+      "body": "A fixed deposit offers 6.5 percent and the household inflation rate is 5.5 percent. Real return is about 1 percent. On ₹50,000, the balance after a year is ₹53,250, but things that cost ₹50,000 now cost about ₹52,750, so buying power rose only by about ₹500.",
+      "takeaway": "Always compare the rate with inflation before calling the result growth."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "finance-2.e1",
+      "level": 1,
+      "type": "fill",
+      "concept": "finance.simple-vs-compound",
+      "prompt": "Simple interest on ₹20,000 at 5 percent per year for 2 years, in rupees, is ₹____. (number only)",
+      "accept": [
+        "2000",
+        "2,000",
+        "₹2,000",
+        "₹2000"
+      ],
+      "why": "SI = 20,000 x 5 x 2 / 100 = ₹2,000."
+    },
+    {
+      "id": "finance-2.e2",
+      "level": 1,
+      "type": "mcq",
+      "concept": "finance.rule-of-72",
+      "prompt": "Using the rule of 72, about how long does money take to double at 9 percent a year?",
+      "options": [
+        "8 years",
+        "4 years",
+        "12 years",
+        "9 years"
+      ],
+      "answer": 0,
+      "why": "72 / 9 = 8 years. Nine years confuses the rate with the time, and 12 years is the answer for 6 percent."
+    },
+    {
+      "id": "finance-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "finance.inflation",
+      "prompt": "A relative says, \"My savings account pays 3 percent and the balance only goes up, so I am safe.\" Inflation is about 5 percent. What is the best response?",
+      "options": [
+        {
+          "text": "Agree, because a rising balance means growth.",
+          "score": 0,
+          "feedback": "A rising balance can still buy less each year when inflation is higher."
+        },
+        {
+          "text": "Explain that the real return is about minus 2 percent, so buying power is slowly falling, and suggest comparing options for long-term money.",
+          "score": 3,
+          "feedback": "You correct the idea with real return and do not give a product pick."
+        },
+        {
+          "text": "Tell them to move everything into one risky product.",
+          "score": 1,
+          "feedback": "Abruptly chasing returns replaces one problem with another."
+        },
+        {
+          "text": "Say inflation does not affect savings.",
+          "score": 0,
+          "feedback": "Inflation affects every rupee you hold."
+        }
+      ],
+      "why": "Real return is nominal return minus inflation. A balance that rises more slowly than prices is still losing buying power."
+    },
+    {
+      "id": "finance-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "finance.time-value",
+      "prompt": "Explain to a friend why ₹1,00,000 today is not the same as ₹1,05,000 in two years. Use simple numbers: assume 6 percent yearly compounding and 5 percent yearly inflation. Calculate what ₹1,00,000 grows to in two years and say which option is better and why.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "calc",
+          "label": "Correct calculation",
+          "weight": 35,
+          "descriptors": {
+            "0": "No calculation.",
+            "1": "Attempted with errors.",
+            "2": "Correct growth figure.",
+            "3": "Correct figure of ₹1,12,360 with working shown."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes numbers"
+          }
+        },
+        {
+          "id": "conclusion",
+          "label": "Clear conclusion",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Unclear.",
+            "2": "Picks an option.",
+            "3": "Picks with a reason tied to the figures."
+          }
+        },
+        {
+          "id": "inflation",
+          "label": "Mentions inflation or real return",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentioned only.",
+            "2": "Explained roughly.",
+            "3": "Explains real return after inflation."
+          }
+        },
+        {
+          "id": "plain",
+          "label": "Plain language",
+          "weight": 20,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Jargon-heavy.",
+            "2": "Mostly clear.",
+            "3": "Friendly and clear to a non-expert."
+          }
+        }
+      ],
+      "modelAnswer": "₹1,00,000 at 6 percent for two years becomes 1,00,000 x 1.06 x 1.06 = ₹1,12,360. So ₹1,05,000 in two years is worth less than what I could have earned by waiting for nothing. Taking the money now and keeping it at 6 percent is better by about ₹7,360. With inflation at 5 percent, the real growth is only about 1 percent a year, so the gap in buying power is smaller, but the earlier money still wins.",
+      "guidance": "A strong answer calculates 1.06 squared as 1.1236, gets ₹1,12,360, compares it with ₹1,05,000, and mentions inflation. Common mistakes are adding 12 percent instead of compounding, ignoring inflation, and stating a conclusion without numbers. Check arithmetic before scoring yourself."
+    }
+  ],
+  "task": {
+    "title": "Compound it yourself",
+    "brief": "Use a spreadsheet or calculator to see compounding with your own illustrative numbers.",
+    "steps": [
+      "Pick an amount you could imagine saving, such as ₹1,000, and a rate such as 8 percent.",
+      "Compute simple interest for 5 years and compound interest for 5 years and note the difference.",
+      "Apply the rule of 72 to the rate and check it against your compound figures.",
+      "Subtract an illustrative inflation of 5 percent and write the real return in one sentence."
+    ],
+    "checklist": [
+      "I calculated simple and compound figures",
+      "I applied the rule of 72",
+      "I estimated a real return",
+      "I wrote one sentence about what I learned"
+    ],
+    "evidencePrompt": "Write your simple figure, your compound figure and the real return.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "finance-2.q1",
+      "type": "mcq",
+      "concept": "finance.simple-vs-compound",
+      "prompt": "Compound interest differs from simple interest because it is calculated on:",
+      "options": [
+        "The principal only",
+        "The principal plus earlier interest",
+        "Inflation",
+        "The tax paid"
+      ],
+      "answer": 1,
+      "why": "Interest earns interest in compounding."
+    },
+    {
+      "id": "finance-2.q2",
+      "type": "fill",
+      "concept": "finance.rule-of-72",
+      "prompt": "At 12 percent a year, money doubles in about ____ years. (number only)",
+      "accept": [
+        "6",
+        "six",
+        "6 years"
+      ],
+      "why": "72 / 12 = 6 years."
+    },
+    {
+      "id": "finance-2.q3",
+      "type": "mcq",
+      "concept": "finance.inflation",
+      "prompt": "If your money grows 6 percent and inflation is 4 percent, the real return is about:",
+      "options": [
+        "10 percent",
+        "4 percent",
+        "24 percent",
+        "2 percent"
+      ],
+      "answer": 3,
+      "why": "Subtract inflation from the nominal return: 6 minus 4 is about 2 percent."
+    },
+    {
+      "id": "finance-2.q4",
+      "type": "mcq",
+      "concept": "finance.time-value",
+      "prompt": "Time value of money means:",
+      "options": [
+        "Money is worth less today",
+        "A rupee today is worth more than a rupee later",
+        "Time pays no interest",
+        "Prices never rise"
+      ],
+      "answer": 1,
+      "why": "Today's rupee can earn returns, and future rupees are reduced by inflation."
+    }
+  ],
+  "bank": [
+    {
+      "id": "finance-2.b1",
+      "type": "mcq",
+      "concept": "finance.simple-vs-compound",
+      "prompt": "You deposit ₹10,000 at 10 percent compounded yearly. What is the balance after 2 years?",
+      "options": [
+        "₹12,000",
+        "₹12,100",
+        "₹11,000",
+        "₹12,500"
+      ],
+      "answer": 1,
+      "why": "Year one gives ₹11,000, and year two adds 10 percent of that, giving ₹12,100. Simple interest would give ₹12,000."
+    },
+    {
+      "id": "finance-2.b2",
+      "type": "fill",
+      "concept": "finance.rule-of-72",
+      "prompt": "An advertisement claims your money will double in 3 years. The yearly return it implies, by the rule of 72, is ____ percent. (number only)",
+      "accept": [
+        "24",
+        "24%",
+        "24 percent"
+      ],
+      "why": "72 / 3 = 24 percent every year, which is a very high claim and a reason for caution."
+    },
+    {
+      "id": "finance-2.b3",
+      "type": "mcq",
+      "concept": "finance.inflation",
+      "prompt": "A balance rises from ₹1,00,000 to ₹1,04,000 while prices rise 6 percent. Your buying power has:",
+      "options": [
+        "Increased",
+        "Fallen",
+        "Stayed the same",
+        "Doubled"
+      ],
+      "answer": 1,
+      "why": "Growth of 4 percent is below 6 percent inflation, so the real return is negative."
+    }
+  ],
+  "cards": [
+    {
+      "id": "finance-2.c1",
+      "concept": "finance.simple-vs-compound",
+      "front": "Simple vs compound interest formulas?",
+      "back": "Simple: P x R x T / 100 on the principal only. Compound: P x (1 + R/100)^T, where interest also earns interest."
+    },
+    {
+      "id": "finance-2.c2",
+      "concept": "finance.rule-of-72",
+      "front": "What is the rule of 72?",
+      "back": "Divide 72 by the yearly percent return to estimate years to double. At 8 percent, about 9 years."
+    },
+    {
+      "id": "finance-2.c3",
+      "concept": "finance.inflation",
+      "front": "How do you find a real return?",
+      "back": "Roughly nominal return minus inflation. Precisely, divide (1 + nominal) by (1 + inflation) and subtract 1."
+    },
+    {
+      "id": "finance-2.c4",
+      "concept": "finance.time-value",
+      "front": "Why is money today worth more than later?",
+      "back": "Because it can earn interest now and later money loses buying power to inflation."
+    }
+  ],
+  "reflection": "Which of your current savings or goals is most affected by the length of time you hold it, and what does compounding suggest you should do about it?",
+  "revision": {
+    "keyPoints": [
+      "Simple interest uses principal only; compound grows on itself.",
+      "Rule of 72 gives doubling time quickly.",
+      "Real return is nominal return minus inflation.",
+      "A rupee today is worth more than a rupee later."
+    ],
+    "redo": "Compute compound interest on ₹10,000 at 8 percent for 3 years by hand."
+  }
+}

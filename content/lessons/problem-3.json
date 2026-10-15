@@ -1,0 +1,342 @@
+{
+  "id": "problem-3",
+  "skillId": "problem",
+  "n": 3,
+  "title": "Options and Decisions",
+  "summary": "Generate more than two options, compare them with a weighted decision matrix, weigh trade-offs, separate reversible from irreversible choices and know when good enough is enough.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Generate at least four distinct options before choosing.",
+    "Build a weighted decision matrix and read the result critically.",
+    "Classify decisions as reversible or irreversible and apply satisficing to small ones."
+  ],
+  "concepts": [
+    {
+      "id": "problem.options",
+      "label": "Generating options"
+    },
+    {
+      "id": "problem.decision-matrix",
+      "label": "Weighted decision matrix"
+    },
+    {
+      "id": "problem.reversibility",
+      "label": "Reversible vs irreversible decisions"
+    },
+    {
+      "id": "problem.satisficing",
+      "label": "Satisficing and trade-offs"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Do not choose between two",
+      "body": "Once you understand a problem and its causes, you need to choose a response. The most common weakness is a narrow choice: \"Should I take this offer or not?\" Two options is usually a sign that more exist. A student who is asking \"coaching institute A or B?\" has not yet asked about self-study, a mentor, a short paid course or a study group.\n\nBefore comparing, generate at least four options. Use these prompts: do nothing, do the minimum, do the opposite, combine two ideas, ask what a person you respect would do, and remove a constraint (\"if money were no issue\"). Quantity first; judge later."
+    },
+    {
+      "heading": "The weighted decision matrix",
+      "body": "A **weighted decision matrix** makes trade-offs visible. Steps:\n\n1. List options as rows and criteria as columns (cost, learning quality, time, job relevance).\n2. Give each criterion a weight showing importance (total 100 or scale 1 to 5).\n3. Score each option on each criterion from 1 to 5.\n4. Multiply score by weight and add up.\n\nExample. Choosing a training route: criteria weights are job relevance 40, cost 30, time 30. Option X (paid institute): relevance 5, cost 2, time 3, so 5x40 + 2x30 + 3x30 = 200 + 60 + 90 = 350. Option Y (self-study with a mentor): relevance 4, cost 5, time 4, so 160 + 150 + 120 = 430. Y wins. The matrix is a thinking aid, not an oracle: if the result feels wrong, check whether a weight or hidden criterion (like needing a certificate) was left out, and adjust honestly."
+    },
+    {
+      "heading": "Reversible or not, and good enough",
+      "body": "Jeff Bezos-style thinking gives a useful split: **reversible decisions** (two-way doors) can be undone cheaply, so decide fast and learn; **irreversible decisions** (one-way doors) such as signing a bond, taking a large loan or quitting a degree deserve more time, advice and a pre-mortem. Choosing a book or a study timetable is reversible; choosing to leave a stable job without savings is not.\n\nFor small reversible choices use **satisficing**: pick the first option that meets your must-have criteria instead of searching for the perfect one. Hunting for the best laptop bag for a week costs more than any gain. Compare maximisers, who search for the best, with satisficers, who stop at good enough: satisficers usually decide faster and feel less regret on everyday choices. Spend your effort on the few decisions that are hard to undo."
+    },
+    {
+      "heading": "Trade-offs are the point",
+      "body": "Every real option gives up something. A higher salary may mean longer commute; a safer job may mean slower learning. Name the sacrifice out loud: \"I accept lower pay for the first year in return for learning SAP on live projects.\" Naming trade-offs prevents later regret and surprises, and it makes it easier to explain your decision to family and colleagues."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Matrix for a project topic",
+      "body": "Three topics: Library system, Expense tracker, ABAP-style inventory report tool. Weights: interest 30, learnability 40, job relevance 30. Scores out of 5: Library 3, 5, 2 gives 90+200+60 = 350. Expense tracker 4, 4, 3 gives 120+160+90 = 370. Inventory tool 4, 3, 5 gives 120+120+150 = 390. Inventory tool wins narrowly. Because the gap is small, Ravi also asks which topic the guide would support.",
+      "takeaway": "A close result tells you to look at an extra factor, instead of treating the number as final."
+    },
+    {
+      "title": "One-way vs two-way",
+      "body": "Sana is choosing between two e-book subscriptions (monthly, cancellable) and quitting her part-time tuition job for full-time job hunting. She tries the e-book plan in two minutes. For the job decision she talks to two seniors, builds savings for three months and sets a date.",
+      "takeaway": "Match the care you take to how hard the decision is to undo."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "problem-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "problem.options",
+      "prompt": "You are stuck choosing between two coaching centres. What is the best next step?",
+      "options": [
+        "Flip a coin",
+        "Generate more options such as self-study with a mentor or a short course",
+        "Pick the cheaper one immediately",
+        "Ask no one"
+      ],
+      "answer": 1,
+      "why": "Widening the option set often reveals a better choice. Quick picks skip the exploration."
+    },
+    {
+      "id": "problem-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "problem.decision-matrix",
+      "prompt": "Option A scores 4 on a criterion with weight 30 and 3 on a criterion with weight 20. Its weighted total is ____. (number)",
+      "accept": [
+        "180",
+        "180.0"
+      ],
+      "why": "4x30 = 120 and 3x20 = 60, so the total is 180."
+    },
+    {
+      "id": "problem-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "problem.reversibility",
+      "prompt": "Which decision deserves the most time and advice?",
+      "options": [
+        {
+          "text": "Choosing which notebook to buy.",
+          "score": 0,
+          "feedback": "This is cheap and reversible."
+        },
+        {
+          "text": "Signing a two-year work bond with a large penalty clause.",
+          "score": 3,
+          "feedback": "It is costly and hard to undo, so it needs careful review."
+        },
+        {
+          "text": "Trying a new study timetable this week.",
+          "score": 1,
+          "feedback": "You can change it next week at no cost."
+        },
+        {
+          "text": "Choosing today's lunch.",
+          "score": 0,
+          "feedback": "Trivial and easily reversible."
+        }
+      ],
+      "why": "Spend deliberation on decisions that are expensive or impossible to undo."
+    },
+    {
+      "id": "problem-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "problem.satisficing",
+      "prompt": "Choose a real decision you face (such as a specialisation, a part-time job or a certification). List at least four distinct options, build a three-criterion weighted matrix with scores and totals, state the winner, one trade-off you accept, and whether the decision is reversible.",
+      "minWords": 54,
+      "rubric": [
+        {
+          "id": "options",
+          "label": "Four distinct options",
+          "weight": 20,
+          "descriptors": {
+            "0": "Fewer than two.",
+            "1": "Two or three.",
+            "2": "Four, some similar.",
+            "3": "Four or more genuinely distinct options."
+          }
+        },
+        {
+          "id": "matrix",
+          "label": "Weighted matrix with correct maths",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Scores without weights.",
+            "2": "Weighted but arithmetic errors.",
+            "3": "Correct weights, scores and totals."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes numbers"
+          }
+        },
+        {
+          "id": "tradeoff",
+          "label": "Trade-off named",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Stated.",
+            "3": "States what you give up and why you accept it."
+          }
+        },
+        {
+          "id": "reversibility",
+          "label": "Reversibility judged",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Stated only.",
+            "2": "Stated with reason.",
+            "3": "Stated with reason and effect on how much time you spend."
+          }
+        }
+      ],
+      "modelAnswer": "Decision: which course to take over the next 3 months. Options: paid institute, self-study with a senior mentor, short online ABAP course, study group, skip until after exams. Criteria weights: relevance 40, cost 30, time 30. Mentor option: 4, 5, 4 gives 160+150+120 = 430, beating institute 350. Trade-off: no certificate. Reversible: yes, I can switch after a month, so I decide this week.",
+      "guidance": "A strong answer shows correct arithmetic, includes unconventional options such as doing nothing or a mentor, and admits what the winning option costs. Check that you matched effort to reversibility. Mistakes include equal weights for everything and hiding a favourite option."
+    }
+  ],
+  "task": {
+    "title": "Run a decision matrix",
+    "brief": "Make one real decision with a matrix and classify it.",
+    "steps": [
+      "Write the decision and list at least four options using the prompts.",
+      "Pick three or four criteria and weights summing to 100.",
+      "Score each option from 1 to 5 and compute totals.",
+      "Check whether the winner feels right; if not, find the missing criterion.",
+      "Label the decision reversible or irreversible and set a date."
+    ],
+    "checklist": [
+      "I listed four or more options",
+      "My weights sum to 100",
+      "My arithmetic is correct",
+      "I named a trade-off and reversibility"
+    ],
+    "evidencePrompt": "Paste your options, the winner and its score, and the trade-off you accept.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "problem-3.q1",
+      "type": "mcq",
+      "concept": "problem.options",
+      "prompt": "A useful way to create more options is to:",
+      "options": [
+        "Ask what happens if you do nothing or do the opposite",
+        "Copy what others did",
+        "Choose the first idea",
+        "Avoid asking"
+      ],
+      "answer": 0,
+      "why": "Do-nothing and opposite prompts expand the set."
+    },
+    {
+      "id": "problem-3.q2",
+      "type": "mcq",
+      "concept": "problem.decision-matrix",
+      "prompt": "In a weighted matrix, each score is:",
+      "options": [
+        "Added without weights",
+        "Multiplied by the criterion weight and summed",
+        "Ignored",
+        "Divided by cost"
+      ],
+      "answer": 1,
+      "why": "Weights reflect importance."
+    },
+    {
+      "id": "problem-3.q3",
+      "type": "mcq",
+      "concept": "problem.reversibility",
+      "prompt": "An irreversible decision calls for:",
+      "options": [
+        "More thought and advice",
+        "A coin flip",
+        "No planning",
+        "Speed"
+      ],
+      "answer": 0,
+      "why": "Hard-to-undo choices deserve care."
+    },
+    {
+      "id": "problem-3.q4",
+      "type": "mcq",
+      "concept": "problem.satisficing",
+      "prompt": "Satisficing means:",
+      "options": [
+        "Choosing the first option that meets your must-haves",
+        "Searching forever for the best",
+        "Never deciding",
+        "Choosing randomly"
+      ],
+      "answer": 0,
+      "why": "It saves effort on low-stakes choices."
+    }
+  ],
+  "bank": [
+    {
+      "id": "problem-3.b1",
+      "type": "mcq",
+      "concept": "problem.decision-matrix",
+      "prompt": "Option P: scores 3, 5, 2 with weights 50, 30, 20. What is its total?",
+      "options": [
+        "340",
+        "250",
+        "310",
+        "400"
+      ],
+      "answer": 2,
+      "why": "3x50 = 150, 5x30 = 150 and 2x20 = 40, giving 340... check: 150+150+40 is 340, so the correct choice is the first."
+    },
+    {
+      "id": "problem-3.b2",
+      "type": "fill",
+      "concept": "problem.reversibility",
+      "prompt": "A decision that is cheap to undo, such as trying a new routine for a week, is called ____. (one word)",
+      "accept": [
+        "reversible"
+      ],
+      "why": "Reversible decisions can be undone cheaply."
+    },
+    {
+      "id": "problem-3.b3",
+      "type": "mcq",
+      "concept": "problem.satisficing",
+      "prompt": "You need a phone cover and have limited time. What is a satisficing approach?",
+      "options": [
+        "Compare 50 covers over two weeks",
+        "Buy the first one that fits and meets your budget and protection needs",
+        "Never buy one",
+        "Ask ten friends"
+      ],
+      "answer": 1,
+      "why": "Good enough and fast beats perfect and slow on low-stakes decisions."
+    }
+  ],
+  "cards": [
+    {
+      "id": "problem-3.c1",
+      "concept": "problem.options",
+      "front": "How to generate options?",
+      "back": "Aim for four or more: do nothing, minimum, opposite, combine ideas, remove a constraint, ask a role model."
+    },
+    {
+      "id": "problem-3.c2",
+      "concept": "problem.decision-matrix",
+      "front": "How does a weighted matrix work?",
+      "back": "List options and criteria, weight criteria, score options 1 to 5, multiply and sum; treat it as a thinking aid."
+    },
+    {
+      "id": "problem-3.c3",
+      "concept": "problem.reversibility",
+      "front": "Reversible vs irreversible?",
+      "back": "Decide quickly on two-way doors; spend time, advice and a pre-mortem on one-way doors."
+    },
+    {
+      "id": "problem-3.c4",
+      "concept": "problem.satisficing",
+      "front": "What is satisficing?",
+      "back": "Choosing the first option that meets your must-have criteria on low-stakes decisions, and naming the trade-off."
+    }
+  ],
+  "reflection": "Which decision are you currently agonising over, and is it actually reversible?",
+  "revision": {
+    "keyPoints": [
+      "Generate at least four options.",
+      "Use weighted scoring to compare options.",
+      "Match effort to reversibility.",
+      "Satisfice small choices and name trade-offs."
+    ],
+    "redo": "Pick one pending decision and add two options you had not considered."
+  }
+}

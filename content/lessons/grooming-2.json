@@ -1,0 +1,342 @@
+{
+  "id": "grooming-2",
+  "skillId": "grooming",
+  "n": 2,
+  "title": "Dressing for Context",
+  "summary": "Choose outfits for interviews, office, client sites and video calls using fit, colour basics, shoes and a small budget wardrobe.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Match an outfit to the setting: interview, office, client site or video call.",
+    "Apply fit, colour and shoe basics to look put together.",
+    "Plan a small budget wardrobe that creates many outfits."
+  ],
+  "concepts": [
+    {
+      "id": "grooming.context",
+      "label": "Dressing for the setting"
+    },
+    {
+      "id": "grooming.fit-colour",
+      "label": "Fit and colour basics"
+    },
+    {
+      "id": "grooming.shoes-care",
+      "label": "Shoes and garment care"
+    },
+    {
+      "id": "grooming.budget-wardrobe",
+      "label": "A budget wardrobe"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "One rule: dress one notch above the room",
+      "body": "In the last lesson you built the daily basics of clean, fitting clothes. Now you choose clothes for the occasion. The reliable rule is to dress **one notch above** what people in that setting usually wear. It shows respect without looking out of place. When in doubt, ask the recruiter or a senior, \"What is the usual dress code for the day?\" That question is always welcome.\n\nWhat \"formal\" means varies by company, region and gender, so the guidance below is flexible. Wear what fits your culture, climate and comfort, such as a kurta, saree, salwar or western wear, as long as it is clean, neat and suits the setting."
+    },
+    {
+      "heading": "Different settings, different choices",
+      "body": "- **Interview or campus placement:** the most formal. A plain shirt or blouse, formal trousers or skirt, or a neat kurta set or saree; a blazer if the weather allows. Muted colours, minimal jewellery and accessories, a tidy bag or folder.\n- **IT services office:** usually smart casual. A collared shirt, polo, kurta or plain top with chinos or formal trousers. Avoid ripped clothes, slogans and flip-flops.\n- **Client site:** dress slightly more formally than your own office, since you represent your company. Ask your manager and follow the client's badge and security rules.\n- **Video calls:** the camera shows only the top half, so choose a solid, plain top that does not glare or clash. Wear proper bottoms anyway, as you may need to stand up, and sit in front of good light with a tidy background.\n\nA worked example: Aman has a client workshop in a bank's Gurugram office. He wears pressed formal trousers, a light blue shirt, black shoes and carries his ID. He avoids a tie because his manager said business casual, which he checked in advance."
+    },
+    {
+      "heading": "Fit, colour and shoes",
+      "body": "**Fit** beats price. Check shoulders, sleeve length, collar that closes without choking, and trousers that break gently at the shoe. A local tailor can alter a shirt for a modest fee and transform it.\n\n**Colour basics:** build around neutrals such as navy, grey, black, white, beige and olive. Add one accent colour, not three. Light blue, white and pastel shirts suit most skin tones. Check for contrast: a dark top with light bottoms or the reverse looks balanced. Avoid very bright or busy prints for interviews.\n\n**Shoes:** people notice them more than you expect. Choose closed, comfortable shoes in black or brown, with a belt of the same colour if you wear one. Polish or wipe them the night before, and check heels and soles. Socks should be clean and in a plain colour that matches the trousers.\n\n**Ironing and care:** iron collars, cuffs and front first if time is short. Hang clothes after wearing, wash according to label, and fix buttons immediately."
+    },
+    {
+      "heading": "A budget wardrobe",
+      "body": "A wardrobe does not need many pieces; it needs pieces that mix. A starter set that fits most budgets: two or three plain shirts or tops (white, light blue, one more), two pairs of formal or smart trousers in navy and grey, one pair of black or brown closed shoes, one belt, one blazer or neat jacket if you can afford it, and a casual set for weekends. With those you have about six combinations from three tops and two bottoms.\n\nBuy fewer, better-fitting pieces. Look for sales, factory outlets and street markets, and get alterations done. Borrowing a blazer for placement day from a senior is a perfectly sensible decision. Spend first on fit, shoes and the shirt you will wear most."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Choosing between two outfits",
+      "body": "Priya has a video interview and a campus placement test. For the video she wears a plain mustard kurta with no heavy prints, sits facing a window and keeps the background clear. For the test she wears her navy trousers and a white shirt and neat closed shoes, because the dress code on the email said business formal.",
+      "takeaway": "Same wardrobe, different choices, driven by the setting and a quick check of instructions."
+    },
+    {
+      "title": "A six-outfit starter wardrobe",
+      "body": "Karthik owns three tops (white, light blue, grey checks) and two trousers (navy, charcoal). He rotates them for the week and avoids repeating the same combination in the same meeting. One black belt and black shoes go with all of them. Total cost was spread over a few months.",
+      "takeaway": "Neutral pieces that mix give variety at small cost."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "grooming-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "grooming.context",
+      "prompt": "Which rule is a reliable guide to dressing for a new setting?",
+      "options": [
+        "Dress one notch above the usual and ask when unsure",
+        "Dress as casually as possible",
+        "Copy the most expensive person",
+        "Wear your party clothes"
+      ],
+      "answer": 0,
+      "why": "Dressing slightly above the norm signals respect, and asking is smart. Extremes in either direction look out of place."
+    },
+    {
+      "id": "grooming-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "grooming.fit-colour",
+      "prompt": "A wardrobe built from navy, grey, white and beige is made of ____ colours. (one word)",
+      "accept": [
+        "neutral",
+        "neutrals"
+      ],
+      "why": "Neutral colours mix easily so a few pieces create many outfits."
+    },
+    {
+      "id": "grooming-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "grooming.shoes-care",
+      "prompt": "The night before a client visit you find your shoes dusty with a worn heel. What is the best move?",
+      "options": [
+        {
+          "text": "Wear them anyway and avoid looking down.",
+          "score": 0,
+          "feedback": "Shoes are noticed, and worn heels also affect comfort and walking."
+        },
+        {
+          "text": "Clean and polish them tonight, and get the heel repaired or wear your other pair.",
+          "score": 3,
+          "feedback": "You use the night before to fix the issue and avoid a morning scramble."
+        },
+        {
+          "text": "Buy the costliest pair tomorrow.",
+          "score": 1,
+          "feedback": "Spending heavily is unnecessary when cleaning or repair solves it."
+        },
+        {
+          "text": "Wear sports shoes without checking the dress code.",
+          "score": 1,
+          "feedback": "Unchecked casual shoes may break the dress code."
+        }
+      ],
+      "why": "Shoes and care are checked early so there is time to fix problems."
+    },
+    {
+      "id": "grooming-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "grooming.budget-wardrobe",
+      "prompt": "You have about three thousand rupees to prepare for placement season. List what you would buy or borrow, say how many outfit combinations they give, and explain one decision about fit or colour.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "list",
+          "label": "Sensible list",
+          "weight": 30,
+          "descriptors": {
+            "0": "No list.",
+            "1": "Random items.",
+            "2": "Core items listed.",
+            "3": "Core items prioritised: shirt, trousers, shoes, plus a borrowed or optional blazer."
+          }
+        },
+        {
+          "id": "combinations",
+          "label": "Mix and match count",
+          "weight": 25,
+          "descriptors": {
+            "0": "No count.",
+            "1": "Count wrong.",
+            "2": "Count roughly right.",
+            "3": "Correct count, e.g. 3 tops x 2 bottoms = 6."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes a number"
+          }
+        },
+        {
+          "id": "reason",
+          "label": "Explains fit or colour",
+          "weight": 25,
+          "descriptors": {
+            "0": "No reason.",
+            "1": "Vague.",
+            "2": "A reason given.",
+            "3": "A clear reason such as neutrals mix or tailoring improves fit."
+          }
+        },
+        {
+          "id": "budget",
+          "label": "Realistic budget",
+          "weight": 20,
+          "descriptors": {
+            "0": "Far over budget.",
+            "1": "Possibly over.",
+            "2": "Within budget.",
+            "3": "Within budget and mentions alterations or borrowing."
+          }
+        }
+      ],
+      "modelAnswer": "I would buy two shirts, white and light blue (about 600 rupees each), one navy trouser (700), and get alterations (200), and borrow a senior's blazer. I already own black shoes, which I will polish. Two shirts with navy trousers and one existing grey pair gives 2 x 2 = 4 outfits. I choose neutral colours because they mix and I spend on fit first.",
+      "guidance": "Strong answers prioritise fit, shoes and one or two shirts, with a correct number of combinations and a stated reason. Common mistakes are buying many trendy items, forgetting shoes or wrong arithmetic. Check your multiplication of tops by bottoms."
+    }
+  ],
+  "task": {
+    "title": "Plan three outfits for three settings",
+    "brief": "Choose real outfits from your wardrobe for an interview, an office day and a video call.",
+    "steps": [
+      "List the clothes you own that fit and are in good repair.",
+      "Plan one outfit each for interview, office and video call.",
+      "Try each on in front of a mirror and check fit, buttons and shoes.",
+      "Note one gap and one cheap fix such as a tailor or ironing."
+    ],
+    "checklist": [
+      "I planned three outfits",
+      "I tried each on",
+      "I checked shoes and care",
+      "I named one gap and one fix"
+    ],
+    "evidencePrompt": "Write the three outfits in one line each and the gap you found.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "grooming-2.q1",
+      "type": "mcq",
+      "concept": "grooming.context",
+      "prompt": "On a video call which part of your outfit matters most?",
+      "options": [
+        "Shoes",
+        "Nothing",
+        "Only the visible top, but wear proper bottoms anyway",
+        "A tie"
+      ],
+      "answer": 2,
+      "why": "Camera shows the top, but dressing fully helps in case you stand."
+    },
+    {
+      "id": "grooming-2.q2",
+      "type": "mcq",
+      "concept": "grooming.fit-colour",
+      "prompt": "Which colour plan gives the most outfits from few pieces?",
+      "options": [
+        "Many bright prints",
+        "All black only",
+        "Only one colour",
+        "Neutrals plus one accent"
+      ],
+      "answer": 3,
+      "why": "Neutrals with a single accent combine easily."
+    },
+    {
+      "id": "grooming-2.q3",
+      "type": "mcq",
+      "concept": "grooming.shoes-care",
+      "prompt": "Which shoes suit an interview?",
+      "options": [
+        "Clean closed shoes in black or brown",
+        "Flip-flops",
+        "Muddy sneakers",
+        "New unbroken shoes you have never worn"
+      ],
+      "answer": 0,
+      "why": "Clean, comfortable closed shoes are safe; never wear brand-new unworn shoes."
+    },
+    {
+      "id": "grooming-2.q4",
+      "type": "mcq",
+      "concept": "grooming.budget-wardrobe",
+      "prompt": "Which should you spend on first?",
+      "options": [
+        "Fit, shoes and the most-worn shirt",
+        "Accessories",
+        "Many casual items",
+        "Branded logos"
+      ],
+      "answer": 0,
+      "why": "These give most impact per rupee."
+    }
+  ],
+  "bank": [
+    {
+      "id": "grooming-2.b1",
+      "type": "mcq",
+      "concept": "grooming.context",
+      "prompt": "You are asked to join a client site visit tomorrow and no dress code is given. Best action?",
+      "options": [
+        "Ask your manager and dress slightly formal",
+        "Wear shorts",
+        "Wear nothing special",
+        "Skip it"
+      ],
+      "answer": 0,
+      "why": "Ask, and dress one notch above to represent your company."
+    },
+    {
+      "id": "grooming-2.b2",
+      "type": "fill",
+      "concept": "grooming.budget-wardrobe",
+      "prompt": "With 4 tops and 3 bottoms that all mix, you can make ____ outfits. (number)",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "why": "4 multiplied by 3 gives 12 combinations."
+    },
+    {
+      "id": "grooming-2.b3",
+      "type": "mcq",
+      "concept": "grooming.fit-colour",
+      "prompt": "A shirt hangs loose and the sleeves cover your hands. What is the cheapest fix?",
+      "options": [
+        "Visit a tailor for alterations",
+        "Buy a new brand",
+        "Wear a jacket always",
+        "Ignore it"
+      ],
+      "answer": 0,
+      "why": "A tailor can fix fit inexpensively."
+    }
+  ],
+  "cards": [
+    {
+      "id": "grooming-2.c1",
+      "concept": "grooming.context",
+      "front": "What is the one-notch-above rule?",
+      "back": "Dress slightly more formally than the people in that setting, and ask when the dress code is unclear."
+    },
+    {
+      "id": "grooming-2.c2",
+      "concept": "grooming.fit-colour",
+      "front": "How do I use colour simply?",
+      "back": "Build around neutrals, add one accent, and keep prints calm for interviews. Fit comes before everything."
+    },
+    {
+      "id": "grooming-2.c3",
+      "concept": "grooming.shoes-care",
+      "front": "What do I check on shoes?",
+      "back": "Clean, polished, heels and soles in good repair, plain matching socks, worn in before the day."
+    },
+    {
+      "id": "grooming-2.c4",
+      "concept": "grooming.budget-wardrobe",
+      "front": "What is a starter wardrobe?",
+      "back": "About three tops, two bottoms, one pair of closed shoes, a belt and a jacket or borrowed blazer, giving around six outfits."
+    }
+  ],
+  "reflection": "Which setting do you feel least ready to dress for, and what is the one piece that would solve it?",
+  "revision": {
+    "keyPoints": [
+      "Dress one notch above the setting and ask when unsure.",
+      "Fit matters more than price.",
+      "Neutral colours and clean shoes make a few pieces work hard.",
+      "A small, mix-and-match wardrobe is enough."
+    ],
+    "redo": "Plan an outfit for an upcoming event and check fit, shoes and ironing the night before."
+  }
+}

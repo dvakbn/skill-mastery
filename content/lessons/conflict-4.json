@@ -1,0 +1,326 @@
+{
+  "id": "conflict-4",
+  "skillId": "conflict",
+  "n": 4,
+  "title": "Conflict in Teams and Remote Work",
+  "summary": "Handle written conflict, feedback disputes and prevention with working agreements and escalation paths for teams and remote work.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Defuse a tense written exchange and know when to switch to a call.",
+    "Handle a feedback dispute constructively.",
+    "Create team working agreements and an escalation path."
+  ],
+  "concepts": [
+    {
+      "id": "conflict.written-conflict",
+      "label": "Written conflict"
+    },
+    {
+      "id": "conflict.feedback-disputes",
+      "label": "Feedback disputes"
+    },
+    {
+      "id": "conflict.working-agreements",
+      "label": "Working agreements"
+    },
+    {
+      "id": "conflict.escalation",
+      "label": "Escalation path"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why remote conflict is harder",
+      "body": "In person, tone of voice, facial expressions and body language soften words. In chat and email these signals disappear, so neutral messages feel cold and short ones feel rude. Time zones, delays and unclear ownership add friction. Remote and hybrid teams therefore need deliberate habits for communication and conflict, because small misunderstandings can grow into resentment before anyone notices."
+    },
+    {
+      "heading": "Handling written conflict",
+      "body": "When a message upsets you, follow four steps. **Pause**: do not reply for at least ten minutes. **Assume good intent** as a hypothesis, and consider other readings, such as hurry or stress. **Clarify** with a question: \"I read this as a criticism of my delivery; is that what you meant?\" **Switch medium** when the thread has gone back and forth three times, or emotions are high: propose a five-minute call and then confirm decisions in writing. Write replies that are short, factual and polite: facts, impact, request. Avoid capital letters, sarcasm and copying senior people to pressure someone. Never send an angry message and hope to retract it. If you must vent, write the angry draft in a notes file, wait, then delete it and write the calm version. Remember that screenshots travel: assume anything you type could be read by your manager, the client and the whole team."
+    },
+    {
+      "heading": "Feedback disputes",
+      "body": "Disagreements about feedback are common: \"This work is not good enough\" versus \"I followed the brief\". Handle them by separating three things: **facts** (what was asked, what was delivered), **standards** (what good looks like) and **feelings** (how it landed). Ask for specific examples and the criteria used. State your view with evidence: \"The brief said X; I delivered X. If the expectation was Y, can we agree on that for the next version?\" Agree on the next step and write the acceptance criteria. If feedback feels unfair repeatedly, discuss with your manager as a pattern, using examples, not as a complaint about a person."
+    },
+    {
+      "heading": "Prevention and escalation",
+      "body": "The best conflict management is prevention. A **working agreement** is a short document the team writes together: response times, core hours, meeting rules, how decisions are made, how to give feedback and how disagreements are raised. Review it monthly. Add an **escalation path** that everyone knows: first talk directly, then involve the team lead, then the manager or HR, with time limits such as two working days at each step. Clear paths prevent both silence and public blow-ups. Escalating is not tattling; it is using the process the team agreed."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Defusing a thread",
+      "body": "A colleague writes, \"Why was this not tested?\" Instead of replying defensively, Tara waits, then writes: \"I tested the main flow. Which case were you concerned about? Happy to jump on a five-minute call.\" The tension drops.",
+      "takeaway": "Pause, clarify and move to a call."
+    },
+    {
+      "title": "A working agreement",
+      "body": "A four-person remote team writes: reply to direct messages within four working hours, core hours 11 to 4, decisions recorded in the project doc, disagreements raised first with the person, then the lead. Conflicts fall sharply in the next sprint.",
+      "takeaway": "Agreed rules reduce guesswork and friction."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "conflict-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "conflict.written-conflict",
+      "prompt": "What should you do first when an upsetting message arrives?",
+      "options": [
+        "Pause before replying",
+        "Reply immediately",
+        "Forward it to everyone",
+        "Delete it"
+      ],
+      "answer": 0,
+      "why": "A pause prevents regret."
+    },
+    {
+      "id": "conflict-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "conflict.working-agreements",
+      "prompt": "A team ____ agreement sets response times and meeting rules. (one word)",
+      "accept": [
+        "working"
+      ],
+      "why": "Working agreements prevent friction by making rules explicit."
+    },
+    {
+      "id": "conflict-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "conflict.written-conflict",
+      "prompt": "A teammate writes in the group chat: \"Did you even read the requirements?\" Write your reply to them (short, calm, with a clarifying question and an offer to talk) and say why you chose that approach.",
+      "minWords": 41,
+      "rubric": [
+        {
+          "id": "tone",
+          "label": "Calm, non-defensive tone",
+          "weight": 35,
+          "descriptors": {
+            "0": "Hostile.",
+            "1": "Defensive.",
+            "2": "Neutral.",
+            "3": "Calm and professional."
+          }
+        },
+        {
+          "id": "clarify",
+          "label": "Clarifying question",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Weak.",
+            "2": "Some.",
+            "3": "Specific question."
+          }
+        },
+        {
+          "id": "call",
+          "label": "Offer to switch medium and reason",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Offer without reason.",
+            "2": "Reason without offer.",
+            "3": "Offer plus reason."
+          }
+        }
+      ],
+      "modelAnswer": "Reply: \"I read the requirements and built section 1 to 3. Which part do you feel I missed? I can show my notes in a quick five-minute call if easier.\" Reason: asking a question avoids defending, a call prevents tone problems and I will confirm decisions in writing afterward.",
+      "guidance": "Strong replies stay calm, ask what was meant and propose a call, then confirm in writing. Avoid sarcasm and long justifications."
+    },
+    {
+      "id": "conflict-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "conflict.escalation",
+      "prompt": "You and a colleague disagree about task ownership and have not resolved it after two direct talks. What is next?",
+      "options": [
+        {
+          "text": "Complain about them publicly.",
+          "score": 0,
+          "feedback": "Public blame damages the team."
+        },
+        {
+          "text": "Follow the agreed path: bring the lead in with facts and propose options.",
+          "score": 3,
+          "feedback": "Using the agreed path keeps it fair."
+        },
+        {
+          "text": "Do their part silently.",
+          "score": 1,
+          "feedback": "This quietly builds resentment later."
+        },
+        {
+          "text": "Ignore the issue.",
+          "score": 0,
+          "feedback": "Unresolved ownership grows worse."
+        }
+      ],
+      "why": "Escalate through the agreed path with facts."
+    }
+  ],
+  "task": {
+    "title": "Draft a working agreement",
+    "brief": "Write a one-page working agreement and escalation path for a real or imagined team.",
+    "steps": [
+      "List five rules covering response time, core hours, meetings, decisions and feedback.",
+      "Write a three-step escalation path with time limits.",
+      "Write a calm reply to a tense message using the four steps.",
+      "Share the draft with one teammate and ask for a change."
+    ],
+    "checklist": [
+      "I wrote five rules",
+      "I wrote an escalation path",
+      "I wrote a calm reply",
+      "I asked for feedback"
+    ],
+    "evidencePrompt": "Write your five rules and your escalation path.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "conflict-4.q1",
+      "type": "mcq",
+      "concept": "conflict.written-conflict",
+      "prompt": "When should you switch from chat to a call?",
+      "options": [
+        "After one message",
+        "Never",
+        "When the thread goes back and forth or emotions are high",
+        "Only on weekends"
+      ],
+      "answer": 2,
+      "why": "Calls prevent tone-based misunderstanding."
+    },
+    {
+      "id": "conflict-4.q2",
+      "type": "mcq",
+      "concept": "conflict.feedback-disputes",
+      "prompt": "In a feedback dispute, separate:",
+      "options": [
+        "Facts, standards and feelings",
+        "Names and numbers",
+        "Time and place",
+        "Friends and foes"
+      ],
+      "answer": 0,
+      "why": "Separating these makes the discussion clear."
+    },
+    {
+      "id": "conflict-4.q3",
+      "type": "mcq",
+      "concept": "conflict.working-agreements",
+      "prompt": "Why review a working agreement monthly?",
+      "options": [
+        "To waste time",
+        "To keep rules fit for the team",
+        "To change managers",
+        "To avoid work"
+      ],
+      "answer": 1,
+      "why": "Teams change, so rules need updates."
+    },
+    {
+      "id": "conflict-4.q4",
+      "type": "fill",
+      "concept": "conflict.escalation",
+      "prompt": "Escalating through an agreed path is not ____. (one word)",
+      "accept": [
+        "tattling",
+        "complaining",
+        "gossip"
+      ],
+      "why": "It is using a process the team agreed."
+    }
+  ],
+  "bank": [
+    {
+      "id": "conflict-4.b1",
+      "type": "mcq",
+      "concept": "conflict.written-conflict",
+      "prompt": "A better message style in conflict is:",
+      "options": [
+        "Sarcastic",
+        "Facts, impact, request",
+        "All capitals",
+        "Copying seniors"
+      ],
+      "answer": 1,
+      "why": "Facts, impact and a request keep it constructive."
+    },
+    {
+      "id": "conflict-4.b2",
+      "type": "mcq",
+      "concept": "conflict.feedback-disputes",
+      "prompt": "To resolve a feedback dispute, ask for:",
+      "options": [
+        "Specific examples and criteria",
+        "An apology only",
+        "A new manager",
+        "Silence"
+      ],
+      "answer": 0,
+      "why": "Examples and criteria make feedback usable."
+    },
+    {
+      "id": "conflict-4.b3",
+      "type": "mcq",
+      "concept": "conflict.escalation",
+      "prompt": "A good escalation path has:",
+      "options": [
+        "Time limits and clear steps",
+        "No order",
+        "Public blame",
+        "One person"
+      ],
+      "answer": 0,
+      "why": "Clear steps and limits prevent delay."
+    }
+  ],
+  "cards": [
+    {
+      "id": "conflict-4.c1",
+      "concept": "conflict.written-conflict",
+      "front": "Four steps for tense messages?",
+      "back": "Pause, assume good intent, clarify, switch to a call when needed."
+    },
+    {
+      "id": "conflict-4.c2",
+      "concept": "conflict.feedback-disputes",
+      "front": "How to handle feedback disputes?",
+      "back": "Separate facts, standards and feelings; ask for examples; agree acceptance criteria."
+    },
+    {
+      "id": "conflict-4.c3",
+      "concept": "conflict.working-agreements",
+      "front": "What goes in a working agreement?",
+      "back": "Response times, core hours, meeting rules, decision method, feedback and disagreement rules."
+    },
+    {
+      "id": "conflict-4.c4",
+      "concept": "conflict.escalation",
+      "front": "Typical escalation path?",
+      "back": "Talk directly, then team lead, then manager or HR, with time limits at each step."
+    }
+  ],
+  "reflection": "Recall a chat message that you misread. What would have happened if you had paused and asked a clarifying question?",
+  "revision": {
+    "keyPoints": [
+      "Text removes tone, so pause and clarify.",
+      "Move heated threads to a call.",
+      "Separate facts, standards and feelings.",
+      "Prevent conflict with agreements and escalation paths."
+    ],
+    "redo": "Rewrite one past tense message using facts, impact and request."
+  }
+}

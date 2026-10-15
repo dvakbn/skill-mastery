@@ -1,0 +1,344 @@
+{
+  "id": "time-2",
+  "skillId": "time",
+  "n": 2,
+  "title": "Planning Your Day and Week",
+  "summary": "Use time blocking, a short list of most important tasks, honest estimates and buffers so your plan survives a real day.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build a time-blocked day around one to three most important tasks.",
+    "Correct the planning fallacy by multiplying your gut estimates.",
+    "Add buffers and a weekly skeleton so surprises do not wreck the plan."
+  ],
+  "concepts": [
+    {
+      "id": "time.time-blocking",
+      "label": "Time blocking"
+    },
+    {
+      "id": "time.mits",
+      "label": "Most important tasks"
+    },
+    {
+      "id": "time.planning-fallacy",
+      "label": "Planning fallacy and estimates"
+    },
+    {
+      "id": "time.buffers",
+      "label": "Buffers and weekly skeleton"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "From lists to blocks",
+      "body": "In the first lesson you tracked where your hours actually go and sorted tasks by importance and urgency. The next step is placing that work on the calendar. A to-do list says what; it never says when, and tasks without a time tend to lose to whatever is loudest on your phone.\n\n**Time blocking** means giving each important task a named slot on the calendar, like an appointment with yourself. \"Study ABAP internal tables, 7:00 to 8:30\" is a block. \"Study ABAP\" on a list is a wish. Blocks work because they force you to see that a day has a fixed size: if you have six hours of free time you cannot block ten hours of work.\n\nStart by marking the fixed items first: classes, travel on the Faridabad to Delhi metro, meals, family time. Then place your hardest work in your highest-energy window, and put shallow work such as replying to messages in the low-energy gaps."
+    },
+    {
+      "heading": "Most important tasks",
+      "body": "A day with fifteen tasks has no priority. Each evening pick **one to three most important tasks (MITs)**: the things that, if done, make the day a success even if everything else slips. For a final-year student the list might be: finish the database chapter of the project report, solve five SQL practice problems, send one application.\n\nBlock your MITs first, ideally before noon, and do them before checking social feeds. The mistake is making an MIT too vague, such as \"work on project\". Write it so you can tell when it is finished: \"write the ER diagram section and export it\"."
+    },
+    {
+      "heading": "The planning fallacy",
+      "body": "Humans systematically underestimate how long tasks take; this is the **planning fallacy**. Even people who know it still do it, because we imagine the smooth version of a task and forget interruptions, setup time and mistakes.\n\nTwo fixes help. First, use your own history: if you noted that your last three reports each took 90 minutes and you guessed 45, your personal multiplier is about 2. Second, when you have no history, multiply your gut estimate by 1.5 or 2 for anything new. Worked example: you think a SQL assignment takes 2 hours. With a multiplier of 1.5, block 3 hours. If it ends early, you gain free time; if you block only 2, you start the next task already late and stressed."
+    },
+    {
+      "heading": "Buffers and a weekly skeleton",
+      "body": "A plan with zero gaps breaks at the first delay, and then every later block collapses. A **buffer** is unassigned time. A useful rule is to leave 20 to 30 percent of your day unplanned and add 10 to 15 minutes between blocks for transitions, such as a bus or a tea break.\n\nAlso sketch a **weekly skeleton**: recurring blocks that repeat, such as study on weekday mornings, a Saturday project block, Sunday planning for 20 minutes. When the skeleton exists, daily planning only fills in details. At the end of the day, move any unfinished blocks to a new slot deliberately instead of letting them vanish. Re-plan in minutes, not guilt."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A blocked weekday for an MCA student",
+      "body": "Fixed: classes 10:00 to 3:00, commute 8:30 to 9:30. MITs: (1) finish ER diagram, (2) solve five SQL problems. Blocks: 6:30 to 7:30 ER diagram while fresh; 3:45 to 4:45 SQL problems; 5:00 to 5:30 buffer; 8:00 to 8:30 plan tomorrow. Social media and messages go into a 5:30 to 6:00 slot.",
+      "takeaway": "Hard work goes in the high-energy window, fixed items are respected, and a buffer is already on the calendar."
+    },
+    {
+      "title": "Fixing an estimate",
+      "body": "Aman guessed that writing a 5-page assignment would take 1 hour. His last two similar assignments took 2 hours and 2.5 hours. Using his own average of about 2.25 hours, he blocks 2 hours 30 minutes, and adds a 30-minute buffer after it. He finishes in 2 hours 15 minutes and uses the leftover time to proofread.",
+      "takeaway": "Past actual durations beat optimistic guesses, and blocking a little extra costs less than running late."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "time-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "time.time-blocking",
+      "prompt": "What is the main advantage of time blocking over a plain to-do list?",
+      "options": [
+        "It lets you add more tasks than fit in a day",
+        "It assigns each task a slot and reveals whether the day can really hold it",
+        "It removes the need to prioritise",
+        "It makes you work without breaks"
+      ],
+      "answer": 1,
+      "why": "A block shows when work happens and exposes overload, since a day has a fixed size. A list alone hides this, and blocking does not remove prioritising."
+    },
+    {
+      "id": "time-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "time.planning-fallacy",
+      "prompt": "Underestimating how long tasks will take, even when similar tasks ran late before, is called the planning ____. (one word)",
+      "accept": [
+        "fallacy"
+      ],
+      "why": "The planning fallacy is the systematic tendency to underestimate task time."
+    },
+    {
+      "id": "time-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "time.buffers",
+      "prompt": "Your day is planned from 9:00 to 9:00 with no gaps. At 11:00 a lab session overruns by 40 minutes. What is the best response and lesson?",
+      "options": [
+        {
+          "text": "Skip lunch and push on, planning to do the same next time.",
+          "score": 1,
+          "feedback": "Skipping meals drains energy and leaves the plan just as fragile."
+        },
+        {
+          "text": "Drop the whole plan and see how the day goes.",
+          "score": 0,
+          "feedback": "Abandoning the plan removes priorities and invites time-wasting."
+        },
+        {
+          "text": "Move the lowest-value block, protect your MITs, and add 20 to 30 percent buffer when planning future days.",
+          "score": 3,
+          "feedback": "You protect what matters now and fix the cause, which was a plan with no slack."
+        },
+        {
+          "text": "Blame the lab teacher and continue as before.",
+          "score": 0,
+          "feedback": "Blame changes nothing; delays are normal and should be planned for."
+        }
+      ],
+      "why": "Delays are normal, so a good plan protects MITs, trims low-value blocks and holds buffer by design."
+    },
+    {
+      "id": "time-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "time.mits",
+      "prompt": "Plan tomorrow for yourself. List your fixed commitments, choose one to three MITs written as finishable outcomes, place them in time blocks with start and end times, and show at least one buffer. Then give one estimate you adjusted using the planning fallacy.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "mits",
+          "label": "MITs are finishable outcomes",
+          "weight": 30,
+          "descriptors": {
+            "0": "No MITs.",
+            "1": "MITs listed but vague.",
+            "2": "MITs are mostly clear.",
+            "3": "One to three MITs that you could tick off clearly."
+          }
+        },
+        {
+          "id": "blocks",
+          "label": "Realistic time blocks",
+          "weight": 30,
+          "descriptors": {
+            "0": "No times.",
+            "1": "Times for some tasks.",
+            "2": "Times for all MITs but overlapping fixed items.",
+            "3": "Every MIT has a start and end time that fits around fixed items."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes clock times or durations"
+          }
+        },
+        {
+          "id": "buffer",
+          "label": "Buffer included",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Mentioned vaguely.",
+            "2": "One buffer.",
+            "3": "Buffers between blocks and a larger spare slot."
+          }
+        },
+        {
+          "id": "estimate",
+          "label": "Estimate corrected",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentions estimating only.",
+            "2": "Gives a corrected estimate.",
+            "3": "Gives original guess, multiplier or past data, and the new estimate."
+          }
+        }
+      ],
+      "modelAnswer": "Fixed: classes 10 to 3, commute 8:30 to 9:30. MITs: finish the ER diagram section; solve five SQL problems. Blocks: 6:30 to 7:45 ER diagram; 3:45 to 4:45 SQL; buffer 5:00 to 5:30. I first guessed 45 minutes for the diagram but my last two took twice as long, so I allowed 75 minutes.",
+      "guidance": "A strong plan fits inside the real hours, puts the hardest MIT in your best energy window and keeps a visible gap. Typical mistakes are listing six MITs, ignoring commute time and giving estimates with no reasoning. Score yourself honestly against the model answer."
+    }
+  ],
+  "task": {
+    "title": "Block and test one day",
+    "brief": "Plan one real day with time blocks and check afterwards how accurate your estimates were.",
+    "steps": [
+      "The evening before, write fixed commitments and choose one to three MITs.",
+      "Block the MITs in your best energy window and add at least two buffers.",
+      "Write each estimate, then multiply new-task guesses by 1.5.",
+      "At the end of the day, note actual durations beside the estimates.",
+      "Move unfinished blocks to specific new slots."
+    ],
+    "checklist": [
+      "I chose no more than three MITs",
+      "My blocks fit around fixed items",
+      "I included buffers",
+      "I recorded estimate versus actual for each block"
+    ],
+    "evidencePrompt": "Write your MITs, one estimate versus actual, and what you will change tomorrow.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "time-2.q1",
+      "type": "mcq",
+      "concept": "time.time-blocking",
+      "prompt": "A time block is best described as:",
+      "options": [
+        "A task on a list",
+        "A named calendar slot reserved for a specific task",
+        "A long break",
+        "A deadline set by someone else"
+      ],
+      "answer": 1,
+      "why": "A block links a task to a start and end time."
+    },
+    {
+      "id": "time-2.q2",
+      "type": "mcq",
+      "concept": "time.mits",
+      "prompt": "How many MITs per day are usually sensible?",
+      "options": [
+        "One to three",
+        "Ten to twelve",
+        "None, just react",
+        "Exactly twenty"
+      ],
+      "answer": 0,
+      "why": "A small number lets you actually finish what matters most."
+    },
+    {
+      "id": "time-2.q3",
+      "type": "mcq",
+      "concept": "time.planning-fallacy",
+      "prompt": "You estimate 2 hours for a new task and your usual multiplier is 1.5. What do you block?",
+      "options": [
+        "1 hour",
+        "2 hours",
+        "3 hours",
+        "4 hours"
+      ],
+      "answer": 2,
+      "why": "2 hours times 1.5 is 3 hours."
+    },
+    {
+      "id": "time-2.q4",
+      "type": "mcq",
+      "concept": "time.buffers",
+      "prompt": "A reasonable share of the day to leave unplanned is about:",
+      "options": [
+        "0 percent",
+        "20 to 30 percent",
+        "90 percent",
+        "Only weekends"
+      ],
+      "answer": 1,
+      "why": "About a quarter of the time absorbs overruns and surprises."
+    }
+  ],
+  "bank": [
+    {
+      "id": "time-2.b1",
+      "type": "mcq",
+      "concept": "time.mits",
+      "prompt": "Which is the best-written MIT?",
+      "options": [
+        "Work on project",
+        "Write and test the login module so the demo works",
+        "Be productive",
+        "Do everything"
+      ],
+      "answer": 1,
+      "why": "It names a finishable outcome you can check at the end of the day."
+    },
+    {
+      "id": "time-2.b2",
+      "type": "fill",
+      "concept": "time.planning-fallacy",
+      "prompt": "Last week your reports took 40, 55 and 45 minutes. Your gut says 20 minutes for the next one. Using your average, how many minutes should you block? (number)",
+      "accept": [
+        "47",
+        "46",
+        "48",
+        "45"
+      ],
+      "why": "The average of 40, 55 and 45 is 46.7, so about 47 minutes (45 to 48 is acceptable); your real data beats your gut guess of 20."
+    },
+    {
+      "id": "time-2.b3",
+      "type": "mcq",
+      "concept": "time.time-blocking",
+      "prompt": "You block six tasks of one hour each into a day that has only four free hours. What does this show?",
+      "options": [
+        "The day is fine",
+        "The plan is overloaded and two tasks must move or go",
+        "You should work faster",
+        "Blocking does not work"
+      ],
+      "answer": 1,
+      "why": "Blocking exposes overload before the day begins."
+    }
+  ],
+  "cards": [
+    {
+      "id": "time-2.c1",
+      "concept": "time.time-blocking",
+      "front": "What is time blocking?",
+      "back": "Reserving named calendar slots for tasks. Place fixed items first, then hard work in high-energy hours."
+    },
+    {
+      "id": "time-2.c2",
+      "concept": "time.mits",
+      "front": "What are MITs?",
+      "back": "One to three most important tasks, written as finishable outcomes and blocked first each day."
+    },
+    {
+      "id": "time-2.c3",
+      "concept": "time.planning-fallacy",
+      "front": "How do you beat the planning fallacy?",
+      "back": "Use past actual durations or multiply your gut estimate by 1.5 to 2 for new tasks."
+    },
+    {
+      "id": "time-2.c4",
+      "concept": "time.buffers",
+      "front": "How much buffer should a plan have?",
+      "back": "About 20 to 30 percent unplanned time plus 10 to 15 minutes between blocks, with a weekly skeleton of repeating blocks."
+    }
+  ],
+  "reflection": "Which task do you most often underestimate, and what multiplier would have made your last plan realistic?",
+  "revision": {
+    "keyPoints": [
+      "Put tasks on the calendar as blocks, fixed items first.",
+      "Choose one to three MITs and block them early.",
+      "Multiply optimistic estimates using your own history.",
+      "Leave buffers and re-plan unfinished blocks deliberately."
+    ],
+    "redo": "Plan tomorrow with two MITs, three blocks and one buffer, then compare actual times tonight."
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "id": "eq-4",
+  "skillId": "eq",
+  "n": 4,
+  "title": "Social Awareness and Relationships",
+  "summary": "Read group dynamics, give and receive feedback well, build trust, hold boundaries and repair relationships after conflict.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Read the roles and unspoken dynamics in a group before acting.",
+    "Give feedback using a clear structure and receive feedback without defending.",
+    "Set a respectful boundary and repair a strained relationship."
+  ],
+  "concepts": [
+    {
+      "id": "eq.group-dynamics",
+      "label": "Reading group dynamics"
+    },
+    {
+      "id": "eq.feedback",
+      "label": "Giving and receiving feedback"
+    },
+    {
+      "id": "eq.trust-boundaries",
+      "label": "Trust and boundaries"
+    },
+    {
+      "id": "eq.repair",
+      "label": "Repairing relationships"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Seeing the group, not just the person",
+      "body": "Last lesson you practised listening to one person. Social awareness widens the lens to a whole group. Every team, from a college project group to an SAP implementation team, has unwritten dynamics: who speaks first, who is ignored, who agrees quietly and complains later, and who decides in practice, whatever the organisation chart says.\n\nBefore a meeting, ask three questions. Who holds formal authority? Who holds informal influence? Who has gone quiet, and why might that be? Watch for signals such as someone repeatedly interrupted, a joke that lands badly or a topic everyone avoids. Observe first, then act: invite the quiet member with \"Meera, you have worked on this module, what do you think?\" rather than assuming agreement."
+    },
+    {
+      "heading": "Giving and receiving feedback",
+      "body": "Feedback is information about the effect of someone's behaviour. A reliable structure for giving it is **situation, behaviour, impact**, followed by a request. For example: \"In yesterday's review (situation), you changed the test data without telling me (behaviour), so my results did not match and I lost an hour (impact). Could you message me before changing shared data?\" It is specific, describes what anyone could have seen, and avoids labels like \"careless\".\n\nReceiving feedback is harder. When it stings, use the pause from earlier lessons, then **listen, thank, clarify and decide**. Say \"Thanks, can you give me one example?\" Do not explain or defend in the moment. Afterwards, decide what to act on. Feedback is a gift of data even when delivered clumsily."
+    },
+    {
+      "heading": "Trust and boundaries",
+      "body": "**Trust** grows from small, repeated acts of reliability: doing what you said, on time, and telling people early when you cannot. It falls faster than it rises, so one hidden problem can cost months of goodwill.\n\nA **boundary** is a limit that protects your time, energy or values, such as \"I cannot take calls after 9 pm\" or \"I will not share your personal details without asking.\" Boundaries are not punishments. State them calmly and early, with a reason if useful, and offer an alternative: \"I cannot review this tonight, but I can do it by 11 tomorrow.\" Boundaries that are never spoken are only resentments, and boundaries you never enforce teach people to ignore them."
+    },
+    {
+      "heading": "Repairing relationships",
+      "body": "Conflict happens in every close relationship. What matters is repair. A good repair has four parts: **acknowledge** what you did specifically, **own** the impact without excuses, **make amends** with a concrete action, and **change** the behaviour. Compare \"Sorry if you felt bad\" with \"I mocked your idea in front of the group and that embarrassed you. I am sorry. I will talk to you privately first and I will credit your idea in the next meeting.\"\n\nTiming matters. Repair soon, once emotions have cooled, and let the other person respond in their own way. Not everyone will forgive immediately, and a sincere attempt still builds your integrity."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Feedback with structure",
+      "body": "Karthik tells a teammate, \"In Thursday's demo you answered the client's pricing question, which was my area. I felt sidelined and the client got mixed messages. Next time, could you pass pricing questions to me?\" The teammate replies, \"I did not realise, thanks. I will pass them over.\"",
+      "takeaway": "Describing situation, behaviour and impact, then making one request, keeps the talk about actions rather than character."
+    },
+    {
+      "title": "A repair after a missed deadline",
+      "body": "Aditi promised a module for a group project on Friday and delivered on Monday, so the team lost its testing time. She messages: \"I missed Friday and you lost testing time. I am sorry. I have cleared my Tuesday evening to help test, and from now on I will tell you by Wednesday if I am at risk.\"",
+      "takeaway": "A repair names the specific harm, offers an action and changes the future behaviour, which rebuilds trust."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "eq-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "eq.group-dynamics",
+      "prompt": "In a project meeting, one member has not spoken for 30 minutes while others dominate. The most socially aware move is to:",
+      "options": [
+        "Invite them with a specific, low-pressure question about their work.",
+        "Ignore it, quiet people prefer silence.",
+        "Ask them publicly why they are silent.",
+        "Assume they agree with everything."
+      ],
+      "answer": 0,
+      "why": "A specific, easy invitation opens space without pressure. Silence is not agreement, and asking why in public can embarrass."
+    },
+    {
+      "id": "eq-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "eq.feedback",
+      "prompt": "The feedback structure is situation, behaviour and ____. (one word)",
+      "accept": [
+        "impact"
+      ],
+      "why": "Impact explains the effect of the behaviour on you, the team or the work."
+    },
+    {
+      "id": "eq-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "eq.trust-boundaries",
+      "prompt": "A friend messages you at 11 pm every night asking for help with assignments, and you are losing sleep. What is the best step?",
+      "options": [
+        {
+          "text": "Keep replying and feel resentful.",
+          "score": 0,
+          "feedback": "Unspoken limits turn into resentment and hurt the friendship later."
+        },
+        {
+          "text": "Stop replying without any explanation.",
+          "score": 1,
+          "feedback": "It sets a limit but leaves your friend confused and hurt."
+        },
+        {
+          "text": "Tell her kindly that you cannot reply after 10 pm and offer to help between 6 and 8 pm.",
+          "score": 3,
+          "feedback": "A calm, early boundary with an alternative protects you and the relationship."
+        },
+        {
+          "text": "Tell her she is selfish for messaging so late.",
+          "score": 1,
+          "feedback": "Labelling her invites defence rather than change."
+        }
+      ],
+      "why": "A boundary is stated calmly with a clear limit and a workable alternative."
+    },
+    {
+      "id": "eq-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "eq.repair",
+      "prompt": "You snapped at a teammate during a stressful review and criticised their work in front of others. Write the message you would send to repair this. Include a specific acknowledgement, ownership of the impact, an amends action and a change you will make.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "acknowledge",
+          "label": "Specific acknowledgement",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague (\"sorry for earlier\").",
+            "2": "Names the event.",
+            "3": "Names exactly what you said or did and where."
+          }
+        },
+        {
+          "id": "impact",
+          "label": "Owns the impact without excuses",
+          "weight": 25,
+          "descriptors": {
+            "0": "Blames them or stress.",
+            "1": "Partial excuse (\"sorry if\").",
+            "2": "Owns impact with a small excuse.",
+            "3": "Owns the impact clearly, no excuses."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "sorry if",
+              "but you"
+            ],
+            "label": "Avoids conditional apologies"
+          }
+        },
+        {
+          "id": "amends",
+          "label": "Concrete amends",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague offer.",
+            "2": "One concrete action.",
+            "3": "Concrete action with timing."
+          }
+        },
+        {
+          "id": "change",
+          "label": "Commitment to change",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague promise.",
+            "2": "Promise to do better with one step.",
+            "3": "Specific behaviour change you can be held to."
+          }
+        }
+      ],
+      "modelAnswer": "Hi Neha, in today's review I raised my voice and called your report sloppy in front of everyone. That was unfair and I am sorry; it must have been embarrassing. I would like to go through the report with you tomorrow at 11 and credit the parts that were strong when we present. From now on I will give feedback privately first and keep my voice calm even when I am under pressure.",
+      "guidance": "A strong repair is specific, takes responsibility without excuses such as \"I was stressed\" as the main point, offers something concrete and names a behaviour change. Avoid \"sorry if you felt hurt\" and avoid asking for forgiveness in the same message. Score yourself honestly against the model."
+    }
+  ],
+  "task": {
+    "title": "Give one feedback and make one repair",
+    "brief": "Practise the structured feedback format and, if relevant, one small repair or boundary in real life.",
+    "steps": [
+      "Choose a recent small irritation with a friend or teammate.",
+      "Write feedback in the form situation, behaviour, impact, request and deliver it kindly in person or by message.",
+      "Listen, thank and ask one clarifying question if you receive feedback back.",
+      "If you owe someone an apology or need to set a boundary, write it using the four repair parts or the boundary format.",
+      "Note how the other person responded."
+    ],
+    "checklist": [
+      "My feedback named a specific behaviour",
+      "I made one clear request",
+      "I did not defend when I received feedback",
+      "I noted the other person's response"
+    ],
+    "evidencePrompt": "Write your feedback sentence and describe how it was received.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "eq-4.q1",
+      "type": "mcq",
+      "concept": "eq.group-dynamics",
+      "prompt": "Informal influence in a group means:",
+      "options": [
+        "The person with the highest designation",
+        "People whose views shape decisions regardless of title",
+        "The person who talks most",
+        "The oldest member"
+      ],
+      "answer": 1,
+      "why": "Informal influence is real impact on decisions that does not depend on title."
+    },
+    {
+      "id": "eq-4.q2",
+      "type": "fill",
+      "concept": "eq.feedback",
+      "prompt": "When you receive feedback that stings, say thanks and ask for an ____ to understand it. (one word)",
+      "accept": [
+        "example"
+      ],
+      "why": "An example turns a vague remark into something specific that you can act on."
+    },
+    {
+      "id": "eq-4.q3",
+      "type": "mcq",
+      "concept": "eq.trust-boundaries",
+      "prompt": "Which best builds trust at work?",
+      "options": [
+        "Promising everything to look keen",
+        "Doing what you said and warning early when you cannot",
+        "Hiding small problems",
+        "Avoiding all disagreement"
+      ],
+      "answer": 1,
+      "why": "Reliable follow-through and early honest warnings build trust steadily."
+    },
+    {
+      "id": "eq-4.q4",
+      "type": "mcq",
+      "concept": "eq.repair",
+      "prompt": "Which is the strongest apology?",
+      "options": [
+        "Sorry if you felt bad.",
+        "I was stressed, you know how it is.",
+        "I dismissed your idea in the meeting, which embarrassed you. I am sorry and will raise concerns privately.",
+        "Let us forget it happened."
+      ],
+      "answer": 2,
+      "why": "It names the act, owns the impact and commits to a change."
+    }
+  ],
+  "bank": [
+    {
+      "id": "eq-4.b1",
+      "type": "mcq",
+      "concept": "eq.feedback",
+      "prompt": "Which feedback is most useful?",
+      "options": [
+        "You are always careless.",
+        "In today's code review three variables were unclear, which slowed my reading. Could you use full names?",
+        "Your work is bad.",
+        "People are saying you are lazy."
+      ],
+      "answer": 1,
+      "why": "It names the situation, behaviour and impact and makes a request, with no labels."
+    },
+    {
+      "id": "eq-4.b2",
+      "type": "mcq",
+      "concept": "eq.group-dynamics",
+      "prompt": "A manager asks for opinions and everyone waits for the senior consultant to speak first. This shows:",
+      "options": [
+        "A lack of ideas",
+        "Informal influence shaping the discussion",
+        "Good teamwork",
+        "A technical problem"
+      ],
+      "answer": 1,
+      "why": "People deferring to one person shows how influence works in practice."
+    },
+    {
+      "id": "eq-4.b3",
+      "type": "fill",
+      "concept": "eq.trust-boundaries",
+      "prompt": "A boundary should be stated calmly, early and with an ____ where possible. (one word)",
+      "accept": [
+        "alternative",
+        "option"
+      ],
+      "why": "Offering an alternative keeps the relationship warm while protecting your limit."
+    }
+  ],
+  "cards": [
+    {
+      "id": "eq-4.c1",
+      "concept": "eq.group-dynamics",
+      "front": "What three questions help read a group?",
+      "back": "Who holds formal authority? Who holds informal influence? Who is quiet and why? Observe before acting and invite quiet members specifically."
+    },
+    {
+      "id": "eq-4.c2",
+      "concept": "eq.feedback",
+      "front": "Feedback structure?",
+      "back": "Situation, behaviour, impact, then a request. Describe what could be observed and avoid labels like careless or lazy."
+    },
+    {
+      "id": "eq-4.c3",
+      "concept": "eq.trust-boundaries",
+      "front": "How do boundaries work?",
+      "back": "State the limit calmly and early, give a reason if useful, offer an alternative and keep to it. Unspoken boundaries become resentments."
+    },
+    {
+      "id": "eq-4.c4",
+      "concept": "eq.repair",
+      "front": "Four parts of a good repair?",
+      "back": "Acknowledge the specific act, own the impact without excuses, make concrete amends and change the future behaviour."
+    }
+  ],
+  "reflection": "Which relationship in your life needs either a clear boundary or a repair, and what is the first sentence you would say?",
+  "revision": {
+    "keyPoints": [
+      "Read formal and informal roles before you act in a group.",
+      "Give feedback as situation, behaviour, impact and request.",
+      "Trust comes from reliability, boundaries from calm clarity.",
+      "Repair by acknowledging, owning, amending and changing."
+    ],
+    "redo": "Write one situation, behaviour, impact sentence about something recent."
+  }
+}

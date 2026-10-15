@@ -1,0 +1,203 @@
+{
+ "id": "week-4",
+ "week": 4,
+ "day": 28,
+ "title": "Week 4 Assessment: Working With People",
+ "intro": "This assessment checks how you behave and decide when working with people: etiquette, presentation, emotions, conflict, networking and stress. Part A is auto-graded from the lessons you completed. Part B has a decision scenario, a role-play and a written task.",
+ "coverage": [
+  "etiquette",
+  "grooming",
+  "eq",
+  "conflict",
+  "tech",
+  "problem",
+  "stress",
+  "discipline",
+  "networking",
+  "confidence",
+  "critical",
+  "research"
+ ],
+ "concepts": [
+  {
+   "id": "etiquette.applied",
+   "label": "Professional Etiquette: applied"
+  },
+  {
+   "id": "conflict.applied",
+   "label": "Conflict Resolution: applied"
+  },
+  {
+   "id": "stress.applied",
+   "label": "Stress Management: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-4.a1",
+   "skills": [
+    "etiquette",
+    "grooming"
+   ],
+   "type": "scenario",
+   "concept": "etiquette.applied",
+   "prompt": "You are invited to an on-campus company event the day after an all-night project push. You are tired and your formal clothes are unwashed. What is the best approach?",
+   "options": [
+    {
+     "text": "Skip the event without telling anyone.",
+     "score": 0,
+     "feedback": "Silent absence can look unprofessional."
+    },
+    {
+     "text": "Prepare clean, neat, simple clothes, arrive on time and keep introductions short and polite.",
+     "score": 3,
+     "feedback": "Basic grooming and punctuality create a good impression."
+    },
+    {
+     "text": "Wear the same crumpled clothes and avoid eye contact.",
+     "score": 1,
+     "feedback": "Poor presentation signals low care."
+    },
+    {
+     "text": "Arrive late and leave early.",
+     "score": 0,
+     "feedback": "This signals low interest in the host."
+    }
+   ],
+   "why": "Neat basics, punctuality and polite manners matter more than expensive clothing."
+  },
+  {
+   "id": "week-4.a2",
+   "skills": [
+    "conflict",
+    "networking",
+    "eq"
+   ],
+   "type": "roleplay",
+   "concept": "conflict.applied",
+   "setup": "At a networking event you promised a senior engineer you would send a resume, but you forgot for a week. You now message them to follow up.",
+   "turns": [
+    {
+     "they": "Hi, I remember we met. Did you send your resume?",
+     "options": [
+      {
+       "text": "Sorry, I forgot, whatever.",
+       "score": 0,
+       "feedback": "A careless tone weakens trust.",
+       "reply": "Hmm, okay."
+      },
+      {
+       "text": "I am sorry for the delay. I missed sending my resume after we met. I have attached it now with two lines on my ABAP training.",
+       "score": 3,
+       "feedback": "A brief apology with immediate repair.",
+       "reply": "Thank you, I will have a look."
+      },
+      {
+       "text": "I was busy, and you also did not follow up.",
+       "score": 1,
+       "feedback": "Blaming the other person damages the relationship.",
+       "reply": "I see."
+      }
+     ]
+    },
+    {
+     "they": "Thanks. What kind of role are you looking for?",
+     "options": [
+      {
+       "text": "Anything works.",
+       "score": 0,
+       "feedback": "A vague answer gives them nothing to act on.",
+       "reply": "That is quite broad."
+      },
+      {
+       "text": "An entry-level SAP ABAP developer role at a services firm. I am building small reports and practising daily.",
+       "score": 3,
+       "feedback": "A specific target with evidence of effort.",
+       "reply": "Good. Keep your profile updated."
+      },
+      {
+       "text": "Whatever pays most.",
+       "score": 1,
+       "feedback": "Focusing on money alone gives a poor impression.",
+       "reply": "Hmm."
+      }
+     ]
+    },
+    {
+     "they": "I might know someone. Can you send a short note I can forward?",
+     "options": [
+      {
+       "text": "I do not have time to write.",
+       "score": 0,
+       "feedback": "Refusing the help they offer loses the chance.",
+       "reply": "Alright then."
+      },
+      {
+       "text": "Certainly. I will send a three-line summary by tomorrow noon.",
+       "score": 3,
+       "feedback": "Clear commitment that makes the favour easy.",
+       "reply": "Good, send it along."
+      },
+      {
+       "text": "Maybe sometime next month.",
+       "score": 1,
+       "feedback": "Delays reduce the momentum quickly.",
+       "reply": "We will see."
+      }
+     ]
+    }
+   ],
+   "why": "A brief apology, a specific ask and quick follow-through build networking trust."
+  },
+  {
+   "id": "week-4.a3",
+   "skills": [
+    "stress",
+    "discipline",
+    "problem"
+   ],
+   "type": "written",
+   "concept": "stress.applied",
+   "prompt": "You have three deadlines this week, you are sleeping badly and a teammate has not replied. Write 100 to 130 words describing how you would prioritise, protect your recovery and handle the unresponsive teammate.",
+   "minWords": 70,
+   "rubric": [
+    {
+     "id": "priorities",
+     "label": "Prioritisation method",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Some ordering.",
+      "3": "Clear ordering by deadline and importance."
+     }
+    },
+    {
+     "id": "recovery",
+     "label": "Recovery and stress management",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "Mentioned only.",
+      "2": "One tool.",
+      "3": "Specific sleep and stress tools."
+     }
+    },
+    {
+     "id": "teammate",
+     "label": "Handling the teammate",
+     "weight": 35,
+     "descriptors": {
+      "0": "Ignores.",
+      "1": "Blames.",
+      "2": "Contacts without detail.",
+      "3": "Clear follow-up with a deadline and escalation path."
+     }
+    }
+   ],
+   "modelAnswer": "I would list the three tasks, rank them by deadline and impact, and start with the earliest important one in a 50-minute focus block each morning. I would stop work at 11 pm, use slow breathing and a shutdown ritual to protect sleep, and schedule a short walk daily. For the teammate, I would send a clear message today asking for their part by tomorrow noon, offering a quick call if they are stuck, and tell my lead by Thursday if there is still no reply, with facts.",
+   "guidance": "Strong answers rank tasks, protect rest with concrete habits and follow up with the teammate politely, with a deadline and an escalation step. Avoid blaming or vague promises."
+  }
+ ]
+}

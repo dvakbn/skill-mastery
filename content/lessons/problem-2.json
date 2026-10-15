@@ -1,0 +1,333 @@
+{
+  "id": "problem-2",
+  "skillId": "problem",
+  "n": 2,
+  "title": "Decompose and Hypothesise",
+  "summary": "Break a problem into an issue tree, keep the branches MECE, form hypotheses, prioritise what to test first and divide and conquer.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build an issue tree whose branches are mutually exclusive and collectively exhaustive.",
+    "State a testable hypothesis and the evidence that would confirm or reject it.",
+    "Prioritise branches by likelihood and ease of checking."
+  ],
+  "concepts": [
+    {
+      "id": "problem.issue-tree",
+      "label": "Issue trees and MECE"
+    },
+    {
+      "id": "problem.hypothesis",
+      "label": "Hypothesis-driven approach"
+    },
+    {
+      "id": "problem.prioritising",
+      "label": "Prioritising branches"
+    },
+    {
+      "id": "problem.divide-conquer",
+      "label": "Divide and conquer"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Cutting a big problem into pieces",
+      "body": "In the last lesson you wrote a clear problem statement and looked for root causes. Now suppose the problem is \"the college placement cell's student registration drops 30 percent by the third round\". That is too big to attack as a lump. Decomposition splits it into smaller questions, each answerable on its own.\n\nAn **issue tree** starts with the main question on the left and splits it into branches, each of which splits again. For our example: Why does registration drop? Branch A: students do not know about later rounds. Branch B: students know but are not eligible. Branch C: students know and are eligible but choose not to continue. Each branch can be split further, for instance B into marks cut-off, backlog rules and document issues."
+    },
+    {
+      "heading": "MECE and hypotheses",
+      "body": "Good branches are **MECE**: mutually exclusive (no overlap) and collectively exhaustive (nothing missing). Branches A, B and C above are MECE because every student falls in exactly one group: unaware, aware but ineligible, or aware, eligible and unwilling. Compare a bad split: \"communication problems, eligibility problems, motivation problems, and the placement cell\". The last item overlaps with others, so the tree will double count and miss cases. A quick MECE test: pick any real case and ask whether it lands in exactly one branch.\n\nNext, move from collecting data to a **hypothesis-driven approach**. A hypothesis is a testable guess: \"Most dropouts are aware but ineligible due to backlog rules.\" Write it with the evidence that would prove or disprove it: \"If true, at least half of dropouts will have an active backlog in the college records.\" This beats gathering random data because it tells you what to look for. Be ready to be wrong; a rejected hypothesis is still progress because a branch is closed."
+    },
+    {
+      "heading": "Prioritising and divide and conquer",
+      "body": "You cannot test every branch. Rank them by two questions: how **likely** is it, and how **easy** is it to check? Start with branches that are likely and cheap to test. A quick scan of eligibility records takes an hour; surveying 300 students takes a week. Do the quick check first. This is an 80/20 mindset: a few causes often explain most of the effect.\n\n**Divide and conquer** applies the same logic in practice: split the work, solve small parts independently and combine the answers. In debugging, a program that fails somewhere in 400 lines is cut in half by checking the output at the midpoint; the fault lies in one half, and you cut again. After eight halvings you have found one line among 256. The same method works for a failing group project or a slow query: shrink the search space quickly."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A MECE issue tree for slow study progress",
+      "body": "Question: why am I not completing my weekly study plan? Branch 1: not enough time (commute, classes, chores). Branch 2: time exists but is spent elsewhere (phone, social media, sleep). Branch 3: time used on study but not effectively (distraction, wrong material, no practice). Every missed hour fits one branch. Hypothesis: Branch 2 explains most of it. Test: 3 days of time tracking.",
+      "takeaway": "MECE branches ensure no cause is missed or double counted, and a hypothesis tells you what data to collect."
+    },
+    {
+      "title": "Divide and conquer in debugging",
+      "body": "A 300-line ABAP report gives wrong totals. Maya prints the intermediate total after line 150: it is already wrong. The error is in the first half. She checks after line 75: correct. So the problem is between lines 75 and 150. After checking line 112 she finds an unreset variable inside a loop.",
+      "takeaway": "Halving the search space finds the fault in a handful of checks, instead of reading all 300 lines."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "problem-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "problem.issue-tree",
+      "prompt": "Which set of branches is MECE for \"why are website sales low\"?",
+      "options": [
+        "Too few visitors; visitors do not add to cart; visitors add to cart but do not pay",
+        "Too few visitors; visitors do not buy; marketing",
+        "Price; quality; the team",
+        "Competitors; visitors; price"
+      ],
+      "answer": 0,
+      "why": "Every visitor falls into exactly one stage of the funnel. The other sets overlap or miss cases."
+    },
+    {
+      "id": "problem-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "problem.hypothesis",
+      "prompt": "A testable guess stated together with evidence that would confirm or reject it is called a ____. (one word)",
+      "accept": [
+        "hypothesis"
+      ],
+      "why": "A hypothesis guides what data to collect."
+    },
+    {
+      "id": "problem-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "problem.prioritising",
+      "prompt": "You have four possible causes for a slow web page. One is likely and takes five minutes to check, one is unlikely and takes two days, one is moderately likely and takes an hour, one is likely but takes a week. What do you do first?",
+      "options": [
+        {
+          "text": "Start the week-long check because it is likely.",
+          "score": 1,
+          "feedback": "High likelihood is good, but a week of work delays everything else."
+        },
+        {
+          "text": "Check the five-minute likely cause first, then the one-hour cause.",
+          "score": 3,
+          "feedback": "Likely and cheap branches give the fastest information."
+        },
+        {
+          "text": "Check the unlikely two-day cause for completeness.",
+          "score": 0,
+          "feedback": "Low likelihood and high cost makes this the worst starting point."
+        },
+        {
+          "text": "Pick one at random.",
+          "score": 1,
+          "feedback": "Random choice ignores information you already have."
+        }
+      ],
+      "why": "Prioritise by likelihood and ease of checking; quick, likely checks come first."
+    },
+    {
+      "id": "problem-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "problem.divide-conquer",
+      "prompt": "Choose a problem such as \"my project demo keeps failing\" or \"my monthly spending exceeds budget\". Draw the issue tree in text (main question plus three branches that are MECE, and two sub-branches under one), write one hypothesis with evidence, and say which branch you will test first and why.",
+      "minWords": 57,
+      "rubric": [
+        {
+          "id": "tree",
+          "label": "MECE branches",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Overlapping or missing branches.",
+            "2": "Mostly MECE.",
+            "3": "Three clean MECE branches with sub-branches."
+          }
+        },
+        {
+          "id": "hyp",
+          "label": "Testable hypothesis",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "A vague opinion.",
+            "2": "A guess without evidence.",
+            "3": "A guess with confirming or rejecting evidence."
+          }
+        },
+        {
+          "id": "priority",
+          "label": "Prioritisation reason",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Reason is \"feels right\".",
+            "2": "Likelihood or ease stated.",
+            "3": "Both likelihood and ease of checking stated."
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear layout",
+          "weight": 15,
+          "descriptors": {
+            "0": "Unreadable.",
+            "1": "Hard to follow.",
+            "2": "Readable.",
+            "3": "Neat indentation and labels."
+          }
+        }
+      ],
+      "modelAnswer": "Question: why does my monthly spending exceed budget? A) Fixed costs too high (rent share, subscriptions). B) Variable costs too high (food, travel, shopping), with sub-branches eating out and impulse buying. C) Income lower than planned. Hypothesis: B, mainly eating out, explains over half the gap; evidence: UPI history shows over Rs 3,000 on food apps. Test B first: statements are available in minutes and it is likely.",
+      "guidance": "A strong answer has branches where any rupee fits one place only, a hypothesis that you could prove wrong with a named piece of evidence, and a reason for the order of testing. Avoid branches like \"other\" that hide the real structure."
+    }
+  ],
+  "task": {
+    "title": "Build an issue tree",
+    "brief": "Decompose a real problem and test your first hypothesis within a day.",
+    "steps": [
+      "Write the problem as a question.",
+      "Split into three MECE branches and split one branch again.",
+      "Check MECE by testing three real cases against the branches.",
+      "Write one hypothesis with the evidence that would confirm it.",
+      "Rank branches by likelihood and ease, then run the cheapest test."
+    ],
+    "checklist": [
+      "My branches are MECE",
+      "I wrote a hypothesis with evidence",
+      "I ranked branches by likelihood and ease",
+      "I ran or scheduled one test"
+    ],
+    "evidencePrompt": "Paste your top-level branches, hypothesis and the result of the first test.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "problem-2.q1",
+      "type": "mcq",
+      "concept": "problem.issue-tree",
+      "prompt": "MECE stands for:",
+      "options": [
+        "Many Examples, Clear Evidence",
+        "Measure, Evaluate, Check, Execute",
+        "Mutually Exclusive, Collectively Exhaustive",
+        "Main Effect, Cause Effect"
+      ],
+      "answer": 2,
+      "why": "Branches should not overlap and should cover all cases."
+    },
+    {
+      "id": "problem-2.q2",
+      "type": "mcq",
+      "concept": "problem.hypothesis",
+      "prompt": "What makes a hypothesis useful?",
+      "options": [
+        "It can be proved or disproved with evidence",
+        "It is always true",
+        "It cannot be tested",
+        "It is long"
+      ],
+      "answer": 0,
+      "why": "Testability directs what evidence to gather."
+    },
+    {
+      "id": "problem-2.q3",
+      "type": "mcq",
+      "concept": "problem.prioritising",
+      "prompt": "Which branch should be tested first?",
+      "options": [
+        "Unlikely and expensive",
+        "Likely and cheap",
+        "Unlikely and cheap",
+        "Likely and very expensive"
+      ],
+      "answer": 1,
+      "why": "Likely and cheap gives the best information per effort."
+    },
+    {
+      "id": "problem-2.q4",
+      "type": "mcq",
+      "concept": "problem.divide-conquer",
+      "prompt": "In debugging, divide and conquer means:",
+      "options": [
+        "Checking the midpoint to narrow the search space",
+        "Rewriting everything",
+        "Guessing",
+        "Deleting code"
+      ],
+      "answer": 0,
+      "why": "Halving locates the fault quickly."
+    }
+  ],
+  "bank": [
+    {
+      "id": "problem-2.b1",
+      "type": "mcq",
+      "concept": "problem.issue-tree",
+      "prompt": "A tree for \"why are students late to class?\" has branches \"traffic\" and \"transport problems\". What is wrong?",
+      "options": [
+        "They overlap and are not mutually exclusive",
+        "Nothing",
+        "They are too numerous",
+        "They are exhaustive"
+      ],
+      "answer": 0,
+      "why": "Traffic is a kind of transport problem, so the branches overlap."
+    },
+    {
+      "id": "problem-2.b2",
+      "type": "fill",
+      "concept": "problem.divide-conquer",
+      "prompt": "A program has 64 lines and the fault is in exactly one. How many halvings are needed to isolate it? (number)",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "why": "64 halves to 32, 16, 8, 4, 2, 1 in six steps."
+    },
+    {
+      "id": "problem-2.b3",
+      "type": "mcq",
+      "concept": "problem.hypothesis",
+      "prompt": "Which is a testable hypothesis?",
+      "options": [
+        "The app is bad",
+        "If most crashes occur on Android 9 devices, the old library is the cause",
+        "Users are annoying",
+        "Technology is hard"
+      ],
+      "answer": 1,
+      "why": "It specifies a prediction that data from crash logs can confirm or reject."
+    }
+  ],
+  "cards": [
+    {
+      "id": "problem-2.c1",
+      "concept": "problem.issue-tree",
+      "front": "What is an issue tree and MECE?",
+      "back": "A tree splitting a question into branches that do not overlap and cover every case."
+    },
+    {
+      "id": "problem-2.c2",
+      "concept": "problem.hypothesis",
+      "front": "Hypothesis-driven approach?",
+      "back": "State a testable guess and the evidence that would confirm or reject it before collecting data."
+    },
+    {
+      "id": "problem-2.c3",
+      "concept": "problem.prioritising",
+      "front": "How to prioritise branches?",
+      "back": "Rank by likelihood and ease of checking; do likely and cheap tests first."
+    },
+    {
+      "id": "problem-2.c4",
+      "concept": "problem.divide-conquer",
+      "front": "Divide and conquer?",
+      "back": "Split the problem, test midpoints and shrink the search space quickly, as in debugging."
+    }
+  ],
+  "reflection": "Which current problem could you split into three MECE branches today, and which hypothesis would you test first?",
+  "revision": {
+    "keyPoints": [
+      "Use issue trees to break problems down.",
+      "Check branches are MECE.",
+      "Write testable hypotheses.",
+      "Test likely and cheap branches first; halve the search space."
+    ],
+    "redo": "Make a three-branch MECE tree for any problem and mark the first test."
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "id": "etiquette-4",
+  "skillId": "etiquette",
+  "n": 4,
+  "title": "Professional Ethics and Conduct",
+  "summary": "Practise confidentiality, honesty, owning mistakes, sensible social media conduct, respect, harassment awareness and managing up.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Protect confidential information in everyday situations.",
+    "Own mistakes quickly and honestly.",
+    "Recognise harassment and respond, and manage up respectfully."
+  ],
+  "concepts": [
+    {
+      "id": "etiquette.confidentiality",
+      "label": "Confidentiality"
+    },
+    {
+      "id": "etiquette.owning-mistakes",
+      "label": "Honesty and owning mistakes"
+    },
+    {
+      "id": "etiquette.social-media",
+      "label": "Social media conduct"
+    },
+    {
+      "id": "etiquette.respect-managing-up",
+      "label": "Respect, harassment awareness and managing up"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Ethics is etiquette with consequences",
+      "body": "Earlier lessons covered greetings, messages and meals. Ethics goes deeper: it decides whether clients, managers and colleagues can trust you with real responsibility. In IT services you will see client data, source code, salary details and plans that are not public. Trust is the main thing you sell besides your skills.\n\nFour habits carry most of the weight: keep confidences, tell the truth including about your own mistakes, behave carefully online, and treat people with respect while managing your relationship with your manager."
+    },
+    {
+      "heading": "Confidentiality in practice",
+      "body": "Confidential information includes client names and data, project details, unreleased products, internal pricing and colleagues' personal information. You will usually sign a non-disclosure agreement, but habit matters more than paperwork. Do not discuss client work in cabs, lifts, cafeterias or on public WhatsApp groups. Do not take screenshots of client systems for your personal portfolio. Do not copy production data to a personal laptop or pen drive. Lock your screen when you step away.\n\nWorked example: a friend asks which bank you are working for and what the migration involves. A safe reply is: \"I cannot discuss client details, but I can tell you I work in SAP finance support.\" You are helpful and still protect the client."
+    },
+    {
+      "heading": "Honesty and owning mistakes",
+      "body": "Everyone makes mistakes: a wrong transport request, a deleted table, a missed deadline. What matters is speed and honesty. Use a four-part script: **what happened, the impact, what you are doing about it, what you will do differently**. For example: \"I released the wrong transport to QA. Testing is paused for the finance team. I have asked Basis to reverse it and will finish within an hour. From now on I will check the transport list with a colleague before release.\"\n\nDo not hide, blame others or give vague excuses. Hidden mistakes grow. Reported early, most are small. Honesty also means not exaggerating skills on your CV or claiming credit for teammates' work."
+    },
+    {
+      "heading": "Social media, respect and managing up",
+      "body": "Treat every post as permanent and public. Do not share client or company information, complain about your employer, or post photos of colleagues without consent. Keep a separate professional profile and review privacy settings. Before posting, ask: would I be comfortable if my manager, a client and my parents saw this?\n\nRespect means no teasing about appearance, caste, region, religion, gender or accent. **Harassment** is unwelcome conduct, such as comments, touching, repeated messages, or jokes, that makes someone uncomfortable or unsafe. In India, workplaces have an Internal Committee for sexual harassment complaints; know how to reach it. If you witness it, you can support the person, document what you saw and report it.\n\n**Managing up** means helping your manager succeed: learn their priorities, send short regular updates, bring options with problems, and ask for feedback. Disagree privately and respectfully, with data."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Owning a mistake",
+      "body": "Karan overwrote a test configuration. He messaged his lead within ten minutes: \"I overwrote the QA config for the billing test. It affects tomorrow's demo. I have restored the backup and checked the values. I will take a backup before every change from now on.\"",
+      "takeaway": "Quick disclosure with impact and fix converts a mistake into evidence of reliability."
+    },
+    {
+      "title": "A risky post",
+      "body": "Pooja posts a photo of her desk showing a client dashboard on her monitor with the caption \"Another long day at Client X\". A colleague points out customer names are visible, and she deletes the post and informs her manager.",
+      "takeaway": "Even background details can leak client information, so check screens before posting."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "etiquette-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "etiquette.confidentiality",
+      "prompt": "Which action is the safest for client data?",
+      "options": [
+        "Using only approved systems and locking the screen when away",
+        "Copying production data to a personal pen drive for practice",
+        "Discussing the project loudly in a cab",
+        "Sharing screenshots in a friends' group"
+      ],
+      "answer": 0,
+      "why": "Approved systems and locked screens keep data inside the client's controls; the others create leaks."
+    },
+    {
+      "id": "etiquette-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "etiquette.owning-mistakes",
+      "prompt": "A good mistake report covers what happened, the impact, the fix and what you will do ____. (one word)",
+      "accept": [
+        "differently"
+      ],
+      "why": "Naming the change you will make is what turns an apology into prevention."
+    },
+    {
+      "id": "etiquette-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "etiquette.respect-managing-up",
+      "prompt": "Your manager asks for a deadline you believe is unrealistic. What is the best approach?",
+      "options": [
+        {
+          "text": "Agree and quietly miss it.",
+          "score": 0,
+          "feedback": "Silent failure surprises your manager and damages trust."
+        },
+        {
+          "text": "Refuse openly in the meeting.",
+          "score": 1,
+          "feedback": "A flat refusal without data feels confrontational."
+        },
+        {
+          "text": "Privately show your estimate, explain the risks and propose options or a revised date.",
+          "score": 3,
+          "feedback": "Bringing data and options helps the manager decide and protects the project."
+        },
+        {
+          "text": "Complain to colleagues.",
+          "score": 0,
+          "feedback": "Venting to colleagues spreads negativity without solving anything."
+        }
+      ],
+      "why": "Managing up means raising concerns early, privately and with options, so the manager can make a better decision."
+    },
+    {
+      "id": "etiquette-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "etiquette.owning-mistakes",
+      "prompt": "You accidentally emailed a client the wrong version of a test report that includes another client's name. Write the message you would send to your manager within the hour, using the four-part mistake script, and one step you would take to prevent a repeat.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "what",
+          "label": "States what happened plainly",
+          "weight": 25,
+          "descriptors": {
+            "0": "Vague or missing.",
+            "1": "Partly clear.",
+            "2": "Clear but blames others.",
+            "3": "Clear and factual with no blame."
+          }
+        },
+        {
+          "id": "impact",
+          "label": "Names the impact",
+          "weight": 25,
+          "descriptors": {
+            "0": "No impact.",
+            "1": "Vague impact.",
+            "2": "Impact named but incomplete.",
+            "3": "Specific impact on both clients."
+          }
+        },
+        {
+          "id": "action",
+          "label": "Describes immediate action",
+          "weight": 25,
+          "descriptors": {
+            "0": "No action.",
+            "1": "Vague plan.",
+            "2": "Action without timing.",
+            "3": "Specific action with timing."
+          }
+        },
+        {
+          "id": "prevention",
+          "label": "Gives a prevention step",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Generic promise.",
+            "2": "Reasonable step.",
+            "3": "Specific, checkable step."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "check",
+              "review",
+              "double-check",
+              "second person",
+              "checklist",
+              "verify"
+            ],
+            "min": 1,
+            "label": "Mentions a prevention check"
+          }
+        }
+      ],
+      "modelAnswer": "Hi Ms Rao, I need to report an error. At 11:20 I sent Client A the wrong version of the test report, which includes Client B's name on page 2. Impact: Client A may have seen another client's name. I have asked IT to recall the email and will call Client A within the hour to ask them to delete it. From now on I will have a colleague verify attachments before sending to external parties.",
+      "guidance": "Strong answers are factual, quick and specific, and they escalate promptly. Avoid blame, vagueness and minimising the issue. Exposure of another client's name is a confidentiality matter, so your manager must know right away."
+    }
+  ],
+  "task": {
+    "title": "Run a personal ethics audit",
+    "brief": "Review your digital habits for confidentiality and social media risk.",
+    "steps": [
+      "List three places where you keep or discuss project material, such as laptop, WhatsApp and cloud.",
+      "Mark any that could expose confidential data.",
+      "Check your public social media for anything you would not want a client to see.",
+      "Write one rule for each risk you found."
+    ],
+    "checklist": [
+      "I listed three places",
+      "I checked my social media",
+      "I wrote at least two rules",
+      "I applied one rule today"
+    ],
+    "evidencePrompt": "Write two rules you set yourself and why.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "etiquette-4.q1",
+      "type": "mcq",
+      "concept": "etiquette.confidentiality",
+      "prompt": "A friend asks details about your client project over lunch. You should:",
+      "options": [
+        "Share everything",
+        "Invent a story",
+        "Share only what is public and say you cannot discuss the rest",
+        "Show them screenshots"
+      ],
+      "answer": 2,
+      "why": "Sharing only public information respects the client while remaining friendly."
+    },
+    {
+      "id": "etiquette-4.q2",
+      "type": "mcq",
+      "concept": "etiquette.owning-mistakes",
+      "prompt": "You find you made an error that may cause a delay. Best action:",
+      "options": [
+        "Fix it quietly and say nothing",
+        "Tell your lead promptly with the impact and plan",
+        "Blame the tool",
+        "Wait until someone notices"
+      ],
+      "answer": 1,
+      "why": "Prompt, honest disclosure with a plan lets the team limit damage and builds trust."
+    },
+    {
+      "id": "etiquette-4.q3",
+      "type": "mcq",
+      "concept": "etiquette.social-media",
+      "prompt": "Before posting about work, ask yourself:",
+      "options": [
+        "Will it get likes",
+        "Would I be comfortable if my manager and a client saw it",
+        "Is it long enough",
+        "Are my friends online"
+      ],
+      "answer": 1,
+      "why": "The manager-and-client test catches posts that damage trust or leak information."
+    },
+    {
+      "id": "etiquette-4.q4",
+      "type": "fill",
+      "concept": "etiquette.respect-managing-up",
+      "prompt": "Raise disagreement with your manager privately and bring ____. (one word)",
+      "accept": [
+        "options",
+        "data",
+        "evidence"
+      ],
+      "why": "Options or data turn a complaint into a contribution."
+    }
+  ],
+  "bank": [
+    {
+      "id": "etiquette-4.b1",
+      "type": "mcq",
+      "concept": "etiquette.confidentiality",
+      "prompt": "You need to practise a query using real customer records. Best approach:",
+      "options": [
+        "Copy production data to your laptop",
+        "Ask for masked or sample test data",
+        "Photograph the screen",
+        "Email the data to yourself"
+      ],
+      "answer": 1,
+      "why": "Masked or sample data lets you practise without exposing real personal information."
+    },
+    {
+      "id": "etiquette-4.b2",
+      "type": "mcq",
+      "concept": "etiquette.respect-managing-up",
+      "prompt": "A colleague repeatedly sends you jokes about your accent after you asked them to stop. This is best described as:",
+      "options": [
+        "Harmless banter",
+        "Possible harassment to document and report",
+        "A compliment",
+        "Your own sensitivity"
+      ],
+      "answer": 1,
+      "why": "Unwelcome conduct that continues after a request to stop should be documented and reported."
+    },
+    {
+      "id": "etiquette-4.b3",
+      "type": "mcq",
+      "concept": "etiquette.social-media",
+      "prompt": "An employer-branded post with a client's logo went live without approval. The right step is to:",
+      "options": [
+        "Leave it",
+        "Delete it and inform your manager",
+        "Add more posts",
+        "Tag the client"
+      ],
+      "answer": 1,
+      "why": "Removing it and informing your manager limits harm and shows responsibility."
+    }
+  ],
+  "cards": [
+    {
+      "id": "etiquette-4.c1",
+      "concept": "etiquette.confidentiality",
+      "front": "Confidentiality habits?",
+      "back": "Do not discuss client work in public, use approved systems only, lock your screen and never copy data to personal devices."
+    },
+    {
+      "id": "etiquette-4.c2",
+      "concept": "etiquette.owning-mistakes",
+      "front": "Four-part mistake script?",
+      "back": "What happened, the impact, what you are doing about it, and what you will do differently."
+    },
+    {
+      "id": "etiquette-4.c3",
+      "concept": "etiquette.social-media",
+      "front": "Social media test?",
+      "back": "Would I be comfortable if my manager, a client and my parents saw this post?"
+    },
+    {
+      "id": "etiquette-4.c4",
+      "concept": "etiquette.respect-managing-up",
+      "front": "What is managing up?",
+      "back": "Helping your manager succeed: know their priorities, give short updates, bring options with problems, disagree privately with data."
+    }
+  ],
+  "reflection": "Think of a mistake you hid or delayed telling someone about. How would the four-part script have changed what happened?",
+  "revision": {
+    "keyPoints": [
+      "Protect client and colleague information in public, online and on devices.",
+      "Report mistakes early with the four-part script.",
+      "Treat every post as permanent and public.",
+      "Treat people with respect and know how to report harassment.",
+      "Manage up with updates, options and private disagreement."
+    ],
+    "redo": "Say the four parts of the mistake script aloud for an imagined error."
+  }
+}

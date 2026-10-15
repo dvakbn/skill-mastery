@@ -1,0 +1,357 @@
+{
+  "id": "grooming-1",
+  "skillId": "grooming",
+  "n": 1,
+  "title": "Grooming Foundations",
+  "summary": "Build a simple, inclusive daily routine covering hygiene, skin, hair, teeth and clean, well-fitting clothes.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain why grooming is about health, comfort and respect for others rather than looks.",
+    "Build a morning and night routine of under fifteen minutes using basic, affordable products.",
+    "Check clothes for cleanliness, fit and condition before leaving home."
+  ],
+  "concepts": [
+    {
+      "id": "grooming.why-grooming",
+      "label": "Why grooming matters"
+    },
+    {
+      "id": "grooming.hygiene-basics",
+      "label": "Hygiene, skin, hair and teeth"
+    },
+    {
+      "id": "grooming.clothes-basics",
+      "label": "Clean and well-fitting clothes"
+    },
+    {
+      "id": "grooming.daily-routine",
+      "label": "A simple daily routine"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Grooming is a signal, not a competition",
+      "body": "Grooming means the everyday care you give your body and clothes so that you feel comfortable and others find it easy to work with you. It is not about being fair, tall, fashionable or expensive. People decide very quickly, often in the first few seconds of an interview or client meeting, whether someone looks careful and reliable. Neat, clean presentation tells them \"this person pays attention to detail\", which is exactly what a recruiter wants from a future ABAP consultant who will handle client data and documentation.\n\nThis lesson is general wellbeing guidance and applies to every gender, body type and budget. It is not medical advice. If you have a persistent skin, scalp, dental or body-odour concern, see a doctor or dentist, because a professional can solve in a visit what months of home guessing cannot."
+    },
+    {
+      "heading": "Hygiene, skin, hair and teeth",
+      "body": "The foundation is small habits done every day.\n\n- **Body:** bathe daily, especially in hot, humid weather or after a long commute. Wash underarms, feet and skin folds, dry fully, and use a deodorant or antiperspirant if you wish. Clean, dry feet and fresh socks matter more than any perfume.\n- **Skin:** a gentle face wash, a light moisturiser and, in daytime, sunscreen is enough for most people. More steps are optional, not required. Do not squeeze spots; it makes marks worse.\n- **Hair:** wash as often as your scalp needs, which could be daily or every two or three days. Keep hair combed and away from your face. Trim or shape beard, moustache and eyebrows so the line looks deliberate. Neat, short, long, covered or tied are all fine when clean.\n- **Teeth and breath:** brush twice a day for two minutes, clean between teeth with floss or a dental pick, and clean your tongue. Drink water through the day. Keep a small pack of mints or a spare brush for after lunch.\n- **Hands and nails:** trimmed, clean nails are noticed in handshakes and when you type on a shared laptop.\n\nA common mistake is hiding poor hygiene under strong perfume. Cleanliness comes first; fragrance, if used at all, should be light."
+    },
+    {
+      "heading": "Clean, well-fitting clothes",
+      "body": "Clothes work on three tests: **clean, fits, in good repair**. Clean means no sweat smell, stains or dust. Fits means shoulders sit at the shoulder line, sleeves end near the wrist, trousers neither drag nor pinch, and you can sit and raise your arms comfortably. In repair means no missing buttons, open seams, loose threads or fading collars. An inexpensive shirt that fits and is ironed looks better than a costly one that hangs loose.\n\nBuilding the habit is easier with a rule: **check before you leave**. Stand in front of a mirror and scan top to bottom: hair, face, collar, buttons, hands, trousers, shoes. Thirty seconds is enough. Also decide your clothes the night before, so a morning rush never ends in a creased or damp outfit. Wash inner wear and socks after every use, and air or wash outer wear before it smells."
+    },
+    {
+      "heading": "A routine you can actually keep",
+      "body": "A routine that needs an hour will be dropped in the first busy week. Build a short one and attach it to things you already do.\n\n**Morning (about 10 minutes):** brush teeth, bathe or wash face, moisturiser and sunscreen, deodorant, comb hair, dress from the clothes laid out last night, mirror check.\n\n**Night (about 5 minutes):** brush and floss, wash face, put tomorrow's clothes out, charge the phone away from the bed.\n\n**Weekly (about 30 minutes):** wash clothes, iron what you will wear, trim nails, clean shoes, condition hair if needed.\n\nA student on a hostel budget could cover all of this with a toothbrush and paste, soap, face wash, a small moisturiser with sunscreen, deodorant, a comb, nail clipper and two sets of well-fitting clothes in rotation. The aim is not more products but consistency."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Rohan before a placement drive",
+      "body": "Rohan's shirt was clean but untucked and creased, nails uncut, and he skipped breakfast and brushing in a rush. He felt sluggish all morning. The next time he used a five-minute night routine: clothes ironed and laid out, nails trimmed on Sunday, bag packed. In the morning he had time for a proper brush, a mirror check and a mint before entering.",
+      "takeaway": "Preparing the night before turns grooming from a rush into a habit."
+    },
+    {
+      "title": "A routine on a tight budget",
+      "body": "Meera, a hostel student, spends under about three hundred rupees a month on basics. Her kit: toothpaste and brush, soap, a face wash, a combined moisturiser and sunscreen, deodorant, a comb and a nail clipper. She rotates two fitted trousers and four shirts, washes weekly, and checks buttons while ironing.",
+      "takeaway": "Good grooming rests on a few reliable basics, not on expensive products."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "grooming-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "grooming.why-grooming",
+      "prompt": "What is the best way to think about grooming for work?",
+      "options": [
+        "As everyday care that shows attention to detail and respect for others",
+        "As a way to look fashionable and expensive",
+        "As a competition about appearance",
+        "As something only needed for interviews"
+      ],
+      "answer": 0,
+      "why": "Grooming is care and comfort that signals reliability to colleagues and clients. Fashion, competition and interview-only effort all miss that it is a daily, inclusive habit."
+    },
+    {
+      "id": "grooming-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "grooming.hygiene-basics",
+      "prompt": "How many times a day should you brush your teeth, as a basic routine? (number or word)",
+      "accept": [
+        "2",
+        "two",
+        "twice",
+        "two times",
+        "2 times"
+      ],
+      "why": "Brushing twice a day for about two minutes, with cleaning between teeth, is the standard basic routine."
+    },
+    {
+      "id": "grooming-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "grooming.clothes-basics",
+      "prompt": "It is 8:15 am and your interview is at 10. Your shirt is clean but creased, a button is loose and your shoes are dusty. What do you do?",
+      "options": [
+        {
+          "text": "Spray more perfume and leave on time.",
+          "score": 0,
+          "feedback": "Perfume does not fix creases, a loose button or dusty shoes."
+        },
+        {
+          "text": "Iron the shirt quickly, sew the button or swap shirts, wipe the shoes, then do a mirror check.",
+          "score": 3,
+          "feedback": "You use the \"clean, fits, repair\" test and still have time to leave calmly."
+        },
+        {
+          "text": "Wear the creased shirt and hope nobody notices.",
+          "score": 1,
+          "feedback": "Small flaws are noticed and suggest low attention to detail."
+        },
+        {
+          "text": "Skip the interview.",
+          "score": 0,
+          "feedback": "These issues are fixable in ten minutes and not a reason to miss it."
+        }
+      ],
+      "why": "Clothes are judged on being clean, fitting and in repair, and quick repairs are better than excuses."
+    },
+    {
+      "id": "grooming-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "grooming.daily-routine",
+      "prompt": "Write your own morning and night grooming routine for a college or work day, using only items you already own or could buy cheaply. List the steps in order, give an approximate time for each part, and say one thing you will prepare the night before.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "steps",
+          "label": "Covers essential areas",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing most areas.",
+            "1": "Covers one or two areas.",
+            "2": "Covers hygiene, teeth and clothes.",
+            "3": "Covers hygiene, skin, hair, teeth and clothes clearly in order."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "teeth",
+              "brush",
+              "bath",
+              "wash",
+              "clothes",
+              "hair",
+              "face"
+            ],
+            "min": 3,
+            "label": "Mentions at least three grooming areas"
+          }
+        },
+        {
+          "id": "time",
+          "label": "Realistic timing",
+          "weight": 25,
+          "descriptors": {
+            "0": "No timing.",
+            "1": "Unrealistic timing.",
+            "2": "Timing given for one part.",
+            "3": "Morning and night each have realistic times under fifteen minutes."
+          }
+        },
+        {
+          "id": "prep",
+          "label": "Night-before preparation",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Mentioned vaguely.",
+            "2": "One clear item.",
+            "3": "One clear item that removes a morning problem."
+          }
+        },
+        {
+          "id": "fit",
+          "label": "Fits budget and life",
+          "weight": 20,
+          "descriptors": {
+            "0": "Needs costly items.",
+            "1": "Partly affordable.",
+            "2": "Mostly affordable.",
+            "3": "Clearly affordable and sustainable."
+          }
+        }
+      ],
+      "modelAnswer": "Morning (10 minutes): brush two minutes, wash face and apply moisturiser with sunscreen, deodorant, comb hair, dress and mirror check. Night (5 minutes): brush and floss, wash face, iron and lay out tomorrow's shirt and trousers. Weekly: trim nails and wash clothes on Sunday. I use items I already own: soap, a comb and one moisturiser.",
+      "guidance": "A strong answer is short, ordered and realistic. Common mistakes are listing a ten-step skin routine nobody will keep or forgetting teeth and clothes. Check you named a night-before action and kept each part to a few minutes. Score yourself honestly against the model."
+    }
+  ],
+  "task": {
+    "title": "Run a one-week grooming routine",
+    "brief": "Try your morning and night routine for seven days and note what you skip.",
+    "steps": [
+      "Write a morning and night checklist of five items each.",
+      "Lay out tomorrow's clothes every night for a week.",
+      "Do a thirty-second mirror check before leaving.",
+      "On day seven, note which step you skipped most and shrink it."
+    ],
+    "checklist": [
+      "I wrote both checklists",
+      "I laid out clothes on at least five nights",
+      "I did the mirror check daily",
+      "I changed one step that I skipped"
+    ],
+    "evidencePrompt": "List your two checklists and say which step you skipped most.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "grooming-1.q1",
+      "type": "mcq",
+      "concept": "grooming.why-grooming",
+      "prompt": "Why does grooming matter in a professional setting?",
+      "options": [
+        "It proves you are wealthy",
+        "It replaces skills",
+        "It signals care and reliability to others",
+        "Only seniors need it"
+      ],
+      "answer": 2,
+      "why": "People read neatness as attention to detail, though it never replaces skills."
+    },
+    {
+      "id": "grooming-1.q2",
+      "type": "mcq",
+      "concept": "grooming.hygiene-basics",
+      "prompt": "Which choice covers a poor-hygiene problem best?",
+      "options": [
+        "Strong perfume",
+        "Daily washing, fresh clothes and clean teeth",
+        "Wearing dark colours",
+        "Avoiding people"
+      ],
+      "answer": 1,
+      "why": "Perfume only masks; cleanliness fixes the cause."
+    },
+    {
+      "id": "grooming-1.q3",
+      "type": "mcq",
+      "concept": "grooming.clothes-basics",
+      "prompt": "Which is NOT one of the three clothing tests?",
+      "options": [
+        "Clean",
+        "Brand name",
+        "Fits",
+        "In good repair"
+      ],
+      "answer": 1,
+      "why": "Brand does not matter; clean, fit and repair do."
+    },
+    {
+      "id": "grooming-1.q4",
+      "type": "mcq",
+      "concept": "grooming.daily-routine",
+      "prompt": "What makes a routine sustainable?",
+      "options": [
+        "Many products",
+        "Short steps tied to existing habits",
+        "An hour every morning",
+        "Doing it only on weekends"
+      ],
+      "answer": 1,
+      "why": "A short routine attached to existing habits survives busy weeks."
+    }
+  ],
+  "bank": [
+    {
+      "id": "grooming-1.b1",
+      "type": "mcq",
+      "concept": "grooming.hygiene-basics",
+      "prompt": "A friend has a persistent scalp problem despite regular washing. What is the sensible next step?",
+      "options": [
+        "Try more shampoos",
+        "See a doctor or dermatologist",
+        "Ignore it",
+        "Use heavy perfume"
+      ],
+      "answer": 1,
+      "why": "Persistent issues need professional advice rather than guesswork."
+    },
+    {
+      "id": "grooming-1.b2",
+      "type": "fill",
+      "concept": "grooming.clothes-basics",
+      "prompt": "A shirt that is clean, ironed and fits well looks better than an expensive one that is ____. (one word: the opposite of fitting)",
+      "accept": [
+        "loose",
+        "baggy",
+        "ill-fitting",
+        "oversized",
+        "tight"
+      ],
+      "why": "Fit matters more than price, so a loose or ill-fitting costly shirt looks worse."
+    },
+    {
+      "id": "grooming-1.b3",
+      "type": "mcq",
+      "concept": "grooming.daily-routine",
+      "prompt": "You have only five minutes before a lecture. Which is the best use?",
+      "options": [
+        "Teeth, deodorant, comb, mirror check",
+        "A full skincare routine",
+        "Choose an outfit",
+        "Skip everything"
+      ],
+      "answer": 0,
+      "why": "Priorities are teeth, body freshness and a quick tidy check; elaborate steps can wait."
+    }
+  ],
+  "cards": [
+    {
+      "id": "grooming-1.c1",
+      "concept": "grooming.why-grooming",
+      "front": "Why groom for work?",
+      "back": "It shows care and attention to detail, makes you comfortable, and respects the people near you. It is not a beauty contest."
+    },
+    {
+      "id": "grooming-1.c2",
+      "concept": "grooming.hygiene-basics",
+      "front": "What is the basic hygiene set?",
+      "back": "Daily wash, deodorant, face wash with moisturiser and sunscreen, tidy hair, brushing twice a day, clean nails."
+    },
+    {
+      "id": "grooming-1.c3",
+      "concept": "grooming.clothes-basics",
+      "front": "What are the three clothes tests?",
+      "back": "Clean, fits, in good repair. Check buttons, seams, collar and shoes before leaving."
+    },
+    {
+      "id": "grooming-1.c4",
+      "concept": "grooming.daily-routine",
+      "front": "What does a keepable routine look like?",
+      "back": "About ten minutes in the morning, five at night, thirty weekly, with clothes laid out the night before."
+    }
+  ],
+  "reflection": "Which one small grooming habit, if done daily, would make you feel most ready when you walk into a room?",
+  "revision": {
+    "keyPoints": [
+      "Grooming is care and comfort, not fashion or wealth.",
+      "Clean body, teeth, hair and nails come before products.",
+      "Clothes should be clean, fitting and in repair.",
+      "A ten-minute routine with night-before preparation is sustainable."
+    ],
+    "redo": "Lay out tomorrow's outfit tonight and run the thirty-second mirror check in the morning."
+  }
+}

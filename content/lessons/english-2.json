@@ -1,0 +1,307 @@
+{
+  "id": "english-2",
+  "skillId": "english",
+  "n": 2,
+  "title": "Tenses in Real Use",
+  "summary": "Choose the right tense by meaning: present perfect versus past simple, plans, reported speech and time expressions.",
+  "difficulty": 2,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Choose between present perfect and past simple by asking whether the time is finished or connected to now.",
+    "Use present continuous and 'going to' correctly for arrangements and plans.",
+    "Report what someone said using the correct backshift and time words."
+  ],
+  "concepts": [
+    { "id": "english.perfect-vs-past", "label": "Present perfect vs past simple" },
+    { "id": "english.plans", "label": "Present continuous for plans" },
+    { "id": "english.reported-speech", "label": "Reporting what people said" },
+    { "id": "english.time-expressions", "label": "Time expressions that signal the tense" }
+  ],
+  "explanation": [
+    {
+      "heading": "Choose the tense by meaning, not by memorised rule",
+      "body": "In the last lesson you built the sentence backbone. Now we choose the verb form that sits inside it. Most tense mistakes come from memorising rules instead of asking one question: **what is the relationship between this action and now?**\n\nIf the action belongs to a finished time, use the **past simple**: *I joined the project in March.* If the action is connected to the present, because the result is still visible, the period is still open, or the experience counts today, use the **present perfect**: *I have joined three client calls this week.*"
+    },
+    {
+      "heading": "Present perfect versus past simple",
+      "body": "Use the **present perfect (have/has + past participle)** for three situations:\n\n- A result that matters now: *The build has failed.* (So we cannot deploy.)\n- An experience with no finished time named: *I have worked with Oracle databases.*\n- An unfinished period: *this week*, *this month*, *so far*, *since Monday*.\n\nUse the **past simple** the moment you name a finished time: *yesterday*, *last week*, *in 2024*, *two days ago*. You cannot say *I have submitted the form yesterday*. Say *I submitted the form yesterday* or *I have submitted the form.*\n\nWorked example: a manager asks, 'Is the report ready?' You answer, 'Yes, I have finished it' because the result matters now. If she asks, 'When did you finish it?' you answer, 'I finished it at 4 pm', because now the time is finished and named."
+    },
+    {
+      "heading": "Plans and arrangements",
+      "body": "Indian English often uses the simple present for plans, as in *I go to Pune tomorrow*. Standard usage prefers the **present continuous** for fixed arrangements: *I am going to Pune tomorrow; my ticket is booked.* Use **going to** for intentions and predictions based on evidence: *I am going to learn ABAP this year. Look at those clouds, it is going to rain.* Use **will** for decisions made at the moment of speaking and for promises: *I'll send the file now.*\n\nA quick test: has the plan already been arranged with other people or tickets? Use the present continuous. Is it an intention in your head? Use going to. Are you deciding right now? Use will."
+    },
+    {
+      "heading": "Reporting what people said",
+      "body": "When you report speech, the tense usually moves one step back and the time words change. *'I will send the file tomorrow'* becomes *She said she would send the file the next day.* *'I am working on it'* becomes *He said he was working on it.* *'I have finished'* becomes *She said she had finished.*\n\nNotice that *said* is not followed by *to* unless you name the listener: *She told me she would send it*, but *She said she would send it.* Questions lose their question order: *'Where is the file?'* becomes *He asked where the file was*, not *where was the file*.\n\nIf the statement is still true or very recent, you may keep the original tense: *She said the meeting is at 3.* Practise by retelling one real conversation each evening in two sentences."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Stand-up update, wrong and right",
+      "body": "Wrong: 'Yesterday I have fixed the login bug and today I am testing it. I am working here since January.'\n\nRight: 'Yesterday I fixed the login bug and today I am testing it. I have been working here since January.'",
+      "takeaway": "'Yesterday' names a finished time, so past simple. 'Since January' starts in the past and continues now, so present perfect (continuous)."
+    },
+    {
+      "title": "Turning a client call into a report",
+      "body": "The client said: 'We need the modules by Friday. We are testing the first batch now. Did you send the document?'\n\nYour note: 'The client said they needed the modules by Friday. They said they were testing the first batch. They asked whether we had sent the document.'",
+      "takeaway": "Each verb moves one step back, 'now' would become 'then' in a later report, and the question uses statement order after 'whether'."
+    },
+    {
+      "title": "Three ways to talk about next week",
+      "body": "'I am meeting the HR team on Monday.' (fixed arrangement)\n'I am going to prepare for the SAP interview.' (intention)\n'Let me check the calendar. I will confirm by evening.' (decision now)",
+      "takeaway": "The same future time needs different forms depending on how settled the plan is."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "english-2.e1",
+      "type": "fill",
+      "level": 1,
+      "concept": "english.perfect-vs-past",
+      "prompt": "Write the correct form of the verb 'submit' to complete: 'I ____ the assignment last Friday.' (one word)",
+      "accept": ["submitted"],
+      "hint": "'Last Friday' is a finished time.",
+      "why": "A named finished time (last Friday) needs the past simple, so 'submitted'. 'Have submitted' would be wrong with 'last Friday'."
+    },
+    {
+      "id": "english-2.e2",
+      "type": "mcq",
+      "level": 1,
+      "concept": "english.time-expressions",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I live in Faridabad since 2022.",
+        "I am living in Faridabad since 2022.",
+        "I have lived in Faridabad since 2022.",
+        "I lived in Faridabad since 2022."
+      ],
+      "answer": 2,
+      "hint": "'Since' starts a period that continues to now.",
+      "why": "'Since 2022' needs the present perfect (have lived). Present simple, present continuous and past simple do not connect a past start to the present, so the other options are incorrect."
+    },
+    {
+      "id": "english-2.e3",
+      "type": "fill",
+      "level": 2,
+      "concept": "english.reported-speech",
+      "prompt": "Report this speech by completing the sentence. The manager said, 'I am reviewing your code.' Write: 'The manager said that she ____ my code.' (use two or three words)",
+      "accept": ["was reviewing", "was reviewing your", "was reviewing the"],
+      "hint": "Move the present continuous one step back.",
+      "why": "Present continuous 'am reviewing' moves back to past continuous 'was reviewing' in reported speech."
+    },
+    {
+      "id": "english-2.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "english.perfect-vs-past",
+      "prompt": "Write a short progress update (four to six sentences) to your mentor about an assignment or project. Use at least one present perfect sentence about progress so far, one past simple sentence with a finished time, and one sentence about a plan for next week using the present continuous or going to.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "perfect",
+          "label": "Present perfect used for result or progress so far",
+          "weight": 30,
+          "descriptors": {
+            "0": "No present perfect sentence, or it is formed wrongly.",
+            "1": "Present perfect attempted but combined with a finished time word.",
+            "2": "Correct present perfect with a small slip.",
+            "3": "Correct present perfect clearly tied to the present result or an open period."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\b(have|has|haven't|hasn't)\\s+(\\w+ly\\s+)?\\w+(ed|en|ne|t)\\b",
+            "flags": "i",
+            "label": "Contains a have/has + participle pattern"
+          }
+        },
+        {
+          "id": "past",
+          "label": "Past simple with a finished time",
+          "weight": 25,
+          "descriptors": {
+            "0": "No finished-time sentence.",
+            "1": "Finished time mentioned but the verb is perfect or wrongly formed.",
+            "2": "Correct past simple with a small slip elsewhere.",
+            "3": "A clear finished time (yesterday, on Monday, last week) with a correct past simple verb."
+          }
+        },
+        {
+          "id": "plan",
+          "label": "Plan expressed with present continuous or going to",
+          "weight": 25,
+          "descriptors": {
+            "0": "No future plan, or the plan uses simple present.",
+            "1": "Plan present but form is incorrect.",
+            "2": "Correct form but the plan is vague.",
+            "3": "Correct form and a specific plan with a day or action."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": ["going to", "am meeting", "am starting", "am submitting", "am presenting", "am testing", "am working", "am sending", "am finishing"],
+            "min": 1,
+            "label": "Uses going to or a present continuous plan"
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear and professional tone",
+          "weight": 20,
+          "descriptors": {
+            "0": "Hard to follow.",
+            "1": "Understandable but disorganised.",
+            "2": "Clear with a few awkward phrases.",
+            "3": "Clear, ordered from past to present to future, and polite."
+          }
+        }
+      ],
+      "modelAnswer": "Hi Rahul sir, here is my progress update. I have completed the database design and I have written most of the queries so far. On Monday I presented the first version to my team, and they suggested two changes. Next week I am testing the changes on sample data, and I am going to prepare a short demo for Friday. Please let me know if you want any other detail.",
+      "guidance": "Strong answers move from past to present to future. Check each sentence: if you named a finished time, the verb must be past simple; if you talk about progress so far or a result, use present perfect. A common mistake is writing 'I have presented on Monday'. Another is using simple present for plans ('I test it next week'). Score yourself honestly against the model."
+    }
+  ],
+  "task": {
+    "title": "Retell a real conversation in two tenses",
+    "brief": "Practise reporting and tense choice using a real conversation from today.",
+    "steps": [
+      "Recall a real conversation from today with a friend, teacher or colleague and note three things they said.",
+      "Write each as direct speech, then rewrite it as reported speech with the correct backshift.",
+      "Write three sentences about your own day: one present perfect, one past simple with a finished time, and one plan using the present continuous.",
+      "Read everything aloud once and fix any tense that sounds wrong."
+    ],
+    "checklist": [
+      "I wrote three direct and three reported sentences",
+      "I moved each reported verb one step back",
+      "I used a finished time only with past simple",
+      "I read the text aloud"
+    ],
+    "evidencePrompt": "Write one reported sentence and one present perfect sentence from your practice.",
+    "evidenceWords": 15,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "english-2.q1",
+      "type": "mcq",
+      "concept": "english.perfect-vs-past",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I have seen the client yesterday.",
+        "I saw the client yesterday.",
+        "I have saw the client yesterday.",
+        "I am seeing the client yesterday."
+      ],
+      "answer": 1,
+      "why": "'Yesterday' is a finished time, so the past simple 'saw' is correct. Present perfect cannot be used with a finished time word, and 'have saw' uses the wrong participle."
+    },
+    {
+      "id": "english-2.q2",
+      "type": "mcq",
+      "concept": "english.plans",
+      "prompt": "You have already booked a train ticket to Jaipur for Saturday. Which sentence is best?",
+      "options": [
+        "I go to Jaipur on Saturday.",
+        "I will going to Jaipur on Saturday.",
+        "I went to Jaipur on Saturday.",
+        "I am going to Jaipur on Saturday."
+      ],
+      "answer": 3,
+      "why": "A fixed arrangement uses the present continuous. Simple present is a timetable form, 'will going' is ungrammatical, and the past simple points to the wrong time."
+    },
+    {
+      "id": "english-2.q3",
+      "type": "fill",
+      "concept": "english.reported-speech",
+      "prompt": "Complete the reported sentence: 'I will send the file.' becomes 'She said she ____ send the file.' (one word)",
+      "accept": ["would"],
+      "why": "In reported speech 'will' moves back to 'would'."
+    },
+    {
+      "id": "english-2.q4",
+      "type": "mcq",
+      "concept": "english.time-expressions",
+      "prompt": "Which time expression normally goes with the present perfect?",
+      "options": [
+        "so far this month",
+        "two days ago",
+        "in 2023",
+        "last night"
+      ],
+      "answer": 0,
+      "why": "'So far this month' describes an unfinished period. 'Two days ago', 'in 2023' and 'last night' name finished times, which need the past simple."
+    }
+  ],
+  "bank": [
+    {
+      "id": "english-2.b1",
+      "type": "fill",
+      "concept": "english.perfect-vs-past",
+      "prompt": "Complete with the correct form of 'work': 'I ____ at an IT firm for two years now.' Write the verb phrase (two words).",
+      "accept": ["have worked", "have been working"],
+      "why": "'For two years now' describes a period continuing to the present, so present perfect or present perfect continuous."
+    },
+    {
+      "id": "english-2.b2",
+      "type": "mcq",
+      "concept": "english.reported-speech",
+      "prompt": "A recruiter said, 'Where do you live?' Which report is correct?",
+      "options": [
+        "She asked where did I live.",
+        "She asked me where I lived.",
+        "She asked me where do I live.",
+        "She told me where I lived."
+      ],
+      "answer": 1,
+      "why": "Reported questions use statement order and backshift: where I lived. 'Told' reports a statement, not a question."
+    },
+    {
+      "id": "english-2.b3",
+      "type": "mcq",
+      "concept": "english.plans",
+      "prompt": "Your friend asks about your weekend. You have not decided anything but suddenly feel like seeing a film. Which reply fits?",
+      "options": [
+        "I am going to see a film, I think maybe.",
+        "I will go and see a film, I think.",
+        "I see a film on Sunday.",
+        "I am seeing a film as I decided yesterday."
+      ],
+      "answer": 1,
+      "why": "A spontaneous decision made while speaking takes 'will'. Present continuous would suggest a booked plan, and simple present suggests a timetable."
+    }
+  ],
+  "cards": [
+    {
+      "id": "english-2.c1",
+      "concept": "english.perfect-vs-past",
+      "front": "How do you choose between present perfect and past simple?",
+      "back": "Finished, named time: past simple. Result now, experience, or unfinished period: present perfect."
+    },
+    {
+      "id": "english-2.c2",
+      "concept": "english.time-expressions",
+      "front": "Which time words signal present perfect and which signal past simple?",
+      "back": "Present perfect: since, for (continuing), so far, this week, ever. Past simple: yesterday, last week, ago, in 2024."
+    },
+    {
+      "id": "english-2.c3",
+      "concept": "english.plans",
+      "front": "Present continuous, going to or will for the future?",
+      "back": "Present continuous for fixed arrangements, going to for intentions or evidence, will for instant decisions and promises."
+    },
+    {
+      "id": "english-2.c4",
+      "concept": "english.reported-speech",
+      "front": "What happens to verbs and questions in reported speech?",
+      "back": "Verbs usually shift one step back (will becomes would). Questions use statement order: he asked where the file was."
+    }
+  ],
+  "reflection": "Which tense do you reach for automatically when you are nervous, and what is one sentence you can prepare today to practise the better choice?",
+  "revision": {
+    "keyPoints": [
+      "Ask how the action relates to now.",
+      "Finished named time takes past simple.",
+      "Since, for, so far and this week take present perfect.",
+      "Present continuous for fixed arrangements.",
+      "Reported speech moves verbs back and uses statement order."
+    ],
+    "redo": "Say two sentences about today aloud: one present perfect about progress, one past simple with a named time. Then report one thing someone said to you."
+  }
+}

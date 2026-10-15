@@ -1,0 +1,325 @@
+{
+  "id": "adapt-1",
+  "skillId": "adapt",
+  "n": 1,
+  "title": "Mindset for Change",
+  "summary": "Use a growth mindset, understand the change curve and build tolerance for uncertainty.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Tell a fixed mindset thought from a growth mindset thought and rewrite it.",
+    "Place your reaction to a change on the change curve.",
+    "Practise one habit for tolerating uncertainty."
+  ],
+  "concepts": [
+    {
+      "id": "adapt.growth-mindset",
+      "label": "Growth mindset"
+    },
+    {
+      "id": "adapt.change-curve",
+      "label": "The change curve"
+    },
+    {
+      "id": "adapt.uncertainty",
+      "label": "Tolerating uncertainty"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why adaptability matters",
+      "body": "Technology, jobs and teams change faster than any course can keep up with. A tool you learn this year may be replaced in three. In SAP work, for example, ABAP itself keeps evolving with newer syntax and cloud-based development models. People who succeed over the long run are rarely those who know the most today; they are those who adapt quickest. Adaptability is a skill, and it begins with how you think about change."
+    },
+    {
+      "heading": "Growth mindset",
+      "body": "A **fixed mindset** treats ability as a fixed trait: \"I am not a maths person\", \"I cannot speak in public\". Failure then feels like a verdict. A **growth mindset** treats ability as something built through effort, strategies and feedback: \"I have not learned this yet\". Research on learning supports the idea that skills improve with practice, though talent and circumstances differ. The word **yet** is a powerful tool. Compare \"I failed the aptitude test, so I am bad at logic\" with \"I scored low on this test; I will study the question types and retry\". The second leads to action. Practise by catching fixed thoughts, adding \"yet\", and writing one next step. Growth mindset does not mean unlimited effort in any direction; it means treating setbacks as information."
+    },
+    {
+      "heading": "The change curve",
+      "body": "Most people go through predictable emotions when change arrives, whether a new manager, new software or a new city. The **change curve** has stages: **shock or denial** (\"this will not really happen\"), **resistance or frustration** (\"why are they doing this?\"), **dip or confusion**, then **acceptance and experiment**, and finally **commitment**. Performance usually falls before it rises. Knowing the curve helps you in two ways. You can name where you are, which reduces panic, and you can shorten the dip by doing small experiments rather than waiting. Different people move at different speeds and nobody needs to feel guilty about stage two."
+    },
+    {
+      "heading": "Tolerating uncertainty",
+      "body": "Change brings not knowing: Will I get the job? Will this tool last? Many people try to remove uncertainty by over-planning or avoiding action. A better skill is **tolerance of uncertainty**: acting sensibly without full information. Practices include separating what you know, what you can find out and what nobody can know; making reversible decisions quickly; setting a review date instead of seeking certainty now; and doing small experiments. Calm the body first, since anxious bodies read uncertainty as danger. Over time you learn that you can cope without all the answers."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Adding the word yet",
+      "body": "Pooja thinks \"I cannot understand pointers.\" She rewrites: \"I do not understand pointers yet. I will draw memory diagrams for three examples and ask for one explanation.\" Within a week she explains pointers to a friend.",
+      "takeaway": "Yet plus a next step turns a verdict into a plan."
+    },
+    {
+      "title": "Naming the stage",
+      "body": "After a project switch to a new tool, Rahul feels irritated and slow. He recognises the dip on the change curve, writes \"week two: expected\" and schedules two small practice tasks. His frustration eases.",
+      "takeaway": "Naming your stage shortens the dip."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "adapt-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "adapt.growth-mindset",
+      "prompt": "Which thought reflects a growth mindset?",
+      "options": [
+        "I do not get joins yet; I will practise three examples.",
+        "I am just bad at SQL.",
+        "Some people are born good at it.",
+        "I should avoid difficult topics."
+      ],
+      "answer": 0,
+      "why": "It uses yet and a concrete next step."
+    },
+    {
+      "id": "adapt-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "adapt.change-curve",
+      "prompt": "On the change curve, performance usually ____ before it rises. (one word)",
+      "accept": [
+        "dips",
+        "falls",
+        "drops",
+        "declines"
+      ],
+      "why": "A dip is normal early in a change."
+    },
+    {
+      "id": "adapt-1.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "adapt.growth-mindset",
+      "prompt": "Write three fixed-mindset thoughts you have had about yourself. Rewrite each as a growth-mindset thought using \"yet\" and one concrete next step.",
+      "minWords": 56,
+      "rubric": [
+        {
+          "id": "rewrites",
+          "label": "Three rewrites",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One.",
+            "2": "Two.",
+            "3": "Three."
+          }
+        },
+        {
+          "id": "yet",
+          "label": "Uses \"yet\" or learning language",
+          "weight": 30,
+          "descriptors": {
+            "0": "Never.",
+            "1": "Once.",
+            "2": "Twice.",
+            "3": "In all three."
+          }
+        },
+        {
+          "id": "steps",
+          "label": "Concrete next steps",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Some concrete.",
+            "3": "All concrete and doable."
+          }
+        }
+      ],
+      "modelAnswer": "1) \"I am bad at speaking.\" becomes \"I am not comfortable speaking yet; I will present for two minutes to a friend twice this week.\" 2) \"I cannot learn ABAP quickly.\" becomes \"I do not know internal tables yet; I will do five practice programs.\" 3) \"I always fail interviews.\" becomes \"I have not mastered interviews yet; I will do two mock interviews and review the feedback.\"",
+      "guidance": "Strong answers include real thoughts, add yet and attach a next step you can start in the coming week."
+    },
+    {
+      "id": "adapt-1.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "adapt.uncertainty",
+      "prompt": "You are waiting for results that affect your future and cannot know the outcome for two weeks. What helps?",
+      "options": [
+        {
+          "text": "Check the website every hour.",
+          "score": 0,
+          "feedback": "Repeated checking raises anxiety."
+        },
+        {
+          "text": "Plan for both outcomes, set a date to review and continue daily routines.",
+          "score": 3,
+          "feedback": "This accepts uncertainty and keeps you moving."
+        },
+        {
+          "text": "Imagine only the worst result.",
+          "score": 0,
+          "feedback": "This adds distress without information."
+        },
+        {
+          "text": "Pretend it does not matter.",
+          "score": 1,
+          "feedback": "Denial does not prepare you."
+        }
+      ],
+      "why": "Act sensibly without needing certainty."
+    }
+  ],
+  "task": {
+    "title": "Change journal",
+    "brief": "Write a short entry about a change you are facing or have faced.",
+    "steps": [
+      "Describe the change in two sentences.",
+      "Place yourself on the change curve and say why.",
+      "Rewrite one fixed-mindset thought as a growth thought.",
+      "Choose one small experiment for this week."
+    ],
+    "checklist": [
+      "I described the change",
+      "I named my stage",
+      "I rewrote a fixed thought",
+      "I chose an experiment"
+    ],
+    "evidencePrompt": "Write your stage, the rewritten thought and your experiment.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "adapt-1.q1",
+      "type": "mcq",
+      "concept": "adapt.growth-mindset",
+      "prompt": "The word \"yet\" helps because it:",
+      "options": [
+        "Hides failure",
+        "Ends effort",
+        "Frames a skill as still developing",
+        "Blames others"
+      ],
+      "answer": 2,
+      "why": "Yet signals that skills can grow."
+    },
+    {
+      "id": "adapt-1.q2",
+      "type": "mcq",
+      "concept": "adapt.change-curve",
+      "prompt": "On the change curve, the dip is:",
+      "options": [
+        "A sign of failure",
+        "A normal stage",
+        "Permanent",
+        "Avoidable always"
+      ],
+      "answer": 1,
+      "why": "Most people experience a dip."
+    },
+    {
+      "id": "adapt-1.q3",
+      "type": "mcq",
+      "concept": "adapt.uncertainty",
+      "prompt": "Tolerating uncertainty means:",
+      "options": [
+        "Needing all the answers",
+        "Acting sensibly without full information",
+        "Avoiding decisions",
+        "Ignoring risk"
+      ],
+      "answer": 1,
+      "why": "You can act reasonably without certainty."
+    },
+    {
+      "id": "adapt-1.q4",
+      "type": "fill",
+      "concept": "adapt.growth-mindset",
+      "prompt": "A fixed mindset treats ability as a ____ trait. (one word)",
+      "accept": [
+        "fixed",
+        "permanent",
+        "unchangeable"
+      ],
+      "why": "Fixed means you see ability as unchangeable."
+    }
+  ],
+  "bank": [
+    {
+      "id": "adapt-1.b1",
+      "type": "mcq",
+      "concept": "adapt.growth-mindset",
+      "prompt": "After a poor result, a growth approach is to:",
+      "options": [
+        "Give up",
+        "Study what went wrong and retry",
+        "Blame luck",
+        "Hide it"
+      ],
+      "answer": 1,
+      "why": "Treat setbacks as information."
+    },
+    {
+      "id": "adapt-1.b2",
+      "type": "mcq",
+      "concept": "adapt.change-curve",
+      "prompt": "Naming your stage on the curve helps you:",
+      "options": [
+        "Reduce panic",
+        "Avoid change",
+        "Hide feelings",
+        "Skip stages"
+      ],
+      "answer": 0,
+      "why": "Naming reduces panic and guides action."
+    },
+    {
+      "id": "adapt-1.b3",
+      "type": "mcq",
+      "concept": "adapt.uncertainty",
+      "prompt": "A good response to a decision with limited information is:",
+      "options": [
+        "Delay forever",
+        "Make a reversible choice and review later",
+        "Guess wildly",
+        "Ask nobody"
+      ],
+      "answer": 1,
+      "why": "Reversible decisions reduce risk."
+    }
+  ],
+  "cards": [
+    {
+      "id": "adapt-1.c1",
+      "concept": "adapt.growth-mindset",
+      "front": "Fixed versus growth?",
+      "back": "Fixed sees ability as unchangeable; growth sees it as built by effort, strategy and feedback; add \"yet\"."
+    },
+    {
+      "id": "adapt-1.c2",
+      "concept": "adapt.change-curve",
+      "front": "Stages of the change curve?",
+      "back": "Shock or denial, resistance, dip, acceptance and experiment, commitment."
+    },
+    {
+      "id": "adapt-1.c3",
+      "concept": "adapt.uncertainty",
+      "front": "Ways to tolerate uncertainty?",
+      "back": "Separate known from unknown, make reversible choices, set review dates, run small experiments."
+    },
+    {
+      "id": "adapt-1.c4",
+      "concept": "adapt.growth-mindset",
+      "front": "How to rewrite a fixed thought?",
+      "back": "Add \"yet\" and write one concrete next step."
+    }
+  ],
+  "reflection": "Which fixed-mindset thought has held you back, and what would you say to a friend who thought it?",
+  "revision": {
+    "keyPoints": [
+      "Adaptability is a learnable skill.",
+      "Use \"yet\" and next steps.",
+      "Expect a dip during change.",
+      "Practise acting without certainty."
+    ],
+    "redo": "Catch one fixed thought today and rewrite it with yet and a next step."
+  }
+}

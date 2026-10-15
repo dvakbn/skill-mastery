@@ -1,0 +1,326 @@
+{
+  "id": "career-3",
+  "skillId": "career",
+  "n": 3,
+  "title": "Personal Brand and Online Presence",
+  "summary": "Craft a clear headline and summary, keep profiles consistent, share your work authentically and maintain good networking hygiene.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Write a professional headline and summary that state who you help and how.",
+    "Check that your profiles and posts present one consistent, honest story.",
+    "Share work and reach out to professionals in a respectful way."
+  ],
+  "concepts": [
+    {
+      "id": "career.headline-summary",
+      "label": "Headline and summary"
+    },
+    {
+      "id": "career.consistency",
+      "label": "Consistent profiles"
+    },
+    {
+      "id": "career.sharing-work",
+      "label": "Sharing work authentically"
+    },
+    {
+      "id": "career.network-hygiene",
+      "label": "Networking profile hygiene"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "What a personal brand really is",
+      "body": "Your personal brand is what people expect from you when you are not in the room. You already have one: the impression left by your resume, your online profile, your messages and how you behave in a class project. Building a brand does not mean self-promotion or pretending; it means deciding what you want to be known for and making that easy to see. Last lesson you built a resume as evidence; your online presence is the public, living version.\n\nRecruiters commonly search a candidate's name before a call. A blank or messy profile creates doubt, while a clear one answers questions in advance. The goal is simply to be findable, clear and credible."
+    },
+    {
+      "heading": "Headline and summary that say something",
+      "body": "A weak headline is \"Student\" or \"Seeking opportunities\". A strong one states the role, the skill and the direction: \"MCA student | Full-stack developer (Node.js, Supabase) | Learning SAP ABAP\". It uses keywords people search for and tells the reader what you offer.\n\nWrite the summary in three short parts: **who you are, what you can do with proof, and what you are looking for**. Example: \"I am an MCA student who builds web applications with Node.js and Supabase. I recently built an attendance tracker used by 60 classmates. I am learning SAP ABAP and looking for an entry-level technical consultant role.\" Use first person, plain words and no buzzwords such as \"passionate go-getter\". Be honest about stage: \"learning\" is fine and trusted more than inflated claims."
+    },
+    {
+      "heading": "Consistency and authentic sharing",
+      "body": "Check that your name, photo, role, skills and dates match across your resume, professional profile and portfolio. A mismatch, such as different graduation years, looks careless or worse. Use a clear, friendly photo, a professional email address and a similar handle where possible. Set personal accounts to your preferred privacy level and review what is public.\n\nAuthentic sharing means posting evidence of learning, not performing expertise. Good posts: a short note on a bug you fixed and how, a summary of a concept you finally understood, a project demo with what you would improve. A simple rhythm is one post every one or two weeks. Credit others, never share client or college confidential data, and avoid copying other people's content as your own. People trust learners who show their process."
+    },
+    {
+      "heading": "Networking profile hygiene",
+      "body": "Networking means building genuine relationships, not collecting contacts. When you contact someone you do not know, send a **short, specific, respectful message**: who you are, why you chose them, and one small ask. Example: \"Hello Ms Rao, I am an MCA student learning ABAP. I read your note on debugging reports. Could I ask one question about how freshers prepare for their first project?\" Avoid mass copy-paste messages, asking for a job in the first line, or pressuring after silence.\n\nKeep hygiene simple: accept connection requests thoughtfully, thank people who help, update your profile when you finish something, and ask permission before naming anyone. Do a quarterly check: search yourself, read your profile as a stranger, and remove anything you would not want a hiring manager to see."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Before and after headline",
+      "body": "Before: \"Student | Looking for opportunities\". After: \"MCA student | Full-stack developer (Node.js, Supabase) | Learning SAP ABAP\". The second tells a recruiter the skills, the stage and the direction, and uses searchable keywords.",
+      "takeaway": "A headline should state skill, role and direction in one line."
+    },
+    {
+      "title": "A respectful outreach message",
+      "body": "\"Hello Mr Iyer, I am an MCA student from Rohtak learning ABAP. I read your post on reading dumps in SAP and tried it on a practice program. May I ask one question about what to learn first for support tickets? Thank you for your time either way.\"",
+      "takeaway": "It is short, specific, shows effort, and makes a small ask with a graceful exit."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "career-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "career.headline-summary",
+      "prompt": "Which headline is most useful?",
+      "options": [
+        "MCA student | Full-stack developer (Node.js, Supabase) | Learning SAP ABAP",
+        "Hardworking student",
+        "Seeking any opportunity",
+        "Passionate go-getter"
+      ],
+      "answer": 0,
+      "why": "It names skills, stage and direction using searchable keywords. The others are vague or full of buzzwords."
+    },
+    {
+      "id": "career-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "career.consistency",
+      "prompt": "If your graduation year differs between your resume and your profile, your online presence lacks ____. (one word)",
+      "accept": [
+        "consistency",
+        "consistent"
+      ],
+      "why": "Mismatched facts across profiles look careless and reduce trust."
+    },
+    {
+      "id": "career-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "career.network-hygiene",
+      "prompt": "You want advice from an ABAP consultant you do not know. Which message is best?",
+      "options": [
+        {
+          "text": "Hi sir, please give me a job.",
+          "score": 0,
+          "feedback": "A job demand in the first line with no context is likely to be ignored."
+        },
+        {
+          "text": "A short note naming who you are, why you chose them and one small question.",
+          "score": 3,
+          "feedback": "Short, specific and respectful messages make it easy to reply."
+        },
+        {
+          "text": "The same long paragraph pasted to fifty people.",
+          "score": 1,
+          "feedback": "Mass messages feel impersonal and are easy to spot."
+        },
+        {
+          "text": "Send a message every day until they reply.",
+          "score": 0,
+          "feedback": "Repeated pressure damages your reputation."
+        }
+      ],
+      "why": "Good outreach is specific and low pressure with a small ask."
+    },
+    {
+      "id": "career-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "career.sharing-work",
+      "prompt": "Draft a four-to-six sentence post about something you learned or built this week. Include what you did, one obstacle, how you solved it, and what you will do next. Do not include confidential details.",
+      "minWords": 52,
+      "rubric": [
+        {
+          "id": "what",
+          "label": "Clear description of the work",
+          "weight": 25,
+          "descriptors": {
+            "0": "No Description of the work given.",
+            "1": "Description of the work is vague or generic.",
+            "2": "Description of the work is clear but could be more specific.",
+            "3": "Description of the work is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "process",
+          "label": "Obstacle and solution shown",
+          "weight": 40,
+          "descriptors": {
+            "0": "No Obstacle and solution given.",
+            "1": "Obstacle and solution is vague or generic.",
+            "2": "Obstacle and solution is clear but could be more specific.",
+            "3": "Obstacle and solution is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "voice",
+          "label": "Honest, modest tone and next step",
+          "weight": 35,
+          "descriptors": {
+            "0": "No Honest tone and next step given.",
+            "1": "Honest tone and next step is vague or generic.",
+            "2": "Honest tone and next step is clear but could be more specific.",
+            "3": "Honest tone and next step is specific, concrete and well reasoned."
+          }
+        }
+      ],
+      "modelAnswer": "This week I built a small ABAP-style report in a practice environment that joined two tables. At first the output showed duplicate rows. I traced it to a missing join condition and fixed it by matching on the order number. It taught me to check keys before writing logic. Next I will add a selection screen and document the steps for others.",
+      "guidance": "A strong post shows process, not bragging. It states the problem, the fix and a lesson. Weak posts are vague, boastful or only a tool list. Check that nothing confidential appears and that the tone sounds like you."
+    }
+  ],
+  "task": {
+    "title": "Refresh your professional profile",
+    "brief": "Update your headline, summary and one piece of shared work, then check consistency across all places.",
+    "steps": [
+      "Write a new headline with role, skill and direction.",
+      "Write a three-part summary: who, proof, goal.",
+      "Compare name, dates and skills across resume and profile and fix mismatches.",
+      "Publish or draft one short learning post."
+    ],
+    "checklist": [
+      "Headline has searchable keywords",
+      "Summary uses first person and plain words",
+      "Dates and skills match everywhere",
+      "Post contains no confidential data"
+    ],
+    "evidencePrompt": "Paste your new headline and the first line of your summary.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "career-3.q1",
+      "type": "mcq",
+      "concept": "career.headline-summary",
+      "prompt": "The best three-part structure for a summary is:",
+      "options": [
+        "Hobbies, family, jokes",
+        "A list of every course taken",
+        "Who you are, what you can do with proof, what you want",
+        "Only your goals"
+      ],
+      "answer": 2,
+      "why": "Identity, evidence and direction give a reader what they need to decide quickly."
+    },
+    {
+      "id": "career-3.q2",
+      "type": "mcq",
+      "concept": "career.consistency",
+      "prompt": "Why check consistency across profiles?",
+      "options": [
+        "It saves time",
+        "Mismatched details reduce trust",
+        "It increases follower count",
+        "It is required by law"
+      ],
+      "answer": 1,
+      "why": "Inconsistent facts raise doubt about accuracy and care."
+    },
+    {
+      "id": "career-3.q3",
+      "type": "fill",
+      "concept": "career.sharing-work",
+      "prompt": "Authentic sharing shows your ____ rather than performing expertise you lack. (one word)",
+      "accept": [
+        "process",
+        "learning"
+      ],
+      "why": "Showing process and learning builds trust over empty claims."
+    },
+    {
+      "id": "career-3.q4",
+      "type": "mcq",
+      "concept": "career.network-hygiene",
+      "prompt": "A good first message to a stranger includes:",
+      "options": [
+        "A job request only",
+        "Who you are, why them and a small ask",
+        "A copy of your resume with no text",
+        "A demand for reply"
+      ],
+      "answer": 1,
+      "why": "Context and a small ask make a reply easy and polite."
+    }
+  ],
+  "bank": [
+    {
+      "id": "career-3.b1",
+      "type": "mcq",
+      "concept": "career.headline-summary",
+      "prompt": "Which phrase should you avoid in a summary?",
+      "options": [
+        "Built a billing app used by 30 shopkeepers",
+        "Passionate go-getter and team player",
+        "Learning SAP ABAP",
+        "Looking for an entry-level role"
+      ],
+      "answer": 1,
+      "why": "Buzzwords without proof say nothing; the other lines are concrete."
+    },
+    {
+      "id": "career-3.b2",
+      "type": "mcq",
+      "concept": "career.sharing-work",
+      "prompt": "Which post is appropriate to share?",
+      "options": [
+        "Screenshots of your client's internal data",
+        "A note on how you fixed a bug in your practice project",
+        "A copied article without credit",
+        "A complaint about a teacher"
+      ],
+      "answer": 1,
+      "why": "Sharing your own learning is safe and useful; confidential or copied content is not."
+    },
+    {
+      "id": "career-3.b3",
+      "type": "mcq",
+      "concept": "career.network-hygiene",
+      "prompt": "A professional does not reply to your message. What is best?",
+      "options": [
+        "Message every day",
+        "Wait a week or two, send one polite follow-up, then move on",
+        "Complain publicly",
+        "Create a new account to message again"
+      ],
+      "answer": 1,
+      "why": "One courteous follow-up respects their time and protects your reputation."
+    }
+  ],
+  "cards": [
+    {
+      "id": "career-3.c1",
+      "concept": "career.headline-summary",
+      "front": "Strong headline formula?",
+      "back": "Role or stage, key skills, and direction, for example: MCA student, full-stack developer, learning SAP ABAP."
+    },
+    {
+      "id": "career-3.c2",
+      "concept": "career.consistency",
+      "front": "What should match across profiles?",
+      "back": "Name, photo style, dates, skills, role and story across resume, profile and portfolio."
+    },
+    {
+      "id": "career-3.c3",
+      "concept": "career.sharing-work",
+      "front": "What makes sharing authentic?",
+      "back": "Show real work and learning with obstacles and fixes, credit others and never reveal confidential data."
+    },
+    {
+      "id": "career-3.c4",
+      "concept": "career.network-hygiene",
+      "front": "Components of a good outreach message?",
+      "back": "Who you are, why you picked them, one small specific ask, and thanks. Keep it short and avoid pressure."
+    }
+  ],
+  "reflection": "If a recruiter searched your name today, what story would they see, and what one change would improve it?",
+  "revision": {
+    "keyPoints": [
+      "A brand is what people expect from you; make it clear and honest.",
+      "Headline states role, skill and direction.",
+      "Keep facts consistent across all profiles.",
+      "Share process, and contact people with short, respectful, specific messages."
+    ],
+    "redo": "Write a one-line headline that states role, skill and direction."
+  }
+}

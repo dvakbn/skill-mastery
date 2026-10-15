@@ -1,0 +1,344 @@
+{
+  "id": "time-4",
+  "skillId": "time",
+  "n": 4,
+  "title": "Weekly Review and Systems",
+  "summary": "Capture every task in one trusted place, run a weekly review, understand why you procrastinate, and manage deadlines with buffers.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Set up a single capture system and a 30-minute weekly review.",
+    "Name your procrastination type and apply a matching fix.",
+    "Set personal deadlines ahead of real ones using buffers."
+  ],
+  "concepts": [
+    {
+      "id": "time.capture",
+      "label": "Capture system"
+    },
+    {
+      "id": "time.weekly-review",
+      "label": "Weekly review"
+    },
+    {
+      "id": "time.procrastination",
+      "label": "Procrastination types and fixes"
+    },
+    {
+      "id": "time.deadlines",
+      "label": "Deadlines and buffers"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "A system you trust",
+      "body": "So far you have audited your time, blocked your days and protected your focus. All of that decays without a system that keeps everything in one place and returns to it every week. Without it, commitments sit in your head, which is a poor storage device: they nag you at night but are forgotten in the morning.\n\n**Capture** means that every task, idea or promise goes into one trusted inbox the moment it appears: a notes app, a small notebook, or a task list. The rule is one inbox, not five. Later, you sort the inbox into next actions, calendar items and things to drop. Example: during a lecture you remember to email the HOD about the project guide. Write \"email HOD re guide\" in the inbox in ten seconds and carry on listening."
+    },
+    {
+      "heading": "The weekly review",
+      "body": "The **weekly review** is a 30-minute appointment, say Sunday at 6 pm, that keeps the system alive. Follow the same steps each time:\n\n1. Empty the inbox: turn each item into a next action, a calendar entry, or delete it.\n2. Look back: what got done, what slipped, and why.\n3. Look ahead: check next week's calendar for deadlines, exams and travel.\n4. Choose the next week's top three outcomes and block time for them.\n5. Clear clutter: close old tabs, tidy files, delete dead tasks.\n\nStudents often skip the review when busy, which is exactly when it matters most. If you only have ten minutes, do steps 1 and 4."
+    },
+    {
+      "heading": "Why we procrastinate",
+      "body": "Procrastination is usually avoidance of a feeling, not laziness. Common types and fixes:\n\n- **Perfectionist**: afraid the result will be poor, so you never start. Fix: set a rough-draft rule and a 20-minute limit for version one.\n- **Overwhelmed**: the task is too big. Fix: shrink it to the next physical action such as \"open the file and write the title\".\n- **Bored**: the task is dull. Fix: pair it with a reward or a timer, or do it in a group study session.\n- **Dreader**: the task triggers anxiety, such as emailing a senior. Fix: draft the message, then send it before you can reconsider.\n- **Last-minute rusher**: needs pressure to move. Fix: create earlier fake deadlines with an accountability partner.\n\nNaming your type tells you which fix to try instead of just scolding yourself."
+    },
+    {
+      "heading": "Deadlines and buffers",
+      "body": "Real deadlines are the finish line, not the target. Set a **personal deadline** earlier than the real one: for a submission due on the 30th, aim for the 25th. The gap is your **buffer** for illness, a failed laptop, a power cut or reviewer feedback. Work backwards: draft by the 15th, review by the 20th, final by the 25th.\n\nIf you cannot make a deadline, tell the person early and propose a new date with a reason. Silence until the last hour hurts trust; an early heads-up is a sign of reliability. Example: on the 22nd you realise your report needs three more days. You email your guide that day: \"I may need until the 28th for the final report; the draft will reach you on the 25th.\""
+    }
+  ],
+  "examples": [
+    {
+      "title": "A Sunday review in 30 minutes",
+      "body": "Isha opens her inbox with 14 items. She converts 8 into next actions, puts 3 on the calendar and deletes 3. She notes that last week's SQL practice slipped due to a cousin's wedding, so she moves it to Tuesday evening. She picks three outcomes for next week, blocks them, and closes the session by checking Monday's classes.",
+      "takeaway": "The review turns a messy inbox into a calendar and a short list of priorities."
+    },
+    {
+      "title": "Matching the fix to the type",
+      "body": "Rohit keeps avoiding an email to his internship coordinator. He notices it is dread, not lack of time. He types a three-line draft, sets a 10-minute timer, and sends it at the end of the timer. The reply arrives the next morning and was polite and short.",
+      "takeaway": "Once you name the real reason, the fix is small and concrete, not a lecture to yourself."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "time-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "time.capture",
+      "prompt": "What is the main purpose of a single capture system?",
+      "options": [
+        "To get commitments out of your head into one trusted place",
+        "To remember everything perfectly in your head",
+        "To make your to-do list longer",
+        "To avoid ever planning"
+      ],
+      "answer": 0,
+      "why": "Capture frees your mind of nagging commitments. A single inbox is easier to trust than several, and it does not replace planning."
+    },
+    {
+      "id": "time-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "time.weekly-review",
+      "prompt": "The first step of a weekly review is to ____ your inbox. (one word)",
+      "accept": [
+        "empty",
+        "clear",
+        "process"
+      ],
+      "why": "You start by emptying or processing the inbox into actions, calendar items or deletions."
+    },
+    {
+      "id": "time-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "time.procrastination",
+      "prompt": "You keep postponing your project report because you worry it will not be good enough. Which fix suits you best?",
+      "options": [
+        {
+          "text": "Wait until you feel inspired.",
+          "score": 0,
+          "feedback": "Waiting for a mood rarely arrives and the perfectionism stays."
+        },
+        {
+          "text": "Write a deliberately rough first version in 20 minutes and improve it later.",
+          "score": 3,
+          "feedback": "A rough-draft rule removes the fear of judgement and gets you moving."
+        },
+        {
+          "text": "Scold yourself for being lazy.",
+          "score": 1,
+          "feedback": "This is not laziness and shame usually deepens avoidance."
+        },
+        {
+          "text": "Ask a friend to write it instead.",
+          "score": 0,
+          "feedback": "This avoids the task entirely and may cause integrity problems."
+        }
+      ],
+      "why": "Perfectionist avoidance responds to a time-limited rough draft, not to willpower or waiting."
+    },
+    {
+      "id": "time-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "time.deadlines",
+      "prompt": "You have a project submission due on 30 November and today is 1 November. Write a backward plan with at least three dated checkpoints, a personal deadline earlier than the real one, and one sentence you would send to your guide if you were running late on 22 November.",
+      "minWords": 48,
+      "rubric": [
+        {
+          "id": "checkpoints",
+          "label": "Dated checkpoints",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "One date.",
+            "2": "Two dates.",
+            "3": "Three or more dates in logical backward order."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes at least one date"
+          }
+        },
+        {
+          "id": "personal",
+          "label": "Personal deadline before real",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Same as the real deadline.",
+            "2": "Slightly earlier.",
+            "3": "Clearly earlier with a reason for the buffer."
+          }
+        },
+        {
+          "id": "message",
+          "label": "Early honest message",
+          "weight": 30,
+          "descriptors": {
+            "0": "No message.",
+            "1": "Vague or excuse-only.",
+            "2": "Polite and honest.",
+            "3": "Early, specific new date and what you will deliver before it."
+          }
+        },
+        {
+          "id": "realism",
+          "label": "Realistic spacing",
+          "weight": 15,
+          "descriptors": {
+            "0": "Impossible.",
+            "1": "Crowded.",
+            "2": "Mostly fine.",
+            "3": "Evenly spaced with review time."
+          }
+        }
+      ],
+      "modelAnswer": "Plan: topic and outline by 8 Nov, working prototype by 16 Nov, report draft by 22 Nov, review and fixes by 26 Nov. Personal deadline 26 Nov, giving four days of buffer for illness or feedback. Message: \"I may need until 28 November for the final report, but you will have the working draft by 24 November.\"",
+      "guidance": "A strong answer works backward from a deadline that is earlier than the real one and sends bad news early with a concrete new date. Mistakes include equal gaps that ignore review time and messages that only apologise. Compare against the model answer honestly."
+    }
+  ],
+  "task": {
+    "title": "Run your first weekly review",
+    "brief": "Set up one inbox and complete a 30-minute review, with a fix for your main procrastination type.",
+    "steps": [
+      "Choose one place for capturing tasks and put every pending item into it.",
+      "Do the five-step weekly review in 30 minutes.",
+      "Choose three outcomes for next week and block time for them.",
+      "Name your main procrastination type and write the fix you will try.",
+      "Set a personal deadline ahead of your next real one."
+    ],
+    "checklist": [
+      "I have one inbox only",
+      "I processed it to zero or close to zero",
+      "I chose three outcomes for next week",
+      "I set a personal deadline with a buffer"
+    ],
+    "evidencePrompt": "List your inbox type, three outcomes, your procrastination type and personal deadline.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "time-4.q1",
+      "type": "mcq",
+      "concept": "time.capture",
+      "prompt": "Where should a new task go the moment it appears?",
+      "options": [
+        "Anywhere you happen to be",
+        "Your memory only",
+        "Your one trusted inbox",
+        "A random chat group"
+      ],
+      "answer": 2,
+      "why": "One trusted inbox prevents lost tasks."
+    },
+    {
+      "id": "time-4.q2",
+      "type": "mcq",
+      "concept": "time.weekly-review",
+      "prompt": "How long should a regular weekly review take roughly?",
+      "options": [
+        "30 minutes",
+        "5 seconds",
+        "A full weekend",
+        "Only on exam days"
+      ],
+      "answer": 0,
+      "why": "About half an hour is enough and easy to keep."
+    },
+    {
+      "id": "time-4.q3",
+      "type": "mcq",
+      "concept": "time.procrastination",
+      "prompt": "Which fix suits someone overwhelmed by a huge task?",
+      "options": [
+        "Shrink it to the next physical action",
+        "Wait for the deadline",
+        "Add more tasks",
+        "Stop planning"
+      ],
+      "answer": 0,
+      "why": "A tiny first step removes the paralysis."
+    },
+    {
+      "id": "time-4.q4",
+      "type": "mcq",
+      "concept": "time.deadlines",
+      "prompt": "Why set a personal deadline before the real one?",
+      "options": [
+        "To impress others",
+        "To create buffer for surprises",
+        "Because the real one is unfair",
+        "To work less"
+      ],
+      "answer": 1,
+      "why": "The gap absorbs illness, tech failures and feedback."
+    }
+  ],
+  "bank": [
+    {
+      "id": "time-4.b1",
+      "type": "mcq",
+      "concept": "time.capture",
+      "prompt": "You remember mid-conversation that you must book a train ticket. What is the best immediate action?",
+      "options": [
+        "Try hard to remember it",
+        "Jot it in your inbox within seconds",
+        "Tell no one",
+        "Book it later without noting"
+      ],
+      "answer": 1,
+      "why": "Quick capture lets you stay present and still keep the commitment."
+    },
+    {
+      "id": "time-4.b2",
+      "type": "fill",
+      "concept": "time.procrastination",
+      "prompt": "Avoiding a task because it triggers anxiety, such as emailing a senior, is the ____ type of procrastination. (one word)",
+      "accept": [
+        "dreader",
+        "dread"
+      ],
+      "why": "Dread-driven avoidance responds to drafting and sending the message in a short, timed burst."
+    },
+    {
+      "id": "time-4.b3",
+      "type": "mcq",
+      "concept": "time.deadlines",
+      "prompt": "The real deadline is 20 March. You aim to finish by 15 March. What is the 5-day gap called?",
+      "options": [
+        "Buffer",
+        "Distraction",
+        "Penalty",
+        "Backlog"
+      ],
+      "answer": 0,
+      "why": "A buffer is slack you create before the true deadline."
+    }
+  ],
+  "cards": [
+    {
+      "id": "time-4.c1",
+      "concept": "time.capture",
+      "front": "What is a capture system?",
+      "back": "One trusted inbox where every task and promise goes immediately, then sorted later."
+    },
+    {
+      "id": "time-4.c2",
+      "concept": "time.weekly-review",
+      "front": "Steps of the weekly review?",
+      "back": "Empty the inbox, look back, look ahead, choose next week outcomes, clear clutter, in about 30 minutes."
+    },
+    {
+      "id": "time-4.c3",
+      "concept": "time.procrastination",
+      "front": "Five procrastination types?",
+      "back": "Perfectionist, overwhelmed, bored, dreader and last-minute rusher, each with a matching small fix."
+    },
+    {
+      "id": "time-4.c4",
+      "concept": "time.deadlines",
+      "front": "How to handle deadlines?",
+      "back": "Set personal deadlines earlier than real ones, work backward with checkpoints, and warn people early with a new date if you will be late."
+    }
+  ],
+  "reflection": "Which procrastination type is yours most often, and what single small fix will you apply this week?",
+  "revision": {
+    "keyPoints": [
+      "Use one inbox and capture instantly.",
+      "Review weekly in 30 minutes and plan the next week.",
+      "Match your procrastination type with a small fix.",
+      "Set earlier personal deadlines and warn early when late."
+    ],
+    "redo": "Empty your inbox into actions and choose three outcomes for the coming week."
+  }
+}

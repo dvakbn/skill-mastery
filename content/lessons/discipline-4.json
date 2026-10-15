@@ -1,0 +1,326 @@
+{
+  "id": "discipline-4",
+  "skillId": "discipline",
+  "n": 4,
+  "title": "Focus and Deep Work",
+  "summary": "Protect long blocks of attention, log distractions, practise deliberately and close each day with a shutdown ritual.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain attention residue and why switching tasks costs more than it seems.",
+    "Run a 50-minute focus block with a distraction log.",
+    "Use a shutdown ritual so work stops cleanly at the end of the day."
+  ],
+  "concepts": [
+    {
+      "id": "discipline.attention-residue",
+      "label": "Attention residue"
+    },
+    {
+      "id": "discipline.focus-blocks",
+      "label": "Focus blocks and distraction log"
+    },
+    {
+      "id": "discipline.deliberate-practice",
+      "label": "Deliberate practice"
+    },
+    {
+      "id": "discipline.shutdown",
+      "label": "Shutdown ritual"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why switching is expensive",
+      "body": "When you leave one task for another, part of your attention stays behind on the first one. This is called **attention residue**. Checking a single WhatsApp message in the middle of writing a SQL query does not cost ten seconds; it can cost several minutes before your thinking is as sharp as before. A day full of small switches leaves you busy but shallow, with the feeling of having worked hard and produced little.\n\nDeep work means giving one demanding task your full, uninterrupted attention. For a student preparing for SAP ABAP, this is the difference between reading a chapter while glancing at the phone and actually understanding internal tables well enough to write a program without notes."
+    },
+    {
+      "heading": "Focus blocks and the distraction log",
+      "body": "A **focus block** is a fixed period, usually 50 minutes, with one task, the phone out of reach, notifications off and a short break afterwards. Start with 25 minutes if 50 feels long, and add five minutes each week. Before the block write one sentence: \"At the end I will have ___\". A clear finish line stops drifting.\n\nKeep a **distraction log**: a paper slip beside you. Each time the urge to check something appears, write one word (for example \"cricket score\", \"email\", \"reel\") and return to work. The log does two things. It lets the urge pass without acting, and at the end of the week it shows your real triggers. Most people discover two or three repeating ones, and those can be removed at the source: phone in another room, site blockers, or a set time to check messages."
+    },
+    {
+      "heading": "Deliberate practice",
+      "body": "Time spent is not the same as skill gained. **Deliberate practice** means working at the edge of your ability with a specific target, immediate feedback and repetition of the weak part. Re-reading notes feels productive but is easy. Writing an ABAP loop from memory, checking it against the answer and redoing the line you got wrong is hard and effective.\n\nUse four steps: choose one small skill, attempt it without help, check the result against a correct version, then repeat only the part that failed. Thirty minutes of this beats two hours of passive review."
+    },
+    {
+      "heading": "The shutdown ritual",
+      "body": "Unfinished tasks keep nagging at the mind in the evening. A **shutdown ritual** is a short fixed routine, five minutes at most, that tells your brain the day is closed. Review what is done, write tomorrow's top three tasks, note any loose thread in one line, tidy your desk and say a closing phrase such as \"Done for today\". Because the plan exists on paper, your mind can rest, and tomorrow starts without a decision about where to begin."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A real focus block",
+      "body": "Aman sets a 50-minute timer, leaves his phone in the next room and writes: \"At the end I will have solved six SQL join problems.\" He logs three urges: \"reel\", \"email\", \"tea\". After the block he sees \"reel\" appears daily at the same time, so he moves his phone charger outside his study room.",
+      "takeaway": "The log turns urges into data you can act on."
+    },
+    {
+      "title": "Deliberate versus passive",
+      "body": "Priya reads a chapter on data types twice and feels confident. Her friend writes ten declarations from memory, compares them with the book, finds three errors and repeats those three. The friend learns more in 30 minutes.",
+      "takeaway": "Attempt, check, repeat the weak part."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "discipline-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "discipline.attention-residue",
+      "prompt": "What is attention residue?",
+      "options": [
+        "Part of your attention staying on the previous task after you switch",
+        "Tiredness after exams",
+        "A kind of reading speed",
+        "A phone setting"
+      ],
+      "answer": 0,
+      "why": "After switching, thoughts of the earlier task linger and slow the new one."
+    },
+    {
+      "id": "discipline-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "discipline.shutdown",
+      "prompt": "A shutdown ritual includes writing tomorrow's top ____ tasks. (one word)",
+      "accept": [
+        "three",
+        "3"
+      ],
+      "why": "Writing the top three tasks lets the mind rest tonight and start fast tomorrow."
+    },
+    {
+      "id": "discipline-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "discipline.focus-blocks",
+      "prompt": "Design your next focus block: the task, the finish sentence (\"At the end I will have...\"), the length, where your phone will be and what you will write in the distraction log.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "task",
+          "label": "Clear single task",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague or several tasks.",
+            "2": "One task, loosely stated.",
+            "3": "One clear task with a visible finish line."
+          }
+        },
+        {
+          "id": "setup",
+          "label": "Environment and phone plan",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Phone stays nearby.",
+            "2": "Phone moved but no detail.",
+            "3": "Specific place for phone and notifications off."
+          }
+        },
+        {
+          "id": "log",
+          "label": "Distraction log plan",
+          "weight": 40,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentioned only.",
+            "2": "Method described.",
+            "3": "Method and what you will do with the results."
+          }
+        }
+      ],
+      "modelAnswer": "Task: solve six SQL join problems. Finish: \"At the end I will have six solved queries and notes on two errors.\" Length: 50 minutes. Phone in my bag in the other room, notifications off. I will keep a paper slip and write one word per urge, then review the slip on Sunday and remove the most frequent trigger.",
+      "guidance": "Strong plans have one task, a finish line that you can check, a phone out of reach and a plan to review the log. Avoid listing three tasks in one block."
+    },
+    {
+      "id": "discipline-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "discipline.deliberate-practice",
+      "prompt": "You have 30 minutes to improve at writing SELECT queries. Which plan is best?",
+      "options": [
+        {
+          "text": "Re-read your notes twice.",
+          "score": 1,
+          "feedback": "Re-reading feels easy but gives weak feedback."
+        },
+        {
+          "text": "Write five queries from memory, check each, and redo the ones you missed.",
+          "score": 3,
+          "feedback": "This has a target, feedback and repetition of weak parts."
+        },
+        {
+          "text": "Watch a long video at double speed.",
+          "score": 1,
+          "feedback": "Passive watching builds little recall."
+        },
+        {
+          "text": "Copy solved queries into your notebook.",
+          "score": 0,
+          "feedback": "Copying involves no retrieval or checking."
+        }
+      ],
+      "why": "Deliberate practice combines attempt, feedback and repeating the failed part."
+    }
+  ],
+  "task": {
+    "title": "Run one 50-minute focus block",
+    "brief": "Complete one distraction-logged focus block today and a shutdown ritual tonight.",
+    "steps": [
+      "Write your finish sentence and set a 50-minute timer.",
+      "Put your phone in another room and keep a paper distraction log.",
+      "After the block count urges and name the top trigger.",
+      "Tonight write tomorrow's top three tasks and say your closing phrase."
+    ],
+    "checklist": [
+      "I wrote a finish sentence",
+      "I logged urges on paper",
+      "I named my top trigger",
+      "I did a shutdown ritual"
+    ],
+    "evidencePrompt": "Write your finish sentence, urge count, top trigger and tomorrow's top three tasks.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "discipline-4.q1",
+      "type": "mcq",
+      "concept": "discipline.attention-residue",
+      "prompt": "Checking messages during a coding task mainly costs you:",
+      "options": [
+        "Ten seconds only",
+        "Nothing",
+        "Several minutes of sharp thinking",
+        "Battery"
+      ],
+      "answer": 2,
+      "why": "Residue from the switch slows full focus for minutes."
+    },
+    {
+      "id": "discipline-4.q2",
+      "type": "mcq",
+      "concept": "discipline.focus-blocks",
+      "prompt": "What is the purpose of the distraction log?",
+      "options": [
+        "To punish yourself",
+        "To let urges pass and reveal repeating triggers",
+        "To track friends",
+        "To replace the timer"
+      ],
+      "answer": 1,
+      "why": "Logging lets you resist the urge and shows triggers to remove."
+    },
+    {
+      "id": "discipline-4.q3",
+      "type": "mcq",
+      "concept": "discipline.deliberate-practice",
+      "prompt": "Which element is essential to deliberate practice?",
+      "options": [
+        "Long hours",
+        "Feedback and repeating the weak part",
+        "Silence",
+        "Group study"
+      ],
+      "answer": 1,
+      "why": "Feedback on a specific weak point is what drives improvement."
+    },
+    {
+      "id": "discipline-4.q4",
+      "type": "fill",
+      "concept": "discipline.shutdown",
+      "prompt": "The shutdown ritual lasts at most ____ minutes. (one word)",
+      "accept": [
+        "five",
+        "5"
+      ],
+      "why": "It is short, five minutes at most, so you will actually do it."
+    }
+  ],
+  "bank": [
+    {
+      "id": "discipline-4.b1",
+      "type": "mcq",
+      "concept": "discipline.attention-residue",
+      "prompt": "To reduce attention residue you should:",
+      "options": [
+        "Switch tasks often",
+        "Finish or park a task cleanly before switching",
+        "Keep many tabs open",
+        "Check email hourly"
+      ],
+      "answer": 1,
+      "why": "Parking a task with a note frees attention for the next."
+    },
+    {
+      "id": "discipline-4.b2",
+      "type": "mcq",
+      "concept": "discipline.focus-blocks",
+      "prompt": "A good focus block has:",
+      "options": [
+        "Several goals",
+        "One task, one finish line and phone away",
+        "Background videos",
+        "No breaks ever"
+      ],
+      "answer": 1,
+      "why": "One clear task and fewer distractions make it work."
+    },
+    {
+      "id": "discipline-4.b3",
+      "type": "mcq",
+      "concept": "discipline.shutdown",
+      "prompt": "Why write tomorrow's plan tonight?",
+      "options": [
+        "To impress others",
+        "So your mind can rest and tomorrow starts fast",
+        "To avoid sleeping",
+        "To finish later"
+      ],
+      "answer": 1,
+      "why": "A written plan closes open loops in the mind."
+    }
+  ],
+  "cards": [
+    {
+      "id": "discipline-4.c1",
+      "concept": "discipline.attention-residue",
+      "front": "What is attention residue?",
+      "back": "Part of your attention stays on the old task after you switch, which lowers quality on the new one."
+    },
+    {
+      "id": "discipline-4.c2",
+      "concept": "discipline.focus-blocks",
+      "front": "Focus block recipe?",
+      "back": "One task, finish sentence, 25-50 minutes, phone away, urges logged on paper."
+    },
+    {
+      "id": "discipline-4.c3",
+      "concept": "discipline.deliberate-practice",
+      "front": "Four steps of deliberate practice?",
+      "back": "Pick a small skill, attempt without help, check against a correct version, repeat the failed part."
+    },
+    {
+      "id": "discipline-4.c4",
+      "concept": "discipline.shutdown",
+      "front": "What goes in a shutdown ritual?",
+      "back": "Review done work, write tomorrow's top three, note loose threads, tidy up, say a closing phrase."
+    }
+  ],
+  "reflection": "Which distraction appears most often in your day, and what is one change that would remove it at the source?",
+  "revision": {
+    "keyPoints": [
+      "Switching leaves attention residue.",
+      "Use a single-task focus block with a distraction log.",
+      "Practise deliberately with feedback.",
+      "End the day with a shutdown ritual."
+    ],
+    "redo": "Run another focus block and compare your urge count with the first."
+  }
+}

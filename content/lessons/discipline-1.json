@@ -1,0 +1,369 @@
+{
+  "id": "discipline-1",
+  "skillId": "discipline",
+  "n": 1,
+  "title": "Habits and Identity",
+  "summary": "Understand the cue-routine-reward loop, shrink habits until they are easy, anchor them with if-then plans, and tie them to the person you are becoming.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Break any habit into its cue, routine and reward, and redesign one part of the loop.",
+    "Write a habit-stacking script and an implementation intention that name a trigger, an action and a place.",
+    "Phrase a habit as an identity vote rather than a vague wish."
+  ],
+  "concepts": [
+    {
+      "id": "discipline.habit-loop",
+      "label": "Cue, routine, reward"
+    },
+    {
+      "id": "discipline.tiny-habits",
+      "label": "Tiny habits"
+    },
+    {
+      "id": "discipline.implementation",
+      "label": "Implementation intentions and habit stacking"
+    },
+    {
+      "id": "discipline.identity",
+      "label": "Identity-based habits"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Every habit is a loop: cue, routine, reward",
+      "body": "A habit is not a personality trait. It is a loop with three parts. The **cue** is the trigger (a time, a place, a feeling, a person, the action just before). The **routine** is what you do. The **reward** is what your brain gets out of it, which is why it repeats.\n\nTake a common evening loop: you finish dinner (cue), open Instagram reels (routine), and feel relaxed and entertained (reward). To change it, do not fight the whole loop. Keep the cue and the reward, and swap the routine. After dinner, you make a cup of tea and do ten minutes of ABAP syntax revision. The reward is the tea plus a tick on your tracker.\n\nWhen a habit will not stick, ask which part is broken. No clear cue means you forget. A heavy routine means you avoid it. No reward means there is no reason for the brain to repeat it."
+    },
+    {
+      "heading": "Make it tiny first, then let it grow",
+      "body": "Most people fail because they start too big: 'two hours of study every day'. On a bad day, two hours looks impossible, so you do nothing, and doing nothing teaches you that the plan does not work.\n\nA **tiny habit** is a version so small that you can do it even when tired, stressed or busy. Examples: open the ABAP notes and read one statement; put on running shoes; write one line of code. The aim is not the five minutes. The aim is to make *showing up* automatic. Once you have started, you will often keep going, but you are allowed to stop. Growth comes later.\n\nThe arithmetic is encouraging. Five minutes a day for 30 days is 150 minutes, 2.5 hours of real practice, and a loop that now runs without a fight. Compare that with a two-hour plan that you follow for three days and abandon: 6 hours, and a feeling of failure."
+    },
+    {
+      "heading": "Say exactly when, where and after what",
+      "body": "A wish like 'I will study more' has no cue. An **implementation intention** fixes the cue in advance using the pattern: **When X happens, I will do Y, at place Z.** Research on this technique is consistent: specific if-then plans are followed far more often than general goals, because the decision is already made.\n\nThe easiest cue is something you already do daily. This is **habit stacking**: *After I [current habit], I will [tiny new habit].*\n\n- After I pour my morning chai, I will open my ABAP notes and read one statement.\n- After I sit down at my desk at 7 pm, I will write one line of code in the editor.\n- After I plug in my phone to charge at night, I will write tomorrow's one task on a sticky note.\n\nA good anchor is specific (not 'in the morning'), reliable (happens every day), and sits right before the new habit. A common mistake is anchoring to something that happens irregularly, such as 'after I get free time'."
+    },
+    {
+      "heading": "Habits are votes for who you are",
+      "body": "Goals say what you want. **Identity** says who you are. 'I want to learn ABAP' is a wish. 'I am a person who writes code every day' is a statement that each action either supports or weakens. Every small repetition is a **vote** for that identity, and a few votes will not decide an election, but a steady pile of them does.\n\nUse this in two ways. First, phrase habits as identity: not 'I am trying to avoid my phone' but 'I am someone who protects my study time'. Second, collect evidence: a tick on a calendar after each tiny habit is proof, to yourself, that the identity is true. When you slip, do not say 'I am lazy'. Say 'I am a person who writes code daily, and I missed yesterday, so today I show up with the tiny version.' The identity survives the slip."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A habit-stacking script card",
+      "body": "Goal: practise ABAP daily.\n\nAnchor: After I finish my evening chai at 6:30 pm.\nTiny habit: I open the practice file and write one SELECT statement.\nPlace: my study table, laptop already open from the morning.\nReward: tick the day on the wall calendar, then my 10-minute cricket highlights.\nIdentity line: I am someone who writes code every day.\n\nIf-then backup: If I get home after 8 pm, then I do the tiny habit on my phone's notes app, reading one flashcard.",
+      "takeaway": "The script names a trigger, an action so small it cannot be refused, a place, a reward, an identity line, and a backup plan for the days that go wrong."
+    },
+    {
+      "title": "Swapping the routine, keeping the loop",
+      "body": "Old loop: Cue = I feel bored at 10:30 pm. Routine = scroll YouTube Shorts. Reward = novelty and relief from boredom.\n\nNew loop: Cue = same boredom at 10:30 pm, with my phone charging across the room. Routine = read one page of a novel on the bed. Reward = novelty, a calmer mind, and sleeping earlier.\n\nThe new routine meets the same need (novelty, relief) which is why it can replace the old one. Pure willpower against an unchanged reward rarely works.",
+      "takeaway": "Find the real reward the old habit gives you and offer the brain a healthier route to the same reward."
+    },
+    {
+      "title": "From wish to identity vote",
+      "body": "Wish: 'I should exercise more.'\nGoal: 'I will run 5 km three times a week.'\nIdentity vote: 'I am a person who moves every day.' Today's vote: put on shoes and walk for five minutes after lunch.\n\nOn a rainy day the 5 km goal is cancelled and the day is wasted. The identity vote is still available: five minutes of stretching indoors.",
+      "takeaway": "Identity-based habits flex on bad days; rigid goals break and take your motivation with them."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "discipline-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "discipline.habit-loop",
+      "prompt": "Rahul checks WhatsApp the moment he sits down to study, gets a small hit of social connection, and then loses an hour. Which part of the loop is the CUE?",
+      "options": [
+        "Sitting down to study",
+        "Checking WhatsApp",
+        "The small hit of social connection",
+        "Losing an hour"
+      ],
+      "answer": 0,
+      "hint": "The cue is what happens right before the routine and sets it off.",
+      "why": "Sitting down is the trigger. Checking WhatsApp is the routine, and the social connection is the reward that makes the brain repeat it. Losing an hour is a consequence, not a part of the loop. To change the habit, Rahul should keep the cue but change the routine, for example by putting the phone in another room before sitting down."
+    },
+    {
+      "id": "discipline-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "discipline.tiny-habits",
+      "prompt": "You commit to a tiny habit of 5 minutes of coding practice every day for 30 days. How many minutes of practice is that in total? (number only)",
+      "accept": [
+        "150",
+        "150 minutes",
+        "150 min",
+        "150 mins"
+      ],
+      "hint": "Multiply the minutes per day by the number of days.",
+      "why": "5 x 30 = 150 minutes, or 2.5 hours. The point of a tiny habit is not the size of one session but the 30 repetitions that make starting automatic."
+    },
+    {
+      "id": "discipline-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "discipline.implementation",
+      "prompt": "You want to revise SAP ABAP flashcards every day, but you keep saying you will do it 'when you have time'. Write a habit-stacking script: name an existing daily anchor, the tiny version of the habit, the place, and one reward. Use the format 'After I ..., I will ...'.",
+      "minWords": 30,
+      "rubric": [
+        {
+          "id": "anchor",
+          "label": "Specific, reliable anchor",
+          "weight": 30,
+          "descriptors": {
+            "0": "No anchor, or a vague one such as 'when I have time'.",
+            "1": "An anchor is named but it is irregular or vague (for example 'in the evening').",
+            "2": "A daily anchor is named but it is not clearly right before the habit.",
+            "3": "A specific daily action that reliably happens just before the habit, such as 'After I pour my morning chai'."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "after i",
+            "flags": "i",
+            "label": "Uses the 'After I ...' format"
+          }
+        },
+        {
+          "id": "tiny",
+          "label": "Tiny, easy-to-do action",
+          "weight": 30,
+          "descriptors": {
+            "0": "A big action such as 'study for two hours'.",
+            "1": "A moderate action that still needs willpower on a bad day.",
+            "2": "A small action but the size or count is not clear.",
+            "3": "A clearly tiny action with a size, such as 'review three flashcards' or 'two minutes'."
+          }
+        },
+        {
+          "id": "context",
+          "label": "Place and reward",
+          "weight": 20,
+          "descriptors": {
+            "0": "Neither a place nor a reward is mentioned.",
+            "1": "Only one of place or reward is mentioned, vaguely.",
+            "2": "Both are mentioned but one is vague.",
+            "3": "A specific place and a satisfying, immediate reward are both stated."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "reward",
+              "tick",
+              "chai",
+              "tea",
+              "treat",
+              "calendar",
+              "desk",
+              "table",
+              "bed"
+            ],
+            "min": 2,
+            "label": "Mentions a place and a reward"
+          }
+        },
+        {
+          "id": "backup",
+          "label": "Backup or bad-day version",
+          "weight": 20,
+          "descriptors": {
+            "0": "No plan for a difficult day.",
+            "1": "A vague promise to try harder.",
+            "2": "A backup is mentioned but it is not smaller than the main habit.",
+            "3": "An explicit if-then backup that is smaller or easier than the main habit."
+          }
+        }
+      ],
+      "modelAnswer": "After I finish my evening chai at my study table, I will review three ABAP flashcards. Then I will tick the day on my wall calendar and enjoy ten minutes of music. If I reach home late, then I will review one flashcard on my phone while brushing my teeth, so the day still counts.",
+      "guidance": "A strong script has a daily anchor that really exists, a habit you cannot refuse (three flashcards, not thirty), a named place, an immediate reward, and a smaller backup version. The common mistake is writing an ambitious goal and calling it a script. If your habit would feel hard on your worst day, shrink it until it would not. Score yourself against the model answer."
+    },
+    {
+      "id": "discipline-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "discipline.identity",
+      "prompt": "You planned to study ABAP for 90 minutes daily. You managed it for four days, then missed three in a row because of a college deadline. You feel like a person who 'never sticks to anything'. What is the best next step?",
+      "options": [
+        {
+          "text": "Restart on Monday with a stricter 120-minute plan to make up for the lost days.",
+          "score": 0,
+          "feedback": "A bigger plan after a failure repeats the same mistake. It will collapse on the next busy day and strengthen the 'I never stick' story."
+        },
+        {
+          "text": "Wait until you feel motivated again, then restart properly.",
+          "score": 1,
+          "feedback": "Motivation is unreliable. Waiting leaves the gap open and the identity damage unrepaired."
+        },
+        {
+          "text": "Tonight, after dinner, do a five-minute version of the habit and tick the calendar, telling yourself 'I am someone who studies daily, and I am back'.",
+          "score": 3,
+          "feedback": "This restores a vote for your identity today, uses a tiny version that survives a busy week, and rebuilds the loop. You can grow the time later."
+        },
+        {
+          "text": "Change your goal to something easier, such as learning ABAP 'sometime this year'.",
+          "score": 1,
+          "feedback": "Shrinking the goal into vagueness removes the cue and the accountability. Shrink the action, not the commitment."
+        }
+      ],
+      "why": "A missed streak is a data point about the plan, not a verdict on you. The best response is an immediate, tiny, specific action that casts a vote for the identity you want. Bigger plans and waiting both depend on motivation, which is exactly what failed."
+    }
+  ],
+  "task": {
+    "title": "Build your habit script card",
+    "brief": "Create one complete habit-stacking script for a habit that matters to your SAP ABAP goal and set it up to start tomorrow.",
+    "steps": [
+      "List three things you do every single day without fail, such as chai, brushing teeth or opening your laptop. Choose the one that happens closest to when you could practise.",
+      "Write the script in your notes: After I [anchor], I will [tiny habit of 2 to 5 minutes] at [place].",
+      "Add a reward that you actually enjoy and a backup line: If [bad-day situation], then I will [even smaller version].",
+      "Add one identity line, starting with 'I am someone who...', and place the note or a sticky where you will see it at the anchor.",
+      "Do the tiny habit once today to test the script and tick the day."
+    ],
+    "checklist": [
+      "My anchor is something I do every day",
+      "My tiny habit takes five minutes or less",
+      "I wrote a reward and a bad-day backup",
+      "I wrote an identity line",
+      "I did the habit once today"
+    ],
+    "evidencePrompt": "Write your complete script: anchor, tiny habit, reward and identity line.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "discipline-1.q1",
+      "type": "mcq",
+      "concept": "discipline.habit-loop",
+      "prompt": "A friend says: 'I scroll my phone every night because I am just weak.' Using the habit loop, what is the most useful question to ask?",
+      "options": [
+        "How can I punish myself when I scroll?",
+        "What cue starts it and what reward does it give me?",
+        "Why do I have less willpower than others?",
+        "How can I delete all my apps forever?"
+      ],
+      "answer": 1,
+      "why": "A habit is a loop, so the useful move is to find the cue and the reward, then change one part. Punishment and blaming willpower do not change the loop, and deleting everything is extreme and often reversed."
+    },
+    {
+      "id": "discipline-1.q2",
+      "type": "mcq",
+      "concept": "discipline.tiny-habits",
+      "prompt": "What is the main purpose of a tiny habit such as 'write one line of code'?",
+      "options": [
+        "To finish the project faster",
+        "To make starting automatic, so the habit can grow later",
+        "To test how much willpower you have",
+        "To replace your long-term goals"
+      ],
+      "answer": 1,
+      "why": "Tiny habits make showing up automatic and easy on bad days. They do not replace the goal; they build the loop that carries you toward it. Testing willpower defeats the purpose, which is to need none."
+    },
+    {
+      "id": "discipline-1.q3",
+      "type": "fill",
+      "concept": "discipline.implementation",
+      "prompt": "Complete the habit-stacking formula with one word: 'After I [current habit], I will [new ____ habit].'",
+      "accept": [
+        "tiny",
+        "small"
+      ],
+      "why": "The new habit should be tiny, so that the stack works even on a day when you have little energy."
+    },
+    {
+      "id": "discipline-1.q4",
+      "type": "mcq",
+      "concept": "discipline.identity",
+      "prompt": "Which statement is an identity-based habit rather than a goal?",
+      "options": [
+        "I want to lose 5 kg by December.",
+        "I will run three times a week.",
+        "I will read for one hour daily.",
+        "I am a person who moves every day, so I took a short walk after lunch."
+      ],
+      "answer": 3,
+      "why": "The last statement ties the action to who you are and counts the small action as a vote. The others state outcomes or schedules that can fail on a bad day."
+    }
+  ],
+  "bank": [
+    {
+      "id": "discipline-1.b1",
+      "type": "mcq",
+      "concept": "discipline.implementation",
+      "prompt": "Which of these is the strongest implementation intention?",
+      "options": [
+        "I will try to wake up early.",
+        "When my 6:15 am alarm rings, I will put my feet on the floor and drink a glass of water at my desk.",
+        "I will exercise whenever I feel energetic.",
+        "I should drink more water."
+      ],
+      "answer": 1,
+      "why": "It names a specific cue (alarm), an action, and a place. The others are wishes or conditions based on feelings, which do not reliably appear."
+    },
+    {
+      "id": "discipline-1.b2",
+      "type": "mcq",
+      "concept": "discipline.habit-loop",
+      "prompt": "Meera replaces her 4 pm tea-and-biscuit break with a plain walk, but she keeps relapsing. She realises the break gave her a social chat with colleagues. What should she do?",
+      "options": [
+        "Remove the walk and return to biscuits",
+        "Walk with a colleague and chat on the way",
+        "Force herself to walk alone to build discipline",
+        "Skip the break completely"
+      ],
+      "answer": 1,
+      "why": "The real reward was the social contact. A new routine must satisfy the same reward, so walking with a colleague keeps the loop intact. The other options ignore the reward or rely on willpower."
+    },
+    {
+      "id": "discipline-1.b3",
+      "type": "fill",
+      "concept": "discipline.tiny-habits",
+      "prompt": "A student plans two minutes of Python practice daily for 60 days. How many total minutes is that? (number only)",
+      "accept": [
+        "120",
+        "120 minutes",
+        "120 min",
+        "120 mins"
+      ],
+      "why": "2 x 60 = 120 minutes. The value of the plan lies mostly in 60 consecutive cues answered, not in the 120 minutes."
+    }
+  ],
+  "cards": [
+    {
+      "id": "discipline-1.c1",
+      "concept": "discipline.habit-loop",
+      "front": "What are the three parts of a habit loop?",
+      "back": "Cue (trigger), routine (the action), reward (the payoff that makes it repeat). To change a habit, keep the cue and reward and swap the routine."
+    },
+    {
+      "id": "discipline-1.c2",
+      "concept": "discipline.tiny-habits",
+      "front": "Why start with a tiny habit?",
+      "back": "A tiny version survives tired, busy days, so it makes starting automatic. Five minutes daily for 30 days is 150 minutes and a working loop."
+    },
+    {
+      "id": "discipline-1.c3",
+      "concept": "discipline.implementation",
+      "front": "Write the habit-stacking formula.",
+      "back": "After I [specific, reliable current habit], I will [tiny new habit] at [place]. Add a reward and an if-then backup for bad days."
+    },
+    {
+      "id": "discipline-1.c4",
+      "concept": "discipline.identity",
+      "front": "What is an identity vote?",
+      "back": "Each small action is evidence for the person you are becoming, such as 'I am someone who writes code daily'. A slip does not cancel the identity; a tiny return restores it."
+    }
+  ],
+  "reflection": "Which daily habit of yours could serve as the most reliable anchor for a new tiny habit, and what identity would that tiny habit be a vote for?",
+  "revision": {
+    "keyPoints": [
+      "Every habit is cue, routine, reward; change the routine, keep the reward.",
+      "Make the habit tiny so you can do it on your worst day.",
+      "After I [anchor], I will [tiny habit] at [place].",
+      "Each repetition is a vote for who you are becoming."
+    ],
+    "redo": "Say your habit-stacking script aloud from memory, then do the tiny habit once and tick the day."
+  }
+}

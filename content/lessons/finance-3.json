@@ -1,0 +1,348 @@
+{
+  "id": "finance-3",
+  "skillId": "finance",
+  "n": 3,
+  "title": "Investing Basics and Risk",
+  "summary": "Understand common Indian saving and investing options, SIPs, index funds, diversification, risk versus return and the warning signs of scams.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Describe what savings accounts, fixed deposits, PPF, EPF, mutual funds, index funds and gold are and how they differ.",
+    "Explain how SIPs, diversification and the risk-return trade-off work.",
+    "Spot common investment scam warning signs and verify an adviser safely."
+  ],
+  "concepts": [
+    {
+      "id": "finance.safe-options",
+      "label": "Savings accounts, FDs, PPF and EPF"
+    },
+    {
+      "id": "finance.funds-sip",
+      "label": "Mutual funds, index funds and SIPs"
+    },
+    {
+      "id": "finance.risk-diversify",
+      "label": "Risk, return and diversification"
+    },
+    {
+      "id": "finance.scams",
+      "label": "Spotting investment scams"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "A map, not a recommendation",
+      "body": "After learning about compounding and inflation, the natural question is where money can grow. This lesson is educational, not personal advice. Rules, tax treatment and interest rates change, so check current details with the official source or a registered professional before acting. Think of this as a map of the main roads."
+    },
+    {
+      "heading": "Low-risk options",
+      "body": "A **savings account** keeps money safe and instantly reachable, but pays low interest, so it suits your emergency fund and near-term spending. A **fixed deposit (FD)** locks money with a bank for a fixed period at a rate agreed in advance. Breaking it early usually carries a penalty. The **Public Provident Fund (PPF)** is a government-backed long-term savings scheme with a long lock-in. The **Employees' Provident Fund (EPF)** is a retirement saving to which you and your employer contribute from salary. Both have rules and rates that the government revises, so treat any number you hear as temporary. These options give predictability, but returns may barely beat inflation, which you saw last time."
+    },
+    {
+      "heading": "Mutual funds, index funds and SIPs",
+      "body": "A **mutual fund** pools money from many investors and a fund manager invests it in shares, bonds or both. You own **units**, priced at the **NAV** (net asset value per unit), and the price moves with the market. An **index fund** simply copies a market index such as a broad list of large companies, with low costs and no attempt to beat the market. A **SIP** (systematic investment plan) is not a product; it is a method of investing a fixed amount at regular intervals into a fund.\n\nExample: ₹5,000 a month buys units at NAVs of ₹50, ₹40 and ₹62.50. That is 100 + 125 + 80 = 305 units for ₹15,000, an average cost of about ₹49.18 per unit, slightly below the simple average NAV of about ₹50.83. SIPs reduce the stress of timing the market, but they do not guarantee profit. Value can fall, especially over short periods."
+    },
+    {
+      "heading": "Risk, return and diversification",
+      "body": "**Risk** here means the chance that results differ from what you expect, including losing money. Higher potential **return** generally comes with higher risk, and no one can reliably give high returns with no risk. The longer your horizon, the more short-term swings you can ride out; money needed within a year or two should not sit in volatile assets.\n\n**Diversification** means spreading money over different assets and sectors so that one failure does not wreck everything: \"do not keep all your eggs in one basket\". Gold is often used as a diversifier because its price does not always move with shares, though it can also fall and pays no interest. An index fund is diversified by design; putting your whole savings into one friend's start-up or a single stock is not."
+    },
+    {
+      "heading": "Spotting scams",
+      "body": "Common warning signs are **guaranteed high returns**, pressure to decide today, promises of doubling money, requests to recruit friends, tips from social media or messaging groups, unregistered advisers, and requests to move money to personal accounts or wallets. Genuine investments clearly state that returns are not guaranteed. In India, advisers, brokers and funds should be registered with the market regulator, so ask for the registration number and check it on the regulator's official site yourself rather than from a link they send. Never share OTPs or PINs. If something is too good to be true, walk away and talk to someone you trust."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Matching the goal to the tool",
+      "body": "Neha has three goals: ₹60,000 emergency fund, a laptop in 8 months, and a retirement saving she will not touch for 30 years. In general terms, the first two need safety and quick access, such as a savings account or short FD. The third can tolerate market swings, because there are decades to recover, and may use a diversified index fund.",
+      "takeaway": "Time horizon decides how much risk is sensible for each goal."
+    },
+    {
+      "title": "A scam message",
+      "body": "A message in a Telegram group says: \"Invest ₹10,000, get ₹30,000 in 15 days, guaranteed. Only 5 slots left. Bring two friends and earn extra.\" A return of 200 percent in 15 days would mean a 72 / ... rule-of-72 doubling in days, which no genuine investment can promise. Guaranteed, urgent, recruit-friends and no registration are four red flags at once.",
+      "takeaway": "Count the red flags; one is enough to pause and verify."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "finance-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "finance.safe-options",
+      "prompt": "Which statement about a fixed deposit is correct?",
+      "options": [
+        "It locks money for a set period at an agreed rate, and early withdrawal may carry a penalty",
+        "Its value changes daily with the share market",
+        "It is the same as a SIP",
+        "It always beats inflation"
+      ],
+      "answer": 0,
+      "why": "An FD is a fixed-term deposit with an agreed rate. It is not market-linked, not a SIP, and cannot promise to beat inflation."
+    },
+    {
+      "id": "finance-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "finance.funds-sip",
+      "prompt": "Investing a fixed amount into a fund every month is called a ____. (three-letter abbreviation)",
+      "accept": [
+        "sip",
+        "systematic investment plan"
+      ],
+      "why": "SIP stands for systematic investment plan; it is a method, not a product."
+    },
+    {
+      "id": "finance-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "finance.scams",
+      "prompt": "A \"financial coach\" you met online promises 25 percent monthly returns, says it is guaranteed, and asks you to transfer money to his personal UPI ID today. What should you do?",
+      "options": [
+        {
+          "text": "Send a small amount to test.",
+          "score": 1,
+          "feedback": "A small test still funds the fraud and invites bigger asks."
+        },
+        {
+          "text": "Decline, do not share OTPs or PINs, and check any claimed registration through the regulator's official site on your own.",
+          "score": 3,
+          "feedback": "Guaranteed returns, urgency and a personal account are red flags; verifying independently is the safe habit."
+        },
+        {
+          "text": "Send it quickly before slots end.",
+          "score": 0,
+          "feedback": "Pressure and urgency are classic scam tactics."
+        },
+        {
+          "text": "Ask him to send a screenshot of profits.",
+          "score": 0,
+          "feedback": "Screenshots are easily faked and prove nothing."
+        }
+      ],
+      "why": "Guaranteed high returns, deadlines and personal accounts are classic scam signs. Verify independently and never rush."
+    },
+    {
+      "id": "finance-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "finance.risk-diversify",
+      "prompt": "You are 22 with ₹1,00,000 and three goals: a ₹30,000 emergency fund, a ₹40,000 purchase in 1 year, and ₹30,000 for a long-term goal 15 years away. In general terms (not advice), write how risk and time horizon affect what kind of option suits each goal, and why you would not put all of it in one asset.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "horizon",
+          "label": "Links horizon to risk",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentions horizon only.",
+            "2": "Links short goals to safer options.",
+            "3": "Links each goal to a sensible risk level with reasons."
+          }
+        },
+        {
+          "id": "diversify",
+          "label": "Explains diversification",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentioned only.",
+            "2": "Explains spreading risk.",
+            "3": "Explains it with the goals as examples."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "diversif",
+              "spread",
+              "basket",
+              "one asset"
+            ],
+            "min": 1,
+            "label": "Mentions diversification"
+          }
+        },
+        {
+          "id": "caution",
+          "label": "Notes no guarantees or checking rules",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Notes returns are not guaranteed.",
+            "3": "Notes no guarantee and rules/rates change."
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear structure",
+          "weight": 20,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Muddled.",
+            "2": "Mostly clear.",
+            "3": "Clear, goal by goal."
+          }
+        }
+      ],
+      "modelAnswer": "The emergency fund and the one-year purchase need safety and quick access, so a savings account or short deposit makes sense; a market fall could leave me short when I need the money. The 15-year goal can take swings, so a diversified fund may suit it, though returns are never guaranteed and rules change. Putting everything in one asset is risky because one failure would hit all three goals; spreading across assets limits the damage.",
+      "guidance": "A strong answer treats each goal separately, uses time horizon, and states that returns are not guaranteed. Avoid naming a \"best\" product or promising returns. Common mistakes are using high-risk options for short-term money and thinking diversification removes all risk. Self-rate against the model."
+    }
+  ],
+  "task": {
+    "title": "Goal-to-tool map",
+    "brief": "Create a one-page map of three real or imagined goals matched to safe, medium or higher-risk options in general terms.",
+    "steps": [
+      "Write three goals with amounts and time horizons.",
+      "For each goal write whether you need safety, balance or growth and why.",
+      "Name the general category of option (such as savings account, FD or diversified fund) and one risk of it.",
+      "Write three scam red flags you will watch for."
+    ],
+    "checklist": [
+      "I wrote three goals with horizons",
+      "I matched risk to horizon",
+      "I named a risk for each option",
+      "I listed three red flags"
+    ],
+    "evidencePrompt": "Paste your three goals with the category and risk for each.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "finance-3.q1",
+      "type": "mcq",
+      "concept": "finance.safe-options",
+      "prompt": "EPF is mainly:",
+      "options": [
+        "A short-term trading tool",
+        "A type of gold",
+        "A retirement saving funded by employee and employer from salary",
+        "A credit card"
+      ],
+      "answer": 2,
+      "why": "EPF accumulates from salary contributions for retirement."
+    },
+    {
+      "id": "finance-3.q2",
+      "type": "fill",
+      "concept": "finance.funds-sip",
+      "prompt": "A mutual fund unit is priced at its ____, short for net asset value. (abbreviation)",
+      "accept": [
+        "nav"
+      ],
+      "why": "NAV is the per-unit value of the fund."
+    },
+    {
+      "id": "finance-3.q3",
+      "type": "mcq",
+      "concept": "finance.risk-diversify",
+      "prompt": "Diversification means:",
+      "options": [
+        "Putting everything in your best idea",
+        "Spreading money across different assets to reduce reliance on one",
+        "Avoiding all risk",
+        "Investing only in gold"
+      ],
+      "answer": 1,
+      "why": "Spreading reduces the damage if one asset fails, but never removes risk."
+    },
+    {
+      "id": "finance-3.q4",
+      "type": "mcq",
+      "concept": "finance.scams",
+      "prompt": "Which is the biggest red flag?",
+      "options": [
+        "A registered adviser stating risks",
+        "A guaranteed high return with pressure to decide today",
+        "A fund stating returns are not guaranteed",
+        "A written fee statement"
+      ],
+      "answer": 1,
+      "why": "Guaranteed high returns plus urgency are classic scam signals."
+    }
+  ],
+  "bank": [
+    {
+      "id": "finance-3.b1",
+      "type": "mcq",
+      "concept": "finance.funds-sip",
+      "prompt": "In a SIP, the NAV is ₹50 in month one and ₹40 in month two. With ₹2,000 each month, how many units are bought in total?",
+      "options": [
+        "90",
+        "85",
+        "40",
+        "100"
+      ],
+      "answer": 1,
+      "why": "Month one buys 40 units and month two buys 50, a total of 90. Check: 2,000/50 = 40 and 2,000/40 = 50, so 90 units."
+    },
+    {
+      "id": "finance-3.b2",
+      "type": "mcq",
+      "concept": "finance.risk-diversify",
+      "prompt": "Money you need for fees in 6 months is best kept:",
+      "options": [
+        "In a highly volatile asset for faster growth",
+        "In a safe, easily accessible option",
+        "In one friend's start-up",
+        "Invested in a single stock"
+      ],
+      "answer": 1,
+      "why": "Short-term money should avoid volatility so that a market fall does not leave you short."
+    },
+    {
+      "id": "finance-3.b3",
+      "type": "fill",
+      "concept": "finance.scams",
+      "prompt": "A genuine investment cannot honestly offer ____ high returns. (one word)",
+      "accept": [
+        "guaranteed",
+        "guarantee"
+      ],
+      "why": "No honest investment can guarantee high returns because returns depend on risk and markets."
+    }
+  ],
+  "cards": [
+    {
+      "id": "finance-3.c1",
+      "concept": "finance.safe-options",
+      "front": "What are FD, PPF and EPF in one line each?",
+      "back": "FD: fixed-term bank deposit at an agreed rate. PPF: government-backed long-term scheme. EPF: retirement saving funded by you and your employer. Rules and rates change."
+    },
+    {
+      "id": "finance-3.c2",
+      "concept": "finance.funds-sip",
+      "front": "What is a SIP?",
+      "back": "A method of investing a fixed amount regularly into a fund. It is not a product, and it does not guarantee profit."
+    },
+    {
+      "id": "finance-3.c3",
+      "concept": "finance.risk-diversify",
+      "front": "Risk, return and time horizon?",
+      "back": "Higher potential return comes with higher risk. Short-term money needs safety; long horizons can tolerate swings. Spread across assets."
+    },
+    {
+      "id": "finance-3.c4",
+      "concept": "finance.scams",
+      "front": "Top scam red flags?",
+      "back": "Guaranteed returns, urgency, doubling promises, recruiting friends, unregistered advisers and personal accounts. Verify registration yourself."
+    }
+  ],
+  "reflection": "Which of your financial goals has a short time horizon, and what does that suggest about how much risk you should accept for it?",
+  "revision": {
+    "keyPoints": [
+      "Match the option to the goal and time horizon.",
+      "SIP is a method; index funds copy a market index.",
+      "Higher return generally means higher risk; diversify.",
+      "Guaranteed high returns and urgency signal scams."
+    ],
+    "redo": "List one goal for each of safety, balance and growth and the risk of each option."
+  }
+}

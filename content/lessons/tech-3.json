@@ -1,0 +1,345 @@
+{
+  "id": "tech-3",
+  "skillId": "tech",
+  "n": 3,
+  "title": "Version Control and Collaboration",
+  "summary": "Use the Git mental model of commits, branches, merges and pull requests, write useful commit messages, resolve simple conflicts and undo safely.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain commits, branches, merges and pull requests with a clear mental model.",
+    "Write commit messages that others can understand months later.",
+    "Resolve a simple merge conflict and undo mistakes safely."
+  ],
+  "concepts": [
+    {
+      "id": "tech.git-model",
+      "label": "The Git mental model"
+    },
+    {
+      "id": "tech.commit-messages",
+      "label": "Commit messages"
+    },
+    {
+      "id": "tech.branches-prs",
+      "label": "Branches and pull requests"
+    },
+    {
+      "id": "tech.conflicts-undo",
+      "label": "Conflicts and safe undo"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "The Git mental model",
+      "body": "Last lesson you worked on safe, efficient data access. Today is about keeping code safe and shared. **Git** is a version control system: it records the history of your project so you can see what changed, go back and work with others without overwriting each other.\n\nThe key idea is that Git stores **snapshots**. A **commit** is a snapshot of the whole project at a moment, with a message, an author and a pointer to the previous commit. Changes move through three places: your **working directory** (files you edit), the **staging area** (changes chosen for the next commit, using git add) and the **repository** (saved commits, using git commit). Because commits are cheap and local, you can commit often and nothing is lost until you choose."
+    },
+    {
+      "heading": "Commit messages that help",
+      "body": "A commit message is a note to a future teammate, often yourself in three months. Good messages explain **what changed and why**, in a short first line of roughly 50 characters, in the imperative: \"Fix tax rounding in invoice total\". A longer body can follow after a blank line if the reason is not obvious.\n\nCompare \"changes\", \"fix\" and \"final version 2\" with \"Add input check for empty order number\" or \"Handle missing customer in report query\". The second group lets people search history and understand intent. Keep one logical change per commit: do not mix a bug fix, a rename and a new feature, because small commits are easy to review and easy to undo."
+    },
+    {
+      "heading": "Branches and pull requests",
+      "body": "A **branch** is an independent line of work. The main branch holds stable code. For each task you create a branch, for example feature/order-report, commit there, and the main branch stays safe. When the work is ready you open a **pull request** (PR): a request to merge your branch into main, with a description and a review by teammates. A **merge** combines the histories.\n\nA healthy flow is: pull the latest main, create a branch, make small commits, push the branch, open a PR, respond to review comments, then merge. Keep branches short-lived, because the longer a branch lives, the more it drifts from main and the harder the merge. Write PR descriptions that explain the goal, how you tested, and anything the reviewer should look at closely."
+    },
+    {
+      "heading": "Conflicts and safe undo",
+      "body": "A **merge conflict** happens when two branches changed the same lines. Git cannot decide, so it marks the file:\n\n```\n<<<<<<< HEAD\ntax = amount * 0.18\n=======\ntax = amount * rate\n>>>>>>> feature/rate-param\n```\n\nThe part above the equals line is your current branch; below is the incoming branch. Read both, decide the correct final code (here probably the parameter version), delete the marker lines, test, then stage and commit.\n\nFor undoing, prefer safe tools. **git restore** discards uncommitted edits to a file. **git revert** creates a new commit that reverses an earlier one, safe on shared branches because history is not rewritten. **git reset --hard** destroys uncommitted work and rewriting pushed history upsets teammates, so avoid both unless you fully understand them. Before risky steps, run git status and make a backup branch."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Before and after commit messages",
+      "body": "Weak history: \"update\", \"changes\", \"fix again\". Strong history: \"Add validation for negative quantity in order form\", \"Fix off-by-one error in pagination\", \"Move database config to environment variables\". A teammate searching for the pagination bug finds the right commit in seconds.",
+      "takeaway": "Imperative, specific messages make history searchable and reviewable."
+    },
+    {
+      "title": "Resolving a conflict calmly",
+      "body": "Two students changed the same line in config.js: one set the port to 3000, the other made it read from an environment variable. Git marks the conflict. They read both versions, agree the environment variable with a default of 3000 is best, delete the markers, run the app, then commit with \"Resolve conflict: read port from environment\".",
+      "takeaway": "Conflicts are a conversation between two intentions; decide, remove markers, test and commit."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tech-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "tech.git-model",
+      "prompt": "Which sequence moves a change into saved history?",
+      "options": [
+        "edit, add (stage), commit",
+        "commit, add, edit",
+        "push, edit, add",
+        "branch, delete, edit"
+      ],
+      "answer": 0,
+      "why": "You edit in the working directory, stage with git add, then record with git commit. Commit cannot come before staging."
+    },
+    {
+      "id": "tech-3.e2",
+      "level": 1,
+      "type": "mcq",
+      "concept": "tech.commit-messages",
+      "prompt": "Which commit message is best?",
+      "options": [
+        "stuff",
+        "Fix bug",
+        "Fix rounding error in invoice tax total",
+        "Final version 2 new"
+      ],
+      "answer": 2,
+      "why": "It says what changed and where, in the imperative. The others tell a future reader nothing."
+    },
+    {
+      "id": "tech-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "tech.branches-prs",
+      "prompt": "You have finished a small feature on your own branch and the main branch is protected. What is the best next step?",
+      "options": [
+        {
+          "text": "Push straight to main to save time.",
+          "score": 0,
+          "feedback": "Bypassing review risks breaking stable code and ignores team rules."
+        },
+        {
+          "text": "Open a pull request with a clear description and how you tested, and ask for review.",
+          "score": 3,
+          "feedback": "A PR with context lets teammates review and merge safely."
+        },
+        {
+          "text": "Keep the branch for a month and merge everything at once.",
+          "score": 1,
+          "feedback": "Long-lived branches drift from main and create painful conflicts."
+        },
+        {
+          "text": "Email the files to a teammate.",
+          "score": 1,
+          "feedback": "This bypasses version control and loses history."
+        }
+      ],
+      "why": "Short-lived branches merged through reviewed pull requests keep main stable."
+    },
+    {
+      "id": "tech-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "tech.conflicts-undo",
+      "prompt": "You merged main into your branch and Git reports a conflict in a file. Explain, step by step, how you would resolve it and verify the result. Then say which command you would use to undo a pushed commit on a shared branch and why.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "read",
+          "label": "Reads both versions",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentions markers only.",
+            "2": "Reads versions without deciding.",
+            "3": "Explains markers and chooses the correct final code from both sides."
+          }
+        },
+        {
+          "id": "finish",
+          "label": "Removes markers, tests and commits",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Removes markers only.",
+            "2": "Removes and commits.",
+            "3": "Removes markers, runs tests, stages and commits."
+          }
+        },
+        {
+          "id": "undo",
+          "label": "Chooses git revert",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Suggests reset hard.",
+            "2": "Mentions revert without reason.",
+            "3": "Chooses revert and explains history is not rewritten."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "revert"
+            ],
+            "min": 1,
+            "label": "Mentions git revert"
+          }
+        },
+        {
+          "id": "safety",
+          "label": "Safety habits",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague care.",
+            "2": "Mentions status or backup.",
+            "3": "Mentions git status or a backup branch before risky steps."
+          }
+        }
+      ],
+      "modelAnswer": "I open the conflicted file, read the version between the markers, and talk to the other author if needed. I choose the correct final code, delete the marker lines, run the app and tests, then stage the file and commit. To undo a pushed commit on a shared branch I use git revert, because it adds a new commit that reverses the change without rewriting history others have pulled. Before risky steps I run git status and make a backup branch.",
+      "guidance": "A strong answer follows read, decide, clean markers, test, stage and commit, then names git revert for shared history. Common mistakes are deleting one side blindly, forgetting to test, and recommending reset hard on pushed commits. Score yourself honestly."
+    }
+  ],
+  "task": {
+    "title": "Practise Git in a sandbox repository",
+    "brief": "Create a throwaway repository and practise the full cycle including a conflict.",
+    "steps": [
+      "Create a folder, run git init and make a first commit with a clear message.",
+      "Create a branch, change one line and commit it, then change the same line on main and commit.",
+      "Merge the branch and resolve the conflict by editing the markers.",
+      "Use git revert on one commit and check the history with git log."
+    ],
+    "checklist": [
+      "I made at least three commits with good messages",
+      "I created and merged a branch",
+      "I resolved one conflict",
+      "I used revert, not reset"
+    ],
+    "evidencePrompt": "Paste your git log lines and describe how you resolved the conflict.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "tech-3.q1",
+      "type": "mcq",
+      "concept": "tech.git-model",
+      "prompt": "What is a commit?",
+      "options": [
+        "A copy of one file",
+        "A snapshot of the project with a message and a link to the previous commit",
+        "A deleted branch",
+        "A password"
+      ],
+      "answer": 1,
+      "why": "Commits are snapshots linked in a chain, which forms the project history."
+    },
+    {
+      "id": "tech-3.q2",
+      "type": "fill",
+      "concept": "tech.commit-messages",
+      "prompt": "Good commit messages are written in the ____ mood, such as \"Add check\" rather than \"Added check\". (one word)",
+      "accept": [
+        "imperative"
+      ],
+      "why": "The imperative style reads like an instruction and is the usual convention."
+    },
+    {
+      "id": "tech-3.q3",
+      "type": "mcq",
+      "concept": "tech.branches-prs",
+      "prompt": "A pull request is:",
+      "options": [
+        "A way to download code",
+        "A request to merge a branch, usually with review",
+        "A kind of backup",
+        "A merge conflict"
+      ],
+      "answer": 1,
+      "why": "It proposes merging your branch into another and gives teammates a place to review."
+    },
+    {
+      "id": "tech-3.q4",
+      "type": "mcq",
+      "concept": "tech.conflicts-undo",
+      "prompt": "Which undo is safest on a shared branch?",
+      "options": [
+        "git reset --hard then force push",
+        "git revert",
+        "Delete the repository",
+        "Edit history quietly"
+      ],
+      "answer": 1,
+      "why": "Revert adds a new commit that reverses the old one and leaves shared history intact."
+    }
+  ],
+  "bank": [
+    {
+      "id": "tech-3.b1",
+      "type": "mcq",
+      "concept": "tech.conflicts-undo",
+      "prompt": "You see <<<<<<< and >>>>>>> markers in a file. What do they mean?",
+      "options": [
+        "The file is encrypted",
+        "A merge conflict needs manual resolution",
+        "Git is updating",
+        "A commit succeeded"
+      ],
+      "answer": 1,
+      "why": "Markers show where two branches changed the same lines and a person must decide the result."
+    },
+    {
+      "id": "tech-3.b2",
+      "type": "mcq",
+      "concept": "tech.commit-messages",
+      "prompt": "You fixed a bug and renamed a variable across files in one go. Best practice?",
+      "options": [
+        "One large commit",
+        "Two commits, one per logical change",
+        "Skip committing",
+        "Commit only the rename"
+      ],
+      "answer": 1,
+      "why": "One logical change per commit makes review and undo simple."
+    },
+    {
+      "id": "tech-3.b3",
+      "type": "fill",
+      "concept": "tech.branches-prs",
+      "prompt": "A long-lived branch is risky because it drifts from main and causes painful ____. (one word)",
+      "accept": [
+        "conflicts",
+        "merges",
+        "conflict"
+      ],
+      "why": "The longer a branch lives, the more its changes overlap with others and the harder merging becomes."
+    }
+  ],
+  "cards": [
+    {
+      "id": "tech-3.c1",
+      "concept": "tech.git-model",
+      "front": "What are the three places a change moves through in Git?",
+      "back": "Working directory (edit), staging area (git add) and repository (git commit). Commits are local snapshots until you push them."
+    },
+    {
+      "id": "tech-3.c2",
+      "concept": "tech.commit-messages",
+      "front": "What makes a commit message good?",
+      "back": "A short imperative first line saying what changed and why, one logical change per commit, and no vague words like fix or update alone."
+    },
+    {
+      "id": "tech-3.c3",
+      "concept": "tech.branches-prs",
+      "front": "Why use branches and pull requests?",
+      "back": "Branches isolate work so main stays stable. Pull requests let teammates review before merging. Keep branches short-lived."
+    },
+    {
+      "id": "tech-3.c4",
+      "concept": "tech.conflicts-undo",
+      "front": "How do you handle a conflict and undo?",
+      "back": "Read both sides, choose the correct code, delete markers, test and commit. Undo shared commits with git revert, not reset."
+    }
+  ],
+  "reflection": "Look at the last ten commit messages in any of your projects. Which would a teammate not understand, and how would you rewrite one?",
+  "revision": {
+    "keyPoints": [
+      "A commit is a snapshot; stage then commit.",
+      "Messages explain what and why in the imperative.",
+      "Short-lived branches merge through reviewed pull requests.",
+      "Resolve conflicts deliberately and use revert for shared undo."
+    ],
+    "redo": "Rewrite one vague commit message from your own project in imperative form."
+  }
+}

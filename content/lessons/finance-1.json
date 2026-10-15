@@ -1,0 +1,343 @@
+{
+  "id": "finance-1",
+  "skillId": "finance",
+  "n": 1,
+  "title": "Income, Spending and Budgeting",
+  "summary": "Track where your money goes, split it into needs, wants and savings, build an emergency fund and pay yourself first.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Track one month of income and spending, including UPI and card payments, and read your cash flow.",
+    "Split a monthly income into needs, wants and savings and adapt the split to your situation.",
+    "Calculate an emergency fund target and set up a pay-yourself-first habit."
+  ],
+  "concepts": [
+    {
+      "id": "finance.cash-flow",
+      "label": "Tracking cash flow"
+    },
+    {
+      "id": "finance.split",
+      "label": "Needs, wants and savings split"
+    },
+    {
+      "id": "finance.emergency-fund",
+      "label": "Emergency fund"
+    },
+    {
+      "id": "finance.pay-first",
+      "label": "Pay yourself first"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Know where the money goes",
+      "body": "Most students and freshers can say roughly what they earn, a stipend or salary, but cannot say where it went by the 20th. **Cash flow** is simply money coming in minus money going out in a period, usually a month. If more goes out than comes in, you are running a deficit and covering it with savings, a parent or a loan. If less goes out, you have a surplus.\n\nUPI makes spending feel weightless, because there is no cash leaving your hand. A ₹120 chai-and-snack, a ₹349 food order and a ₹199 subscription look small, but thirty of them make a large number. To track, export or scroll through one month of UPI, card and cash entries and put every item into a category: rent or hostel, food, travel, phone and internet, study costs, entertainment, shopping, other. The category totals, not the individual items, show you the pattern."
+    },
+    {
+      "heading": "Needs, wants and savings",
+      "body": "A popular starting guideline is the **50/30/20 split**: about 50 percent of income to needs, 30 percent to wants and 20 percent to savings and debt repayment. **Needs** are costs you cannot easily avoid: rent, groceries, commute, basic phone plan, insurance premiums, loan EMIs. **Wants** are things you can reduce without harm: eating out, extra subscriptions, new gadgets. **Savings** cover emergency fund, investments and extra loan repayment.\n\nTreat it as a starting point, not a law. Worked example: a trainee earns ₹25,000 a month. The guideline gives ₹12,500 for needs, ₹7,500 for wants and ₹5,000 for savings. If rent and food alone cost ₹16,000, needs are 64 percent, so the trainee might trim wants to 16 percent and keep savings at 20 percent. A fresher who lives with family may have needs of only 30 percent and can save much more. The skill is to decide the split consciously."
+    },
+    {
+      "heading": "The emergency fund",
+      "body": "An **emergency fund** is money set aside only for shocks such as a sudden job loss, a medical bill or an urgent repair. It keeps you from borrowing on a credit card at high interest. A common target is **three to six months of essential expenses**, not of income. Essentials are your needs.\n\nExample: essentials are ₹14,000 a month. Three months is 3 x 14,000 = ₹42,000 and six months is ₹84,000. If you can save ₹5,000 a month towards it, ₹42,000 takes 42,000 / 5,000 = 8.4 months, so about nine months. Keep this money somewhere safe and easy to reach, such as a savings account, separate from your daily account so you are not tempted. Someone with a stable family safety net may aim for the lower end; someone supporting parents or in an unstable job should aim higher."
+    },
+    {
+      "heading": "Pay yourself first",
+      "body": "If you save what is left at month-end, nothing is usually left. **Pay yourself first** means moving your savings amount out as soon as income arrives, ideally by an automatic standing instruction or SIP-style transfer on the day after payday. You then budget with the remaining money.\n\nStart small. Even ₹1,000 a month builds the habit, and you can raise it with every raise or stipend increase. A common mistake is a budget so strict that it fails in week two. Build in a small \"fun\" line, and review once a month for ten minutes. Educational note: this lesson explains concepts, and your own numbers will differ."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A month of UPI exposed",
+      "body": "Ananya, a 22-year-old intern earning ₹20,000, exported her month. Food delivery added up to ₹3,900 across 19 orders, which she had guessed at ₹1,500. Rent and mess were ₹9,000, travel ₹1,800, phone ₹400, shopping ₹2,500 and miscellaneous UPI transfers ₹1,600. She ended the month with only ₹800 left and no savings.",
+      "takeaway": "Category totals revealed a pattern that single payments hid; her guess was off by more than double."
+    },
+    {
+      "title": "Paying yourself first",
+      "body": "After seeing this, Ananya sets a standing instruction of ₹2,000 to a separate savings account on the 2nd of each month. She caps food delivery at ₹2,000 with a weekly spending limit in her UPI app and drops one subscription of ₹199. After three months she has ₹6,000 saved without ever feeling a sharp cut.",
+      "takeaway": "Automating the saving first and trimming one want is easier than relying on month-end willpower."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "finance-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "finance.cash-flow",
+      "prompt": "A friend says, \"I earn ₹30,000 and spend ₹33,000 in most months, but I am fine because I use my card.\" What does cash flow tell you?",
+      "options": [
+        "She has a surplus because the card pays for it",
+        "Her income is too high to matter",
+        "She has a monthly deficit of ₹3,000 that debt or savings is covering",
+        "Cash flow only counts physical cash"
+      ],
+      "answer": 2,
+      "why": "Cash flow is money in minus money out, here minus ₹3,000. A card only delays payment. The other options ignore the deficit or misread what cash flow measures."
+    },
+    {
+      "id": "finance-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "finance.emergency-fund",
+      "prompt": "Essential expenses are ₹18,000 a month. A six-month emergency fund in rupees would be ₹____. (number only)",
+      "accept": [
+        "108000",
+        "1,08,000",
+        "₹1,08,000",
+        "₹108000",
+        "108,000"
+      ],
+      "why": "Six months of essentials is 6 x 18,000 = ₹1,08,000. The target is based on essentials, not on total income or wants."
+    },
+    {
+      "id": "finance-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "finance.split",
+      "prompt": "You earn ₹30,000. Needs are ₹21,000, wants ₹7,000 and nothing is saved. Which adjustment is most sensible?",
+      "options": [
+        {
+          "text": "Ignore it, because the 50/30/20 split is a law and you cannot meet it.",
+          "score": 1,
+          "feedback": "The split is a guideline, so refusing to adapt it throws away a useful tool."
+        },
+        {
+          "text": "Cut wants to about ₹5,000 and move ₹2,000 to savings now, then raise savings as needs fall or income grows.",
+          "score": 3,
+          "feedback": "You start with a small realistic saving and adapt the guideline to your higher needs."
+        },
+        {
+          "text": "Stop all wants for six months and save ₹7,000 immediately.",
+          "score": 1,
+          "feedback": "A plan this strict usually collapses within weeks."
+        },
+        {
+          "text": "Save at month-end whatever remains.",
+          "score": 0,
+          "feedback": "Nothing is usually left at month-end, so savings stay at zero."
+        }
+      ],
+      "why": "The split is a starting guideline. With high needs you adjust it, starting with a small automatic saving rather than a perfect plan."
+    },
+    {
+      "id": "finance-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "finance.cash-flow",
+      "prompt": "Make a realistic monthly plan for a fresher earning ₹28,000. Write amounts for needs, wants and savings, state one thing you will cut or automate, and give an emergency fund target with the number of months it will take to reach it.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "split",
+          "label": "Split with amounts",
+          "weight": 30,
+          "descriptors": {
+            "0": "No amounts.",
+            "1": "Amounts missing for one group.",
+            "2": "All three groups with amounts that add up roughly to income.",
+            "3": "All three groups, amounts add up and are explained against needs."
+          }
+        },
+        {
+          "id": "action",
+          "label": "Specific cut or automation",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague like \"spend less\".",
+            "2": "One action but no size.",
+            "3": "One concrete action with an amount or schedule."
+          }
+        },
+        {
+          "id": "fund",
+          "label": "Emergency fund target and time",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Target but no time.",
+            "2": "Target based on months of expenses with rough time.",
+            "3": "Target from essentials, a monthly saving and months to reach it, correctly calculated."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes numbers"
+          }
+        },
+        {
+          "id": "realism",
+          "label": "Realism",
+          "weight": 15,
+          "descriptors": {
+            "0": "Impossible.",
+            "1": "Very strict.",
+            "2": "Mostly realistic.",
+            "3": "Realistic with a small fun allowance."
+          }
+        }
+      ],
+      "modelAnswer": "Income ₹28,000. Needs ₹15,500 (rent share, food, travel, phone), wants ₹6,500, savings ₹6,000. I will set a standing instruction of ₹6,000 on the 2nd and cap food delivery at ₹2,000. Essentials are ₹15,500, so a three-month fund is ₹46,500; at ₹4,000 a month towards it that is about 12 months, with the other ₹2,000 going to a long-term goal.",
+      "guidance": "A strong answer has amounts that add up, one concrete change and a fund calculated from essentials, not income. Common mistakes are leaving no savings, budgeting wants at zero, and mixing up income with essentials. Check your arithmetic and rate yourself honestly against the model."
+    }
+  ],
+  "task": {
+    "title": "Track one week of spending",
+    "brief": "Review the last seven days of UPI, card and cash spending, categorise it and set up one saving habit.",
+    "steps": [
+      "Open your UPI and bank history for the last 7 days and list each payment.",
+      "Put each into needs or wants and total each group.",
+      "Multiply the week by about four to estimate a month and compare it with your income.",
+      "Choose a saving amount and schedule it as a standing instruction or a calendar reminder for payday."
+    ],
+    "checklist": [
+      "I listed every payment from the week",
+      "I totalled needs and wants",
+      "I estimated a monthly figure",
+      "I chose a saving amount and a date"
+    ],
+    "evidencePrompt": "Write your needs total, wants total, monthly estimate and saving amount.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "finance-1.q1",
+      "type": "mcq",
+      "concept": "finance.cash-flow",
+      "prompt": "Cash flow in a month is:",
+      "options": [
+        "Money in minus money out",
+        "Only your salary",
+        "Only cash notes",
+        "Savings plus loans"
+      ],
+      "answer": 0,
+      "why": "Cash flow compares what comes in with what goes out."
+    },
+    {
+      "id": "finance-1.q2",
+      "type": "fill",
+      "concept": "finance.split",
+      "prompt": "In the 50/30/20 guideline, the percentage for savings and debt repayment is ____. (number only)",
+      "accept": [
+        "20",
+        "20%",
+        "20 percent",
+        "twenty"
+      ],
+      "why": "The guideline puts about 20 percent towards savings and debt repayment."
+    },
+    {
+      "id": "finance-1.q3",
+      "type": "mcq",
+      "concept": "finance.emergency-fund",
+      "prompt": "An emergency fund target is usually based on:",
+      "options": [
+        "Three to six months of total salary",
+        "Three to six months of essential expenses",
+        "One month of wants",
+        "Whatever is left each month"
+      ],
+      "answer": 1,
+      "why": "Essentials are what you must keep paying in an emergency, so the target is built on them."
+    },
+    {
+      "id": "finance-1.q4",
+      "type": "mcq",
+      "concept": "finance.pay-first",
+      "prompt": "What does pay yourself first mean?",
+      "options": [
+        "Spend on wants before bills",
+        "Pay your boss first",
+        "Move savings out on payday before spending",
+        "Save only if there is money left"
+      ],
+      "answer": 2,
+      "why": "Saving first and automatically avoids the problem of nothing being left."
+    }
+  ],
+  "bank": [
+    {
+      "id": "finance-1.b1",
+      "type": "mcq",
+      "concept": "finance.emergency-fund",
+      "prompt": "Rohan's essentials are ₹12,000 a month. He wants a four-month emergency fund. How much is that?",
+      "options": [
+        "₹36,000",
+        "₹48,000",
+        "₹60,000",
+        "₹24,000"
+      ],
+      "answer": 1,
+      "why": "Four times ₹12,000 is ₹48,000."
+    },
+    {
+      "id": "finance-1.b2",
+      "type": "mcq",
+      "concept": "finance.cash-flow",
+      "prompt": "Why does UPI spending often get underestimated?",
+      "options": [
+        "It is more expensive than cash",
+        "It feels weightless and many small payments add up unnoticed",
+        "It is not recorded",
+        "It cannot be categorised"
+      ],
+      "answer": 1,
+      "why": "Small, frictionless payments are easy to forget; category totals reveal the sum."
+    },
+    {
+      "id": "finance-1.b3",
+      "type": "fill",
+      "concept": "finance.pay-first",
+      "prompt": "Automating a transfer to savings on payday is called paying yourself ____. (one word)",
+      "accept": [
+        "first"
+      ],
+      "why": "Paying yourself first means saving before you spend."
+    }
+  ],
+  "cards": [
+    {
+      "id": "finance-1.c1",
+      "concept": "finance.cash-flow",
+      "front": "What is cash flow and how do you track it?",
+      "back": "Money in minus money out for a month. Categorise a full month of UPI, card and cash payments and read the category totals."
+    },
+    {
+      "id": "finance-1.c2",
+      "concept": "finance.split",
+      "front": "What is the 50/30/20 guideline?",
+      "back": "About 50 percent needs, 30 percent wants and 20 percent savings and debt repayment. Adapt it to your real income and needs."
+    },
+    {
+      "id": "finance-1.c3",
+      "concept": "finance.emergency-fund",
+      "front": "How big should an emergency fund be?",
+      "back": "Three to six months of essential expenses, kept in a safe, easy-to-reach account separate from daily spending."
+    },
+    {
+      "id": "finance-1.c4",
+      "concept": "finance.pay-first",
+      "front": "How do you pay yourself first?",
+      "back": "Set an automatic transfer to savings for the day after payday and budget with what remains. Start small and raise it over time."
+    }
+  ],
+  "reflection": "Looking at your last month, which category surprised you most, and what one automatic saving will you set up this week?",
+  "revision": {
+    "keyPoints": [
+      "Track categories, not single payments, to see the pattern.",
+      "The 50/30/20 split is a guideline you adapt.",
+      "Emergency fund is three to six months of essentials.",
+      "Automate saving on payday before you spend."
+    ],
+    "redo": "Categorise your last 10 payments and total needs and wants."
+  }
+}

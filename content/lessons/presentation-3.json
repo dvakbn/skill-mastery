@@ -1,0 +1,326 @@
+{
+  "id": "presentation-3",
+  "skillId": "presentation",
+  "n": 3,
+  "title": "Delivery, Nerves and Q&A",
+  "summary": "Deliver with controlled voice, pace, pauses and eye contact, rehearse effectively, manage nerves and handle questions including hard ones.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Use pace, pauses and eye contact deliberately.",
+    "Rehearse in layers and calm nerves.",
+    "Answer questions, including hard ones, in a structured way."
+  ],
+  "concepts": [
+    {
+      "id": "presentation.voice-pace",
+      "label": "Voice, pace and pauses"
+    },
+    {
+      "id": "presentation.rehearsal",
+      "label": "Rehearsal method"
+    },
+    {
+      "id": "presentation.nerves",
+      "label": "Managing nerves"
+    },
+    {
+      "id": "presentation.questions",
+      "label": "Handling questions"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Voice, pace and pauses",
+      "body": "Delivery carries the message. Speak slightly slower than normal conversation and a little louder than feels natural, since nerves speed you up. Vary pace: slow for key points, quicker for examples. Use **pauses** before and after an important line; a two-second pause feels long to you and seems confident to the audience. Replace filler words (\"um\", \"like\") with silence. Keep your eyes on one person for a full thought, then move to another. This builds connection and slows you down."
+    },
+    {
+      "heading": "Rehearsal method",
+      "body": "Rehearse in layers. First, **say the talk aloud** alone with a timer; reading silently hides problems. Second, rehearse **standing**, with your slides, in the room or a similar one. Third, rehearse **in front of one person** and ask for two specific comments: what was unclear and what was memorable. Record yourself once to check pace and posture. Practise the opening and the close most, because those are the hardest moments for nerves. A solid first sentence gets you through the first thirty seconds, after which most speakers settle. Plan your opening word for word and know exactly how you will end. Do not memorise word for word; memorise the order of points and a few key lines."
+    },
+    {
+      "heading": "Managing nerves",
+      "body": "Nerves are normal and even useful; your body is preparing you for something important. Reduce them in three ways. **Prepare**: familiarity cuts fear. **Calm the body**: slow breathing with a longer exhale for one minute before you start, relaxed shoulders, a sip of water. **Reframe**: replace \"I am terrified\" with \"I am excited and ready\". Arrive early, test equipment and start with a rehearsed opening line. If you lose your place, pause, look at your notes and continue. Audiences are generous to speakers who stay calm. Most people in the room are relieved it is not them presenting, and they are rooting for you to do well. Remember that a slip you feel as a disaster is usually invisible to listeners."
+    },
+    {
+      "heading": "Handling questions",
+      "body": "Treat questions as interest. Use four steps: **listen** to the whole question, **repeat or rephrase** it so everyone hears and you gain thinking time, **answer briefly**, then **check** (\"Does that answer it?\"). If you do not know, say so: \"I do not know; I will find out and email you by Friday\", then do it. For a hostile or tough question, stay calm, acknowledge the concern, answer the fair part and avoid arguing. If a question is off-topic, offer to discuss it afterwards. Plan the three most likely hard questions in advance and prepare answers."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Pause for impact",
+      "body": "Dev says, \"Our server was down for six hours.\" He pauses for two seconds, then continues, \"That cost us 400 orders.\" The pause lets the number land.",
+      "takeaway": "Pauses give weight to key lines."
+    },
+    {
+      "title": "A tough question",
+      "body": "Question: \"Why did you not use Python?\" Reply: \"Good question. We considered it. The team already knew Java and the deadline was tight. For the next module we are open to Python. Does that answer your concern?\"",
+      "takeaway": "Acknowledge, answer the fair part, stay calm."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "presentation-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "presentation.voice-pace",
+      "prompt": "To seem confident, you should:",
+      "options": [
+        "Use pauses and a steady pace",
+        "Speak as fast as possible",
+        "Avoid eye contact",
+        "Read the slides"
+      ],
+      "answer": 0,
+      "why": "Controlled pace and pauses sound confident."
+    },
+    {
+      "id": "presentation-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "presentation.questions",
+      "prompt": "When you do not know an answer, say so and promise to ____ out. (one word)",
+      "accept": [
+        "find",
+        "find out"
+      ],
+      "why": "Honesty plus follow-up builds trust."
+    },
+    {
+      "id": "presentation-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "presentation.questions",
+      "prompt": "List three hard questions someone could ask about a project or talk of yours and write a short answer plan (acknowledge, brief answer, check) for one of them.",
+      "minWords": 49,
+      "rubric": [
+        {
+          "id": "questions",
+          "label": "Three realistic hard questions",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "One or two.",
+            "2": "Three but easy.",
+            "3": "Three realistic hard questions."
+          }
+        },
+        {
+          "id": "structure",
+          "label": "Answer uses acknowledge and brief answer",
+          "weight": 40,
+          "descriptors": {
+            "0": "No plan.",
+            "1": "Defensive.",
+            "2": "Partly structured.",
+            "3": "Acknowledge, brief answer and check."
+          }
+        },
+        {
+          "id": "honesty",
+          "label": "Honest about limits",
+          "weight": 30,
+          "descriptors": {
+            "0": "Bluffs.",
+            "1": "Avoids.",
+            "2": "Admits one limit.",
+            "3": "Admits limits with a follow-up."
+          }
+        }
+      ],
+      "modelAnswer": "Questions: Why did you choose this design? What if the data grows tenfold? What was the biggest mistake? Plan for question 2: \"Good point. Today we handle 5,000 records. At 50,000 we would add indexing and move reports to a batch. I have not tested above 10,000 yet, so I would measure first. Does that address your concern?\"",
+      "guidance": "Strong plans acknowledge the question, answer briefly and honestly about limits and ask whether it was answered. Avoid arguing or bluffing."
+    },
+    {
+      "id": "presentation-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "presentation.nerves",
+      "prompt": "One minute before you present, your hands shake. Which is best?",
+      "options": [
+        {
+          "text": "Tell yourself to stop being nervous.",
+          "score": 0,
+          "feedback": "Commanding yourself rarely works."
+        },
+        {
+          "text": "Take slow breaths with a longer exhale, relax your shoulders and recall your opening line.",
+          "score": 3,
+          "feedback": "It calms the body and gives you a start."
+        },
+        {
+          "text": "Skim the whole script again.",
+          "score": 1,
+          "feedback": "Cramming adds more stress."
+        },
+        {
+          "text": "Drink three cups of coffee.",
+          "score": 0,
+          "feedback": "Caffeine increases your shakiness."
+        }
+      ],
+      "why": "Calm the body and start with a prepared line."
+    }
+  ],
+  "task": {
+    "title": "Rehearse and record",
+    "brief": "Rehearse a three-minute talk in three layers and review a recording.",
+    "steps": [
+      "Say the talk aloud once with a timer.",
+      "Rehearse standing in front of one person and ask for two comments.",
+      "Record yourself and note pace, pauses and fillers.",
+      "Prepare answers for three hard questions."
+    ],
+    "checklist": [
+      "I rehearsed aloud",
+      "I got two comments",
+      "I reviewed a recording",
+      "I prepared three answers"
+    ],
+    "evidencePrompt": "Write your two comments and your three hard questions.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "presentation-3.q1",
+      "type": "mcq",
+      "concept": "presentation.voice-pace",
+      "prompt": "Nerves usually make speakers:",
+      "options": [
+        "Slower",
+        "Quieter only",
+        "Faster",
+        "Funnier"
+      ],
+      "answer": 2,
+      "why": "Speed rises under nerves, so slow down on purpose."
+    },
+    {
+      "id": "presentation-3.q2",
+      "type": "mcq",
+      "concept": "presentation.rehearsal",
+      "prompt": "Which rehearsal step is most helpful first?",
+      "options": [
+        "Silent reading",
+        "Saying it aloud with a timer",
+        "Memorising word by word",
+        "Skipping practice"
+      ],
+      "answer": 1,
+      "why": "Speaking aloud reveals problems."
+    },
+    {
+      "id": "presentation-3.q3",
+      "type": "mcq",
+      "concept": "presentation.nerves",
+      "prompt": "A calming breathing pattern uses:",
+      "options": [
+        "A longer exhale",
+        "Holding breath",
+        "Fast panting",
+        "No breathing"
+      ],
+      "answer": 0,
+      "why": "Longer exhales slow the heart."
+    },
+    {
+      "id": "presentation-3.q4",
+      "type": "fill",
+      "concept": "presentation.questions",
+      "prompt": "Before answering, repeat or ____ the question. (one word)",
+      "accept": [
+        "rephrase",
+        "paraphrase"
+      ],
+      "why": "Rephrasing helps everyone hear it and gives you time."
+    }
+  ],
+  "bank": [
+    {
+      "id": "presentation-3.b1",
+      "type": "mcq",
+      "concept": "presentation.voice-pace",
+      "prompt": "A short pause before a key point makes it:",
+      "options": [
+        "Weaker",
+        "More memorable",
+        "Longer",
+        "Silly"
+      ],
+      "answer": 1,
+      "why": "Pauses add emphasis."
+    },
+    {
+      "id": "presentation-3.b2",
+      "type": "mcq",
+      "concept": "presentation.rehearsal",
+      "prompt": "What should you memorise?",
+      "options": [
+        "Every word",
+        "Order of points and key lines",
+        "Nothing",
+        "Only slides"
+      ],
+      "answer": 1,
+      "why": "Memorising order keeps delivery natural."
+    },
+    {
+      "id": "presentation-3.b3",
+      "type": "mcq",
+      "concept": "presentation.questions",
+      "prompt": "For an off-topic question you should:",
+      "options": [
+        "Argue",
+        "Offer to discuss afterwards",
+        "Ignore it",
+        "Leave"
+      ],
+      "answer": 1,
+      "why": "Redirect politely and keep the session on track."
+    }
+  ],
+  "cards": [
+    {
+      "id": "presentation-3.c1",
+      "concept": "presentation.voice-pace",
+      "front": "Delivery basics?",
+      "back": "Slow slightly, louder than natural, pause for key points, eye contact for a full thought."
+    },
+    {
+      "id": "presentation-3.c2",
+      "concept": "presentation.rehearsal",
+      "front": "Three rehearsal layers?",
+      "back": "Aloud with timer, standing with slides, in front of one person with feedback."
+    },
+    {
+      "id": "presentation-3.c3",
+      "concept": "presentation.nerves",
+      "front": "Calming nerves?",
+      "back": "Prepare, slow breathing with longer exhale, reframe to excitement, rehearsed opening."
+    },
+    {
+      "id": "presentation-3.c4",
+      "concept": "presentation.questions",
+      "front": "Four steps for questions?",
+      "back": "Listen, rephrase, answer briefly, check if answered."
+    }
+  ],
+  "reflection": "What does your body do when you present, and which of today's tools would help most?",
+  "revision": {
+    "keyPoints": [
+      "Slow down and pause.",
+      "Rehearse aloud in layers.",
+      "Calm the body and reframe.",
+      "Handle questions with structure and honesty."
+    ],
+    "redo": "Record yourself again and compare filler words with the first recording."
+  }
+}

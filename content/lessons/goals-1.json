@@ -1,0 +1,316 @@
+{
+  "id": "goals-1",
+  "skillId": "goals",
+  "n": 1,
+  "title": "Goals That Work",
+  "summary": "Tell outcome goals from process goals, use SMART properly, understand why goals fail, and write one goal precisely.",
+  "difficulty": 1,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Separate an outcome goal from the process goals that produce it.",
+    "Turn a vague wish into a SMART goal with a number, a deadline and a proof.",
+    "Name the three most common reasons goals fail and guard against them."
+  ],
+  "concepts": [
+    { "id": "goals.outcome-process", "label": "Outcome goals vs process goals" },
+    { "id": "goals.smart", "label": "SMART goals" },
+    { "id": "goals.why-fail", "label": "Why goals fail" },
+    { "id": "goals.write-precisely", "label": "Writing a goal precisely" }
+  ],
+  "explanation": [
+    {
+      "heading": "Outcome goals and process goals",
+      "body": "An **outcome goal** is a result you want: *get an entry-level SAP ABAP job*. A **process goal** is an action you control: *write and test one ABAP report every Saturday*. The outcome depends partly on other people, such as recruiters, vacancies and the market. The process depends only on you.\n\nStrong plans use both. The outcome tells you where you are heading; the process tells you what to do on Monday morning. A common mistake is to set only the outcome. 'Get placed' gives you nothing to do today, so you drift. The opposite mistake is to set only a process ('study daily') with no outcome, so you cannot tell whether the studying is working.\n\nA useful test: *Can I do it today, without anyone's permission?* If yes, it is a process goal. If it needs a decision from someone else, it is an outcome."
+    },
+    {
+      "heading": "SMART, used properly",
+      "body": "SMART stands for Specific, Measurable, Achievable, Relevant, Time-bound. Most people stop at the letters. The value is in the questions behind them:\n\n- **Specific**: What exactly will exist when I am done?\n- **Measurable**: What number or yes/no check proves it?\n- **Achievable**: Given my hours per week, is this realistic, and a stretch?\n- **Relevant**: Does it move my bigger aim, or is it just comfortable?\n- **Time-bound**: What is the date?\n\nWorked example. Vague: 'Learn ABAP.' SMART: 'By 31 December, I will complete the ABAP basics course and build three small programs (a selection-screen report, an ALV list and a simple function module), each uploaded to my portfolio with a short description.' You can look at that sentence and know on 1 January whether it happened."
+    },
+    {
+      "heading": "Why goals fail",
+      "body": "Goals rarely fail because the person is lazy. They fail for predictable reasons.\n\n1. **Vagueness.** 'Get better at coding' has no finish line, so any day can feel fine.\n2. **No plan for the first step.** The goal is clear but nobody knows what to do at 7 pm on Tuesday.\n3. **Too many goals.** Six goals at once means each gets one sixth of your attention, which is usually below the threshold needed to progress.\n4. **No feedback.** If you never check progress, you discover failure only on the deadline.\n\nThe fixes map directly: write precisely, define the first action, limit yourself to one to three active goals, and schedule a weekly check. We cover the weekly check in a later lesson; for now, learn to write the goal well."
+    },
+    {
+      "heading": "Writing the goal in one precise sentence",
+      "body": "Use this template: **By [date], I will [result with a number], shown by [proof], by doing [process] [how often].**\n\nExample: 'By 30 November, I will solve 40 SQL practice problems, shown by a saved list in my notes, by solving at least 4 every week.'\n\nRead it once and check: could a friend tell, from this sentence alone, whether you succeeded? If not, sharpen it. Then write your **first action** under it, small enough to start within 24 hours: 'Tonight: list 10 problems I will solve this week.' A goal with a named first action is far more likely to start."
+    }
+  ],
+  "examples": [
+    {
+      "title": "From wish to written goal",
+      "body": "Wish: 'I want to be better at English for interviews.'\n\nOutcome: 'Speak confidently in a 20-minute mock interview.'\n\nSMART version: 'By 15 January, I will complete three recorded mock interviews of 20 minutes each, shown by the recordings, and I will practise answering two questions aloud on four days every week.'",
+      "takeaway": "The wish became one outcome plus a countable process, with a date and proof."
+    },
+    {
+      "title": "Outcome-only vs both",
+      "body": "Priya writes: 'Get a job at an IT services firm by March.' She feels motivated for a week, then does nothing specific.\n\nArjun writes the same outcome, then adds: 'Process: apply to five roles every Friday; revise one ABAP topic daily for 45 minutes.' By the end of month one he has 20 applications and 20 revision sessions to look at.",
+      "takeaway": "The outcome gives direction; the process gives a daily action and evidence of effort."
+    },
+    {
+      "title": "Spotting a failing goal",
+      "body": "A student has: 'Learn ABAP, improve communication, lose weight, save money, start a blog, learn German.' After a month, nothing has progressed.\n\nHe keeps two, ABAP and communication, and parks the rest in a 'later' list with a review date.",
+      "takeaway": "Cutting the number of active goals is often the single biggest improvement."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "goals-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "goals.outcome-process",
+      "prompt": "Which of these is a process goal, fully under your control?",
+      "options": [
+        "Get shortlisted by three companies.",
+        "Write and test one ABAP program every Saturday for eight weeks.",
+        "Receive a campus placement offer.",
+        "Be ranked first in the practice test."
+      ],
+      "answer": 1,
+      "hint": "Ask: can I do it today without anyone's permission?",
+      "why": "Writing a program each Saturday depends only on you. Shortlisting, an offer and a rank all depend on other people or on how others perform, so they are outcomes."
+    },
+    {
+      "id": "goals-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "goals.smart",
+      "prompt": "In SMART, what does the letter T stand for? Answer with one or two words.",
+      "accept": ["time-bound", "time bound", "timebound", "time-based", "time based", "timed"],
+      "hint": "It is the part that gives the goal a date.",
+      "why": "T is Time-bound: a goal needs a deadline, otherwise there is never a moment at which you must have finished."
+    },
+    {
+      "id": "goals-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "goals.write-precisely",
+      "prompt": "Rewrite this vague goal as one precise sentence using the template 'By [date], I will [result with a number], shown by [proof], by doing [process] [how often]': 'I want to get good at SQL for my interviews.' Then add one line naming your first action for the next 24 hours.",
+      "minWords": 30,
+      "rubric": [
+        {
+          "id": "measurable",
+          "label": "Contains a number and a date",
+          "weight": 35,
+          "descriptors": {
+            "0": "No number and no date.",
+            "1": "Either a number or a date, not both.",
+            "2": "Number and date present but one is loose (for example 'soon').",
+            "3": "A clear number and a specific date."
+          },
+          "auto": { "type": "regex", "pattern": "\\d", "flags": "", "label": "Contains at least one number" }
+        },
+        {
+          "id": "proof",
+          "label": "States how success is proved",
+          "weight": 25,
+          "descriptors": {
+            "0": "No proof mentioned.",
+            "1": "Proof is hinted but unclear.",
+            "2": "Proof stated but not easy to check.",
+            "3": "Proof is concrete and a stranger could check it."
+          },
+          "auto": { "type": "keywords", "any": ["shown by", "proof", "saved", "list", "score", "record", "uploaded", "log"], "min": 1, "label": "Names a proof" }
+        },
+        {
+          "id": "process",
+          "label": "Includes a repeatable process with frequency",
+          "weight": 20,
+          "descriptors": {
+            "0": "No process.",
+            "1": "A process with no frequency.",
+            "2": "Process and frequency, but too ambitious or vague.",
+            "3": "A realistic repeatable process with a clear frequency."
+          }
+        },
+        {
+          "id": "first",
+          "label": "First action within 24 hours",
+          "weight": 20,
+          "descriptors": {
+            "0": "No first action.",
+            "1": "An action that is too large to start tomorrow.",
+            "2": "A small action but not time-specific.",
+            "3": "A small, specific action you could do within 24 hours."
+          }
+        }
+      ],
+      "modelAnswer": "By 30 November, I will solve 40 SQL practice problems covering joins, grouping and subqueries, shown by a numbered list saved in my notes, by solving at least four problems every week. First action: tonight, I will list ten problems to solve this week and put the first one on tomorrow's plan.",
+      "guidance": "A strong answer has a real date, a number you could count, a proof another person could check, and a frequency you can honestly keep. Common mistakes are 'improve my SQL' (not measurable), 'every day for a year' (not realistic) and a first action such as 'start studying' (too vague). Score yourself against the model answer and be strict about proof."
+    },
+    {
+      "id": "goals-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "goals.why-fail",
+      "prompt": "It is the first of the month. You have written six goals: ABAP basics, daily gym, English fluency, a personal blog, learning German and saving 10,000 rupees. You have about two free hours on weekdays. What do you do?",
+      "options": [
+        {
+          "text": "Keep all six and just try harder; discipline is what matters.",
+          "score": 0,
+          "feedback": "Six goals in two hours a day means each gets a sliver. Effort cannot fix a plan that exceeds your available time."
+        },
+        {
+          "text": "Choose the one or two that serve your job aim most, make them SMART, and move the rest to a dated 'later' list.",
+          "score": 3,
+          "feedback": "Correct: it protects focus, ties the goals to your bigger aim, and keeps the others without guilt."
+        },
+        {
+          "text": "Delete four goals permanently and never think about them again.",
+          "score": 1,
+          "feedback": "Narrowing is right, but deleting loses things you may value. A later list with a review date is better."
+        },
+        {
+          "text": "Rotate through all six, one per day, whichever you feel like.",
+          "score": 1,
+          "feedback": "Rotation spreads attention thin and has no measure, so progress on any single goal stays slow."
+        }
+      ],
+      "why": "Too many goals is a leading cause of failure. The best response limits active goals to what your time allows, picks by relevance to your main aim, and parks the rest with a review date."
+    }
+  ],
+  "task": {
+    "title": "Write one real goal",
+    "brief": "Choose one goal that matters for the next 60 days and write it precisely.",
+    "steps": [
+      "Write down your biggest career or study wish in one rough sentence.",
+      "Name the outcome part and the process part separately.",
+      "Rewrite it with the template: By [date], I will [number], shown by [proof], by doing [process] [how often].",
+      "Write your first action for the next 24 hours and put it on your calendar."
+    ],
+    "checklist": [
+      "My goal has a specific date",
+      "My goal has a number",
+      "I named how I will prove it",
+      "I wrote a first action for the next 24 hours"
+    ],
+    "evidencePrompt": "Paste your final one-sentence goal and your first action.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "goals-1.q1",
+      "type": "mcq",
+      "concept": "goals.outcome-process",
+      "prompt": "Why is an outcome-only goal such as 'get placed' weak on its own?",
+      "options": [
+        "It is too ambitious for anyone to attempt.",
+        "It is unrelated to a career.",
+        "It tells you nothing about what to do today.",
+        "Outcome goals are never measurable."
+      ],
+      "answer": 2,
+      "why": "Outcomes show direction but give no daily action. They can be ambitious and measurable; the issue is that they need a process beneath them."
+    },
+    {
+      "id": "goals-1.q2",
+      "type": "mcq",
+      "concept": "goals.smart",
+      "prompt": "Which version is the most SMART?",
+      "options": [
+        "Study ABAP more this year.",
+        "Be good at ABAP by the end of the course.",
+        "Finish three ABAP programs by 30 November and upload each to my portfolio.",
+        "Try to learn ABAP regularly."
+      ],
+      "answer": 2,
+      "why": "Only the third has a count, a date and a proof. The others use soft words such as more, good and regularly that cannot be checked."
+    },
+    {
+      "id": "goals-1.q3",
+      "type": "mcq",
+      "concept": "goals.why-fail",
+      "prompt": "Which is a typical reason goals fail?",
+      "options": [
+        "Having no feedback until the deadline.",
+        "Writing the goal down.",
+        "Having a first action ready.",
+        "Limiting yourself to two active goals."
+      ],
+      "answer": 0,
+      "why": "Without feedback you only find out at the deadline. Writing, a first action and a small number of goals all help."
+    },
+    {
+      "id": "goals-1.q4",
+      "type": "fill",
+      "concept": "goals.write-precisely",
+      "prompt": "In the template 'By [date], I will [result], shown by ____, by doing [process]', what goes in the blank? One word.",
+      "accept": ["proof", "evidence"],
+      "why": "The blank holds the proof: the observable evidence that lets someone check you succeeded."
+    }
+  ],
+  "bank": [
+    {
+      "id": "goals-1.b1",
+      "type": "mcq",
+      "concept": "goals.outcome-process",
+      "prompt": "A student wants to lose weight. Which is a process goal?",
+      "options": [
+        "Weigh 65 kg by March.",
+        "Fit into a smaller size.",
+        "Walk for 30 minutes after dinner five days a week.",
+        "Look fitter in photos."
+      ],
+      "answer": 2,
+      "why": "Walking five days a week is an action the student controls. The other three are results that depend on body response and subjective judgement."
+    },
+    {
+      "id": "goals-1.b2",
+      "type": "fill",
+      "concept": "goals.smart",
+      "prompt": "Which SMART letter is missing from this goal: 'Read more books about software'? It has no number to check. Answer with the word for the letter.",
+      "accept": ["measurable", "m", "specific", "time-bound", "time bound"],
+      "why": "The goal has no count (measurable), no named target (specific) and no date (time-bound). Any of these is a valid diagnosis; the key habit is spotting what cannot be checked."
+    },
+    {
+      "id": "goals-1.b3",
+      "type": "mcq",
+      "concept": "goals.why-fail",
+      "prompt": "A friend has written a clear goal but never starts. What is the most likely missing piece?",
+      "options": [
+        "A named, small first action.",
+        "A larger reward.",
+        "More goals to stay motivated.",
+        "A longer deadline."
+      ],
+      "answer": 0,
+      "why": "Clear goals still stall when the first step is unclear. A small first action removes the start-up barrier. More goals would dilute focus and a longer deadline removes urgency."
+    }
+  ],
+  "cards": [
+    {
+      "id": "goals-1.c1",
+      "concept": "goals.outcome-process",
+      "front": "Outcome goal vs process goal?",
+      "back": "Outcome: a result you want, partly outside your control. Process: an action you control and can do today. Use both."
+    },
+    {
+      "id": "goals-1.c2",
+      "concept": "goals.smart",
+      "front": "What are the five SMART questions?",
+      "back": "Specific: what exists at the end? Measurable: what number proves it? Achievable: realistic for my hours? Relevant: serves my bigger aim? Time-bound: what date?"
+    },
+    {
+      "id": "goals-1.c3",
+      "concept": "goals.why-fail",
+      "front": "Name four reasons goals fail.",
+      "back": "Vagueness, no first step, too many goals at once, and no feedback until the deadline."
+    },
+    {
+      "id": "goals-1.c4",
+      "concept": "goals.write-precisely",
+      "front": "What is the one-sentence goal template?",
+      "back": "By [date], I will [result with a number], shown by [proof], by doing [process] [how often]. Then add a first action for the next 24 hours."
+    }
+  ],
+  "reflection": "Think of a goal you abandoned in the past year. Which of the four failure reasons best explains it, and what would you write differently now?",
+  "revision": {
+    "keyPoints": [
+      "Pair an outcome with a process you control.",
+      "SMART means a number, a date and a proof.",
+      "Goals fail through vagueness, no first step, overload and no feedback.",
+      "Write one sentence plus a first action within 24 hours."
+    ],
+    "redo": "Pick one current goal and rewrite it in the template sentence, then name the first action aloud."
+  }
+}

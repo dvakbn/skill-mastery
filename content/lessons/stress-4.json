@@ -1,0 +1,324 @@
+{
+  "id": "stress-4",
+  "skillId": "stress",
+  "n": 4,
+  "title": "Sustainable Load",
+  "summary": "Set boundaries, build recovery rituals, spot burnout warning signs and write a personal stress plan.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Set one realistic boundary that protects recovery.",
+    "Recognise burnout warning signs and know when to ask for professional help.",
+    "Write a personal stress plan with triggers, tools and supports."
+  ],
+  "concepts": [
+    {
+      "id": "stress.boundaries",
+      "label": "Setting boundaries"
+    },
+    {
+      "id": "stress.recovery",
+      "label": "Recovery rituals"
+    },
+    {
+      "id": "stress.burnout-signs",
+      "label": "Burnout warning signs and help"
+    },
+    {
+      "id": "stress.stress-plan",
+      "label": "Personal stress plan"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Load, not just coping",
+      "body": "Breathing and reframing help in the moment, but if your workload never leaves room for recovery, no technique will keep up. Sustainable performance comes from managing **load** across weeks: how much you take on, how you protect rest, and how early you notice trouble. Think of it like a phone battery: apps drain it, charging restores it, and a phone that is never charged fails."
+    },
+    {
+      "heading": "Setting boundaries",
+      "body": "A **boundary** is a clear limit about your time, energy or availability. Examples: \"I do not reply to work chat after 9 pm\", \"I can take this on if the deadline moves to Friday\", \"I need one evening a week free\". Good boundaries are specific, stated calmly and early, and offered with an alternative where possible: \"I cannot join tonight; I can review the draft tomorrow morning.\"\n\nBoundaries feel awkward at first, especially with seniors or family. Start small and observe that most people accept clear, polite limits. Saying yes to everything usually results in lower quality for all tasks. A useful test before agreeing: ask yourself what you will have to drop or delay if you say yes, and whether you are willing to drop it. If the honest answer is no, say so kindly. Protecting your capacity is part of being reliable, because people trust someone who delivers what was promised."
+    },
+    {
+      "heading": "Recovery rituals and burnout signs",
+      "body": "Recovery is not laziness. Build small rituals: a 10-minute walk after lunch, a phone-free meal, a weekly activity that has nothing to do with work or study, regular sleep, time with people who energise you.\n\n**Burnout** is long-term exhaustion from sustained, unmanaged stress. Warning signs include persistent exhaustion that rest does not fix, cynicism or detachment from things you used to care about, declining performance despite effort, and feeling helpless. If you notice several of these for weeks, or feel hopeless or unsafe, **reach out to a doctor, counsellor or helpline and tell someone you trust**. Asking for help early is a strength, and professionals are better placed than any article to guide you."
+    },
+    {
+      "heading": "Your personal stress plan",
+      "body": "A **stress plan** is a one-page note you write when calm. Include: **my signals** (top three early signs), **my triggers** (situations that reliably raise stress), **my tools** (two body tools and two mind tools you have practised), **my boundaries** (one or two), **my people** (two people you can talk to) and **my red line** (the signs after which I will seek professional help). Review it monthly. Having decided in advance removes the burden of deciding when you are already tired."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A polite boundary",
+      "body": "Manager: \"Can you take this ticket tonight?\" Reply: \"I am at capacity tonight. I can start first thing tomorrow and have a draft by noon. Would that work?\"",
+      "takeaway": "State the limit, offer an alternative, ask for agreement."
+    },
+    {
+      "title": "A stress plan excerpt",
+      "body": "Signals: poor sleep, short temper, skipping meals. Triggers: back-to-back deadlines, unclear feedback. Tools: extended-exhale breathing, 10-minute walk, worry slot, journaling. People: my sister, my mentor. Red line: two weeks of exhaustion despite rest, then I book a doctor visit.",
+      "takeaway": "Decisions made in advance are easier to follow under pressure."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "stress-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "stress.boundaries",
+      "prompt": "Which boundary statement is best?",
+      "options": [
+        "I cannot do tonight, but I can deliver a draft by noon tomorrow.",
+        "I am always busy.",
+        "Stop asking me.",
+        "Fine, I will do everything."
+      ],
+      "answer": 0,
+      "why": "A good boundary is specific, calm and offers an alternative."
+    },
+    {
+      "id": "stress-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "stress.burnout-signs",
+      "prompt": "Persistent exhaustion that rest does not fix, along with cynicism and declining performance, are warning signs of ____. (one word)",
+      "accept": [
+        "burnout"
+      ],
+      "why": "These are classic burnout signs, and several lasting weeks call for support."
+    },
+    {
+      "id": "stress-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "stress.stress-plan",
+      "prompt": "Write a six-line personal stress plan: signals, triggers, tools, boundaries, people and your red line (the point at which you will seek professional help).",
+      "minWords": 49,
+      "rubric": [
+        {
+          "id": "complete",
+          "label": "All six parts present",
+          "weight": 35,
+          "descriptors": {
+            "0": "Two or fewer parts.",
+            "1": "Three or four parts.",
+            "2": "Five parts.",
+            "3": "All six parts."
+          }
+        },
+        {
+          "id": "specific",
+          "label": "Specific and personal",
+          "weight": 30,
+          "descriptors": {
+            "0": "Generic.",
+            "1": "Slightly specific.",
+            "2": "Mostly specific.",
+            "3": "Concrete and personal."
+          }
+        },
+        {
+          "id": "redline",
+          "label": "Clear red line including seeking help",
+          "weight": 35,
+          "descriptors": {
+            "0": "No red line.",
+            "1": "Vague.",
+            "2": "Red line without help step.",
+            "3": "Clear red line that includes contacting a professional or trusted person."
+          }
+        }
+      ],
+      "modelAnswer": "Signals: poor sleep, headaches, short temper. Triggers: exam week, unclear feedback. Tools: extended-exhale breathing, 10-minute walk, worry slot, journal. Boundaries: no study after 11 pm; one free evening weekly. People: my brother and my mentor. Red line: two weeks of constant exhaustion or hopeless feelings, then I will book a doctor or counsellor appointment and tell my brother.",
+      "guidance": "Strong plans are specific, short and include a red line involving professional help. Avoid vague lines like \"relax more\". If you ever feel unsafe or hopeless, contact a local emergency number or a helpline immediately."
+    },
+    {
+      "id": "stress-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "stress.burnout-signs",
+      "prompt": "For six weeks you have felt exhausted despite sleep, stopped caring about projects you loved, and your marks are slipping. What is the best move?",
+      "options": [
+        {
+          "text": "Push harder; it is only a phase.",
+          "score": 0,
+          "feedback": "Six weeks of these signs is not a short phase, and pushing harder can deepen it."
+        },
+        {
+          "text": "Tell someone you trust and book an appointment with a doctor or counsellor, while reducing load where possible.",
+          "score": 3,
+          "feedback": "Early professional support plus reduced load is the right response."
+        },
+        {
+          "text": "Avoid everyone until it passes.",
+          "score": 1,
+          "feedback": "Withdrawal tends to worsen your isolation."
+        },
+        {
+          "text": "Switch courses immediately without talking to anyone.",
+          "score": 1,
+          "feedback": "A big decision under exhaustion is risky; get support first."
+        }
+      ],
+      "why": "Sustained signs call for help and a lighter load, not more pressure or isolation."
+    }
+  ],
+  "task": {
+    "title": "Draft your one-page stress plan",
+    "brief": "Write the six-part stress plan and share it with one trusted person.",
+    "steps": [
+      "Write signals, triggers and tools from the last three lessons.",
+      "Add one or two boundaries with wording you can use.",
+      "Name two people and your red line.",
+      "Share the plan with one person and ask them to check in monthly."
+    ],
+    "checklist": [
+      "I wrote all six parts",
+      "I wrote boundary wording",
+      "I named my red line",
+      "I shared it with someone"
+    ],
+    "evidencePrompt": "Write your red line and one boundary sentence.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "stress-4.q1",
+      "type": "mcq",
+      "concept": "stress.boundaries",
+      "prompt": "A boundary should usually be:",
+      "options": [
+        "Vague and apologetic",
+        "Hidden until you explode",
+        "Specific, calm and early",
+        "Only for family"
+      ],
+      "answer": 2,
+      "why": "Specific, calm and early boundaries work best."
+    },
+    {
+      "id": "stress-4.q2",
+      "type": "mcq",
+      "concept": "stress.recovery",
+      "prompt": "Which is a recovery ritual?",
+      "options": [
+        "Checking email in bed",
+        "A phone-free meal and a daily walk",
+        "Working through lunch",
+        "Doubling your task list"
+      ],
+      "answer": 1,
+      "why": "Rituals that restore energy include walks and phone-free meals."
+    },
+    {
+      "id": "stress-4.q3",
+      "type": "mcq",
+      "concept": "stress.burnout-signs",
+      "prompt": "Which is a burnout warning sign?",
+      "options": [
+        "One tired Friday",
+        "Weeks of exhaustion and detachment",
+        "Excitement about a project",
+        "Needing a holiday after exams"
+      ],
+      "answer": 1,
+      "why": "Sustained exhaustion with detachment and falling performance is a burnout signal."
+    },
+    {
+      "id": "stress-4.q4",
+      "type": "fill",
+      "concept": "stress.stress-plan",
+      "prompt": "A stress plan includes a red line: the signs after which you will seek ____ help. (one word)",
+      "accept": [
+        "professional"
+      ],
+      "why": "The red line names when you will contact a doctor or counsellor."
+    }
+  ],
+  "bank": [
+    {
+      "id": "stress-4.b1",
+      "type": "mcq",
+      "concept": "stress.boundaries",
+      "prompt": "Which reply sets a boundary politely?",
+      "options": [
+        "No.",
+        "I can only do this by Friday; shall I proceed on that basis?",
+        "Whatever.",
+        "I hate this job."
+      ],
+      "answer": 1,
+      "why": "It states a limit and invites agreement."
+    },
+    {
+      "id": "stress-4.b2",
+      "type": "mcq",
+      "concept": "stress.recovery",
+      "prompt": "Why protect weekly free time?",
+      "options": [
+        "To waste time",
+        "Because recovery sustains performance",
+        "Because rules say so",
+        "To avoid friends"
+      ],
+      "answer": 1,
+      "why": "Recovery restores energy and keeps quality high."
+    },
+    {
+      "id": "stress-4.b3",
+      "type": "mcq",
+      "concept": "stress.burnout-signs",
+      "prompt": "If you feel hopeless or unsafe, the right step is to:",
+      "options": [
+        "Wait it out alone",
+        "Contact a helpline, doctor or trusted person right away",
+        "Work harder",
+        "Hide it"
+      ],
+      "answer": 1,
+      "why": "Reach out immediately; professionals and trusted people can help."
+    }
+  ],
+  "cards": [
+    {
+      "id": "stress-4.c1",
+      "concept": "stress.boundaries",
+      "front": "What is the boundary formula?",
+      "back": "State the limit, offer an alternative, ask for agreement. Be specific and early."
+    },
+    {
+      "id": "stress-4.c2",
+      "concept": "stress.recovery",
+      "front": "Examples of recovery rituals?",
+      "back": "Walks, phone-free meals, regular sleep, a non-work activity each week, time with energising people."
+    },
+    {
+      "id": "stress-4.c3",
+      "concept": "stress.burnout-signs",
+      "front": "Burnout warning signs?",
+      "back": "Persistent exhaustion, cynicism or detachment, falling performance, helplessness. Seek help if weeks-long."
+    },
+    {
+      "id": "stress-4.c4",
+      "concept": "stress.stress-plan",
+      "front": "Parts of a stress plan?",
+      "back": "Signals, triggers, tools, boundaries, people, red line."
+    }
+  ],
+  "reflection": "Which boundary would protect your recovery most, and what exact words will you use to state it?",
+  "revision": {
+    "keyPoints": [
+      "Manage load across weeks, not just in the moment.",
+      "Boundaries are specific, calm, early and offer an alternative.",
+      "Recovery rituals are part of performance.",
+      "Burnout signs lasting weeks call for professional help."
+    ],
+    "redo": "Reread your stress plan and update one trigger or tool."
+  }
+}

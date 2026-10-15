@@ -1,0 +1,327 @@
+{
+  "id": "adapt-3",
+  "skillId": "adapt",
+  "n": 3,
+  "title": "Resilience After Setbacks",
+  "summary": "Reframe failure, run a blameless post-mortem, prepare a plan B and bounce back with small steps.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Reframe a failure into information and a next step.",
+    "Run a simple post-mortem on a setback.",
+    "Build a plan B and a bounce-back routine."
+  ],
+  "concepts": [
+    {
+      "id": "adapt.reframing-failure",
+      "label": "Reframing failure"
+    },
+    {
+      "id": "adapt.post-mortem",
+      "label": "Post-mortem"
+    },
+    {
+      "id": "adapt.plan-b",
+      "label": "Plan B"
+    },
+    {
+      "id": "adapt.bouncing-back",
+      "label": "Bouncing back"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Setbacks are inevitable",
+      "body": "Everyone who tries ambitious things fails sometimes: a rejected application, a failed exam, a bug that breaks production. **Resilience** is not avoiding setbacks or hiding feelings; it is recovering and continuing with learning. It can be trained like a muscle. This lesson gives you four tools: reframing, a post-mortem, a plan B and a bounce-back routine. If setbacks leave you hopeless for weeks, talk to a trusted person or a counsellor."
+    },
+    {
+      "heading": "Reframing failure",
+      "body": "Failure feels personal, but it is usually specific and temporary. Use three checks. **Specific**: \"I failed this interview\" is not \"I am a failure\". **Temporary**: this result is not permanent. **Informative**: what does it tell me? Replace \"Why me?\" with \"What can I learn, and what will I try next?\" Do not suppress feelings: allow a day or two to feel disappointed, talk to a friend and then move to action. Compare \"I failed the viva, so I am not cut out for this\" with \"I forgot the key definition under pressure; I will practise answers aloud.\""
+    },
+    {
+      "heading": "The post-mortem",
+      "body": "A **post-mortem** studies what happened to learn, not to blame. Sit down within a few days and write four headings. **What happened?** (facts only). **What went well?** (so you keep it). **What went wrong and why?** (look at causes, not character; ask why five times). **What will I change?** (two or three specific actions with dates). Keep it blameless: focus on processes, preparation and decisions. For a failed placement test: facts: scored 40 per cent, ran out of time on section two; cause: no timed practice; change: three timed mock tests by Sunday."
+    },
+    {
+      "heading": "Plan B and bouncing back",
+      "body": "A **plan B** is a prepared alternative that reduces the fear of failing. For each important goal, write what you will do if it does not work: other companies to apply to, another exam date, a related role. Having a plan B does not mean lack of commitment; it frees you to commit fully. To **bounce back**, restore the basics first: sleep, food, movement and talking to someone. Then take one small step within 48 hours, such as booking a mock test. Small actions rebuild momentum. Track progress over weeks, not hours. Also remember that most successful people have a long list of rejections and failures behind them; what separates them is that they kept trying with better preparation each time. Treat each setback as one data point on a longer line, and let your plan B give you the security to keep going."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A blameless post-mortem",
+      "body": "After a failed demo, Zoya writes: Facts: the database was not seeded. Cause: no pre-demo checklist. Change: build a five-point checklist and run it one hour before every demo.",
+      "takeaway": "A post-mortem turns embarrassment into a system fix."
+    },
+    {
+      "title": "Plan B in action",
+      "body": "Aditya applies to ten SAP trainee roles. His plan B includes two junior web-development roles and an ABAP certification course. When early replies are slow, he feels less pressure and keeps learning.",
+      "takeaway": "Alternatives reduce fear and keep you moving."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "adapt-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "adapt.reframing-failure",
+      "prompt": "Which is a healthy reframe of a rejection?",
+      "options": [
+        "This application was not a fit; I will improve my resume and apply again.",
+        "I am a failure.",
+        "Nothing ever works.",
+        "I will stop trying."
+      ],
+      "answer": 0,
+      "why": "It is specific, temporary and points to action."
+    },
+    {
+      "id": "adapt-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "adapt.post-mortem",
+      "prompt": "A blameless post-mortem focuses on processes and ____, not on blaming people. (one word)",
+      "accept": [
+        "causes",
+        "decisions",
+        "learning"
+      ],
+      "why": "The aim is to learn from causes, not assign guilt."
+    },
+    {
+      "id": "adapt-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "adapt.post-mortem",
+      "prompt": "Write a mini post-mortem for a real setback of yours using four headings: what happened, what went well, what went wrong and why, what I will change (two actions with dates).",
+      "minWords": 51,
+      "rubric": [
+        {
+          "id": "facts",
+          "label": "Facts without blame",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mostly blame.",
+            "2": "Mixed.",
+            "3": "Neutral facts."
+          }
+        },
+        {
+          "id": "causes",
+          "label": "Causes analysed",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Surface only.",
+            "2": "Some depth.",
+            "3": "Root causes with why-questions."
+          }
+        },
+        {
+          "id": "actions",
+          "label": "Specific actions with dates",
+          "weight": 40,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Specific without dates.",
+            "3": "Two specific dated actions."
+          }
+        }
+      ],
+      "modelAnswer": "What happened: I scored 52 per cent on the mock technical test and ran out of time. Went well: I answered the easy questions accurately. Went wrong: I had never practised under a timer and spent too long on one question. Change: do two timed 30-minute practice sets by Saturday and set a rule to skip any question after three minutes.",
+      "guidance": "Strong answers are factual, look at process causes and end with dated actions. Avoid statements such as \"I am just bad at tests\"."
+    },
+    {
+      "id": "adapt-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "adapt.bouncing-back",
+      "prompt": "You failed an important exam and feel low. What is the best plan for the next 48 hours?",
+      "options": [
+        {
+          "text": "Isolate yourself and avoid thinking.",
+          "score": 0,
+          "feedback": "Isolation can deepen a low mood."
+        },
+        {
+          "text": "Rest, talk to someone you trust, and then book one small step such as reviewing your paper.",
+          "score": 3,
+          "feedback": "It restores basics and starts small action."
+        },
+        {
+          "text": "Decide to quit your course tonight.",
+          "score": 0,
+          "feedback": "Big decisions in distress are risky."
+        },
+        {
+          "text": "Pretend nothing happened.",
+          "score": 1,
+          "feedback": "Denial delays your learning."
+        }
+      ],
+      "why": "Restore basics, seek support and take one small step."
+    }
+  ],
+  "task": {
+    "title": "Run a post-mortem and set a plan B",
+    "brief": "Review one setback and write a plan B for a current goal.",
+    "steps": [
+      "Write the four post-mortem headings for one setback.",
+      "Add two dated actions.",
+      "Write a plan B for one current goal.",
+      "Share the plan B with one person."
+    ],
+    "checklist": [
+      "I wrote a post-mortem",
+      "I added two dated actions",
+      "I wrote a plan B",
+      "I shared it"
+    ],
+    "evidencePrompt": "Write your two actions and your plan B.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "adapt-3.q1",
+      "type": "mcq",
+      "concept": "adapt.reframing-failure",
+      "prompt": "A resilient reframe is:",
+      "options": [
+        "General and permanent",
+        "Blaming others",
+        "Specific, temporary and informative",
+        "Ignoring feelings"
+      ],
+      "answer": 2,
+      "why": "Those three qualities help recovery."
+    },
+    {
+      "id": "adapt-3.q2",
+      "type": "mcq",
+      "concept": "adapt.post-mortem",
+      "prompt": "A post-mortem should be:",
+      "options": [
+        "Blameless and factual",
+        "A trial",
+        "Secret",
+        "Only emotional"
+      ],
+      "answer": 0,
+      "why": "Focus on learning not blame."
+    },
+    {
+      "id": "adapt-3.q3",
+      "type": "mcq",
+      "concept": "adapt.plan-b",
+      "prompt": "A plan B helps because it:",
+      "options": [
+        "Shows doubt",
+        "Reduces fear of failing",
+        "Avoids effort",
+        "Wastes time"
+      ],
+      "answer": 1,
+      "why": "Alternatives free you to commit."
+    },
+    {
+      "id": "adapt-3.q4",
+      "type": "fill",
+      "concept": "adapt.bouncing-back",
+      "prompt": "After a setback, take one small step within ____ hours. (one word)",
+      "accept": [
+        "48",
+        "forty-eight"
+      ],
+      "why": "A step within 48 hours rebuilds momentum."
+    }
+  ],
+  "bank": [
+    {
+      "id": "adapt-3.b1",
+      "type": "mcq",
+      "concept": "adapt.reframing-failure",
+      "prompt": "Which question helps most after failure?",
+      "options": [
+        "Why me?",
+        "What can I learn and try next?",
+        "Who is at fault?",
+        "Why bother?"
+      ],
+      "answer": 1,
+      "why": "It leads to learning and action."
+    },
+    {
+      "id": "adapt-3.b2",
+      "type": "mcq",
+      "concept": "adapt.post-mortem",
+      "prompt": "The first post-mortem section covers:",
+      "options": [
+        "Blame",
+        "Facts of what happened",
+        "Promises",
+        "Excuses"
+      ],
+      "answer": 1,
+      "why": "Begin with facts."
+    },
+    {
+      "id": "adapt-3.b3",
+      "type": "mcq",
+      "concept": "adapt.bouncing-back",
+      "prompt": "What should you restore first?",
+      "options": [
+        "Sleep, food and support",
+        "Your reputation",
+        "A new goal",
+        "Social media"
+      ],
+      "answer": 0,
+      "why": "Basics support recovery."
+    }
+  ],
+  "cards": [
+    {
+      "id": "adapt-3.c1",
+      "concept": "adapt.reframing-failure",
+      "front": "Three reframing checks?",
+      "back": "Is it specific, temporary and informative?"
+    },
+    {
+      "id": "adapt-3.c2",
+      "concept": "adapt.post-mortem",
+      "front": "Post-mortem headings?",
+      "back": "What happened, what went well, what went wrong and why, what will I change."
+    },
+    {
+      "id": "adapt-3.c3",
+      "concept": "adapt.plan-b",
+      "front": "What is a plan B?",
+      "back": "A prepared alternative that reduces fear and lets you commit fully to plan A."
+    },
+    {
+      "id": "adapt-3.c4",
+      "concept": "adapt.bouncing-back",
+      "front": "Bounce-back routine?",
+      "back": "Restore sleep, food and support, then take one small step within 48 hours."
+    }
+  ],
+  "reflection": "What is a setback you have not fully learned from, and what would a blameless post-mortem say about it?",
+  "revision": {
+    "keyPoints": [
+      "Failure is specific and temporary.",
+      "Post-mortems focus on causes.",
+      "Plan B frees commitment.",
+      "Small steps rebuild momentum."
+    ],
+    "redo": "Write a post-mortem for another past setback in ten minutes."
+  }
+}

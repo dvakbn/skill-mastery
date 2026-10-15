@@ -1,0 +1,324 @@
+{
+  "id": "conflict-3",
+  "skillId": "conflict",
+  "n": 3,
+  "title": "Resolving and Repairing",
+  "summary": "Move from positions to interests, generate options, agree clearly, apologise and repair, and know when to involve a neutral third party.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Separate positions from interests and generate options.",
+    "Close a conflict with a specific, checkable agreement.",
+    "Offer an effective apology and know when to bring in a neutral third party."
+  ],
+  "concepts": [
+    {
+      "id": "conflict.interests",
+      "label": "Interests behind positions"
+    },
+    {
+      "id": "conflict.options-agreement",
+      "label": "Options and agreements"
+    },
+    {
+      "id": "conflict.apology-repair",
+      "label": "Apology and repair"
+    },
+    {
+      "id": "conflict.third-party",
+      "label": "Neutral third party"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Positions and interests",
+      "body": "A **position** is what someone says they want: \"I want the window seat\", \"We must release on Friday\". An **interest** is the reason behind it: comfort, a deadline, fear of blame, respect. Two positions can clash while the interests are compatible. Two students quarrel over one room for group study: one wants it at 5 pm, the other at 6 pm. Asking why reveals that one has a bus at 6:30 and the other has a lab until 5:30. Both interests are met by starting at 5:30.\n\nTo find interests ask: \"What matters most to you about this?\" and \"What are you worried might happen?\" Then share your own interests, not only your demand."
+    },
+    {
+      "heading": "Options and agreements",
+      "body": "Once interests are on the table, generate **options** before choosing. Brainstorm without judging, then evaluate against both sides' interests and fair criteria such as cost, time and precedent. Aim for options that create value, such as trading what is cheap for you and valuable for them. When you choose, make the **agreement** specific: who does what, by when, how you will check, and what happens if it slips. \"We will communicate better\" is not an agreement; \"I will send the status update every Monday by 10 am and you will reply by Tuesday\" is. Write it down and share it. Review after one or two weeks."
+    },
+    {
+      "heading": "Apology and repair",
+      "body": "When your actions harmed someone, repair matters as much as the solution. A good apology has five parts: **acknowledge** what you did specifically, **recognise** the impact on them, take **responsibility** without excuses, **express regret** sincerely and offer **repair** with a change of behaviour. Example: \"I missed the review deadline and you had to stay late. That was my fault. I am sorry. I will send updates two days early and check with you on Wednesday.\" Avoid \"I am sorry if you were hurt\" and \"but\" sentences, which turn apologies into defences. Then follow through; repaired trust is built by behaviour afterwards."
+    },
+    {
+      "heading": "When to involve a third party",
+      "body": "Some conflicts stall: emotions are too high, power is unequal or the issue involves rules, safety or harassment. A **neutral third party**, such as a mentor, teacher, HR representative or trusted senior, can help. Before going to them, try a direct conversation first unless safety is at risk. Ask the other person: \"Would it help to bring in someone neutral?\" Present facts, not accusations, and state what you want from the helper: listening, mediating or deciding. For harassment, discrimination or safety concerns, go straight to the proper channel. Using a third party is a sign of maturity, not failure."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Interests revealed",
+      "body": "Two teammates both want to demo first. Asking why shows that Dev has an exam the next day and Mira wants to show her feature to the manager who leaves early. They schedule Dev first, but Mira presents to the manager separately beforehand.",
+      "takeaway": "Interests allowed both needs to be met."
+    },
+    {
+      "title": "A specific agreement",
+      "body": "After disputes about shared files, a team agrees: \"Every Friday at 4 pm, each member uploads work to the shared folder with the date in the file name. Aman checks and posts a summary.\" They review in two weeks.",
+      "takeaway": "Specific tasks and timing make an agreement checkable."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "conflict-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "conflict.interests",
+      "prompt": "Which is an interest rather than a position?",
+      "options": [
+        "I need time to prepare before the manager review.",
+        "I want the meeting on Monday.",
+        "You must agree.",
+        "I will not move."
+      ],
+      "answer": 0,
+      "why": "It describes the underlying need."
+    },
+    {
+      "id": "conflict-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "conflict.apology-repair",
+      "prompt": "A good apology offers ____ by changing future behaviour. (one word)",
+      "accept": [
+        "repair"
+      ],
+      "why": "Repair shows that the apology is real."
+    },
+    {
+      "id": "conflict-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "conflict.options-agreement",
+      "prompt": "Two roommates argue about noise at night: one studies late and the other sleeps early. Write each person's likely interests, three options and one specific agreement.",
+      "minWords": 57,
+      "rubric": [
+        {
+          "id": "interests",
+          "label": "Interests identified",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Positions only.",
+            "2": "Some interests.",
+            "3": "Clear interests for both."
+          }
+        },
+        {
+          "id": "options",
+          "label": "Three varied options",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "One.",
+            "2": "Two.",
+            "3": "Three varied options."
+          }
+        },
+        {
+          "id": "agreement",
+          "label": "Specific checkable agreement",
+          "weight": 40,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Specific but unchecked.",
+            "3": "Who, what, when and a review."
+          }
+        }
+      ],
+      "modelAnswer": "Interests: one needs quiet focus for late study; the other needs seven hours of sleep before an early class. Options: study in the library until 11 pm; use headphones and a desk lamp after 11; swap study times on alternate days. Agreement: from Monday, the late student studies in the library until 11 pm on weekdays, uses headphones after that and we review on Sunday after two weeks.",
+      "guidance": "Strong answers show different interests, several options and a concrete agreement with a review date."
+    },
+    {
+      "id": "conflict-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "conflict.third-party",
+      "prompt": "A senior repeatedly makes personal comments that make you uncomfortable, and direct talk has not helped. What is best?",
+      "options": [
+        {
+          "text": "Keep quiet and hope it stops.",
+          "score": 0,
+          "feedback": "Silence may allow harm to continue."
+        },
+        {
+          "text": "Use the proper channel such as a mentor or HR and record the incidents with dates.",
+          "score": 3,
+          "feedback": "Using proper channels protects you."
+        },
+        {
+          "text": "Reply with insults.",
+          "score": 0,
+          "feedback": "Insults escalate and weaken your case."
+        },
+        {
+          "text": "Resign from the job immediately.",
+          "score": 1,
+          "feedback": "Leaving may be a choice later, but report first."
+        }
+      ],
+      "why": "Serious misconduct needs the proper channel."
+    }
+  ],
+  "task": {
+    "title": "Resolve one conflict",
+    "brief": "Apply interests, options and a specific agreement to a real or realistic conflict.",
+    "steps": [
+      "Write the conflict in two sentences.",
+      "List the position and interests of each side.",
+      "Brainstorm three options and pick one.",
+      "Write a specific agreement with names, dates and a review."
+    ],
+    "checklist": [
+      "I wrote interests",
+      "I listed three options",
+      "I wrote a specific agreement",
+      "I set a review date"
+    ],
+    "evidencePrompt": "Write the interests of both sides and your agreement.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "conflict-3.q1",
+      "type": "mcq",
+      "concept": "conflict.interests",
+      "prompt": "Asking \"What matters most to you about this?\" helps to find:",
+      "options": [
+        "Positions",
+        "Blame",
+        "Interests",
+        "Deadlines"
+      ],
+      "answer": 2,
+      "why": "It reveals the need behind the demand."
+    },
+    {
+      "id": "conflict-3.q2",
+      "type": "mcq",
+      "concept": "conflict.options-agreement",
+      "prompt": "A good agreement includes:",
+      "options": [
+        "Vague promises",
+        "Who does what by when and how it is checked",
+        "A winner",
+        "A secret"
+      ],
+      "answer": 1,
+      "why": "Specific and checkable agreements hold."
+    },
+    {
+      "id": "conflict-3.q3",
+      "type": "mcq",
+      "concept": "conflict.apology-repair",
+      "prompt": "Which apology is best?",
+      "options": [
+        "Sorry if you were upset.",
+        "I missed the deadline; I am sorry and will send updates early.",
+        "Sorry but you did not remind me.",
+        "It was nothing."
+      ],
+      "answer": 1,
+      "why": "It names the act, takes responsibility and offers repair."
+    },
+    {
+      "id": "conflict-3.q4",
+      "type": "fill",
+      "concept": "conflict.third-party",
+      "prompt": "A neutral person who helps resolve a conflict is called a ____ party. (one word)",
+      "accept": [
+        "third"
+      ],
+      "why": "Third parties include mentors, teachers or HR."
+    }
+  ],
+  "bank": [
+    {
+      "id": "conflict-3.b1",
+      "type": "mcq",
+      "concept": "conflict.interests",
+      "prompt": "Two positions that clash may have:",
+      "options": [
+        "Compatible interests",
+        "No interests",
+        "Only blame",
+        "One winner"
+      ],
+      "answer": 0,
+      "why": "Underlying interests may be compatible."
+    },
+    {
+      "id": "conflict-3.b2",
+      "type": "mcq",
+      "concept": "conflict.options-agreement",
+      "prompt": "Before choosing a solution you should:",
+      "options": [
+        "Generate several options",
+        "Pick the first",
+        "Argue",
+        "Wait"
+      ],
+      "answer": 0,
+      "why": "Options widen the possibilities."
+    },
+    {
+      "id": "conflict-3.b3",
+      "type": "mcq",
+      "concept": "conflict.third-party",
+      "prompt": "For harassment or safety concerns you should:",
+      "options": [
+        "Wait",
+        "Use the proper channel",
+        "Ignore",
+        "Gossip"
+      ],
+      "answer": 1,
+      "why": "Serious matters need formal reporting."
+    }
+  ],
+  "cards": [
+    {
+      "id": "conflict-3.c1",
+      "concept": "conflict.interests",
+      "front": "Position versus interest?",
+      "back": "A position is what someone demands; an interest is the need or worry behind it."
+    },
+    {
+      "id": "conflict-3.c2",
+      "concept": "conflict.options-agreement",
+      "front": "Agreement formula?",
+      "back": "Who does what by when, how it will be checked and a review date."
+    },
+    {
+      "id": "conflict-3.c3",
+      "concept": "conflict.apology-repair",
+      "front": "Five parts of an apology?",
+      "back": "Acknowledge, recognise impact, take responsibility, express regret, offer repair."
+    },
+    {
+      "id": "conflict-3.c4",
+      "concept": "conflict.third-party",
+      "front": "When to involve a third party?",
+      "back": "When emotions or power gaps block progress or when safety or harassment is involved."
+    }
+  ],
+  "reflection": "Think of a recent disagreement. What were the interests behind each position, and what option did you miss?",
+  "revision": {
+    "keyPoints": [
+      "Interests lie behind positions.",
+      "Generate options before choosing.",
+      "Write specific agreements.",
+      "Apologise with repair and use third parties wisely."
+    ],
+    "redo": "Rewrite a past conflict resolution using interests and a specific agreement."
+  }
+}

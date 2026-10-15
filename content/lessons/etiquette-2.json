@@ -1,0 +1,351 @@
+{
+  "id": "etiquette-2",
+  "skillId": "etiquette",
+  "n": 2,
+  "title": "Email, Chat and Meeting Etiquette",
+  "summary": "Write clear emails, use CC, BCC and reply-all wisely, follow chat norms, set response times and behave well on video calls.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Structure a professional email with a clear subject and ask.",
+    "Choose To, CC, BCC and reply-all correctly.",
+    "Follow chat, response-time and video-call norms."
+  ],
+  "concepts": [
+    {
+      "id": "etiquette.email-structure",
+      "label": "Email structure and recipients"
+    },
+    {
+      "id": "etiquette.chat-norms",
+      "label": "Chat norms on Teams and Slack"
+    },
+    {
+      "id": "etiquette.response-times",
+      "label": "Response times"
+    },
+    {
+      "id": "etiquette.video-calls",
+      "label": "Video-call etiquette"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Email that gets read and answered",
+      "body": "In the previous lesson you saw how greetings and punctuality shape first impressions. Written messages create the same impression at scale. A good email lets the reader act without writing back to ask what you meant.\n\nUse a **specific subject line** with the topic and the action: \"Action needed by Fri: approval for UAT test data\" beats \"Query\". Open with a greeting, state the purpose in the first sentence, give only necessary background, and end with a clear ask and a date. Keep paragraphs short. Close with thanks and your name. Re-read once before sending, and check attachments are actually attached."
+    },
+    {
+      "heading": "To, CC, BCC and reply-all",
+      "body": "**To** is for people who must act. **CC** is for people who should know. **BCC** hides recipients from each other, so use it for large external groups where addresses should stay private, not to secretly watch a conversation. Secret BCCing a manager into a dispute damages trust.\n\n**Reply-all** sends your answer to everyone. Before pressing it, ask whether every person needs your reply. \"Thanks, noted\" to a 60-person distribution list wastes sixty minutes of attention across the group. Reply only to the sender for acknowledgements, and reply-all only when your information changes what everyone does. When adding someone new to a thread, say so: \"Adding Neha from the basis team.\""
+    },
+    {
+      "heading": "Chat norms and response times",
+      "body": "Teams and Slack are for quick, low-formality exchanges, but they are still workplace records. Write the whole request in one message instead of \"Hi\" followed by silence. Use threads to keep topics tidy, mention a person only when you need their action, and avoid late-night pings unless something is urgent. Choose the channel by urgency: chat for quick questions, email for formal decisions and external parties, a call for anything that has gone three messages without resolving.\n\nSet expectations about response time. A common norm is to reply to emails within one working day and to chat within a few hours. If you cannot give a full answer, send a short holding reply: \"Received, I will confirm by 4 pm tomorrow.\" Then actually do it."
+    },
+    {
+      "heading": "Video-call etiquette",
+      "body": "Join two minutes early, test audio and keep your camera on if the team norm is cameras on. Sit facing a light source, with a plain or blurred background and your camera at eye level. Stay muted when you are not speaking, because keyboard clicks and home noise distract everyone. Use the raise-hand feature or chat to take a turn.\n\nWatch your attention. Looking at another screen is visible. If you must step away, say so in chat. Wear something suitable from the waist up and keep a charger and a backup network, such as your mobile hotspot, ready. If you are recording or taking notes, tell people. At the end, confirm owners and deadlines in a short written summary."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Rewriting a weak email",
+      "body": "Before: Subject \"Doubt\". \"Hi, I tried the report but it is not working. Please check.\" After: Subject \"ZSALES_REPORT shows blank output in QA - input needed by Thu\". \"Hi Mr Iyer, the report returns blank for company code 1000 in QA since yesterday. I checked the selection variant and authorisations. Could you confirm whether the test data was refreshed by Thursday 5 pm? Thanks, Anita.\"",
+      "takeaway": "The improved email names the problem, the effort already made, the exact ask and a deadline."
+    },
+    {
+      "title": "Reply-all avoided",
+      "body": "A trainer emails 80 trainees: \"Please submit attendance sheets.\" Ravi replies only to the trainer: \"Submitted, thanks.\" Another trainee replies to all with \"Done!\" and triggers 40 more replies.",
+      "takeaway": "Reply to the sender for acknowledgements and keep a large list quiet."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "etiquette-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "etiquette.email-structure",
+      "prompt": "Which subject line is most professional?",
+      "options": [
+        "Urgent!!!",
+        "Doubt",
+        "Action by Fri 5 pm: approve UAT dates for sales module",
+        "Please read"
+      ],
+      "answer": 2,
+      "why": "A specific subject shows topic, action and deadline. The others are vague or alarmist."
+    },
+    {
+      "id": "etiquette-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "etiquette.email-structure",
+      "prompt": "To hide recipients' addresses from each other in a large external mailing, use the ____ field. (one word)",
+      "accept": [
+        "bcc"
+      ],
+      "why": "BCC conceals recipients from one another, so it suits privacy in big groups, not secret monitoring."
+    },
+    {
+      "id": "etiquette-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "etiquette.response-times",
+      "prompt": "A manager asks for a status update by 3 pm. At 1 pm you realise you will only have the full answer tomorrow. What do you do?",
+      "options": [
+        {
+          "text": "Say nothing and hope she forgets.",
+          "score": 0,
+          "feedback": "Silence breaks trust and leaves her unable to plan around the delay."
+        },
+        {
+          "text": "Send a holding reply with what you know and a firm time for the rest.",
+          "score": 3,
+          "feedback": "A short, honest update with a new time keeps her informed and shows ownership."
+        },
+        {
+          "text": "Send a long apology at 5 pm.",
+          "score": 1,
+          "feedback": "A late apology comes after the damage and gives no useful information."
+        },
+        {
+          "text": "Rush an incomplete answer and call it final.",
+          "score": 1,
+          "feedback": "Presenting a half-finished answer as complete risks errors that cost more later."
+        }
+      ],
+      "why": "A timely holding reply with partial facts and a specific new time protects trust and gives the manager choices."
+    },
+    {
+      "id": "etiquette-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "etiquette.chat-norms",
+      "prompt": "You need a senior colleague to review your SQL query before a client demo tomorrow at 11 am. Write the chat message you would send, then one line explaining why you chose chat or email.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "complete",
+          "label": "Message is self-contained with the full ask",
+          "weight": 30,
+          "descriptors": {
+            "0": "Just a greeting.",
+            "1": "Partial ask.",
+            "2": "Clear ask but missing context.",
+            "3": "Greeting, context, ask and deadline in one message."
+          }
+        },
+        {
+          "id": "deadline",
+          "label": "States a deadline and time needed",
+          "weight": 25,
+          "descriptors": {
+            "0": "No deadline.",
+            "1": "Vague \"soon\".",
+            "2": "Deadline but not effort needed.",
+            "3": "Deadline plus how long review should take."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "by",
+              "before",
+              "tomorrow",
+              "today",
+              "am",
+              "pm"
+            ],
+            "min": 2,
+            "label": "Mentions a time or deadline"
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Polite and concise tone",
+          "weight": 25,
+          "descriptors": {
+            "0": "Abrupt or demanding.",
+            "1": "Overly casual.",
+            "2": "Polite but long.",
+            "3": "Polite, brief, easy to answer."
+          }
+        },
+        {
+          "id": "channel",
+          "label": "Justifies the channel choice",
+          "weight": 20,
+          "descriptors": {
+            "0": "No justification.",
+            "1": "Vague reason.",
+            "2": "Reason given but weak.",
+            "3": "Reason linked to urgency and formality."
+          }
+        }
+      ],
+      "modelAnswer": "Hi Sameer, could you spare 15 minutes today to review my sales summary query? It joins VBAK and VBAP for last quarter and I want to be sure the totals are correct before the client demo tomorrow at 11 am. I have attached the query and the output. Thank you. I used chat because it is quick and informal, and I can move to a call if it gets complicated.",
+      "guidance": "A strong message names the task, effort needed, deadline and attachments in one go. Common mistakes are sending just \"hi\", demanding, or burying the ask. Check your channel reason links to urgency."
+    }
+  ],
+  "task": {
+    "title": "Audit and rewrite one email",
+    "brief": "Improve one real or imagined email using the structure from this lesson.",
+    "steps": [
+      "Pick an email you sent recently, or invent one about a project doubt.",
+      "Rewrite the subject to include topic, action and deadline.",
+      "State the purpose in the first sentence and end with a clear ask.",
+      "Check To, CC and BCC choices.",
+      "Read it aloud once and cut anything unnecessary."
+    ],
+    "checklist": [
+      "Subject has topic and action",
+      "First sentence states purpose",
+      "There is a clear ask and date",
+      "Recipients are correct"
+    ],
+    "evidencePrompt": "Paste your new subject line and the first two sentences of the email.",
+    "evidenceWords": 35,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "etiquette-2.q1",
+      "type": "mcq",
+      "concept": "etiquette.email-structure",
+      "prompt": "Reply-all is appropriate when:",
+      "options": [
+        "You want to say thanks to a large list",
+        "Your reply changes what everyone needs to do",
+        "You want to impress the manager",
+        "You are unsure who sent it"
+      ],
+      "answer": 1,
+      "why": "Use reply-all only when everyone needs the information; acknowledgements go to the sender alone."
+    },
+    {
+      "id": "etiquette-2.q2",
+      "type": "mcq",
+      "concept": "etiquette.chat-norms",
+      "prompt": "A conversation has gone back and forth for three chat messages without resolution. Best next step:",
+      "options": [
+        "Keep typing",
+        "Switch to a short call",
+        "Send an email to everyone",
+        "Stop responding"
+      ],
+      "answer": 1,
+      "why": "A quick call resolves misunderstandings faster than a long chat thread."
+    },
+    {
+      "id": "etiquette-2.q3",
+      "type": "fill",
+      "concept": "etiquette.response-times",
+      "prompt": "A common norm is to answer emails within one ____ day. (one word)",
+      "accept": [
+        "working",
+        "business"
+      ],
+      "why": "One working day is a widely accepted response window for non-urgent email."
+    },
+    {
+      "id": "etiquette-2.q4",
+      "type": "mcq",
+      "concept": "etiquette.video-calls",
+      "prompt": "On a video call you are not speaking. You should:",
+      "options": [
+        "Stay muted",
+        "Type loudly",
+        "Turn off lights",
+        "Walk around with the camera on"
+      ],
+      "answer": 0,
+      "why": "Staying muted removes background noise and keyboard sounds that distract others."
+    }
+  ],
+  "bank": [
+    {
+      "id": "etiquette-2.b1",
+      "type": "mcq",
+      "concept": "etiquette.email-structure",
+      "prompt": "You are emailing 200 applicants about interview timings. To protect privacy you should place their addresses in:",
+      "options": [
+        "To",
+        "CC",
+        "BCC",
+        "The subject line"
+      ],
+      "answer": 2,
+      "why": "BCC keeps addresses hidden from one another, which protects applicants' privacy."
+    },
+    {
+      "id": "etiquette-2.b2",
+      "type": "mcq",
+      "concept": "etiquette.response-times",
+      "prompt": "You received a complex request and need two days. Best reply today:",
+      "options": [
+        "No reply until it is done",
+        "Received; I will send the full answer by Thursday noon",
+        "Will try",
+        "Ask them to resend"
+      ],
+      "answer": 1,
+      "why": "A holding reply with a firm date sets expectations and shows responsibility."
+    },
+    {
+      "id": "etiquette-2.b3",
+      "type": "mcq",
+      "concept": "etiquette.video-calls",
+      "prompt": "Your home internet is unreliable before an interview call. Best preparation:",
+      "options": [
+        "Hope for the best",
+        "Keep a mobile hotspot ready and join early to test",
+        "Switch camera off all the time",
+        "Reschedule without telling them"
+      ],
+      "answer": 1,
+      "why": "A backup connection and an early test reduce the chance of disruption."
+    }
+  ],
+  "cards": [
+    {
+      "id": "etiquette-2.c1",
+      "concept": "etiquette.email-structure",
+      "front": "Good subject line formula?",
+      "back": "Topic plus action plus deadline, for example \"Action by Fri: approve UAT dates for sales module\"."
+    },
+    {
+      "id": "etiquette-2.c2",
+      "concept": "etiquette.email-structure",
+      "front": "CC vs BCC?",
+      "back": "CC informs people openly. BCC hides recipients from each other and is for privacy in large groups, not secret monitoring."
+    },
+    {
+      "id": "etiquette-2.c3",
+      "concept": "etiquette.response-times",
+      "front": "What is a holding reply?",
+      "back": "A short message that confirms receipt and gives a specific time for the full answer, such as \"I will confirm by 4 pm tomorrow\"."
+    },
+    {
+      "id": "etiquette-2.c4",
+      "concept": "etiquette.video-calls",
+      "front": "Video-call basics?",
+      "back": "Join early, test audio, mute when not speaking, face light, eye-level camera, and have a backup network."
+    }
+  ],
+  "reflection": "Which of your written messages recently left the reader with questions, and how would a clearer subject and ask have helped?",
+  "revision": {
+    "keyPoints": [
+      "Subject lines carry topic, action and deadline.",
+      "To is for action, CC for information, BCC for privacy.",
+      "Reply-all only when everyone needs it.",
+      "Use the right channel and send holding replies.",
+      "Be muted, visible and prepared on video calls."
+    ],
+    "redo": "Rewrite one vague subject line from your inbox so it has topic, action and deadline."
+  }
+}

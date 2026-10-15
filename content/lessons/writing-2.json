@@ -1,0 +1,375 @@
+{
+  "id": "writing-2",
+  "skillId": "writing",
+  "n": 2,
+  "title": "Professional Emails and Messages",
+  "summary": "Write emails and chats that get read and answered: precise subject lines, the answer first, one clear ask and the right tone.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Write a subject line that tells the reader the topic and the action needed.",
+    "Open with the bottom line and end with one clear, dated ask.",
+    "Choose between email and chat, and follow up politely without sounding pushy."
+  ],
+  "concepts": [
+    {
+      "id": "writing.subject-bluf",
+      "label": "Subject lines and bottom line up front"
+    },
+    {
+      "id": "writing.one-ask",
+      "label": "One clear ask with a deadline"
+    },
+    {
+      "id": "writing.tone",
+      "label": "Tone: polite, direct, human"
+    },
+    {
+      "id": "writing.channel-followup",
+      "label": "Email vs chat, and follow-ups"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Your reader is busy: lead with the answer",
+      "body": "In the previous lesson you learned to name your reader and purpose. Email is where that habit pays off most, because a manager or client may see forty messages before lunch and decides in about five seconds whether yours needs action.\n\nTwo parts do most of the work. The **subject line** should say the topic and, if needed, the action: not *Query* but *Approval needed by Fri 5 PM: leave dates for Diwali week*. The **first sentence** should hold the bottom line, a method called **BLUF (bottom line up front)**. Compare two openings.\n\nWeak: *Hope you are doing well. As you know, we had a meeting last week about the testing and a few things came up, so I was thinking about the environment.*\n\nStrong: *The UAT environment will be unavailable on Saturday, 6 to 10 AM. Please confirm your team can pause testing in that window.*\n\nThe strong version gives the news and the request before any background. Background goes after, for readers who want it."
+    },
+    {
+      "heading": "One message, one ask, one deadline",
+      "body": "Most unanswered emails fail because the reader cannot tell what is expected. Put **one main ask** in the message, say who should do it, and give a **date or time**. 'Let me know your thoughts' is vague; 'Please reply by Wednesday with Option A or B' is easy to answer.\n\nIf you truly have three questions, number them: *1. Which build should we test? 2. Who signs off? 3. Is Friday acceptable?* Numbers let the reader reply line by line. If the questions are unrelated, send separate emails so each can be answered and filed on its own.\n\nA reliable layout is: **subject, one-line greeting, bottom line, two to four lines of necessary context, the ask with a date, thanks and name**. If your draft needs scrolling on a phone, ask what can be cut or moved to an attachment."
+    },
+    {
+      "heading": "Tone: direct without being cold",
+      "body": "Tone is the feeling your words create. Aim for **polite, direct and human**. Use the reader's name, say please and thank you once each, and avoid both extremes: the stiff *Kindly do the needful at the earliest* and the blunt *Send it now*.\n\nTwo habits help. First, replace commands with clear requests: *Could you send the signed form by Thursday noon?* Second, be specific about problems without blaming: not *You never shared the file* but *I have not received the file yet; could you resend it?*\n\nBe careful with phrases that sound pleasant but are unclear, such as 'at the earliest', 'ASAP' and 'urgent'. Give an actual time. Read the message once as if you were the recipient having a bad day; if any line could sound like an accusation, soften it."
+    },
+    {
+      "heading": "Pick the channel, then follow up well",
+      "body": "Use **chat** for quick, low-stakes, time-sensitive questions that have a short answer. Use **email** for anything that needs a record, many details, attachments, approvals or a formal audience such as a client. A chat that begins 'Hi' and waits for a reply wastes the other person's time; send the whole question at once: *Hi Anil, which branch should I deploy to for tomorrow's demo: release or main?*\n\nFor follow-ups, wait a reasonable time (usually one working day for routine items), then reply on the same thread so the history stays attached. Keep it short and add value: *Following up on the approval for leave dates. I need to book tickets by Friday, so a reply by Thursday would help. Happy to discuss on a quick call if easier.* Never write 'Why have you not replied?' Assume the message got buried, not ignored."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Subject line makeover",
+      "body": "Before: 'Question' / 'Regarding project' / 'Urgent!!!'\n\nAfter: 'Need your decision by Tue: vendor for college fest sound system' / 'Sprint 4 demo moved to Friday 11 AM' / 'Invoice 2041 unpaid: payment needed by 20 Oct'.",
+      "takeaway": "A good subject names the topic, and when action is needed, includes the action and date. It also helps the reader find the email later."
+    },
+    {
+      "title": "A rambling email rewritten",
+      "body": "Before: 'Hi sir, I hope you are fine. I wanted to talk to you about my internship. Actually my college has asked for a completion letter and I am not sure about the process, so if you could kindly guide me, it would be great.'\n\nAfter: 'Subject: Request: internship completion letter by 28 Oct\n\nDear Mr Sharma,\n\nCould you please issue my internship completion letter by 28 October? My college needs it for the final submission. I worked with the web team from 1 June to 31 August. I can share the college format if useful.\n\nThank you,\nDeepak'",
+      "takeaway": "The after version states the ask and the date in the subject and first line, gives only the facts needed to act, and offers the next step."
+    },
+    {
+      "title": "A polite follow-up",
+      "body": "'Hi Neha, a quick follow-up on the test data request from Monday. We cannot begin regression testing until we have it, so I would be grateful if you could share it by Thursday. If another person handles this, please point me to them. Thanks, Rohan'",
+      "takeaway": "It refers to the earlier message, explains why timing matters, gives a date, and offers an easy way out if the recipient is the wrong person."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "writing-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "writing.subject-bluf",
+      "prompt": "You must ask your lead to approve a leave request for 3 to 5 November before you book train tickets. Which subject line is best?",
+      "options": [
+        "Approval needed by 25 Oct: leave 3 to 5 Nov",
+        "Leave",
+        "Hello sir, a small request regarding something personal",
+        "URGENT URGENT please read"
+      ],
+      "answer": 0,
+      "hint": "Which subject names the topic, the action and the date?",
+      "why": "Option 2 tells the reader what it is, what is needed and by when. 'Leave' is too vague to prioritise, the 'small request' line hides the topic, and shouting 'URGENT' gives no information and annoys readers."
+    },
+    {
+      "id": "writing-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "writing.subject-bluf",
+      "prompt": "What does the abbreviation BLUF stand for? Write the full phrase in four words.",
+      "accept": [
+        "bottom line up front",
+        "bottom-line up front",
+        "bottom line upfront"
+      ],
+      "hint": "It describes where the main point goes in a message.",
+      "why": "BLUF means bottom line up front: the main news or request goes in the first sentence, and background follows."
+    },
+    {
+      "id": "writing-2.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "writing.one-ask",
+      "prompt": "Situation: you are an intern. Your team lead, Mr Kapoor, said last week you could use the staging server for your mini-project, but you still have no login. Your project demo to the college panel is on Monday 20 October. Write the email (subject line plus body, under 90 words) asking him to arrange access by Thursday 16 October.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "subject",
+          "label": "Specific subject line",
+          "weight": 20,
+          "descriptors": {
+            "0": "No subject line or a vague one such as 'Request'.",
+            "1": "Subject names the topic but not the action or date.",
+            "2": "Subject names the topic and the action, or the date, but not both.",
+            "3": "Subject names the topic, the action and the Thursday deadline."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "subject"
+            ],
+            "min": 1,
+            "label": "Includes a subject line"
+          }
+        },
+        {
+          "id": "bluf-ask",
+          "label": "Bottom line first and one clear ask with a date",
+          "weight": 40,
+          "descriptors": {
+            "0": "The ask is missing or buried under a long story.",
+            "1": "The ask appears but late, or the date is missing.",
+            "2": "Ask and date are present but the opening still has filler.",
+            "3": "The first sentence asks for staging access by Thursday 16 October; nothing competes with that ask."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "thursday",
+              "16 october",
+              "16 oct",
+              "october 16"
+            ],
+            "min": 1,
+            "label": "States the Thursday deadline"
+          }
+        },
+        {
+          "id": "context",
+          "label": "Just enough context",
+          "weight": 20,
+          "descriptors": {
+            "0": "No reason given, or a long, irrelevant explanation.",
+            "1": "Reason given but vague.",
+            "2": "Reason is clear but includes one unneeded detail.",
+            "3": "One or two lines explain the demo on Monday 20 October and why access is needed."
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Polite, direct tone",
+          "weight": 20,
+          "descriptors": {
+            "0": "Demanding, blaming or overly stiff ('kindly do the needful').",
+            "1": "Polite but heavy with apologies or filler.",
+            "2": "Polite and clear with a small stiff phrase.",
+            "3": "Uses the name, a courteous request and thanks without padding."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "do the needful",
+              "asap",
+              "at the earliest"
+            ],
+            "label": "No 'do the needful', 'ASAP' or 'at the earliest'"
+          }
+        }
+      ],
+      "modelAnswer": "Subject: Staging access needed by Thu 16 Oct for Monday demo\n\nDear Mr Kapoor,\n\nCould you please arrange my staging server login by Thursday 16 October? My college panel demo is on Monday 20 October, and I need Friday to test the deployment. You mentioned last week that I could use the server. If someone else handles access, please point me to them.\n\nThank you,\nDeepak",
+      "guidance": "A strong answer has a subject that could stand alone in an inbox, an opening line that makes the request and names the date, and a one-line reason. Common mistakes are starting with 'Hope you are well' and three lines of background, saying 'at your earliest convenience' instead of a date, and forgetting why the date matters. Score yourself against each descriptor, then compare with the model answer."
+    },
+    {
+      "id": "writing-2.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "writing.channel-followup",
+      "prompt": "You emailed a client contact, Ms Iyer, on Monday asking for sign-off on a design. It is now Wednesday and you have no reply. Your delivery date is Friday. What is the best next step?",
+      "options": [
+        {
+          "text": "Send a new email titled 'Why no reply?' and copy her manager so she feels the pressure.",
+          "score": 0,
+          "feedback": "This accuses her and escalates too early. It can damage the relationship and make her less helpful."
+        },
+        {
+          "text": "Wait until Friday to see whether she answers, then explain the delay.",
+          "score": 1,
+          "feedback": "Waiting passively protects nobody. The delay becomes your problem on delivery day."
+        },
+        {
+          "text": "Reply on the same thread: 'Following up on the design sign-off. To deliver on Friday, I need your confirmation by Thursday noon. I have attached the design again for convenience. Happy to walk you through it on a 10-minute call.'",
+          "score": 3,
+          "feedback": "Correct. It keeps history on the thread, states why timing matters, gives a deadline, resends the attachment and offers an easy alternative."
+        },
+        {
+          "text": "Send a chat on a personal number saying 'Hi' and wait for her to reply.",
+          "score": 1,
+          "feedback": "A bare 'Hi' forces another round trip, and using a personal number for client work may be inappropriate. Put the full ask in a message she can act on."
+        }
+      ],
+      "why": "A good follow-up is prompt, polite, on the original thread and adds value: the reason, a date and an easy way to respond. Escalation to her manager is a later step, and only if this one fails."
+    }
+  ],
+  "task": {
+    "title": "Rewrite one real email",
+    "brief": "Take an email or message you have actually sent and make it answerable in five seconds.",
+    "steps": [
+      "Pick a real email or chat you sent in the last two weeks that needed a reply or action.",
+      "Write the single ask and deadline in one sentence, then move it to the first line.",
+      "Rewrite the subject line to name the topic and the action.",
+      "Cut the body to four lines of necessary context, and read it once as if you were the recipient."
+    ],
+    "checklist": [
+      "Subject line names topic and action",
+      "First line holds the bottom line or the ask",
+      "Exactly one main ask with a date or time",
+      "Tone is polite and free of 'ASAP' and 'do the needful'"
+    ],
+    "evidencePrompt": "Paste your new subject line and first sentence, and say what you cut.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "writing-2.q1",
+      "type": "mcq",
+      "concept": "writing.subject-bluf",
+      "prompt": "Where should the main request or news go in a professional email?",
+      "options": [
+        "At the very end, after full background",
+        "In the first sentence",
+        "In the attachment only",
+        "In the middle, between two paragraphs of context"
+      ],
+      "answer": 1,
+      "why": "The bottom line goes first so the reader grasps the point at once. Placing it last or in the middle makes busy readers miss it, and an attachment alone is often not opened."
+    },
+    {
+      "id": "writing-2.q2",
+      "type": "mcq",
+      "concept": "writing.one-ask",
+      "prompt": "Which closing line makes the ask easiest to answer?",
+      "options": [
+        "Let me know your thoughts.",
+        "Please revert at the earliest.",
+        "Please reply by Wednesday with Option A or B.",
+        "Do tell me if anything is unclear."
+      ],
+      "answer": 2,
+      "why": "It names a date and the exact choice needed. The others are vague about what is wanted and by when."
+    },
+    {
+      "id": "writing-2.q3",
+      "type": "mcq",
+      "concept": "writing.tone",
+      "prompt": "Which sentence has the best tone for a colleague who has not sent a file?",
+      "options": [
+        "You never send files on time.",
+        "I have not received the file yet; could you resend it by 3 PM?",
+        "Send the file now.",
+        "It would be highly appreciated if the needful is done."
+      ],
+      "answer": 1,
+      "why": "It states the fact without blaming, makes a clear request and gives a time. 'You never' accuses, 'Send now' is a bare command, and the last is stiff and unclear."
+    },
+    {
+      "id": "writing-2.q4",
+      "type": "fill",
+      "concept": "writing.channel-followup",
+      "prompt": "A formal approval from a client that needs a record should be requested by chat or by email? Answer with one word.",
+      "accept": [
+        "email",
+        "e-mail",
+        "mail"
+      ],
+      "why": "Email creates a durable, searchable record and suits formal audiences and approvals; chat suits quick, low-stakes questions."
+    }
+  ],
+  "bank": [
+    {
+      "id": "writing-2.b1",
+      "type": "mcq",
+      "concept": "writing.subject-bluf",
+      "prompt": "A teammate emails the whole class: 'Subject: Hi'. Which rewrite of the subject line would help classmates most if the email is about changing a lab session to Thursday 2 PM?",
+      "options": [
+        "Important",
+        "Lab session",
+        "Lab session moved to Thu 2 PM: please confirm attendance",
+        "Please read this carefully"
+      ],
+      "answer": 2,
+      "why": "It carries the topic, the change and the action. The other options do not tell readers what changed or what to do."
+    },
+    {
+      "id": "writing-2.b2",
+      "type": "fill",
+      "concept": "writing.one-ask",
+      "prompt": "In 'Could you share the report?' the ask is missing something that makes it easy to act on. Name it in one word.",
+      "accept": [
+        "deadline",
+        "date",
+        "time",
+        "a deadline",
+        "a date"
+      ],
+      "why": "Without a date or time the reader cannot prioritise. Adding 'by Friday 4 PM' turns a vague request into a clear one."
+    },
+    {
+      "id": "writing-2.b3",
+      "type": "mcq",
+      "concept": "writing.channel-followup",
+      "prompt": "You sent a request on Monday and have heard nothing for a day. What is the best follow-up?",
+      "options": [
+        "Send a fresh email with a different subject so it stands out.",
+        "Reply on the same thread with a short reminder, the reason for timing and a date.",
+        "Forward it to their manager at once.",
+        "Wait a week to avoid seeming impatient."
+      ],
+      "answer": 1,
+      "why": "A same-thread reply keeps context, and giving the reason and date helps the person act. A new subject splits the history, escalating at once is premature, and waiting a week usually costs you time."
+    }
+  ],
+  "cards": [
+    {
+      "id": "writing-2.c1",
+      "concept": "writing.subject-bluf",
+      "front": "What should a good subject line contain?",
+      "back": "The topic and, if action is needed, the action and date. Example: 'Approval needed by Fri 5 PM: leave dates'."
+    },
+    {
+      "id": "writing-2.c2",
+      "concept": "writing.subject-bluf",
+      "front": "What is BLUF?",
+      "back": "Bottom line up front: put the main news or request in the first sentence, then add background for those who need it."
+    },
+    {
+      "id": "writing-2.c3",
+      "concept": "writing.one-ask",
+      "front": "How do you make an ask easy to answer?",
+      "back": "Make one clear request, say who should act, and give a date or time. Number items if there are several."
+    },
+    {
+      "id": "writing-2.c4",
+      "concept": "writing.channel-followup",
+      "front": "How should you follow up when there is no reply?",
+      "back": "After about a working day, reply on the same thread, briefly say why timing matters, give a date, and offer an easy alternative."
+    }
+  ],
+  "reflection": "Think of an email you sent that went unanswered. Looking at it now, which part (subject, opening, ask, deadline or tone) made it hard to answer, and how would you change it?",
+  "revision": {
+    "keyPoints": [
+      "Subject line = topic plus action plus date.",
+      "Bottom line in the first sentence.",
+      "One ask, one owner, one deadline.",
+      "Polite and direct; give times, not 'ASAP'.",
+      "Chat for quick questions, email for records; follow up on the same thread."
+    ],
+    "redo": "Take any message in your inbox that you must answer today and write a reply whose first sentence is the answer and whose last line is one dated ask."
+  }
+}

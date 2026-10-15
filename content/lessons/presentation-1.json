@@ -1,0 +1,327 @@
+{
+  "id": "presentation-1",
+  "skillId": "presentation",
+  "n": 1,
+  "title": "Structuring a Talk",
+  "summary": "Build a talk around one core message, a defined audience and a three-part structure with a strong opening and close.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "State a talk's core message in one sentence.",
+    "Adapt content to a specific audience.",
+    "Structure a talk in three parts and budget the time."
+  ],
+  "concepts": [
+    {
+      "id": "presentation.core-message",
+      "label": "Core message"
+    },
+    {
+      "id": "presentation.audience",
+      "label": "Audience analysis"
+    },
+    {
+      "id": "presentation.three-part",
+      "label": "Three-part structure"
+    },
+    {
+      "id": "presentation.time-budget",
+      "label": "Time budgeting"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "One core message",
+      "body": "Most weak talks fail before the first slide: the speaker has a topic but no message. A topic is \"Cloud computing\". A **core message** is \"Moving our college portal to the cloud will cut downtime and cost less than servers\". If the audience remembers only one sentence a week later, that should be it.\n\nWrite your core message as a full sentence containing a claim and a reason. Then test every piece of content: does it support the message? If not, cut it, however interesting it is. Cutting is what makes a talk clear. Many first-time speakers try to prove they have worked hard by including everything. The audience, however, did not come for your effort; they came for a useful idea. A focused ten-minute talk that lands one message beats a scattered thirty-minute tour of everything you know."
+    },
+    {
+      "heading": "Know your audience",
+      "body": "Before you plan, answer four questions about the audience. Who are they? What do they already know? What do they care about? What do you want them to think, feel or do afterwards? A talk on SAP basics to first-year students needs plain words and analogies; the same topic for a hiring manager needs business impact and evidence of your skill.\n\nPick one specific listener and speak to them. Technical audiences like precision and data; senior audiences like conclusions first; mixed audiences need definitions the first time you use a term. If you are unsure, ask the organiser who will attend and what they expect, or talk to one likely listener beforehand. Five minutes of questions can save you from preparing the wrong talk."
+    },
+    {
+      "heading": "The three-part structure",
+      "body": "Use **opening, body, close**. The opening gets attention and states the message: a short story, a surprising number or a question, then \"Today I will show you three reasons...\". The body has two to four points, each with one example or piece of evidence, in a logical order such as problem, cause, solution. The close repeats the message, summarises the points and ends with a clear call to action, such as \"Approve the pilot by Friday\".\n\nAvoid ending with \"Thank you, any questions?\" without a closing line; the last 20 seconds are the most remembered."
+    },
+    {
+      "heading": "Time budgeting",
+      "body": "Time is the speaker's promise. For a ten-minute talk, a good split is 1 minute opening, 7 minutes body (about two minutes per point plus transitions) and 1 minute close, leaving a minute of buffer. Rehearse aloud with a timer and plan what to cut if you run long. A rough rule is one slide per minute or fewer. Finishing a minute early is always better than running over."
+    }
+  ],
+  "examples": [
+    {
+      "title": "From topic to message",
+      "body": "Topic: \"Version control.\" Message: \"Using Git branches lets our team of four work in parallel without overwriting each other.\" Everything in the talk then supports that line: a conflict story, a demonstration of branches and a team rule.",
+      "takeaway": "A message is a claim with a reason."
+    },
+    {
+      "title": "Same topic, two audiences",
+      "body": "For classmates Riya explains Git with a Google Docs analogy. For her manager she shows two hours saved weekly and asks for approval of a branching policy.",
+      "takeaway": "Audience decides vocabulary and emphasis."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "presentation-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "presentation.core-message",
+      "prompt": "Which is a core message rather than a topic?",
+      "options": [
+        "Moving the portal to the cloud will cut downtime and cost",
+        "Cloud computing",
+        "Servers",
+        "My presentation"
+      ],
+      "answer": 0,
+      "why": "A message is a full claim with a reason."
+    },
+    {
+      "id": "presentation-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "presentation.three-part",
+      "prompt": "The three parts of a talk are opening, body and ____. (one word)",
+      "accept": [
+        "close",
+        "conclusion",
+        "closing"
+      ],
+      "why": "The close repeats the message and gives a call to action."
+    },
+    {
+      "id": "presentation-1.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "presentation.core-message",
+      "prompt": "Choose a talk you might give. Write the core message in one sentence, name the audience, and give your opening hook and your call to action.",
+      "minWords": 39,
+      "rubric": [
+        {
+          "id": "message",
+          "label": "Clear one-sentence message",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "A topic only.",
+            "2": "A claim without a reason.",
+            "3": "A claim with a reason in one sentence."
+          }
+        },
+        {
+          "id": "audience",
+          "label": "Audience named and used",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Named only.",
+            "2": "Named with one adaptation.",
+            "3": "Named with clear adaptation of content."
+          }
+        },
+        {
+          "id": "hook-cta",
+          "label": "Hook and call to action",
+          "weight": 40,
+          "descriptors": {
+            "0": "Neither.",
+            "1": "One of them.",
+            "2": "Both but vague.",
+            "3": "Both specific."
+          }
+        }
+      ],
+      "modelAnswer": "Message: Daily 30-minute SQL practice will make our batch interview-ready in 8 weeks. Audience: final-year MCA students who know basic SELECT. Hook: \"In last year's campus drive, 6 of 10 rejections came from SQL tests.\" Call to action: \"Join the 7 pm practice group starting Monday.\"",
+      "guidance": "Strong answers give one claim with a reason, adapt to the audience and end with an action. Avoid listing several messages."
+    },
+    {
+      "id": "presentation-1.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "presentation.time-budget",
+      "prompt": "Your talk is allotted 10 minutes but your slides need 16 minutes. What do you do?",
+      "options": [
+        {
+          "text": "Just talk much faster to fit it.",
+          "score": 0,
+          "feedback": "Speed reduces understanding greatly."
+        },
+        {
+          "text": "Cut points that do not support the core message and rehearse again.",
+          "score": 3,
+          "feedback": "Cutting protects clarity and time."
+        },
+        {
+          "text": "Skip the closing.",
+          "score": 0,
+          "feedback": "The close is the most remembered part."
+        },
+        {
+          "text": "Ask for more time at the start.",
+          "score": 1,
+          "feedback": "Respect the agreed time."
+        }
+      ],
+      "why": "Cut to fit rather than rush."
+    }
+  ],
+  "task": {
+    "title": "Plan a five-minute talk",
+    "brief": "Create a one-page outline for a five-minute talk.",
+    "steps": [
+      "Write the core message in one sentence.",
+      "Describe the audience and what they should do afterwards.",
+      "List opening, two points and close with time for each.",
+      "Say it aloud with a timer and note where you ran over."
+    ],
+    "checklist": [
+      "I wrote a message",
+      "I described the audience",
+      "I budgeted time",
+      "I rehearsed with a timer"
+    ],
+    "evidencePrompt": "Write your message, audience and time split.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "presentation-1.q1",
+      "type": "mcq",
+      "concept": "presentation.core-message",
+      "prompt": "If the audience remembers one thing, it should be:",
+      "options": [
+        "Your name",
+        "The slide count",
+        "The core message",
+        "A joke"
+      ],
+      "answer": 2,
+      "why": "The message is what you want remembered."
+    },
+    {
+      "id": "presentation-1.q2",
+      "type": "mcq",
+      "concept": "presentation.audience",
+      "prompt": "The first audience question is:",
+      "options": [
+        "What font?",
+        "Who are they and what do they know?",
+        "How long?",
+        "What colour?"
+      ],
+      "answer": 1,
+      "why": "Audience knowledge decides content."
+    },
+    {
+      "id": "presentation-1.q3",
+      "type": "mcq",
+      "concept": "presentation.three-part",
+      "prompt": "A strong close:",
+      "options": [
+        "Adds new points",
+        "Repeats the message and gives an action",
+        "Says sorry",
+        "Ends abruptly"
+      ],
+      "answer": 1,
+      "why": "Close with message and call to action."
+    },
+    {
+      "id": "presentation-1.q4",
+      "type": "fill",
+      "concept": "presentation.time-budget",
+      "prompt": "Finishing a little ____ is better than running over. (one word)",
+      "accept": [
+        "early",
+        "short"
+      ],
+      "why": "Early finishes respect the audience."
+    }
+  ],
+  "bank": [
+    {
+      "id": "presentation-1.b1",
+      "type": "mcq",
+      "concept": "presentation.core-message",
+      "prompt": "What should you do with interesting content that does not support the message?",
+      "options": [
+        "Keep it",
+        "Cut it",
+        "Hide it in notes",
+        "Say it fast"
+      ],
+      "answer": 1,
+      "why": "Cut what does not support the message."
+    },
+    {
+      "id": "presentation-1.b2",
+      "type": "mcq",
+      "concept": "presentation.audience",
+      "prompt": "A senior audience usually prefers:",
+      "options": [
+        "Long background",
+        "Conclusion first",
+        "Jokes",
+        "Jargon"
+      ],
+      "answer": 1,
+      "why": "Seniors want conclusions and impact first."
+    },
+    {
+      "id": "presentation-1.b3",
+      "type": "mcq",
+      "concept": "presentation.time-budget",
+      "prompt": "In a 10-minute talk, the body is about:",
+      "options": [
+        "1 minute",
+        "7 minutes",
+        "10 minutes",
+        "3 minutes"
+      ],
+      "answer": 1,
+      "why": "About 1 for opening, 7 for body, 1 for close, plus buffer."
+    }
+  ],
+  "cards": [
+    {
+      "id": "presentation-1.c1",
+      "concept": "presentation.core-message",
+      "front": "Core message formula?",
+      "back": "One sentence containing a claim and a reason; cut anything that does not support it."
+    },
+    {
+      "id": "presentation-1.c2",
+      "concept": "presentation.audience",
+      "front": "Four audience questions?",
+      "back": "Who are they, what do they know, what do they care about, what should they do?"
+    },
+    {
+      "id": "presentation-1.c3",
+      "concept": "presentation.three-part",
+      "front": "Talk structure?",
+      "back": "Opening with hook and message, body with 2-4 points, close with summary and action."
+    },
+    {
+      "id": "presentation-1.c4",
+      "concept": "presentation.time-budget",
+      "front": "Ten-minute split?",
+      "back": "About 1 minute opening, 7 minutes body, 1 minute close, 1 minute buffer."
+    }
+  ],
+  "reflection": "Think of a talk you watched that lost you. Which of the four ingredients was missing?",
+  "revision": {
+    "keyPoints": [
+      "A talk needs one core message.",
+      "Design for a specific audience.",
+      "Use opening, body and close.",
+      "Budget time and rehearse."
+    ],
+    "redo": "Rewrite your outline with a sharper message and one fewer point."
+  }
+}

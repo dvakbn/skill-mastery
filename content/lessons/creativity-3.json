@@ -1,0 +1,326 @@
+{
+  "id": "creativity-3",
+  "skillId": "creativity",
+  "n": 3,
+  "title": "Developing and Testing Ideas",
+  "summary": "Select ideas with criteria, build quick prototypes, gather feedback, kill weak ideas and finish creative work.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Select ideas using clear criteria.",
+    "Build a quick prototype and run a feedback loop.",
+    "Decide when to kill an idea and how to finish what you start."
+  ],
+  "concepts": [
+    {
+      "id": "creativity.selecting",
+      "label": "Selecting ideas"
+    },
+    {
+      "id": "creativity.prototyping",
+      "label": "Quick prototypes"
+    },
+    {
+      "id": "creativity.feedback-loops",
+      "label": "Feedback loops"
+    },
+    {
+      "id": "creativity.finishing",
+      "label": "Killing and finishing"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Choosing what to develop",
+      "body": "After generating many ideas you must choose. Avoid choosing by gut alone, or by the loudest voice. Use two or three **criteria**, such as impact, effort and risk, and give each idea a score from one to five. A simple grid helps: high impact and low effort first. Also look for the idea you can test cheaply, not the one that sounds best. Choose one or two to develop; trying to develop ten means finishing none. Be honest about your own constraints too: a brilliant idea that needs six months and a team is the wrong idea for a student with a free weekend. Write down why each rejected idea lost, so you can revisit it later when your skills or time have changed."
+    },
+    {
+      "heading": "Quick prototypes",
+      "body": "A **prototype** is the cheapest version that lets you learn something. It does not need to work perfectly. For an app idea it could be paper screens, a clickable mock-up or a one-page demo; for a service idea, a role-play; for a business idea, a simple sign-up page to see if anyone cares. Ask before building: \"What is the main thing I need to find out?\" and build only enough to answer that. Aim to build the first version in hours or days, not weeks. Early prototypes are meant to be thrown away."
+    },
+    {
+      "heading": "Feedback loops",
+      "body": "Show the prototype to three to five real users. Do not explain too much; watch what they do. Ask open questions: \"What did you expect to happen?\" \"What was confusing?\" \"What would you change?\" Avoid asking \"Do you like it?\", which produces polite answers. Record patterns, not single opinions: if three of five people get stuck at the same point, fix that. Then improve and test again. Each loop of **build, show, learn** should be short. Welcome negative feedback; it is the cheapest information you will ever get."
+    },
+    {
+      "heading": "Killing ideas and finishing",
+      "body": "Not every idea deserves completion. Set **kill criteria** before you start: \"If fewer than three of ten people want this after two weeks, I will stop.\" Dropping a weak idea early frees time for better ones; it is not failure. For ideas that survive, finish. Many creative projects die at 80 per cent. Counter this by defining \"done\" in advance, setting a deadline, shrinking the scope and shipping a rough version. A finished imperfect project teaches more than a perfect unfinished one. Share it publicly, then improve. Sharing creates gentle accountability and gives you feedback from people you did not expect, which often points to the next version."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Scoring ideas",
+      "body": "Three app ideas for campus: a notes exchange, a canteen queue tracker and a bus alert. Scores for impact, effort and risk give the bus alert 13/15. The team builds it first.",
+      "takeaway": "Criteria make choices visible and fair."
+    },
+    {
+      "title": "A fast prototype",
+      "body": "Instead of building a full app, Imran makes a WhatsApp group where he posts bus times by hand for a week. Fifty students join, proving demand before any code.",
+      "takeaway": "The cheapest test can use no technology."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "creativity-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "creativity.selecting",
+      "prompt": "A sensible way to select ideas is to:",
+      "options": [
+        "Score them against clear criteria",
+        "Pick the loudest",
+        "Choose randomly",
+        "Develop all of them"
+      ],
+      "answer": 0,
+      "why": "Criteria make selection fair and visible."
+    },
+    {
+      "id": "creativity-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "creativity.prototyping",
+      "prompt": "A prototype is the ____ version that lets you learn something. (one word)",
+      "accept": [
+        "cheapest",
+        "simplest",
+        "quickest"
+      ],
+      "why": "Prototypes are cheap on purpose."
+    },
+    {
+      "id": "creativity-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "creativity.feedback-loops",
+      "prompt": "Choose a creative idea. Describe the prototype you would build in one day, whom you would show it to, three open questions you would ask, and one kill criterion.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "prototype",
+          "label": "Cheap, quick prototype",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Too big.",
+            "2": "Reasonable.",
+            "3": "Cheap and tests the key question."
+          }
+        },
+        {
+          "id": "questions",
+          "label": "Three open questions",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Closed or leading.",
+            "2": "Mixed.",
+            "3": "Three open questions."
+          }
+        },
+        {
+          "id": "kill",
+          "label": "Kill criterion stated",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Specific without a time.",
+            "3": "Specific number and time."
+          }
+        }
+      ],
+      "modelAnswer": "Idea: a daily SQL practice bot for the class group. Prototype: a shared document with one question posted each day for a week. Show to ten classmates. Questions: What did you expect to see? What stopped you from trying? What would make you return? Kill criterion: if fewer than four people answer on at least three days, I stop.",
+      "guidance": "Strong answers use a cheap prototype, open questions and a numeric kill criterion with a deadline."
+    },
+    {
+      "id": "creativity-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "creativity.finishing",
+      "prompt": "Your side project is 80% done, you now have a new exciting idea. What is best?",
+      "options": [
+        {
+          "text": "Switch immediately to the new idea.",
+          "score": 0,
+          "feedback": "This repeats the pattern of unfinished work."
+        },
+        {
+          "text": "Write the new idea down, finish a rough version of the current project, then decide.",
+          "score": 3,
+          "feedback": "Capture and finish; then choose."
+        },
+        {
+          "text": "Abandon both projects.",
+          "score": 0,
+          "feedback": "This wastes the progress."
+        },
+        {
+          "text": "Do both at once.",
+          "score": 1,
+          "feedback": "Splitting attention slows both."
+        }
+      ],
+      "why": "Capture new ideas but finish what you started."
+    }
+  ],
+  "task": {
+    "title": "Prototype and test",
+    "brief": "Build a one-day prototype of one idea and test with three people.",
+    "steps": [
+      "Score three ideas on impact, effort and risk and pick one.",
+      "Write the key question your prototype must answer.",
+      "Build the cheapest version in one day.",
+      "Show it to three people, record patterns and decide: continue, change or kill."
+    ],
+    "checklist": [
+      "I scored ideas",
+      "I built a prototype",
+      "I tested with three people",
+      "I made a decision"
+    ],
+    "evidencePrompt": "Write your key question, what three people said and your decision.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "creativity-3.q1",
+      "type": "mcq",
+      "concept": "creativity.selecting",
+      "prompt": "Which pair of criteria is useful?",
+      "options": [
+        "Colour and size",
+        "Age and name",
+        "Impact and effort",
+        "Luck and mood"
+      ],
+      "answer": 2,
+      "why": "Impact and effort help prioritise."
+    },
+    {
+      "id": "creativity-3.q2",
+      "type": "mcq",
+      "concept": "creativity.prototyping",
+      "prompt": "Before prototyping, ask:",
+      "options": [
+        "What is the main thing I need to find out?",
+        "How big can it be?",
+        "Who will clap?",
+        "How long can I wait?"
+      ],
+      "answer": 0,
+      "why": "Build only enough to answer the key question."
+    },
+    {
+      "id": "creativity-3.q3",
+      "type": "mcq",
+      "concept": "creativity.feedback-loops",
+      "prompt": "A better feedback question is:",
+      "options": [
+        "Do you like it?",
+        "What did you expect to happen?",
+        "Is it perfect?",
+        "Will you tell friends?"
+      ],
+      "answer": 1,
+      "why": "Open questions reveal real reactions."
+    },
+    {
+      "id": "creativity-3.q4",
+      "type": "fill",
+      "concept": "creativity.finishing",
+      "prompt": "Rules that tell you when to stop an idea are called ____ criteria. (one word)",
+      "accept": [
+        "kill"
+      ],
+      "why": "Kill criteria are set in advance."
+    }
+  ],
+  "bank": [
+    {
+      "id": "creativity-3.b1",
+      "type": "mcq",
+      "concept": "creativity.selecting",
+      "prompt": "Developing ten ideas at once usually results in:",
+      "options": [
+        "Ten finished projects",
+        "None finished",
+        "More talent",
+        "Better ideas"
+      ],
+      "answer": 1,
+      "why": "Focus is needed to finish."
+    },
+    {
+      "id": "creativity-3.b2",
+      "type": "mcq",
+      "concept": "creativity.feedback-loops",
+      "prompt": "Three of five users stumble at one step. You should:",
+      "options": [
+        "Ignore it",
+        "Fix that step",
+        "Blame users",
+        "Stop testing"
+      ],
+      "answer": 1,
+      "why": "Patterns matter more than single opinions."
+    },
+    {
+      "id": "creativity-3.b3",
+      "type": "mcq",
+      "concept": "creativity.finishing",
+      "prompt": "Defining \"done\" in advance helps:",
+      "options": [
+        "Avoid finishing",
+        "Finish rough versions and ship",
+        "Make it longer",
+        "Skip testing"
+      ],
+      "answer": 1,
+      "why": "A clear finish line prevents drifting."
+    }
+  ],
+  "cards": [
+    {
+      "id": "creativity-3.c1",
+      "concept": "creativity.selecting",
+      "front": "How to select ideas?",
+      "back": "Score against two or three criteria such as impact, effort and risk; choose one or two."
+    },
+    {
+      "id": "creativity-3.c2",
+      "concept": "creativity.prototyping",
+      "front": "What is a prototype?",
+      "back": "The cheapest version that answers your key question; built in hours or days and thrown away."
+    },
+    {
+      "id": "creativity-3.c3",
+      "concept": "creativity.feedback-loops",
+      "front": "Feedback loop?",
+      "back": "Build, show three to five people, watch and ask open questions, learn patterns, repeat."
+    },
+    {
+      "id": "creativity-3.c4",
+      "concept": "creativity.finishing",
+      "front": "Finishing rules?",
+      "back": "Set kill criteria and a definition of done; shrink scope; ship a rough version."
+    }
+  ],
+  "reflection": "Which of your unfinished projects deserves a kill decision, and which deserves to be finished this week?",
+  "revision": {
+    "keyPoints": [
+      "Choose ideas with criteria.",
+      "Prototype ideas cheaply.",
+      "Learn from patterns in feedback.",
+      "Kill weak ideas and finish the rest."
+    ],
+    "redo": "Apply kill criteria to one old project and decide to stop or finish it."
+  }
+}

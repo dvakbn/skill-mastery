@@ -1,0 +1,349 @@
+{
+  "id": "english-1",
+  "skillId": "english",
+  "n": 1,
+  "title": "Sentence Backbone and Articles",
+  "summary": "Build correct, natural sentences by mastering word order, articles, prepositions and agreement.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build sentences on a clear subject-verb-object backbone.",
+    "Choose a, an, the or no article correctly in common situations.",
+    "Avoid five frequent workplace errors, including 'discuss about' and 'revert back'."
+  ],
+  "concepts": [
+    {
+      "id": "english.backbone",
+      "label": "Subject-verb-object backbone"
+    },
+    {
+      "id": "english.articles",
+      "label": "Articles: a, an, the, none"
+    },
+    {
+      "id": "english.prepositions",
+      "label": "Verb + preposition patterns"
+    },
+    {
+      "id": "english.agreement",
+      "label": "Subject-verb agreement"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Every clear sentence has a backbone",
+      "body": "English depends on word order more than many languages do. The default order is **Subject - Verb - Object**: *Priya fixed the bug.* Who did it, what they did, to what. When a sentence feels confusing, find the backbone first and then add detail around it.\n\nA useful habit is to say the backbone out loud before you add extras. 'The team finished the report' is the backbone. 'The team finished the quarterly report yesterday after a long meeting' adds time and context, but the backbone is still intact. Long sentences go wrong when the backbone gets buried or when the subject and verb drift apart."
+    },
+    {
+      "heading": "Articles: a, an, the, or nothing",
+      "body": "Use **a/an** for one non-specific thing the listener does not yet know: *I need a laptop.* Use **an** before a vowel *sound*, not just a vowel letter: *an hour*, *an MBA*, but *a university*, *a user*.\n\nUse **the** when the listener knows which one: because you mentioned it before, because it is unique, or because the situation makes it obvious. *I bought a laptop. The laptop is fast.* *The sun rises in the east.* *Please close the door.*\n\nUse **no article** for general plural or uncountable ideas: *Engineers solve problems. Honesty matters.* A quick test: ask 'Which one?' If the listener can answer, use *the*. If it is any one of many, use *a/an*. If you mean the whole category, use no article."
+    },
+    {
+      "heading": "Verbs that hold a preposition, and verbs that must not",
+      "body": "Some verbs already contain the meaning of a preposition, so adding one is an error. Say *discuss the plan*, not *discuss about the plan*. Say *reach the office*, not *reach to the office*. Say *emphasise the point*, not *emphasise on the point*. Other verbs need a fixed preposition: *depend on*, *agree with a person*, *agree to a proposal*, *apologise for a mistake*, *wait for a reply*.\n\nA second family of errors is redundancy. *Revert back* repeats itself because *revert* already means go back; say *revert* or, more plainly, *reply*. *Return back*, *repeat again* and *cousin brother* are similar. Plain, short phrases sound more professional than padded ones."
+    },
+    {
+      "heading": "Agreement: make the verb match the real subject",
+      "body": "The verb agrees with the subject, not with the nearest noun. *The list of requirements **is** long.* The subject is *list*, so the verb is singular. *Everyone **has** a role.* Words like everyone, each, nobody and someone are singular.\n\nWatch the third-person -s in the present tense: *She works, they work.* This small -s is the single most common slip in fast speech. Slow down on the verb, and check it against the subject in your mind. Reading your own writing aloud will catch most agreement errors."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A status update, before and after",
+      "body": "Before: 'We discussed about the issue and revert back to you with solution by tomorrow.'\n\nAfter: 'We discussed the issue. I will reply with a solution by tomorrow.'",
+      "takeaway": "Remove 'about' after discuss, replace 'revert back' with a plain verb, and add the missing article and a clear subject."
+    },
+    {
+      "title": "Articles across a short story",
+      "body": "'I opened a ticket for a login problem. The problem happens only on mobile. Developers on the team asked for screenshots.'",
+      "takeaway": "First mention uses a; second mention uses the; general plural (Developers) takes no article, while 'the team' is a specific known group."
+    },
+    {
+      "title": "Finding the true subject",
+      "body": "'The quality of these reports has improved.' The subject is quality, so the verb is has, not have, even though 'reports' sits closer to the verb.",
+      "takeaway": "Ignore the phrase that starts with 'of' when you are choosing the verb form."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "english-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "english.prepositions",
+      "prompt": "Which sentence is correct and natural in a workplace email?",
+      "options": [
+        "Let us discuss about the schedule tomorrow.",
+        "Let us discuss the schedule tomorrow.",
+        "Let us discuss on the schedule tomorrow.",
+        "Let us discuss regarding the schedule tomorrow."
+      ],
+      "answer": 1,
+      "hint": "Discuss already means talk about something.",
+      "why": "'Discuss' takes its object directly: discuss the schedule. Adding about, on or regarding is an error because the verb already carries that meaning."
+    },
+    {
+      "id": "english-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "english.articles",
+      "prompt": "Complete with a, an or the: 'I attended ____ interview yesterday. ____ interviewer asked about my project.' Write your two answers separated by a comma.",
+      "accept": [
+        "an, the",
+        "an,the",
+        "an , the"
+      ],
+      "hint": "Interview begins with a vowel sound. The interviewer was introduced by the first sentence.",
+      "why": "'An interview' is a first mention that begins with a vowel sound. 'The interviewer' is now a specific, known person, so the is correct."
+    },
+    {
+      "id": "english-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "english.backbone",
+      "prompt": "Rewrite this sentence so it is clear and correct, in two or three shorter sentences: 'The meeting that we had with the client yesterday about the delay in the delivery of the modules which were promised last month were not so good and I will revert back to you with the next steps after discuss about it with team.'",
+      "minWords": 25,
+      "rubric": [
+        {
+          "id": "backbone",
+          "label": "Clear subject-verb-object sentences",
+          "weight": 35,
+          "descriptors": {
+            "0": "Still one long tangled sentence with no clear backbone.",
+            "1": "Split into shorter sentences but some still bury the subject and verb.",
+            "2": "Mostly clear sentences; one is still wordy or unclear.",
+            "3": "Every sentence has a clear subject, verb and object and is easy to follow."
+          }
+        },
+        {
+          "id": "errors",
+          "label": "Errors removed (revert back, discuss about, agreement, articles)",
+          "weight": 40,
+          "descriptors": {
+            "0": "Original errors remain.",
+            "1": "One or two of the errors were fixed; others remain.",
+            "2": "Most errors were fixed; one remains.",
+            "3": "All errors fixed: no 'revert back', no 'discuss about', correct agreement, and 'the team' or 'my team'."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "revert back",
+              "discuss about",
+              "were not so good"
+            ],
+            "label": "None of 'revert back', 'discuss about' or 'were not so good' remain"
+          }
+        },
+        {
+          "id": "meaning",
+          "label": "Original meaning preserved",
+          "weight": 25,
+          "descriptors": {
+            "0": "Meaning lost or changed.",
+            "1": "Some key information missing (client, delay, next steps).",
+            "2": "Meaning preserved with a small omission.",
+            "3": "All key points kept: the client meeting, the delay, the next steps."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "client"
+            ],
+            "min": 1,
+            "label": "Mentions the client"
+          }
+        }
+      ],
+      "modelAnswer": "The meeting with the client yesterday did not go well. The delivery of the modules promised last month is delayed. I will discuss it with my team and reply with the next steps.",
+      "guidance": "A strong answer finds the backbone ('The meeting did not go well'), splits the long sentence into two or three, removes 'revert back' and 'discuss about', and fixes the agreement between 'meeting' and the verb. A common mistake is to shorten the text by dropping the client or the next steps; keep the meaning. Compare your version with the model answer and score each criterion honestly."
+    },
+    {
+      "id": "english-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "english.prepositions",
+      "prompt": "Your manager asks you to send a short update to a client. You have a draft: 'We are discussing about the issue internally and will revert back by evening.' You have two minutes. What do you do?",
+      "options": [
+        {
+          "text": "Send it as it is; the client will understand.",
+          "score": 0,
+          "feedback": "The meaning is clear but two errors reduce your credibility with a client."
+        },
+        {
+          "text": "Change it to 'We are discussing the issue internally and will reply by evening.'",
+          "score": 3,
+          "feedback": "Correct: both errors removed, and the sentence stays short and professional."
+        },
+        {
+          "text": "Make it longer and more formal with extra phrases to sound polished.",
+          "score": 1,
+          "feedback": "Longer is not better; padded sentences hide the backbone and add more places for errors."
+        },
+        {
+          "text": "Ask a colleague to rewrite the whole update.",
+          "score": 1,
+          "feedback": "Getting help is fine, but with two minutes you should fix the known error patterns yourself."
+        }
+      ],
+      "why": "The fastest professional fix is to apply the two rules you know: no 'about' after discuss, and a plain verb instead of 'revert back'."
+    }
+  ],
+  "task": {
+    "title": "Error hunt in your own writing",
+    "brief": "Find and fix real errors in something you wrote recently.",
+    "steps": [
+      "Open an email, chat message or assignment you wrote in the last week and copy 150 words into a note.",
+      "Underline every article, every verb followed by a preposition, and every subject-verb pair.",
+      "Correct each error you find and note which rule it broke.",
+      "Write your top two repeating errors at the top of the note."
+    ],
+    "checklist": [
+      "I chose real writing of at least 100 words",
+      "I checked every article",
+      "I checked every verb + preposition",
+      "I listed my top two repeating errors"
+    ],
+    "evidencePrompt": "Write your two repeating errors and one corrected sentence.",
+    "evidenceWords": 15,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "english-1.q1",
+      "type": "mcq",
+      "concept": "english.articles",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "She is an university student.",
+        "She is the university student.",
+        "She is a university student.",
+        "She is university student."
+      ],
+      "answer": 2,
+      "why": "University begins with the sound 'yoo', a consonant sound, so the article is a. The is wrong because it is not a specific known student; and the article cannot be dropped for a singular countable noun."
+    },
+    {
+      "id": "english-1.q2",
+      "type": "mcq",
+      "concept": "english.prepositions",
+      "prompt": "Which phrase is redundant and best replaced?",
+      "options": [
+        "depend on the result",
+        "reply to the email",
+        "revert back to you",
+        "agree with the plan"
+      ],
+      "answer": 2,
+      "why": "Revert already means go back, so 'revert back' repeats itself. Use 'revert' or, more plainly, 'reply'."
+    },
+    {
+      "id": "english-1.q3",
+      "type": "mcq",
+      "concept": "english.agreement",
+      "prompt": "Select the correct verb: 'The list of tasks ____ long.'",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "answer": 0,
+      "why": "The subject is the singular noun 'list', not 'tasks'. A singular subject takes 'is'."
+    },
+    {
+      "id": "english-1.q4",
+      "type": "fill",
+      "concept": "english.backbone",
+      "prompt": "Name the verb in the backbone of this sentence: 'The new engineer quickly fixed the production bug.' (one word)",
+      "accept": [
+        "fixed"
+      ],
+      "why": "The backbone is 'engineer fixed bug'. 'Fixed' is the verb; 'quickly' modifies it and 'new' and 'production' modify nouns."
+    }
+  ],
+  "bank": [
+    {
+      "id": "english-1.b1",
+      "type": "mcq",
+      "concept": "english.articles",
+      "prompt": "Pick the best version: '____ honesty is important in ____ team.'",
+      "options": [
+        "The honesty ... a",
+        "Honesty ... the",
+        "A honesty ... a",
+        "Honesty ... a"
+      ],
+      "answer": 3,
+      "why": "Honesty as a general idea takes no article. 'A team' fits when you mean any team; 'the team' would need a known team. Option 2 is the natural general statement."
+    },
+    {
+      "id": "english-1.b2",
+      "type": "fill",
+      "concept": "english.prepositions",
+      "prompt": "Correct the phrase by writing only the correct verb phrase: 'We emphasise on quality.'",
+      "accept": [
+        "we emphasise quality",
+        "we emphasize quality",
+        "emphasise quality",
+        "emphasize quality"
+      ],
+      "why": "Emphasise takes its object directly: emphasise quality."
+    },
+    {
+      "id": "english-1.b3",
+      "type": "mcq",
+      "concept": "english.agreement",
+      "prompt": "Which is correct?",
+      "options": [
+        "Everyone has submitted the form.",
+        "Everyone have submitted the form.",
+        "Everyone are submitting the form.",
+        "Everyone were submitting the form."
+      ],
+      "answer": 0,
+      "why": "Everyone is grammatically singular, so it takes has."
+    }
+  ],
+  "cards": [
+    {
+      "id": "english-1.c1",
+      "concept": "english.backbone",
+      "front": "What is the default English word order?",
+      "back": "Subject - Verb - Object. Find the backbone first, then add detail."
+    },
+    {
+      "id": "english-1.c2",
+      "concept": "english.articles",
+      "front": "Article test: how do you decide between a, the and no article?",
+      "back": "Ask 'Which one?' If the listener knows, use the. If any one of many, use a/an. If the whole category, use no article."
+    },
+    {
+      "id": "english-1.c3",
+      "concept": "english.prepositions",
+      "front": "Fix: 'discuss about', 'revert back', 'emphasise on'.",
+      "back": "discuss the plan; reply (or revert); emphasise the point. The verbs already carry the meaning."
+    },
+    {
+      "id": "english-1.c4",
+      "concept": "english.agreement",
+      "front": "Which word controls the verb in 'The list of tasks ___ long'?",
+      "back": "The head noun 'list' (singular), not the noun in the 'of' phrase."
+    }
+  ],
+  "reflection": "Which of your repeating errors do you think costs you the most credibility, and what is one cue that will remind you to check it?",
+  "revision": {
+    "keyPoints": [
+      "Find the subject-verb-object backbone, then add detail.",
+      "Which one? test for articles.",
+      "No 'about' after discuss; no 'back' after revert.",
+      "The head noun controls the verb."
+    ],
+    "redo": "Rewrite one sentence from yesterday's messages, fixing any article, preposition or agreement slip, and say the corrected version aloud."
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "id": "finance-4",
+  "skillId": "finance",
+  "n": 4,
+  "title": "Credit, Debt, Insurance and Taxes",
+  "summary": "Understand credit scores, credit card interest traps, EMIs, basic insurance, income tax concepts and how to stay safe from financial fraud.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain how a credit score works and how to protect it.",
+    "Calculate the true cost of an EMI loan and avoid credit card interest traps.",
+    "Describe term and health insurance, core income tax concepts and key fraud-safety habits."
+  ],
+  "concepts": [
+    {
+      "id": "finance.credit-score",
+      "label": "Credit score"
+    },
+    {
+      "id": "finance.debt-emi",
+      "label": "Credit card interest and EMIs"
+    },
+    {
+      "id": "finance.insurance",
+      "label": "Term and health insurance"
+    },
+    {
+      "id": "finance.tax-fraud",
+      "label": "Income tax concepts and fraud safety"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Borrowing and protection",
+      "body": "Earlier lessons covered saving and investing. This one covers the other side: borrowing, protecting yourself and paying tax. It is educational; rates, tax rules and policy terms change, so read current documents before acting."
+    },
+    {
+      "heading": "Credit score and card interest",
+      "body": "A **credit score** is a number, usually three digits, that credit bureaus calculate from your borrowing history. Lenders use it to judge whether to give you a loan or card and at what rate. It is helped by paying every bill on time, keeping card use well below your limit, a long history, and few loan applications in a short time. It is hurt by late payments, defaults, and maxing out cards.\n\nA credit card is an interest-free loan only if you pay the **full statement balance by the due date**. If you pay only the **minimum due**, interest is charged on the unpaid balance, often from the date of purchase, at a rate far higher than most loans. Illustrative example: ₹20,000 unpaid at 3 percent a month costs ₹600 in interest in one month, which is 36 percent a year. Add late fees and the balance can snowball. The rule: spend only what you can pay in full."
+    },
+    {
+      "heading": "EMIs and the real cost of a loan",
+      "body": "An **EMI** (equated monthly instalment) is a fixed monthly payment covering principal and interest. The total cost is EMI x number of months. Example: borrowing ₹1,00,000 for 12 months with an EMI of ₹8,900 means you pay 8,900 x 12 = ₹1,06,800, so the extra cost is ₹6,800. Beware of **no-cost EMI** offers: the interest or processing fee is often built into the price or charged separately, so compare the total paid with the cash price. Before any loan, ask: what is the total cost, what are the fees, and can I afford the EMI with my essentials covered? A common guideline is to keep total EMIs well below a third of take-home pay."
+    },
+    {
+      "heading": "Term and health insurance",
+      "body": "**Insurance** transfers a big financial risk to an insurer in exchange for a **premium**. **Term insurance** pays a lump sum to your family if you die during the term, and nothing if you outlive it. It is a pure protection product and generally cheaper when bought young, and it matters most if others depend on your income. A single student with no dependants may not need it yet. **Health insurance** pays for hospital costs up to a **sum insured**. Look at waiting periods, exclusions, co-payment clauses and whether hospitals nearby offer cashless treatment. Cover from an employer often ends when you leave, so a personal policy is worth considering. Never treat insurance as an investment, and always disclose your health history honestly, because hiding facts can lead to rejected claims."
+    },
+    {
+      "heading": "Tax concepts and fraud safety",
+      "body": "**Income tax** is charged on your **taxable income**, which is income minus eligible deductions and exemptions. Your employer deducts **TDS** (tax deducted at source) from salary and deposits it with the government. You receive a statement of this, such as Form 16. Filing a return reports your income and lets you claim a refund if too much tax was deducted. The tax system offers different regimes and slabs that the government revises, so check the current rules every year.\n\n**Fraud safety:** never share OTPs, PINs or card CVV with anyone, including someone claiming to be a bank officer. You never need to enter a PIN to receive money; a \"collect request\" asks you to pay. Avoid remote-access apps at a stranger's request and check links before clicking. If you are defrauded, call your bank at once and report it on the national cybercrime helpline 1930 as fast as you can, because early reporting improves the chance of recovery."
+    }
+  ],
+  "examples": [
+    {
+      "title": "The minimum due trap",
+      "body": "Arjun buys a ₹30,000 phone on his card and pays only the minimum due of ₹1,500 for several months. Interest at an illustrative 3 percent a month on the remaining balance is about ₹855 in the first month. After paying ₹1,500 he still owes about ₹29,355, so most of his payment went to interest.",
+      "takeaway": "Paying only the minimum keeps you in debt while the interest quietly compounds."
+    },
+    {
+      "title": "A fake bank call",
+      "body": "Priya gets a call: \"Your account will be blocked; share the OTP just received to update KYC.\" She hangs up, calls the number printed on her bank card, and learns the bank never asks for OTPs on calls. She reports the number to the helpline.",
+      "takeaway": "Urgency plus an OTP request is a scam pattern; verify through an official number you looked up yourself."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "finance-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "finance.credit-score",
+      "prompt": "Which habit helps a credit score the most?",
+      "options": [
+        "Paying all dues on time and keeping utilisation low",
+        "Maxing out your card each month",
+        "Applying for many loans at once",
+        "Never checking statements"
+      ],
+      "answer": 0,
+      "why": "On-time payments and low utilisation are the strongest positive signals. Maxing out and many applications hurt the score."
+    },
+    {
+      "id": "finance-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "finance.debt-emi",
+      "prompt": "A loan of ₹50,000 has an EMI of ₹4,500 for 12 months. The total repaid is ₹____. (number only)",
+      "accept": [
+        "54000",
+        "54,000",
+        "₹54,000",
+        "₹54000"
+      ],
+      "why": "4,500 x 12 = ₹54,000, so the loan costs ₹4,000 more than the amount borrowed."
+    },
+    {
+      "id": "finance-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "finance.insurance",
+      "prompt": "You are 23, single, with no dependants, and your employer gives health cover for you. A friend urges you to buy a large term plan and a savings-linked policy today. What is the most sensible reaction?",
+      "options": [
+        {
+          "text": "Buy both immediately because insurance is an investment.",
+          "score": 0,
+          "feedback": "Mixing insurance with investment is a common mistake, and pressure is a bad reason to buy."
+        },
+        {
+          "text": "Check what your employer cover includes and ends, consider a personal health policy as you may lose cover when you leave, and revisit term cover when dependants appear.",
+          "score": 3,
+          "feedback": "You separate needs from sales pressure and plan for when cover ends."
+        },
+        {
+          "text": "Skip every policy forever.",
+          "score": 1,
+          "feedback": "You may be exposed if the employer cover ends or a family event changes your needs."
+        },
+        {
+          "text": "Buy whichever agent calls first.",
+          "score": 0,
+          "feedback": "Choosing by who calls first ignores your actual need and the policy terms."
+        }
+      ],
+      "why": "Insurance should match real risks and dependants. Check existing cover and its limits before buying, and keep insurance separate from investing."
+    },
+    {
+      "id": "finance-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "finance.tax-fraud",
+      "prompt": "Write a short guide (for a friend starting their first job) with two points about how salary tax works (TDS, Form 16 and filing) and three habits to stay safe from UPI and phone fraud. Do not quote tax rates.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "tax",
+          "label": "Tax points correct",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "One vague point.",
+            "2": "Two points, mostly correct.",
+            "3": "Two accurate points covering TDS and filing or Form 16."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "tds",
+              "form 16",
+              "return",
+              "taxable",
+              "refund"
+            ],
+            "min": 2,
+            "label": "Uses tax terms"
+          }
+        },
+        {
+          "id": "fraud",
+          "label": "Three fraud habits",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One.",
+            "2": "Two.",
+            "3": "Three clear habits such as never sharing OTP or PIN and verifying calls independently."
+          }
+        },
+        {
+          "id": "actionable",
+          "label": "Actionable and clear",
+          "weight": 20,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Vague.",
+            "2": "Mostly clear.",
+            "3": "Clear steps a beginner can follow."
+          }
+        },
+        {
+          "id": "safe",
+          "label": "No fixed rates quoted",
+          "weight": 10,
+          "descriptors": {
+            "0": "Quotes specific rates as fixed.",
+            "1": "Implies fixed rates.",
+            "2": "Avoids rates.",
+            "3": "Says rules change and to check current ones."
+          }
+        }
+      ],
+      "modelAnswer": "Tax: your employer deducts TDS from salary and gives you Form 16 showing it. Filing a return reports your income and lets you claim a refund if too much was deducted; rules change, so check the current ones each year. Safety: never share OTPs or PINs, remember you never enter a PIN to receive money, and verify any bank call by dialling the number on your card. If cheated, call your bank and report at 1930 immediately.",
+      "guidance": "A strong guide uses plain words, stays accurate, and gives concrete habits. Mistakes include quoting rates as permanent, saying a refund is automatic, or saying PIN is needed to receive money. Mark yourself honestly against the model."
+    }
+  ],
+  "task": {
+    "title": "Personal money safety check",
+    "brief": "Audit your own setup for credit, insurance and fraud safety using general principles.",
+    "steps": [
+      "List all cards and loans you have or expect, with the due date for each.",
+      "Write the total repayment of any EMI offer you have seen and compare with the cash price.",
+      "Check what health cover you have through family or employer and when it ends.",
+      "Write three fraud-safety rules and set app lock and UPI limits as appropriate."
+    ],
+    "checklist": [
+      "I listed dues and dates",
+      "I compared total cost with cash price",
+      "I checked my health cover",
+      "I wrote three fraud rules"
+    ],
+    "evidencePrompt": "Write your three fraud rules and one thing you learned about your cover or dues.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "finance-4.q1",
+      "type": "mcq",
+      "concept": "finance.credit-score",
+      "prompt": "A late credit card payment generally:",
+      "options": [
+        "Improves your score",
+        "Has no effect",
+        "Can reduce your credit score",
+        "Removes the debt"
+      ],
+      "answer": 2,
+      "why": "Late payments are recorded and lower your score."
+    },
+    {
+      "id": "finance-4.q2",
+      "type": "fill",
+      "concept": "finance.debt-emi",
+      "prompt": "Paying only the minimum due on a credit card means interest is charged on the unpaid ____. (one word)",
+      "accept": [
+        "balance",
+        "amount"
+      ],
+      "why": "Interest applies to the remaining balance, which is why the minimum due is a trap."
+    },
+    {
+      "id": "finance-4.q3",
+      "type": "mcq",
+      "concept": "finance.insurance",
+      "prompt": "Term insurance pays:",
+      "options": [
+        "A maturity bonus if you live",
+        "A lump sum to your family if you die within the term",
+        "Your hospital bills",
+        "Your EMIs forever"
+      ],
+      "answer": 1,
+      "why": "Term cover is pure protection that pays on death during the term; health insurance covers hospital bills."
+    },
+    {
+      "id": "finance-4.q4",
+      "type": "mcq",
+      "concept": "finance.tax-fraud",
+      "prompt": "Which is true about UPI safety?",
+      "options": [
+        "You must enter your PIN to receive money",
+        "You never need a PIN to receive money",
+        "Banks ask for OTPs on calls",
+        "Sharing CVV is safe with the bank"
+      ],
+      "answer": 1,
+      "why": "Entering a PIN approves a payment out, never an incoming credit."
+    }
+  ],
+  "bank": [
+    {
+      "id": "finance-4.b1",
+      "type": "mcq",
+      "concept": "finance.debt-emi",
+      "prompt": "A phone costs ₹24,000 in cash. A \"no-cost EMI\" for 6 months totals ₹25,200. What is the better reading?",
+      "options": [
+        "It really costs nothing extra",
+        "You pay ₹1,200 more than cash, so the cost is hidden in fees or price",
+        "The EMI is cheaper than cash",
+        "EMIs cannot be compared"
+      ],
+      "answer": 1,
+      "why": "Compare total paid with the cash price; here ₹1,200 extra is the hidden cost."
+    },
+    {
+      "id": "finance-4.b2",
+      "type": "fill",
+      "concept": "finance.tax-fraud",
+      "prompt": "Money deducted from your salary by the employer and deposited as tax is called ____. (three-letter abbreviation)",
+      "accept": [
+        "tds",
+        "tax deducted at source"
+      ],
+      "why": "TDS stands for tax deducted at source."
+    },
+    {
+      "id": "finance-4.b3",
+      "type": "mcq",
+      "concept": "finance.insurance",
+      "prompt": "Which feature is important to check in a health policy?",
+      "options": [
+        "The colour of the brochure",
+        "Waiting periods, exclusions and cashless hospitals",
+        "The agent's name",
+        "Only the premium"
+      ],
+      "answer": 1,
+      "why": "Terms determine whether your claim is paid, so premium alone is a poor basis."
+    }
+  ],
+  "cards": [
+    {
+      "id": "finance-4.c1",
+      "concept": "finance.credit-score",
+      "front": "How do you protect a credit score?",
+      "back": "Pay all dues on time, keep card use low against the limit, avoid many loan applications at once and check statements."
+    },
+    {
+      "id": "finance-4.c2",
+      "concept": "finance.debt-emi",
+      "front": "What is the card minimum due trap?",
+      "back": "Interest is charged on the unpaid balance at high rates, so paying the minimum keeps you in debt. Pay the full statement balance by the due date."
+    },
+    {
+      "id": "finance-4.c3",
+      "concept": "finance.insurance",
+      "front": "Term vs health insurance?",
+      "back": "Term pays your family a lump sum if you die in the term; health pays hospital bills up to the sum insured. Neither is an investment."
+    },
+    {
+      "id": "finance-4.c4",
+      "concept": "finance.tax-fraud",
+      "front": "Key tax and fraud basics?",
+      "back": "TDS is deducted from salary and shown on Form 16; filing can claim a refund. Never share OTP or PIN and report fraud quickly to the bank and 1930."
+    }
+  ],
+  "reflection": "Which borrowing or fraud risk in your own life are you least prepared for, and what is the first step you will take this week?",
+  "revision": {
+    "keyPoints": [
+      "Pay credit card balances in full by the due date.",
+      "Total EMI cost is EMI times months; compare with cash.",
+      "Insurance protects against risk; it is not an investment.",
+      "Never share OTP or PIN; report fraud immediately."
+    ],
+    "redo": "Calculate the total cost of an EMI offer and its extra over the cash price."
+  }
+}

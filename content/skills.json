@@ -1,0 +1,139 @@
+{
+"groups": [
+ {"id":"habits","name":"Habits & Execution","color":"#2f7d6d"},
+ {"id":"communication","name":"Communication","color":"#c0562f"},
+ {"id":"thinking","name":"Thinking & Research","color":"#3b5bdb"},
+ {"id":"people","name":"People & Influence","color":"#a23b72"},
+ {"id":"professional","name":"Professional Presence","color":"#8a6d1d"},
+ {"id":"knowledge","name":"Knowledge & Digital","color":"#5f3dc4"}
+],
+"skills": [
+{"id":"english","name":"English Fluency","group":"communication","description":"Speak and write clear, natural, correct English at work.","lessons":[
+ {"n":1,"title":"Sentence Backbone and Articles","focus":"Subject-verb-object order, a/an/the, common preposition errors, singular/plural agreement, fixing frequent workplace errors such as 'revert back' and 'discuss about'."},
+ {"n":2,"title":"Tenses in Real Use","focus":"Present perfect vs past simple, present continuous for plans, reporting what people said, time expressions, choosing a tense by meaning not by rule-memorising."},
+ {"n":3,"title":"Precise Vocabulary and Collocations","focus":"Word families, collocations (make a decision, not do a decision), replacing vague words (good, thing, nice), workplace phrasal verbs, a vocabulary notebook that actually sticks."},
+ {"n":4,"title":"Speaking With Fluency","focus":"Chunking, pausing instead of filler words, pace, structured spoken answers (point-reason-example-point), shadowing, a 5-minute daily self-recording routine."}]},
+{"id":"reading","name":"Reading Habits","group":"habits","description":"Read consistently, understand deeply and retain what matters.","lessons":[
+ {"n":1,"title":"Building a Daily Reading Habit","focus":"Cue-routine-reward for reading, minimum viable pages, environment, reading log, choosing the first book list."},
+ {"n":2,"title":"Active Reading","focus":"Purpose before reading, previewing, SQ3R, questions while reading, annotating, reading vs skimming vs scanning."},
+ {"n":3,"title":"Reading Non-Fiction and Technical Text","focus":"Reading structure (abstract, headings, conclusion first), summarising in your own words, slowing down for dense material, reading documentation and long articles."},
+ {"n":4,"title":"Retention and Turning Reading into Action","focus":"Cornell notes, recall practice, spaced review of notes, linking ideas, book-to-action page, building and pruning a reading list."}]},
+{"id":"writing","name":"Writing Skills","group":"communication","description":"Write clearly, persuasively and professionally.","lessons":[
+ {"n":1,"title":"Clear Writing","focus":"Audience and purpose, plain language, short sentences, active voice, cutting filler, one idea per paragraph."},
+ {"n":2,"title":"Professional Emails and Messages","focus":"Subject lines, bottom-line-up-front, one clear ask, tone, follow-up, chat messages vs emails."},
+ {"n":3,"title":"Structure and Persuasion","focus":"Outlines, PEEL paragraphs, reports and one-page briefs, using evidence and examples, logical flow."},
+ {"n":4,"title":"Editing and Revision","focus":"Multiple edit passes (structure, sentence, word, proofread), reading aloud, checklists, receiving and applying feedback."}]},
+{"id":"presentation","name":"Presentation Skills","group":"communication","description":"Structure and deliver talks that land.","lessons":[
+ {"n":1,"title":"Structuring a Talk","focus":"One core message, audience analysis, three-part structure, strong opening and close, time budgeting."},
+ {"n":2,"title":"Slides and Visuals","focus":"One idea per slide, headline-as-message, simple charts, avoiding text walls, speaker notes."},
+ {"n":3,"title":"Delivery, Nerves and Q&A","focus":"Voice, pace, pauses, eye contact, rehearsal method, managing nerves, handling questions including hard ones."}]},
+{"id":"critical","name":"Critical Thinking","group":"thinking","description":"Evaluate claims, arguments and evidence soundly.","lessons":[
+ {"n":1,"title":"Claims, Arguments and Evidence","focus":"Premises vs conclusions, types of evidence, strong vs weak arguments, spotting hidden assumptions."},
+ {"n":2,"title":"Fallacies and Cognitive Biases","focus":"Ad hominem, straw man, false dilemma, slippery slope, appeal to authority/popularity, confirmation bias, anchoring, sunk cost, availability."},
+ {"n":3,"title":"Numbers, Statistics and Causation","focus":"Correlation vs causation, base rates, sample size, averages vs medians, percentages vs percentage points, misleading charts."},
+ {"n":4,"title":"Reasoning Under Uncertainty","focus":"Steelmanning, calibrated confidence, pre-mortem, second-order thinking, changing your mind with evidence."}]},
+{"id":"problem","name":"Problem-Solving","group":"thinking","description":"Define, break down and solve problems systematically.","lessons":[
+ {"n":1,"title":"Define the Real Problem","focus":"Problem statements, symptoms vs root causes, 5 Whys, fishbone diagram, scoping and constraints."},
+ {"n":2,"title":"Decompose and Hypothesise","focus":"Issue trees, MECE, hypothesis-driven approach, prioritising branches, divide-and-conquer."},
+ {"n":3,"title":"Options and Decisions","focus":"Generating options, weighted decision matrix, trade-offs, reversible vs irreversible decisions, satisficing."},
+ {"n":4,"title":"Execute, Test and Learn","focus":"Small experiments, estimation (Fermi), debugging mindset, retrospectives, writing down what you learned."}]},
+{"id":"research","name":"Research and Fact-Checking","group":"thinking","description":"Find reliable information and verify claims.","lessons":[
+ {"n":1,"title":"Framing Questions and Search Strategy","focus":"Turning a vague topic into answerable questions, keywords and synonyms, primary vs secondary sources, search operators as concepts, search logs."},
+ {"n":2,"title":"Evaluating Sources","focus":"Authority, evidence, incentives, recency, lateral reading, spotting low-quality or sponsored content."},
+ {"n":3,"title":"Fact-Checking Claims","focus":"Tracing a claim to its origin, checking numbers, quotes and images, two independent sources, common misinformation tactics."},
+ {"n":4,"title":"Synthesis and Research Briefs","focus":"Comparing sources, stating confidence levels, summarising evidence, attributing sources, writing a one-page research brief."}]},
+{"id":"ai","name":"AI and Digital Literacy","group":"knowledge","description":"Understand, use and question digital tools and AI responsibly.","lessons":[
+ {"n":1,"title":"How Modern AI Works (and Fails)","focus":"Machine learning vs rules, language models as next-word predictors, training data, hallucination, bias, what AI is good and bad at."},
+ {"n":2,"title":"Using AI Tools Responsibly","focus":"Writing clear task specs and context, iterating, verifying outputs, privacy of what you paste, academic and professional integrity, when not to use AI. Conceptual and tool-agnostic."},
+ {"n":3,"title":"Digital Safety and Privacy","focus":"Strong passwords and managers, two-factor authentication, phishing and UPI/OTP scams, privacy settings, backups, digital footprint."},
+ {"n":4,"title":"Digital Productivity and Data Literacy","focus":"File and folder systems, spreadsheet thinking, automation thinking, evaluating tools, deepfakes and synthetic media, data ethics."}]},
+{"id":"tech","name":"Technical Skills","group":"knowledge","description":"Core engineering habits for a software and SAP ABAP career.","lessons":[
+ {"n":1,"title":"A Method for Debugging","focus":"Reproduce, isolate, hypothesise, test, fix, verify; reading error messages; rubber-duck debugging; binary search on code."},
+ {"n":2,"title":"Relational Data and SQL Thinking","focus":"Tables, keys, SELECT/WHERE/JOIN/GROUP BY with a SAP-flavoured example (customer KNA1, sales order header VBAK and items VBAP), reading result sets, avoiding SELECT * and selecting in loops."},
+ {"n":3,"title":"Version Control and Collaboration","focus":"Git mental model: commit, branch, merge, pull request; good commit messages; resolving simple conflicts; safe undo."},
+ {"n":4,"title":"Clean Code, Testing and Review","focus":"Naming, small functions, comments that explain why, unit tests and edge cases, giving and receiving code review, how ABAP development moves through transport requests and test systems at a conceptual level."}]},
+{"id":"creativity","name":"Creativity","group":"thinking","description":"Generate and develop original ideas on demand.","lessons":[
+ {"n":1,"title":"Generating Ideas","focus":"Divergent vs convergent thinking, quantity first, SCAMPER, using constraints, idea quotas."},
+ {"n":2,"title":"Reframing and Connecting","focus":"How Might We questions, analogies, random-input technique, inversion, combining unrelated ideas."},
+ {"n":3,"title":"Developing and Testing Ideas","focus":"Selecting ideas, quick prototypes, feedback loops, killing weak ideas, finishing creative work."},
+ {"n":4,"title":"A Creative Practice","focus":"Capture system, incubation, creative routines, beating blocks, building a small portfolio project."}]},
+{"id":"eq","name":"Emotional Intelligence","group":"people","description":"Understand and manage emotions in yourself and others.","lessons":[
+ {"n":1,"title":"Self-Awareness","focus":"Naming emotions precisely, triggers, body signals, values, the emotion log."},
+ {"n":2,"title":"Self-Regulation","focus":"The pause, STOP technique, reappraisal, responding vs reacting, recovering after a misstep."},
+ {"n":3,"title":"Empathy and Active Listening","focus":"Levels of listening, reflecting and paraphrasing, validating, open questions, not fixing too early."},
+ {"n":4,"title":"Social Awareness and Relationships","focus":"Reading group dynamics, giving and receiving feedback, trust, boundaries, repairing relationships."}]},
+{"id":"stress","name":"Stress Management","group":"habits","description":"Handle pressure and sustain your energy.","lessons":[
+ {"n":1,"title":"Understanding Stress","focus":"Stress response, stressors vs stress, early warning signs, baseline stress check, good stress vs harmful stress. General wellbeing only, no diagnosis."},
+ {"n":2,"title":"Calming the Body","focus":"Slow breathing, extended exhale, box breathing, progressive muscle relaxation, short movement breaks, sleep basics."},
+ {"n":3,"title":"Calming the Mind","focus":"Cognitive reframing, circle of control, worry time, journaling, accepting uncertainty."},
+ {"n":4,"title":"Sustainable Load","focus":"Boundaries, recovery rituals, burnout warning signs, building a personal stress plan, when and how to seek professional help."}]},
+{"id":"discipline","name":"Self-Discipline","group":"habits","description":"Do what matters when you do not feel like it.","lessons":[
+ {"n":1,"title":"Habits and Identity","focus":"Cue-routine-reward, tiny habits, implementation intentions, identity-based habits."},
+ {"n":2,"title":"Designing Your Environment","focus":"Friction, commitment devices, temptation bundling, urge surfing, phone boundaries."},
+ {"n":3,"title":"Systems Beat Motivation","focus":"Energy and motivation cycles, never miss twice, streaks and lapses, minimum versions."},
+ {"n":4,"title":"Focus and Deep Work","focus":"Attention residue, focus blocks, distraction logging, deliberate practice, shutdown rituals."}]},
+{"id":"time","name":"Time Management","group":"habits","description":"Spend limited time on what matters most.","lessons":[
+ {"n":1,"title":"Time Audit and Priorities","focus":"Tracking time, Eisenhower matrix, important vs urgent, energy levels."},
+ {"n":2,"title":"Planning Your Day and Week","focus":"Time blocking, most important tasks, estimation and the planning fallacy, buffers."},
+ {"n":3,"title":"Executing and Protecting Focus","focus":"Pomodoro, batching, saying no, handling interruptions, meetings."},
+ {"n":4,"title":"Weekly Review and Systems","focus":"Capturing tasks, weekly review, procrastination types and fixes, deadlines and buffers."}]},
+{"id":"goals","name":"Goal Setting and Execution","group":"habits","description":"Turn intentions into finished results.","lessons":[
+ {"n":1,"title":"Goals That Work","focus":"Outcome vs process goals, SMART, why goals fail, writing a goal precisely."},
+ {"n":2,"title":"Breaking Goals Down","focus":"Backward planning, milestones, leading vs lagging indicators, OKR-style key results."},
+ {"n":3,"title":"Tracking, Feedback and Obstacles","focus":"Weekly scorecards, if-then plans, WOOP, adjusting a plan without quitting."},
+ {"n":4,"title":"Finishing Under Real Conditions","focus":"Limiting work in progress, handling setbacks, scope cutting, a 90-day plan."}]},
+{"id":"career","name":"Career Planning and Personal Branding","group":"professional","description":"Plan a career in SAP/IT services and present yourself well.","lessons":[
+ {"n":1,"title":"Career Clarity","focus":"Strengths, values, interests, how IT services and consulting firms are structured, technical vs functional roles, the SAP ecosystem and the ABAP developer path, how fresher hiring works."},
+ {"n":2,"title":"Resume and Portfolio","focus":"Action-impact bullets, one-page structure, ATS basics, projects as proof, a simple portfolio."},
+ {"n":3,"title":"Personal Brand and Online Presence","focus":"Headline, summary, consistent profile, sharing work, authenticity, networking profile hygiene."},
+ {"n":4,"title":"Interviews and Job Search Strategy","focus":"STAR stories, technical interview preparation, tracking applications, offers, a 12-month career plan."}]},
+{"id":"confidence","name":"Confidence","group":"people","description":"Build evidence-based confidence and act despite fear.","lessons":[
+ {"n":1,"title":"What Confidence Really Is","focus":"Competence-confidence loop, evidence log, self-talk, imposter feelings."},
+ {"n":2,"title":"Body Language and Voice","focus":"Posture, eye contact, voice, preparation as a confidence source."},
+ {"n":3,"title":"Acting Despite Fear","focus":"Exposure ladder, small wins, handling mistakes in public, comfort zone expansion."},
+ {"n":4,"title":"Assertive Communication","focus":"Passive vs aggressive vs assertive, I-statements, saying no, asking for what you need, receiving criticism."}]},
+{"id":"leadership","name":"Leadership","group":"people","description":"Lead people and projects, with or without a title.","lessons":[
+ {"n":1,"title":"What Leaders Actually Do","focus":"Leadership vs management, influence without authority, ownership, setting direction."},
+ {"n":2,"title":"Delegation and Motivation","focus":"Clear expectations, delegation levels, autonomy, motivation drivers."},
+ {"n":3,"title":"Feedback and Coaching","focus":"SBI feedback, coaching questions (GROW), one-to-ones."},
+ {"n":4,"title":"Leading Teams Through Change","focus":"Team stages, running effective meetings, decision-making in teams, leading in uncertainty, student project examples."}]},
+{"id":"negotiation","name":"Negotiation","group":"people","description":"Reach better agreements without damaging relationships.","lessons":[
+ {"n":1,"title":"Interests, Positions and Preparation","focus":"Interests vs positions, BATNA, reservation point, ZOPA, preparation sheet."},
+ {"n":2,"title":"Tactics and Conversation","focus":"Anchoring, concessions, questions, silence, framing, objections."},
+ {"n":3,"title":"Offers and Salary Negotiation","focus":"Indian job offer anatomy: CTC vs in-hand, fixed vs variable, joining bonus, notice period, how freshers can negotiate respectfully; research and timing."},
+ {"n":4,"title":"Everyday and Difficult Negotiations","focus":"Handling pressure tactics, ethics, closing and following up, practice role-plays."}]},
+{"id":"conflict","name":"Conflict Resolution","group":"people","description":"Resolve disagreements constructively.","lessons":[
+ {"n":1,"title":"Understanding Conflict","focus":"Task vs relationship conflict, escalation ladder, five conflict styles."},
+ {"n":2,"title":"Difficult Conversations","focus":"Opening scripts, I-statements, timing, listening before responding, staying on facts."},
+ {"n":3,"title":"Resolving and Repairing","focus":"Interests, options, agreements, apology and repair, using a neutral third party."},
+ {"n":4,"title":"Conflict in Teams and Remote Work","focus":"Written conflict, feedback disputes, prevention, working agreements, escalation paths."}]},
+{"id":"networking","name":"Networking","group":"people","description":"Build genuine professional relationships.","lessons":[
+ {"n":1,"title":"Networking Foundations","focus":"Giving first, weak ties, goals, where to find people (college, alumni, communities, online)."},
+ {"n":2,"title":"Conversations and Introductions","focus":"Self-introduction, small talk, open questions, remembering names, events."},
+ {"n":3,"title":"Outreach and Follow-Up","focus":"Cold messages, informational chats, referral requests, follow-up timing, a simple contact tracker."},
+ {"n":4,"title":"Sustaining Relationships","focus":"Giving value, staying in touch, mentors, communities, networking ethics."}]},
+{"id":"finance","name":"Financial Literacy","group":"knowledge","description":"Manage money wisely (India-focused, principles over rules that change).","lessons":[
+ {"n":1,"title":"Income, Spending and Budgeting","focus":"Tracking cash flow, needs/wants/savings split, emergency fund, UPI and card spend, pay yourself first."},
+ {"n":2,"title":"Interest, Inflation and Compounding","focus":"Simple vs compound interest, rule of 72, inflation and real returns, time value of money with worked rupee calculations."},
+ {"n":3,"title":"Investing Basics and Risk","focus":"Savings accounts, fixed deposits, PPF/EPF, mutual funds and SIPs, index funds, gold, diversification, risk vs return, spotting scams. Educational, not advice; rules and rates change."},
+ {"n":4,"title":"Credit, Debt, Insurance and Taxes","focus":"Credit score, credit card interest traps, EMIs, term and health insurance basics, income tax concepts without quoting slabs, fraud safety."}]},
+{"id":"gk","name":"General Knowledge","group":"knowledge","description":"Build a durable base of world and India knowledge.","lessons":[
+ {"n":1,"title":"Indian Polity and Institutions","focus":"Constitution, fundamental rights, Parliament, executive, judiciary, federalism, election basics. Stable facts only."},
+ {"n":2,"title":"Geography and Economy Basics","focus":"India and world geography essentials, GDP, inflation, budget, RBI, GST at concept level. Stable facts only, no current statistics."},
+ {"n":3,"title":"History, Science and Environment","focus":"Key world and Indian history turning points, how scientific method and basic physics/biology facts show up in daily life, climate and environment basics."},
+ {"n":4,"title":"Following the World and Remembering It","focus":"International organisations (UN, WTO, IMF), a news-reading routine, building a knowledge notebook, mnemonics and memory palace, verifying claims."}]},
+{"id":"adapt","name":"Adaptability","group":"people","description":"Thrive when plans, tools and people change.","lessons":[
+ {"n":1,"title":"Mindset for Change","focus":"Growth mindset, the change curve, tolerance of uncertainty."},
+ {"n":2,"title":"Learning Agility","focus":"Learning a new tool fast, Feynman technique, deliberate practice, learning plans."},
+ {"n":3,"title":"Resilience After Setbacks","focus":"Reframing failure, post-mortems, plan B, bouncing back."},
+ {"n":4,"title":"Navigating New Environments","focus":"First 90 days, shifting requirements in client projects, culture fit, flexibility without losing principles."}]},
+{"id":"etiquette","name":"Professional Etiquette","group":"professional","description":"Behave with polish in workplaces and formal settings.","lessons":[
+ {"n":1,"title":"First Impressions and Workplace Basics","focus":"Punctuality, greetings, handshakes, introductions, remembering names, appropriate behaviour."},
+ {"n":2,"title":"Email, Chat and Meeting Etiquette","focus":"Teams/Slack norms, CC/BCC, reply-all, response times, video-call etiquette."},
+ {"n":3,"title":"Meals, Events and Cross-Cultural Awareness","focus":"Business meals, corporate events, hierarchy, cross-cultural differences, gifts."},
+ {"n":4,"title":"Professional Ethics and Conduct","focus":"Confidentiality, honesty, owning mistakes, social media conduct, respect, harassment awareness, managing up."}]},
+{"id":"grooming","name":"Personal Grooming","group":"professional","description":"Look and feel prepared for professional settings.","lessons":[
+ {"n":1,"title":"Grooming Foundations","focus":"Hygiene, skin, hair and dental basics, clean and well-fitting clothes, a simple daily routine. Inclusive and neutral."},
+ {"n":2,"title":"Dressing for Context","focus":"Interview, office, client site, virtual calls; fit, colour basics, shoes, ironing, a budget wardrobe."},
+ {"n":3,"title":"Presence and Self-Care","focus":"Posture, sleep, fitness basics, a pre-interview checklist, sustainable routines."}]}
+]}

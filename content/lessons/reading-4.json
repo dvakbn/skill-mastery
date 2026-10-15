@@ -1,0 +1,336 @@
+{
+  "id": "reading-4",
+  "skillId": "reading",
+  "n": 4,
+  "title": "Retention and Turning Reading into Action",
+  "summary": "Take Cornell notes, practise recall, review on a spaced schedule, link ideas and convert each book into a one-page action plan.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Take Cornell-style notes that include cues and a summary.",
+    "Review notes on a spaced schedule using recall rather than rereading.",
+    "Write a book-to-action page and prune your reading list."
+  ],
+  "concepts": [
+    {
+      "id": "reading.cornell-notes",
+      "label": "Cornell notes"
+    },
+    {
+      "id": "reading.recall-spacing",
+      "label": "Recall practice and spaced review"
+    },
+    {
+      "id": "reading.linking",
+      "label": "Linking ideas"
+    },
+    {
+      "id": "reading.action-page",
+      "label": "Book-to-action page and reading list"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why we forget what we read",
+      "body": "Last time you learned to read by structure and summarise in your own words. The next problem is that even good reading fades: within a few days most details are gone unless you do something with them. Retention comes from effort at retrieval, not from the number of times your eyes pass over the page. Reading a book and doing nothing with it is like attending a gym and watching others lift.\n\nThree tools fix this: structured notes, spaced recall, and an action page that turns ideas into behaviour."
+    },
+    {
+      "heading": "Cornell notes and recall",
+      "body": "**Cornell notes** split a page into three zones: a wide right column for notes, a narrow left column for **cues** (questions or keywords), and a bottom strip for a **summary** in two or three sentences. While reading, write short notes in your own words on the right. Afterwards, write a question in the left column for each block of notes, such as \"Why does normalisation reduce update anomalies?\". Finally, summarise the page at the bottom.\n\nThe left column is the secret. Cover the right column and answer the cues aloud; this is **recall practice**. Check, mark what you missed and repeat later. Compare two students: one rereads the chapter three times, the other reads once and tests herself with cues three times. The second remembers more, even though she spent less time looking at the text."
+    },
+    {
+      "heading": "Spaced review and linking ideas",
+      "body": "**Spaced review** means revisiting notes at growing gaps: roughly one day, one week, one month. At each review you do recall first (cover and answer), then check. Put three small dates in your calendar when you finish a book chapter. If you answer easily, extend the gap; if you fail, shorten it. Even ten minutes per review beats a four-hour cram.\n\n**Linking ideas** makes knowledge useful. Whenever you learn something, ask: where else does this apply? How does it connect to something I already know? Example: reading about \"single responsibility\" in a software book, you link it to the idea of focusing a Pomodoro on one task, and to ABAP function modules that should do one job. Write the link in the margin or in a notes app so that ideas form a network, not isolated facts."
+    },
+    {
+      "heading": "Book-to-action page and your list",
+      "body": "At the end of each book or long article, write a **book-to-action page**: one page with (1) the three ideas that mattered most, (2) one action you will try within seven days, (3) one thing you will stop or change, and (4) the date you will review the page. Example for a time-management book: \"Idea: plan backward. Action: plan this week's project milestones on Sunday. Review: 14 days.\"\n\nFinally manage your reading list. A list is a queue, not a guilt pile. Keep it short, about five items, order by relevance to your current goals, and prune anything you no longer want. Abandoning a book at page 50 because it does not serve you is a sensible decision. Reading ten books and acting on one beats the reverse."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A Cornell page on indexes",
+      "body": "Right column: \"Index = sorted lookup structure; speeds reads, slows writes; best on columns used in WHERE and JOIN.\" Left cues: \"What is an index?\" \"Trade-off?\" \"Where to add one?\" Bottom summary: \"Indexes speed searching but cost storage and write time, so add them only on frequently queried columns.\"",
+      "takeaway": "Cues turn passive notes into a self-test you can use at every review."
+    },
+    {
+      "title": "Spaced review calendar",
+      "body": "Neha finishes Chapter 4 on Monday. She sets three reminders: Tuesday (5 minutes, cover and answer the cues), the following Monday (5 minutes), and the Monday a month later (5 minutes). At the one-week review she misses two cues and marks them, then reviews those two again after three days.",
+      "takeaway": "Short, recalled, spaced reviews take minutes and beat rereading the chapter the night before an exam."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "reading-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "reading.cornell-notes",
+      "prompt": "In Cornell notes, what goes in the narrow left column?",
+      "options": [
+        "Cues such as questions or keywords",
+        "The full text of the chapter",
+        "Drawings only",
+        "The date"
+      ],
+      "answer": 0,
+      "why": "Cues let you cover the notes and test yourself. The full text belongs nowhere in your notes, and drawings are optional."
+    },
+    {
+      "id": "reading-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "reading.recall-spacing",
+      "prompt": "Reviewing at growing gaps such as one day, one week and one month is called ____ review. (one word)",
+      "accept": [
+        "spaced"
+      ],
+      "why": "Spaced review revisits notes at increasing intervals."
+    },
+    {
+      "id": "reading-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "reading.action-page",
+      "prompt": "You just finished a book on communication. What is the best way to close it out?",
+      "options": [
+        {
+          "text": "Put it on the shelf and start the next one.",
+          "score": 1,
+          "feedback": "Without action the ideas fade in a week."
+        },
+        {
+          "text": "Write a one-page summary with three ideas, one action to try within a week, and a review date.",
+          "score": 3,
+          "feedback": "Converting ideas to a dated action makes the reading change your behaviour."
+        },
+        {
+          "text": "Re-read it from the start immediately.",
+          "score": 1,
+          "feedback": "Rereading is passive and slower than recall plus action."
+        },
+        {
+          "text": "Tell friends you finished it.",
+          "score": 0,
+          "feedback": "Telling is not using."
+        }
+      ],
+      "why": "Reading pays off only when at least one idea becomes a small, dated action."
+    },
+    {
+      "id": "reading-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "reading.linking",
+      "prompt": "Take one idea from anything you read recently. Write the idea in one sentence, link it to two different areas of your life or studies (for example ABAP, college, family, finances), and write one cue question and one seven-day action.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "idea",
+          "label": "Clear idea",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Clear but copied.",
+            "3": "Clear and in your own words."
+          }
+        },
+        {
+          "id": "links",
+          "label": "Two real links",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One weak link.",
+            "2": "Two links, one weak.",
+            "3": "Two specific links with explanation."
+          }
+        },
+        {
+          "id": "cue",
+          "label": "Useful cue question",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Yes or no question.",
+            "2": "Open question.",
+            "3": "Open question that tests understanding."
+          }
+        },
+        {
+          "id": "action",
+          "label": "Seven-day action",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Specific but no date.",
+            "3": "Specific action with a date or day within seven days."
+          }
+        }
+      ],
+      "modelAnswer": "Idea: do one thing per work block. Links: in ABAP a function module should do one job; in college, working on one subject per evening stops half-finished notes. Cue: why does single-tasking improve quality? Action: this Thursday I will run two 25-minute single-task blocks on the project report.",
+      "guidance": "A strong answer states the idea in your own words, makes links that explain something (not just name topics), and produces a cue and an action you can check in a week. Typical mistakes are vague actions such as \"be better\". Score honestly."
+    }
+  ],
+  "task": {
+    "title": "Build your retention system",
+    "brief": "Make one Cornell page, schedule spaced reviews and write a book-to-action page for something you have read.",
+    "steps": [
+      "Pick a chapter or article and make a Cornell page with notes, at least four cues and a summary.",
+      "Schedule three reviews: tomorrow, in a week and in a month.",
+      "Do the first recall review with the notes covered.",
+      "Write a book-to-action page: three ideas, one action, one stop or change, a review date.",
+      "Prune your reading list to five items."
+    ],
+    "checklist": [
+      "My Cornell page has cues and a summary",
+      "I scheduled three dated reviews",
+      "My action is specific and within seven days",
+      "My reading list has five items or fewer"
+    ],
+    "evidencePrompt": "List your cues count, review dates and your seven-day action.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "reading-4.q1",
+      "type": "mcq",
+      "concept": "reading.cornell-notes",
+      "prompt": "Cornell notes have these zones:",
+      "options": [
+        "Title only",
+        "Three equal columns of drawings",
+        "Notes, cues and summary",
+        "Only highlights"
+      ],
+      "answer": 2,
+      "why": "The cue column, notes column and summary strip work together."
+    },
+    {
+      "id": "reading-4.q2",
+      "type": "mcq",
+      "concept": "reading.recall-spacing",
+      "prompt": "Which study method produces stronger memory?",
+      "options": [
+        "Rereading three times",
+        "Reading once then testing yourself on cues",
+        "Highlighting",
+        "Listening passively"
+      ],
+      "answer": 1,
+      "why": "Retrieval effort strengthens memory more than passive exposure."
+    },
+    {
+      "id": "reading-4.q3",
+      "type": "mcq",
+      "concept": "reading.linking",
+      "prompt": "Linking an idea to something you already know:",
+      "options": [
+        "Wastes time",
+        "Builds a network that makes it easier to remember and use",
+        "Is only for experts",
+        "Replaces notes"
+      ],
+      "answer": 1,
+      "why": "Connections give an idea more retrieval paths and more uses."
+    },
+    {
+      "id": "reading-4.q4",
+      "type": "mcq",
+      "concept": "reading.action-page",
+      "prompt": "Which belongs on a book-to-action page?",
+      "options": [
+        "Every quote in the book",
+        "One action to try within seven days",
+        "The publisher details",
+        "A list of books you did not read"
+      ],
+      "answer": 1,
+      "why": "The page exists to turn ideas into a small dated action."
+    }
+  ],
+  "bank": [
+    {
+      "id": "reading-4.b1",
+      "type": "mcq",
+      "concept": "reading.recall-spacing",
+      "prompt": "You easily answered every cue at your one-week review. What is a sensible next gap?",
+      "options": [
+        "One more week later is too short; try about a month",
+        "Never review again",
+        "Tomorrow",
+        "Same day"
+      ],
+      "answer": 0,
+      "why": "Easy recall means you can stretch the interval."
+    },
+    {
+      "id": "reading-4.b2",
+      "type": "fill",
+      "concept": "reading.cornell-notes",
+      "prompt": "After taking notes, write a ____ at the bottom in two or three sentences. (one word)",
+      "accept": [
+        "summary"
+      ],
+      "why": "The bottom strip of a Cornell page is the summary."
+    },
+    {
+      "id": "reading-4.b3",
+      "type": "mcq",
+      "concept": "reading.action-page",
+      "prompt": "You have a reading list of 40 books and feel guilty. What is the best step?",
+      "options": [
+        "Read faster",
+        "Keep about five relevant ones and prune the rest",
+        "Buy more books",
+        "Quit reading"
+      ],
+      "answer": 1,
+      "why": "A short, relevant queue is easier to act on; pruning is healthy."
+    }
+  ],
+  "cards": [
+    {
+      "id": "reading-4.c1",
+      "concept": "reading.cornell-notes",
+      "front": "What are Cornell notes?",
+      "back": "A page with a notes column, a cue column for questions and a summary strip, so you can cover and self-test."
+    },
+    {
+      "id": "reading-4.c2",
+      "concept": "reading.recall-spacing",
+      "front": "How do you review effectively?",
+      "back": "Recall first, then check, at spaced gaps of about one day, one week and one month."
+    },
+    {
+      "id": "reading-4.c3",
+      "concept": "reading.linking",
+      "front": "Why link ideas?",
+      "back": "Connections to what you already know make ideas easier to remember and apply in more places."
+    },
+    {
+      "id": "reading-4.c4",
+      "concept": "reading.action-page",
+      "front": "What is a book-to-action page?",
+      "back": "Three key ideas, one action within seven days, one thing to change and a review date, plus a pruned reading list."
+    }
+  ],
+  "reflection": "Think of the last book or course you finished: what is one idea from it you could turn into a seven-day action today?",
+  "revision": {
+    "keyPoints": [
+      "Retention needs retrieval, not rereading.",
+      "Cornell notes give you cues for self-testing.",
+      "Review at one day, one week and one month.",
+      "Write an action page and keep your reading list short."
+    ],
+    "redo": "Make four cue questions for a chapter you read last week and answer them without looking."
+  }
+}

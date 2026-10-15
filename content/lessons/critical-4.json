@@ -1,0 +1,341 @@
+{
+  "id": "critical-4",
+  "skillId": "critical",
+  "n": 4,
+  "title": "Reasoning Under Uncertainty",
+  "summary": "Steelman opposing views, state calibrated confidence, run a pre-mortem, think through second-order effects and update your mind with evidence.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Steelman a view you disagree with before responding.",
+    "Give confidence levels and run a pre-mortem on a plan.",
+    "Trace second-order effects and update beliefs when evidence changes."
+  ],
+  "concepts": [
+    {
+      "id": "critical.steelman",
+      "label": "Steelmanning"
+    },
+    {
+      "id": "critical.calibration",
+      "label": "Calibrated confidence"
+    },
+    {
+      "id": "critical.premortem",
+      "label": "Pre-mortem"
+    },
+    {
+      "id": "critical.second-order-updating",
+      "label": "Second-order thinking and changing your mind"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Deciding without certainty",
+      "body": "You learned to judge arguments, avoid fallacies and question numbers. Real decisions rarely come with certainty: which job offer, which specialisation, whether to relocate to Bengaluru or Pune. Critical thinkers do not wait for certainty; they reason well about uncertain things. Four habits help: steelman, calibrate, pre-mortem and think second-order."
+    },
+    {
+      "heading": "Steelmanning and calibration",
+      "body": "A straw man weakens the opposing view; a **steelman** does the opposite, restating it in its strongest, fairest form before you reply. Use it when you disagree. Example: a friend argues that you should accept a government job with lower pay rather than an IT-services offer. A steelman: \"Job security, fixed hours and a pension-like stability let you plan family finances, study further and avoid layoff stress.\" Only after you can state that so your friend says \"yes, exactly\" should you explain your disagreement. The effect is that you test your view against the best version of the other, and people listen to you more.\n\n**Calibration** means that your confidence matches reality. If you say \"90 percent sure\" about ten things and only five turn out true, you are overconfident. Express beliefs as probabilities or ranges: \"I am about 70 percent sure that I can finish the report by Friday.\" Keep a short log of predictions and outcomes; over a few months you will see whether your 70 percent means 70 percent. Avoid 0 and 100 percent unless you truly mean it."
+    },
+    {
+      "heading": "Pre-mortem and second-order thinking",
+      "body": "A **pre-mortem** is run before a project starts. Imagine it is six months later and the plan has failed badly. Write down why, in specific stories: \"We did not test on slow networks\", \"I dropped the plan when exams began\", \"The client changed scope\". Then change the plan to prevent the top three reasons. It works because imagining a failure that has already happened frees people to voice doubts they would otherwise suppress as negativity.\n\n**Second-order thinking** asks \"and then what?\" First-order effects are immediate; second-order effects follow. Skipping sleep for a night to finish a project (first order: more done) leads to poorer concentration the next day and a slower week (second order). Taking a loan for a laptop beyond your needs may feel like a benefit now, yet its monthly burden limits your choices next year. Ask \"and then what?\" at least twice for any significant decision."
+    },
+    {
+      "heading": "Changing your mind with evidence",
+      "body": "Changing your mind is not weakness; it is the purpose of reasoning. Before an important decision, decide what evidence would make you change: \"If three recent graduates tell me this institute did not help their placement, I will drop it.\" Afterwards, update in proportion: strong evidence moves you a lot, weak evidence a little. Beware of two errors: stubbornness (ignoring good evidence to protect your ego) and flip-flopping (changing with every opinion). Say aloud, \"I used to think X; now, given Y, I think Z.\" This habit makes colleagues and clients trust your judgement because they see that evidence moves you."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Pre-mortem for a hackathon",
+      "body": "Before a 24-hour hackathon, a team imagines it failed. Reasons: no one owned deployment, the API key expired, two members fell asleep in the afternoon, the demo was not rehearsed. Changes: assign a deployment owner, test keys on day one, schedule sleep shifts and run a five-minute demo rehearsal at hour 20.",
+      "takeaway": "Naming failure stories in advance turns vague worry into specific prevention."
+    },
+    {
+      "title": "Steelmanning before disagreeing",
+      "body": "Sana thinks learning a niche tool like ABAP is risky. Her cousin supports it. Sana says: \"Your best case is that SAP is used by many large companies, ABAP skills are specialised so competition for entry roles may be narrower, and the pay can grow with experience. Did I get that right?\" Cousin: \"Yes.\" Then Sana raises her concern about being tied to one ecosystem.",
+      "takeaway": "Stating the strongest version first makes the conversation honest and productive."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "critical-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "critical.steelman",
+      "prompt": "What does steelmanning mean?",
+      "options": [
+        "Stating the opposing view in its strongest fair form before replying",
+        "Repeating the other person's weakest point",
+        "Agreeing with everything",
+        "Winning the debate quickly"
+      ],
+      "answer": 0,
+      "why": "Steelmanning tests your view against the best opposing case. Repeating the weakest point is a straw man."
+    },
+    {
+      "id": "critical-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "critical.calibration",
+      "prompt": "If you say \"90 percent sure\" about many predictions but only half come true, you are ____. (one word)",
+      "accept": [
+        "overconfident"
+      ],
+      "why": "Your stated confidence is higher than your actual success rate, so you are overconfident."
+    },
+    {
+      "id": "critical-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "critical.premortem",
+      "prompt": "Your team is about to start a three-month college project and everyone feels confident. What is the best step?",
+      "options": [
+        {
+          "text": "Start immediately; doubt slows us down.",
+          "score": 1,
+          "feedback": "Unchecked confidence leaves weak points unseen."
+        },
+        {
+          "text": "Hold a 15-minute pre-mortem: imagine the project failed and list specific reasons, then fix the top three.",
+          "score": 3,
+          "feedback": "It surfaces risks early while plans are still cheap to change."
+        },
+        {
+          "text": "Ask the weakest member to name every possible problem.",
+          "score": 0,
+          "feedback": "This blames one person instead of using the whole team."
+        },
+        {
+          "text": "Plan only for the best case.",
+          "score": 0,
+          "feedback": "This ignores the very risks that cause failure."
+        }
+      ],
+      "why": "A pre-mortem imagines failure in advance to expose and fix risks while changes are cheap."
+    },
+    {
+      "id": "critical-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "critical.second-order-updating",
+      "prompt": "You are considering taking a Rs 40,000 loan at a high interest rate to buy a premium laptop in your final year. Write the first-order benefit, two second-order effects (\"and then what?\"), a confidence level for your recommendation as a percentage with a reason, and what evidence would change your mind.",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "first",
+          "label": "First-order benefit stated",
+          "weight": 15,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Clear.",
+            "3": "Clear and realistic."
+          }
+        },
+        {
+          "id": "second",
+          "label": "Two second-order effects",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One shallow effect.",
+            "2": "Two effects.",
+            "3": "Two specific effects with a chain of consequences."
+          }
+        },
+        {
+          "id": "confidence",
+          "label": "Calibrated confidence",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Absolute certainty.",
+            "2": "Percentage with no reason.",
+            "3": "Percentage with a reason for the uncertainty."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d+\\s*(%|percent)",
+            "label": "Gives a percentage"
+          }
+        },
+        {
+          "id": "change",
+          "label": "Evidence to change mind",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "General evidence.",
+            "3": "Specific observable evidence that would change the decision."
+          }
+        }
+      ],
+      "modelAnswer": "First order: a faster laptop helps my project work. Second order: EMIs reduce my monthly budget for two years and may force me to take any job quickly, and interest cost exceeds the performance gain for my needs. I am about 75 percent sure I should not take the loan because my current laptop runs my tools. I would change my mind if a core course required hardware my laptop cannot run, or if I found an interest-free option.",
+      "guidance": "Strong answers chain consequences beyond the first benefit, attach a defensible percentage and name the evidence that would flip the decision. Weak answers repeat the benefit and claim certainty. Score yourself honestly."
+    }
+  ],
+  "task": {
+    "title": "Decide under uncertainty",
+    "brief": "Apply all four habits to one real decision you face in the next few months.",
+    "steps": [
+      "Write the decision and the two main options.",
+      "Steelman the option you currently dislike in three sentences.",
+      "Write your confidence in your preferred option as a percentage and why.",
+      "Run a five-minute pre-mortem: list three reasons it could fail and one prevention each.",
+      "Write two second-order effects and the evidence that would make you change your mind."
+    ],
+    "checklist": [
+      "I steelmanned the other option",
+      "I stated a confidence percentage with a reason",
+      "I listed three failure reasons and preventions",
+      "I named evidence that would change my mind"
+    ],
+    "evidencePrompt": "Write your decision, confidence, top failure reason and change-my-mind evidence.",
+    "evidenceWords": 50,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "critical-4.q1",
+      "type": "mcq",
+      "concept": "critical.steelman",
+      "prompt": "When should you steelman?",
+      "options": [
+        "Only after you win",
+        "Never",
+        "Before you reply to a view you disagree with",
+        "Only with friends"
+      ],
+      "answer": 2,
+      "why": "It makes your disagreement fair and better informed."
+    },
+    {
+      "id": "critical-4.q2",
+      "type": "mcq",
+      "concept": "critical.calibration",
+      "prompt": "Being well calibrated means:",
+      "options": [
+        "Your 70 percent predictions come true about 70 percent of the time",
+        "You are always certain",
+        "You never guess",
+        "You avoid numbers"
+      ],
+      "answer": 0,
+      "why": "Confidence should match outcomes over many predictions."
+    },
+    {
+      "id": "critical-4.q3",
+      "type": "mcq",
+      "concept": "critical.premortem",
+      "prompt": "A pre-mortem is done:",
+      "options": [
+        "After the project fails",
+        "Before starting, by imagining a future failure",
+        "Only by managers",
+        "Never"
+      ],
+      "answer": 1,
+      "why": "Imagined failure in advance exposes risks while they are cheap to fix."
+    },
+    {
+      "id": "critical-4.q4",
+      "type": "mcq",
+      "concept": "critical.second-order-updating",
+      "prompt": "Second-order thinking asks:",
+      "options": [
+        "What is the cheapest option?",
+        "And then what happens next?",
+        "Who agrees with me?",
+        "What did I do last time?"
+      ],
+      "answer": 1,
+      "why": "It follows effects beyond the immediate result."
+    }
+  ],
+  "bank": [
+    {
+      "id": "critical-4.b1",
+      "type": "mcq",
+      "concept": "critical.steelman",
+      "prompt": "A friend argues against learning ABAP. Which reply shows steelmanning?",
+      "options": [
+        "You are just wrong",
+        "Your strongest point is that it is specialised and tied to one ecosystem; is that right?",
+        "Everyone learns it, so it is good",
+        "I do not listen to you"
+      ],
+      "answer": 1,
+      "why": "It restates the best form of their argument first."
+    },
+    {
+      "id": "critical-4.b2",
+      "type": "fill",
+      "concept": "critical.premortem",
+      "prompt": "In a pre-mortem you imagine the plan has already ____. (one word)",
+      "accept": [
+        "failed"
+      ],
+      "why": "You assume failure, then ask what caused it."
+    },
+    {
+      "id": "critical-4.b3",
+      "type": "mcq",
+      "concept": "critical.second-order-updating",
+      "prompt": "New evidence strongly contradicts your belief. The best response is to:",
+      "options": [
+        "Ignore it to stay consistent",
+        "Update your belief in proportion to the strength of the evidence",
+        "Switch beliefs with every opinion",
+        "Hide the evidence"
+      ],
+      "answer": 1,
+      "why": "Proportional updating avoids both stubbornness and flip-flopping."
+    }
+  ],
+  "cards": [
+    {
+      "id": "critical-4.c1",
+      "concept": "critical.steelman",
+      "front": "What is steelmanning?",
+      "back": "Restating an opposing view in its strongest fair form before you respond, until its holder says yes, exactly."
+    },
+    {
+      "id": "critical-4.c2",
+      "concept": "critical.calibration",
+      "front": "What is calibration?",
+      "back": "Matching your confidence to reality; state probabilities and keep a log of predictions and results."
+    },
+    {
+      "id": "critical-4.c3",
+      "concept": "critical.premortem",
+      "front": "How to run a pre-mortem?",
+      "back": "Imagine the plan failed, list specific causes, and change the plan to prevent the top few."
+    },
+    {
+      "id": "critical-4.c4",
+      "concept": "critical.second-order-updating",
+      "front": "Second-order thinking and updating?",
+      "back": "Ask and then what; decide in advance what evidence would change your mind and update in proportion."
+    }
+  ],
+  "reflection": "Which upcoming decision would benefit most from a pre-mortem and a written confidence level?",
+  "revision": {
+    "keyPoints": [
+      "Steelman before disagreeing.",
+      "State confidence as a percentage and track results.",
+      "Run a pre-mortem to find failure causes early.",
+      "Ask and then what, and update in proportion to evidence."
+    ],
+    "redo": "Write one prediction for this week with a percentage and check it on Sunday."
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "id": "ai-4",
+  "skillId": "ai",
+  "n": 4,
+  "title": "Digital Productivity and Data Literacy",
+  "summary": "Organise files so you can find anything, think in tables, spot work worth automating, evaluate tools sensibly and handle synthetic media and data ethically.",
+  "difficulty": 2,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Set up a file and folder system with naming rules that makes any document findable in seconds.",
+    "Structure data as a clean table and use simple spreadsheet logic, then identify repeated tasks worth automating.",
+    "Judge a new tool or a piece of media critically and handle other people's data ethically."
+  ],
+  "concepts": [
+    { "id": "ai.file-systems", "label": "File and folder systems" },
+    { "id": "ai.spreadsheet-thinking", "label": "Spreadsheet and data thinking" },
+    { "id": "ai.automation-tools", "label": "Automation and evaluating tools" },
+    { "id": "ai.synthetic-data-ethics", "label": "Synthetic media and data ethics" }
+  ],
+  "explanation": [
+    {
+      "heading": "A file system you can search in ten seconds",
+      "body": "In the last lesson you protected your accounts and backups. Now we make your digital work easy to find and easy to trust. Most lost time on a computer is not slow typing; it is hunting for a file called *final_v2_REAL.docx* in a Downloads folder with four hundred other items.\n\nA good system has three parts. First, **few top-level folders** organised by purpose, not by file type: *01-Study, 02-Projects, 03-Career, 04-Admin, 99-Archive*. Second, **consistent names** that sort correctly: put the date first in year-month-day form, then the subject, then a version: *2026-10-12_ABAP-internal-tables_notes_v2.pdf*. A year-first date means files sort in time order automatically. Third, **one inbox**: new downloads land in a single Inbox folder that you empty once a week, by filing or deleting.\n\nAvoid the two classic mistakes. Over-nesting (eight levels deep) makes you click for ages, so aim for no more than three levels. And never put the word *final* in a name; use version numbers and move old versions into the archive. For code, version control does this job better than file names. If you use cloud storage, make sure that the same structure exists there, so a lost laptop does not mean a lost system."
+    },
+    {
+      "heading": "Think in tables: one row, one thing",
+      "body": "A spreadsheet is a small database. The idea that makes it powerful is **tidy data**: every column is one attribute, every row is one record, and every cell holds one value. If you ever learn SQL or ABAP internal tables, the same thinking applies, because a table is a table.\n\nSuppose you track freelance work. A messy sheet has one row per month with columns 'Client A paid', 'Client B paid' and merged cells. A tidy sheet has columns *Date, Client, Hours, Rate, Amount, Paid?* and one row per job. The tidy sheet can be sorted, filtered and summed by client or month with a few formulas, and the messy one cannot.\n\nLearn a handful of building blocks. **SUM** adds a range. **SUMIF** adds only the rows that meet a condition: summing the Amount where Client equals 'Meera' gives her total. **COUNTIF** counts matching rows. **IF** returns different results by condition, such as marking late payments. **Lookup functions** fetch a value from another table by a key. A **pivot table** summarises a tidy table by category in a few clicks.\n\nWorked example: ten jobs, three for Meera at ₹4,000, ₹6,500 and ₹2,500. SUMIF for Meera returns ₹13,000, and COUNTIF returns 3. Always sanity-check results: if the total looks off, check for numbers stored as text, hidden rows and blank cells inside the range."
+    },
+    {
+      "heading": "Automation thinking and choosing tools",
+      "body": "Automation thinking means noticing repeated work and asking whether a machine can do it. Use a simple test: is the task **repeated** often, **rule-based** (the same steps each time), and **boring** enough that errors creep in? Renaming fifty files, copying data from one sheet into a monthly report, or sending the same reminder each Friday are all good candidates. Judgement-heavy work, such as deciding how to answer a client's complaint, is a poor candidate.\n\nWork in this order: **map** the steps in plain words, **simplify** them (remove unneeded steps first), then **automate** with the simplest tool that works: a spreadsheet formula, a template, a calendar repeat, a keyboard shortcut, a saved filter, a small script, or a no-code workflow tool. Time check: a task that takes 10 minutes a week costs about 8.7 hours a year, so spending two hours to automate it is worthwhile, but a once-a-year task is not.\n\nWhen you evaluate any new tool, ask five questions. What **problem** does it solve for me? What does it **cost**, including time to learn and the price when the free plan ends? Can I **export** my data if I leave? What happens to my **data and privacy**? Does it have a **track record**, such as support, updates and a clear business model? New and fashionable is not a reason. If you cannot say which task it replaces, you do not need it yet."
+    },
+    {
+      "heading": "Deepfakes, synthetic media and data ethics",
+      "body": "Today, images, audio and video can be produced or altered by software so convincingly that they cannot be trusted by eye or ear. A **deepfake** is synthetic media that shows a real person doing or saying something they never did. Voice cloning can copy a relative's voice from a few seconds of audio, which is why scammers now phone with an 'urgent family emergency'.\n\nThe defence is **verification, not detection by feel**. Check the source: who first published it, and does a reliable outlet carry the same item? Look for context mismatches. Pause when the content makes you angry or urgent, since that is the intention. For a voice call asking for money, hang up and call the person on their known number, or use a family code word. Never share synthetic media of real people without their consent, especially intimate or humiliating content, which can cause serious harm and can be a legal offence.\n\n**Data ethics** is about treating data about people with care. Collect only what you need (**minimisation**), say why you collect it (**purpose**), get **consent**, keep it secure and delete it when it is no longer needed. In a college project, that means not scraping and publishing classmates' phone numbers, anonymising names in a survey, and storing responses in a protected folder. In an IT-services job, client and customer data is never yours to copy to a personal device or a public tool. Ask: would the people in this dataset be comfortable with how I am using it?"
+    }
+  ],
+  "examples": [
+    {
+      "title": "Cleaning up a chaotic Downloads folder",
+      "body": "Before: Downloads holds 'Resume final.docx', 'Resume final (2).docx', 'IMG_4432.jpg', 'notes.pdf' and 300 more files.\n\nAfter: the CV lives in 03-Career as '2026-10_Deepak-Raj_CV_v3.docx'; the older versions are in 99-Archive; 'notes.pdf' is renamed '2026-09-28_SAP-ABAP-data-types_notes.pdf' and filed in 01-Study. Downloads is emptied on Sunday evening.",
+      "takeaway": "Purpose-based folders and date-first names turn searching into a ten-second job."
+    },
+    {
+      "title": "A tidy table answers questions in seconds",
+      "body": "Table columns: Date, Subject, Minutes, Type. Rows: one per study session. Formula: =SUMIF(B:B, \"ABAP\", C:C) returns total ABAP minutes; =COUNTIF(D:D, \"Practice\") counts practice sessions. If ABAP shows 540 minutes and there are 9 sessions, the average session is 540 / 9 = 60 minutes.",
+      "takeaway": "One row per record and one value per cell allow simple formulas to do all the summarising."
+    },
+    {
+      "title": "Checking a suspicious clip",
+      "body": "A video shows a well-known business leader endorsing an investment scheme that doubles money in a month. The accounts sharing it are new, the clip has no original source, and the promise is extreme. Instead of trusting the face and voice, you search for the same statement on the person's official channels and reliable news outlets and find nothing.",
+      "takeaway": "Verify the source and the claim. A realistic face and voice are not evidence."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ai-4.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "ai.file-systems",
+      "prompt": "Which file name will sort correctly by date and still make sense in a year?",
+      "options": [
+        "Notes final.docx",
+        "12-10-2026 notes.docx",
+        "2026-10-12_ABAP-loops_notes_v1.docx",
+        "ABAP notes NEW.docx"
+      ],
+      "answer": 2,
+      "hint": "Think about which part of the name the computer sorts first.",
+      "why": "A year-month-day date at the start sorts chronologically and the subject and version make it understandable later. Day-first dates sort by day across months, and words like final or NEW tell you nothing and become false later."
+    },
+    {
+      "id": "ai-4.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "ai.spreadsheet-thinking",
+      "prompt": "A tidy sheet has Amounts of ₹4,000, ₹6,500 and ₹2,500 for client Meera and ₹3,000 for client Arun. What does a SUMIF for Meera return? Give the number only.",
+      "accept": ["13000", "13,000", "₹13,000", "₹13000", "rs 13000", "rs 13,000"],
+      "hint": "Add only Meera's rows.",
+      "why": "SUMIF adds only the rows where the client is Meera: 4,000 + 6,500 + 2,500 = 13,000. Arun's 3,000 is excluded."
+    },
+    {
+      "id": "ai-4.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "ai.automation-tools",
+      "prompt": "Choose one repeated task from your own study or work (for example, copying exam dates into a calendar, renaming downloaded notes, or building a weekly progress summary). In 4-6 sentences, map its steps, decide whether it is worth automating using the repeated, rule-based, boring test and the time arithmetic, and name the simplest tool you would use.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "steps",
+          "label": "Steps mapped clearly",
+          "weight": 30,
+          "descriptors": {
+            "0": "No steps described.",
+            "1": "A vague description of the task without a sequence.",
+            "2": "Steps are listed but some are unclear or missing.",
+            "3": "A clear ordered sequence of concrete steps that someone else could follow."
+          }
+        },
+        {
+          "id": "test",
+          "label": "Applies the three-part test and time maths",
+          "weight": 40,
+          "descriptors": {
+            "0": "No decision criteria used.",
+            "1": "Says it would be useful without applying repeated, rule-based and boring.",
+            "2": "Applies the test or the time arithmetic, but not both.",
+            "3": "Applies repeated, rule-based and boring and estimates time saved against time to build."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": ["repeat", "rule", "minutes", "hours", "per week", "weekly", "every week", "daily", "boring", "worth"],
+            "min": 2,
+            "label": "Uses decision words such as repeat, rule, minutes or hours"
+          }
+        },
+        {
+          "id": "tool",
+          "label": "Simplest suitable tool",
+          "weight": 30,
+          "descriptors": {
+            "0": "No tool named.",
+            "1": "Names an over-complicated tool without a reason.",
+            "2": "Names a suitable tool with a thin reason.",
+            "3": "Names the simplest tool that works and says why a heavier one is unnecessary."
+          }
+        }
+      ],
+      "modelAnswer": "Every Sunday I copy my assignment deadlines from the college portal into my calendar, which takes about 15 minutes. The steps are: open the portal, read each deadline, create a calendar event, and add a reminder two days earlier. The task is repeated weekly, follows the same rules each time and is boring enough that I sometimes miss a date. At 15 minutes a week it costs around 13 hours a year, so it is worth improving. The simplest tool is a calendar template with a default two-day reminder, and a small checklist, rather than a script.",
+      "guidance": "Strong answers pick a real task, list steps in order and show the arithmetic (minutes per week multiplied by 52, then divided by 60 for hours). A common mistake is jumping to a complicated tool before simplifying the steps. Another is choosing a task that needs judgement each time. Score yourself on whether the decision is justified, not whether the task is impressive."
+    },
+    {
+      "id": "ai-4.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "ai.synthetic-data-ethics",
+      "prompt": "You are doing a survey for a college project and have an Excel sheet with 120 classmates' names, phone numbers, CGPA and opinions. A friend suggests posting the complete sheet in the class group so others can use it, and uploading it to a public AI tool to quickly summarise opinions. What is the best course of action?",
+      "options": [
+        {
+          "text": "Post the full sheet in the group; everyone is a classmate, so there is no harm.",
+          "score": 0,
+          "feedback": "People gave answers for a project, not for wide sharing. Phone numbers and CGPA are personal, and a group chat copy can travel anywhere."
+        },
+        {
+          "text": "Remove names, phone numbers and CGPA into a separate protected file, keep only anonymised opinions for analysis and summarising, and share only the aggregated results.",
+          "score": 3,
+          "feedback": "Correct. This applies minimisation and anonymisation: use only what the analysis needs, protect what remains and share summaries rather than raw personal data."
+        },
+        {
+          "text": "Upload the full sheet to the AI tool but not to the group.",
+          "score": 1,
+          "feedback": "This avoids one exposure but still sends identifiable personal data to an outside service without the respondents' consent."
+        },
+        {
+          "text": "Delete the data immediately, so nobody can complain.",
+          "score": 1,
+          "feedback": "Deleting is safe but throws away legitimate work. Anonymising and sharing aggregated results meets your goal without the risk."
+        }
+      ],
+      "why": "Ethical data handling means collecting and using only what is needed for the stated purpose, protecting identifiers and sharing results at the level of summaries. The anonymised file is both useful and safe."
+    }
+  ],
+  "task": {
+    "title": "Tidy one corner of your digital life",
+    "brief": "Create a small, working file structure and one tidy table, then notice one task to automate.",
+    "steps": [
+      "Create three top-level folders on your computer or cloud drive (for example 01-Study, 02-Projects, 99-Archive) and move ten loose files into them.",
+      "Rename at least five of those files using the date-first pattern with subject and version.",
+      "Create a tidy table in a spreadsheet with at least five rows from your own life (study sessions, expenses or applications) and add one SUMIF or COUNTIF.",
+      "Write down one repeated task you do each week and estimate how much time it takes."
+    ],
+    "checklist": [
+      "I created at least three purpose-based folders",
+      "I renamed five files with date, subject and version",
+      "My table has one row per record and one value per cell",
+      "I estimated the weekly time cost of one repeated task"
+    ],
+    "evidencePrompt": "Write your folder names, one renamed file, the formula you used and the task you may automate.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "ai-4.q1",
+      "type": "mcq",
+      "concept": "ai.file-systems",
+      "prompt": "What is the best use of an Inbox folder in a file system?",
+      "options": [
+        "A permanent store for every download",
+        "A single landing place for new files that you file or delete once a week",
+        "A folder for files you are never going to open again",
+        "A folder holding only your most important documents"
+      ],
+      "answer": 1,
+      "why": "An inbox keeps new files from spreading everywhere and is emptied on a schedule. It is not permanent storage, and it is not for old or important files."
+    },
+    {
+      "id": "ai-4.q2",
+      "type": "mcq",
+      "concept": "ai.spreadsheet-thinking",
+      "prompt": "Which layout follows tidy data principles?",
+      "options": [
+        "One row per month with a separate column for each client's payment",
+        "Merged cells showing client names above groups of rows",
+        "One row per job with columns for date, client, hours and amount",
+        "A single cell holding 'Meera 4000, Arun 3000'"
+      ],
+      "answer": 2,
+      "why": "Tidy data has one record per row and one value per cell. The others hide multiple values, merge cells or spread one attribute across columns, which breaks filters and formulas."
+    },
+    {
+      "id": "ai-4.q3",
+      "type": "fill",
+      "concept": "ai.automation-tools",
+      "prompt": "A task takes 10 minutes every week. About how many hours does it take in a year (52 weeks)? Round to the nearest whole number.",
+      "accept": ["9", "9 hours", "nine", "8.7", "8.7 hours", "about 9", "approximately 9"],
+      "why": "10 minutes multiplied by 52 weeks is 520 minutes, which is about 8.7 hours, so roughly 9 hours a year."
+    },
+    {
+      "id": "ai-4.q4",
+      "type": "mcq",
+      "concept": "ai.synthetic-data-ethics",
+      "prompt": "You get a voice message that sounds exactly like your cousin asking you to send money urgently. What is the best action?",
+      "options": [
+        "Send a small amount now and ask questions later",
+        "Trust it, because the voice is clearly his",
+        "Hang up or ignore it and call your cousin on his usual number to verify",
+        "Reply on the same chat asking him to prove it"
+      ],
+      "answer": 2,
+      "why": "Voices can be cloned, so a familiar sound is no proof. Verify through a separate channel you already trust. Asking on the same compromised channel lets the scammer answer."
+    }
+  ],
+  "bank": [
+    {
+      "id": "ai-4.b1",
+      "type": "mcq",
+      "concept": "ai.file-systems",
+      "prompt": "A project folder has twelve levels of nested subfolders. What is the main problem and the fix?",
+      "options": [
+        "Too much nesting slows finding files; flatten to about three levels and use clear names",
+        "Nothing is wrong, because deeper folders are safer",
+        "It must be converted to a single folder with all files in it",
+        "The folders should be sorted by file type instead of purpose"
+      ],
+      "answer": 0,
+      "why": "Deep nesting makes files hard to locate. A flatter structure with clear names is faster. A single huge folder is also hard to search, and sorting by file type scatters related work."
+    },
+    {
+      "id": "ai-4.b2",
+      "type": "fill",
+      "concept": "ai.spreadsheet-thinking",
+      "prompt": "Which spreadsheet function adds up only the rows that meet a condition, such as total expenses where Category is Food? Answer with the function name.",
+      "accept": ["sumif", "sumifs", "=sumif", "sumif()"],
+      "why": "SUMIF (or SUMIFS for several conditions) totals values only where the condition holds. SUM adds everything, and COUNTIF counts rows rather than adding values."
+    },
+    {
+      "id": "ai-4.b3",
+      "type": "mcq",
+      "concept": "ai.automation-tools",
+      "prompt": "A friend recommends a new productivity app because everyone is talking about it. Which question should you ask first?",
+      "options": [
+        "How many people have downloaded it?",
+        "Which task of mine does it replace, and can I export my data if I leave?",
+        "Does it have a dark mode?",
+        "Is it the newest app in its category?"
+      ],
+      "answer": 1,
+      "why": "A tool earns its place by solving a defined problem and by not locking you in. Popularity, novelty and cosmetic features say little about whether it suits you."
+    }
+  ],
+  "cards": [
+    {
+      "id": "ai-4.c1",
+      "concept": "ai.file-systems",
+      "front": "What are the three parts of a findable file system?",
+      "back": "A few purpose-based top-level folders (about three levels deep), consistent date-first names with subject and version, and one inbox that you empty weekly."
+    },
+    {
+      "id": "ai-4.c2",
+      "concept": "ai.spreadsheet-thinking",
+      "front": "What does 'tidy data' mean?",
+      "back": "Each column is one attribute, each row is one record, each cell holds one value. This lets sort, filter, SUMIF and pivot tables work."
+    },
+    {
+      "id": "ai-4.c3",
+      "concept": "ai.automation-tools",
+      "front": "Which tasks are worth automating, and in what order?",
+      "back": "Tasks that are repeated, rule-based and boring. Map the steps, simplify, then automate with the simplest tool that works."
+    },
+    {
+      "id": "ai-4.c4",
+      "concept": "ai.synthetic-data-ethics",
+      "front": "How do you handle a suspicious video or voice and other people's data?",
+      "back": "Verify the source through a trusted channel, not by how real it looks. For data, minimise, anonymise, get consent, secure it and delete when done."
+    }
+  ],
+  "reflection": "Which digital habit, such as messy files, untidy data or unchecked media, wastes the most of your time or trust right now, and what is the smallest change you can make this week?",
+  "revision": {
+    "keyPoints": [
+      "Purpose-based folders, date-first names, one weekly inbox.",
+      "One row per record, one value per cell.",
+      "Automate what is repeated, rule-based and boring; simplify first.",
+      "Evaluate tools by problem solved, cost, export and privacy.",
+      "Verify media through trusted sources; minimise and protect personal data."
+    ],
+    "redo": "Rename three files on your desktop with the date-first pattern and file them in a purpose-based folder."
+  }
+}

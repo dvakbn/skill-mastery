@@ -1,0 +1,289 @@
+{
+  "id": "ai-1",
+  "skillId": "ai",
+  "n": 1,
+  "title": "How Modern AI Works (and Fails)",
+  "summary": "Understand how machine learning differs from rules, why language models predict words rather than look up facts, and where hallucination and bias come from.",
+  "difficulty": 1,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Explain the difference between a rule-based program and a machine-learning system.",
+    "Describe a language model as a next-word predictor trained on text, and explain why it can sound confident and be wrong.",
+    "Name the typical strengths and weaknesses of AI and decide which tasks need human checking."
+  ],
+  "concepts": [
+    { "id": "ai.rules-vs-learning", "label": "Rules versus machine learning" },
+    { "id": "ai.next-word", "label": "Language models predict the next word" },
+    { "id": "ai.hallucination", "label": "Hallucination: fluent but wrong" },
+    { "id": "ai.bias-limits", "label": "Training data, bias and limits" }
+  ],
+  "explanation": [
+    {
+      "heading": "Rules versus learning",
+      "body": "Traditional software follows **rules a programmer wrote**. An ABAP report that adds 18 percent tax to an invoice does exactly that, every time, and you can read the line of code that does it. If the output is wrong, you find the wrong rule.\n\n**Machine learning** works the other way round. Instead of writing the rules, you show the system thousands or millions of examples and let it adjust internal numbers (called parameters) until its outputs match the examples. A spam filter is a good case: nobody can write a complete rule for 'what spam looks like', but a model trained on many labelled emails learns patterns that no person spelled out.\n\nThe trade-off matters. Rules are predictable and explainable but cannot handle messy, open-ended problems. Learned systems handle messy problems but are **probabilistic**: they give the most likely answer, not a guaranteed one, and it is often hard to say exactly why."
+    },
+    {
+      "heading": "A language model is a next-word predictor",
+      "body": "A large language model is trained on a huge amount of text to do one thing very well: given the words so far, **predict a likely next word** (strictly, a small piece of a word). It then appends that word and predicts again, and again, until a full answer appears.\n\nThis explains both its power and its weakness. To predict well across all of human writing, it has had to absorb grammar, style, common facts, code patterns and reasoning patterns. But it is not looking anything up in a database of verified facts, and it has no built-in sense of 'I do not know'. It produces text that is **plausible**, which is not always the same as **true**.\n\nWorked example: ask for 'the capital of India' and the most likely continuation is correct, because that pairing appears constantly in training text. Ask for 'the third author of an obscure 2011 paper' and the most plausible-looking continuation is a confident invented name."
+    },
+    {
+      "heading": "Hallucination: fluent and wrong",
+      "body": "When a model produces false content in a confident tone, we call it a **hallucination**. Typical forms: invented references and quotations, made-up function names or library options, wrong dates and numbers, and summaries that quietly add claims the source never made.\n\nHallucination is more likely when the question is obscure, very recent, highly specific (exact figures, names, section numbers), or when you ask for sources and none exist in what the model learned. It is less likely, though never zero, when you paste the source text into the question and ask it to work only from that text.\n\nThe practical rule: **the smoother the answer sounds, the less that tells you about whether it is right.** Confidence of tone is a style, not evidence."
+    },
+    {
+      "heading": "Training data, bias and what to delegate",
+      "body": "A model reflects its training data. If the data over-represents certain regions, languages, genders or viewpoints, the outputs will lean the same way. A tool trained mostly on English text may handle a Hindi or Tamil business letter less well, and a model that learned from past hiring decisions can repeat past unfairness. Its knowledge also stops at a cut-off date, so it may not know about recent changes.\n\nA useful sorting habit for tasks:\n\n- **Good fits:** drafting, rephrasing, summarising text you provide, brainstorming options, explaining a concept at different levels, generating test data, first-pass code for a well-known pattern.\n- **Poor fits without checking:** exact facts and figures, legal or medical decisions, anything needing current information, maths done in its head, and citing sources.\n\nPractise by choosing three tasks from your week and labelling each 'safe to draft', 'must verify' or 'do not delegate'. Your own judgement is the final checker."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Rule-based or learned?",
+      "body": "A bank app blocks any UPI transfer above a fixed daily limit: that is a rule, written by a person, fully explainable. The same app flags a transfer as 'unusual for this customer' by comparing it with thousands of past patterns: that is a learned model, and the flag is a probability, so a human may need to review it.",
+      "takeaway": "Fixed thresholds are rules; pattern-based judgement under uncertainty is usually learning. Both can sit inside one product."
+    },
+    {
+      "title": "A confident wrong answer",
+      "body": "A student asks a chatbot: 'Give me the exact section number of the Indian Contract Act that defines consideration, with a quote.' The reply gives a section number, a neat quotation and a case name, all in a crisp tone. The student checks the Act's text and finds the quote is reworded and the case does not exist.",
+      "takeaway": "Exact numbers, quotes and case names are classic hallucination zones. Verify against the original text before using them."
+    },
+    {
+      "title": "Grounding the model in your own text",
+      "body": "Instead of asking 'What are the key points of our project policy?', you paste the 400-word policy and ask: 'Using only the text below, list the key points. If something is not in the text, say so.' The answer now stays close to the source and you can check each point against it line by line.",
+      "takeaway": "Supplying the source and restricting the answer to it reduces, but does not remove, the risk of invented content."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ai-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "ai.next-word",
+      "prompt": "What is the most accurate description of what a language model does when it answers you?",
+      "options": [
+        "It searches a database of verified facts and copies the matching entry.",
+        "It repeatedly predicts a likely next word based on patterns learned from text.",
+        "It understands the question the way a human expert does and reasons from experience.",
+        "It runs a fixed list of if-then rules written by engineers for each topic."
+      ],
+      "answer": 1,
+      "hint": "Think about what the model was trained to do.",
+      "why": "A language model is trained to predict likely next words, so its output is plausible text. It is not a fact database (option 1), not a human-style understanding (option 3), and not a hand-written rule list (option 4)."
+    },
+    {
+      "id": "ai-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "ai.hallucination",
+      "prompt": "What is the term for a model confidently producing false or invented content such as a made-up reference? (one word)",
+      "accept": ["hallucination", "hallucinations", "hallucinating"],
+      "hint": "It begins with H.",
+      "why": "Hallucination is the standard term for fluent but false output. The tone of the answer gives no clue to its accuracy."
+    },
+    {
+      "id": "ai-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "ai.rules-vs-learning",
+      "prompt": "A friend says: 'AI is just a big program where engineers typed in the answers.' In 3 to 5 sentences, correct this. Explain how a machine-learning system differs from a rule-based program, using one concrete example such as spam filtering or a tax calculation.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "contrast",
+          "label": "Clear contrast between rules and learning",
+          "weight": 40,
+          "descriptors": {
+            "0": "No real contrast; repeats the friend's claim.",
+            "1": "Mentions both ideas but does not say who or what supplies the logic.",
+            "2": "States that rules are written by people while learned systems adjust from examples.",
+            "3": "Clearly states that rules are hand-written and predictable, while learning finds patterns from data and gives probable answers."
+          },
+          "auto": { "type": "keywords", "any": ["example", "examples", "data", "train", "trained", "training", "learn", "learns", "pattern", "patterns"], "min": 2, "label": "Mentions learning from data or examples" }
+        },
+        {
+          "id": "example",
+          "label": "Concrete example",
+          "weight": 30,
+          "descriptors": {
+            "0": "No example.",
+            "1": "Example named but not connected to the point.",
+            "2": "Example used correctly for one side of the contrast.",
+            "3": "Example used to show both sides, such as a fixed tax rule versus a learned spam filter."
+          }
+        },
+        {
+          "id": "accuracy",
+          "label": "Accurate and non-absolute claims",
+          "weight": 30,
+          "descriptors": {
+            "0": "Contains false claims about how AI works.",
+            "1": "Mostly right but overstates, for example says AI is always correct.",
+            "2": "Accurate with a minor imprecision.",
+            "3": "Accurate, and notes that learned systems are probabilistic and can be wrong."
+          }
+        }
+      ],
+      "modelAnswer": "Not quite. In a rule-based program, a person writes the logic, like a tax calculation that always adds a fixed percentage, so the result is predictable and explainable. In machine learning, nobody writes the rules for something like spam filtering. The system is shown many labelled examples and adjusts itself until it finds patterns that match. Because it works from patterns, its answers are probabilities and it can sometimes be wrong.",
+      "guidance": "Strong answers say plainly who creates the logic in each approach and use one example consistently. A common mistake is to say AI 'thinks' or is 'always right', or to treat all software as AI. Score yourself on whether a classmate with no background could follow your explanation and then repeat it."
+    },
+    {
+      "id": "ai-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "ai.hallucination",
+      "prompt": "You are preparing a college presentation. A chatbot gives you a statistic with a named report as its source: 'According to the 2019 National Study on Student Stress, 63.4 percent of engineering students report burnout.' It sounds perfect for your slide. What do you do?",
+      "options": [
+        { "text": "Put it on the slide; the exact decimal and report name make it credible.", "score": 0, "feedback": "Precision is not proof. Exact-looking numbers and named reports are typical hallucination patterns." },
+        { "text": "Ask the chatbot 'Are you sure?' and use it if it says yes.", "score": 1, "feedback": "The model may repeat or defend the same invention. Asking it to confirm itself is not independent checking." },
+        { "text": "Look for the report in an independent, original source. If you cannot find it, drop the figure or describe the topic without a number.", "score": 3, "feedback": "Correct. Verify high-risk specifics against the original, and never present an unverified statistic as fact." },
+        { "text": "Keep the number but add 'approximately' so it is safer.", "score": 1, "feedback": "Hedging the wording does not fix a figure that may not exist." }
+      ],
+      "why": "Statistics and named sources are where models invent details most smoothly. The reliable fix is independent verification against the original; self-confirmation and softer wording do not help."
+    }
+  ],
+  "task": {
+    "title": "Catch a model being plausible",
+    "brief": "Test an AI tool on one question you can verify and one you cannot, and record the difference in reliability.",
+    "steps": [
+      "Choose an AI chat tool you can access. Ask a factual question where you already know the answer, such as a concept from your own syllabus.",
+      "Ask a second question demanding precise details, such as an exact quote, page number or statistic on a niche topic.",
+      "Check the second answer against a textbook, official document or your notes, and mark each detail as confirmed, wrong or unverifiable.",
+      "Write down the one sign in the wording that you would have missed if you had not checked."
+    ],
+    "checklist": [
+      "I asked one question I could verify myself",
+      "I asked one precise-detail question",
+      "I checked each detail against an original source",
+      "I recorded what was confirmed, wrong or unverifiable"
+    ],
+    "evidencePrompt": "State both questions briefly, how many details were wrong or unverifiable, and what you will now always verify.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "ai-1.q1",
+      "type": "mcq",
+      "concept": "ai.rules-vs-learning",
+      "prompt": "Which system is built mainly with machine learning rather than hand-written rules?",
+      "options": [
+        "A calculator that applies GST at a fixed percentage",
+        "A program that sorts a list of names alphabetically",
+        "A model that recognises handwritten digits after seeing thousands of labelled images",
+        "A form that rejects an empty mobile-number field"
+      ],
+      "answer": 2,
+      "why": "Handwriting varies too much for anyone to write complete rules, so the model learns patterns from labelled examples. The other three are clear rules a programmer can state directly."
+    },
+    {
+      "id": "ai-1.q2",
+      "type": "mcq",
+      "concept": "ai.next-word",
+      "prompt": "Why can a language model write fluent text about a topic and still be wrong?",
+      "options": [
+        "It is trained to produce plausible continuations of text, not to verify truth.",
+        "It deliberately lies when it is unsure.",
+        "It only copies sentences it has stored word for word.",
+        "Fluent text always means the model has checked the facts."
+      ],
+      "answer": 0,
+      "why": "Plausibility and truth are different targets. Models do not deliberately lie (option 2), do not simply copy stored sentences (option 3), and fluency is not a fact-check (option 4)."
+    },
+    {
+      "id": "ai-1.q3",
+      "type": "mcq",
+      "concept": "ai.hallucination",
+      "prompt": "Which request is MOST likely to produce a hallucination?",
+      "options": [
+        "Explain what a primary key is in simple words.",
+        "Rewrite this paragraph in a more polite tone.",
+        "Summarise the text I pasted below in three bullets.",
+        "Give me the exact page number and quote from a specific little-known book."
+      ],
+      "answer": 3,
+      "why": "Exact page numbers and quotes from obscure sources are specific details the model may not have learned reliably, so it fills the gap with something plausible. The others work from common knowledge or supplied text."
+    },
+    {
+      "id": "ai-1.q4",
+      "type": "fill",
+      "concept": "ai.bias-limits",
+      "prompt": "A model trained mostly on data from one group performs worse for people outside that group. This unfair pattern inherited from the data is called what? (one word)",
+      "accept": ["bias", "biases", "biased"],
+      "why": "Bias in the training data carries into the outputs. It is a reason to check results, especially in decisions about people."
+    }
+  ],
+  "bank": [
+    {
+      "id": "ai-1.b1",
+      "type": "mcq",
+      "concept": "ai.bias-limits",
+      "prompt": "A company trains a model on ten years of its past hiring decisions to shortlist candidates. Which risk is most direct?",
+      "options": [
+        "The model will refuse to read CVs.",
+        "The model may repeat unfair patterns present in past decisions.",
+        "The model will become a rule-based program.",
+        "The model will always shortlist the best candidate."
+      ],
+      "answer": 1,
+      "why": "A model learns patterns in its data, including unfair ones. It does not become rule-based, and it has no guarantee of finding the best candidate."
+    },
+    {
+      "id": "ai-1.b2",
+      "type": "mcq",
+      "concept": "ai.next-word",
+      "prompt": "You ask a model about a government scheme announced last month and it answers confidently with details. What is the best response?",
+      "options": [
+        "Trust it, because it answered quickly and in detail.",
+        "Assume it has live access to the news.",
+        "Check an official source, because the model's knowledge has a cut-off and may not include recent events.",
+        "Ask the same question five times and take the most common answer."
+      ],
+      "answer": 2,
+      "why": "Training data stops at a cut-off date, so recent events may be missing or invented. Repeating the question does not add new evidence."
+    },
+    {
+      "id": "ai-1.b3",
+      "type": "fill",
+      "concept": "ai.rules-vs-learning",
+      "prompt": "A learned model gives its answer as the most likely result rather than a guaranteed one. What one-word adjective describes this kind of system? (starts with p)",
+      "accept": ["probabilistic"],
+      "why": "Learned systems are probabilistic: they estimate what is likely. Rule-based programs are deterministic for the same inputs."
+    }
+  ],
+  "cards": [
+    {
+      "id": "ai-1.c1",
+      "concept": "ai.rules-vs-learning",
+      "front": "How does machine learning differ from a rule-based program?",
+      "back": "Rules are written by people and are predictable. Machine learning adjusts itself from many examples and gives probable answers, which are harder to explain and can be wrong."
+    },
+    {
+      "id": "ai-1.c2",
+      "concept": "ai.next-word",
+      "front": "What does a language model fundamentally do?",
+      "back": "It predicts a likely next word, repeatedly, from patterns learned in text. It produces plausible output, not verified facts."
+    },
+    {
+      "id": "ai-1.c3",
+      "concept": "ai.hallucination",
+      "front": "Where is hallucination most likely, and what is the defence?",
+      "back": "Likeliest with exact figures, quotes, citations, obscure or recent topics. Defence: verify against an original source, or supply the source text and restrict the answer to it."
+    },
+    {
+      "id": "ai-1.c4",
+      "concept": "ai.bias-limits",
+      "front": "Name two limits that come from training data.",
+      "back": "Bias inherited from uneven or unfair data, and a knowledge cut-off date that leaves out recent events."
+    }
+  ],
+  "reflection": "Which tasks in your own study or job preparation would you happily let AI draft, and which would you never delegate or never use without checking? Why?",
+  "revision": {
+    "keyPoints": [
+      "Rules are written by people; machine learning learns patterns from examples and is probabilistic.",
+      "A language model predicts likely next words: plausible, not guaranteed true.",
+      "Hallucination hides in exact figures, quotes and citations.",
+      "Training data brings bias and a knowledge cut-off.",
+      "Sort tasks into safe to draft, must verify, do not delegate."
+    ],
+    "redo": "Pick one AI answer you received recently, find its single most checkable claim, and verify it against an original source."
+  }
+}

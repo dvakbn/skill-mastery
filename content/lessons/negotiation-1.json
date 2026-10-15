@@ -1,0 +1,335 @@
+{
+  "id": "negotiation-1",
+  "skillId": "negotiation",
+  "n": 1,
+  "title": "Interests, Positions and Preparation",
+  "summary": "Separate what people say they want from why they want it, know your walk-away alternative, and fill in a one-page preparation sheet before any negotiation.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain the difference between a position and an interest with an everyday example.",
+    "Define BATNA, reservation point and ZOPA and use them to judge whether a deal is worth taking.",
+    "Complete a preparation sheet for a real upcoming negotiation."
+  ],
+  "concepts": [
+    {
+      "id": "negotiation.interests-positions",
+      "label": "Interests vs positions"
+    },
+    {
+      "id": "negotiation.batna",
+      "label": "BATNA and reservation point"
+    },
+    {
+      "id": "negotiation.zopa",
+      "label": "ZOPA"
+    },
+    {
+      "id": "negotiation.preparation",
+      "label": "Preparation sheet"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Positions hide interests",
+      "body": "Most people think negotiation is a tug of war over one number. A **position** is what someone demands: \"I want a flat at ₹12,000 a month.\" An **interest** is the reason behind it: \"I can only spend ₹14,000 in total on housing, and I need a quiet place to study.\" Positions collide; interests can often be combined.\n\nTwo roommates in Faridabad argue over the single bedroom with the balcony. Position: \"I want that room.\" Asking *why* reveals that one wants morning sunlight for yoga and the other wants a door that closes for night calls. A rota, a curtain or a swap of study desk can satisfy both. The skill is to ask \"What would having that give you?\" before you argue about the thing itself.\n\nThe common mistake is to negotiate only on positions, which forces a winner and a loser and often damages the relationship."
+    },
+    {
+      "heading": "BATNA and reservation point",
+      "body": "Your **BATNA** is your Best Alternative To a Negotiated Agreement: what you will actually do if no deal is reached. It is your real source of power. A student with a second offer in hand negotiates calmly; a student with no alternative feels forced to accept anything.\n\nYour **reservation point** is the worst deal you would still accept. It comes from your BATNA. If your alternative is a freelance project paying ₹20,000 a month, a job offering ₹18,000 is below your reservation point unless it brings something else you value, such as training or stability. Decide this number before the conversation, in a calm moment, because pressure makes people say yes to bad deals.\n\nWork on improving your BATNA before negotiating. Applying to two more companies often does more than any clever phrase."
+    },
+    {
+      "heading": "ZOPA: the zone of possible agreement",
+      "body": "The **ZOPA** is the range where both sides can say yes. Suppose you are selling a used laptop. You will not accept less than ₹22,000 (your reservation point). The buyer will not pay more than ₹27,000. The ZOPA runs from ₹22,000 to ₹27,000, so a deal is possible. If the buyer's ceiling were ₹20,000 there would be no ZOPA, and walking away would be the right result, not a failure.\n\nYou rarely know the other side's limit, so you estimate it by research and by asking questions. Knowing the ZOPA may not exist protects you from forcing a bad agreement."
+    },
+    {
+      "heading": "The preparation sheet",
+      "body": "Fill in one page before you negotiate:\n\n1. **My interests**, ranked: what matters most, what matters a little.\n2. **Their likely interests**: what pressures and goals do they have?\n3. **My BATNA** and **reservation point**.\n4. **Their likely BATNA**.\n5. **Target**: an ambitious but defensible outcome.\n6. **Tradeable items**: things cheap for me but valuable to them, such as a faster payment or a longer commitment.\n7. **Facts and standards** that support my ask.\n\nPractise by preparing small negotiations first: a rent increase, a freelance fee or a group project deadline. Ten minutes of preparation usually decides the result more than forty minutes of talking."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Two interns, one laptop",
+      "body": "Aman and Sana share one office laptop. Aman says, \"I need it every afternoon.\" Sana says, \"No, I need it every afternoon.\" Asked why, Aman needs it for a 3 pm client demo; Sana needs it to finish a report due by 6 pm. They agree Aman takes it from 2:30 to 4, Sana from 4 to 6.",
+      "takeaway": "Different interests (a demo slot, a deadline) allowed a split that both positions ruled out."
+    },
+    {
+      "title": "Freelance fee with a BATNA",
+      "body": "Rohit is offered ₹6,000 for a website. His BATNA is a college-notice-board project paying ₹5,000 with little effort. He sets his reservation at ₹5,500, target ₹8,000, and lists tradeables: delivery in 10 days instead of 7, free first-month fixes. The client's budget is ₹7,000, so the ZOPA is ₹5,500 to ₹7,000. They settle at ₹6,800 with the longer timeline.",
+      "takeaway": "Knowing the walk-away number and a tradeable made it easy to reach a deal inside the ZOPA."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "negotiation-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "negotiation.interests-positions",
+      "prompt": "Which statement is an interest rather than a position?",
+      "options": [
+        "I need to keep housing costs low so I can save for my certification fee.",
+        "I will not pay more than ₹9,000 rent.",
+        "This is my final offer.",
+        "I want the front room."
+      ],
+      "answer": 0,
+      "why": "An interest explains why: saving for a certification. The others state demands, which are positions. Asking why uncovers interests."
+    },
+    {
+      "id": "negotiation-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "negotiation.batna",
+      "prompt": "The worst deal you would still accept, derived from your alternatives, is called your ____ point. (one word)",
+      "accept": [
+        "reservation"
+      ],
+      "why": "The reservation point is the walk-away limit that comes from your BATNA."
+    },
+    {
+      "id": "negotiation-1.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "negotiation.preparation",
+      "prompt": "Choose a real upcoming negotiation (rent, a freelance fee, a project deadline, a salary talk). Write a short preparation sheet: your top interest, their likely interest, your BATNA, your reservation point and one tradeable item.",
+      "minWords": 42,
+      "rubric": [
+        {
+          "id": "interests",
+          "label": "Interests identified",
+          "weight": 30,
+          "descriptors": {
+            "0": "Only positions listed.",
+            "1": "Your interest only.",
+            "2": "Both sides interests named.",
+            "3": "Both sides interests ranked and reasoned."
+          }
+        },
+        {
+          "id": "batna",
+          "label": "BATNA and reservation point",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "BATNA vague.",
+            "2": "BATNA and a number or limit.",
+            "3": "Concrete BATNA with a limit that follows from it."
+          }
+        },
+        {
+          "id": "tradeable",
+          "label": "Tradeable item",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague idea.",
+            "2": "An item named.",
+            "3": "An item cheap for you and valuable to them."
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear and specific",
+          "weight": 15,
+          "descriptors": {
+            "0": "Unclear.",
+            "1": "Generic.",
+            "2": "Mostly specific.",
+            "3": "Specific to a real situation."
+          }
+        }
+      ],
+      "modelAnswer": "Situation: asking my landlord to hold rent at ₹9,000 next year. My interest: predictable costs for exams. Likely their interest: no vacancy gap. BATNA: a similar room 2 km away at ₹9,500 with a deposit. Reservation: ₹9,500 total. Tradeable: a two-year commitment and on-time rent via UPI on the 1st.",
+      "guidance": "A strong answer names interests on both sides, gives a real alternative and a limit that follows from it, and finds something cheap for you but valuable to them. Common mistakes are listing only demands and setting a reservation point with no alternative behind it. Compare your sheet with the model honestly."
+    },
+    {
+      "id": "negotiation-1.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "negotiation.zopa",
+      "prompt": "You will sell your old phone only for ₹8,000 or more. The only buyer says his absolute ceiling is ₹6,500. What is the best response?",
+      "options": [
+        {
+          "text": "Accept ₹6,500 to avoid the hassle.",
+          "score": 1,
+          "feedback": "Dropping below your reservation point means you accept a deal worse than keeping the phone."
+        },
+        {
+          "text": "Recognise there is no ZOPA, thank him and look for other buyers.",
+          "score": 3,
+          "feedback": "With no overlap, walking away is the correct result. Your BATNA of selling elsewhere or keeping it is better."
+        },
+        {
+          "text": "Insist he must pay ₹8,000.",
+          "score": 1,
+          "feedback": "Pushing a buyer past his stated limit wastes time and harms goodwill."
+        },
+        {
+          "text": "Lie that another buyer offered ₹9,000.",
+          "score": 0,
+          "feedback": "Fabricating an offer is dishonest and easy to expose."
+        }
+      ],
+      "why": "When the ranges do not overlap there is no ZOPA, and a good negotiator is willing to walk away."
+    }
+  ],
+  "task": {
+    "title": "Prepare one real negotiation",
+    "brief": "Pick a real negotiation coming up in the next month and complete the seven-line preparation sheet.",
+    "steps": [
+      "Choose the negotiation and the other person.",
+      "Write your ranked interests and your guess at theirs.",
+      "Write your BATNA, reservation point and target.",
+      "List at least two tradeable items and one supporting fact.",
+      "Ask yourself whether a ZOPA probably exists."
+    ],
+    "checklist": [
+      "I named interests, not only positions",
+      "My reservation point comes from a real alternative",
+      "I have two tradeable items",
+      "I estimated the other side limit"
+    ],
+    "evidencePrompt": "Write your BATNA, reservation point and top tradeable item.",
+    "evidenceWords": 35,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "negotiation-1.q1",
+      "type": "mcq",
+      "concept": "negotiation.interests-positions",
+      "prompt": "What is the best question for uncovering an interest?",
+      "options": [
+        "Is that your final price?",
+        "Who told you that?",
+        "What would that give you?",
+        "Can you do better?"
+      ],
+      "answer": 2,
+      "why": "Asking what something gives the person moves from the demand to the need behind it."
+    },
+    {
+      "id": "negotiation-1.q2",
+      "type": "fill",
+      "concept": "negotiation.batna",
+      "prompt": "The acronym BATNA stands for Best Alternative To a Negotiated ____. (one word)",
+      "accept": [
+        "agreement"
+      ],
+      "why": "BATNA is your best alternative if no agreement is reached."
+    },
+    {
+      "id": "negotiation-1.q3",
+      "type": "mcq",
+      "concept": "negotiation.zopa",
+      "prompt": "You will accept at least ₹50,000 and the client will pay at most ₹60,000. The ZOPA is:",
+      "options": [
+        "Below ₹50,000",
+        "₹50,000 to ₹60,000",
+        "Above ₹60,000",
+        "Exactly ₹55,000"
+      ],
+      "answer": 1,
+      "why": "The ZOPA is the overlap where both can say yes. The midpoint is only one possible outcome inside it."
+    },
+    {
+      "id": "negotiation-1.q4",
+      "type": "mcq",
+      "concept": "negotiation.preparation",
+      "prompt": "Which belongs on a preparation sheet?",
+      "options": [
+        "Only your ideal price",
+        "Interests, BATNA, reservation point, target and tradeables",
+        "A script to repeat word for word",
+        "A list of weaknesses of the other person"
+      ],
+      "answer": 1,
+      "why": "Preparation maps both sides and your limits; a fixed script or personal attacks do not help."
+    }
+  ],
+  "bank": [
+    {
+      "id": "negotiation-1.b1",
+      "type": "mcq",
+      "concept": "negotiation.interests-positions",
+      "prompt": "Two team members both insist on presenting the final slide. Which step is most likely to resolve it?",
+      "options": [
+        "Let the manager choose by seniority",
+        "Ask each what presenting last means to them",
+        "Flip a coin immediately",
+        "Take turns every week without discussing why"
+      ],
+      "answer": 1,
+      "why": "Learning the interests, such as visibility or a closing summary, may allow a solution that suits both."
+    },
+    {
+      "id": "negotiation-1.b2",
+      "type": "mcq",
+      "concept": "negotiation.batna",
+      "prompt": "A candidate with two offers negotiates more calmly than one with none because:",
+      "options": [
+        "He is richer",
+        "His BATNA is stronger",
+        "Companies like multiple offers",
+        "He knows the ZOPA exactly"
+      ],
+      "answer": 1,
+      "why": "A strong alternative lowers the fear of walking away, which is the source of negotiating strength."
+    },
+    {
+      "id": "negotiation-1.b3",
+      "type": "fill",
+      "concept": "negotiation.zopa",
+      "prompt": "If the seller needs at least ₹30,000 and the buyer can pay at most ₹25,000, how many rupees of overlap exist? (number)",
+      "accept": [
+        "0",
+        "zero",
+        "none",
+        "no overlap"
+      ],
+      "why": "The buyer ceiling is below the seller floor, so there is no ZOPA and no overlap."
+    }
+  ],
+  "cards": [
+    {
+      "id": "negotiation-1.c1",
+      "concept": "negotiation.interests-positions",
+      "front": "Position vs interest?",
+      "back": "A position is what you demand; an interest is why you want it. Ask what the demand would give you, because interests can often be combined where positions cannot."
+    },
+    {
+      "id": "negotiation-1.c2",
+      "concept": "negotiation.batna",
+      "front": "What is a BATNA?",
+      "back": "Your Best Alternative To a Negotiated Agreement: what you will really do if there is no deal. It sets your reservation point and your confidence."
+    },
+    {
+      "id": "negotiation-1.c3",
+      "concept": "negotiation.zopa",
+      "front": "What is the ZOPA?",
+      "back": "The zone of possible agreement: the overlap between your reservation point and theirs. If there is no overlap, no deal should be forced."
+    },
+    {
+      "id": "negotiation-1.c4",
+      "concept": "negotiation.preparation",
+      "front": "Name four items on a preparation sheet.",
+      "back": "Your ranked interests, their likely interests, your BATNA and reservation point, a target and tradeable items, supported by facts."
+    }
+  ],
+  "reflection": "Think of the last time you agreed to something under pressure. What alternative did you have that you forgot to consider?",
+  "revision": {
+    "keyPoints": [
+      "Ask why to find interests behind positions.",
+      "Know your BATNA and reservation point before talking.",
+      "A deal only exists if the ZOPA exists.",
+      "Prepare on one page: interests, limits, target, tradeables."
+    ],
+    "redo": "Pick one upcoming small negotiation and write your BATNA, reservation point and one tradeable in two minutes."
+  }
+}

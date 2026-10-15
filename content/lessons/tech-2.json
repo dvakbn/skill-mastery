@@ -1,0 +1,321 @@
+{
+  "id": "tech-2",
+  "skillId": "tech",
+  "n": 2,
+  "title": "Relational Data and SQL Thinking",
+  "summary": "Understand tables, keys and joins through SAP customer and sales order tables, and write SELECT queries that are precise and efficient.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain tables, primary keys and foreign keys using SAP header and item tables.",
+    "Write SELECT queries with WHERE, JOIN and GROUP BY and predict the result set.",
+    "Avoid SELECT star and database selects inside loops."
+  ],
+  "concepts": [
+    {
+      "id": "tech.tables-keys",
+      "label": "Tables and keys"
+    },
+    {
+      "id": "tech.select-where-join",
+      "label": "SELECT, WHERE and JOIN"
+    },
+    {
+      "id": "tech.group-by",
+      "label": "GROUP BY and aggregates"
+    },
+    {
+      "id": "tech.efficient-queries",
+      "label": "Efficient queries"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Tables, rows and keys",
+      "body": "In the debugging lesson you learned to isolate a problem methodically. Data problems need the same care, and that starts with understanding how relational data is organised. A **table** stores one kind of thing, with one **row** per record and one **column** per attribute. A **primary key** is the column (or combination of columns) that identifies a row uniquely. A **foreign key** is a column that refers to the primary key of another table.\n\nSAP gives a classic example. Table **KNA1** holds general customer master data, with the customer number KUNNR as its key. Table **VBAK** is the sales order header: one row per order, key VBELN, and a KUNNR column pointing to the customer. Table **VBAP** holds the order items: one row per item, key VBELN plus POSNR (item number), with columns such as MATNR (material) and KWMENG (order quantity). One customer has many orders, and one order has many items. This one-to-many shape is why data is split into header and item tables instead of one giant table."
+    },
+    {
+      "heading": "SELECT, WHERE and JOIN",
+      "body": "A query reads like a sentence: **SELECT** which columns, **FROM** which table, **WHERE** which rows. For example:\n\n```\nSELECT vbeln, erdat, netwr\n  FROM vbak\n  WHERE kunnr = '0000001000'\n    AND erdat >= '20250401'.\n```\n\nThis returns the number, creation date and net value of orders for one customer from a given date. A **JOIN** combines tables through matching keys. An **inner join** keeps only rows that match on both sides; a **left outer join** keeps every row from the left table and fills missing right-side columns with empty values. To list orders with customer names you would join VBAK to KNA1 on KUNNR. To list items you join VBAK to VBAP on VBELN.\n\nWhen reading a result, ask: how many rows should come back? Joining a header to its items returns one row per item, so an order with four items appears four times. Forgetting this is a common cause of inflated totals."
+    },
+    {
+      "heading": "GROUP BY and aggregates",
+      "body": "**GROUP BY** collapses rows into groups and **aggregates** summarise each group: COUNT, SUM, AVG, MIN and MAX. To find total order value per customer:\n\n```\nSELECT kunnr, COUNT(*) AS orders, SUM(netwr) AS total\n  FROM vbak\n  GROUP BY kunnr.\n```\n\nEvery selected column that is not an aggregate must appear in GROUP BY. Use WHERE to filter rows before grouping, and HAVING to filter groups afterwards, such as customers with more than ten orders. A useful habit is to work out one group by hand from three sample rows before trusting the query."
+    },
+    {
+      "heading": "Fast, careful queries",
+      "body": "Two habits matter in ABAP and in any database work. First, **never use SELECT star** unless you truly need every column. Fetching 200 columns when you need three wastes memory and network time. Name the columns you need. Second, **never run a database select inside a loop**. If you loop over 5,000 orders and select the customer name each time, you make 5,000 database round trips. Instead select the customers once, using a join or a single query with all the keys, and look results up in an internal table in memory.\n\nAlso filter in the database with WHERE rather than fetching everything and filtering in the program, and use key fields in WHERE conditions where possible, because indexes on keys make them fast. Check the first result with a small sample before running on production-sized data."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Orders with customer name",
+      "body": "Task: list order number, order date and customer name for April 2025. Query: SELECT vbak~vbeln, vbak~erdat, kna1~name1 FROM vbak INNER JOIN kna1 ON kna1~kunnr = vbak~kunnr WHERE vbak~erdat BETWEEN '20250401' AND '20250430'. If an order referred to a customer missing in KNA1, an inner join would drop it, whereas a left outer join would keep it with an empty name.",
+      "takeaway": "State what rows you expect, then choose the join type that matches the question."
+    },
+    {
+      "title": "Loop select versus one select",
+      "body": "Slow version: LOOP AT orders and inside it SELECT SINGLE name1 FROM kna1 for each order, causing one database call per order. Better: select all needed customers once, with the keys from the orders, into an internal table sorted by KUNNR, then READ TABLE inside the loop. For 5,000 orders that is one database call instead of 5,000.",
+      "takeaway": "Database round trips are expensive; move lookups into memory after one read."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tech-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "tech.tables-keys",
+      "prompt": "In SAP, which column links a sales order header in VBAK to its customer in KNA1?",
+      "options": [
+        "KUNNR",
+        "POSNR",
+        "MATNR",
+        "NETWR"
+      ],
+      "answer": 0,
+      "why": "KUNNR is the customer number, a foreign key in VBAK that points to the key of KNA1. POSNR is the item number and MATNR is the material."
+    },
+    {
+      "id": "tech-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "tech.group-by",
+      "prompt": "To summarise total order value for each customer you use SUM together with the clause GROUP ____. (one word)",
+      "accept": [
+        "by"
+      ],
+      "why": "GROUP BY groups the rows and SUM aggregates each group."
+    },
+    {
+      "id": "tech-2.e3",
+      "level": 2,
+      "type": "mcq",
+      "concept": "tech.select-where-join",
+      "prompt": "You inner join VBAK to VBAP on VBELN. An order with 3 items appears in the result:",
+      "options": [
+        "Once",
+        "Not at all",
+        "Three times, one row per item",
+        "Three times only if the net value is above zero"
+      ],
+      "answer": 2,
+      "why": "A join returns one row for every matching pair, so a header appears once per item. This is why header totals are inflated when summed after the join."
+    },
+    {
+      "id": "tech-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "tech.efficient-queries",
+      "prompt": "A colleague wrote code that loops over 3,000 sales orders and, inside the loop, selects the customer name from KNA1 for each one. Explain what is wrong, how many database calls it makes, and describe the better approach in steps. Mention the SELECT star habit too.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "problem",
+          "label": "Identifies the problem",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Says it is slow without reason.",
+            "2": "Names select inside a loop.",
+            "3": "Names select in a loop and round-trip cost."
+          }
+        },
+        {
+          "id": "count",
+          "label": "States number of calls",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Wrong number.",
+            "2": "Approximate.",
+            "3": "States about 3,000 calls versus one."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "3,?000|one|1 ",
+            "label": "Mentions the call counts"
+          }
+        },
+        {
+          "id": "fix",
+          "label": "Better approach",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Mentions a join or single select.",
+            "3": "Select once into an internal table, then read in memory or use a join."
+          }
+        },
+        {
+          "id": "star",
+          "label": "Names only needed columns",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentions loosely.",
+            "2": "Says avoid SELECT star.",
+            "3": "Explains why selecting only needed columns saves memory and time."
+          }
+        }
+      ],
+      "modelAnswer": "The code makes one database call per order, about 3,000 round trips, which is slow. A better approach is to collect the customer numbers, select the customer names once into an internal table, or join VBAK to KNA1 in one query, then read the name from memory inside the loop. Also select only the columns needed instead of SELECT star, which wastes memory and transfer time.",
+      "guidance": "A strong answer names the loop select, counts the calls, and offers one read plus an in-memory lookup or a join. Common mistakes are saying only that the program is slow, suggesting more hardware, or forgetting to limit columns. Score yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "Sketch a header and item query",
+    "brief": "Design and write queries for orders and customers on paper or in a text file, then predict the results.",
+    "steps": [
+      "Draw three small tables with 3 rows each: customers, order headers and order items, using the key names KUNNR, VBELN and POSNR.",
+      "Write a query listing orders for one customer, then a join adding customer name.",
+      "Write a GROUP BY query for total value per customer.",
+      "Work out by hand the number of rows each query should return and write it next to the query."
+    ],
+    "checklist": [
+      "My tables have keys that link",
+      "I wrote a join and a GROUP BY",
+      "I predicted the row counts before running anything",
+      "I selected named columns, not star"
+    ],
+    "evidencePrompt": "Paste one of your queries and the row count you predicted.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "tech-2.q1",
+      "type": "mcq",
+      "concept": "tech.tables-keys",
+      "prompt": "A primary key is:",
+      "options": [
+        "A column that can repeat",
+        "A column or set of columns identifying a row uniquely",
+        "The first column alphabetically",
+        "A password for the table"
+      ],
+      "answer": 1,
+      "why": "It identifies each row uniquely, like VBELN for an order header."
+    },
+    {
+      "id": "tech-2.q2",
+      "type": "mcq",
+      "concept": "tech.select-where-join",
+      "prompt": "Which join keeps all rows from the left table even if there is no match on the right?",
+      "options": [
+        "Inner join",
+        "Left outer join",
+        "Cross check",
+        "Group join"
+      ],
+      "answer": 1,
+      "why": "A left outer join keeps every left row and fills empty values where there is no match."
+    },
+    {
+      "id": "tech-2.q3",
+      "type": "fill",
+      "concept": "tech.group-by",
+      "prompt": "To filter groups after grouping, for example customers with more than ten orders, use the clause ____. (one word)",
+      "accept": [
+        "having"
+      ],
+      "why": "WHERE filters rows before grouping, HAVING filters groups afterwards."
+    },
+    {
+      "id": "tech-2.q4",
+      "type": "mcq",
+      "concept": "tech.efficient-queries",
+      "prompt": "Which is the better practice?",
+      "options": [
+        "SELECT star inside a loop",
+        "Select needed columns once, then look up in memory",
+        "Fetch everything and filter in the program",
+        "Run one query per row"
+      ],
+      "answer": 1,
+      "why": "One targeted read followed by in-memory lookups avoids repeated database trips."
+    }
+  ],
+  "bank": [
+    {
+      "id": "tech-2.b1",
+      "type": "mcq",
+      "concept": "tech.select-where-join",
+      "prompt": "A report joins an order header to its items and sums the header net value. The totals look too high. Most likely reason?",
+      "options": [
+        "The database is corrupted",
+        "The header value repeats once per item row",
+        "WHERE was missing",
+        "Dates were wrong"
+      ],
+      "answer": 1,
+      "why": "Each item row repeats the header columns, so summing the header value multiplies it by the item count."
+    },
+    {
+      "id": "tech-2.b2",
+      "type": "fill",
+      "concept": "tech.tables-keys",
+      "prompt": "In a table of student marks, the roll number that identifies each student uniquely is the ____ key. (one word)",
+      "accept": [
+        "primary"
+      ],
+      "why": "A column that uniquely identifies each row is the primary key."
+    },
+    {
+      "id": "tech-2.b3",
+      "type": "mcq",
+      "concept": "tech.efficient-queries",
+      "prompt": "Why select only the columns you need instead of SELECT star?",
+      "options": [
+        "It is required by syntax",
+        "It saves memory and data transfer",
+        "It changes the table",
+        "It sorts the rows"
+      ],
+      "answer": 1,
+      "why": "Fewer columns means less data moved and stored, which makes programs faster."
+    }
+  ],
+  "cards": [
+    {
+      "id": "tech-2.c1",
+      "concept": "tech.tables-keys",
+      "front": "What are KNA1, VBAK and VBAP?",
+      "back": "KNA1 is customer master general data (key KUNNR), VBAK is the sales order header (key VBELN) and VBAP holds the order items (VBELN plus POSNR)."
+    },
+    {
+      "id": "tech-2.c2",
+      "concept": "tech.select-where-join",
+      "front": "Inner versus left outer join?",
+      "back": "Inner join keeps only matching rows on both sides. Left outer join keeps all left rows and fills empty values where the right side has no match."
+    },
+    {
+      "id": "tech-2.c3",
+      "concept": "tech.group-by",
+      "front": "WHERE versus HAVING?",
+      "back": "WHERE filters individual rows before grouping. HAVING filters the groups after aggregation, for example SUM or COUNT conditions."
+    },
+    {
+      "id": "tech-2.c4",
+      "concept": "tech.efficient-queries",
+      "front": "Two query habits to avoid?",
+      "back": "Do not use SELECT star when you need a few columns, and do not run a database select inside a loop. Read once, then look up in memory."
+    }
+  ],
+  "reflection": "Think of a report or app you have built. Where did it fetch data one row at a time, and how would you restructure it?",
+  "revision": {
+    "keyPoints": [
+      "Header and item tables link through keys like VBELN.",
+      "Joins return one row per matching pair, so predict row counts.",
+      "GROUP BY with aggregates summarises; HAVING filters groups.",
+      "Name columns and avoid selects inside loops."
+    ],
+    "redo": "Write a join query from memory and predict its row count from three sample rows."
+  }
+}

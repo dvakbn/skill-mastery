@@ -1,0 +1,352 @@
+{
+  "id": "grooming-3",
+  "skillId": "grooming",
+  "n": 3,
+  "title": "Presence and Self-Care",
+  "summary": "Support your presence with posture, sleep, basic fitness and a pre-interview checklist you can keep long term.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Use posture and movement basics to look and feel more composed.",
+    "Describe how sleep, food, water and movement affect energy and focus.",
+    "Prepare a pre-interview checklist and a routine that you can sustain."
+  ],
+  "concepts": [
+    {
+      "id": "grooming.posture",
+      "label": "Posture and presence"
+    },
+    {
+      "id": "grooming.sleep-fitness",
+      "label": "Sleep, food and movement"
+    },
+    {
+      "id": "grooming.pre-checklist",
+      "label": "Pre-interview checklist"
+    },
+    {
+      "id": "grooming.sustainable",
+      "label": "Sustainable routines"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Presence starts inside",
+      "body": "You have learned the daily basics of hygiene and how to dress for the setting. Presence is what remains: how you stand, how rested you look and how steady you feel. It is built far more by sleep and habits than by anything you buy. This lesson gives general wellbeing guidance, not medical advice. If you have ongoing sleep problems, pain, low mood or health concerns, speak to a doctor or counsellor."
+    },
+    {
+      "heading": "Posture and movement",
+      "body": "Posture shapes how others read you and how you feel. A slouched, hunched position, common after hours at a laptop, can look tired and hesitant. Try this check: feet flat, weight even, knees soft, shoulders relaxed and slightly back, ears over shoulders, chin level. When sitting, keep your back supported and your screen at eye level so you are not craning your neck.\n\nIn an interview, walk in at an unhurried pace, offer a handshake or a polite greeting, and sit when invited. Keep your hands visible on the table or lap instead of fidgeting. Take a slow breath before answering. If you work long hours, stand and stretch every 45 to 60 minutes for a minute, rolling shoulders and neck gently."
+    },
+    {
+      "heading": "Sleep, food, water and movement",
+      "body": "A rested mind speaks clearly and remembers better. Most adults do well with around seven to nine hours of sleep. Practical rules: fix a regular wake time, stop screens about thirty minutes before bed, and avoid caffeine late in the evening. Do not stay awake all night before an interview studying; reviewing for an hour and sleeping beats cramming until 4 am.\n\n**Food and water:** eat regular meals with some protein, such as dal, eggs, curd or paneer, and fruit and vegetables. Skipping breakfast on interview day can leave you shaky and distracted. Carry a water bottle. Limit very oily or heavy foods right before a meeting.\n\n**Movement:** thirty minutes of walking, cycling, yoga or a sport on most days improves mood, sleep and energy. You do not need a gym. Climbing stairs, a brisk walk after dinner, and stretching all count. Start small, such as ten minutes daily."
+    },
+    {
+      "heading": "The pre-interview checklist and sustainable routines",
+      "body": "A checklist removes panic. Use these three stages.\n\n1. **Two days before:** confirm time, place and travel; read the job description; prepare your documents (resume copies, ID, certificates); plan the outfit and check it fits.\n2. **Night before:** pack the bag, iron clothes, clean shoes, trim nails, set two alarms, eat a normal dinner, and sleep on time.\n3. **Morning of:** eat breakfast, drink water, dress, do the mirror check, leave early to arrive ten minutes before, and spend the last five minutes breathing slowly instead of scrolling.\n\n**Sustainable routines** are small and flexible. Choose one change at a time, attach it to an existing habit, and measure by weeks. Missing one day does not break a routine; missing two in a row starts a new pattern, so restart quickly. Sleeping on time, a daily walk and a Sunday reset are enough to carry you through placement season and your first job."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Two nights before a placement test",
+      "body": "Ishaan has a test at 9 am. In the first version he studies till 3 am, skips breakfast and arrives flustered. In the second version he reviews notes until 10 pm, lays out clothes, sleeps at 11, eats poha and curd, and reaches ten minutes early. He feels steadier and remembers more.",
+      "takeaway": "Sleep and preparation help performance more than extra late-night cramming."
+    },
+    {
+      "title": "Posture reset at the desk",
+      "body": "Nisha notices neck pain after long coding sessions. She raises her laptop on a few books, uses a separate keyboard, sets a reminder every 50 minutes to stand and roll her shoulders, and walks after dinner. After a few weeks she feels less tense and carries herself taller in meetings.",
+      "takeaway": "Small desk and movement changes improve both comfort and presence."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "grooming-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "grooming.posture",
+      "prompt": "Which posture check helps you look composed when standing?",
+      "options": [
+        "Feet flat, relaxed shoulders slightly back, chin level",
+        "Chest puffed, arms crossed tightly",
+        "Leaning on one leg and slouching",
+        "Hands in pockets, eyes down"
+      ],
+      "answer": 0,
+      "why": "A balanced, relaxed stance looks steady. Rigid, slouched or closed positions look nervous or defensive."
+    },
+    {
+      "id": "grooming-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "grooming.sleep-fitness",
+      "prompt": "Most adults do well with about seven to ____ hours of sleep. (number)",
+      "accept": [
+        "9",
+        "nine",
+        "8",
+        "eight"
+      ],
+      "why": "Seven to nine hours is the usual guideline for adults; consistent timing matters too."
+    },
+    {
+      "id": "grooming-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "grooming.pre-checklist",
+      "prompt": "You are free the night before an interview. You have prepared answers but feel anxious. What is the best plan?",
+      "options": [
+        {
+          "text": "Stay up late to rehearse everything again.",
+          "score": 1,
+          "feedback": "Late-night cramming reduces sleep, and tired thinking hurts performance."
+        },
+        {
+          "text": "Pack your bag, lay out clothes, eat a normal dinner, do a short review, and sleep on time.",
+          "score": 3,
+          "feedback": "It completes logistics, protects sleep and calms nerves."
+        },
+        {
+          "text": "Go out with friends and sleep late.",
+          "score": 0,
+          "feedback": "This risks tiredness and lateness."
+        },
+        {
+          "text": "Skip dinner to feel light.",
+          "score": 0,
+          "feedback": "Skipping meals leaves you low on energy and focus."
+        }
+      ],
+      "why": "The night before is for logistics and rest, not last-minute cramming."
+    },
+    {
+      "id": "grooming-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "grooming.sustainable",
+      "prompt": "Design a realistic weekly self-care routine for yourself with exactly three habits (for example sleep, movement, a Sunday reset). For each, say the cue that triggers it and the minimum version you will do on a bad day.",
+      "minWords": 34,
+      "rubric": [
+        {
+          "id": "habits",
+          "label": "Three clear habits",
+          "weight": 30,
+          "descriptors": {
+            "0": "Fewer than two.",
+            "1": "Two habits.",
+            "2": "Three but vague.",
+            "3": "Three specific habits."
+          }
+        },
+        {
+          "id": "cues",
+          "label": "Cue attached",
+          "weight": 30,
+          "descriptors": {
+            "0": "No cues.",
+            "1": "One cue.",
+            "2": "Most have cues.",
+            "3": "Every habit has a concrete cue."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "after",
+              "before",
+              "when",
+              "if",
+              "every"
+            ],
+            "min": 2,
+            "label": "Uses cue words"
+          }
+        },
+        {
+          "id": "minimum",
+          "label": "Minimum version",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "For some habits.",
+            "3": "A tiny minimum for every habit."
+          }
+        },
+        {
+          "id": "realistic",
+          "label": "Realistic",
+          "weight": 15,
+          "descriptors": {
+            "0": "Impossible.",
+            "1": "Ambitious.",
+            "2": "Mostly doable.",
+            "3": "Easy to start this week."
+          }
+        }
+      ],
+      "modelAnswer": "Sleep: phone goes on charge outside reach at 10:30 pm; minimum is lights off by 11:30. Movement: after dinner I walk; minimum is ten minutes. Sunday reset: after lunch I iron, wash and plan clothes; minimum is ironing two outfits.",
+      "guidance": "Strong answers have three habits, each tied to something already in your day with a tiny fallback. Avoid vague aims like \"be healthier\". Check each minimum can be done even when tired."
+    }
+  ],
+  "task": {
+    "title": "Create your pre-interview checklist",
+    "brief": "Write a personal checklist for two days before, the night before and morning of an interview, then test the night-before part this week.",
+    "steps": [
+      "Write the three stages as separate short lists.",
+      "Add one item for travel and one for documents.",
+      "Do the night-before list for a normal college day.",
+      "Note one item that was hard and improve it."
+    ],
+    "checklist": [
+      "I wrote three stages",
+      "I included travel and documents",
+      "I tested the night-before list",
+      "I noted one improvement"
+    ],
+    "evidencePrompt": "Paste your checklist headings and the improvement you made.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "grooming-3.q1",
+      "type": "mcq",
+      "concept": "grooming.posture",
+      "prompt": "How often should you stand and stretch during long desk work?",
+      "options": [
+        "Never",
+        "Once a day",
+        "Every 45 to 60 minutes",
+        "Only when in pain"
+      ],
+      "answer": 2,
+      "why": "Regular short breaks relieve stiffness and keep you alert."
+    },
+    {
+      "id": "grooming-3.q2",
+      "type": "mcq",
+      "concept": "grooming.sleep-fitness",
+      "prompt": "Which is better before an early interview?",
+      "options": [
+        "All-nighter revision",
+        "Skipping meals",
+        "Heavy fried food",
+        "A full night of sleep and breakfast"
+      ],
+      "answer": 3,
+      "why": "Rest and a normal meal support clear thinking."
+    },
+    {
+      "id": "grooming-3.q3",
+      "type": "mcq",
+      "concept": "grooming.pre-checklist",
+      "prompt": "When should you pack your bag and iron clothes?",
+      "options": [
+        "The night before",
+        "On the way",
+        "After arriving",
+        "Never"
+      ],
+      "answer": 0,
+      "why": "Night-before preparation prevents a morning rush."
+    },
+    {
+      "id": "grooming-3.q4",
+      "type": "mcq",
+      "concept": "grooming.sustainable",
+      "prompt": "Which routine strategy lasts longest?",
+      "options": [
+        "Change one small habit at a time and restart quickly after a miss",
+        "Change everything on Monday",
+        "Wait for motivation",
+        "Join an expensive gym"
+      ],
+      "answer": 0,
+      "why": "Small changes with quick restarts survive busy weeks."
+    }
+  ],
+  "bank": [
+    {
+      "id": "grooming-3.b1",
+      "type": "mcq",
+      "concept": "grooming.posture",
+      "prompt": "Your neck aches after hours of coding on a low laptop. Best adjustment?",
+      "options": [
+        "Raise the screen to eye level and take movement breaks",
+        "Lean closer",
+        "Work in bed",
+        "Ignore the pain forever"
+      ],
+      "answer": 0,
+      "why": "Screen height and breaks reduce neck strain; persistent pain needs a doctor."
+    },
+    {
+      "id": "grooming-3.b2",
+      "type": "fill",
+      "concept": "grooming.pre-checklist",
+      "prompt": "You should aim to arrive about ____ minutes early for an interview. (number)",
+      "accept": [
+        "10",
+        "ten",
+        "10 minutes"
+      ],
+      "why": "Around ten minutes early leaves time to settle without waiting too long."
+    },
+    {
+      "id": "grooming-3.b3",
+      "type": "mcq",
+      "concept": "grooming.sustainable",
+      "prompt": "You miss your walk two days in a row. What now?",
+      "options": [
+        "Restart today with a tiny version",
+        "Give up for the month",
+        "Double next day",
+        "Feel guilty"
+      ],
+      "answer": 0,
+      "why": "Quick restart with a minimum version prevents a new pattern."
+    }
+  ],
+  "cards": [
+    {
+      "id": "grooming-3.c1",
+      "concept": "grooming.posture",
+      "front": "What is a quick posture check?",
+      "back": "Feet flat, knees soft, shoulders relaxed, ears over shoulders, chin level; screen at eye level when sitting."
+    },
+    {
+      "id": "grooming-3.c2",
+      "concept": "grooming.sleep-fitness",
+      "front": "What supports energy?",
+      "back": "Seven to nine hours of sleep, regular meals with protein, water, and about thirty minutes of movement most days."
+    },
+    {
+      "id": "grooming-3.c3",
+      "concept": "grooming.pre-checklist",
+      "front": "What are the three checklist stages?",
+      "back": "Two days before: confirm and prepare. Night before: pack, iron, sleep. Morning: eat, mirror check, arrive early."
+    },
+    {
+      "id": "grooming-3.c4",
+      "concept": "grooming.sustainable",
+      "front": "How do routines last?",
+      "back": "One small change at a time, tied to a cue, with a minimum version and a quick restart after a miss."
+    }
+  ],
+  "reflection": "Which of sleep, movement or posture is weakest for you right now, and what tiny version could you start tonight?",
+  "revision": {
+    "keyPoints": [
+      "Presence comes from rest, posture and steady habits.",
+      "Sleep and meals matter more than late cramming.",
+      "A pre-interview checklist removes panic.",
+      "Sustainable routines are small, cued and quick to restart."
+    ],
+    "redo": "Write a three-stage checklist for your next big day and follow its night-before steps."
+  }
+}

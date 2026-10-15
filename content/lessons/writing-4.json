@@ -1,0 +1,358 @@
+{
+  "id": "writing-4",
+  "skillId": "writing",
+  "n": 4,
+  "title": "Editing and Revision",
+  "summary": "Improve any draft in separate passes for structure, sentences, words and proofreading, and use feedback well.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Edit a draft in four ordered passes instead of one messy read.",
+    "Use reading aloud and a personal checklist to catch errors.",
+    "Receive feedback without defensiveness and apply it selectively."
+  ],
+  "concepts": [
+    {
+      "id": "writing.edit-passes",
+      "label": "Four edit passes"
+    },
+    {
+      "id": "writing.read-aloud",
+      "label": "Reading aloud and distance"
+    },
+    {
+      "id": "writing.checklist",
+      "label": "Personal editing checklist"
+    },
+    {
+      "id": "writing.feedback",
+      "label": "Receiving and applying feedback"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Draft and edit are different jobs",
+      "body": "In earlier lessons you learned to write clearly, to structure emails and to build arguments. The final skill is editing, and most weak writing is simply unedited writing. The reason people skip it is that they try to edit while drafting, which slows both. Draft first, quickly. Then edit as a separate task, ideally after a break of at least an hour; a draft read the next morning shows its flaws.\n\nThe key technique is **multiple passes, each with one focus, from big to small**. If you fix commas in a paragraph you will later delete, the time is wasted. Large problems first, small ones last."
+    },
+    {
+      "heading": "The four passes",
+      "body": "**Pass 1: Structure.** Does the piece answer the reader's question? Is the main message first or clearly signposted? Is the order logical? Use a reverse outline, then move, merge or delete whole paragraphs.\n\n**Pass 2: Sentences.** Look at each paragraph. Shorten long sentences, change passive to active, make sure each sentence adds something new. Aim to cut 10 to 20 percent of the words.\n\n**Pass 3: Words.** Replace vague or padded words with precise ones: *utilise* becomes *use*, *in order to* becomes *to*, *due to the fact that* becomes *because*, *very important* becomes *critical* or is simply removed. Delete filler such as *basically*, *actually*, *kindly* and *needful*. Check that names, numbers and terms are used consistently.\n\n**Pass 4: Proofread.** Spelling, grammar, punctuation, dates, amounts, names, attachments. Do this last, slowly, and change the way you see the text: increase the zoom, print it, or read from the last line to the first.\n\nWorked example. Draft: *We are in the process of making an attempt to utilise a new tool in order to improve the speed.* After words and sentences passes: *We are testing a new tool to improve speed.* Fourteen words became eight, and nothing was lost."
+    },
+    {
+      "heading": "Read aloud, then check against your own list",
+      "body": "Your eyes forgive errors that your ears catch. **Reading aloud**, or using a text-to-speech voice, exposes missing words, clumsy rhythm, repeated phrases and sentences that run out of breath. If you stumble, the reader will too. Mark each stumble and fix it.\n\nBuild a **personal checklist** from your own recurring mistakes, as you did in the first English lesson. A useful list has five to eight items, for example: *Is the main point in the first two lines? Is every ask dated? Any 'revert back' or 'discuss about'? Names and numbers checked against the source? Attachment included? Subject line specific?* Keep it where you write, and update it each month. A checklist beats memory because errors you do not see are, by definition, ones you will not remember to look for.\n\nFor high-stakes documents, ask for a **fresh pair of eyes**. Another person finds what you cannot, because you read what you meant to write."
+    },
+    {
+      "heading": "Taking feedback well",
+      "body": "Feedback is information about how your text lands, not a judgement of you. When someone gives you comments: **listen first** and avoid explaining; **ask a clarifying question** such as 'Which part lost you?'; **separate the symptom from the suggested fix**. A reader may say 'This paragraph is boring' (symptom) and propose a rewrite (fix); the symptom is reliable even if the fix is not.\n\nThen decide. Apply feedback that matches your purpose and reader; note and thank for feedback you decline, and if two reviewers disagree, return to the reader and purpose. When you ask for feedback, **be specific**: 'Is the recommendation clear in the first paragraph?' gets a better answer than 'Thoughts?' After applying changes, thank the reviewer and tell them what you changed; people give better feedback to those who use it."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Four passes on one paragraph",
+      "body": "Draft: 'Basically, due to the fact that the server is very slow, we are of the opinion that it is important to the project that the migration of the database should be done by the team in the coming week.'\n\nPass 2 (sentences, active voice): 'The server is very slow, so the team should migrate the database next week.'\nPass 3 (words): 'The server is slow, so we should migrate the database next week.'\nPass 4 (proofread, add a date): 'The server is slow, so we should migrate the database in the week of 20 October.'",
+      "takeaway": "Thirty-seven words became sixteen. Each pass had one job, and the final proofread caught the missing date."
+    },
+    {
+      "title": "Reading aloud catches what eyes miss",
+      "body": "Written: 'Please find attached the the report for your review and feedback on the same.'\n\nRead aloud, the learner trips on the repeated 'the' and the clumsy 'on the same'. Fixed: 'Please find the report attached. I would value your feedback by Friday.'",
+      "takeaway": "Stumbles when reading aloud flag repeated words, awkward phrases and missing details such as a deadline."
+    },
+    {
+      "title": "Responding to vague feedback",
+      "body": "Reviewer: 'Your proposal feels long.'\n\nLearner: 'Thanks. Which section lost you?' Reviewer: 'The background, I did not know what you wanted until page two.'\n\nChange made: moved the request to the opening line and cut background from 250 to 80 words.",
+      "takeaway": "A clarifying question turned a vague comment into a specific, fixable problem."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "writing-4.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "writing.edit-passes",
+      "prompt": "What is the best order for edit passes?",
+      "options": [
+        "Structure, sentences, words, proofread",
+        "Proofread, words, sentences, structure",
+        "Words, proofread, structure, sentences",
+        "Sentences, proofread, structure, words"
+      ],
+      "answer": 0,
+      "hint": "Go from big problems to small ones.",
+      "why": "Large issues come first so you do not polish text you later delete. Proofreading comes last, after the content has settled."
+    },
+    {
+      "id": "writing-4.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "writing.edit-passes",
+      "prompt": "Edit the phrase 'in order to' to its shortest correct form. Write the one word that replaces it.",
+      "accept": [
+        "to"
+      ],
+      "hint": "Two words are redundant here.",
+      "why": "'In order to' almost always shortens to 'to' without any loss of meaning."
+    },
+    {
+      "id": "writing-4.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "writing.edit-passes",
+      "prompt": "Edit this status update for a manager. Rewrite it in no more than 45 words, keeping every fact: 'Basically, due to the fact that the testing of the login module has been completed by us, we are now in a position to start the testing of the payment module, which is expected to be started on Monday 20 October and to be completed within a period of three days, if there are no delays.'",
+      "minWords": 20,
+      "rubric": [
+        {
+          "id": "facts",
+          "label": "All facts kept",
+          "weight": 30,
+          "descriptors": {
+            "0": "Two or more facts missing.",
+            "1": "One fact missing (login done, payment testing starts, Monday 20 October, three days, conditional on no delays).",
+            "2": "All facts present but one is distorted.",
+            "3": "All five facts present and accurate."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "login",
+              "payment",
+              "monday",
+              "20 october",
+              "three days",
+              "3 days",
+              "delay"
+            ],
+            "min": 5,
+            "label": "Keeps at least five key words from the original"
+          }
+        },
+        {
+          "id": "concise",
+          "label": "Concise and active",
+          "weight": 35,
+          "descriptors": {
+            "0": "Still over 60 words or passive and padded.",
+            "1": "Shorter but over 45 words, or filler remains.",
+            "2": "At or under 45 words with a small amount of padding.",
+            "3": "Under 45 words, active voice, no filler."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "basically",
+              "due to the fact",
+              "in a position to",
+              "within a period of"
+            ],
+            "label": "Filler phrases removed"
+          }
+        },
+        {
+          "id": "flow",
+          "label": "Reads smoothly and in logical order",
+          "weight": 20,
+          "descriptors": {
+            "0": "Confusing order.",
+            "1": "Order is acceptable but rhythm is clumsy.",
+            "2": "Clear order with one awkward phrase.",
+            "3": "Past, next step, dates, condition: clear order and natural rhythm when read aloud."
+          }
+        },
+        {
+          "id": "proof",
+          "label": "Proofread: correct dates and punctuation",
+          "weight": 15,
+          "descriptors": {
+            "0": "Several errors.",
+            "1": "Two errors.",
+            "2": "One minor error.",
+            "3": "No spelling, punctuation or date errors."
+          }
+        }
+      ],
+      "modelAnswer": "We have finished testing the login module. Payment module testing starts on Monday 20 October and should take three days, if there are no delays.",
+      "guidance": "Strong answers lead with what is done, then what is next, then the date, duration and condition. Cut 'basically', 'due to the fact that' and 'in a position to'. A common mistake is trimming facts, such as dropping 'if there are no delays', to hit the word count. Read your version aloud and count the words honestly before scoring."
+    },
+    {
+      "id": "writing-4.e4",
+      "type": "mcq",
+      "level": 3,
+      "concept": "writing.feedback",
+      "prompt": "You share a project report with two reviewers. Reviewer A says the opening is too long. Reviewer B says the opening is perfect but the recommendation is hidden. Your reader is a busy department head who will decide in one meeting. What is the best response?",
+      "options": [
+        "Ignore both reviewers; you wrote the report and you know it best.",
+        "Follow Reviewer A because shorter is always better.",
+        "Ask each what specifically lost them, then decide using your reader and purpose: tighten the opening and move the recommendation to the top, since a decision-maker needs it first.",
+        "Rewrite the whole report so everyone is satisfied."
+      ],
+      "answer": 2,
+      "why": "The best response uses feedback as information, probes the symptom, and decides by purpose and reader. Both comments point at the same problem: the main point arrives late for a decision-maker. Ignoring reviewers wastes insight, following one blindly or rewriting everything is inefficient."
+    }
+  ],
+  "task": {
+    "title": "Four-pass edit with a checklist",
+    "brief": "Edit a real piece of your writing through four passes and build your checklist.",
+    "steps": [
+      "Choose a real draft of 150 to 300 words (an email, assignment paragraph or report section) and leave it for at least an hour.",
+      "Do pass 1 (structure) and pass 2 (sentences), then pass 3 (words) cutting at least 10 percent of the length.",
+      "Read the result aloud and mark every stumble; fix them, then proofread slowly for names, numbers and dates.",
+      "Write a checklist of five to eight items based on the errors you found."
+    ],
+    "checklist": [
+      "I did the passes in order, one focus each",
+      "The final version is at least 10 percent shorter",
+      "I read it aloud and fixed stumbles",
+      "I wrote a checklist from my own errors"
+    ],
+    "evidencePrompt": "State the word count before and after, and list two items on your checklist.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "writing-4.q1",
+      "type": "mcq",
+      "concept": "writing.edit-passes",
+      "prompt": "Why should proofreading be the last pass?",
+      "options": [
+        "It is the least important step.",
+        "You might polish text that you later delete or rewrite.",
+        "It takes the longest time.",
+        "Spell checkers work better at the end."
+      ],
+      "answer": 1,
+      "why": "Content changes during the earlier passes, so correcting commas first wastes effort. Proofreading is important, but only worthwhile once the text is settled."
+    },
+    {
+      "id": "writing-4.q2",
+      "type": "mcq",
+      "concept": "writing.read-aloud",
+      "prompt": "What does reading your draft aloud mainly help you find?",
+      "options": [
+        "Only spelling mistakes",
+        "Awkward rhythm, repeated words, missing words and sentences that are too long",
+        "The correct deadline",
+        "Which paragraph to delete"
+      ],
+      "answer": 1,
+      "why": "Your ears detect rhythm and clumsy phrases that your eyes skip. It does not tell you facts such as a deadline, and structural choices are made in pass 1."
+    },
+    {
+      "id": "writing-4.q3",
+      "type": "mcq",
+      "concept": "writing.checklist",
+      "prompt": "A personal editing checklist should mainly be built from:",
+      "options": [
+        "A grammar textbook's full list of rules",
+        "Your own recurring errors and the needs of your readers",
+        "Other people's favourite phrases",
+        "Only spelling rules"
+      ],
+      "answer": 1,
+      "why": "It is short and works because it targets mistakes you actually make. A textbook list is too long to use and borrowed phrases may not fit your errors."
+    },
+    {
+      "id": "writing-4.q4",
+      "type": "fill",
+      "concept": "writing.feedback",
+      "prompt": "When feedback is vague ('this feels long'), what should you ask for? Answer with one word that completes: 'Which ____ lost you?'",
+      "accept": [
+        "part",
+        "section",
+        "paragraph",
+        "sentence",
+        "bit"
+      ],
+      "why": "Asking which part lost the reader turns a vague symptom into a specific, fixable problem."
+    }
+  ],
+  "bank": [
+    {
+      "id": "writing-4.b1",
+      "type": "mcq",
+      "concept": "writing.edit-passes",
+      "prompt": "Which change belongs in the 'words' pass?",
+      "options": [
+        "Moving the conclusion to the top",
+        "Replacing 'utilise' with 'use' and deleting 'basically'",
+        "Checking that the date is correct",
+        "Deleting a paragraph that repeats another"
+      ],
+      "answer": 1,
+      "why": "The words pass replaces vague or padded words. Moving or deleting paragraphs is a structure change, and checking dates is proofreading."
+    },
+    {
+      "id": "writing-4.b2",
+      "type": "fill",
+      "concept": "writing.read-aloud",
+      "prompt": "Besides reading aloud, name one trick for seeing proofreading errors by changing how the text looks, such as printing it or reading it from the last line to the first. Write the word 'backwards', 'print' or 'zoom'.",
+      "accept": [
+        "backwards",
+        "backward",
+        "print",
+        "printing",
+        "zoom",
+        "print it",
+        "zoom in"
+      ],
+      "why": "Changing the format, order or size makes your brain read what is actually written rather than what you expect."
+    },
+    {
+      "id": "writing-4.b3",
+      "type": "mcq",
+      "concept": "writing.feedback",
+      "prompt": "A senior colleague tells you your report summary 'doesn't land'. What is the best first reply?",
+      "options": [
+        "Explain why the summary is actually fine.",
+        "Say nothing and rewrite it overnight.",
+        "Thank them and ask which sentence lost them and what they expected to see.",
+        "Ask someone else to rewrite it."
+      ],
+      "answer": 2,
+      "why": "A thanks plus a clarifying question reveals the real problem and keeps the person willing to help. Defending the summary or guessing the fix wastes the information."
+    }
+  ],
+  "cards": [
+    {
+      "id": "writing-4.c1",
+      "concept": "writing.edit-passes",
+      "front": "What are the four edit passes in order?",
+      "back": "Structure, sentences, words, proofread. Move from big problems to small ones, and give each pass one focus."
+    },
+    {
+      "id": "writing-4.c2",
+      "concept": "writing.read-aloud",
+      "front": "Why read your writing aloud?",
+      "back": "Ears catch what eyes skip: missing or repeated words, clumsy rhythm and overlong sentences. Fix every place you stumble."
+    },
+    {
+      "id": "writing-4.c3",
+      "concept": "writing.checklist",
+      "front": "What should be on your personal editing checklist?",
+      "back": "Five to eight items from your own recurring errors: main point first, dated ask, known grammar slips, numbers and names checked, attachment included."
+    },
+    {
+      "id": "writing-4.c4",
+      "concept": "writing.feedback",
+      "front": "How do you handle feedback well?",
+      "back": "Listen first, ask which part and why, separate symptom from suggested fix, decide by reader and purpose, then thank the reviewer."
+    }
+  ],
+  "reflection": "Which edit pass do you most often skip, and what is one small habit (a break, reading aloud, a checklist) that would make you do it?",
+  "revision": {
+    "keyPoints": [
+      "Draft first, edit later, and edit in separate passes.",
+      "Order: structure, sentences, words, proofread.",
+      "Read aloud and fix every stumble.",
+      "A short personal checklist beats memory.",
+      "Ask which part lost the reader; decide by purpose."
+    ],
+    "redo": "Take one paragraph you wrote today, cut it by 15 percent without losing facts, and read it aloud once."
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "id": "gk-2",
+  "skillId": "gk",
+  "n": 2,
+  "title": "Geography and Economy Basics",
+  "summary": "Pick up the essential geography of India and the world, and the core ideas of GDP, inflation, the Budget, the RBI and GST at concept level.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Place India's main physical features, climate pattern and time standard on a mental map.",
+    "Explain GDP, inflation, the Budget and the RBI's role in plain language.",
+    "Work out how GST is applied and shared with an illustrative example."
+  ],
+  "concepts": [
+    {
+      "id": "gk.geography-essentials",
+      "label": "India and world geography essentials"
+    },
+    {
+      "id": "gk.gdp-inflation",
+      "label": "GDP and inflation"
+    },
+    {
+      "id": "gk.budget-rbi",
+      "label": "Budget and the RBI"
+    },
+    {
+      "id": "gk.gst",
+      "label": "GST at concept level"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Geography you should carry in your head",
+      "body": "Last time you saw how institutions share power. Geography and economy are the physical and money backdrop to all of it.\n\nIndia sits in the northern and eastern hemispheres. The **Tropic of Cancer** (about 23.5 degrees north) passes through eight Indian states, roughly cutting the country into a tropical southern half and a subtropical northern half. India's **standard meridian** is 82.5 degrees east, which gives Indian Standard Time, five and a half hours ahead of UTC. The land has clear zones: the Himalayas in the north, the Indo-Gangetic plain of the Ganga and Yamuna, the Thar desert in the west, the Deccan plateau in the peninsula bounded by the Western and Eastern Ghats, and long coastlines on the Arabian Sea, Bay of Bengal and Indian Ocean.\n\nThe **south-west monsoon** brings most rainfall between June and September, which is why agriculture and food prices are so tied to it. Globally, Asia is the largest continent, the Pacific the largest ocean, and latitude and longitude form the grid that locates every place on Earth."
+    },
+    {
+      "heading": "GDP and inflation",
+      "body": "**Gross Domestic Product (GDP)** is the total market value of all final goods and services produced inside a country in a year. \"Final\" matters: the price of the steel is not added separately to the price of the car, or you would count the steel twice. **Nominal GDP** uses current prices; **real GDP** removes the effect of price changes so that you compare actual output.\n\n**Inflation** is a sustained rise in the general price level, so each rupee buys less. In India it is commonly tracked with the Consumer Price Index (CPI). An illustrative example: if nominal GDP rises from 100 to 110 units while prices rise 5 percent, real growth is about 110 divided by 1.05, which is roughly 104.8, so about 4.8 percent, not 10. Mixing up nominal and real is the commonest mistake when reading economic news."
+    },
+    {
+      "heading": "The Budget and the RBI",
+      "body": "The **Union Budget**, called the Annual Financial Statement under Article 112, is the government's estimate of receipts and expenditure for the financial year, which runs from 1 April to 31 March. Receipts come from taxes (income tax, GST, customs) and borrowing; expenditure covers salaries, subsidies, defence, interest and infrastructure. The **fiscal deficit** is total expenditure minus total receipts excluding borrowing. If a government spends 120 and earns 100 without borrowing, the deficit is 20, which must be borrowed.\n\nThe **Reserve Bank of India (RBI)**, established in 1935, is the central bank. It issues currency notes (except one-rupee notes, which the government issues), regulates banks, manages foreign exchange and runs **monetary policy**. Its main tool is the **repo rate**, the rate at which it lends to banks. Raising the rate makes loans costlier and cools inflation; cutting it encourages borrowing and growth. Budgets are fiscal policy by the government; interest-rate decisions are monetary policy by the RBI."
+    },
+    {
+      "heading": "GST in a nutshell",
+      "body": "The **Goods and Services Tax**, introduced on 1 July 2017, is an indirect tax charged on the supply of goods and services, replacing many separate central and state taxes. It is **destination-based**: the tax goes to the state where the goods or services are consumed. A **GST Council** with the Union and states decides rates.\n\nWhen a sale is within one state, tax is split into **CGST** (Centre) and **SGST** (state). When it crosses states, **IGST** is charged and shared. An illustrative example: a laptop bag costs ₹1,000 before tax, and the rate is 18 percent, so GST is ₹180 and the buyer pays ₹1,180. Within one state, ₹90 goes to the Centre and ₹90 to the state. Rates change over time, so learn the mechanism and check the current rate when you need it."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Reading a headline correctly",
+      "body": "A headline says \"Economy grows 9 percent in rupee terms\" in a year when prices rose 6 percent. A careful reader asks whether it is nominal or real. Real growth is about 1.09 divided by 1.06 minus 1, roughly 2.8 percent. The same headline, read properly, tells a very different story.",
+      "takeaway": "Always ask whether a figure is nominal or adjusted for inflation."
+    },
+    {
+      "title": "Splitting a GST bill",
+      "body": "You buy a printer from a shop in Faridabad for ₹5,000 plus an illustrative 18 percent GST. GST is ₹900, total ₹5,900. As the sale is inside Haryana, ₹450 is CGST and ₹450 is SGST. If the shop were in Delhi shipping to you, IGST of ₹900 would be charged instead.",
+      "takeaway": "Calculate GST on the pre-tax price; split equally into CGST and SGST for a same-state sale."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gk-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "gk.geography-essentials",
+      "prompt": "Which line passes through India and roughly divides it into tropical and subtropical halves?",
+      "options": [
+        "Tropic of Cancer",
+        "Equator",
+        "Tropic of Capricorn",
+        "Prime Meridian"
+      ],
+      "answer": 0,
+      "why": "The Tropic of Cancer at about 23.5 degrees north crosses eight Indian states. The equator and Tropic of Capricorn lie south of India."
+    },
+    {
+      "id": "gk-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "gk.gst",
+      "prompt": "A product costs ₹2,000 before tax and attracts an illustrative 18 percent GST. The total price in rupees is ____. (number only)",
+      "accept": [
+        "2360",
+        "₹2360",
+        "2,360",
+        "₹2,360",
+        "rs 2360"
+      ],
+      "why": "18 percent of 2,000 is 360, so the total is 2,360."
+    },
+    {
+      "id": "gk-2.e3",
+      "level": 2,
+      "type": "mcq",
+      "concept": "gk.budget-rbi",
+      "prompt": "Which body sets the repo rate?",
+      "options": [
+        "Finance Ministry",
+        "Reserve Bank of India",
+        "Parliament",
+        "GST Council"
+      ],
+      "answer": 1,
+      "why": "The RBI runs monetary policy and sets the repo rate. The Finance Ministry presents the Budget; the GST Council sets GST rates."
+    },
+    {
+      "id": "gk-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "gk.gdp-inflation",
+      "prompt": "Nominal GDP of an imaginary country grows from 200 to 230 units while prices rise 10 percent. In 4 to 6 sentences, calculate the approximate real growth and explain why the headline 15 percent figure misleads.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "calc",
+          "label": "Correct calculation",
+          "weight": 35,
+          "descriptors": {
+            "0": "No calculation.",
+            "1": "Attempted but wrong.",
+            "2": "Right method, small slip.",
+            "3": "Real growth about 4.5 percent shown correctly."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "4\\.5|4\\.54|4\\.55|4\\.6",
+            "label": "Shows about 4.5 percent"
+          }
+        },
+        {
+          "id": "nominal",
+          "label": "Explains nominal vs real",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Mentions only one term.",
+            "2": "Defines both loosely.",
+            "3": "Defines both and links the gap to inflation."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "nominal",
+              "real",
+              "inflation",
+              "prices"
+            ],
+            "min": 2,
+            "label": "Uses nominal, real or inflation"
+          }
+        },
+        {
+          "id": "why",
+          "label": "Why the headline misleads",
+          "weight": 20,
+          "descriptors": {
+            "0": "No.",
+            "1": "Vague.",
+            "2": "Says prices inflate the figure.",
+            "3": "Says part of the 15 percent is only higher prices, not more output."
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear writing",
+          "weight": 15,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Disorganised.",
+            "2": "Mostly clear.",
+            "3": "Clear steps."
+          }
+        }
+      ],
+      "modelAnswer": "The nominal rise is 30 on 200, which is 15 percent. But prices rose 10 percent, so real GDP is 230 divided by 1.10, about 209.1, a growth of roughly 4.5 percent. The headline misleads because most of the increase reflects higher prices rather than more goods and services produced. Real GDP is the better measure of actual output.",
+      "guidance": "A strong answer divides by one plus inflation instead of simply subtracting, though subtraction gives a rough 5 percent. Common mistakes are treating nominal growth as real growth or forgetting the base. Check your numbers before judging yourself."
+    }
+  ],
+  "task": {
+    "title": "Decode a bill and a headline",
+    "brief": "Use one real shopping bill and one economic headline to apply GST and nominal-vs-real ideas.",
+    "steps": [
+      "Find any bill showing GST, or imagine one with a pre-tax price you pick.",
+      "Verify the CGST plus SGST equals the total tax and recompute it.",
+      "Find one headline with a growth or price figure.",
+      "Write whether the figure is nominal or real, or unclear, and what extra detail you would need."
+    ],
+    "checklist": [
+      "I recomputed the GST",
+      "I confirmed CGST equals SGST",
+      "I classified the headline figure",
+      "I wrote what extra detail I would need"
+    ],
+    "evidencePrompt": "Write the bill amounts and your verdict on the headline.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "gk-2.q1",
+      "type": "mcq",
+      "concept": "gk.geography-essentials",
+      "prompt": "India's standard meridian used for Indian Standard Time is:",
+      "options": [
+        "75 degrees east",
+        "82.5 degrees east",
+        "90 degrees east",
+        "0 degrees"
+      ],
+      "answer": 1,
+      "why": "IST is based on 82.5 degrees east, five and a half hours ahead of UTC."
+    },
+    {
+      "id": "gk-2.q2",
+      "type": "fill",
+      "concept": "gk.gdp-inflation",
+      "prompt": "The measure of the total value of final goods and services produced in a year is called ____. (abbreviation)",
+      "accept": [
+        "gdp",
+        "gross domestic product"
+      ],
+      "why": "GDP counts final goods and services produced within a country in a year."
+    },
+    {
+      "id": "gk-2.q3",
+      "type": "mcq",
+      "concept": "gk.budget-rbi",
+      "prompt": "The fiscal deficit equals total expenditure minus:",
+      "options": [
+        "Total borrowing",
+        "Total receipts excluding borrowing",
+        "Only tax revenue",
+        "GDP"
+      ],
+      "answer": 1,
+      "why": "It measures how much the government must borrow after counting all non-borrowed receipts."
+    },
+    {
+      "id": "gk-2.q4",
+      "type": "mcq",
+      "concept": "gk.gst",
+      "prompt": "On a sale between two states, the tax charged is:",
+      "options": [
+        "CGST only",
+        "SGST only",
+        "IGST",
+        "No tax"
+      ],
+      "answer": 2,
+      "why": "Inter-state supplies attract IGST, which is later shared between the Centre and the destination state."
+    }
+  ],
+  "bank": [
+    {
+      "id": "gk-2.b1",
+      "type": "mcq",
+      "concept": "gk.geography-essentials",
+      "prompt": "Which season brings most of India's annual rainfall?",
+      "options": [
+        "Winter",
+        "South-west monsoon, June to September",
+        "Spring",
+        "Pre-monsoon heat, April to May"
+      ],
+      "answer": 1,
+      "why": "The south-west monsoon delivers most rain, driving agriculture and food prices."
+    },
+    {
+      "id": "gk-2.b2",
+      "type": "fill",
+      "concept": "gk.budget-rbi",
+      "prompt": "A bank raises loan rates after the central bank raises the repo rate. The central bank's name abbreviation is ____. (three letters)",
+      "accept": [
+        "rbi"
+      ],
+      "why": "The Reserve Bank of India runs monetary policy and sets the repo rate."
+    },
+    {
+      "id": "gk-2.b3",
+      "type": "mcq",
+      "concept": "gk.gst",
+      "prompt": "A shop sells a book for ₹500 before tax with an illustrative 12 percent GST within the same state. How much is CGST?",
+      "options": [
+        "₹60",
+        "₹30",
+        "₹12",
+        "₹6"
+      ],
+      "answer": 1,
+      "why": "Total GST is ₹60; half, ₹30, is CGST and half is SGST."
+    }
+  ],
+  "cards": [
+    {
+      "id": "gk-2.c1",
+      "concept": "gk.gdp-inflation",
+      "front": "Nominal vs real GDP?",
+      "back": "Nominal uses current prices; real removes price changes. Use real figures to judge actual growth in output."
+    },
+    {
+      "id": "gk-2.c2",
+      "concept": "gk.budget-rbi",
+      "front": "Fiscal vs monetary policy?",
+      "back": "Fiscal policy is the government's taxes and spending in the Budget. Monetary policy is the RBI's control of interest rates and money supply."
+    },
+    {
+      "id": "gk-2.c3",
+      "concept": "gk.gst",
+      "front": "CGST, SGST and IGST?",
+      "back": "CGST and SGST split GST for same-state sales; IGST applies to sales between states and is shared afterwards."
+    },
+    {
+      "id": "gk-2.c4",
+      "concept": "gk.geography-essentials",
+      "front": "Key facts on India's position?",
+      "back": "Tropic of Cancer crosses eight states; standard meridian is 82.5 degrees east; monsoon rain is June to September."
+    }
+  ],
+  "reflection": "Which price or tax you pay regularly could you now explain better, and what would you check on your next bill?",
+  "revision": {
+    "keyPoints": [
+      "The Tropic of Cancer crosses India and IST uses 82.5 degrees east.",
+      "GDP counts final output; use real GDP to judge growth.",
+      "Inflation is a rise in the general price level.",
+      "The Budget is fiscal policy; the RBI handles monetary policy.",
+      "GST splits into CGST and SGST for same-state sales; IGST for inter-state."
+    ],
+    "redo": "Compute 18 percent GST on ₹2,500 and split it into CGST and SGST."
+  }
+}

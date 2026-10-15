@@ -1,0 +1,340 @@
+{
+  "id": "negotiation-3",
+  "skillId": "negotiation",
+  "n": 3,
+  "title": "Offers and Salary Negotiation",
+  "summary": "Read an Indian job offer correctly, from CTC to in-hand pay, and learn how a fresher can research, time and phrase a respectful negotiation.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Break a CTC figure into fixed, variable, joining bonus and in-hand components.",
+    "List the non-salary terms worth checking in an offer, such as notice period and bond.",
+    "Write a respectful counter for an entry-level offer using research and timing."
+  ],
+  "concepts": [
+    {
+      "id": "negotiation.offer-anatomy",
+      "label": "Offer anatomy and CTC vs in-hand"
+    },
+    {
+      "id": "negotiation.non-salary-terms",
+      "label": "Non-salary terms"
+    },
+    {
+      "id": "negotiation.research-timing",
+      "label": "Research and timing"
+    },
+    {
+      "id": "negotiation.respectful-ask",
+      "label": "Respectful fresher counter"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Reading an offer: CTC is not salary",
+      "body": "After preparing a BATNA and learning tactics, the biggest negotiation most early-career people face is a job offer. In India, offers quote **CTC** (cost to company): the total a company spends on you in a year. It is not what reaches your bank account.\n\nTypical parts: **fixed pay** (basic, HRA, allowances), **variable pay** (a bonus linked to performance, not guaranteed), employer **PF contribution**, **gratuity** and sometimes insurance. A **joining bonus** is a one-time amount, often repayable if you leave within a set period. Your **in-hand** pay is lower again, because employee PF, professional tax and income tax are deducted.\n\nIllustration with simple numbers: a ₹4,80,000 CTC might comprise ₹4,20,000 fixed and ₹60,000 variable. Divided by twelve, fixed is ₹35,000 a month, but in-hand may be around ₹30,000 after deductions, and the variable may pay out only partly. The exact split varies by company, so always ask for a **written breakup**."
+    },
+    {
+      "heading": "Terms beyond the number",
+      "body": "Other terms can matter as much as ₹20,000 a year:\n\n- **Notice period**: 30, 60 or 90 days. A long notice reduces your freedom to move.\n- **Service agreement or bond**: a promise to stay for a period or pay a penalty. Read the amount and the conditions.\n- **Probation**: length, and whether pay or benefits differ.\n- **Training and role**: which team, which technology, and whether ABAP or other work is promised. An entry-level role that builds skills can beat a slightly higher offer with no learning.\n- **Location, shifts, relocation and work mode.**\n- **Variable pay rules** and the date of the first review.\n\nNever accept orally or on a call alone; get the offer letter and read every page."
+    },
+    {
+      "heading": "Research and timing",
+      "body": "Research gives your ask a standard. Learn the typical range for the role, city and company type from peers, seniors, college placement cells and your network. Use ranges, not single numbers, and do not claim figures you cannot support.\n\nTiming matters. Negotiate after you have a written offer and before you accept; interest is highest then. Avoid giving your current or expected salary early, if you can say \"I would like to understand the range for this role first.\" Large service firms hiring in campus batches often have fixed bands, so room may be small; smaller firms and off-campus hires are more flexible."
+    },
+    {
+      "heading": "A respectful counter for freshers",
+      "body": "Start with gratitude and enthusiasm, then make one clear request backed by a reason. Ask for the whole package, not only the base.\n\nExample: \"Thank you for the offer, I am excited to join the SAP team. Based on my certification work and the range I have seen for similar roles, could the fixed pay be ₹4,20,000 instead of ₹3,90,000? If that is difficult, I would value a six-month review or a training allowance.\"\n\nOffer an alternative if the answer is no: a review date, a joining bonus or a shorter notice period. Accept the outcome gracefully. A fresher who asks politely rarely loses an offer, and a clear no is still useful information. Never bluff another offer you do not hold."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Understanding two offers",
+      "body": "Offer A: CTC ₹4,00,000, all fixed, 90-day notice. Offer B: CTC ₹4,30,000 with ₹50,000 variable paid on company performance, 30-day notice and a one-year bond of ₹1,00,000. Monthly fixed: A is about ₹33,300; B is ₹3,80,000 divided by twelve, about ₹31,700. Kavya prefers A for steadier pay, but notes the notice and asks if it can be cut to 60 days.",
+      "takeaway": "Comparing fixed pay and terms, not headline CTC, changes which offer looks better."
+    },
+    {
+      "title": "Fresher counter in an email",
+      "body": "Subject: Offer for Associate Consultant - a question\n\nDear Ms Iyer, thank you for the offer; I am keen to join. I noticed the fixed component is ₹3,60,000. Given my SAP training and the ranges I have seen for similar roles, could we revisit it to ₹3,90,000? If the band is fixed, I would appreciate clarity on training and the review cycle. Thank you for considering this.",
+      "takeaway": "Gratitude, one specific ask, a reason and a fallback keep it respectful and effective."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "negotiation-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "negotiation.offer-anatomy",
+      "prompt": "An offer states CTC ₹6,00,000. What is the most accurate statement?",
+      "options": [
+        "It is the total yearly cost to the company, not the in-hand amount",
+        "You will receive ₹50,000 every month",
+        "It is your fixed pay only",
+        "It is taxed-free pay"
+      ],
+      "answer": 0,
+      "why": "CTC includes variable pay and employer contributions and excludes deductions, so in-hand is lower."
+    },
+    {
+      "id": "negotiation-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "negotiation.non-salary-terms",
+      "prompt": "A promise to stay for a set period or pay a penalty is called a service ____. (one word)",
+      "accept": [
+        "agreement",
+        "bond"
+      ],
+      "why": "Service agreements or bonds can cost you freedom to leave, so read them."
+    },
+    {
+      "id": "negotiation-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "negotiation.research-timing",
+      "prompt": "You receive a verbal offer on a call, and the recruiter immediately asks for your current salary. What is your best move?",
+      "options": [
+        {
+          "text": "Quote your current salary at once.",
+          "score": 1,
+          "feedback": "Early disclosure can anchor the offer to your old pay."
+        },
+        {
+          "text": "Thank them, ask for the range for the role and the written offer, and discuss after reviewing it.",
+          "score": 3,
+          "feedback": "You gather information and keep negotiating leverage until the offer is written."
+        },
+        {
+          "text": "Reject the offer on the call.",
+          "score": 0,
+          "feedback": "You have no complete information, so rejecting is premature."
+        },
+        {
+          "text": "Accept immediately to show enthusiasm.",
+          "score": 1,
+          "feedback": "Accepting before reading the written terms removes the chance to negotiate."
+        }
+      ],
+      "why": "Seek the range and a written offer before discussing numbers."
+    },
+    {
+      "id": "negotiation-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "negotiation.respectful-ask",
+      "prompt": "You have an offer as a Trainee Developer with fixed pay of ₹3,60,000 and want ₹3,90,000. Draft a short respectful counter (4 to 6 sentences) with gratitude, a reason and a fallback request.",
+      "minWords": 49,
+      "rubric": [
+        {
+          "id": "gratitude",
+          "label": "Gratitude and enthusiasm",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Cold thanks.",
+            "2": "Polite thanks.",
+            "3": "Genuine gratitude with interest in the role."
+          }
+        },
+        {
+          "id": "reason",
+          "label": "Reason for the ask",
+          "weight": 30,
+          "descriptors": {
+            "0": "No reason.",
+            "1": "Reason based on need.",
+            "2": "A reason from skills or range.",
+            "3": "A specific reason tied to value and research."
+          }
+        },
+        {
+          "id": "specific",
+          "label": "Specific number",
+          "weight": 25,
+          "descriptors": {
+            "0": "Vague.",
+            "1": "Approximate.",
+            "2": "A number.",
+            "3": "A clear number plus the component it refers to."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes a figure"
+          }
+        },
+        {
+          "id": "fallback",
+          "label": "Fallback request",
+          "weight": 25,
+          "descriptors": {
+            "0": "No fallback.",
+            "1": "Demanding.",
+            "2": "A fallback.",
+            "3": "A flexible fallback such as review, training or notice period."
+          }
+        }
+      ],
+      "modelAnswer": "Dear Mr Rao, thank you for the offer; I am excited about joining the team. Based on my project and certification work and the range I have seen for similar trainee roles, could the fixed pay be ₹3,90,000? If the band is fixed, I would appreciate a six-month review or a training allowance. Thank you for considering this.",
+      "guidance": "A strong counter is warm, specific and brief, with one reason and a fallback. Common mistakes are demanding an unsupported number, comparing with friends or bluffing other offers. Check yours against the model honestly."
+    }
+  ],
+  "task": {
+    "title": "Decode a real or sample offer",
+    "brief": "Take a real offer or a sample you find from a peer and break it into parts, then draft a counter.",
+    "steps": [
+      "Write CTC, fixed, variable, joining bonus and estimated in-hand.",
+      "List notice period, bond, probation and training terms.",
+      "Note the range you found from at least two people.",
+      "Draft a four-sentence counter email."
+    ],
+    "checklist": [
+      "I separated fixed from variable",
+      "I listed non-salary terms",
+      "I used a researched range",
+      "My counter includes thanks, reason and fallback"
+    ],
+    "evidencePrompt": "Paste your counter draft and the number you are asking for.",
+    "evidenceWords": 50,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "negotiation-3.q1",
+      "type": "mcq",
+      "concept": "negotiation.offer-anatomy",
+      "prompt": "Which part of CTC is least guaranteed?",
+      "options": [
+        "Basic pay",
+        "Fixed allowance",
+        "Variable pay",
+        "Employer PF"
+      ],
+      "answer": 2,
+      "why": "Variable pay depends on performance or company results."
+    },
+    {
+      "id": "negotiation-3.q2",
+      "type": "mcq",
+      "concept": "negotiation.non-salary-terms",
+      "prompt": "Which term most limits your ability to change jobs?",
+      "options": [
+        "Canteen facilities",
+        "A long notice period and a bond",
+        "Desk location",
+        "Training hours"
+      ],
+      "answer": 1,
+      "why": "Notice periods and bonds create time and money costs for leaving."
+    },
+    {
+      "id": "negotiation-3.q3",
+      "type": "fill",
+      "concept": "negotiation.research-timing",
+      "prompt": "The best time to negotiate is after a written offer and ____ you accept. (one word)",
+      "accept": [
+        "before"
+      ],
+      "why": "After acceptance your leverage is gone."
+    },
+    {
+      "id": "negotiation-3.q4",
+      "type": "mcq",
+      "concept": "negotiation.respectful-ask",
+      "prompt": "Which counter is strongest?",
+      "options": [
+        "My friend got more, so match it.",
+        "Thank you; based on my skills and the market range, could we revisit fixed pay to ₹3.9 lakh?",
+        "Increase it or I decline.",
+        "I need more because rent is high."
+      ],
+      "answer": 1,
+      "why": "It is grateful, specific and evidence-based; others are demanding or need-based."
+    }
+  ],
+  "bank": [
+    {
+      "id": "negotiation-3.b1",
+      "type": "fill",
+      "concept": "negotiation.offer-anatomy",
+      "prompt": "A fixed pay of ₹3,60,000 per year equals how many rupees per month before deductions? (number)",
+      "accept": [
+        "30000",
+        "30,000",
+        "₹30,000",
+        "₹30000"
+      ],
+      "why": "3,60,000 divided by 12 is 30,000 per month before deductions."
+    },
+    {
+      "id": "negotiation-3.b2",
+      "type": "mcq",
+      "concept": "negotiation.research-timing",
+      "prompt": "Which is a good source for pay research?",
+      "options": [
+        "Rumours on social media",
+        "Seniors, placement cells and peers in similar roles",
+        "A single friend",
+        "Your own guess"
+      ],
+      "answer": 1,
+      "why": "Several grounded sources give a range you can defend."
+    },
+    {
+      "id": "negotiation-3.b3",
+      "type": "mcq",
+      "concept": "negotiation.respectful-ask",
+      "prompt": "The recruiter says the band is fixed. What is a sensible reply?",
+      "options": [
+        "Then I decline",
+        "Thanks; could we agree a six-month review or a training allowance?",
+        "Please make an exception",
+        "I will tell others about it"
+      ],
+      "answer": 1,
+      "why": "Moving to non-salary items keeps the relationship and may still add value."
+    }
+  ],
+  "cards": [
+    {
+      "id": "negotiation-3.c1",
+      "concept": "negotiation.offer-anatomy",
+      "front": "CTC vs in-hand?",
+      "back": "CTC is the total yearly cost to the company, including variable pay and employer contributions. In-hand is lower after PF, tax and other deductions; ask for the breakup in writing."
+    },
+    {
+      "id": "negotiation-3.c2",
+      "concept": "negotiation.non-salary-terms",
+      "front": "Non-salary terms to check?",
+      "back": "Notice period, bond or service agreement, probation, training and role, location and work mode, variable pay rules and review dates."
+    },
+    {
+      "id": "negotiation-3.c3",
+      "concept": "negotiation.research-timing",
+      "front": "When and how to research?",
+      "back": "Collect ranges from seniors and peers, and negotiate after the written offer but before acceptance; avoid quoting current pay early."
+    },
+    {
+      "id": "negotiation-3.c4",
+      "concept": "negotiation.respectful-ask",
+      "front": "Structure of a fresher counter?",
+      "back": "Thank them, make one specific ask with a reason, offer a fallback such as a review or training, and accept the answer gracefully."
+    }
+  ],
+  "reflection": "What would matter more to you in a first job than ₹20,000 extra a year, and how would you ask for it?",
+  "revision": {
+    "keyPoints": [
+      "CTC is not in-hand pay; get the breakup.",
+      "Check notice, bond, probation and training.",
+      "Research ranges and negotiate before accepting.",
+      "Counter with thanks, one reason and a fallback."
+    ],
+    "redo": "Take any offer or job advert and list its fixed, variable and three non-salary terms."
+  }
+}

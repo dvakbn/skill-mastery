@@ -1,0 +1,435 @@
+{
+  "id": "conflict-1",
+  "skillId": "conflict",
+  "n": 1,
+  "title": "Understanding Conflict",
+  "summary": "Tell task conflict from relationship conflict, spot where a disagreement sits on the escalation ladder, and know the five conflict styles and when each one fits.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Classify a disagreement as task conflict, relationship conflict or a mix of both.",
+    "Place a conflict on a five-rung escalation ladder and name the move that brings it down a rung.",
+    "Name the five conflict styles and choose the one that fits a given situation."
+  ],
+  "concepts": [
+    {
+      "id": "conflict.task-vs-relationship",
+      "label": "Task vs relationship conflict"
+    },
+    {
+      "id": "conflict.escalation",
+      "label": "The escalation ladder"
+    },
+    {
+      "id": "conflict.styles",
+      "label": "Five conflict styles"
+    },
+    {
+      "id": "conflict.choosing-style",
+      "label": "Choosing a style on purpose"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Conflict is a gap, not a fight",
+      "body": "Conflict is a gap between what two people want, need or believe is the right way to do something. Two students in a project group disagree: one wants to submit on Thursday, the other wants one more day to polish the demo. Nobody has shouted, but there is a conflict. Where people work together, such gaps are normal and even useful, because they show that people are thinking differently.\n\nThe skill is not to avoid conflict. It is to notice it early, name what kind it is, and handle it before it grows into something that damages the team."
+    },
+    {
+      "heading": "Task conflict and relationship conflict",
+      "body": "**Task conflict** is about the work: which database design to use, how to split the modules, whether the deadline is realistic. **Relationship conflict** is about the people: tone, respect, trust, credit, who is being ignored. Task conflict, handled calmly, often improves decisions because ideas get tested. Relationship conflict drains energy and makes people stop sharing information.\n\nThe danger is **conversion**: a task disagreement quietly turns into a personal one. 'This design will be slow with large tables' is task. 'You never think about performance' is relationship, because it is now a statement about the person.\n\nA quick test: *if two different people were sitting in these chairs, would the disagreement still exist?* If yes, it is mostly task. If it only exists because of who is involved, it is mostly relationship. Most real conflicts are a mix, so ask which part is driving the heat."
+    },
+    {
+      "heading": "The escalation ladder",
+      "body": "Conflicts usually climb in steps. Here is a five-rung ladder:\n\n1. **Difference**: we see something differently.\n2. **Debate**: we argue our positions, each trying to win the point.\n3. **Personalising**: the argument becomes about character ('you always...', 'typical of you').\n4. **Sides**: others are pulled in; people complain to friends and form camps.\n5. **Attack or withdrawal**: open hostility, sabotage, or silent cutting off.\n\nThe ladder matters because **the right move depends on the rung**. On rungs 1 and 2, a direct conversation about the facts is usually enough. On rung 3, you first have to stop the personal tone and return to the issue. On rungs 4 and 5, a neutral third person is often needed. Climbing is easy and fast; coming down takes deliberate steps, one rung at a time.\n\nWorked example: in a code review, Meera writes 'This query is slow' (rung 1). Arjun replies 'It is fine on my machine' (rung 2). Meera writes 'You never test properly' (rung 3). Arjun tells two friends that Meera is picking on him (rung 4). The cheapest moment to intervene was rung 1 or 2."
+    },
+    {
+      "heading": "Five conflict styles",
+      "body": "People tend to use five styles, defined by how much they care about their own goals and about the relationship:\n\n- **Competing**: my goal wins. Fast and firm, but it can leave resentment.\n- **Collaborating**: we work together to meet both sets of needs. Takes time, produces the best outcomes.\n- **Compromising**: each gives up something to meet in the middle. Quick and fair-ish.\n- **Avoiding**: step away from the issue. Useful for trivial matters or to cool down; harmful when it is a habit.\n- **Accommodating**: I give way to keep peace or because the issue matters more to the other person.\n\nNo style is good or bad in itself. The common mistake is to use *your favourite* style for every situation. A person who always avoids lets small problems grow; a person who always competes wins arguments and loses colleagues."
+    },
+    {
+      "heading": "Choose your style on purpose",
+      "body": "Before reacting, ask two questions: **How important is this issue?** and **How important is this relationship?** If the stakes are high and the relationship matters, collaborate. If the issue is trivial, avoid or accommodate. If time is short and a decision is needed, compromise or, in an emergency such as a production outage, compete by taking clear command. If you are wrong, accommodate gracefully.\n\nPractise by noticing your default. For one week, each time you disagree with someone, note the style you used. Most people discover they have one or two habitual styles. Knowing yours is the first step to using the others."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Separating task from relationship",
+      "body": "Situation: Ritu and Sameer share a project repository. Sameer pushed code that broke Ritu's module. Ritu messages: 'You are so careless, you break everything.'\n\nTask part: the build is failing and needs a fix before the demo.\nRelationship part: Ritu feels her work is not respected.\n\nRewrite: 'The build failed after your push, and my module stopped working. Can we look at it together and fix it before the demo? I would also like us to agree on running tests before pushing.'",
+      "takeaway": "The rewrite keeps the legitimate task issue and the real need (a shared rule), and drops the character attack that would have pushed the conflict up a rung."
+    },
+    {
+      "title": "Coming down the ladder",
+      "body": "Conflict at rung 3: Karan says to Divya in a team chat, 'Typical of you to miss the deadline again.'\n\nA de-escalating reply: 'I did miss Tuesday's deadline and I want to fix the impact. Can we talk for five minutes about what the testing team needs by tomorrow?'\n\nThe reply accepts the fact, ignores the insult, and moves to the task. That drops the conversation back to rung 1.",
+      "takeaway": "To come down a rung, respond to the issue and not to the insult, and propose a concrete next step."
+    },
+    {
+      "title": "Style fits the situation",
+      "body": "1. A production server is down at midnight and two engineers disagree on the fix. The senior engineer says, 'We roll back now. Discuss it after.' (Competing is right: speed matters.)\n2. Two friends disagree on which cafe to meet at. One says, 'Either is fine, you choose.' (Accommodating is right: the issue is small.)\n3. Two teammates disagree on the architecture of a six-month project. They book an hour, list what each needs and design something that serves both. (Collaborating is right: high stakes, long relationship.)",
+      "takeaway": "The same person can use different styles in different situations, and that flexibility is the skill."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "conflict-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "conflict.task-vs-relationship",
+      "prompt": "Which of these statements is a task conflict statement rather than a relationship one?",
+      "options": [
+        "You never listen to anyone's ideas in meetings.",
+        "People like you always want credit for the team's work.",
+        "I think the report should lead with the cost figures, not the timeline.",
+        "I cannot trust you to finish things on time."
+      ],
+      "answer": 2,
+      "hint": "Task conflict is about the work itself, not about the person's character.",
+      "why": "The third option disagrees about the content of the report. The others make claims about the person's character or reliability ('never', 'always', 'cannot trust you'), which is how a task disagreement turns into a relationship conflict."
+    },
+    {
+      "id": "conflict-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "conflict.styles",
+      "prompt": "Anita always says 'Fine, whatever you prefer' even when she disagrees, and gives up her own needs to keep the peace. Which of the five conflict styles is this? (one word)",
+      "accept": [
+        "accommodating",
+        "accommodation",
+        "accommodating style",
+        "accommodate"
+      ],
+      "hint": "She yields to the other person's wishes.",
+      "why": "Accommodating means giving way to the other side. It is not avoiding, because Anita engages and then yields; it is helpful when the issue matters little to you, but harmful as a habit because her real needs never get heard."
+    },
+    {
+      "id": "conflict-1.e3",
+      "type": "roleplay",
+      "level": 2,
+      "concept": "conflict.escalation",
+      "prompt": "A teammate has made a personal comment in a group chat. Use the escalation ladder to bring the conversation back to the task.",
+      "setup": "You are a final-year student leading a four-person project. In the group chat, your teammate Ananya wrote: 'You always take over the code and nobody else gets a say.' You did write most of the backend last week because the others were busy with exams. Your goal is to bring the conflict back from personalising to the task, and to find out what she actually needs.",
+      "turns": [
+        {
+          "they": "I am just saying, you always take over. Last week I did not even know what you had pushed.",
+          "options": [
+            {
+              "text": "That is not true. I did the backend because nobody else had time.",
+              "score": 0,
+              "feedback": "You defend yourself and contradict her, which keeps the conversation at the personalising rung.",
+              "reply": "See, this is exactly what I mean. You never accept that you do this."
+            },
+            {
+              "text": "I did write a lot of the backend last week, and I can see that you did not know what had changed. Is that the part that bothered you?",
+              "score": 3,
+              "feedback": "You accept the fact, separate the task issue (visibility of changes) and ask about her real concern.",
+              "reply": "Yes. I felt left out. I want to review the changes before they go in, and I would like to take the login module myself."
+            },
+            {
+              "text": "Let us not argue in the group chat. Forget it.",
+              "score": 1,
+              "feedback": "Avoiding the chat is sensible, but 'forget it' leaves the real issue unresolved and she may feel dismissed.",
+              "reply": "Fine. But I am still not happy about it."
+            }
+          ]
+        },
+        {
+          "they": "I want to be involved in decisions, not just told afterwards.",
+          "options": [
+            {
+              "text": "So you want to change how we split the work? Let us do a call tonight and decide the modules together.",
+              "score": 2,
+              "feedback": "A concrete next step is good, but you moved to the solution before showing you understood her need.",
+              "reply": "A call is fine, I suppose. I just hope this time it is not already decided."
+            },
+            {
+              "text": "Fair point. Let me suggest two things: I will post a short note before each major push, and we pick modules together on a call tonight. Does that work for you?",
+              "score": 3,
+              "feedback": "You acknowledge the need, offer a specific change and invite her agreement.",
+              "reply": "Yes, that works. Thank you. I can take login and the report layout, if that is fine."
+            },
+            {
+              "text": "I am happy to share, but you must also reply faster when I ask for updates.",
+              "score": 0,
+              "feedback": "Adding a counter-accusation turns a repair into a trade and pushes the conflict back up the ladder.",
+              "reply": "So now it is my fault? I thought we were fixing this."
+            }
+          ]
+        },
+        {
+          "they": "Okay. And please do not call me out in the chat next time either, ask me directly.",
+          "options": [
+            {
+              "text": "You started it in the chat, though.",
+              "score": 0,
+              "feedback": "Scoring points keeps the conflict alive just as it was settling.",
+              "reply": "Right. Never mind then."
+            },
+            {
+              "text": "Agreed, I will raise concerns with you directly first, and I would appreciate the same from you. Thanks for telling me what you needed.",
+              "score": 3,
+              "feedback": "You agree on a working rule in both directions and close with appreciation.",
+              "reply": "Deal. Thanks for listening. I will take the login module tonight."
+            },
+            {
+              "text": "Sure, okay.",
+              "score": 1,
+              "feedback": "Accepting is fine, but you miss the chance to make the agreement mutual and thank her.",
+              "reply": "Okay, good."
+            }
+          ]
+        }
+      ],
+      "why": "The ladder tells you the target: move from personalising (rung 3) to the task (rung 1). That means accepting the true fact, asking what lies behind the insult, offering a concrete change, and agreeing a rule that goes both ways. Defending, counter-attacking or scoring points sends you back up."
+    },
+    {
+      "id": "conflict-1.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "conflict.choosing-style",
+      "prompt": "Read this case. In an IT services team, Sneha rewrote a module that Rohit had written, without telling him, because she thought it was too slow. Rohit then wrote in the team chat: 'Some people cannot trust others to do their work.' Two other teammates have started to side with Rohit. Write 4 to 6 sentences covering: (1) whether this is task or relationship conflict, (2) which rung of the ladder it is on, (3) the conflict style you would use first and why, and (4) one opening sentence you would say to Sneha or Rohit.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "classify",
+          "label": "Classifies the conflict correctly",
+          "weight": 25,
+          "descriptors": {
+            "0": "No classification is given.",
+            "1": "Says task or relationship without any reasoning.",
+            "2": "Identifies a mix but does not explain which part is which.",
+            "3": "Explains that the slow module is the task issue and that the lack of notice and the public remark are relationship issues."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "task",
+              "relationship"
+            ],
+            "min": 2,
+            "label": "Mentions both task and relationship"
+          }
+        },
+        {
+          "id": "rung",
+          "label": "Places it on the ladder",
+          "weight": 25,
+          "descriptors": {
+            "0": "No rung is named.",
+            "1": "Names a rung that does not fit the facts, with no reason.",
+            "2": "Names a plausible rung but gives a thin reason.",
+            "3": "Names rung 3 or 4 (personalising moving into sides) and gives evidence such as the public remark and teammates siding."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "personalis",
+              "personaliz",
+              "sides",
+              "rung",
+              "ladder"
+            ],
+            "min": 1,
+            "label": "Refers to the ladder"
+          }
+        },
+        {
+          "id": "style",
+          "label": "Chooses and justifies a style",
+          "weight": 25,
+          "descriptors": {
+            "0": "No style is named.",
+            "1": "Names a style with no link to the situation.",
+            "2": "Names a style with a partial justification.",
+            "3": "Chooses collaborating (or a brief cooling-off first, then collaborating) and links it to a long-term team and an issue that matters."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "collaborat",
+              "compromis",
+              "avoid",
+              "accommodat",
+              "compet"
+            ],
+            "min": 1,
+            "label": "Names a conflict style"
+          }
+        },
+        {
+          "id": "opener",
+          "label": "Opening sentence is constructive",
+          "weight": 25,
+          "descriptors": {
+            "0": "The opening sentence is accusing or missing.",
+            "1": "Neutral but vague, such as 'We need to talk'.",
+            "2": "Constructive but does not mention the specific issue.",
+            "3": "Specific, non-blaming and inviting, for example mentioning the module change and asking to talk privately."
+          }
+        }
+      ],
+      "modelAnswer": "This is a mix. The task issue is that the module was slow; the relationship issue is that Sneha changed Rohit's work without telling him and Rohit then made a public remark. It is on rung 3 moving to rung 4, because the comment is personal and teammates are taking sides. I would use collaborating, after a short cooling-off, because the project is long and both the module quality and the trust matter. I would start by messaging Rohit privately: 'I would like to talk about the module change and how we handle changes in future. Can we speak for ten minutes today?'",
+      "guidance": "A strong answer separates the two kinds of conflict instead of choosing only one, ties the rung to evidence in the case (the public remark, the siding), and picks a style for a reason. A common mistake is to say 'compete' or 'avoid' with no reasoning, or to write an opening line that blames Sneha or Rohit. Another is to forget that the fix should also include a future rule about informing the owner before changing their code. Compare with the model answer and score honestly."
+    }
+  ],
+  "task": {
+    "title": "Map one real disagreement",
+    "brief": "Analyse a real disagreement from your recent life using the task and relationship test, the ladder and the five styles.",
+    "steps": [
+      "Pick a real disagreement from the last month with a friend, family member, teammate or classmate. Choose a small one.",
+      "Write two lines: what the disagreement was about (task part) and how it affected the relationship (relationship part).",
+      "Mark the highest rung of the ladder it reached and what happened at that point.",
+      "Name the style you used and the style you would use now, with one sentence on why.",
+      "Write one sentence you could say to bring it down one rung."
+    ],
+    "checklist": [
+      "I chose a real disagreement",
+      "I separated the task part from the relationship part",
+      "I named a rung on the ladder",
+      "I named the style I used and the one I would choose now",
+      "I wrote one de-escalating sentence"
+    ],
+    "evidencePrompt": "Write the disagreement in one line, its highest rung, the style you used, and your de-escalating sentence.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "conflict-1.q1",
+      "type": "mcq",
+      "concept": "conflict.task-vs-relationship",
+      "prompt": "Two teammates disagree about which framework to use. One says: 'Your suggestion only shows you do not understand the project.' What has happened?",
+      "options": [
+        "Nothing has changed; it is still purely a task conflict",
+        "A task conflict has been converted into a relationship conflict",
+        "The conflict has been resolved by compromise",
+        "The conflict has moved to avoiding"
+      ],
+      "answer": 1,
+      "why": "The comment targets the person's understanding rather than the framework. That is conversion from task to relationship conflict. It is not a compromise, and nobody is avoiding anything."
+    },
+    {
+      "id": "conflict-1.q2",
+      "type": "mcq",
+      "concept": "conflict.escalation",
+      "prompt": "People in a team have started complaining about a colleague to friends and forming camps. Which rung of the ladder is this?",
+      "options": [
+        "Difference",
+        "Debate",
+        "Personalising",
+        "Sides"
+      ],
+      "answer": 3,
+      "why": "Pulling other people in and forming camps is the 'sides' rung. A third party is often needed here, because a direct two-person talk is harder once camps exist."
+    },
+    {
+      "id": "conflict-1.q3",
+      "type": "fill",
+      "concept": "conflict.styles",
+      "prompt": "Which conflict style works with both people to meet both sets of needs, even though it takes more time? (one word, ending in -ing)",
+      "accept": [
+        "collaborating",
+        "collaboration",
+        "collaborating style"
+      ],
+      "why": "Collaborating looks for a solution that serves both sides. Compromising splits the difference, which is quicker but each side gives something up."
+    },
+    {
+      "id": "conflict-1.q4",
+      "type": "mcq",
+      "concept": "conflict.choosing-style",
+      "prompt": "A friend asks which film to watch tonight; you have no strong view. Which style is the most sensible?",
+      "options": [
+        "Competing, to make sure your opinion is heard",
+        "Collaborating, with a full hour of discussion",
+        "Accommodating, by letting your friend choose",
+        "Avoiding, by not replying"
+      ],
+      "answer": 2,
+      "why": "When the issue is trivial and the relationship matters, giving way is efficient and kind. Competing and long collaboration waste effort on a small matter, and ignoring your friend damages the relationship."
+    }
+  ],
+  "bank": [
+    {
+      "id": "conflict-1.b1",
+      "type": "mcq",
+      "concept": "conflict.task-vs-relationship",
+      "prompt": "A manager notes that when two developers argue about code style, the argument ends once the team adopts a written style guide. What kind of conflict was it mainly?",
+      "options": [
+        "Relationship conflict, because two people were arguing",
+        "Task conflict, because a shared rule resolved it",
+        "Avoidance, because they stopped talking",
+        "Competing, because the manager decided"
+      ],
+      "answer": 1,
+      "why": "If a neutral rule dissolves the disagreement, the issue was about the work rather than the people. The fact that two people argued does not make it a relationship conflict."
+    },
+    {
+      "id": "conflict-1.b2",
+      "type": "mcq",
+      "concept": "conflict.escalation",
+      "prompt": "In a meeting, a colleague says: 'Of course you would say that, you always side with the client.' What is the best de-escalating response?",
+      "options": [
+        "'I do not always side with the client. You are being unfair.'",
+        "'Let us look at the two options and the client's constraint, and decide which fits the deadline.'",
+        "Say nothing and look at the table",
+        "'Well, you always side with the manager.'"
+      ],
+      "answer": 1,
+      "why": "The best response ignores the insult and returns to the task with a concrete structure. Defending or counter-attacking keeps the conversation on the personal rung, and silence leaves the accusation unanswered."
+    },
+    {
+      "id": "conflict-1.b3",
+      "type": "fill",
+      "concept": "conflict.styles",
+      "prompt": "A senior engineer says 'Roll back the release now, we will discuss it afterwards' during a live outage. Which of the five conflict styles is she using? (one word, ending in -ing)",
+      "accept": [
+        "competing",
+        "compete",
+        "competing style"
+      ],
+      "why": "She is taking decisive command because speed matters more than consensus. In an emergency, competing is appropriate; as an everyday style, it damages relationships."
+    }
+  ],
+  "cards": [
+    {
+      "id": "conflict-1.c1",
+      "concept": "conflict.task-vs-relationship",
+      "front": "How do you tell task conflict from relationship conflict?",
+      "back": "Task conflict is about the work; relationship conflict is about the people. Test: would the disagreement exist with different people? If yes, it is mostly task. Watch for task issues converting into personal ones."
+    },
+    {
+      "id": "conflict-1.c2",
+      "concept": "conflict.escalation",
+      "front": "Name the five rungs of the escalation ladder.",
+      "back": "Difference, debate, personalising, sides, attack or withdrawal. Intervene early, and come down one rung at a time by responding to the issue, not the insult."
+    },
+    {
+      "id": "conflict-1.c3",
+      "concept": "conflict.styles",
+      "front": "List the five conflict styles.",
+      "back": "Competing, collaborating, compromising, avoiding, accommodating. They vary by concern for your own goals and for the relationship. None is always right."
+    },
+    {
+      "id": "conflict-1.c4",
+      "concept": "conflict.choosing-style",
+      "front": "What two questions help you choose a style?",
+      "back": "How important is the issue, and how important is the relationship? High and high: collaborate. Low issue: avoid or accommodate. Emergency: compete briefly."
+    }
+  ],
+  "reflection": "Think of a disagreement where you used your habitual style. Would a different style have produced a better result, and what would it have cost you to try it?",
+  "revision": {
+    "keyPoints": [
+      "Task conflict is about the work; relationship conflict is about people.",
+      "Watch for conversion from task to personal.",
+      "The ladder: difference, debate, personalising, sides, attack or withdrawal.",
+      "Five styles: competing, collaborating, compromising, avoiding, accommodating.",
+      "Choose a style by issue importance and relationship importance."
+    ],
+    "redo": "Recall a recent disagreement and say aloud: its type, its highest rung, the style you used and one better move."
+  }
+}

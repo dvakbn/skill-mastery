@@ -1,0 +1,296 @@
+{
+  "id": "ai-2",
+  "skillId": "ai",
+  "n": 2,
+  "title": "Using AI Tools Responsibly",
+  "summary": "Write clear task specifications with context, iterate on results, verify outputs, protect private data and use AI with academic and professional integrity.",
+  "difficulty": 2,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Write a prompt that states role, task, context, constraints and output format.",
+    "Iterate on a first answer and verify the final output before using it.",
+    "Decide what must never be pasted into an AI tool and when disclosure or avoidance is the right call."
+  ],
+  "concepts": [
+    { "id": "ai.task-spec", "label": "Clear task specifications" },
+    { "id": "ai.iterate-verify", "label": "Iterating and verifying outputs" },
+    { "id": "ai.privacy", "label": "Privacy of what you paste" },
+    { "id": "ai.integrity", "label": "Integrity and when not to use AI" }
+  ],
+  "explanation": [
+    {
+      "heading": "Treat a prompt as a task specification",
+      "body": "In the previous lesson you saw that a language model predicts plausible text. That means the quality of what comes out depends heavily on what you put in. A vague request such as 'write about databases' gets a generic answer. A good request works like a short brief to a capable but new colleague who knows nothing about your situation.\n\nA reliable structure has five parts:\n\n1. **Role or audience:** who the answer is for.\n2. **Task:** the one thing you want done.\n3. **Context:** the facts and source text the model needs.\n4. **Constraints:** length, tone, things to avoid, what to do if unsure.\n5. **Output format:** bullets, table, email, code with comments.\n\nWorked example. Weak: 'Explain joins.' Strong: 'I am a final-year MCA student preparing for an ABAP interview. Explain INNER JOIN versus LEFT OUTER JOIN using customers and sales orders. Maximum 150 words, one small example table for each, and finish with one common mistake. If any part is uncertain, say so.' The second version leaves the model far less to guess."
+    },
+    {
+      "heading": "Iterate, then verify",
+      "body": "Treat the first answer as a draft. Improve it with targeted follow-ups: 'Shorten to three sentences', 'Make the tone more formal for a client', 'Give two alternatives', 'Which assumptions did you make?'. Changing one thing at a time makes it easier to see what helped.\n\nThen **verify before you use it**. Match the effort to the risk:\n\n- **Low risk** (rephrasing your own paragraph): read it carefully and check it still says what you meant.\n- **Medium risk** (explaining a concept): compare with your notes or textbook.\n- **High risk** (figures, legal or policy statements, code that touches data): check the original source, run and test the code, and never trust it blindly.\n\nFor code, ask the model to explain each line, then run it with a small test case and an edge case such as an empty input. If you cannot explain why it works, you are not ready to submit it as yours."
+    },
+    {
+      "heading": "Privacy: only paste what you could safely publish",
+      "body": "Text you type into an online AI tool is sent to a service run by another company. Depending on the tool's settings it may be stored, reviewed, or used to improve the service. You usually cannot take it back, so decide **before** pasting.\n\nNever paste: passwords, OTPs, API keys, Aadhaar, PAN or bank details; a client's confidential documents, source code or data covered by an NDA; other people's personal information; unpublished exam material. If your employer or client has an approved tool and a policy, follow it exactly.\n\nA practical technique is **anonymising**. Replace 'Ramesh Kumar, Account 0123456789 at Nova Retail Pvt Ltd' with 'Customer A, Account XXXX at Company B' and keep only the structure the model needs. If you cannot remove the sensitive part and still ask a useful question, do not use the tool for that task."
+    },
+    {
+      "heading": "Integrity, ownership and when not to use AI",
+      "body": "You remain responsible for anything you submit or send, whoever drafted it. If AI produced a false claim in your report, the error is yours.\n\nIn college, check your institution's rule for each assignment. Many allow AI for brainstorming or language polish but not for the core answer; some forbid it entirely. If the rule is unclear, ask the teacher, and when AI helped, say how. At work, follow the same logic with your manager: disclose significant AI help when the client or policy expects it.\n\nSometimes the right choice is **not to use AI**: when the task is meant to build your own skill (practising ABAP syntax before an interview), when the data is confidential and there is no approved tool, when the stakes demand certainty, or when a sensitive human message such as an apology needs your own voice. A useful test: if you could not explain or defend the result in front of your teacher or manager, do not submit it."
+    }
+  ],
+  "examples": [
+    {
+      "title": "From vague to specified",
+      "body": "Before: 'Write an email about the delay.'\n\nAfter: 'Draft a 90-word email from me, a junior consultant, to our client's project manager. Context: the data migration is two days late because the test environment was unavailable; the new date is 18th. Tone: calm, accountable, no blame. Include one next step and ask for confirmation of the new date. Output only the email with a subject line.'",
+      "takeaway": "The second prompt names the audience, facts, tone, length and format, so the model has almost nothing left to invent."
+    },
+    {
+      "title": "Anonymising before asking",
+      "body": "Original: 'Our client Sunrise Pharma Ltd has a customer, Mrs Anita Rao, whose invoice INV-88231 for Rs 4,52,000 was posted twice. Why might this happen in SAP?'\n\nSafe version: 'A company posted one customer invoice twice. List five common causes in an order-to-cash process and how I would check each.'",
+      "takeaway": "The question you need answered rarely needs names, amounts or invoice numbers. Keep the pattern, drop the identifiers."
+    },
+    {
+      "title": "Verifying AI code",
+      "body": "A model gives a function that returns the average of a list. You test it with [4, 6, 8] and get 6, which is right. Then you test an empty list and it crashes with a divide-by-zero error. You ask the model to handle empty input, re-run both tests, and add a comment explaining the choice.",
+      "takeaway": "Passing the happy case proves little. Testing an edge case is what turns a plausible draft into code you can defend."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ai-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "ai.task-spec",
+      "prompt": "Which prompt is best specified for getting a useful result?",
+      "options": [
+        "Tell me about SQL.",
+        "Explain SQL joins for me, thanks, make it good.",
+        "Write a long detailed essay about SQL and everything related to it.",
+        "I am a fresher preparing for interviews. Explain GROUP BY in under 120 words with one example on an orders table, and state one common mistake."
+      ],
+      "answer": 3,
+      "hint": "Look for audience, limit, example and output shape.",
+      "why": "The last prompt has an audience, task, length limit, example requirement and a focus. The others leave scope, depth and format to guesswork; 'long and detailed' increases length, not usefulness."
+    },
+    {
+      "id": "ai-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "ai.privacy",
+      "prompt": "Replacing real names and account numbers with placeholders such as 'Customer A' before asking an AI tool is called what? (one word, starts with 'anon')",
+      "accept": ["anonymising", "anonymizing", "anonymisation", "anonymization", "anonymising data", "anonymise", "anonymize"],
+      "hint": "It makes the data anonymous.",
+      "why": "Anonymising keeps the structure of the problem while removing identifiers, so you can ask for help without exposing private or confidential information."
+    },
+    {
+      "id": "ai-2.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "ai.task-spec",
+      "prompt": "You want an AI tool to help you prepare a 100-word self-introduction for a campus placement interview. Write the prompt you would send. Invent realistic context (course, strengths, target role) and make sure it includes audience or role, task, context, at least two constraints and an output format.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "context",
+          "label": "Audience, task and context",
+          "weight": 35,
+          "descriptors": {
+            "0": "Only a bare request such as 'write my introduction'.",
+            "1": "Task stated but little about who you are or who the audience is.",
+            "2": "Task plus relevant personal context or audience.",
+            "3": "Clear task, audience (interviewer) and specific facts about you and the target role."
+          },
+          "auto": { "type": "keywords", "any": ["interview", "placement", "recruiter", "mca", "student", "fresher", "role"], "min": 2, "label": "Mentions the interview setting and who you are" }
+        },
+        {
+          "id": "constraints",
+          "label": "Constraints stated clearly",
+          "weight": 35,
+          "descriptors": {
+            "0": "No constraints.",
+            "1": "One vague constraint such as 'make it good'.",
+            "2": "One or two concrete constraints (length, tone).",
+            "3": "At least two concrete constraints, such as 100 words, confident but humble tone, and no clichés or invented facts."
+          },
+          "auto": { "type": "keywords", "any": ["100", "words", "tone", "avoid", "do not", "don't", "only", "must"], "min": 2, "label": "States concrete constraints" }
+        },
+        {
+          "id": "format",
+          "label": "Output format and honesty instruction",
+          "weight": 30,
+          "descriptors": {
+            "0": "No format specified.",
+            "1": "Format implied only.",
+            "2": "Format stated (for example one paragraph).",
+            "3": "Format stated and the prompt tells the model not to invent facts or to ask if details are missing."
+          }
+        }
+      ],
+      "modelAnswer": "I am a final-year MCA student applying for an entry-level SAP ABAP consultant role at an IT services firm. Write a 100-word spoken self-introduction for a campus placement interview. Context: I have built two web projects using Node.js and Supabase, I am learning ABAP and SQL, and I enjoy debugging. Tone: confident, warm, not boastful. Do not invent any achievements or numbers that I have not given. Output a single paragraph that I can read aloud in under a minute, then list two points I should be ready to expand on.",
+      "guidance": "A strong prompt reads like a brief you would hand a new colleague: who you are, who it is for, what to produce, limits, and format. Common mistakes are leaving out your real facts, which invites invented ones, and asking for polish without saying the tone. Check that every instruction in your prompt is something you could verify in the reply."
+    },
+    {
+      "id": "ai-2.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "ai.privacy",
+      "prompt": "On your internship, your mentor asks you to understand why a client's nightly job failed. You have the log, which contains customer names, mobile numbers and account balances, plus an error code. The company has not told you whether any AI tool is approved. What is the best step?",
+      "options": [
+        { "text": "Paste the whole log into a public AI chat; it is the fastest way to a diagnosis.", "score": 0, "feedback": "The log holds personal and client data. Pasting it exposes information you have no right to share." },
+        { "text": "Paste only the lines with names removed; the balances are probably fine.", "score": 1, "feedback": "Balances and mobile numbers are still sensitive, and partial redaction is easy to get wrong without a policy." },
+        { "text": "Ask your mentor what the policy is. Until you know, work from the error code and documentation, or write a fully anonymised description of the failure pattern.", "score": 3, "feedback": "Correct. Check the rule first and, if needed, share only a sanitised problem description that contains no client data." },
+        { "text": "Use a personal phone so that the company does not see you using the tool.", "score": 0, "feedback": "Hiding the use is worse: the data still leaves the client's control, and it breaks trust if discovered." }
+      ],
+      "why": "Client data is not yours to share. The professional move is to ask about policy, and meanwhile use only anonymised, non-confidential descriptions or ordinary documentation."
+    }
+  ],
+  "task": {
+    "title": "Write and test a five-part prompt",
+    "brief": "Turn one real study or work request into a well-specified prompt, run it, improve it once, and verify the output.",
+    "steps": [
+      "Pick a real task, for example summarising a topic from your syllabus or drafting a polite email.",
+      "Write a prompt with role or audience, task, context, constraints and output format. Remove any private details first.",
+      "Run it, then send one follow-up that changes only one thing (for example tone or length).",
+      "Verify one claim or one line of the final output against your notes or an original source, and note whether it passed."
+    ],
+    "checklist": [
+      "My prompt had all five parts",
+      "I removed or anonymised private details",
+      "I made exactly one targeted follow-up",
+      "I verified at least one claim independently"
+    ],
+    "evidencePrompt": "Paste or describe your prompt in a sentence, say what the follow-up changed, and state what you verified and the result.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "ai-2.q1",
+      "type": "mcq",
+      "concept": "ai.task-spec",
+      "prompt": "Which element tells the model how the answer should look?",
+      "options": [
+        "Output format",
+        "Context",
+        "Role or audience",
+        "Verification"
+      ],
+      "answer": 0,
+      "why": "Output format (bullets, table, email, code with comments) controls the shape of the answer. Context supplies facts, audience sets the reader, and verification is something you do afterwards."
+    },
+    {
+      "id": "ai-2.q2",
+      "type": "mcq",
+      "concept": "ai.iterate-verify",
+      "prompt": "AI gives you a function that works on your first test. What is the best next step before submitting it?",
+      "options": [
+        "Submit it, because one passing test proves it works.",
+        "Test an edge case such as empty input and make sure you can explain each line.",
+        "Ask the AI whether it is correct and accept its reply.",
+        "Rename the variables so it looks like your own work."
+      ],
+      "answer": 1,
+      "why": "Edge-case testing and your own understanding are what make code defensible. One passing case proves little, self-confirmation is not independent, and renaming does not add understanding."
+    },
+    {
+      "id": "ai-2.q3",
+      "type": "mcq",
+      "concept": "ai.privacy",
+      "prompt": "Which item is safest to paste into a public AI tool?",
+      "options": [
+        "A client's NDA-covered source code",
+        "An OTP you just received",
+        "A generic question about how pagination works, with no real data",
+        "A classmate's marks and phone number"
+      ],
+      "answer": 2,
+      "why": "A generic technical question contains nothing confidential. The others are confidential code, a security credential and another person's personal data."
+    },
+    {
+      "id": "ai-2.q4",
+      "type": "mcq",
+      "concept": "ai.integrity",
+      "prompt": "Your college has not said whether AI may be used for an assignment. What is the responsible action?",
+      "options": [
+        "Use it and say nothing; no rule means it is allowed.",
+        "Ask the teacher, and if you do use AI, state how it helped.",
+        "Use it only for the hardest question.",
+        "Use a second AI tool to rewrite the first tool's text."
+      ],
+      "answer": 1,
+      "why": "When a rule is unclear, ask and be transparent. Silence is not permission, and rewriting with another tool hides rather than resolves the question of honest authorship."
+    }
+  ],
+  "bank": [
+    {
+      "id": "ai-2.b1",
+      "type": "mcq",
+      "concept": "ai.iterate-verify",
+      "prompt": "An AI-written summary of a 10-page report says the project 'saved 40 percent of costs'. You cannot recall that figure from the report. What do you do?",
+      "options": [
+        "Search the report text for the figure and check its context before repeating it.",
+        "Keep it, because summaries are usually accurate.",
+        "Round it to 'about half' to be safe.",
+        "Delete the whole summary and never use AI again."
+      ],
+      "answer": 0,
+      "why": "Summaries can add or distort numbers. Check against the source. Rounding changes a possibly wrong figure into another wrong one, and abandoning the tool is an overreaction."
+    },
+    {
+      "id": "ai-2.b2",
+      "type": "mcq",
+      "concept": "ai.task-spec",
+      "prompt": "A reply from an AI tool is too long and formal for a quick Teams message. Which follow-up is most effective?",
+      "options": [
+        "That's bad, try again.",
+        "Rewrite it.",
+        "Be better.",
+        "Rewrite in two friendly sentences for a colleague on Teams, keeping the deadline of Friday."
+      ],
+      "answer": 3,
+      "why": "A follow-up should state the specific change: length, tone, audience and the fact to keep. Vague feedback gives the model nothing to adjust."
+    },
+    {
+      "id": "ai-2.b3",
+      "type": "fill",
+      "concept": "ai.integrity",
+      "prompt": "If you submit AI-drafted work with a mistake in it, who is responsible for the mistake? (one word)",
+      "accept": ["me", "you", "i", "myself", "yourself", "the submitter", "submitter", "the person submitting"],
+      "why": "The person who submits or sends the work owns it, however it was drafted. This is why verification matters."
+    }
+  ],
+  "cards": [
+    {
+      "id": "ai-2.c1",
+      "concept": "ai.task-spec",
+      "front": "What five parts make a strong prompt?",
+      "back": "Role or audience, task, context, constraints, output format. Treat it as a brief to a capable new colleague who knows nothing about your situation."
+    },
+    {
+      "id": "ai-2.c2",
+      "concept": "ai.iterate-verify",
+      "front": "How much should you verify an AI output?",
+      "back": "Match effort to risk. Low: read it. Medium: compare with notes. High (figures, policy, code touching data): check the original and test, including edge cases."
+    },
+    {
+      "id": "ai-2.c3",
+      "concept": "ai.privacy",
+      "front": "What must never be pasted into an AI tool?",
+      "back": "Passwords, OTPs, keys, ID and bank details, client or NDA material, other people's personal data. Anonymise or do not use the tool."
+    },
+    {
+      "id": "ai-2.c4",
+      "concept": "ai.integrity",
+      "front": "When is not using AI the right call?",
+      "back": "When the task is meant to build your own skill, the data is confidential without an approved tool, the stakes demand certainty, or the message needs your own voice."
+    }
+  ],
+  "reflection": "Think of a recent task where you could have used AI. Which of the five prompt parts would you most often skip, and what would it cost you in accuracy or ownership?",
+  "revision": {
+    "keyPoints": [
+      "Prompt = role or audience, task, context, constraints, format.",
+      "Iterate with one specific change at a time.",
+      "Verify in proportion to risk; test code with an edge case.",
+      "Paste only what you could safely publish; anonymise the rest.",
+      "You own what you submit; follow rules and disclose when expected."
+    ],
+    "redo": "Take any one-line request you made to an AI tool and rewrite it with all five parts in under two minutes."
+  }
+}

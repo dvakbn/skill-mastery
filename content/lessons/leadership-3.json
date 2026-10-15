@@ -1,0 +1,339 @@
+{
+  "id": "leadership-3",
+  "skillId": "leadership",
+  "n": 3,
+  "title": "Feedback and Coaching",
+  "summary": "Give clear feedback with the SBI model, coach with GROW questions instead of handing out answers and run useful one-to-ones.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Give feedback in Situation, Behaviour, Impact form.",
+    "Use the GROW model to coach someone through a problem with questions.",
+    "Plan a short, regular one-to-one conversation."
+  ],
+  "concepts": [
+    {
+      "id": "leadership.sbi",
+      "label": "SBI feedback"
+    },
+    {
+      "id": "leadership.grow",
+      "label": "GROW coaching questions"
+    },
+    {
+      "id": "leadership.one-to-ones",
+      "label": "One-to-one meetings"
+    },
+    {
+      "id": "leadership.feedback-habit",
+      "label": "Making feedback a habit"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Feedback with SBI",
+      "body": "After learning to delegate, leaders must tell people how it is going. Vague feedback such as \"your presentation was bad\" or \"good job\" teaches nothing. The **SBI model** gives it a structure:\n\n- **Situation**: when and where. \"In yesterday's project review...\"\n- **Behaviour**: what you saw or heard, in observable terms, without judging character. \"...you read the slides aloud and did not look at the audience.\"\n- **Impact**: the effect on you, the team or the result. \"...so the panel lost focus and asked me to repeat the key point.\"\n\nThen add a question or request: \"What do you think? Next time could you start with the conclusion?\" Avoid \"you always\" or \"you are careless,\" which attack the person. The same structure works for positive feedback: \"In the client call, you summarised the three decisions in one minute. The client confirmed immediately, and we saved a follow-up meeting.\""
+    },
+    {
+      "heading": "Coaching with GROW",
+      "body": "Giving answers feels helpful but makes people depend on you. **Coaching** helps the person find their own answer through questions. The **GROW** model has four stages:\n\n1. **Goal**: \"What do you want to achieve from this?\"\n2. **Reality**: \"Where are you now? What have you tried? What is getting in the way?\"\n3. **Options**: \"What could you do? What else? What would you advise a friend?\"\n4. **Will** (way forward): \"What will you do, by when? What might stop you?\"\n\nExample: a teammate says, \"I keep missing deadlines in the module.\" Instead of \"Start earlier,\" ask: \"What would on-time look like? How many hours does it take versus what you plan? What options do you have, such as splitting tasks or asking for help? Which one will you try this week?\" Use coaching when the person has the ability but needs clarity; give direct advice when they lack knowledge or the situation is urgent."
+    },
+    {
+      "heading": "Running one-to-ones",
+      "body": "A **one-to-one** is a regular, private conversation between a leader and one team member, even 15 minutes every two weeks. It is not a status report. Use a simple agenda: 1. their topics first (concerns, blockers, growth), 2. progress on agreed actions, 3. feedback both ways, 4. next steps. Let them set the agenda and take short notes.\n\nStudent version: a group leader meets each member briefly before a big submission, asking \"What is going well, what is blocking you, and what do you need from me?\" People raise problems early in private, long before a public failure."
+    },
+    {
+      "heading": "Making feedback a habit",
+      "body": "Feedback works when it is frequent, timely and small, not saved for the end of the semester. Give it within a day or two while the situation is fresh, in private if it is corrective and in public if it is praise (if the person is comfortable). Aim for more positive than corrective feedback; specific praise tells people what to repeat.\n\nAlso ask for feedback yourself: \"What is one thing I could do differently to make the group run better?\" Leaders who accept feedback make it safe for others. Receive it by listening, thanking and asking for examples, not by defending."
+    }
+  ],
+  "examples": [
+    {
+      "title": "SBI correction",
+      "body": "Before: \"You are always late to group calls.\" After: \"On Tuesday and Thursday you joined the call 15 minutes late (behaviour). We started without your module's update, and I had to repeat the decisions later (impact). Is something making the time difficult? Could we move the call or could you send your update in advance?\"",
+      "takeaway": "Observable facts plus impact invite problem-solving instead of defence."
+    },
+    {
+      "title": "GROW conversation",
+      "body": "Sana: \"I cannot learn this reporting tool.\" Leader: \"What would success look like in two weeks?\" (Goal) \"Build one report on my own.\" \"What have you tried?\" (Reality) \"Watched videos but never practised.\" \"What options do you have?\" (Options) \"Practise with a sample, ask Rahul for 20 minutes.\" \"What will you do first?\" (Will) \"Tonight, build a small report, and ask Rahul tomorrow.\"",
+      "takeaway": "Four questions led Sana to her own plan, which she is more likely to follow."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leadership-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "leadership.sbi",
+      "prompt": "Which sentence is the Behaviour part of an SBI statement?",
+      "options": [
+        "You submitted the sheet without checking the totals.",
+        "You are careless.",
+        "The team was upset.",
+        "In last week meeting."
+      ],
+      "answer": 0,
+      "why": "Behaviour describes what was observable. \"Careless\" is a judgement, \"upset\" is impact and the last is the situation."
+    },
+    {
+      "id": "leadership-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "leadership.grow",
+      "prompt": "In the GROW model, the R stands for ____. (one word)",
+      "accept": [
+        "reality"
+      ],
+      "why": "Reality explores where the person is now and what is in the way."
+    },
+    {
+      "id": "leadership-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "leadership.one-to-ones",
+      "prompt": "In a one-to-one, your teammate spends the time giving a status update on tasks. What is the best response?",
+      "options": [
+        {
+          "text": "Continue; status is important.",
+          "score": 1,
+          "feedback": "Status can be shared elsewhere, and the personal conversation is lost."
+        },
+        {
+          "text": "Ask what is going well, what is blocking them and what they need from you.",
+          "score": 3,
+          "feedback": "The meeting is meant for blockers, growth and support."
+        },
+        {
+          "text": "End the meeting early.",
+          "score": 1,
+          "feedback": "You lose the chance to learn about issues."
+        },
+        {
+          "text": "Give a list of faults.",
+          "score": 0,
+          "feedback": "It turns a support space into an attack and kills openness."
+        }
+      ],
+      "why": "One-to-ones are for the person: blockers, needs and growth, not just status."
+    },
+    {
+      "id": "leadership-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "leadership.sbi",
+      "prompt": "A teammate often uploads code with no comments and later no one can understand it. Write SBI feedback in 4 to 6 sentences, including a question or request at the end.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "situation",
+          "label": "Specific situation",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Mentioned.",
+            "3": "Specific time or place."
+          }
+        },
+        {
+          "id": "behaviour",
+          "label": "Observable behaviour",
+          "weight": 30,
+          "descriptors": {
+            "0": "Judgement of character.",
+            "1": "Mixed.",
+            "2": "Mostly observable.",
+            "3": "Purely observable with no labels."
+          }
+        },
+        {
+          "id": "impact",
+          "label": "Impact",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Stated.",
+            "3": "Clear effect on team or result."
+          }
+        },
+        {
+          "id": "request",
+          "label": "Question or request",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Demand.",
+            "2": "Request.",
+            "3": "Open question and a specific request."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\?",
+            "label": "Contains a question"
+          }
+        }
+      ],
+      "modelAnswer": "In Tuesday sprint review, the payment module code you uploaded had no comments. When Meera needed to fix the refund bug, she spent two hours working out what it did, and we missed the evening test. How did the day go for you on this? Could you add short comments on each function before you push from now on?",
+      "guidance": "Strong feedback is specific, factual and about impact, then invites the person to respond. Weak feedback uses words such as always or lazy. Compare with the model honestly."
+    }
+  ],
+  "task": {
+    "title": "Give one piece of SBI feedback",
+    "brief": "Give one SBI feedback message, positive or corrective, to a friend or teammate within the next two days.",
+    "steps": [
+      "Pick a real recent situation.",
+      "Write the three parts in one or two sentences each.",
+      "Deliver it in private and end with a question.",
+      "Listen without defending.",
+      "Note their response."
+    ],
+    "checklist": [
+      "I stated a specific situation",
+      "My behaviour part was observable",
+      "I described the impact",
+      "I asked a question"
+    ],
+    "evidencePrompt": "Write your S, B and I statements and the reply you got.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "leadership-3.q1",
+      "type": "mcq",
+      "concept": "leadership.sbi",
+      "prompt": "What does SBI stand for?",
+      "options": [
+        "Skill, Budget, Idea",
+        "Start, Build, Improve",
+        "Situation, Behaviour, Impact",
+        "Speak, Back up, Insist"
+      ],
+      "answer": 2,
+      "why": "SBI gives structure: when, what you saw and its effect."
+    },
+    {
+      "id": "leadership-3.q2",
+      "type": "mcq",
+      "concept": "leadership.grow",
+      "prompt": "Which question belongs to Options in GROW?",
+      "options": [
+        "What do you want to achieve?",
+        "What could you do about it?",
+        "Where are you now?",
+        "By when will you start?"
+      ],
+      "answer": 1,
+      "why": "Options explores possible actions; goal, reality and will have other questions."
+    },
+    {
+      "id": "leadership-3.q3",
+      "type": "fill",
+      "concept": "leadership.one-to-ones",
+      "prompt": "A one-to-one agenda should start with the ____ topics. (one word)",
+      "accept": [
+        "their",
+        "team member's",
+        "team member"
+      ],
+      "why": "Letting the team member set the agenda builds openness."
+    },
+    {
+      "id": "leadership-3.q4",
+      "type": "mcq",
+      "concept": "leadership.feedback-habit",
+      "prompt": "Which is the better habit?",
+      "options": [
+        "Save all feedback for the semester end",
+        "Give small, timely feedback within a day or two",
+        "Give only criticism",
+        "Give feedback in public always"
+      ],
+      "answer": 1,
+      "why": "Timely, small feedback is fresh and easier to act on."
+    }
+  ],
+  "bank": [
+    {
+      "id": "leadership-3.b1",
+      "type": "mcq",
+      "concept": "leadership.sbi",
+      "prompt": "Which is better positive feedback?",
+      "options": [
+        "Great work!",
+        "In today call you summarised the three decisions in a minute, and the client confirmed straight away",
+        "You are a star.",
+        "Keep it up."
+      ],
+      "answer": 1,
+      "why": "It names the situation, behaviour and impact so the person knows what to repeat."
+    },
+    {
+      "id": "leadership-3.b2",
+      "type": "mcq",
+      "concept": "leadership.grow",
+      "prompt": "A new member asks how to fix a production bug that needs urgent help. The leader should:",
+      "options": [
+        "Only ask coaching questions",
+        "Give direct guidance, then coach later",
+        "Say figure it out",
+        "Ignore"
+      ],
+      "answer": 1,
+      "why": "Coaching suits non-urgent growth; urgent knowledge gaps need direct help."
+    },
+    {
+      "id": "leadership-3.b3",
+      "type": "fill",
+      "concept": "leadership.feedback-habit",
+      "prompt": "To make it safe for others, leaders should also ask for ____ themselves. (one word)",
+      "accept": [
+        "feedback"
+      ],
+      "why": "Receiving feedback well models the behaviour you want."
+    }
+  ],
+  "cards": [
+    {
+      "id": "leadership-3.c1",
+      "concept": "leadership.sbi",
+      "front": "What is SBI feedback?",
+      "back": "Situation, Behaviour, Impact: say when it happened, what you observed without judging, and what effect it had, then invite their view."
+    },
+    {
+      "id": "leadership-3.c2",
+      "concept": "leadership.grow",
+      "front": "What are the four GROW stages?",
+      "back": "Goal, Reality, Options and Will (way forward). Ask questions at each stage so the person finds their own plan."
+    },
+    {
+      "id": "leadership-3.c3",
+      "concept": "leadership.one-to-ones",
+      "front": "How to run a one-to-one?",
+      "back": "Short, regular and private: their topics first, actions progress, feedback both ways, next steps, with brief notes."
+    },
+    {
+      "id": "leadership-3.c4",
+      "concept": "leadership.feedback-habit",
+      "front": "Making feedback a habit?",
+      "back": "Make it frequent, timely and small, specific in praise, private for correction and ask for feedback yourself."
+    }
+  ],
+  "reflection": "Which feedback do you currently avoid giving, and how could SBI make it easier to say?",
+  "revision": {
+    "keyPoints": [
+      "SBI keeps feedback factual and specific.",
+      "GROW uses questions to build ownership.",
+      "One-to-ones are for the person, not just status.",
+      "Small timely feedback beats a big late review."
+    ],
+    "redo": "Write one SBI positive statement for someone you worked with this week."
+  }
+}

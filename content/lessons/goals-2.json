@@ -1,0 +1,341 @@
+{
+  "id": "goals-2",
+  "skillId": "goals",
+  "n": 2,
+  "title": "Breaking Goals Down",
+  "summary": "Turn a big goal into backward-planned milestones, track it with leading indicators and write key results that can be measured.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Plan backward from a deadline to a first step you can start this week.",
+    "Tell leading indicators from lagging indicators and pick one of each.",
+    "Write an objective with two or three measurable key results."
+  ],
+  "concepts": [
+    {
+      "id": "goals.backward-planning",
+      "label": "Backward planning"
+    },
+    {
+      "id": "goals.milestones",
+      "label": "Milestones and checkpoints"
+    },
+    {
+      "id": "goals.indicators",
+      "label": "Leading vs lagging indicators"
+    },
+    {
+      "id": "goals.key-results",
+      "label": "OKR-style key results"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why big goals stall",
+      "body": "In the first lesson you learned to write a goal precisely. A precise goal can still stall, because \"get an ABAP job by March\" does not tell you what to do on Tuesday evening. Big goals feel heavy since the first action is hidden. Breaking a goal down means shrinking it until the next action is obvious and small.\n\nThe usual mistake is planning forwards: \"I will start with some study and see how it goes.\" Forward plans drift, because nothing tells you whether you are early or late. Strong plans start from the finish line."
+    },
+    {
+      "heading": "Backward planning and milestones",
+      "body": "**Backward planning** starts at the deadline and asks, again and again, \"What must be true just before this?\" Suppose you want to be interview-ready for entry-level ABAP roles in 12 weeks. Just before interviews you need three finished mock interviews. Before that, you need a portfolio of small programs you can explain. Before that, you need the basics of data dictionary, internal tables and reports. Before that, you need a study slot in your calendar. Each answer becomes a **milestone**: a checkpoint that is visible, finished or not finished, with a date.\n\nGood milestones are outcomes, not activities. \"Study internal tables\" is vague; \"Write and explain five programs using internal tables by week 5\" is checkable. A handy rule is one milestone every two to four weeks. Anything further apart is invisible, and anything closer becomes micromanaging yourself.\n\nThen walk forward and take the **first step**: something you can finish in under 30 minutes this week, such as booking the study slots or listing the five programs."
+    },
+    {
+      "heading": "Leading and lagging indicators",
+      "body": "A **lagging indicator** measures the result after it happens: interview calls received, marks scored, kilos lost. You cannot change it directly, and it arrives late. A **leading indicator** measures an action you control that predicts the result: applications sent per week, practice programs written, mock interviews done.\n\nIf you track only lagging numbers you feel helpless for weeks. Choose one leading indicator per milestone and set a weekly target, such as \"write four programs per week\". If the leading number is on target but the lagging one does not move after a reasonable time, the plan itself needs changing. If the leading number is low, the problem is effort or scheduling, and that is easier to fix."
+    },
+    {
+      "heading": "OKR-style key results",
+      "body": "An **OKR** pairs an **objective**, an inspiring qualitative direction, with two or three **key results**, which are measurable outcomes with a number and a date. Objective: \"Become genuinely job-ready for entry-level ABAP roles.\" Key results: \"Build three working ALV reports by 15 December\", \"Complete 40 practice exercises\", \"Score at least 7 out of 10 in four mock interviews.\"\n\nTest each key result with one question: could a stranger look at it on the deadline and say yes or no without arguing? \"Improve my SQL\" fails; \"Solve 30 join queries with at most two mistakes in the last ten\" passes. Keep the set small, because five key results means none of them gets full attention. Review them every week."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Backward plan for a placement drive",
+      "body": "Goal: submit 25 good applications by 30 November, today being 1 October. Back-planning: just before submission you need a final CV and three tailored cover notes (done by 20 November). Before that, a first CV draft reviewed by a senior (10 November). Before that, a list of 25 target companies (by 25 October). First step this week: write ten company names tonight.",
+      "takeaway": "Each earlier milestone is the condition for the next, and the first step is small enough to do today."
+    },
+    {
+      "title": "Picking indicators",
+      "body": "Objective: improve spoken English for interviews. Lagging indicator: score on a mock interview at month-end. Leading indicators: five minutes of daily self-recording (7 per week target) and two shadowing sessions a week. In week 3 the recordings are on target but fluency feels unchanged, so Riya adds feedback from a friend rather than quitting.",
+      "takeaway": "Leading indicators show whether you did your part; lagging ones show whether the plan works."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "goals-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "goals.backward-planning",
+      "prompt": "Which question drives backward planning?",
+      "options": [
+        "What must be true just before this milestone is reached?",
+        "What can I do first without any deadline?",
+        "How motivated do I feel today?",
+        "What did other people do last year?"
+      ],
+      "answer": 0,
+      "why": "Backward planning repeats \"what must be true just before this?\" from the deadline to today. Forward drifting and motivation checks give no sense of being early or late."
+    },
+    {
+      "id": "goals-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "goals.indicators",
+      "prompt": "Applications sent per week is an example of a ____ indicator, because you control it and it predicts the result. (one word)",
+      "accept": [
+        "leading"
+      ],
+      "why": "Applications sent is an action you control that predicts interview calls, so it is a leading indicator."
+    },
+    {
+      "id": "goals-2.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "goals.key-results",
+      "prompt": "Pick a goal of your own for the next 8 weeks. Write one objective and two key results that each have a number and a date. Then name one leading indicator you will check weekly.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "objective",
+          "label": "Clear objective",
+          "weight": 20,
+          "descriptors": {
+            "0": "No objective.",
+            "1": "Vague or a task rather than a direction.",
+            "2": "Clear but not motivating.",
+            "3": "Clear, qualitative and motivating."
+          }
+        },
+        {
+          "id": "measurable",
+          "label": "Measurable key results",
+          "weight": 40,
+          "descriptors": {
+            "0": "No numbers.",
+            "1": "One number, no date.",
+            "2": "Numbers and dates but hard to verify.",
+            "3": "Both results have number, date and are checkable by a stranger."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes at least one number"
+          }
+        },
+        {
+          "id": "leading",
+          "label": "Leading indicator named",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Named but is a result.",
+            "2": "An action but no target.",
+            "3": "An action you control with a weekly target."
+          }
+        },
+        {
+          "id": "realistic",
+          "label": "Realistic scope",
+          "weight": 15,
+          "descriptors": {
+            "0": "Impossible in 8 weeks.",
+            "1": "Very ambitious.",
+            "2": "Mostly realistic.",
+            "3": "Stretching but clearly achievable."
+          }
+        }
+      ],
+      "modelAnswer": "Objective: become confident at writing SQL for reports. KR1: solve 30 join and group-by queries by 30 November with at most 3 wrong in the last 10. KR2: explain 4 queries aloud to a friend by 15 November. Leading indicator: 4 queries solved each week, checked on Sundays.",
+      "guidance": "A strong answer has an objective that sounds like a direction and key results a stranger could mark yes or no. Common mistakes are activity words like \"learn\" or \"practise\" without numbers, and listing five key results. Score yourself against the model answer honestly."
+    },
+    {
+      "id": "goals-2.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "goals.milestones",
+      "prompt": "You have 12 weeks to finish a final-year project and your plan says only \"work on project daily\". Which change helps most?",
+      "options": [
+        {
+          "text": "Add a motivational quote to your desk.",
+          "score": 0,
+          "feedback": "Motivation words do not create checkpoints or show whether you are behind."
+        },
+        {
+          "text": "Set a milestone every two to three weeks, such as \"login and database working by week 3\", each with a date.",
+          "score": 3,
+          "feedback": "Dated outcome milestones make progress visible and let you correct early."
+        },
+        {
+          "text": "Plan to work longer hours near the end.",
+          "score": 1,
+          "feedback": "Back-loading effort hides delays until it is too late to fix them."
+        },
+        {
+          "text": "Wait for your guide to set deadlines.",
+          "score": 1,
+          "feedback": "Waiting hands control of your plan to someone else and leaves the schedule untested."
+        }
+      ],
+      "why": "Milestones every few weeks, defined as outcomes with dates, make a long goal checkable and correctable."
+    }
+  ],
+  "task": {
+    "title": "Backward-plan one real goal",
+    "brief": "Take one goal due within 12 weeks and break it into dated milestones, indicators and key results.",
+    "steps": [
+      "Write the goal and its deadline.",
+      "Ask \"what must be true just before this?\" three or four times and write each answer with a date.",
+      "Add one leading indicator with a weekly target.",
+      "Write the objective with two key results and choose a first step under 30 minutes."
+    ],
+    "checklist": [
+      "I wrote at least three dated milestones",
+      "I named a leading indicator with a target",
+      "My key results have numbers and dates",
+      "I did or scheduled the first step"
+    ],
+    "evidencePrompt": "Paste your milestones list and your first step.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "goals-2.q1",
+      "type": "mcq",
+      "concept": "goals.backward-planning",
+      "prompt": "A backward plan begins with:",
+      "options": [
+        "Today's mood",
+        "The easiest task",
+        "The deadline and the condition just before it",
+        "A list of tools"
+      ],
+      "answer": 2,
+      "why": "You start at the finish line and work back to today."
+    },
+    {
+      "id": "goals-2.q2",
+      "type": "mcq",
+      "concept": "goals.milestones",
+      "prompt": "Which is the best milestone?",
+      "options": [
+        "Study internal tables",
+        "Explain five internal-table programs to a friend by week 5",
+        "Try harder",
+        "Be good at ABAP"
+      ],
+      "answer": 1,
+      "why": "It is an outcome with a count and a date, so it can be checked."
+    },
+    {
+      "id": "goals-2.q3",
+      "type": "mcq",
+      "concept": "goals.indicators",
+      "prompt": "Which is a lagging indicator?",
+      "options": [
+        "Programs written this week",
+        "Interview calls received",
+        "Hours at the desk",
+        "Mock interviews booked"
+      ],
+      "answer": 1,
+      "why": "Interview calls are a result that arrives after your actions, so they lag."
+    },
+    {
+      "id": "goals-2.q4",
+      "type": "fill",
+      "concept": "goals.key-results",
+      "prompt": "In an OKR, the measurable parts with a number and a date are called key ____. (one word)",
+      "accept": [
+        "results"
+      ],
+      "why": "Key results are the measurable outcomes under an objective."
+    }
+  ],
+  "bank": [
+    {
+      "id": "goals-2.b1",
+      "type": "mcq",
+      "concept": "goals.key-results",
+      "prompt": "Which key result passes the stranger test?",
+      "options": [
+        "Improve my communication",
+        "Deliver 3 five-minute talks and collect feedback scores of at least 4 out of 5 by 20 December",
+        "Be more confident",
+        "Work hard on presentations"
+      ],
+      "answer": 1,
+      "why": "A stranger could mark it yes or no on the date; the others are unmeasurable."
+    },
+    {
+      "id": "goals-2.b2",
+      "type": "mcq",
+      "concept": "goals.indicators",
+      "prompt": "Your weekly leading target is on track but the result has not moved after six weeks. What does that suggest?",
+      "options": [
+        "Quit the goal immediately",
+        "The plan may be the problem, so adjust the actions",
+        "Your leading indicator is lagging",
+        "Ignore the data"
+      ],
+      "answer": 1,
+      "why": "If you did your part and the result stays flat, the method needs changing, not your effort."
+    },
+    {
+      "id": "goals-2.b3",
+      "type": "fill",
+      "concept": "goals.backward-planning",
+      "prompt": "You want to finish a 30-chapter course in 10 weeks with the last week for revision. How many chapters per week for the first 9 weeks? (number)",
+      "accept": [
+        "4",
+        "four",
+        "about 4",
+        "3.33",
+        "3.3",
+        "3.34"
+      ],
+      "why": "Thirty chapters over nine weeks is about 3.3 per week, so a target of four per week leaves a small buffer. Either rounding that shows the idea is acceptable."
+    }
+  ],
+  "cards": [
+    {
+      "id": "goals-2.c1",
+      "concept": "goals.backward-planning",
+      "front": "How does backward planning work?",
+      "back": "Start at the deadline and repeatedly ask what must be true just before. Each answer is a milestone, ending in a first step you can do this week."
+    },
+    {
+      "id": "goals-2.c2",
+      "concept": "goals.milestones",
+      "front": "What makes a good milestone?",
+      "back": "A visible outcome with a date that can be checked as done or not done, spaced two to four weeks apart."
+    },
+    {
+      "id": "goals-2.c3",
+      "concept": "goals.indicators",
+      "front": "Leading vs lagging indicator?",
+      "back": "Leading: an action you control that predicts the result. Lagging: the result itself, which arrives late and cannot be changed directly."
+    },
+    {
+      "id": "goals-2.c4",
+      "concept": "goals.key-results",
+      "front": "What is the stranger test for a key result?",
+      "back": "Could a stranger say yes or no on the deadline without arguing? If not, add a number and a date."
+    }
+  ],
+  "reflection": "Which of your current goals is still just a heavy idea, and what is the first 30-minute step that would make it concrete?",
+  "revision": {
+    "keyPoints": [
+      "Plan backward from the deadline to a first step.",
+      "Milestones are dated outcomes, not activities.",
+      "Track a leading indicator you control, not only the result.",
+      "Key results need a number, a date and the stranger test."
+    ],
+    "redo": "Take one goal and write its next milestone with a date and one leading indicator."
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "id": "eq-1",
+  "skillId": "eq",
+  "n": 1,
+  "title": "Self-Awareness",
+  "summary": "Name your emotions precisely, spot triggers and body signals, link feelings to your values, and keep a simple emotion log.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Name an emotion with a precise word instead of 'fine', 'bad' or 'stressed'.",
+    "Identify the trigger and the body signal that come before a strong reaction.",
+    "Use a three-line emotion log to connect a feeling to the value behind it."
+  ],
+  "concepts": [
+    {
+      "id": "eq.naming",
+      "label": "Naming emotions precisely"
+    },
+    {
+      "id": "eq.triggers",
+      "label": "Triggers and the values behind them"
+    },
+    {
+      "id": "eq.body-signals",
+      "label": "Body signals as early warnings"
+    },
+    {
+      "id": "eq.emotion-log",
+      "label": "The emotion log"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why self-awareness comes first",
+      "body": "Emotional intelligence has four parts: knowing your own emotions, managing them, understanding other people's, and handling relationships. The first part is the foundation. You cannot manage a feeling you have not noticed, and you cannot choose a response if the reaction is already over.\n\nSelf-awareness is not about analysing yourself for hours. It is a quick, honest check: *what am I feeling, what set it off, and what does it want me to do?* People who do this check even for ten seconds make fewer rash decisions in group projects, client calls and family discussions."
+    },
+    {
+      "heading": "Name it precisely",
+      "body": "Most of us use a few broad words: *fine*, *stressed*, *bad*, *angry*. Researchers call the skill of using finer words **emotional granularity**, and the practical benefit is simple: a precise name points to a precise action.\n\nTake 'stressed'. It could mean:\n\n- **Anxious**: worried about something that might happen (tomorrow's viva).\n- **Overwhelmed**: too many demands at once (three submissions this week).\n- **Resentful**: you feel you are carrying a teammate's share.\n- **Embarrassed**: you were corrected in front of others.\n\nAnxiety asks for preparation. Overwhelm asks for a shorter list. Resentment asks for a conversation. Embarrassment asks for perspective. If you only say 'stressed', you will try the same remedy (work harder) for all four.\n\nA simple method: start with the broad family (anger, fear, sadness, joy, shame), then ask 'which shade?' Irritated, furious or let down? Nervous, dreading or panicky? Pick the closest word, and rate it 1 to 10."
+    },
+    {
+      "heading": "Triggers, body signals and the value underneath",
+      "body": "A **trigger** is the specific event that sets a feeling off: a message left on 'seen', a senior saying 'this is not what I asked for', your mother comparing your results with a cousin's. The trigger is usually smaller than the reaction, because it touches something you care about. Ask: *what value felt threatened?* Fairness, respect, competence, belonging, freedom? If you were furious when a teammate took credit, the value was fairness. Naming the value tells you what you actually need.\n\nYour **body signals** usually arrive before the words do: a tight jaw, hot face, sinking stomach, shallow breathing, restless legs, a heavy chest. Learn your own two or three. They are your early-warning system. If you notice your jaw clenching in a meeting, you have a few seconds of choice that you would otherwise lose."
+    },
+    {
+      "heading": "The emotion log: three lines, once a day",
+      "body": "Keep a short log, ideally at the end of the day or right after a strong moment. Use three lines:\n\n1. **Trigger**: what happened, in factual words, as a camera would record it.\n2. **Feeling and body**: the precise emotion, its strength out of 10, and where you felt it.\n3. **Value or need**: what mattered to you.\n\nWorked example: *Trigger: Rohit presented my part of the slides as 'our work' without naming me. Feeling: resentful, 7/10, hot face and tight jaw. Value: recognition and fairness.* Reading this back, the next step is obvious and calm: ask Rohit to credit each section by name in the next review.\n\nA common mistake is mixing the trigger with a judgement ('Rohit is selfish'). Keep line one factual. After two weeks, read your log for patterns: the same people, times or situations will show up, and that is where your growth is."
+    }
+  ],
+  "examples": [
+    {
+      "title": "From 'stressed' to a useful word",
+      "body": "Before: 'I am so stressed about the project.'\n\nAfter: 'I feel overwhelmed (7/10) because three deliverables are due in the same week, and a little resentful because two teammates have not replied. My shoulders are tight.'\n\nAction that follows: list the three deliverables, rank them, and send one clear message to the two teammates asking for a status by evening.",
+      "takeaway": "A precise word split one vague problem into two separate ones, each with its own next step."
+    },
+    {
+      "title": "A trigger that pointed to a value",
+      "body": "Meera's mother says at dinner, 'Sharma ji's son got a package of twelve lakh. What are you doing?' Meera snaps and leaves the table. Later she writes her log: Trigger: comparison with a neighbour's son. Feeling: hurt and defensive, 8/10, tight throat. Value: being accepted for who I am, and respect for my effort.",
+      "takeaway": "The anger was really hurt. Once Meera knows the value, she can say 'I feel hurt when I am compared; I would like you to ask how my preparation is going' instead of snapping."
+    },
+    {
+      "title": "Catching the body signal early",
+      "body": "During a team call, a senior says 'This code is not production ready.' Arjun notices his face getting hot and his typing getting faster. He labels it: 'embarrassed, 6/10'. Instead of replying instantly, he writes 'Thanks, noted. Can you point to the two main gaps so I fix them today?'",
+      "takeaway": "The body signal gave Arjun a few seconds of choice, and naming the feeling lowered its grip."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "eq-1.e1",
+      "type": "scenario",
+      "level": 1,
+      "concept": "eq.naming",
+      "prompt": "Your group project is due Friday. Two members have gone silent, you have three other submissions this week, and you keep thinking 'I am so stressed'. What is the most useful first step?",
+      "options": [
+        {
+          "text": "Keep telling yourself you are stressed and work through the night.",
+          "score": 0,
+          "feedback": "A broad word leads to a broad remedy (work harder) and ignores what is actually wrong."
+        },
+        {
+          "text": "Split the feeling: overwhelmed by the number of tasks, and resentful about the silent teammates. Then list tasks and message the teammates.",
+          "score": 3,
+          "feedback": "Two precise names point to two different actions: prioritise the list, and have a direct conversation."
+        },
+        {
+          "text": "Tell yourself it is nothing and carry on.",
+          "score": 1,
+          "feedback": "Ignoring the feeling does not remove it; it usually leaks out later as irritability."
+        },
+        {
+          "text": "Post a complaint about the teammates in the class group chat.",
+          "score": 0,
+          "feedback": "This acts on the resentment without checking facts and will damage trust."
+        }
+      ],
+      "why": "Granularity turns a vague mood into specific problems. Overwhelm needs a shorter, ranked list; resentment needs a clear conversation."
+    },
+    {
+      "id": "eq-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "eq.emotion-log",
+      "prompt": "The three lines of the emotion log are: trigger, feeling and body, and ____. Fill in the third line with one word that names what mattered to you (hint: it begins with 'v').",
+      "accept": [
+        "value",
+        "values",
+        "value or need",
+        "a value"
+      ],
+      "hint": "Fairness, respect and belonging are examples.",
+      "why": "The third line links the feeling to the value or need that felt threatened, which is what lets you choose a useful response."
+    },
+    {
+      "id": "eq-1.e3",
+      "type": "roleplay",
+      "level": 2,
+      "concept": "eq.naming",
+      "prompt": "Practise naming your feeling aloud to a friend.",
+      "setup": "You are Kabir, a final-year student. Your faculty guide has just criticised your presentation in front of the class. Your close friend Sana finds you outside the seminar hall. Your goal is to describe your feeling precisely and decide on a next step.",
+      "turns": [
+        {
+          "they": "Hey, you left in a hurry. Are you okay?",
+          "options": [
+            {
+              "text": "I'm fine. It's nothing.",
+              "score": 0,
+              "feedback": "'Fine' hides the feeling and ends the conversation.",
+              "reply": "Okay... if you say so. You looked really upset though."
+            },
+            {
+              "text": "Honestly, I feel embarrassed, maybe 7 out of 10. My face is still hot.",
+              "score": 3,
+              "feedback": "A precise word, an intensity and a body signal give Sana something real to respond to.",
+              "reply": "That sounds awful, being corrected in front of everyone. What did he actually say?"
+            },
+            {
+              "text": "That teacher is the worst, he always targets me.",
+              "score": 1,
+              "feedback": "This is a judgement about him, not a description of your feeling.",
+              "reply": "Hmm, maybe. But what happened exactly?"
+            }
+          ]
+        },
+        {
+          "they": "What do you think hurt the most about it?",
+          "options": [
+            {
+              "text": "I guess it hit my need to look competent. I had prepared for two weeks.",
+              "score": 3,
+              "feedback": "You connected the feeling to a value (competence, effort), which is the point of self-awareness.",
+              "reply": "That makes sense. You did work hard. Was any part of his feedback useful?"
+            },
+            {
+              "text": "I don't know, I just want to forget it.",
+              "score": 1,
+              "feedback": "Avoiding the question skips the learning, though it is an understandable first reaction.",
+              "reply": "Fair, we can talk later. But it might feel better if you work out what stung."
+            },
+            {
+              "text": "He should have said it privately.",
+              "score": 2,
+              "feedback": "A fair point about respect, but you have not yet named your own feeling or need.",
+              "reply": "True, that would have been kinder. But how are you feeling about the feedback itself?"
+            }
+          ]
+        },
+        {
+          "they": "So what do you want to do now?",
+          "options": [
+            {
+              "text": "Take ten minutes to cool down, then ask him which two slides to improve.",
+              "score": 3,
+              "feedback": "You regulate first and then turn the feeling into a constructive action.",
+              "reply": "Good plan. I'll come with you if you want, and we can fix the slides tonight."
+            },
+            {
+              "text": "Skip the next class and avoid him all week.",
+              "score": 0,
+              "feedback": "Avoidance protects you for today but grows the problem.",
+              "reply": "Hmm, that may make it harder to face him later."
+            },
+            {
+              "text": "Send him an angry email tonight.",
+              "score": 0,
+              "feedback": "Acting at the peak of the emotion usually creates a second problem.",
+              "reply": "Please don't send anything tonight. Sleep on it first."
+            }
+          ]
+        }
+      ],
+      "why": "Strong answers name the feeling with a precise word, mention a body signal, link it to a value, and then choose a calm next step instead of venting or hiding."
+    },
+    {
+      "id": "eq-1.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "eq.emotion-log",
+      "prompt": "Recall one recent moment when you reacted strongly (for example, a comment from a family member, a delayed reply from a teammate, or feedback from a mentor). Write a three-line emotion log for it: trigger (factual), feeling with strength out of 10 and where you felt it in your body, and the value behind it. Then add one sentence on what you would do differently.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "trigger",
+          "label": "Trigger described factually",
+          "weight": 25,
+          "descriptors": {
+            "0": "No trigger given, or only a judgement about the person.",
+            "1": "Trigger mixed with judgement or blame.",
+            "2": "Mostly factual with one judgemental phrase.",
+            "3": "Camera-style facts: who said or did what, when."
+          }
+        },
+        {
+          "id": "feeling",
+          "label": "Precise feeling, strength and body signal",
+          "weight": 35,
+          "descriptors": {
+            "0": "Only a broad word like 'bad' or 'stressed'.",
+            "1": "A feeling word but no strength or body signal.",
+            "2": "Precise word plus either strength or body signal.",
+            "3": "Precise word, a number out of 10 and a specific body location."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d+\\s*(/|out of)\\s*10",
+            "flags": "i",
+            "label": "Includes a strength such as 7/10 or 7 out of 10"
+          }
+        },
+        {
+          "id": "value",
+          "label": "Value or need identified",
+          "weight": 25,
+          "descriptors": {
+            "0": "No value named.",
+            "1": "Value implied but not named.",
+            "2": "A value named but not clearly linked to the trigger.",
+            "3": "Value named and clearly linked to why the trigger hurt."
+          }
+        },
+        {
+          "id": "next",
+          "label": "A concrete different action",
+          "weight": 15,
+          "descriptors": {
+            "0": "No action is given at all.",
+            "1": "Vague wish ('be calmer').",
+            "2": "Specific action but unrealistic.",
+            "3": "A specific, realistic action for next time."
+          }
+        }
+      ],
+      "modelAnswer": "Trigger: In Tuesday's group call, Nikhil said, 'You did not finish the testing section,' while four others were listening. Feeling: embarrassed and a little defensive, 7/10, hot face and tight jaw. Value: being seen as reliable, and fairness, because I had told him on Sunday that the data was late. Next time I will take a breath, say 'The data reached me on Monday; I will finish by tomorrow noon,' and send the timeline in writing afterwards.",
+      "guidance": "Strong answers keep line one factual, use a precise emotion word with a number and a body location, and link the feeling to a real value rather than to the other person's character. A common mistake is writing 'He is rude' as the trigger or 'I felt stressed' as the feeling. Score yourself honestly against each descriptor; if your log blames a person, rewrite line one as a camera would record it."
+    }
+  ],
+  "task": {
+    "title": "Three days of emotion logging",
+    "brief": "Practise noticing, naming and linking feelings to values, using a three-line log.",
+    "steps": [
+      "Choose a notes app or notebook and set a reminder for the same time each evening.",
+      "Each evening, pick the strongest emotional moment of the day and write three lines: trigger (factual), feeling with strength out of 10 and body signal, value or need.",
+      "Replace any broad word (fine, stressed, bad) with a more precise one.",
+      "After three entries, look for one pattern: a person, time of day or situation that repeats."
+    ],
+    "checklist": [
+      "I wrote at least three entries",
+      "Each trigger is factual, with no judgement",
+      "Each entry has a precise emotion word and a number out of 10",
+      "I named one body signal that repeats",
+      "I wrote down one pattern I noticed"
+    ],
+    "evidencePrompt": "Write one of your log entries in three lines and the pattern you noticed.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "eq-1.q1",
+      "type": "mcq",
+      "concept": "eq.naming",
+      "prompt": "Which statement shows the most emotional granularity?",
+      "options": [
+        "I feel bad about the exam.",
+        "I am so stressed.",
+        "I feel anxious about tomorrow's viva and disappointed in my last mock score.",
+        "I am just not in a good mood."
+      ],
+      "answer": 2,
+      "why": "It names two distinct feelings and their causes. 'Bad', 'stressed' and 'not in a good mood' are broad labels that cannot point to a specific action."
+    },
+    {
+      "id": "eq-1.q2",
+      "type": "mcq",
+      "concept": "eq.triggers",
+      "prompt": "A teammate takes credit for your work and you feel furious. Which value was most likely threatened?",
+      "options": [
+        "Humour",
+        "Convenience",
+        "Fairness and recognition",
+        "Speed"
+      ],
+      "answer": 2,
+      "why": "Anger at credit-taking usually signals that fairness and recognition were threatened. The other options do not connect to the trigger."
+    },
+    {
+      "id": "eq-1.q3",
+      "type": "fill",
+      "concept": "eq.body-signals",
+      "prompt": "Tight jaw, hot face and shallow breathing are examples of body ____ that warn you a strong emotion is starting. (one word)",
+      "accept": [
+        "signals",
+        "signal",
+        "cues",
+        "sensations"
+      ],
+      "why": "Body signals usually appear before you have words for the feeling, and give you a few seconds of choice."
+    },
+    {
+      "id": "eq-1.q4",
+      "type": "mcq",
+      "concept": "eq.emotion-log",
+      "prompt": "Which is the best 'trigger' line for an emotion log?",
+      "options": [
+        "Priya is lazy and irresponsible.",
+        "Priya did not reply to my message about the deadline for two days.",
+        "Everyone ignores me in this team.",
+        "The whole project is a mess."
+      ],
+      "answer": 1,
+      "why": "A trigger should be factual, like a camera recording. The others are judgements or generalisations that hide what actually happened."
+    }
+  ],
+  "bank": [
+    {
+      "id": "eq-1.b1",
+      "type": "mcq",
+      "concept": "eq.naming",
+      "prompt": "Rahul says, 'I'm stressed' before a client demo. After thinking, he realises he is afraid the demo will crash. Which action best matches the precise feeling?",
+      "options": [
+        "Take a long break and ignore it",
+        "Rehearse the demo twice and prepare a backup recording",
+        "Blame the tester for earlier bugs",
+        "Cancel the demo"
+      ],
+      "answer": 1,
+      "why": "Anxiety about a possible failure is best met with preparation. Breaks, blame or cancelling do not address the fear."
+    },
+    {
+      "id": "eq-1.b2",
+      "type": "mcq",
+      "concept": "eq.triggers",
+      "prompt": "Your cousin says, 'Still no job offer?' at a family function and you feel a flash of anger. What is the most useful next question to ask yourself?",
+      "options": [
+        "Why is my cousin so rude?",
+        "How can I get back at them?",
+        "Why do I always get angry?",
+        "Which value or need felt threatened, such as respect or being accepted?"
+      ],
+      "answer": 3,
+      "why": "Asking which value was touched turns a reaction into information. The other questions focus on blame or on a harsh generalisation about yourself."
+    },
+    {
+      "id": "eq-1.b3",
+      "type": "fill",
+      "concept": "eq.emotion-log",
+      "prompt": "In the emotion log, line one should describe what happened as a ____ would record it. (one word, a piece of equipment)",
+      "accept": [
+        "camera",
+        "a camera",
+        "video camera"
+      ],
+      "why": "A camera records facts without opinions, which keeps the trigger line honest and free from blame."
+    }
+  ],
+  "cards": [
+    {
+      "id": "eq-1.c1",
+      "concept": "eq.naming",
+      "front": "What is emotional granularity and why does it help?",
+      "back": "Using precise emotion words (overwhelmed, resentful, embarrassed) instead of broad ones (stressed, bad). A precise name points to a precise action."
+    },
+    {
+      "id": "eq-1.c2",
+      "concept": "eq.triggers",
+      "front": "A reaction feels bigger than the event. What should you ask?",
+      "back": "Which value or need felt threatened: fairness, respect, competence, belonging, freedom? The trigger touched something you care about."
+    },
+    {
+      "id": "eq-1.c3",
+      "concept": "eq.body-signals",
+      "front": "Why learn your body signals?",
+      "back": "They appear before words do (tight jaw, hot face, sinking stomach). Noticing them gives you a few seconds of choice before you react."
+    },
+    {
+      "id": "eq-1.c4",
+      "concept": "eq.emotion-log",
+      "front": "What are the three lines of the emotion log?",
+      "back": "1. Trigger, stated factually. 2. Feeling with strength out of 10 and body signal. 3. The value or need behind it."
+    }
+  ],
+  "reflection": "Which broad word do you use most often to describe how you feel, and what three more precise words could replace it this week?",
+  "revision": {
+    "keyPoints": [
+      "Self-awareness is the foundation: notice before you manage.",
+      "Replace broad words with precise ones, then rate them out of 10.",
+      "A strong reaction usually means a value was touched.",
+      "Body signals come first and give you a few seconds of choice.",
+      "Log three lines: trigger, feeling and body, value."
+    ],
+    "redo": "Right now, name your current feeling with a precise word, a number out of 10 and one body location, and write it in one line."
+  }
+}

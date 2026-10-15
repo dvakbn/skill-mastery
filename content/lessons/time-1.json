@@ -1,0 +1,321 @@
+{
+  "id": "time-1",
+  "skillId": "time",
+  "n": 1,
+  "title": "Time Audit and Priorities",
+  "summary": "See where your hours really go, sort tasks with the Eisenhower matrix, and put your hardest work in your best hours.",
+  "difficulty": 1,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Run a simple time audit and read the totals honestly.",
+    "Sort tasks into the four Eisenhower quadrants and explain why important is not the same as urgent.",
+    "Match demanding work to your high-energy hours."
+  ],
+  "concepts": [
+    { "id": "time.audit", "label": "Tracking time with an audit" },
+    { "id": "time.eisenhower", "label": "The Eisenhower matrix" },
+    { "id": "time.priorities", "label": "Important vs urgent" },
+    { "id": "time.energy", "label": "Energy levels and timing" }
+  ],
+  "explanation": [
+    {
+      "heading": "You cannot manage hours you have not seen",
+      "body": "Most people believe they know where their day goes. They do not. Memory is flattering: we remember the study session and forget the forty small phone checks around it. A **time audit** replaces guessing with a record.\n\nThe method is simple. For two or three ordinary days, note what you do every time you switch activity (or every 30 minutes). Write the start time, the activity, and an energy score from 1 to 5. At the end of each day, total the hours by category.\n\n**Worked example.** A final-year student has 16 waking hours. The log shows: classes 4, commute 1.5, meals 1.5, chores 1, reels and social media 3, YouTube 1.5, ABAP study 1.5, rest and chat 1, untracked 1. Total: 4 + 1.5 + 1.5 + 1 + 3 + 1.5 + 1.5 + 1 + 1 = 16. Reels and social media at 3 hours a day is 3 x 7 = 21 hours a week, while ABAP study is 1.5 x 7 = 10.5 hours. Nobody decided that ratio; it simply happened. The audit does not judge. It shows you the trade you are already making."
+    },
+    {
+      "heading": "Sort tasks with the Eisenhower matrix",
+      "body": "Draw a box with two questions: *Is it urgent?* (it needs action soon, usually because of someone else's deadline) and *Is it important?* (it moves you toward goals that matter to you). That gives four quadrants.\n\n- **Q1: Urgent and important.** Do now. Example: the assignment due tonight.\n- **Q2: Important, not urgent.** Schedule it. Example: ABAP practice, fitness, building a project.\n- **Q3: Urgent, not important.** Limit, shorten or hand over. Example: a casual message asking for an instant reply.\n- **Q4: Neither.** Cut or keep deliberately small. Example: aimless scrolling.\n\nThe common mistake is living in Q1 and Q3, reacting all day. Q2 work never shouts, because it has no deadline, so it only happens if you put it on the calendar. Skills like ABAP are Q2: nobody will chase you today, but your future offer letter depends on them."
+    },
+    {
+      "heading": "Important and urgent are different questions",
+      "body": "Urgency is about *time pressure*; importance is about *consequence for your goals*. Notifications, red badges and other people's emergencies manufacture urgency. They feel important because they are loud.\n\nA useful filter at the start of the day: *If I could finish only one task today, which one would move me closest to my goal?* That task is your top priority, whatever its noise level. Then check the cost of delay. If a task can wait a day with no real damage, it is not urgent, however insistent the sender is."
+    },
+    {
+      "heading": "Not all hours are equal",
+      "body": "Two hours at 8 am and two hours at 3 pm are not the same resource. Most people have a peak window, a slump, and sometimes a second wind. Your audit's energy scores show the pattern.\n\nMatch the task to the energy: demanding Q2 work (debugging, learning new syntax, writing) goes in the peak; routine work (replying, organising files, chores) goes in the slump. If your energy is highest from 7 to 9 am and you spend that window on messages, you are paying prime hours for low-value work.\n\n**To practise:** keep the audit for three days, circle your two best-scoring hours, and protect one of them tomorrow for your most important task."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A one-day audit table and what it reveals",
+      "body": "Time | Activity | Energy\n6:30-7:30 | Wake, chai, phone | 2\n7:30-9:00 | Commute | 2\n9:00-1:00 | Classes (4 h) | 3\n1:00-2:00 | Lunch | 3\n2:00-4:00 | Classes and lab (2 h) | 2\n4:00-5:30 | Commute and chat (1.5 h) | 2\n5:30-7:30 | Reels and YouTube (2 h) | 2\n7:30-8:30 | Dinner, family | 3\n8:30-9:30 | ABAP study (1 h) | 4\n9:30-10:30 | Phone, messages | 1\n\nTotal logged: 1 + 1.5 + 4 + 1 + 2 + 1.5 + 2 + 1 + 1 + 1 = 16 hours.\n\nFinding: the best energy (4) went to ABAP at 8:30 pm, but it only got 1 hour, while the 2-hour reels slot at 5:30 pm scored 2.",
+      "takeaway": "A log shows both the quantity and the timing of your hours. Here, the problem is not the lack of time but the way it is split."
+    },
+    {
+      "title": "Sorting a Tuesday to-do list",
+      "body": "Tasks: (a) submit lab record, due 5 pm today; (b) practise ABAP internal tables, placement test in three weeks; (c) reply to a group chat asking 'who is free for chai now?'; (d) watch a new web series episode; (e) fix the resume before applications open next week.\n\nSorting: (a) Q1; (b) Q2; (c) Q3, answer later; (d) Q4, enjoy it deliberately after work; (e) Q2 now, becoming Q1 if ignored.\n\nPlan: do (a) first, then block 8 pm for (b), and put (e) on Thursday.",
+      "takeaway": "Q2 items need a booked time or they quietly turn into Q1 emergencies."
+    },
+    {
+      "title": "Using an energy map",
+      "body": "Energy scores from three days: 7-9 am = 4, 9-1 classes = 3, 2-4 pm = 1.5, 5-7 pm = 2.5, 8-10 pm = 3.5.\n\nBest hours: 7-9 am and 8-10 pm. Plan: debugging practice at 7 am; email and file cleanup at 3 pm when energy is lowest; light revision at 9 pm.",
+      "takeaway": "Put difficult work where energy is high and routine work where it is low."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "time-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "time.eisenhower",
+      "prompt": "Revising ABAP internal tables for a placement test three weeks away, with nothing due today. Which quadrant is it?",
+      "options": [
+        "Q1: urgent and important",
+        "Q3: urgent but not important",
+        "Q2: important but not urgent",
+        "Q4: neither urgent nor important"
+      ],
+      "answer": 2,
+      "hint": "Ask whether anyone needs it today, and whether it matters to your goal.",
+      "why": "It matters a lot to your goal (important) but has no deadline today (not urgent), so it is Q2. It is not Q1 because nothing forces action today, which is exactly why it must be scheduled. Q3 and Q4 are wrong because the task directly serves your career goal."
+    },
+    {
+      "id": "time-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "time.audit",
+      "prompt": "An audit shows 2.5 hours a day on reels. How many hours is that in one week? (number only)",
+      "accept": ["17.5", "17.5 hours", "17.5 hrs", "17.5h", "17.5 h"],
+      "hint": "Multiply by 7.",
+      "why": "2.5 x 7 = 17.5 hours a week. Converting a daily habit into a weekly or monthly total is what makes an audit finding feel real."
+    },
+    {
+      "id": "time-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "time.audit",
+      "prompt": "A student's audit of one 24-hour day: sleep 7, classes 5, commute 1, meals 1.5, reels and WhatsApp 3.5, ABAP study 1, chores 1, YouTube 1.5, exercise 0.5, untracked 2. Write 3-5 sentences that (1) state the weekly hours spent on reels and WhatsApp, (2) name the biggest gap between the log and the goal of becoming an ABAP consultant, (3) propose one specific swap with a clock time, and (4) say which Eisenhower quadrant ABAP study belongs to.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "calc",
+          "label": "Correct weekly calculation",
+          "weight": 25,
+          "descriptors": {
+            "0": "No calculation, or the arithmetic is wrong.",
+            "1": "A calculation is attempted but the result is wrong.",
+            "2": "Correct result but without the working shown.",
+            "3": "States 3.5 x 7 = 24.5 hours, with the working."
+          },
+          "auto": { "type": "keywords", "any": ["24.5"], "min": 1, "label": "States 24.5 hours" }
+        },
+        {
+          "id": "gap",
+          "label": "Names the real gap",
+          "weight": 25,
+          "descriptors": {
+            "0": "No gap identified.",
+            "1": "A vague statement such as 'I waste time'.",
+            "2": "Identifies reels versus study, but without comparing numbers.",
+            "3": "Compares 24.5 hours of reels and messages with only 7 hours of study per week (or notes the 2 untracked hours)."
+          }
+        },
+        {
+          "id": "swap",
+          "label": "Specific swap with a time",
+          "weight": 30,
+          "descriptors": {
+            "0": "No swap proposed.",
+            "1": "A general intention such as 'study more'.",
+            "2": "A swap with a duration but no clock time or day.",
+            "3": "A concrete swap such as moving one hour of reels from 8:30 pm to ABAP practice, with a clock time."
+          }
+        },
+        {
+          "id": "quadrant",
+          "label": "Correct quadrant",
+          "weight": 20,
+          "descriptors": {
+            "0": "No quadrant named.",
+            "1": "A wrong quadrant.",
+            "2": "Quadrant 2 named without a reason.",
+            "3": "Quadrant 2 (important, not urgent) with the reason that it needs scheduling."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": ["quadrant 2", "q2", "important but not urgent", "important, not urgent", "important not urgent"],
+            "min": 1,
+            "label": "Names Quadrant 2"
+          }
+        }
+      ],
+      "modelAnswer": "Reels and WhatsApp take 3.5 hours a day, so 3.5 x 7 = 24.5 hours a week, while ABAP study gets only 1 x 7 = 7 hours. That gap is my biggest problem, and 2 hours a day are not even tracked. I will move one hour of the 8:30-9:30 pm scroll slot to ABAP practice, which makes study 2 hours a day. ABAP study is Quadrant 2: important but not urgent, so it must be scheduled in advance or it will never be done.",
+      "guidance": "A strong answer uses the actual numbers from the log, shows the multiplication, and proposes a swap you could do tomorrow, with a clock time. Common mistakes: saying 'cut social media' with no replacement, which leaves a vacuum; or proposing to add study without removing anything, which ignores the 24-hour limit. Check that your total hours after the swap still equal 24."
+    },
+    {
+      "id": "time-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "time.priorities",
+      "prompt": "It is 5 pm. Your college assignment is due at midnight (about 2 hours of work). You also planned 1 hour of ABAP practice. A classmate keeps pinging for help with a game, your phone shows 14 unread chats, and you feel tired. What is the best plan for the evening?",
+      "options": [
+        {
+          "text": "Clear the 14 chats first so that your mind is free, then see how much time is left.",
+          "score": 1,
+          "feedback": "Messages are Q3. Clearing them first spends your best remaining energy on low-importance work and risks the midnight deadline."
+        },
+        {
+          "text": "Do the assignment from 5:30 to 7:30 pm with the phone away, take a break and dinner, then do 45-60 minutes of ABAP at 8:30 pm. Reply to chats in one batch at 8 pm.",
+          "score": 3,
+          "feedback": "Q1 first, Q2 booked at a fixed time, Q3 batched, Q4 declined. The plan has arithmetic that works: 2 hours + 1 hour fits easily before midnight."
+        },
+        {
+          "text": "Skip ABAP today because the assignment is more urgent, and promise to double up tomorrow.",
+          "score": 1,
+          "feedback": "Doubling up tomorrow rarely happens. There is room for both today, so protect the Q2 task with a smaller, scheduled slot."
+        },
+        {
+          "text": "Play the game for an hour to recharge, then work at 8 pm on whatever feels doable.",
+          "score": 0,
+          "feedback": "An open-ended break with no end time plus a vague plan is how the evening disappears. Rest is fine if it is planned and capped."
+        }
+      ],
+      "why": "The best plan respects urgency (do the Q1 deadline first), protects the important but non-urgent ABAP practice with a booked slot, and contains the Q3 and Q4 items instead of letting them decide the evening."
+    }
+  ],
+  "task": {
+    "title": "Reconstruct yesterday in 30-minute blocks",
+    "brief": "Build a quick audit table of yesterday and find one change worth making this week.",
+    "steps": [
+      "On a page, write rows from your wake-up time to bedtime in 30-minute blocks.",
+      "Fill each block with what you actually did, checking your phone's screen-time and your chat history to help your memory.",
+      "Give each block an energy score from 1 to 5, then total the hours for study, phone and social, classes and travel, and rest.",
+      "Circle your two highest-energy hours and mark one Q2 task you will move into one of them tomorrow."
+    ],
+    "checklist": [
+      "My table covers a whole day",
+      "I totalled hours by category and they add up to my waking hours",
+      "I scored my energy",
+      "I picked one Q2 task and a clock time for it"
+    ],
+    "evidencePrompt": "Write your biggest time category with its total hours, and the one Q2 task and clock time you chose.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "time-1.q1",
+      "type": "mcq",
+      "concept": "time.audit",
+      "prompt": "Why is a time audit better than estimating how you spend your day?",
+      "options": [
+        "A recorded log shows where hours actually go, while memory and guesses are biased",
+        "It forces you to work every hour of the day",
+        "It proves that you are wasting most of your time",
+        "It replaces the need for a to-do list"
+      ],
+      "answer": 0,
+      "why": "An audit is a neutral record. It does not demand constant work (a rest category is fine), it is not designed to prove you are wasteful, and it does not replace planning; it feeds into it."
+    },
+    {
+      "id": "time-1.q2",
+      "type": "mcq",
+      "concept": "time.eisenhower",
+      "prompt": "Which is a Quadrant 3 task (urgent but not important)?",
+      "options": [
+        "Submitting an assignment due in two hours",
+        "Planning next month's study schedule",
+        "Watching a series purely to pass time",
+        "Replying immediately to a casual group-chat ping that does not affect your goals"
+      ],
+      "answer": 3,
+      "why": "Q3 feels pressing because someone is waiting, but it does not move your goals. The assignment is Q1, the study schedule is Q2, and the series is Q4."
+    },
+    {
+      "id": "time-1.q3",
+      "type": "mcq",
+      "concept": "time.energy",
+      "prompt": "Your focus is highest from 7 to 9 am. What is the best use of that window?",
+      "options": [
+        "Replying to routine messages",
+        "Your hardest Q2 task, such as debugging ABAP practice code",
+        "Tidying your desk and files",
+        "Catching up on news"
+      ],
+      "answer": 1,
+      "why": "High-energy hours should go to demanding, important work. Routine messages, tidying and news are low-demand tasks that fit in a slump."
+    },
+    {
+      "id": "time-1.q4",
+      "type": "fill",
+      "concept": "time.priorities",
+      "prompt": "Complete with one word: asking 'which one task would move me closest to my goal?' ranks work by ____ rather than by urgency.",
+      "accept": ["importance", "impact", "importance.", "consequence"],
+      "why": "Importance (or impact) is about the consequence for your goals. Urgency is only about the time pressure."
+    }
+  ],
+  "bank": [
+    {
+      "id": "time-1.b1",
+      "type": "mcq",
+      "concept": "time.audit",
+      "prompt": "Anil logged his waking day of 16 hours and the categories add up to only 13.5 hours. What does he do next?",
+      "options": [
+        "Ignore it; the total does not matter",
+        "Treat the 2.5 missing hours as pure waste and feel guilty",
+        "Add 2.5 hours to the biggest category to make it balance",
+        "Label the gap as untracked time and log it more carefully tomorrow, since the gap itself is a finding"
+      ],
+      "answer": 3,
+      "why": "16 - 13.5 = 2.5 hours are untracked. That gap is useful data and a cue to log more often. Guessing a category or ignoring it hides the truth, and guilt is not a method."
+    },
+    {
+      "id": "time-1.b2",
+      "type": "fill",
+      "concept": "time.eisenhower",
+      "prompt": "You must renew a certificate that expires tomorrow and it is needed for a job application you care about. Write the quadrant as a number only (1, 2, 3 or 4).",
+      "accept": ["1", "q1", "quadrant 1", "one"],
+      "why": "It has a deadline tomorrow (urgent) and matters to your goal (important), so it is Quadrant 1 and goes first."
+    },
+    {
+      "id": "time-1.b3",
+      "type": "mcq",
+      "concept": "time.energy",
+      "prompt": "A night owl scores energy 4 between 9 and 11 pm and 1 at 8 am. Where should she book a two-hour deep-study block?",
+      "options": [
+        "8 to 10 am, because mornings are said to be best",
+        "9 to 11 pm, her own high-energy window",
+        "Whenever there is a gap, since all hours are equal",
+        "Midnight, to be on the safe side"
+      ],
+      "answer": 1,
+      "why": "Your own data beats general advice. Her peak is 9 to 11 pm. Starting at midnight cuts into sleep and recovery, which lowers energy the next day."
+    }
+  ],
+  "cards": [
+    {
+      "id": "time-1.c1",
+      "concept": "time.audit",
+      "front": "How do you run a basic time audit?",
+      "back": "Record start time, activity and an energy score at each switch or every 30 minutes for 2-3 days. Total hours by category and check they add up to your waking hours."
+    },
+    {
+      "id": "time-1.c2",
+      "concept": "time.eisenhower",
+      "front": "Name the four Eisenhower quadrants and their actions.",
+      "back": "Q1 urgent and important: do now. Q2 important, not urgent: schedule. Q3 urgent, not important: limit or hand over. Q4 neither: cut."
+    },
+    {
+      "id": "time-1.c3",
+      "concept": "time.priorities",
+      "front": "How do urgent and important differ?",
+      "back": "Urgent means time pressure, often from other people. Important means it moves your own goals. Ask: which single task would move me closest to my goal?"
+    },
+    {
+      "id": "time-1.c4",
+      "concept": "time.energy",
+      "front": "Where should demanding work go in your day?",
+      "back": "In your peak-energy hours, found from your audit's energy scores. Put routine tasks like replies and chores into low-energy hours."
+    }
+  ],
+  "reflection": "Looking at how your last two days actually went, which one category of time surprised you most, and which Q2 task deserves one protected high-energy hour this week?",
+  "revision": {
+    "keyPoints": [
+      "Record what you did; a log beats memory.",
+      "Q1 do, Q2 schedule, Q3 limit, Q4 cut.",
+      "Urgent is time pressure; important is consequence for your goals.",
+      "Put hard work in peak-energy hours."
+    ],
+    "redo": "List today's tasks, tag each Q1-Q4 in two minutes, and circle the one Q2 task you will book a time for."
+  }
+}

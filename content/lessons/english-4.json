@@ -1,0 +1,344 @@
+{
+  "id": "english-4",
+  "skillId": "english",
+  "n": 4,
+  "title": "Speaking With Fluency",
+  "summary": "Speak in chunks, pause instead of using fillers, structure answers clearly and build a five-minute daily recording routine.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Speak in meaningful chunks and replace filler words with short silent pauses.",
+    "Structure a spoken answer using point, reason, example, point.",
+    "Practise with shadowing and a five-minute daily self-recording routine."
+  ],
+  "concepts": [
+    {
+      "id": "english.chunking",
+      "label": "Chunking and pace"
+    },
+    {
+      "id": "english.pausing",
+      "label": "Pausing instead of fillers"
+    },
+    {
+      "id": "english.prep-structure",
+      "label": "Point-reason-example-point answers"
+    },
+    {
+      "id": "english.practice-routine",
+      "label": "Shadowing and daily recording"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Fluency means flow, not speed",
+      "body": "In the last lesson you built better vocabulary. Now we use it aloud. Many learners believe fluent speakers talk fast. In fact fluency is about **flow**: ideas arriving in steady, meaningful groups with few stops in the wrong places. Rushing makes errors and hides your ideas; a slightly slower, steady pace is easier to understand, especially on phone calls with clients from other regions.\n\nFluent speakers do not say words one at a time. They speak in **chunks** of three to seven words that carry one idea, with a tiny pause at the boundary. Compare:\n\n- Word by word: 'I... have... completed... the... testing... of... the... module.'\n- In chunks: 'I have completed the testing / of the login module / and found three bugs.'\n\nThe second version is not faster, it just breaks at natural places: after a complete idea, before a preposition phrase, before 'and' or 'but'. To practise, take a paragraph and mark chunk boundaries with slashes, then read it aloud, pausing only at the slashes. A comfortable pace for explaining something is roughly 120 to 150 words per minute."
+    },
+    {
+      "heading": "Pause instead of filling",
+      "body": "Fillers such as *umm*, *aaa*, *like*, *you know* and *basically* appear when the brain needs time and the mouth refuses to be silent. A listener hears the filler as hesitation; a short silent pause sounds like confident thinking. A one-second pause is shorter than it feels to you.\n\nThe replacement technique has three steps:\n\n1. **Notice** your habitual filler by recording yourself once (you will find one or two favourites).\n2. **Plan the pause**: decide that when you feel the filler coming, you will close your lips and breathe for one beat.\n3. **Bridge with a phrase** if you need longer: 'Let me think for a second', 'That is a good question', or restate the question: 'So, why did we choose Node.js?'\n\nDo not aim for zero fillers on day one. Aim to halve them. In an interview, a pause before you answer shows you are thinking; a stream of 'umm' suggests you are searching for words."
+    },
+    {
+      "heading": "Structure your answer: point, reason, example, point",
+      "body": "Long, wandering answers lose listeners. The **PREP** structure gives every answer a spine:\n\n1. **Point**: state your answer in one sentence.\n2. **Reason**: give the main reason.\n3. **Example**: give one concrete example.\n4. **Point**: repeat the point, briefly, as a conclusion.\n\nWorked example. Question: 'Why do you want to become an SAP ABAP consultant?'\n\n'I want to start my career as an ABAP consultant (point) because it combines programming with real business processes (reason). In my college project I built a small inventory module, and I enjoyed turning a business rule into working logic (example). So ABAP lets me use my coding skills where they directly support business (point).'\n\nThat is four sentences and about 45 seconds. The same structure works for 'Tell me about a challenge', for stand-up updates ('Status, blocker, plan'), and for client questions. Common mistake: starting with the example and never stating the point. Lead with the point so the listener knows where you are going."
+    },
+    {
+      "heading": "Shadowing and the five-minute recording routine",
+      "body": "**Shadowing** means listening to a clear speaker for a few seconds and repeating immediately after, copying rhythm, stress and chunking, not just the words. It trains your mouth and ear together. Choose short audio of 20 to 40 seconds that is clearly spoken, play one sentence, pause it, and repeat in the same rhythm. Then repeat the whole clip along with the speaker, a half-beat behind.\n\nCombine it with a **five-minute daily routine**:\n\n- Minute 1: pick a topic (your day, a project, a concept you studied).\n- Minutes 2-3: record yourself answering with the PREP structure.\n- Minute 4: listen once and note two things: one filler habit and one word you stumbled on.\n- Minute 5: record the answer again fixing just those two things.\n\nThe second take is where improvement happens. Keep the recordings in a folder; after two weeks, listen to the first and the latest. Most learners hear the difference immediately, and hearing your own progress is a powerful motivator."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Chunking a stand-up update",
+      "body": "Slashes mark pauses: 'Yesterday I finished / the validation logic / for the order form. / Today I will write / the unit tests. / I have one blocker: / the test database is not accessible.'",
+      "takeaway": "Each chunk holds one idea of three to six words. The pauses make the update easy to follow and give you time to think."
+    },
+    {
+      "title": "Filler-heavy versus paused answer",
+      "body": "Filler: 'So, umm, basically, you know, I think, like, the project was, umm, about a, like, web app.'\n\nPaused: 'My project was a web app (pause) for tracking college library books. (pause) I built the back end in Node.js.'",
+      "takeaway": "The second version is shorter, clearer and sounds more confident, even though the speaker had to think just as long."
+    },
+    {
+      "title": "PREP in an interview",
+      "body": "Question: 'Are you comfortable working in a team?'\n\nAnswer: 'Yes, I am. Teamwork helps me learn faster. In my final-year project, three of us divided the modules, and I reviewed a teammate's code every Friday. So I enjoy working in a team and can contribute actively.'",
+      "takeaway": "A clear point, a reason, a real example and a short closing line, in about 30 seconds."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "english-4.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "english.chunking",
+      "prompt": "Which version is chunked in the most natural way?",
+      "options": [
+        "I have completed the / testing of the / login module and / found three bugs.",
+        "I have completed the testing / of the login module / and found three bugs.",
+        "I / have completed / the testing / of the login / module and found / three bugs.",
+        "I have completed the testing of the login module and found three bugs without any break."
+      ],
+      "answer": 1,
+      "hint": "Break after complete ideas, not in the middle of a noun phrase.",
+      "why": "The second splits at meaning boundaries. The first and third break noun phrases apart ('the / testing'), and the fourth gives the listener no chance to absorb the idea."
+    },
+    {
+      "id": "english-4.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "english.prep-structure",
+      "prompt": "In the PREP structure, what is the first step? Answer in one word.",
+      "accept": [
+        "point"
+      ],
+      "why": "You start with your point, a one-sentence answer, so the listener knows the direction before hearing the reasons."
+    },
+    {
+      "id": "english-4.e3",
+      "type": "scenario",
+      "level": 2,
+      "concept": "english.pausing",
+      "prompt": "In an online interview the panel asks a question you did not expect: 'Where do you see ABAP in five years?' You need a few seconds to think. What do you do?",
+      "options": [
+        {
+          "text": "Say 'umm, like, basically, you know...' until a thought arrives.",
+          "score": 0,
+          "feedback": "Fillers signal hesitation and use up time without adding content."
+        },
+        {
+          "text": "Say 'That is a good question, let me think for a second', pause for two seconds, then answer with a clear point.",
+          "score": 3,
+          "feedback": "A bridge phrase plus a silent pause shows composure, and buys the time you need."
+        },
+        {
+          "text": "Answer immediately with the first idea even if it is vague.",
+          "score": 1,
+          "feedback": "Speed is not required; a vague answer is worse than a short pause."
+        },
+        {
+          "text": "Ask them to skip the question.",
+          "score": 1,
+          "feedback": "Skipping hurts you; asking for a moment to think is acceptable, avoiding the question is not."
+        }
+      ],
+      "why": "A short silent pause or bridge phrase is professional, and the thinking time lets you structure the answer with PREP."
+    },
+    {
+      "id": "english-4.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "english.prep-structure",
+      "prompt": "Write the script of a 30 to 40 second spoken answer to: 'Tell me about a challenge you faced in a project and how you handled it.' Use PREP, mark chunk boundaries with slashes in at least one sentence, and include one bridge phrase you might use before answering.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "prep",
+          "label": "Point, reason, example, point are all present",
+          "weight": 40,
+          "descriptors": {
+            "0": "No clear point; the answer wanders.",
+            "1": "Two of the four parts are present.",
+            "2": "Three parts present or the parts are present but blurred.",
+            "3": "A clear opening point, a reason, a specific example and a closing point."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "so ",
+              "because",
+              "for example",
+              "in my"
+            ],
+            "min": 2,
+            "label": "Uses linking words such as because, for example, so"
+          }
+        },
+        {
+          "id": "chunking",
+          "label": "Chunk boundaries and bridge phrase",
+          "weight": 30,
+          "descriptors": {
+            "0": "No chunk marks or bridge phrase.",
+            "1": "Chunk marks present but break noun phrases, or no bridge phrase.",
+            "2": "Chunk marks at sensible places; bridge phrase present but generic.",
+            "3": "Chunks mark meaning boundaries and a natural bridge phrase opens the answer."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "/",
+            "flags": "",
+            "label": "Contains at least one slash marking a chunk boundary"
+          }
+        },
+        {
+          "id": "specific",
+          "label": "A concrete, specific example",
+          "weight": 30,
+          "descriptors": {
+            "0": "No example is given at all.",
+            "1": "A generic example with no detail.",
+            "2": "A real example with some detail but no result.",
+            "3": "A specific situation, action and result, with a number or named detail."
+          }
+        }
+      ],
+      "modelAnswer": "That is a good question, / let me think for a second. My biggest challenge was a deadline clash in my final-year project, / and I handled it by planning in small steps. Two weeks before submission / our database design failed, because we had not tested large data. For example, I listed the five most urgent fixes, / split them with my teammate and we met every evening for a quick check. We finished two days early. So I handle challenges by breaking them into small steps and staying in contact with my team.",
+      "guidance": "A strong answer opens with a clear point, gives a reason, then a specific story with action and result, and closes with a short summary. Mark slashes where you would pause, usually after a full idea. Common mistakes: starting with the story, using only generic statements like 'I worked hard', and forgetting to close. Read your script aloud with a timer; 30 to 40 seconds is about 80 to 100 words."
+    }
+  ],
+  "task": {
+    "title": "Your first five-minute recording",
+    "brief": "Record, review and re-record one spoken answer to find your filler habits.",
+    "steps": [
+      "Choose a question, such as 'Tell me about yourself' or 'Explain a project you built', and set a timer for five minutes.",
+      "Record a 45-second answer on your phone using point, reason, example, point.",
+      "Play it back once and note your top filler word, how many times you used it and one word you stumbled on.",
+      "Record the answer again, pausing silently instead of using the filler and chunking at natural places.",
+      "Shadow one 20-second clip of a clear speaker, sentence by sentence, from any audio or video you already have."
+    ],
+    "checklist": [
+      "I recorded two takes of the same answer",
+      "I counted my top filler word in take one",
+      "I used silent pauses in take two",
+      "I practised shadowing one short clip"
+    ],
+    "evidencePrompt": "State your question, your top filler word with its count in take one and take two, and one thing you will fix tomorrow.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "english-4.q1",
+      "type": "mcq",
+      "concept": "english.chunking",
+      "prompt": "What does fluency mainly depend on?",
+      "options": [
+        "Speaking as fast as possible",
+        "Never pausing",
+        "Using difficult vocabulary",
+        "Steady flow in meaningful chunks"
+      ],
+      "answer": 3,
+      "why": "Fluency is steady flow in meaningful groups. Speed and difficult words make speech harder to follow, and pauses are a natural part of fluent speech."
+    },
+    {
+      "id": "english-4.q2",
+      "type": "mcq",
+      "concept": "english.pausing",
+      "prompt": "What is the best replacement for the filler 'umm' while you think?",
+      "options": [
+        "A louder voice",
+        "A faster pace",
+        "A short silent pause or a bridge phrase",
+        "Repeating the last word several times"
+      ],
+      "answer": 2,
+      "why": "A silent pause or a phrase such as 'let me think' sounds composed. Speaking faster or louder does not give you thinking time."
+    },
+    {
+      "id": "english-4.q3",
+      "type": "mcq",
+      "concept": "english.prep-structure",
+      "prompt": "Which answer begins correctly with PREP?",
+      "options": [
+        "In my college project I used Node.js...",
+        "Yes, I enjoy teamwork because it helps me learn faster.",
+        "Well, there are many things to say about teamwork.",
+        "I do not know exactly, but maybe..."
+      ],
+      "answer": 1,
+      "why": "It starts with the point (yes, I enjoy teamwork) and the reason. Starting with an example, or with vague openings, hides the point."
+    },
+    {
+      "id": "english-4.q4",
+      "type": "fill",
+      "concept": "english.practice-routine",
+      "prompt": "What is the name of the technique of repeating a speaker's words immediately after hearing them, copying rhythm and stress? (one word)",
+      "accept": [
+        "shadowing"
+      ],
+      "why": "Shadowing trains rhythm, stress and chunking together."
+    }
+  ],
+  "bank": [
+    {
+      "id": "english-4.b1",
+      "type": "mcq",
+      "concept": "english.pausing",
+      "prompt": "A client asks a technical question on a call and you need time to find the answer. Which opening is best?",
+      "options": [
+        "Good question. Let me check that and confirm in a moment.",
+        "Umm... uhh... so, like... basically...",
+        "I have no idea at all.",
+        "Can we skip this topic?"
+      ],
+      "answer": 0,
+      "why": "A bridge phrase shows control and buys time. Fillers sound unsure, and refusing or skipping damages trust."
+    },
+    {
+      "id": "english-4.b2",
+      "type": "fill",
+      "concept": "english.prep-structure",
+      "prompt": "In a three-line stand-up update 'Status, blocker, plan', which of these three items would you say second? (one word)",
+      "accept": [
+        "blocker"
+      ],
+      "why": "The order is status first, blocker second and plan third, which follows the point-reason logic of a short update."
+    },
+    {
+      "id": "english-4.b3",
+      "type": "mcq",
+      "concept": "english.practice-routine",
+      "prompt": "In a five-minute recording routine, what is the most useful step after listening to your first take?",
+      "options": [
+        "Delete it and never listen again",
+        "Record again, fixing just one or two points you noticed",
+        "Record ten more new topics",
+        "Share it immediately with everyone"
+      ],
+      "answer": 1,
+      "why": "Focused repetition on one or two points drives improvement. Deleting, spreading attention over ten new topics or sharing early do not."
+    }
+  ],
+  "cards": [
+    {
+      "id": "english-4.c1",
+      "concept": "english.chunking",
+      "front": "What is a chunk and how long is it?",
+      "back": "A group of three to seven words carrying one idea, followed by a tiny pause. Break after complete ideas, not inside noun phrases."
+    },
+    {
+      "id": "english-4.c2",
+      "concept": "english.pausing",
+      "front": "How do you replace a filler word?",
+      "back": "Notice your habitual filler, plan a one-beat silent pause, and use a bridge phrase such as 'Let me think for a second' if you need longer."
+    },
+    {
+      "id": "english-4.c3",
+      "concept": "english.prep-structure",
+      "front": "What does PREP stand for?",
+      "back": "Point, Reason, Example, Point. Lead with the answer, support it, show one concrete example, then close with the point again."
+    },
+    {
+      "id": "english-4.c4",
+      "concept": "english.practice-routine",
+      "front": "Outline the five-minute daily routine.",
+      "back": "Pick a topic, record a PREP answer, listen and note one filler plus one stumble, then re-record fixing just those two things."
+    }
+  ],
+  "reflection": "When do you feel least fluent: with strangers, in technical discussions or in interviews, and what is one small thing you can do before the next such moment to reduce the pressure?",
+  "revision": {
+    "keyPoints": [
+      "Fluency is flow in chunks, not speed.",
+      "Pause silently or use a bridge phrase instead of fillers.",
+      "Answer with Point, Reason, Example, Point.",
+      "Shadow short clips and re-record a second take daily."
+    ],
+    "redo": "Answer one question aloud for 30 seconds using PREP, pausing instead of filling, and notice your filler count."
+  }
+}

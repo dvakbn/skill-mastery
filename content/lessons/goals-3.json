@@ -1,0 +1,332 @@
+{
+  "id": "goals-3",
+  "skillId": "goals",
+  "n": 3,
+  "title": "Tracking, Feedback and Obstacles",
+  "summary": "Run a weekly scorecard, plan for obstacles with if-then plans and WOOP, and adjust a plan without abandoning the goal.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build a simple weekly scorecard and review it in ten minutes.",
+    "Write if-then plans and a WOOP plan for a likely obstacle.",
+    "Adjust a failing plan by changing the method rather than quitting the goal."
+  ],
+  "concepts": [
+    {
+      "id": "goals.scorecard",
+      "label": "Weekly scorecard"
+    },
+    {
+      "id": "goals.if-then",
+      "label": "If-then plans"
+    },
+    {
+      "id": "goals.woop",
+      "label": "WOOP"
+    },
+    {
+      "id": "goals.adjusting",
+      "label": "Adjusting without quitting"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "A plan you never check is a wish",
+      "body": "Last lesson you broke a goal into milestones and indicators. Now you need to find out whether the plan is working, early enough to fix it. Most people check only when they feel guilty, which means they check too late and read the numbers as a verdict on themselves. A scorecard turns checking into a calm, weekly routine."
+    },
+    {
+      "heading": "The weekly scorecard",
+      "body": "A **weekly scorecard** is a small table you fill in once a week, ideally at a fixed time such as Sunday evening. Keep it to three to five rows. Each row is a leading indicator with a target and an actual number, for example: ABAP programs written (target 4, actual 3), mock interview questions answered aloud (target 20, actual 25), applications sent (target 5, actual 0). Add one line for a lagging result if you have one, and one line for \"what got in the way\".\n\nThen spend ten minutes asking three questions. What worked? What did not? What will I change next week? Change one thing only, because changing five makes it impossible to know what helped. Treat a missed target as data, not a character flaw. A row that stays at zero for two weeks is telling you the task is too big, badly scheduled or unimportant."
+    },
+    {
+      "heading": "If-then plans and WOOP",
+      "body": "Obstacles are predictable: tiredness, a family function, a laptop crash, a hostel power cut. An **if-then plan** decides your response in advance: \"If I get home after 8 pm, then I will do the 20-minute minimum version before dinner.\" \"If a bug takes more than 30 minutes, then I will write down what I tried and ask in the group.\" The cue is concrete, so the action starts without a debate.\n\n**WOOP** gives you a four-step way to build such plans: **Wish** (your goal for the period), **Outcome** (the best result and how it would feel), **Obstacle** (the real inner obstacle most likely to stop you, such as \"I will feel tired and open Instagram\"), and **Plan** (an if-then plan against that obstacle). The obstacle step is the key. Positive thinking alone tends to lower effort because the mind feels the goal is already won; contrasting it with a realistic obstacle prepares you to act."
+    },
+    {
+      "heading": "Adjust the plan, not your goal",
+      "body": "When numbers are poor, there are four moves, in order. First, **diagnose**: is the target unrealistic, is the time slot wrong, or is the task unclear? Second, **shrink or reshape** the action, for example from 60 minutes at 6 am to 30 minutes after dinner. Third, **move the deadline** only if the reason is real and you reset milestones. Fourth, **drop the goal**, but only deliberately and with a written reason, never by quiet drifting.\n\nQuitting a goal because a plan failed confuses the two. The goal is where you want to go; the plan is a route. If the road is blocked, you change the route."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A scorecard entry",
+      "body": "Week 4 of Karan's ABAP prep. Programs written: target 4, actual 2. Practice questions: target 30, actual 34. Applications: target 3, actual 3. What got in the way: office hours of his internship ran late on Tuesday and Thursday. Change next week: move program writing to Saturday morning and keep weekday evenings for questions only.",
+      "takeaway": "One diagnosed cause and one change, instead of general guilt."
+    },
+    {
+      "title": "WOOP in action",
+      "body": "Wish: finish three practice reports this month. Outcome: I feel ready for the technical round. Obstacle: after dinner I feel sleepy and scroll my phone. Plan: if I finish dinner, then I will put the phone in the other room and open the editor for ten minutes before anything else.",
+      "takeaway": "The plan targets the obstacle you really expect, with a concrete cue and a small action."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "goals-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "goals.scorecard",
+      "prompt": "Which scorecard is best?",
+      "options": [
+        "Three to five leading indicators with targets and actuals plus one line on what got in the way",
+        "One row called \"progress\" rated by feeling",
+        "A ten-page diary every night",
+        "Only the final exam result"
+      ],
+      "answer": 0,
+      "why": "A short table of controllable actions, reviewed weekly, makes patterns visible. Feelings and final results alone are too vague or too late."
+    },
+    {
+      "id": "goals-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "goals.if-then",
+      "prompt": "Complete the format: \"If [cue], ____ I will [action].\" (one word)",
+      "accept": [
+        "then"
+      ],
+      "why": "If-then plans link a concrete cue to a pre-decided action."
+    },
+    {
+      "id": "goals-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "goals.woop",
+      "prompt": "You wish to run three mornings a week. The honest obstacle is that you will switch off the alarm and go back to sleep. Which plan fits the WOOP method best?",
+      "options": [
+        {
+          "text": "Think hard about how good you will feel as a fit person.",
+          "score": 0,
+          "feedback": "Only imagining success without the obstacle tends to reduce effort."
+        },
+        {
+          "text": "If the alarm rings, then I will put on my shoes before I do anything else, and my alarm stays across the room.",
+          "score": 3,
+          "feedback": "It names the real obstacle and gives a concrete cue and a small first action."
+        },
+        {
+          "text": "Promise to try harder next week.",
+          "score": 1,
+          "feedback": "There is no cue or action, so the same obstacle will win again."
+        },
+        {
+          "text": "Buy expensive running gear.",
+          "score": 1,
+          "feedback": "Spending addresses motivation briefly, not the sleepy moment that stops you."
+        }
+      ],
+      "why": "WOOP works because it pairs a realistic inner obstacle with a specific if-then action."
+    },
+    {
+      "id": "goals-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "goals.adjusting",
+      "prompt": "A friend wants to finish 20 SQL practice sets in a month. After two weeks she has done 3 and says \"I am just not disciplined, I will give up.\" Write a reply that diagnoses one or two likely causes, proposes one specific change to the plan, and keeps the goal alive.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "diagnosis",
+          "label": "Diagnoses likely causes",
+          "weight": 30,
+          "descriptors": {
+            "0": "Blames character.",
+            "1": "Names a cause vaguely.",
+            "2": "Names one plausible cause.",
+            "3": "Names one or two plausible, specific causes and asks a question."
+          }
+        },
+        {
+          "id": "change",
+          "label": "Specific plan change",
+          "weight": 35,
+          "descriptors": {
+            "0": "No change.",
+            "1": "Vague change like \"try harder\".",
+            "2": "A change but not specific.",
+            "3": "Concrete change with time, size or cue."
+          }
+        },
+        {
+          "id": "goal",
+          "label": "Keeps the goal while adjusting",
+          "weight": 20,
+          "descriptors": {
+            "0": "Tells her to quit.",
+            "1": "Ignores the goal.",
+            "2": "Mentions the goal.",
+            "3": "Separates goal from plan and offers a revised target if needed."
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Supportive and non-judgemental",
+          "weight": 15,
+          "descriptors": {
+            "0": "Harsh.",
+            "1": "Neutral.",
+            "2": "Kind.",
+            "3": "Kind and treats the miss as data."
+          }
+        }
+      ],
+      "modelAnswer": "Three out of 20 in two weeks is data, not a verdict on you. Was it time, difficulty or starting? Let us shrink the unit to one set after dinner, with a fixed 9 pm slot, and aim for 12 by month-end. The goal stays; only the route changes. We will check Sunday.",
+      "guidance": "A strong reply treats the miss as data, proposes one specific change such as a smaller daily unit, and separates goal from plan. Avoid lecturing, generic encouragement, or telling her to simply work harder. Rate yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "Build and run a weekly scorecard",
+    "brief": "Create a scorecard for one real goal and write one if-then plan for your biggest obstacle.",
+    "steps": [
+      "Choose one goal and three leading indicators with weekly targets.",
+      "Fill in last week's actuals honestly.",
+      "Write a WOOP in four short lines.",
+      "Choose one change for next week and set a calendar reminder for the next review."
+    ],
+    "checklist": [
+      "I have three indicators with targets",
+      "I recorded real actuals",
+      "I wrote an if-then plan",
+      "I scheduled the next review"
+    ],
+    "evidencePrompt": "Write your scorecard rows and your if-then plan.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "goals-3.q1",
+      "type": "mcq",
+      "concept": "goals.scorecard",
+      "prompt": "How many things should you change after a weekly review?",
+      "options": [
+        "Everything",
+        "Nothing ever",
+        "About one",
+        "At least five"
+      ],
+      "answer": 2,
+      "why": "Changing one thing keeps cause and effect visible."
+    },
+    {
+      "id": "goals-3.q2",
+      "type": "mcq",
+      "concept": "goals.if-then",
+      "prompt": "Which is an if-then plan?",
+      "options": [
+        "I will be more careful",
+        "If the bug takes 30 minutes, then I will ask in the group with notes of what I tried",
+        "Try to stay focused",
+        "Work hard"
+      ],
+      "answer": 1,
+      "why": "It has a specific cue and a specific response."
+    },
+    {
+      "id": "goals-3.q3",
+      "type": "fill",
+      "concept": "goals.woop",
+      "prompt": "In WOOP the letters stand for Wish, Outcome, Obstacle and ____. (one word)",
+      "accept": [
+        "plan"
+      ],
+      "why": "The final step is to make a Plan, usually an if-then plan, for the obstacle."
+    },
+    {
+      "id": "goals-3.q4",
+      "type": "mcq",
+      "concept": "goals.adjusting",
+      "prompt": "The first move when numbers are poor is to:",
+      "options": [
+        "Quit",
+        "Diagnose why",
+        "Double the target",
+        "Hide the numbers"
+      ],
+      "answer": 1,
+      "why": "Diagnosis tells you whether to shrink, reschedule or clarify the task."
+    }
+  ],
+  "bank": [
+    {
+      "id": "goals-3.b1",
+      "type": "mcq",
+      "concept": "goals.scorecard",
+      "prompt": "A row on your scorecard shows zero for two weeks. Most likely meaning?",
+      "options": [
+        "You are lazy",
+        "The task is too big, badly scheduled or unimportant",
+        "The scorecard is broken",
+        "It will fix itself"
+      ],
+      "answer": 1,
+      "why": "Persistent zero is information about the plan, not about your worth."
+    },
+    {
+      "id": "goals-3.b2",
+      "type": "mcq",
+      "concept": "goals.woop",
+      "prompt": "In WOOP, the Obstacle should be:",
+      "options": [
+        "An external event no one can control",
+        "The realistic inner or situational thing most likely to stop you",
+        "A reason to quit",
+        "The goal itself"
+      ],
+      "answer": 1,
+      "why": "Naming the likeliest real obstacle lets you plan a response."
+    },
+    {
+      "id": "goals-3.b3",
+      "type": "fill",
+      "concept": "goals.adjusting",
+      "prompt": "Dropping a goal is acceptable only if it is done deliberately and with a written ____. (one word)",
+      "accept": [
+        "reason",
+        "reasons"
+      ],
+      "why": "A written reason separates a real decision from quiet drifting."
+    }
+  ],
+  "cards": [
+    {
+      "id": "goals-3.c1",
+      "concept": "goals.scorecard",
+      "front": "What goes on a weekly scorecard?",
+      "back": "Three to five leading indicators with target and actual, one lagging result, and a line on what got in the way. Review in ten minutes."
+    },
+    {
+      "id": "goals-3.c2",
+      "concept": "goals.if-then",
+      "front": "What is the if-then format?",
+      "back": "If [specific cue], then I will [specific small action]. It removes the in-the-moment debate."
+    },
+    {
+      "id": "goals-3.c3",
+      "concept": "goals.woop",
+      "front": "What does WOOP stand for?",
+      "back": "Wish, Outcome, Obstacle, Plan. The key is naming the real obstacle and making an if-then plan for it."
+    },
+    {
+      "id": "goals-3.c4",
+      "concept": "goals.adjusting",
+      "front": "Order of moves when a plan fails?",
+      "back": "Diagnose, shrink or reshape the action, move the deadline with new milestones, and only then drop the goal deliberately."
+    }
+  ],
+  "reflection": "Which obstacle has stopped you most often on past goals, and what exact if-then plan will you write for it?",
+  "revision": {
+    "keyPoints": [
+      "Check progress weekly with a short scorecard.",
+      "Change one thing at a time after review.",
+      "If-then plans pre-decide your response to obstacles.",
+      "Adjust the route, not the destination."
+    ],
+    "redo": "Write one if-then plan for the obstacle most likely to hit your goal this week."
+  }
+}

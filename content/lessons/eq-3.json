@@ -1,0 +1,347 @@
+{
+  "id": "eq-3",
+  "skillId": "eq",
+  "n": 3,
+  "title": "Empathy and Active Listening",
+  "summary": "Listen at a deeper level, reflect and paraphrase what you hear, validate feelings and ask open questions before offering any fix.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Recognise the three levels of listening and move up to focused listening.",
+    "Paraphrase and validate what someone says without judging or fixing.",
+    "Ask open questions that help the other person think and speak."
+  ],
+  "concepts": [
+    {
+      "id": "eq.levels-of-listening",
+      "label": "Levels of listening"
+    },
+    {
+      "id": "eq.reflecting",
+      "label": "Reflecting and paraphrasing"
+    },
+    {
+      "id": "eq.validating",
+      "label": "Validating feelings"
+    },
+    {
+      "id": "eq.open-questions",
+      "label": "Open questions and not fixing too early"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Hearing is not listening",
+      "body": "In the last lesson you practised pausing before you react to your own emotions. Empathy is the mirror skill: noticing and understanding what another person feels. Most of us believe we listen well, yet we spend much of a conversation preparing our own reply. People feel respected when they are truly heard, and that feeling often matters more than the advice they receive.\n\nThere are three useful **levels of listening**. At level one, *internal listening*, your attention is on yourself: your opinion, your story, your next sentence. At level two, *focused listening*, your attention is on the speaker: the words, the tone, the pauses. At level three, *global listening*, you also notice the room, the energy and what is not being said. For most conversations the aim is a steady level two."
+    },
+    {
+      "heading": "Reflecting and paraphrasing",
+      "body": "**Paraphrasing** means saying back, in your own words, what you understood. **Reflecting** goes one step further and names the feeling underneath. Suppose your teammate Ankit says, \"The client changed the requirement again, and I have already rewritten the report twice.\" A paraphrase: \"So the scope moved after you had already redone the work.\" A reflection: \"That sounds exhausting, and maybe a bit unfair.\"\n\nThese lines do three jobs. They prove you were listening, they let the speaker correct you (\"not unfair, just worrying about the deadline\"), and they slow the conversation so feelings can settle. Keep reflections tentative, using phrases like \"it sounds like\" or \"I am guessing\", because you are offering a guess, not a diagnosis."
+    },
+    {
+      "heading": "Validating before solving",
+      "body": "**Validation** means acknowledging that a feeling makes sense given the person's situation. It does not mean you agree with every opinion or that they are right. \"Anyone would be nervous before a first technical interview\" validates. \"You should not be nervous, it is easy\" dismisses.\n\nThe most common mistake is **fixing too early**. When a friend says she is stressed about an exam, you rush to give a study timetable. Often she wanted to be understood first. A good sequence is: listen, reflect, validate, and only then ask, \"Would you like ideas, or do you mostly need me to listen?\" That question alone prevents many arguments."
+    },
+    {
+      "heading": "Open questions and a practice routine",
+      "body": "A **closed question** invites yes or no: \"Did you finish the work?\" An **open question** invites a story: \"How did the day go?\" or \"What was the hardest part?\" Prefer *what* and *how* over *why*, since \"Why did you do that?\" can sound like blame. Useful follow-ups are \"Tell me more\" and \"What happened next?\"\n\nTo practise, choose one conversation a day and follow three rules: put the phone away, wait two seconds after they finish before you speak, and paraphrase once before sharing your view. Notice how often the speaker adds something new after you reflect. That extra detail is usually the real issue."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Fixing versus listening",
+      "body": "Riya says, \"My viva is on Monday and I keep blanking out.\" Version A, Sameer replies, \"Just revise the slides three times, simple.\" Version B, he says, \"Blanking out before a viva sounds really stressful. What happens when it occurs?\" Riya then admits it only happens when she imagines the external examiner's face. Only after that does Sameer ask whether she wants practice questions.",
+      "takeaway": "The second reply reflects, validates and opens the topic, and it surfaces the real problem the advice would have missed."
+    },
+    {
+      "title": "Levels of listening in a client call",
+      "body": "During a call with a client in Pune, a junior consultant notices the client's sentences getting shorter when the go-live date is mentioned. She stops taking notes, paraphrases the date concern and asks, \"What worries you most about that timeline?\" The client then reveals that his own manager has set an unrealistic target.",
+      "takeaway": "Noticing tone and pauses is focused listening, and it turned a routine call into useful information."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "eq-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "eq.levels-of-listening",
+      "prompt": "While a friend talks about her problem, you are mostly thinking about a similar story of your own to share. Which level is this?",
+      "options": [
+        "Focused listening",
+        "Global listening",
+        "Internal listening",
+        "Reflective listening"
+      ],
+      "answer": 2,
+      "why": "Your attention is on your own story, which is internal listening (level one). Focused listening keeps attention on the speaker, and global listening also reads the wider situation."
+    },
+    {
+      "id": "eq-3.e2",
+      "level": 1,
+      "type": "mcq",
+      "concept": "eq.reflecting",
+      "prompt": "Priya says, \"The group is not replying and the submission is tomorrow.\" Which is the best reflection?",
+      "options": [
+        "It is only a small assignment, relax.",
+        "You should message them again immediately.",
+        "Group work is always like this.",
+        "It sounds frustrating, with the deadline so close and no replies."
+      ],
+      "answer": 3,
+      "why": "It names the feeling and the situation tentatively. The others dismiss, fix too early or generalise."
+    },
+    {
+      "id": "eq-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "eq.validating",
+      "prompt": "A junior says, \"I made a mistake in the test data and I feel terrible.\" You are his senior. What is the best reply?",
+      "options": [
+        {
+          "text": "It is just test data, nobody will notice.",
+          "score": 1,
+          "feedback": "This minimises the feeling and tells him not to feel it."
+        },
+        {
+          "text": "Feeling bad makes sense when you care about your work. What happened?",
+          "score": 3,
+          "feedback": "It validates the feeling without excusing the mistake and invites the story."
+        },
+        {
+          "text": "You should have double-checked, so learn from this.",
+          "score": 0,
+          "feedback": "A lecture before listening makes people defensive."
+        },
+        {
+          "text": "Here is a five-step checklist to avoid errors.",
+          "score": 1,
+          "feedback": "A fix may help later, but offered first it skips the feeling."
+        }
+      ],
+      "why": "Validation acknowledges that the feeling makes sense, then an open question invites detail before any solution."
+    },
+    {
+      "id": "eq-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "eq.open-questions",
+      "prompt": "Your cousin tells you, \"I do not think engineering is for me, but my parents will be upset.\" Write the first four things you would say or ask: one paraphrase, one reflection of a feeling, one validation and two open questions. Do not give advice.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "paraphrase",
+          "label": "Paraphrase in own words",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Repeats words exactly.",
+            "2": "Paraphrases but adds judgement.",
+            "3": "Accurate paraphrase in your own words with no judgement."
+          }
+        },
+        {
+          "id": "reflection",
+          "label": "Names the feeling tentatively",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Names a wrong or harsh feeling.",
+            "2": "Names a feeling directly.",
+            "3": "Names a likely feeling tentatively (\"it sounds like\")."
+          }
+        },
+        {
+          "id": "questions",
+          "label": "Open questions",
+          "weight": 30,
+          "descriptors": {
+            "0": "Only closed questions.",
+            "1": "One open question.",
+            "2": "Two questions, one closed.",
+            "3": "Two genuine open what or how questions."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "what",
+              "how",
+              "tell me more"
+            ],
+            "min": 1,
+            "label": "Uses open question words"
+          }
+        },
+        {
+          "id": "nofix",
+          "label": "No advice or fixing",
+          "weight": 25,
+          "descriptors": {
+            "0": "Gives clear advice.",
+            "1": "Hints at advice.",
+            "2": "Mostly listening with one suggestion.",
+            "3": "Entirely listening and exploring."
+          }
+        }
+      ],
+      "modelAnswer": "So you are feeling unsure about the course, and you are worried about how your parents will react. It sounds like you are carrying two pressures at once. Anyone would find that heavy. What is it about engineering that does not feel right? How do you imagine your parents would take it if you told them?",
+      "guidance": "A strong answer stays with the cousin: paraphrase, name a likely feeling, validate, and ask what and how questions. Common mistakes are adding advice such as \"talk to them tonight\", using why questions that sound like blame, and reflecting with certainty instead of guessing. Score yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "One conversation, three listening moves",
+    "brief": "Have one real conversation where you only use listening skills for the first five minutes, then log what you noticed.",
+    "steps": [
+      "Pick a friend, sibling or classmate and ask how their week has been.",
+      "Put your phone away and wait two seconds before each reply.",
+      "Paraphrase at least twice and reflect one feeling tentatively.",
+      "Ask two open questions and hold back advice until they ask or you check.",
+      "Write down what new information appeared that you would not have heard otherwise."
+    ],
+    "checklist": [
+      "I paraphrased at least twice",
+      "I reflected one feeling",
+      "I asked two open questions",
+      "I did not fix early"
+    ],
+    "evidencePrompt": "Describe the conversation, one thing you reflected, and what new detail you learnt.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "eq-3.q1",
+      "type": "mcq",
+      "concept": "eq.levels-of-listening",
+      "prompt": "Which level of listening is the best default in a conversation?",
+      "options": [
+        "Internal, focused on your reply",
+        "Focused, on the speaker",
+        "None, wait for your turn",
+        "Global only, ignoring words"
+      ],
+      "answer": 1,
+      "why": "Focused listening keeps your attention on the speaker and is the steady aim for most conversations."
+    },
+    {
+      "id": "eq-3.q2",
+      "type": "fill",
+      "concept": "eq.reflecting",
+      "prompt": "Saying back in your own words what someone said is called ____. (one word)",
+      "accept": [
+        "paraphrasing",
+        "paraphrase"
+      ],
+      "why": "Paraphrasing shows understanding and lets the speaker correct you."
+    },
+    {
+      "id": "eq-3.q3",
+      "type": "mcq",
+      "concept": "eq.validating",
+      "prompt": "Which statement validates?",
+      "options": [
+        "Do not worry, it is nothing.",
+        "You should not feel that way.",
+        "It makes sense that you feel anxious before a first interview.",
+        "I felt worse than you at that age."
+      ],
+      "answer": 2,
+      "why": "Validation says the feeling is understandable. The other options dismiss, correct or redirect to yourself."
+    },
+    {
+      "id": "eq-3.q4",
+      "type": "mcq",
+      "concept": "eq.open-questions",
+      "prompt": "Which is an open question?",
+      "options": [
+        "Did you like the training?",
+        "Was it difficult?",
+        "Are you coming tomorrow?",
+        "What stood out for you in the training?"
+      ],
+      "answer": 3,
+      "why": "It cannot be answered with yes or no, so it invites a fuller answer."
+    }
+  ],
+  "bank": [
+    {
+      "id": "eq-3.b1",
+      "type": "mcq",
+      "concept": "eq.open-questions",
+      "prompt": "A colleague seems quiet after a review meeting. Which opening is most likely to help?",
+      "options": [
+        "Why are you upset?",
+        "How are you finding the feedback so far?",
+        "You should not take reviews personally.",
+        "Are you fine?"
+      ],
+      "answer": 1,
+      "why": "A gentle what or how question invites sharing. A why question can feel like blame and a yes or no question is easy to dodge."
+    },
+    {
+      "id": "eq-3.b2",
+      "type": "mcq",
+      "concept": "eq.levels-of-listening",
+      "prompt": "In a team call, you notice one member has stopped speaking for ten minutes. This noticing is mostly:",
+      "options": [
+        "Internal listening",
+        "Closed listening",
+        "Global listening",
+        "Passive listening"
+      ],
+      "answer": 2,
+      "why": "Noticing the group energy and what is not being said is global listening."
+    },
+    {
+      "id": "eq-3.b3",
+      "type": "fill",
+      "concept": "eq.validating",
+      "prompt": "Before offering a solution, a good question to ask is \"Do you want ideas, or do you mostly need me to ____?\" (one word)",
+      "accept": [
+        "listen"
+      ],
+      "why": "Checking what the person needs prevents fixing too early."
+    }
+  ],
+  "cards": [
+    {
+      "id": "eq-3.c1",
+      "concept": "eq.levels-of-listening",
+      "front": "What are the three levels of listening?",
+      "back": "Internal (attention on yourself), focused (attention on the speaker) and global (also the room, tone and silence). Aim for focused listening most of the time."
+    },
+    {
+      "id": "eq-3.c2",
+      "concept": "eq.reflecting",
+      "front": "Paraphrase versus reflection?",
+      "back": "A paraphrase restates the content in your words. A reflection names the likely feeling, tentatively, such as \"it sounds like you are frustrated\"."
+    },
+    {
+      "id": "eq-3.c3",
+      "concept": "eq.validating",
+      "front": "What does validating mean?",
+      "back": "Acknowledging that a feeling makes sense in the person's situation, without necessarily agreeing with every opinion or excusing a mistake."
+    },
+    {
+      "id": "eq-3.c4",
+      "concept": "eq.open-questions",
+      "front": "Why not fix early?",
+      "back": "Advice before understanding skips the feeling and often misses the real problem. Listen, reflect, validate, then ask whether they want ideas."
+    }
+  ],
+  "reflection": "Think of a recent conversation where you jumped to advice. What might the other person have said if you had reflected first?",
+  "revision": {
+    "keyPoints": [
+      "Aim for focused listening, attention on the speaker.",
+      "Paraphrase content and reflect feelings tentatively.",
+      "Validate that feelings make sense without lecturing.",
+      "Ask open what and how questions and delay fixing."
+    ],
+    "redo": "In your next conversation paraphrase once before you share your view."
+  }
+}

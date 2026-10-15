@@ -1,0 +1,324 @@
+{
+  "id": "presentation-2",
+  "skillId": "presentation",
+  "n": 2,
+  "title": "Slides and Visuals",
+  "summary": "Make slides that support a talk: one idea each, headlines that state the message, simple charts and useful speaker notes.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Write a slide headline that states the message.",
+    "Choose a simple chart and remove clutter.",
+    "Move detail from slides into speaker notes."
+  ],
+  "concepts": [
+    {
+      "id": "presentation.one-idea",
+      "label": "One idea per slide"
+    },
+    {
+      "id": "presentation.headline-message",
+      "label": "Headline as message"
+    },
+    {
+      "id": "presentation.simple-charts",
+      "label": "Simple charts"
+    },
+    {
+      "id": "presentation.speaker-notes",
+      "label": "Speaker notes"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Slides support the speaker",
+      "body": "Slides are not your script or your handout. They are visual support for what you say. If the audience can read the slide faster than you can speak, they stop listening to you. A good slide is understood in about three seconds, leaving attention for your voice. Aim for large text, few words and one clear picture. A useful check is the 3-second test: show the slide to a friend for three seconds, hide it and ask what the point was. If they cannot say, the slide is doing too much. Also remember that colour, contrast and font size matter in a real room: projectors wash out light colours and the back row sees small text as noise."
+    },
+    {
+      "heading": "One idea per slide, with a message headline",
+      "body": "Each slide should carry **one idea**. If you need the word \"and\" in the headline, consider two slides. Replace topic labels with **message headlines**: instead of \"Sales\" write \"Sales doubled after the app launch\". A reader who reads only the headlines in order should understand your whole argument. Keep headlines to one or two lines and below, supporting content: one image, chart or three short points at most. For a ten-minute talk, six to ten slides are usually plenty. If your deck has thirty slides, you probably have thirty ideas, and the audience will remember none of them."
+    },
+    {
+      "heading": "Simple charts",
+      "body": "Choose the chart for the question. **Line** charts show change over time. **Bar** charts compare categories. A **table** is good for exact values. Avoid 3-D effects, pie charts with many slices and decoration. Remove gridlines, extra colours and legends where labels can sit directly on the data. Use one highlight colour for the point you want noticed and grey for the rest. Always label axes with units, and start bar charts at zero so that sizes are not exaggerated."
+    },
+    {
+      "heading": "Speaker notes and text walls",
+      "body": "A **text wall** is a slide of full sentences. Move detail into **speaker notes** or a separate handout. Notes should hold your key phrases, numbers, transitions to the next slide and timing marks, not a script to read aloud. For code or technical diagrams, show only the lines or boxes that matter and highlight them. Check readability by viewing the slide from the back of the room or at small size: if you cannot read it, resize it. Use consistent fonts and spacing so the design stays out of the way. Pick one or two fonts, one main colour and one accent colour for the whole deck. Align items to a grid and leave empty space; white space is not wasted, it directs attention. Finally, always test the file on the actual projector or screen share before the session."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Headline rewrite",
+      "body": "Before: \"Project Update\". After: \"We will launch two weeks early if testing finishes by Friday\". The second tells the audience what to remember.",
+      "takeaway": "A headline should be a message, not a label."
+    },
+    {
+      "title": "Clutter removed",
+      "body": "Arun's chart had five colours, a legend, gridlines and a 3-D effect. He kept one line in blue, labelled the end value and greyed the rest. The trend became obvious in three seconds.",
+      "takeaway": "Simplify and highlight the one thing that matters."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "presentation-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "presentation.headline-message",
+      "prompt": "Which headline states a message?",
+      "options": [
+        "Results",
+        "Quarterly numbers",
+        "Support tickets fell 30% after the new FAQ",
+        "Overview"
+      ],
+      "answer": 2,
+      "why": "It makes a specific claim the slide proves."
+    },
+    {
+      "id": "presentation-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "presentation.simple-charts",
+      "prompt": "A ____ chart is best for showing change over time. (one word)",
+      "accept": [
+        "line"
+      ],
+      "why": "Line charts show trends over time."
+    },
+    {
+      "id": "presentation-2.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "presentation.one-idea",
+      "prompt": "A slide has a paragraph of text about why you chose Node.js for a project. Rewrite it as one slide: write the headline, what visual or three short points go on the slide, and what goes into the speaker notes.",
+      "minWords": 42,
+      "rubric": [
+        {
+          "id": "headline",
+          "label": "Message headline",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "A label only.",
+            "2": "A message but long.",
+            "3": "A concise message headline."
+          }
+        },
+        {
+          "id": "slide",
+          "label": "Slide content is minimal",
+          "weight": 35,
+          "descriptors": {
+            "0": "Still a text wall.",
+            "1": "Too many points.",
+            "2": "Mostly minimal.",
+            "3": "One visual or three short points."
+          }
+        },
+        {
+          "id": "notes",
+          "label": "Detail moved to notes",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Notes copy the slide.",
+            "2": "Some useful detail.",
+            "3": "Clear key phrases and numbers."
+          }
+        }
+      ],
+      "modelAnswer": "Headline: \"Node.js let us ship the API in two weeks\". Slide: three points with icons: one language for front and back end, large package library, fast to prototype. Notes: mention the team already knew JavaScript, the 120-package ecosystem we used, and the two-week delivery date; transition to the testing slide.",
+      "guidance": "Good rewrites turn a label into a message, keep three short points and move detail to notes. Avoid pasting the paragraph into a smaller font."
+    },
+    {
+      "id": "presentation-2.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "presentation.simple-charts",
+      "prompt": "You must show monthly signups for 12 months. Which choice is best?",
+      "options": [
+        {
+          "text": "A 3-D pie chart of 12 slices.",
+          "score": 0,
+          "feedback": "Pies with many slices are hard to compare."
+        },
+        {
+          "text": "A line chart with the peak highlighted and axes labelled.",
+          "score": 3,
+          "feedback": "It shows trend clearly with a highlighted point."
+        },
+        {
+          "text": "A table with 12 rows in small font.",
+          "score": 1,
+          "feedback": "A table hides the trend."
+        },
+        {
+          "text": "A photo of a crowd.",
+          "score": 0,
+          "feedback": "Decoration does not show data."
+        }
+      ],
+      "why": "Match the chart to the question and remove clutter."
+    }
+  ],
+  "task": {
+    "title": "Redesign three slides",
+    "brief": "Improve three slides from an old presentation, or create three new ones.",
+    "steps": [
+      "Rewrite each headline as a message.",
+      "Cut each slide to one idea and one visual.",
+      "Move removed detail to speaker notes.",
+      "View each slide at small size to check readability."
+    ],
+    "checklist": [
+      "I wrote message headlines",
+      "I kept one idea per slide",
+      "I used notes",
+      "I checked readability"
+    ],
+    "evidencePrompt": "Write your three new headlines and what you removed.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "presentation-2.q1",
+      "type": "mcq",
+      "concept": "presentation.one-idea",
+      "prompt": "A good slide is understood in about:",
+      "options": [
+        "Three seconds",
+        "Three minutes",
+        "Ten minutes",
+        "One hour"
+      ],
+      "answer": 0,
+      "why": "Quick understanding leaves attention for the speaker."
+    },
+    {
+      "id": "presentation-2.q2",
+      "type": "mcq",
+      "concept": "presentation.headline-message",
+      "prompt": "A message headline helps because:",
+      "options": [
+        "It looks nice",
+        "Headlines alone tell the story",
+        "It saves ink",
+        "It avoids speaking"
+      ],
+      "answer": 1,
+      "why": "The headlines should carry the argument."
+    },
+    {
+      "id": "presentation-2.q3",
+      "type": "mcq",
+      "concept": "presentation.simple-charts",
+      "prompt": "Bar charts should usually start at:",
+      "options": [
+        "The smallest value",
+        "Zero",
+        "Any value",
+        "Ten"
+      ],
+      "answer": 1,
+      "why": "Zero baselines avoid exaggerated differences."
+    },
+    {
+      "id": "presentation-2.q4",
+      "type": "fill",
+      "concept": "presentation.speaker-notes",
+      "prompt": "Detail removed from a slide belongs in the speaker ____. (one word)",
+      "accept": [
+        "notes"
+      ],
+      "why": "Notes hold detail so slides stay clear."
+    }
+  ],
+  "bank": [
+    {
+      "id": "presentation-2.b1",
+      "type": "mcq",
+      "concept": "presentation.one-idea",
+      "prompt": "A slide full of sentences is called:",
+      "options": [
+        "A text wall",
+        "A chart",
+        "A hook",
+        "A close"
+      ],
+      "answer": 0,
+      "why": "Text walls make audiences read instead of listen."
+    },
+    {
+      "id": "presentation-2.b2",
+      "type": "mcq",
+      "concept": "presentation.simple-charts",
+      "prompt": "To direct attention in a chart use:",
+      "options": [
+        "Many colours",
+        "One highlight colour with grey for the rest",
+        "3-D effects",
+        "Animation"
+      ],
+      "answer": 1,
+      "why": "A single highlight draws the eye."
+    },
+    {
+      "id": "presentation-2.b3",
+      "type": "mcq",
+      "concept": "presentation.speaker-notes",
+      "prompt": "Speaker notes should contain:",
+      "options": [
+        "A full script to read",
+        "Key phrases, numbers and transitions",
+        "Nothing",
+        "The audience list"
+      ],
+      "answer": 1,
+      "why": "Use prompts, not a script."
+    }
+  ],
+  "cards": [
+    {
+      "id": "presentation-2.c1",
+      "concept": "presentation.one-idea",
+      "front": "Rule for slide content?",
+      "back": "One idea, one visual, large text, understood in three seconds."
+    },
+    {
+      "id": "presentation-2.c2",
+      "concept": "presentation.headline-message",
+      "front": "Headline test?",
+      "back": "Reading only the headlines should give the whole argument."
+    },
+    {
+      "id": "presentation-2.c3",
+      "concept": "presentation.simple-charts",
+      "front": "Chart choices?",
+      "back": "Line for time, bar for categories, table for exact values; label axes and highlight one thing."
+    },
+    {
+      "id": "presentation-2.c4",
+      "concept": "presentation.speaker-notes",
+      "front": "What goes in notes?",
+      "back": "Key phrases, numbers, transitions and timing, not a script."
+    }
+  ],
+  "reflection": "Look at your last presentation. Which slide would you cut or split first, and why?",
+  "revision": {
+    "keyPoints": [
+      "Slides support the speaker.",
+      "Headlines state messages.",
+      "Charts should be simple and labelled.",
+      "Notes carry the detail."
+    ],
+    "redo": "Reduce one text-heavy slide to a headline and one visual."
+  }
+}

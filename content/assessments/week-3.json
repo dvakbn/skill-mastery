@@ -1,0 +1,199 @@
+{
+ "id": "week-3",
+ "week": 3,
+ "day": 21,
+ "title": "Week 3 Assessment: Problem-Solving, Research and Digital Skills",
+ "intro": "This assessment checks how you solve problems, check information and use digital tools responsibly. Part A is auto-graded from lessons you completed. Part B has a decision scenario, a role-play and a short written analysis. Treat the questions as real work situations.",
+ "coverage": [
+  "problem",
+  "critical",
+  "research",
+  "ai",
+  "tech",
+  "writing",
+  "reading",
+  "eq",
+  "confidence"
+ ],
+ "concepts": [
+  {
+   "id": "problem.applied",
+   "label": "Problem-Solving: applied"
+  },
+  {
+   "id": "research.applied",
+   "label": "Research and Fact-Checking: applied"
+  },
+  {
+   "id": "ai.applied",
+   "label": "AI and Digital Literacy: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-3.a1",
+   "skills": [
+    "problem",
+    "tech"
+   ],
+   "type": "scenario",
+   "concept": "problem.applied",
+   "prompt": "A report you wrote in SQL suddenly shows twice the usual sales total after a join was added. What do you do first?",
+   "options": [
+    {
+     "text": "Send it because the number is bigger.",
+     "score": 0,
+     "feedback": "Bigger numbers can come from errors."
+    },
+    {
+     "text": "Check the row counts before and after the join and look for duplicates caused by the join keys.",
+     "score": 3,
+     "feedback": "Testing the cause with row counts is systematic debugging."
+    },
+    {
+     "text": "Delete the join and say nothing.",
+     "score": 1,
+     "feedback": "You might fix it but learn nothing."
+    },
+    {
+     "text": "Blame the database.",
+     "score": 0,
+     "feedback": "Blame is not diagnosis."
+    }
+   ],
+   "why": "Debugging starts by testing the most likely cause with evidence."
+  },
+  {
+   "id": "week-3.a2",
+   "skills": [
+    "research",
+    "critical"
+   ],
+   "type": "roleplay",
+   "concept": "research.applied",
+   "setup": "A friend forwards you a message claiming that a new government rule bans a common payment method from next month and asks you to share it widely.",
+   "turns": [
+    {
+     "they": "Quick, share this before it gets deleted!",
+     "options": [
+      {
+       "text": "Okay, sharing now.",
+       "score": 0,
+       "feedback": "False urgency is a misinformation tactic.",
+       "reply": "Great, send it to everyone!"
+      },
+      {
+       "text": "Let me check the original source first; I will look for the official notification and two independent reports.",
+       "score": 3,
+       "feedback": "It applies source tracing and independence checks.",
+       "reply": "But it might be deleted..."
+      },
+      {
+       "text": "I do not care about this.",
+       "score": 1,
+       "feedback": "Ignoring does not help your friend.",
+       "reply": "Fine."
+      }
+     ]
+    },
+    {
+     "they": "Why do you need to check? It looks official.",
+     "options": [
+      {
+       "text": "Because I said so.",
+       "score": 0,
+       "feedback": "It does not explain the reason.",
+       "reply": "That is unhelpful."
+      },
+      {
+       "text": "Official-looking messages can be edited or old. I want to see the date and the original notice.",
+       "score": 3,
+       "feedback": "It explains the checks in plain words.",
+       "reply": "Hmm, fair point."
+      },
+      {
+       "text": "I do not trust anything.",
+       "score": 1,
+       "feedback": "Blanket distrust is not a method.",
+       "reply": "You are overdoing it."
+      }
+     ]
+    },
+    {
+     "they": "I found nothing yet. What do we do now?",
+     "options": [
+      {
+       "text": "Share it anyway.",
+       "score": 0,
+       "feedback": "Unverified claims should not be shared.",
+       "reply": "Okay."
+      },
+      {
+       "text": "Treat it as unverified, tell the group it is unconfirmed and check the ministry website tomorrow.",
+       "score": 3,
+       "feedback": "It communicates uncertainty honestly and plans a next check.",
+       "reply": "Good idea."
+      },
+      {
+       "text": "Say it is fake.",
+       "score": 1,
+       "feedback": "You have no proof it is fake either.",
+       "reply": "Why do you say so?"
+      }
+     ]
+    }
+   ],
+   "why": "Trace the origin, look for independent confirmation and state uncertainty honestly."
+  },
+  {
+   "id": "week-3.a3",
+   "skills": [
+    "ai",
+    "writing",
+    "research"
+   ],
+   "type": "written",
+   "concept": "ai.applied",
+   "prompt": "You used a generative tool to draft a summary of a technical article for your study group. Write 90 to 120 words explaining how you will verify and responsibly use the output before sharing it.",
+   "minWords": 74,
+   "rubric": [
+    {
+     "id": "verify",
+     "label": "Verification steps",
+     "weight": 40,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Some steps.",
+      "3": "Specific checks against the source."
+     }
+    },
+    {
+     "id": "limits",
+     "label": "Awareness of limits",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "Mentions errors only.",
+      "2": "Some limits.",
+      "3": "Hallucinations, outdated facts and bias explained."
+     }
+    },
+    {
+     "id": "ownership",
+     "label": "Responsibility and attribution",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Mentions disclosure.",
+      "3": "Takes responsibility and discloses use."
+     }
+    }
+   ],
+   "modelAnswer": "I will not share the summary as it is. First I will read the original article and compare each key claim, number and name with the source. I know tools can invent facts, miss recent changes or reflect bias, so I will mark anything I cannot verify and remove it. I will rewrite the summary in my own words, add the article link and note that a tool helped with a first draft. I remain responsible for the accuracy of what I share, and I will not put private information into any tool.",
+   "guidance": "Strong answers describe concrete checks against the original source, name specific limits such as invented facts, and accept responsibility for accuracy with disclosure."
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "research-3",
+  "skillId": "research",
+  "n": 3,
+  "title": "Fact-Checking Claims",
+  "summary": "Trace claims to their source, test numbers, quotes and images, and spot common misinformation tactics.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Trace a claim back to its original source.",
+    "Check a number, quote or image for context.",
+    "Recognise common misinformation tactics and confirm with two independent sources."
+  ],
+  "concepts": [
+    {
+      "id": "research.tracing-claims",
+      "label": "Tracing a claim"
+    },
+    {
+      "id": "research.checking-media",
+      "label": "Checking numbers, quotes and images"
+    },
+    {
+      "id": "research.two-sources",
+      "label": "Two independent sources"
+    },
+    {
+      "id": "research.misinformation-tactics",
+      "label": "Misinformation tactics"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Start at the source",
+      "body": "Most viral claims are repeated, not reported. A post says \"A new study proves coffee cures diabetes\" and gives no link. The first job is to **trace the claim to its origin**: who said it first, in what document, on what date. Look for the primary source: the study itself, the official notification, the full speech. If a news article cites a report, find the report. If you cannot find an origin after a reasonable search, treat the claim as unverified.\n\nAsk three quick questions: Who is making the claim? What is their evidence? What would they gain if you believe it? A coaching centre advertising its own results, a company praising its own product and an anonymous account selling a remedy all have reasons to exaggerate. That does not make them wrong, but it means their claims need independent confirmation before you rely on them or forward them."
+    },
+    {
+      "heading": "Numbers, quotes and images",
+      "body": "Check **numbers** for units, time period and comparison. \"Sales rose 200%\" may mean from 1 to 3. Ask \"compared with what?\" and \"how many in total?\". For **quotes**, search for the exact words with the speaker's name; a quote with no date or place is suspect. For **images**, ask when and where the photo was taken. Old photos are often reposted as new events. A reverse image search shows earlier appearances, and details such as signs, language, weather and shadows can contradict the caption."
+    },
+    {
+      "heading": "Two independent sources",
+      "body": "One source is not enough, and two copies of the same story do not count as two. **Independent** means they obtained the information separately, for example a government dataset and a newspaper's own investigation. Prefer sources with accountability: named authors, correction policies and a record of accuracy. If reliable sources disagree, report the disagreement instead of picking one."
+    },
+    {
+      "heading": "Common misinformation tactics",
+      "body": "Misinformation often uses recognisable tricks. **Emotional triggers** such as outrage or fear push you to share before thinking. **Fake authority** uses phrases like \"doctors say\" without names. **Cherry-picking** shows only the data that supports a point. **Missing context** crops a video or quote. **False urgency** says \"share before it is deleted\". When you feel a strong urge to forward something, pause and check first. Sharing is an action with consequences. A false health tip, fake job notice or fabricated rumour can mislead real people, cost them money or damage someone's reputation. Making a two-minute check your habit is a small act of responsibility."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Tracing a statistic",
+      "body": "A message claims \"80% of engineers lose jobs to automation\". Tracing shows the figure came from a speaker's slide estimating tasks, not jobs, and with no study cited. Verdict: unsupported.",
+      "takeaway": "Follow the number back to what was actually measured."
+    },
+    {
+      "title": "An old photo",
+      "body": "A photo of flooded streets is captioned as this week's rain. A reverse search finds it in a news article from four years ago in another city.",
+      "takeaway": "Dates and places in the original source can expose recycled images."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "research-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "research.tracing-claims",
+      "prompt": "The first step when checking a viral claim is to:",
+      "options": [
+        "Trace it to its original source",
+        "Share it with friends",
+        "Check the comment count",
+        "Trust the author"
+      ],
+      "answer": 0,
+      "why": "The original source tells you what was actually said or found."
+    },
+    {
+      "id": "research-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "research.two-sources",
+      "prompt": "Two sources count only if they are ____. (one word)",
+      "accept": [
+        "independent"
+      ],
+      "why": "Copies of one story are not independent confirmation."
+    },
+    {
+      "id": "research-3.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "research.misinformation-tactics",
+      "prompt": "Choose a claim you have seen recently (describe it in a sentence). List the steps you would take to check it and any tactic it uses.",
+      "minWords": 44,
+      "rubric": [
+        {
+          "id": "claim",
+          "label": "Claim described clearly",
+          "weight": 20,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Mostly clear.",
+            "3": "Clear and specific."
+          }
+        },
+        {
+          "id": "steps",
+          "label": "Concrete checking steps",
+          "weight": 50,
+          "descriptors": {
+            "0": "None.",
+            "1": "Generic steps.",
+            "2": "Some concrete steps.",
+            "3": "Concrete steps including source tracing and two independent sources."
+          }
+        },
+        {
+          "id": "tactic",
+          "label": "Tactic identified",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Wrong tactic.",
+            "2": "Tactic named only.",
+            "3": "Tactic named with evidence from the claim."
+          }
+        }
+      ],
+      "modelAnswer": "Claim: a forwarded message says a new law will ban cash from next month. Steps: search for the official notification, check the ministry's statement, look for two independent newspapers reporting the same details, and confirm the date. Tactic: false urgency and fake authority because it says \"doctors and officials confirm\" without names.",
+      "guidance": "Strong answers name the claim, trace it to a primary source, seek two independent confirmations and identify a recognisable tactic such as false urgency."
+    },
+    {
+      "id": "research-3.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "research.checking-media",
+      "prompt": "A dramatic photo is shared with a caption about an event today. What do you do?",
+      "options": [
+        {
+          "text": "Share it because it looks real.",
+          "score": 0,
+          "feedback": "Looking real is not verification."
+        },
+        {
+          "text": "Run a reverse image search and look for the earliest appearance and original caption.",
+          "score": 3,
+          "feedback": "Finding the original context reveals recycled images."
+        },
+        {
+          "text": "Count the likes.",
+          "score": 0,
+          "feedback": "Popularity is not accuracy."
+        },
+        {
+          "text": "Ask commenters to confirm.",
+          "score": 1,
+          "feedback": "Comments are weak evidence."
+        }
+      ],
+      "why": "Verify the image origin and date."
+    }
+  ],
+  "task": {
+    "title": "Fact-check one claim",
+    "brief": "Check one real claim from your messages or social feeds.",
+    "steps": [
+      "Copy the claim exactly.",
+      "Find its original source or write that you could not.",
+      "Find two independent sources or note that they disagree.",
+      "Write a verdict: supported, unsupported or unclear, with reasons."
+    ],
+    "checklist": [
+      "I copied the claim",
+      "I searched for the origin",
+      "I looked for two independent sources",
+      "I wrote a verdict with reasons"
+    ],
+    "evidencePrompt": "Write the claim, your verdict and the strongest evidence you found.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "research-3.q1",
+      "type": "mcq",
+      "concept": "research.tracing-claims",
+      "prompt": "A primary source is:",
+      "options": [
+        "A repost",
+        "A comment",
+        "The original document or data",
+        "A meme"
+      ],
+      "answer": 2,
+      "why": "Primary sources are closest to the facts."
+    },
+    {
+      "id": "research-3.q2",
+      "type": "mcq",
+      "concept": "research.checking-media",
+      "prompt": "To check a number you should ask:",
+      "options": [
+        "Is it big?",
+        "Compared with what, in what period?",
+        "Who liked it?",
+        "Is it round?"
+      ],
+      "answer": 1,
+      "why": "Context and comparison give numbers meaning."
+    },
+    {
+      "id": "research-3.q3",
+      "type": "mcq",
+      "concept": "research.misinformation-tactics",
+      "prompt": "Which is a misinformation tactic?",
+      "options": [
+        "Linking the study",
+        "False urgency like \"share before it is deleted\"",
+        "Naming the author",
+        "Giving the date"
+      ],
+      "answer": 1,
+      "why": "Urgency pushes sharing before thinking."
+    },
+    {
+      "id": "research-3.q4",
+      "type": "fill",
+      "concept": "research.two-sources",
+      "prompt": "A reliable source usually has named authors and a ____ policy. (one word)",
+      "accept": [
+        "correction",
+        "corrections"
+      ],
+      "why": "Correction policies show accountability."
+    }
+  ],
+  "bank": [
+    {
+      "id": "research-3.b1",
+      "type": "mcq",
+      "concept": "research.tracing-claims",
+      "prompt": "If you cannot find a claim's origin, treat it as:",
+      "options": [
+        "True",
+        "Unverified",
+        "Official",
+        "Useful"
+      ],
+      "answer": 1,
+      "why": "No origin means no verification."
+    },
+    {
+      "id": "research-3.b2",
+      "type": "mcq",
+      "concept": "research.checking-media",
+      "prompt": "A reverse image search helps to find:",
+      "options": [
+        "Better filters",
+        "Earlier appearances of the image",
+        "Likes",
+        "Captions only"
+      ],
+      "answer": 1,
+      "why": "Earlier appearances reveal context."
+    },
+    {
+      "id": "research-3.b3",
+      "type": "mcq",
+      "concept": "research.misinformation-tactics",
+      "prompt": "Cherry-picking means:",
+      "options": [
+        "Showing only supporting data",
+        "Fact-checking",
+        "Citing the full study",
+        "Using graphs"
+      ],
+      "answer": 0,
+      "why": "It hides data that does not fit."
+    }
+  ],
+  "cards": [
+    {
+      "id": "research-3.c1",
+      "concept": "research.tracing-claims",
+      "front": "First fact-check move?",
+      "back": "Trace the claim to its original source, not the latest repost."
+    },
+    {
+      "id": "research-3.c2",
+      "concept": "research.checking-media",
+      "front": "Checks for numbers?",
+      "back": "Units, time period, comparison and total counts."
+    },
+    {
+      "id": "research-3.c3",
+      "concept": "research.two-sources",
+      "front": "What makes sources independent?",
+      "back": "They obtained the information separately, not by copying each other."
+    },
+    {
+      "id": "research-3.c4",
+      "concept": "research.misinformation-tactics",
+      "front": "Name three misinformation tactics.",
+      "back": "Emotional triggers, fake authority, cherry-picking, missing context, false urgency."
+    }
+  ],
+  "reflection": "What is one type of forwarded message you tend to believe too quickly, and what will you check before sharing next time?",
+  "revision": {
+    "keyPoints": [
+      "Trace to the origin.",
+      "Check numbers, quotes and images for context.",
+      "Independent sources matter.",
+      "Pause when emotions spike."
+    ],
+    "redo": "Check one more forwarded message with the four-step method."
+  }
+}

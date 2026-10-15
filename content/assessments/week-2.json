@@ -1,0 +1,199 @@
+{
+ "id": "week-2",
+ "week": 2,
+ "day": 14,
+ "title": "Week 2 Assessment: Thinking and Communicating",
+ "intro": "This assessment tests how you think and communicate under realistic conditions: evaluating claims, writing clearly, reading emotions, staying calm and acting with confidence. Part A uses auto-graded questions from lessons you completed. Part B has a decision scenario, a role-play and a short writing task.",
+ "coverage": [
+  "critical",
+  "writing",
+  "eq",
+  "stress",
+  "english",
+  "reading",
+  "time",
+  "discipline",
+  "confidence",
+  "goals"
+ ],
+ "concepts": [
+  {
+   "id": "critical.applied",
+   "label": "Critical Thinking: applied"
+  },
+  {
+   "id": "confidence.applied",
+   "label": "Confidence: applied"
+  },
+  {
+   "id": "writing.applied",
+   "label": "Writing Skills: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-2.a1",
+   "skills": [
+    "critical",
+    "eq"
+   ],
+   "type": "scenario",
+   "concept": "critical.applied",
+   "prompt": "A teammate says: \"Everyone knows that this framework is the best. Only beginners disagree.\" You have doubts about it for your project. What is the best response?",
+   "options": [
+    {
+     "text": "Agree to avoid conflict.",
+     "score": 1,
+     "feedback": "Agreeing silently leaves your doubts unexamined."
+    },
+    {
+     "text": "Ask what evidence supports it for this project and share one specific concern calmly.",
+     "score": 3,
+     "feedback": "It tests the claim and respects the person."
+    },
+    {
+     "text": "Say they are being arrogant.",
+     "score": 0,
+     "feedback": "This attacks the person, not the claim."
+    },
+    {
+     "text": "Ignore the meeting.",
+     "score": 0,
+     "feedback": "Disengaging solves nothing at all."
+    }
+   ],
+   "why": "Critical thinking asks for evidence while emotional intelligence keeps the tone respectful."
+  },
+  {
+   "id": "week-2.a2",
+   "skills": [
+    "confidence",
+    "eq"
+   ],
+   "type": "roleplay",
+   "concept": "confidence.applied",
+   "setup": "You disagree with a classmate's plan during a group project meeting. They sound frustrated when you raise a concern.",
+   "turns": [
+    {
+     "they": "I think my plan is fine. Why are you objecting now?",
+     "options": [
+      {
+       "text": "You always do this and it is annoying.",
+       "score": 0,
+       "feedback": "Blame escalates the conflict.",
+       "reply": "Forget it, do whatever you want."
+      },
+      {
+       "text": "I can hear you are frustrated. I like the structure; my concern is the deadline in week three. Can we check it together?",
+       "score": 3,
+       "feedback": "It acknowledges emotion, names a specific issue and invites collaboration.",
+       "reply": "Okay, show me where the issue is."
+      },
+      {
+       "text": "Fine, you are right.",
+       "score": 1,
+       "feedback": "Giving in quickly avoids the issue and may cost later.",
+       "reply": "Good, then we continue."
+      }
+     ]
+    },
+    {
+     "they": "How could the deadline be a problem?",
+     "options": [
+      {
+       "text": "It just feels wrong.",
+       "score": 1,
+       "feedback": "A feeling without facts is weak.",
+       "reply": "That is not helpful."
+      },
+      {
+       "text": "The testing task is after the submission date in the schedule. Moving testing one week earlier would fix it.",
+       "score": 3,
+       "feedback": "Concrete fact plus a proposed solution.",
+       "reply": "Good catch. Let us adjust."
+      },
+      {
+       "text": "Never mind.",
+       "score": 0,
+       "feedback": "Withdrawing leaves the issue unresolved.",
+       "reply": "Alright then."
+      }
+     ]
+    },
+    {
+     "they": "Can you update the plan and send it?",
+     "options": [
+      {
+       "text": "Maybe later, if I remember.",
+       "score": 0,
+       "feedback": "Vague commitments reduce trust.",
+       "reply": "Hmm."
+      },
+      {
+       "text": "Yes, I will send the updated plan by tonight at 8 pm.",
+       "score": 3,
+       "feedback": "Clear commitment with a time.",
+       "reply": "Thanks, that helps."
+      },
+      {
+       "text": "Why do I always have to do the work?",
+       "score": 1,
+       "feedback": "Complaining weakens team cooperation badly.",
+       "reply": "You do not have to."
+      }
+     ]
+    }
+   ],
+   "why": "Acknowledge feelings, name concrete issues and make specific commitments."
+  },
+  {
+   "id": "week-2.a3",
+   "skills": [
+    "writing",
+    "critical"
+   ],
+   "type": "written",
+   "concept": "writing.applied",
+   "prompt": "Write a short, clear email (about 100 words) to a senior asking for one day's extension on a task because a dependency has not been delivered. Include facts, impact, a proposed new date and a polite close.",
+   "minWords": 68,
+   "rubric": [
+    {
+     "id": "clarity",
+     "label": "Clear subject and purpose",
+     "weight": 25,
+     "descriptors": {
+      "0": "Unclear.",
+      "1": "Purpose buried.",
+      "2": "Mostly clear.",
+      "3": "Clear subject and request at the start."
+     }
+    },
+    {
+     "id": "facts",
+     "label": "Facts and impact",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Excuses only.",
+      "2": "Some facts.",
+      "3": "Specific facts and impact."
+     }
+    },
+    {
+     "id": "request",
+     "label": "Proposed date and tone",
+     "weight": 40,
+     "descriptors": {
+      "0": "No new date.",
+      "1": "Date without courtesy.",
+      "2": "Polite but vague.",
+      "3": "Specific new date and professional tone."
+     }
+    }
+   ],
+   "modelAnswer": "Subject: Request for one-day extension on report task. Hello Mr Verma, I am writing to request one extra day on the sales report. The data file from the finance team arrived at 4 pm today instead of yesterday, so I could start the analysis only now. I propose to submit by 12 noon on Thursday instead of Wednesday evening. I will share a draft of sections one and two by tomorrow 3 pm so you can review them early. Thank you for understanding. Regards, Deepak.",
+   "guidance": "Strong emails state the request first, give the specific reason with facts, propose a concrete new date and keep a polite professional tone. Avoid excuses or blame."
+  }
+ ]
+}

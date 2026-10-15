@@ -1,0 +1,325 @@
+{
+  "id": "career-1",
+  "skillId": "career",
+  "n": 1,
+  "title": "Career Clarity",
+  "summary": "Map your strengths, values and interests, understand how IT services firms and the SAP ecosystem work, and see how fresher hiring flows.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Describe your strengths, values and interests in concrete terms.",
+    "Explain how IT services firms are structured and how technical and functional SAP roles differ.",
+    "Outline the ABAP developer path and how fresher hiring usually works."
+  ],
+  "concepts": [
+    {
+      "id": "career.self-map",
+      "label": "Strengths, values and interests"
+    },
+    {
+      "id": "career.firm-structure",
+      "label": "How IT services firms work"
+    },
+    {
+      "id": "career.sap-roles",
+      "label": "SAP technical vs functional roles"
+    },
+    {
+      "id": "career.fresher-hiring",
+      "label": "How fresher hiring works"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Start with a self-map",
+      "body": "Career clarity does not begin with a job title. It begins with three honest lists. **Strengths** are things you do well with less effort than others, such as debugging patiently, explaining ideas simply or staying calm under deadlines. **Values** are what you need from work to feel it is worthwhile: learning, stability, helping others, income, autonomy. **Interests** are topics that keep you reading after the assignment is done.\n\nWrite five items under each heading and attach one piece of evidence to every strength. \"Good at problem solving\" is weak. \"Found why my Node.js API returned duplicate rows by reading the join logic line by line\" is evidence. The overlap of strengths, values and interests tells you which roles to test first. A learner who enjoys structured logic, wants a stable first job and values steady learning will often find enterprise software a sensible fit, but that is a hypothesis to test, not a verdict."
+    },
+    {
+      "heading": "How IT services and consulting firms are organised",
+      "body": "Most large Indian IT services firms earn money by selling people's time and expertise to client companies. A **client** such as a manufacturer or retailer signs a contract for a project: implementing software, maintaining it, or migrating it. The firm assembles a team, usually organised in a pyramid: many junior analysts and developers at the base, team leads and project managers in the middle, and delivery heads and partners at the top.\n\nYou are typically hired into a **practice** or **business unit** (for example SAP, cloud or data), trained for a few weeks, then allocated to a project through a **bench and allocation** process. Early work is often support tickets, small enhancements and testing. That is normal: you learn how real systems behave under real business rules. Promotion in this structure rewards reliable delivery, communication with the client and growing ownership of larger pieces of work."
+    },
+    {
+      "heading": "The SAP ecosystem: technical and functional",
+      "body": "SAP software runs core business processes: finance, procurement, sales, manufacturing and HR. Consultants fall broadly into two families. **Functional consultants** understand the business process, configure the system (for example how a purchase order is approved) and write specifications. **Technical consultants** build and fix what configuration cannot do: custom reports, interfaces, forms and enhancements.\n\nThe **ABAP developer** is the core technical role. ABAP is SAP's programming language. A typical path is: ABAP developer, then senior developer or technical lead, then technical architect, with many people later moving toward functional or solution roles. Because you will work with functional consultants every day, learning basic business flows such as order-to-cash and procure-to-pay makes you a stronger developer from the start."
+    },
+    {
+      "heading": "How fresher hiring works",
+      "body": "Fresher hiring in IT services usually follows a pipeline: an online application or campus drive, an aptitude and coding or logic test, one or two technical interviews, an HR interview, then an offer and joining formalities. Off-campus roles often add referrals and job portals. Firms hire in batches, so timing matters and rejections are frequently about batch size, not about you.\n\nWhat firms screen for is trainability: solid fundamentals, clear communication and willingness to learn a stack they assign. Show this with a small number of projects you can explain deeply. **Worked example:** Karan has a Node.js and Supabase project. He writes, \"I understand relational data, APIs and debugging; I am now learning ABAP and SAP basics.\" That sentence connects his past to the target role honestly, which is stronger than claiming SAP expertise he does not yet have."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A self-map with evidence",
+      "body": "Strength: patient debugging. Evidence: traced a duplicate-rows bug in my college project to a missing join condition. Value: steady learning. Interest: how business rules turn into code. Hypothesis: enterprise software, possibly ABAP development, so I will test it by finishing a basic ABAP course and building two small reports.",
+      "takeaway": "Each strength carries proof and each conclusion is a testable hypothesis."
+    },
+    {
+      "title": "Reading a job posting for an ABAP fresher",
+      "body": "The posting lists \"ABAP programming, SQL basics, willingness to learn SAP modules, good communication\". Priya sorts them: must-have now (SQL, programming logic), learnable after joining (specific SAP modules), proven by her own evidence (communication, shown in a project demo she recorded).",
+      "takeaway": "Breaking a posting into must-have, learnable and provable shows where to spend preparation time."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "career-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "career.firm-structure",
+      "prompt": "In a typical IT services firm, how does the firm mainly earn money?",
+      "options": [
+        "Selling its own packaged product to consumers",
+        "Providing skilled people and expertise to client projects",
+        "Lending money to clients",
+        "Manufacturing hardware for clients"
+      ],
+      "answer": 1,
+      "why": "Services firms bill clients for expertise and delivery effort. Product companies sell packaged software, and the other options describe different industries."
+    },
+    {
+      "id": "career-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "career.sap-roles",
+      "prompt": "The SAP consultant who configures business processes and writes specifications is called the ____ consultant. (one word)",
+      "accept": [
+        "functional"
+      ],
+      "why": "Functional consultants own configuration and specifications. Technical consultants such as ABAP developers build custom code."
+    },
+    {
+      "id": "career-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "career.fresher-hiring",
+      "prompt": "You are rejected after a technical interview at a firm hiring a large batch of freshers. What is the most useful response?",
+      "options": [
+        {
+          "text": "Conclude you are not suited to IT services and stop applying.",
+          "score": 0,
+          "feedback": "One rejection in a batch process is weak evidence. Quitting throws away what you can learn."
+        },
+        {
+          "text": "Write down the questions you could not answer, study them, and apply to the next batch.",
+          "score": 3,
+          "feedback": "Treating the interview as data builds trainability and improves your next attempt."
+        },
+        {
+          "text": "Email the recruiter repeatedly asking for reconsideration.",
+          "score": 1,
+          "feedback": "Repeated emails rarely change batch decisions and can harm your reputation."
+        },
+        {
+          "text": "Apply to the same firm again tomorrow with the same resume.",
+          "score": 1,
+          "feedback": "Without changes, you are likely to get the same result."
+        }
+      ],
+      "why": "Hiring is a pipeline with many rejections. The best response converts the experience into specific study and a timely next attempt."
+    },
+    {
+      "id": "career-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "career.self-map",
+      "prompt": "Write a short self-map: two strengths with one piece of evidence each, one value, one interest, and one role you will test as a hypothesis. Then state one action to test it in the next two weeks.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "strengths",
+          "label": "Strengths with evidence",
+          "weight": 35,
+          "descriptors": {
+            "0": "No Evidence for strengths given.",
+            "1": "Evidence for strengths is vague or generic.",
+            "2": "Evidence for strengths is clear but could be more specific.",
+            "3": "Evidence for strengths is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "fit",
+          "label": "Value, interest and hypothesis",
+          "weight": 35,
+          "descriptors": {
+            "0": "No Link between your profile and a role given.",
+            "1": "Link between your profile and a role is vague or generic.",
+            "2": "Link between your profile and a role is clear but could be more specific.",
+            "3": "Link between your profile and a role is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "test",
+          "label": "A testable next action",
+          "weight": 30,
+          "descriptors": {
+            "0": "No Next action given.",
+            "1": "Next action is vague or generic.",
+            "2": "Next action is clear but could be more specific.",
+            "3": "Next action is specific, concrete and well reasoned."
+          }
+        }
+      ],
+      "modelAnswer": "Strengths: patient debugging (I traced duplicate rows in my college API to a missing join) and clear explaining (I walked classmates through Supabase auth). Value: steady learning. Interest: turning business rules into working code. Hypothesis: ABAP developer in SAP services. Test: finish one ABAP report exercise on selecting and displaying data from two tables by the 20th and note whether I enjoy it.",
+      "guidance": "A strong answer attaches evidence to each strength, links profile to one named role and ends with a small dated action. Weak answers list adjectives such as hardworking without proof. Score yourself lower if your action is large or has no deadline."
+    }
+  ],
+  "task": {
+    "title": "Build your one-page self-map",
+    "brief": "Create a written map of strengths, values and interests, then test one career hypothesis against a real job posting.",
+    "steps": [
+      "Write five strengths, five values and five interests.",
+      "Add one line of evidence for each strength.",
+      "Find one real entry-level SAP or IT services job description and split its requirements into must-have now, learnable, and provable.",
+      "Write one hypothesis and one two-week test."
+    ],
+    "checklist": [
+      "Each strength has evidence",
+      "I have a ranked top three values",
+      "I classified posting requirements",
+      "My test has a date"
+    ],
+    "evidencePrompt": "Paste your hypothesis and the two-week test you chose.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "career-1.q1",
+      "type": "mcq",
+      "concept": "career.self-map",
+      "prompt": "Which strength statement is strongest?",
+      "options": [
+        "I am a hard worker",
+        "I am good with computers",
+        "I traced a duplicate-rows bug in my project by reading the join logic",
+        "I am a team player"
+      ],
+      "answer": 2,
+      "why": "Specific evidence makes a strength believable. The other options are generic claims that anyone could make."
+    },
+    {
+      "id": "career-1.q2",
+      "type": "mcq",
+      "concept": "career.firm-structure",
+      "prompt": "The usual shape of staffing in a services firm is:",
+      "options": [
+        "A pyramid with many juniors and fewer senior people",
+        "Only senior experts",
+        "A flat group with no managers",
+        "An inverted pyramid"
+      ],
+      "answer": 0,
+      "why": "Services firms use a pyramid so delivery work is done by many juniors guided by fewer leads and managers."
+    },
+    {
+      "id": "career-1.q3",
+      "type": "fill",
+      "concept": "career.sap-roles",
+      "prompt": "ABAP is the programming language used by SAP ____ consultants. (one word)",
+      "accept": [
+        "technical",
+        "technical consultants"
+      ],
+      "why": "ABAP developers are technical consultants who build reports, interfaces, forms and enhancements."
+    },
+    {
+      "id": "career-1.q4",
+      "type": "mcq",
+      "concept": "career.fresher-hiring",
+      "prompt": "What do firms mostly screen freshers for?",
+      "options": [
+        "Years of SAP experience",
+        "Trainability: fundamentals, communication and willingness to learn",
+        "Ownership of an SAP licence",
+        "Having worked at a client site"
+      ],
+      "answer": 1,
+      "why": "Freshers are expected to learn a stack on the job, so firms test fundamentals and attitude rather than prior SAP experience."
+    }
+  ],
+  "bank": [
+    {
+      "id": "career-1.b1",
+      "type": "mcq",
+      "concept": "career.self-map",
+      "prompt": "You love reading about how banks work but have no tech evidence yet. What is the best next step in a self-map?",
+      "options": [
+        "Skip interests because they do not matter",
+        "Record the interest and create a small project or course as evidence to test it",
+        "Assume you cannot work in tech",
+        "Copy a friend's list"
+      ],
+      "answer": 1,
+      "why": "Interests become useful once you test them with a small action that creates evidence."
+    },
+    {
+      "id": "career-1.b2",
+      "type": "mcq",
+      "concept": "career.sap-roles",
+      "prompt": "A person who decides how approvals are configured in the purchase process is doing mostly:",
+      "options": [
+        "Functional work",
+        "ABAP report debugging",
+        "Hardware installation",
+        "Network design"
+      ],
+      "answer": 0,
+      "why": "Configuring business processes is functional consultant work."
+    },
+    {
+      "id": "career-1.b3",
+      "type": "mcq",
+      "concept": "career.fresher-hiring",
+      "prompt": "Why can a good candidate be rejected in campus or batch hiring?",
+      "options": [
+        "The firm always rejects freshers",
+        "Batch size and fit limits can outweigh individual quality",
+        "Interviewers never look at fundamentals",
+        "Rejection proves poor skills"
+      ],
+      "answer": 1,
+      "why": "Batch hiring has limited seats, so a single result is not a full judgement of you."
+    }
+  ],
+  "cards": [
+    {
+      "id": "career-1.c1",
+      "concept": "career.self-map",
+      "front": "What makes a strength statement credible?",
+      "back": "A specific piece of evidence, such as a bug you solved or a concept you taught, rather than a general adjective."
+    },
+    {
+      "id": "career-1.c2",
+      "concept": "career.firm-structure",
+      "front": "How do IT services firms make money?",
+      "back": "They supply skilled people and delivery expertise to client projects, organised in a pyramid with many juniors and fewer leads."
+    },
+    {
+      "id": "career-1.c3",
+      "concept": "career.sap-roles",
+      "front": "Functional vs technical SAP consultant?",
+      "back": "Functional consultants configure processes and write specifications. Technical consultants, such as ABAP developers, build custom reports, interfaces, forms and enhancements."
+    },
+    {
+      "id": "career-1.c4",
+      "concept": "career.fresher-hiring",
+      "front": "What is the usual fresher hiring pipeline?",
+      "back": "Application or drive, aptitude or coding test, technical interview, HR interview, offer and joining. Firms screen for trainability."
+    }
+  ],
+  "reflection": "Which strength on your list do you have the strongest evidence for, and which one still needs proof?",
+  "revision": {
+    "keyPoints": [
+      "Strengths need evidence; values and interests guide the fit.",
+      "Services firms sell expertise through a pyramid of teams.",
+      "Functional consultants configure; technical consultants such as ABAP developers build.",
+      "Fresher hiring screens for trainability and runs in batches."
+    ],
+    "redo": "Write one strength with a piece of evidence and name one role it supports."
+  }
+}

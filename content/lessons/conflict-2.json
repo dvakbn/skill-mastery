@@ -1,0 +1,426 @@
+{
+  "id": "conflict-2",
+  "skillId": "conflict",
+  "n": 2,
+  "title": "Difficult Conversations",
+  "summary": "Prepare and open a hard conversation with a clear script, I-statements, good timing, listening before responding and a focus on facts.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Prepare a difficult conversation by separating facts, your interpretation and your feelings.",
+    "Open with a four-part script and an I-statement that avoids blame.",
+    "Choose timing and listen and paraphrase before responding."
+  ],
+  "concepts": [
+    {
+      "id": "conflict.preparation",
+      "label": "Facts, story and feelings"
+    },
+    {
+      "id": "conflict.opening",
+      "label": "Opening script and I-statements"
+    },
+    {
+      "id": "conflict.timing",
+      "label": "Timing and setting"
+    },
+    {
+      "id": "conflict.listening",
+      "label": "Listening before responding"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why difficult conversations go wrong",
+      "body": "In the previous lesson you learned to tell task conflict from relationship conflict and to place a disagreement on the ladder. This lesson is about the moment you actually have to talk. Most people either avoid the conversation until they are angry, or start with an accusation. Both make the other person defensive within the first ten seconds, and a defensive person cannot listen.\n\nA difficult conversation is easier when you have prepared three things, chosen a good moment, opened it well, and listened properly. Each is a skill you can practise."
+    },
+    {
+      "heading": "Prepare: facts, story, feelings",
+      "body": "Before you speak, separate three layers.\n\n- **Facts**: what a camera would record. 'Your module was not merged on Friday and the demo build failed.'\n- **Story**: what you make of the facts. 'He does not care about the team.'\n- **Feelings**: what you feel. 'I am worried and frustrated.'\n\nThe story is where most trouble starts, because it feels like a fact. Words such as *always*, *never*, *careless* and *lazy* are story words. In the conversation, lead with facts, share feelings briefly, and offer the story only as a question: 'I wondered whether the deadline was unclear. Was it?'\n\nAlso ask yourself: what is my purpose? 'To prove I am right' leads to a fight. 'To get the module merged on time and keep a good working relationship' leads to a conversation. Finally, ask what part you may have played. If you did not tell him the deadline moved, that is part of the picture."
+    },
+    {
+      "heading": "Open with a four-part script and an I-statement",
+      "body": "The first thirty seconds set the tone. A simple opening script has four parts:\n\n1. **Shared purpose**: 'I want our demo to go well.'\n2. **Observation** (fact, no blame): 'Your module was not merged by Friday.'\n3. **Impact** (an I-statement): 'I had to stay late and I felt anxious about the demo.'\n4. **Invitation**: 'Can you tell me what happened from your side?'\n\nAn **I-statement** says what you saw, how it affected you and what you need, without judging the person. Compare 'You are so unreliable' (a you-statement that is a verdict) with 'When the module was not merged on Friday, I had to rework the build at night, and I felt stressed. I need us to agree on a merge time.' The second is hard to argue with, because it describes your experience.\n\nCommon mistakes: hiding a criticism inside a compliment sandwich so that nothing is clear, using sarcasm, and saying 'I feel that you are careless' (that is still a you-statement wearing an I)."
+    },
+    {
+      "heading": "Timing and setting",
+      "body": "Choose the moment as carefully as the words. Do not have the conversation when you are furious, in front of other people, by chat when the matter is emotional, or when the other person is about to present or sleep. Take a pause of a few hours or until the next day to cool down, but do not let that become permanent avoidance.\n\nAsk permission: 'Is now a good time, or shall we talk at 4 pm? It is about the demo build.' Naming the subject avoids ambushing the person. Choose a private place, a calm voice and equal seating or a walk, not a standing confrontation."
+    },
+    {
+      "heading": "Listen before you respond",
+      "body": "After you have opened, stop talking. The other person has a story too, and you need to hear it, because you may be missing a fact. Use three moves: ask an open question ('What happened from your side?'), **paraphrase** what you heard ('So the requirements changed on Thursday night and nobody told you?'), and acknowledge the feeling ('That sounds frustrating') before you give your view. Acknowledging does not mean agreeing.\n\nParaphrasing is the most useful tool, because it shows you listened and it corrects misunderstandings before they harden. If the person becomes angry, do not match it. Lower your voice, slow down and return to facts. If the conversation is going in circles, name it: 'We are both getting heated. Shall we take ten minutes and come back?'"
+    }
+  ],
+  "examples": [
+    {
+      "title": "Before and after: an opening line",
+      "body": "Before: 'You are always late with your tasks and it is ruining the project. Why are you so careless?'\n\nAfter: 'I want us to finish the demo on time. Your module was not merged on Friday, and I had to fix the build at night, which stressed me. Can you tell me what got in the way?'",
+      "takeaway": "The after version states a shared purpose, one fact, one impact and an invitation, and contains no 'always' and no label."
+    },
+    {
+      "title": "Paraphrasing in action",
+      "body": "Vikram: 'I did not merge it because the API contract changed on Thursday night and I had to redo the endpoints.'\n\nYou: 'So the contract changed late on Thursday, and you needed Friday to redo the endpoints. Did you hear about the change from the client, or from Priya?'\n\nVikram: 'From Priya, at 11 pm. I did not want to disturb you.'",
+      "takeaway": "Paraphrasing and a curious question revealed a new fact (the late change) that makes the earlier accusation unfair."
+    },
+    {
+      "title": "Facts, story and feelings sheet",
+      "body": "Situation: A teammate ignored your messages for two days.\n\nFact: 'I sent three messages on Monday and Tuesday and had no reply.'\nStory: 'He is ignoring me on purpose.' (Possibly wrong; alternatives: he is ill, busy, or missed the notifications.)\nFeeling: 'I am frustrated and a bit anxious about the deadline.'\nPurpose: 'Get the review done by Thursday.'\n\nOpening: 'I sent three messages about the review and have not heard back, and the deadline is Thursday. Is everything okay on your side?'",
+      "takeaway": "Writing the three layers separately lets you speak only the fact, a short feeling and a question, and keep the story to yourself until you have checked it."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "conflict-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "conflict.opening",
+      "prompt": "Which of these is a proper I-statement that you could use with a teammate who arrived 40 minutes late to a team call?",
+      "options": [
+        "When you joined 40 minutes after the start, we had to repeat the discussion, and I felt rushed. I would like us to start on time.",
+        "I feel that you are very disrespectful of everyone's time.",
+        "You always do this and it is really unprofessional.",
+        "I think everyone is annoyed with you, so please be on time."
+      ],
+      "answer": 0,
+      "hint": "Look for observable fact, your own impact and a request.",
+      "why": "The second option describes what happened, the impact on the speaker and a request. The first is a you-statement dressed with 'I feel that'. The third uses 'always' and a label. The fourth speaks for others and adds pressure."
+    },
+    {
+      "id": "conflict-2.e2",
+      "type": "scenario",
+      "level": 1,
+      "concept": "conflict.timing",
+      "prompt": "Your project manager criticised your report sharply in front of the whole team this morning. You are angry and want to answer immediately in the team chat. What is the best move?",
+      "options": [
+        {
+          "text": "Reply at once in the team chat to defend your work.",
+          "score": 0,
+          "feedback": "Replying in public while angry usually escalates and makes you look defensive."
+        },
+        {
+          "text": "Stay silent, say nothing ever, and hope it passes.",
+          "score": 1,
+          "feedback": "Avoiding feels safe but the feeling will leak out later, and the manager will not know the impact."
+        },
+        {
+          "text": "Wait until you have cooled down, then ask your manager for ten minutes in private and open with facts and impact.",
+          "score": 3,
+          "feedback": "A pause, a private setting and a calm opening give the conversation the best chance."
+        },
+        {
+          "text": "Complain about the manager to colleagues over lunch.",
+          "score": 0,
+          "feedback": "Complaining to others pulls people into sides and does not reach the person who can change the situation."
+        }
+      ],
+      "why": "Timing is part of the message. Cool down first, choose a private setting, and speak to the person directly with facts and impact. Public replies and gossip escalate, and silence leaves the issue unresolved."
+    },
+    {
+      "id": "conflict-2.e3",
+      "type": "roleplay",
+      "level": 2,
+      "concept": "conflict.listening",
+      "prompt": "Open a difficult conversation with a teammate who has missed deadlines, and listen to find out what is really happening.",
+      "setup": "You lead a small group building a college project. Teammate Vikram has missed two merge deadlines this week and you stayed up late to fix the build. You have asked for ten minutes in a quiet corner. You want to fix the pattern and keep a good relationship.",
+      "turns": [
+        {
+          "they": "Okay, you wanted to talk? Is it about the build again?",
+          "options": [
+            {
+              "text": "Yes. You always miss deadlines and I am tired of covering for you.",
+              "score": 0,
+              "feedback": "'Always' and a complaint put him on the defensive straight away.",
+              "reply": "Covering for me? I have been working as hard as anyone. This is unfair."
+            },
+            {
+              "text": "I want the demo to go well. Your module was not merged by Friday or Monday, and I fixed the build late at night, which stressed me. Can you tell me what got in the way?",
+              "score": 3,
+              "feedback": "Shared purpose, specific facts, impact as an I-statement, and an open invitation.",
+              "reply": "Honestly, the API contract changed on Thursday night, and I had to redo my endpoints. I did not want to bother you."
+            },
+            {
+              "text": "No, it is nothing serious. Let us just carry on.",
+              "score": 1,
+              "feedback": "Backing out wastes the chance to talk and the pattern will probably repeat.",
+              "reply": "Okay, good. I thought there was a problem."
+            }
+          ]
+        },
+        {
+          "they": "I redid the endpoints Friday, then my laptop crashed on Monday, and I lost some work.",
+          "options": [
+            {
+              "text": "Ah, so the contract changed late, and then your laptop crashed and you lost work. That is a rough week. Did you tell anyone?",
+              "score": 3,
+              "feedback": "You paraphrase, acknowledge the difficulty and ask a gentle question about the gap.",
+              "reply": "No, I did not. I thought I could catch up quietly. I should have told you."
+            },
+            {
+              "text": "Everybody has problems. You should have planned better.",
+              "score": 0,
+              "feedback": "Dismissing the explanation closes him down and ignores the new facts.",
+              "reply": "Right. Sure. I will try harder then."
+            },
+            {
+              "text": "That is unlucky. Next time just message me.",
+              "score": 1,
+              "feedback": "Reasonable advice, but you skipped acknowledging his situation and asking what he needs.",
+              "reply": "Okay. I will."
+            }
+          ]
+        },
+        {
+          "they": "I will tell you earlier next time. I also feel I get tasks with no notice, so I cannot plan.",
+          "options": [
+            {
+              "text": "Thanks for saying that. Let us agree: I will post tasks by Monday morning, and you will message me the same day if something blocks you. Does that work?",
+              "score": 3,
+              "feedback": "You accept his point, offer your part, and make a clear mutual agreement.",
+              "reply": "Yes, that works. And I will push my code to a branch daily so nothing is lost."
+            },
+            {
+              "text": "That is not true. I always post the tasks on time.",
+              "score": 0,
+              "feedback": "Contradicting him after a good conversation spoils the progress and uses 'always' again.",
+              "reply": "Fine. I will not argue about it."
+            },
+            {
+              "text": "Okay, let us see how it goes.",
+              "score": 1,
+              "feedback": "Open-ended; without a specific agreement the same problem is likely to return.",
+              "reply": "Alright."
+            }
+          ]
+        }
+      ],
+      "why": "A strong conversation opens with shared purpose, facts and an I-statement, then listens: the real cause (a late contract change and a crash) only appeared because the learner asked and paraphrased. The close turns both sides' points into one clear agreement."
+    },
+    {
+      "id": "conflict-2.e4",
+      "type": "written",
+      "level": 3,
+      "concept": "conflict.preparation",
+      "prompt": "Situation: a teammate, Pooja, has twice presented your analysis in team meetings without mentioning your name. You feel upset and want to talk to her. Write (1) the fact, story and feeling layers in one line each, and (2) a four-part opening script (shared purpose, observation, impact as an I-statement, invitation) of 4 to 6 sentences in total.",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "layers",
+          "label": "Separates fact, story and feeling",
+          "weight": 30,
+          "descriptors": {
+            "0": "The layers are missing or mixed together.",
+            "1": "Only one or two layers are given, or the fact contains judgement.",
+            "2": "All three layers are given but the fact still contains words like 'always' or 'stole'.",
+            "3": "A neutral observable fact, a clearly labelled story with an alternative explanation, and a named feeling."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "fact",
+              "story",
+              "feeling"
+            ],
+            "min": 3,
+            "label": "Labels fact, story and feeling"
+          }
+        },
+        {
+          "id": "script",
+          "label": "Four-part opening script",
+          "weight": 35,
+          "descriptors": {
+            "0": "No script.",
+            "1": "One or two of the four parts are present.",
+            "2": "Three parts are present, or all four with one unclear.",
+            "3": "All four parts are clearly present and in a natural order."
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Non-blaming language",
+          "weight": 35,
+          "descriptors": {
+            "0": "Accuses, uses labels such as 'thief' or 'selfish'.",
+            "1": "Mostly neutral but contains 'always', 'never' or a verdict.",
+            "2": "Neutral but the impact is not stated as an I-statement.",
+            "3": "Neutral throughout, with a true I-statement and an open question."
+          },
+          "auto": {
+            "type": "forbidden",
+            "patterns": [
+              "always",
+              "never",
+              "selfish",
+              "thief",
+              "stole"
+            ],
+            "label": "No 'always', 'never' or labels"
+          }
+        }
+      ],
+      "modelAnswer": "Fact: in the last two team meetings, Pooja presented my analysis without naming me. Story: she wanted the credit (but she may simply have forgotten, or been nervous). Feeling: I feel hurt and a bit invisible.\n\nOpening: 'I want us to keep working well together. In the last two meetings, the analysis I prepared was presented without my name, and I felt overlooked because I had spent a weekend on it. Could you tell me how you saw it, and could we agree to credit each other's work in meetings?'",
+      "guidance": "Strong answers keep the fact camera-like ('presented without my name'), label the story as a guess and offer another explanation, and speak the impact from the first person. A common mistake is to write 'she stole my work' as the fact; that is a story. Another is to finish with a demand rather than an invitation. Compare with the model answer, and score each criterion honestly."
+    }
+  ],
+  "task": {
+    "title": "Prepare and script one real conversation",
+    "brief": "Choose something you have been avoiding saying to someone, and prepare it using facts, story, feeling and the opening script.",
+    "steps": [
+      "Pick one small, real issue you have been avoiding with a friend, classmate, family member or colleague. Do not pick a very painful one for a first attempt.",
+      "Write the fact, the story, the feeling and your purpose in one line each.",
+      "Write a four-part opening: shared purpose, observation, impact as an I-statement, invitation.",
+      "Choose a time and place and write the sentence you will use to ask permission to talk.",
+      "Say the script aloud twice. If it is safe and sensible, have the conversation within the week."
+    ],
+    "checklist": [
+      "I wrote fact, story, feeling and purpose separately",
+      "My observation contains no 'always', 'never' or labels",
+      "My impact line is a true I-statement",
+      "I chose a private time and place",
+      "I rehearsed the script aloud"
+    ],
+    "evidencePrompt": "Write your four-part opening script exactly as you plan to say it.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "conflict-2.q1",
+      "type": "mcq",
+      "concept": "conflict.preparation",
+      "prompt": "Which of these is a fact rather than a story?",
+      "options": [
+        "He does not care about the team.",
+        "He was careless with the report.",
+        "The report was submitted two days after the deadline.",
+        "He is trying to make me look bad."
+      ],
+      "answer": 2,
+      "why": "A camera could record the submission date. Not caring, carelessness and bad intentions are interpretations of the facts, which may be wrong."
+    },
+    {
+      "id": "conflict-2.q2",
+      "type": "mcq",
+      "concept": "conflict.opening",
+      "prompt": "What is the purpose of the 'shared purpose' part of an opening script?",
+      "options": [
+        "To soften the person before the real criticism",
+        "To show that you are both working towards the same goal, which lowers defensiveness",
+        "To avoid mentioning the actual problem",
+        "To prove that you are right"
+      ],
+      "answer": 1,
+      "why": "A shared purpose signals that you are on the same side of the problem. It is not a sandwich to hide the criticism, and it does not replace stating the issue."
+    },
+    {
+      "id": "conflict-2.q3",
+      "type": "fill",
+      "concept": "conflict.listening",
+      "prompt": "Repeating back in your own words what you heard, such as 'So the contract changed late on Thursday?', is called what? (one word)",
+      "accept": [
+        "paraphrasing",
+        "paraphrase",
+        "paraphrasing."
+      ],
+      "why": "Paraphrasing shows you listened and corrects misunderstandings early. It is different from agreeing: you are checking, not conceding."
+    },
+    {
+      "id": "conflict-2.q4",
+      "type": "mcq",
+      "concept": "conflict.timing",
+      "prompt": "Which is the best way to start a difficult talk with a colleague?",
+      "options": [
+        "Raise it in front of the team so everyone hears",
+        "Message at midnight when you are most upset",
+        "Ask 'Is now a good time? I would like ten minutes about the demo build', and meet privately",
+        "Wait three months until it stops mattering"
+      ],
+      "answer": 2,
+      "why": "Asking permission, naming the subject and choosing a private setting avoids ambush and defensiveness. Public or late-night timing escalates, and waiting for months lets resentment grow."
+    }
+  ],
+  "bank": [
+    {
+      "id": "conflict-2.b1",
+      "type": "mcq",
+      "concept": "conflict.opening",
+      "prompt": "Which sentence best turns the complaint 'You never listen to my ideas in meetings' into an I-statement?",
+      "options": [
+        "I think you are ignoring me on purpose.",
+        "In Monday's meeting my suggestion was not discussed, and I felt overlooked. I would like us to hear each person's idea before deciding.",
+        "You should listen more.",
+        "It seems nobody here respects my ideas."
+      ],
+      "answer": 1,
+      "why": "It names one specific moment, states the personal impact and makes a request. The others assign motives, give an order or generalise to everyone."
+    },
+    {
+      "id": "conflict-2.b2",
+      "type": "mcq",
+      "concept": "conflict.listening",
+      "prompt": "While you describe a problem, the other person says, 'You are wrong, I told you the date.' What is the best next step?",
+      "options": [
+        "Raise your voice to be heard",
+        "Say 'Okay, let me check what I missed. You are saying you told me the date. When was that?' and listen",
+        "End the conversation immediately",
+        "Prove them wrong with a list of past mistakes"
+      ],
+      "answer": 1,
+      "why": "Paraphrasing and asking when keeps you in fact-finding mode and may reveal a miscommunication. Matching anger, leaving or bringing up past mistakes escalates the conflict."
+    },
+    {
+      "id": "conflict-2.b3",
+      "type": "fill",
+      "concept": "conflict.preparation",
+      "prompt": "In the facts, story, feelings model, 'He is deliberately ignoring me' is which layer? (one word)",
+      "accept": [
+        "story",
+        "the story"
+      ],
+      "why": "It is an interpretation of why something happened. The fact would be: 'I sent three messages and received no reply.'"
+    }
+  ],
+  "cards": [
+    {
+      "id": "conflict-2.c1",
+      "concept": "conflict.preparation",
+      "front": "What three layers do you separate before a difficult conversation?",
+      "back": "Facts (what a camera records), story (your interpretation) and feelings. Lead with facts, state feelings briefly, and offer the story only as a question."
+    },
+    {
+      "id": "conflict-2.c2",
+      "concept": "conflict.opening",
+      "front": "What is the four-part opening script?",
+      "back": "Shared purpose, observation (fact), impact as an I-statement, invitation to hear their side. Avoid 'always', 'never' and labels."
+    },
+    {
+      "id": "conflict-2.c3",
+      "concept": "conflict.timing",
+      "front": "How should you choose the timing of a difficult talk?",
+      "back": "After you have cooled down, in private, and with permission: 'Is now a good time? It is about the demo build.' Pause, but do not avoid forever."
+    },
+    {
+      "id": "conflict-2.c4",
+      "concept": "conflict.listening",
+      "front": "What are the three listening moves before you respond?",
+      "back": "Ask an open question, paraphrase what you heard, and acknowledge the feeling. Acknowledging is not agreeing. Then give your view."
+    }
+  ],
+  "reflection": "Which conversation are you currently avoiding, and what is the first sentence, containing only a fact and an I-statement, that you could say to begin it?",
+  "revision": {
+    "keyPoints": [
+      "Separate facts, story and feelings before you speak.",
+      "Open with shared purpose, observation, impact and invitation.",
+      "An I-statement describes your experience and makes a request.",
+      "Choose a private, calm moment and ask permission.",
+      "Paraphrase and acknowledge before you respond."
+    ],
+    "redo": "Take one complaint you have about someone and rewrite it as a fact, an I-statement and a request in three sentences."
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "id": "critical-2",
+  "skillId": "critical",
+  "n": 2,
+  "title": "Fallacies and Cognitive Biases",
+  "summary": "Recognise common reasoning errors in arguments and the mental biases that make you accept them, then respond calmly.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Name and spot five common logical fallacies in everyday arguments.",
+    "Recognise confirmation bias, anchoring, sunk cost and availability in your own decisions.",
+    "Respond to a flawed argument without attacking the person."
+  ],
+  "concepts": [
+    {
+      "id": "critical.fallacies",
+      "label": "Logical fallacies"
+    },
+    {
+      "id": "critical.appeals",
+      "label": "Appeals to authority and popularity"
+    },
+    {
+      "id": "critical.biases",
+      "label": "Confirmation and anchoring bias"
+    },
+    {
+      "id": "critical.sunk-availability",
+      "label": "Sunk cost and availability"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Errors in arguments and in minds",
+      "body": "Last time you learned to split an argument into premises and a conclusion and to check the evidence. This lesson covers two sources of bad reasoning. **Fallacies** are errors in the argument itself: the premises do not support the conclusion even though it sounds convincing. **Cognitive biases** are errors in our own thinking: shortcuts the brain takes that push us off course. Knowing both makes you harder to fool, including by yourself.\n\nA warning: naming fallacies is a tool for improving thinking, not for winning fights. Calling someone's argument \"a fallacy\" without explaining why just starts a quarrel."
+    },
+    {
+      "heading": "Five common fallacies",
+      "body": "- **Ad hominem**: attacking the person instead of the claim. \"You failed last semester, so your suggestion on the database design is worthless.\" The suggestion must be judged on its merits.\n- **Straw man**: misrepresenting a view to make it easy to defeat. Someone says \"We should review the code before release\" and the reply is \"So you want to slow the whole project down for weeks?\"\n- **False dilemma**: presenting only two options when more exist. \"Either we use this framework or the project fails.\"\n- **Slippery slope**: claiming one step will inevitably lead to extreme results without evidence. \"If we allow one late submission, nobody will submit on time.\"\n- **Appeal to authority or popularity**: \"A famous coder said it, so it is true\" or \"Everyone is learning this tool, so it must be best.\" Expertise matters only within the expert's field and when evidence backs it; popularity shows what is trendy, not what is correct.\n\nResponse technique: restate the real claim, then ask for evidence. \"I am not asking for a delay. I suggest a one-day review. What risk do you see in that?\""
+    },
+    {
+      "heading": "Biases that live in your head",
+      "body": "**Confirmation bias**: we notice and remember evidence that supports what we already believe, and discount the rest. If you believe a certain training institute is best, you will read only its success stories. Counter it by actively searching for the strongest case against your view.\n\n**Anchoring**: the first number you hear shapes later judgements. If a recruiter says \"freshers in this company get about 3 lakh\", every figure afterwards feels measured against it, even if the number was arbitrary. Counter it by researching your own range before the conversation.\n\n**Sunk cost**: continuing something because of what you have already spent, not what you will gain. You paid Rs 30,000 for a course that is clearly not helping and keep going \"so the fees do not go to waste\". The money is gone either way; ask only \"from today, is this the best use of my next hundred hours?\"\n\n**Availability**: judging likelihood by how easily examples come to mind. After reading news about a layoffs round you may overestimate your own risk, even though the news reports exceptions loudly and ordinary days quietly. Counter it with base rates and data."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Spotting a straw man in a group project",
+      "body": "Riya says: \"Maybe we should write tests before demo day.\" Karan answers: \"You want us to spend a month on tests and miss the deadline?\" Riya had suggested a couple of hours on the main features. A good reply: \"I meant two hours on the three main functions, not a month. Does that risk the deadline?\"",
+      "takeaway": "Restating your actual claim calmly removes the exaggeration without attacking the person."
+    },
+    {
+      "title": "Sunk cost in a decision",
+      "body": "Arjun has spent three months and Rs 20,000 on a coaching programme with outdated material and poor trainers. A friend offers a better, cheaper batch. Arjun wants to stay \"because I have already paid\". A clearer frame: the Rs 20,000 is gone in both cases; compare only future cost, time and learning of staying versus switching.",
+      "takeaway": "Judge options by their future costs and benefits, not by what is already lost."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "critical-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "critical.fallacies",
+      "prompt": "A teammate says, \"Your idea for the login page is bad because you only joined this team last week.\" This is:",
+      "options": [
+        "An ad hominem attack on you rather than your idea",
+        "A fair challenge to your idea",
+        "A false dilemma",
+        "A slippery slope"
+      ],
+      "answer": 0,
+      "why": "It attacks the person rather than judging the idea. Newness to a team says nothing about whether the idea works."
+    },
+    {
+      "id": "critical-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "critical.biases",
+      "prompt": "Seeking out only information that agrees with what you already believe is called ____ bias. (one word)",
+      "accept": [
+        "confirmation"
+      ],
+      "why": "Confirmation bias is the habit of favouring evidence that supports your existing view."
+    },
+    {
+      "id": "critical-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "critical.sunk-availability",
+      "prompt": "You have spent six months on a side project that no longer fits your goals. A friend says, \"You have come this far, you cannot quit now.\" What is the best reasoning?",
+      "options": [
+        {
+          "text": "Continue, because six months must not be wasted.",
+          "score": 1,
+          "feedback": "This is the sunk cost trap; the past time is gone either way."
+        },
+        {
+          "text": "Compare what the next 100 hours would achieve on the project versus on your current goal, then decide.",
+          "score": 3,
+          "feedback": "Looking forward at future benefit is the sound way to decide."
+        },
+        {
+          "text": "Quit immediately without thinking.",
+          "score": 1,
+          "feedback": "Impulsive quitting is not reasoning; compare options first."
+        },
+        {
+          "text": "Ask more friends until someone agrees with you.",
+          "score": 0,
+          "feedback": "This is confirmation bias in action."
+        }
+      ],
+      "why": "Decide from future costs and benefits, not past investment or the opinions you collected to agree with yourself."
+    },
+    {
+      "id": "critical-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "critical.appeals",
+      "prompt": "Read this claim: \"Everyone in my class is joining this paid certification, and a famous YouTuber recommends it, so it must be the best way to get a job.\" Identify two fallacies or biases in it, explain each in one sentence, and write the question you would ask to test the claim.",
+      "minWords": 33,
+      "rubric": [
+        {
+          "id": "identify",
+          "label": "Two correct fallacies named",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One named.",
+            "2": "Two named with weak fit.",
+            "3": "Appeal to popularity and appeal to authority correctly named."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "popularity",
+              "authority",
+              "bandwagon",
+              "appeal"
+            ],
+            "min": 2,
+            "label": "Names appeal to popularity and authority"
+          }
+        },
+        {
+          "id": "explain",
+          "label": "Clear explanations",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Label only.",
+            "2": "One explained.",
+            "3": "Both explained with reference to the claim."
+          }
+        },
+        {
+          "id": "question",
+          "label": "Testing question",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Rude or vague.",
+            "2": "Reasonable but not evidence based.",
+            "3": "Asks for specific evidence such as placement outcomes."
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Calm tone",
+          "weight": 10,
+          "descriptors": {
+            "0": "Attacks the speaker.",
+            "1": "Dismissive.",
+            "2": "Neutral.",
+            "3": "Curious and respectful."
+          }
+        }
+      ],
+      "modelAnswer": "Appeal to popularity: many classmates joining shows it is trendy, not that it works. Appeal to authority: a YouTuber may not have evidence about hiring outcomes. Question: what share of past participants got entry-level roles, and in how long?",
+      "guidance": "A strong answer names the fallacies, links each to the exact words of the claim and ends with an evidence question. Mistakes include only labelling or insulting the person. Score yourself against the model."
+    }
+  ],
+  "task": {
+    "title": "Fallacy and bias hunt",
+    "brief": "Find real examples of reasoning errors around you and one in your own thinking.",
+    "steps": [
+      "Collect three claims from social media, a WhatsApp group, advertising or a class discussion.",
+      "Label the fallacy in each and write a calm reply that restates the real claim and asks for evidence.",
+      "Identify one decision where you may have anchoring, confirmation or sunk cost bias.",
+      "Write what you would do differently, for example searching for disconfirming evidence."
+    ],
+    "checklist": [
+      "I found three real claims",
+      "Each has a labelled fallacy",
+      "I wrote a calm reply to at least one",
+      "I identified a bias in my own decision"
+    ],
+    "evidencePrompt": "Write one claim, its fallacy, your calm reply and one personal bias.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "critical-2.q1",
+      "type": "mcq",
+      "concept": "critical.fallacies",
+      "prompt": "A straw man misrepresents someone's argument so that it is:",
+      "options": [
+        "More accurate",
+        "Shorter",
+        "Easier to attack",
+        "More polite"
+      ],
+      "answer": 2,
+      "why": "It replaces the real view with a weaker one."
+    },
+    {
+      "id": "critical-2.q2",
+      "type": "mcq",
+      "concept": "critical.appeals",
+      "prompt": "Why is popularity weak evidence of quality?",
+      "options": [
+        "Popular things are always wrong",
+        "Many people can be wrong, so popularity shows trend not truth",
+        "It is never relevant",
+        "Experts ignore it"
+      ],
+      "answer": 1,
+      "why": "Popularity may reflect marketing or habit instead of merit."
+    },
+    {
+      "id": "critical-2.q3",
+      "type": "mcq",
+      "concept": "critical.biases",
+      "prompt": "The first number mentioned in a salary talk strongly shaping your judgement is:",
+      "options": [
+        "Anchoring",
+        "Availability",
+        "Sunk cost",
+        "Slippery slope"
+      ],
+      "answer": 0,
+      "why": "The first figure becomes an anchor for later comparisons."
+    },
+    {
+      "id": "critical-2.q4",
+      "type": "mcq",
+      "concept": "critical.sunk-availability",
+      "prompt": "Which statement avoids the sunk cost fallacy?",
+      "options": [
+        "I will continue because I already paid",
+        "Whatever I spent is gone, so I will choose what gives most value from here",
+        "Quitting means failure",
+        "I must finish what I start"
+      ],
+      "answer": 1,
+      "why": "Only future costs and benefits should decide."
+    }
+  ],
+  "bank": [
+    {
+      "id": "critical-2.b1",
+      "type": "mcq",
+      "concept": "critical.fallacies",
+      "prompt": "A manager says, \"Either we approve this change today or the client leaves.\" No other options are discussed. This is:",
+      "options": [
+        "A false dilemma",
+        "An ad hominem",
+        "An appeal to authority",
+        "Anchoring"
+      ],
+      "answer": 0,
+      "why": "It forces two options when others, like a phased plan, may exist."
+    },
+    {
+      "id": "critical-2.b2",
+      "type": "fill",
+      "concept": "critical.sunk-availability",
+      "prompt": "After seeing three news stories about plane crashes, you feel flying is very risky. This mental shortcut is the ____ heuristic. (one word)",
+      "accept": [
+        "availability"
+      ],
+      "why": "Vivid, easily recalled examples distort your sense of how often something happens."
+    },
+    {
+      "id": "critical-2.b3",
+      "type": "mcq",
+      "concept": "critical.biases",
+      "prompt": "Which habit best fights confirmation bias?",
+      "options": [
+        "Reading only sources you agree with",
+        "Looking for the best argument against your view",
+        "Asking only your friends",
+        "Ignoring statistics"
+      ],
+      "answer": 1,
+      "why": "Deliberately seeking disconfirming evidence tests your belief."
+    }
+  ],
+  "cards": [
+    {
+      "id": "critical-2.c1",
+      "concept": "critical.fallacies",
+      "front": "Name five fallacies.",
+      "back": "Ad hominem, straw man, false dilemma, slippery slope and appeal to authority or popularity."
+    },
+    {
+      "id": "critical-2.c2",
+      "concept": "critical.appeals",
+      "front": "Why are authority and popularity weak?",
+      "back": "Experts can be wrong outside their field and crowds follow trends; ask for evidence instead."
+    },
+    {
+      "id": "critical-2.c3",
+      "concept": "critical.biases",
+      "front": "Confirmation bias and anchoring?",
+      "back": "Confirmation: favouring evidence you already agree with. Anchoring: the first number shapes later judgement."
+    },
+    {
+      "id": "critical-2.c4",
+      "concept": "critical.sunk-availability",
+      "front": "Sunk cost and availability?",
+      "back": "Sunk cost: continuing because of past spending. Availability: judging likelihood by memorable examples. Use future value and data instead."
+    }
+  ],
+  "reflection": "Which bias from this lesson most affects your own choices, and what question could you ask before your next decision to catch it?",
+  "revision": {
+    "keyPoints": [
+      "Fallacies break the link between premises and conclusion.",
+      "Restate the real claim and ask for evidence, calmly.",
+      "Biases such as confirmation, anchoring, sunk cost and availability distort your own thinking.",
+      "Decide using future value and data."
+    ],
+    "redo": "Pick a decision you made this month and check it for sunk cost and confirmation bias."
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "id": "research-1",
+  "skillId": "research",
+  "n": 1,
+  "title": "Framing Questions and Search Strategy",
+  "summary": "Turn a vague topic into answerable questions, build a keyword list, choose the right kind of source and keep a search log.",
+  "difficulty": 1,
+  "minutes": { "concept": 7, "examples": 3, "practice": 9, "task": 6, "quiz": 3 },
+  "objectives": [
+    "Convert a vague topic into two or three narrow, answerable research questions.",
+    "Build a keyword list with synonyms and use search operators as ideas (exact phrase, exclude, site type, date range).",
+    "Tell primary sources from secondary sources and keep a short search log."
+  ],
+  "concepts": [
+    { "id": "research.question", "label": "Framing an answerable question" },
+    { "id": "research.keywords", "label": "Keywords, synonyms and operators" },
+    { "id": "research.sources", "label": "Primary vs secondary sources" },
+    { "id": "research.log", "label": "The search log" }
+  ],
+  "explanation": [
+    {
+      "heading": "A topic is not a question",
+      "body": "Most weak research starts with a topic: 'SAP careers', 'cloud computing', 'AI in banking'. A topic has no edges, so you can read for days and never know whether you have finished. A **question** has edges. It tells you what a good answer looks like and when to stop.\n\nTo narrow a topic, add four things: **who** (which group or place), **what exactly** (which measurable aspect), **when** (which period) and **why you need it** (the decision it supports). Take the topic 'SAP careers'. A narrowed question is: *What skills do entry-level SAP ABAP job descriptions at Indian IT services firms ask for most often?* Now you know the sources (job postings, firm career pages), the output (a ranked list of skills) and the finish line (about 15 to 20 postings reviewed).\n\nA good test: can you imagine the answer fitting in one or two sentences, with evidence? If not, split the question. Two or three small questions beat one huge one."
+    },
+    {
+      "heading": "Keywords, synonyms and operators",
+      "body": "Search tools match words, not meaning, so the words you choose decide what you find. Write a keyword list before you search. For each core idea list **synonyms**, **related terms** and **how an expert would say it**. For 'entry-level SAP ABAP skills' you might list: fresher, graduate trainee, junior, associate consultant; ABAP, ABAP on HANA, SAP development; skills, requirements, qualifications, responsibilities.\n\nMost search tools support a few ideas, whatever the exact symbols are. Learn them as concepts:\n\n- **Exact phrase**: wrap words in quotation marks to match them together, as in 'associate consultant' rather than the two words anywhere.\n- **Exclude**: put a minus sign before a word to drop an unwanted meaning, such as removing 'salary' when you want skills.\n- **Site or domain type**: restrict results to one organisation, or to a type such as government or education pages.\n- **Date range**: limit results to recent years when the field changes fast.\n- **File type**: ask for reports or presentations rather than blog posts.\n\nWorked example: a search for the single word *python* returns snakes and tutorials. Searching for *'python' 'data cleaning' tutorial -snake* narrows it. If the first search returns noise, change one thing at a time so you learn which change helped."
+    },
+    {
+      "heading": "Primary and secondary sources",
+      "body": "A **primary source** is the original: the dataset, the court order, the company's annual report, the interview recording, the research paper that ran the experiment. A **secondary source** describes or interprets primary material: a news article about the report, a textbook, a blog summary. A **tertiary** source, such as an encyclopaedia, collects secondary sources.\n\nWhy it matters: every retelling can drop a detail, round a number or add spin. When a news story says 'a survey found 70% of graduates are unemployable', the primary source is the survey itself, with its sample size, date and question wording. Use secondary sources to get oriented and find the primary one; use the primary source to confirm the claim.\n\nThe same document can be primary or secondary depending on your question. A newspaper column is secondary for 'what does the study show?' but primary for 'how did the media describe the study?'."
+    },
+    {
+      "heading": "Keep a search log",
+      "body": "A search log is a short running table: **date, query, tool, what you found, usefulness (1 to 3), next move**. It costs one line per search and saves you from repeating dead ends, losing a good page, or forgetting where a number came from. It also makes your work checkable by a teammate, which matters in a client project.\n\nExample line: *12 Oct | 'ABAP fresher' requirements -salary | job portal | 6 useful postings, 3 duplicates | 2 | try 'associate consultant SAP' next.* After ten lines, patterns appear: which keywords worked, which sources repeat each other. Common mistake: collecting links without recording the question they answer. Practise by logging every search for your next assignment, even the quick ones."
+    }
+  ],
+  "examples": [
+    {
+      "title": "From vague topic to three questions",
+      "body": "Topic: 'Digital payments in India'.\n\nNarrowed questions:\n1. How did the number of UPI transactions per month change between two chosen years, according to the payment network's own published statistics? (primary source, numbers)\n2. What reasons do small shopkeepers give for accepting or refusing UPI? (interviews or surveys, secondary or primary)\n3. What are the most common UPI fraud methods described by banks or regulators? (official advisories)\n\nEach question names a group, a measurable thing and a source type.",
+      "takeaway": "Each narrowed question can be answered with evidence and has a clear finish line, unlike the original topic."
+    },
+    {
+      "title": "Improving a failing search",
+      "body": "Goal: find how many hours a week students spend on phones.\n\nAttempt 1: phone use students. Result: shopping pages and phone reviews.\nAttempt 2: 'screen time' 'university students' survey. Result: better, but many are 10 years old.\nAttempt 3: 'screen time' 'university students' survey, with the date range set to the last five years, excluding 'children'. Result: three surveys with sample sizes.",
+      "takeaway": "Use synonyms and the expert phrase ('screen time'), then exact phrase, then date and exclusion; change one thing per attempt."
+    },
+    {
+      "title": "Two search-log lines",
+      "body": "09 Oct | 'ABAP fresher' skills | job portal | 5 postings, all ask for SQL and OOP basics | 3 | open each firm's careers page.\n10 Oct | 'SAP ABAP syllabus' | training institute pages | marketing text, no depth | 1 | skip institute sites, try official learning content.",
+      "takeaway": "A useful log records the result and the next move, so the next session starts instantly."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "research-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "research.question",
+      "prompt": "Which of these is the best-framed research question for a college project?",
+      "options": [
+        "Cybersecurity in India",
+        "What are the three most reported types of online fraud against individuals in India in the last two years, according to official advisories?",
+        "Is cybersecurity good or bad?",
+        "Everything about phishing"
+      ],
+      "answer": 1,
+      "hint": "Look for a group, a measurable aspect, a time period and a source type.",
+      "why": "The second option names who (individuals in India), what (three most reported fraud types), when (last two years) and where evidence comes from (official advisories). The others are topics or opinion questions with no finish line."
+    },
+    {
+      "id": "research-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "research.keywords",
+      "prompt": "You want to find pages containing the exact words 'data warehouse' together, not separately. Which punctuation should you wrap around the phrase? Write the name of the mark (two words).",
+      "accept": ["quotation marks", "quotation mark", "double quotes", "inverted commas", "quotes", "double quotation marks"],
+      "hint": "The mark is used in writing to show spoken words.",
+      "why": "Wrapping a phrase in quotation marks asks the search tool to match those words together in that order, which removes many irrelevant results."
+    },
+    {
+      "id": "research-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "research.question",
+      "prompt": "Your manager says: 'Find out about remote work.' Write two narrowed research questions that would let you give a useful answer for an IT services team, and for each name the type of source you would use and whether it is primary or secondary.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "narrow",
+          "label": "Questions are narrow and answerable",
+          "weight": 40,
+          "descriptors": {
+            "0": "Restates the topic; no question.",
+            "1": "Questions are still broad (no group, time or measure).",
+            "2": "Questions have most of: group, measure, period; one is still loose.",
+            "3": "Both questions name who, what, when and could be answered in one or two evidenced sentences."
+          }
+        },
+        {
+          "id": "sources",
+          "label": "Source types matched to questions",
+          "weight": 35,
+          "descriptors": {
+            "0": "No sources named.",
+            "1": "Sources named but do not suit the questions.",
+            "2": "Suitable sources named; primary or secondary label missing or wrong once.",
+            "3": "Suitable source for each question, correctly labelled primary or secondary."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": ["primary", "secondary"],
+            "min": 1,
+            "label": "Labels at least one source as primary or secondary"
+          }
+        },
+        {
+          "id": "use",
+          "label": "Linked to the manager's decision",
+          "weight": 25,
+          "descriptors": {
+            "0": "No link to a use.",
+            "1": "Only a vague link to a decision.",
+            "2": "Clear link for one question.",
+            "3": "Both questions clearly support a decision the team would make."
+          }
+        }
+      ],
+      "modelAnswer": "Q1: What share of employees at Indian IT services firms reported higher or lower productivity after moving to hybrid work, according to published surveys from the last three years? Source: the original survey reports from research firms or company disclosures (primary), cross-checked with news summaries (secondary). Q2: Which collaboration practices (daily stand-ups, written updates, overlap hours) do team leads say worked best for hybrid teams? Source: interviews or published case notes from team leads (primary) and HR journals (secondary). Both help decide our team's office-day policy.",
+      "guidance": "Strong answers split 'remote work' into questions with a group, a measure and a time frame, and link each to a decision. A common mistake is to write a narrower topic, such as 'Remote work and productivity', which is still not a question. Label sources honestly: a news article about a survey is secondary even if it quotes numbers."
+    },
+    {
+      "id": "research-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "research.sources",
+      "prompt": "A news article says 'A new report shows 8 in 10 freshers lack job-ready coding skills.' You need to quote this in a presentation tomorrow. What do you do?",
+      "options": [
+        {
+          "text": "Quote the article, since a reputable newspaper published it.",
+          "score": 1,
+          "feedback": "The newspaper is a secondary source; it may have rounded, simplified or dropped caveats. You cannot judge the claim without the report."
+        },
+        {
+          "text": "Find the report named in the article, check sample size, date and the question wording, then cite the report.",
+          "score": 3,
+          "feedback": "Correct: you move from the secondary to the primary source and verify what the number actually measures."
+        },
+        {
+          "text": "Search for other articles repeating the same number and quote the most popular one.",
+          "score": 0,
+          "feedback": "Repeating articles often copy each other; popularity is not verification, and you still have not seen the original."
+        },
+        {
+          "text": "Leave out the statistic entirely.",
+          "score": 1,
+          "feedback": "Safe, but you lose useful evidence that could be verified in a few minutes."
+        }
+      ],
+      "why": "The efficient move is to trace to the primary source. Secondary coverage is useful for finding the report, but the report itself shows how the figure was produced."
+    }
+  ],
+  "task": {
+    "title": "Frame, search, log",
+    "brief": "Pick a real topic you need to know about and run a small, logged search.",
+    "steps": [
+      "Choose a topic from your studies or job search (for example, how SAP ABAP freshers are hired).",
+      "Write two narrowed questions using who, what, when and why.",
+      "List at least eight keywords and synonyms, then run three searches, changing one thing each time (exact phrase, exclusion or date range).",
+      "Log each search as one line: date, query, what you found, usefulness 1 to 3, next move.",
+      "Mark whether each useful result is primary or secondary."
+    ],
+    "checklist": [
+      "I wrote two narrowed questions",
+      "I listed eight or more keywords and synonyms",
+      "I ran three searches and logged each",
+      "I labelled sources primary or secondary"
+    ],
+    "evidencePrompt": "Paste your best narrowed question and one search-log line.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "research-1.q1",
+      "type": "mcq",
+      "concept": "research.question",
+      "prompt": "What makes a research question better than a topic?",
+      "options": [
+        "It is longer and more formal.",
+        "It tells you what a good answer looks like and when to stop.",
+        "It always has a yes or no answer.",
+        "It can be searched with a single keyword."
+      ],
+      "answer": 1,
+      "why": "A question sets edges: group, measure and period. Length and formality do not help, many good questions are not yes/no, and a single keyword search is the opposite of focused."
+    },
+    {
+      "id": "research-1.q2",
+      "type": "mcq",
+      "concept": "research.keywords",
+      "prompt": "A search for 'java' keeps returning coffee pages. Which change best fixes this?",
+      "options": [
+        "Use a minus sign to exclude 'coffee' or add 'programming language'.",
+        "Search the same word again, more slowly.",
+        "Add many unrelated words.",
+        "Switch to capital letters."
+      ],
+      "answer": 0,
+      "why": "Excluding the unwanted meaning or adding context narrows results. Repeating, padding with unrelated words and capital letters do not change what the tool matches."
+    },
+    {
+      "id": "research-1.q3",
+      "type": "mcq",
+      "concept": "research.sources",
+      "prompt": "Which is a primary source for the question 'What did the company report as its yearly revenue?'",
+      "options": [
+        "A blog post summarising the results",
+        "A news article quoting an analyst",
+        "The company's own published annual report",
+        "A textbook chapter on accounting"
+      ],
+      "answer": 2,
+      "why": "The annual report is the original document. The others describe or interpret it and may contain errors."
+    },
+    {
+      "id": "research-1.q4",
+      "type": "fill",
+      "concept": "research.log",
+      "prompt": "Name one thing a search log line should record besides the query. (one word, such as the date)",
+      "accept": ["date", "result", "results", "tool", "usefulness", "next move", "found", "source"],
+      "why": "A log line records date, query, tool, what was found, usefulness and the next move, so you never repeat a dead end or lose where a fact came from."
+    }
+  ],
+  "bank": [
+    {
+      "id": "research-1.b1",
+      "type": "mcq",
+      "concept": "research.question",
+      "prompt": "A student wants to research 'student stress'. Which narrowed version is best?",
+      "options": [
+        "Student stress and its causes",
+        "What are the top three self-reported stressors among first-year engineering students in India in survey studies from the last five years?",
+        "Why are students always stressed?",
+        "Stress is bad for students"
+      ],
+      "answer": 1,
+      "why": "It names the group, measure, period and evidence type. The others are topics, a loaded question or a claim."
+    },
+    {
+      "id": "research-1.b2",
+      "type": "mcq",
+      "concept": "research.sources",
+      "prompt": "You read a blog that says 'Government data show road accidents fell last year.' What should you do first?",
+      "options": [
+        "Share it, since it cites government data.",
+        "Find the government publication the blog refers to and read the figure there.",
+        "Search for other blogs saying the same thing.",
+        "Ask the blog author in the comments."
+      ],
+      "answer": 1,
+      "why": "The blog is a secondary source; the government publication is primary. Other blogs may just copy the first, and the author's reply is not documentary evidence."
+    },
+    {
+      "id": "research-1.b3",
+      "type": "fill",
+      "concept": "research.keywords",
+      "prompt": "Your search for 'cloud certification' gives few results. Name the kind of word you should add to your list to widen it, such as 'credential' for 'certification'. (one word)",
+      "accept": ["synonym", "synonyms"],
+      "why": "Adding synonyms and related terms captures pages that use different words for the same idea."
+    }
+  ],
+  "cards": [
+    {
+      "id": "research-1.c1",
+      "concept": "research.question",
+      "front": "What four things narrow a topic into a question?",
+      "back": "Who (group or place), what exactly (measurable aspect), when (period) and why (the decision it supports)."
+    },
+    {
+      "id": "research-1.c2",
+      "concept": "research.keywords",
+      "front": "Name four search operators as ideas.",
+      "back": "Exact phrase (quotation marks), exclude (minus), site or domain type, and date range. Change one thing per search."
+    },
+    {
+      "id": "research-1.c3",
+      "concept": "research.sources",
+      "front": "Primary vs secondary source?",
+      "back": "Primary is the original (data, report, paper, recording). Secondary interprets or reports on it. Trace claims back to the primary."
+    },
+    {
+      "id": "research-1.c4",
+      "concept": "research.log",
+      "front": "What goes in a search log line?",
+      "back": "Date, query, tool, what you found, usefulness 1 to 3, and the next move."
+    }
+  ],
+  "reflection": "Think of a time you searched for something and gave up or accepted a poor answer. Which of today's steps (narrower question, better keywords, primary source, log) would have changed the result?",
+  "revision": {
+    "keyPoints": [
+      "A topic has no edges; a question names who, what, when, why.",
+      "Build a keyword and synonym list before you search.",
+      "Operators as ideas: exact phrase, exclude, site type, date range.",
+      "Trace secondary claims to the primary source.",
+      "Log every search with a next move."
+    ],
+    "redo": "Take any vague topic you heard today and write one narrowed question with who, what and when in two minutes."
+  }
+}

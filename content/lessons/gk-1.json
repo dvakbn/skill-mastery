@@ -1,0 +1,362 @@
+{
+  "id": "gk-1",
+  "skillId": "gk",
+  "n": 1,
+  "title": "Indian Polity and Institutions",
+  "summary": "Understand the Constitution, fundamental rights, the three organs of government, federalism and how elections work, using only stable facts.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Name the six fundamental rights and tell them apart from directive principles and duties.",
+    "Explain how Parliament, the executive and the judiciary check one another.",
+    "Describe how power is shared between the Union and the states and how elections are run."
+  ],
+  "concepts": [
+    {
+      "id": "gk.rights-constitution",
+      "label": "Constitution and fundamental rights"
+    },
+    {
+      "id": "gk.three-organs",
+      "label": "Parliament, executive and judiciary"
+    },
+    {
+      "id": "gk.federalism",
+      "label": "Federalism and the three lists"
+    },
+    {
+      "id": "gk.elections",
+      "label": "Election basics"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "The Constitution and your rights",
+      "body": "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950, which is why we celebrate Republic Day on that date. It is the supreme law: every other law, and every government action, must fit within it.\n\nThe most useful part for a citizen is **Part III, the fundamental rights**, found in Articles 12 to 35. There are six groups: right to equality (Articles 14 to 18), right to freedom (19 to 22), right against exploitation (23 and 24), right to freedom of religion (25 to 28), cultural and educational rights (29 and 30), and the right to constitutional remedies (Article 32). Article 21, the protection of life and personal liberty, has been read broadly by the courts, and the right to education for children aged 6 to 14 sits in Article 21A.\n\nTwo neighbours are often confused with these. **Directive Principles** (Part IV) are goals for the State, such as fair wages and public health. Courts cannot enforce them directly. **Fundamental Duties** (Article 51A) are duties of citizens, such as protecting public property. The right to property is no longer a fundamental right; since 1978 it is a legal right under Article 300A."
+    },
+    {
+      "heading": "Three organs, one system of checks",
+      "body": "Government works through three organs. The **legislature** makes laws. In India's Union Parliament this means the President, the Lok Sabha and the Rajya Sabha. The Lok Sabha is the directly elected house, with a normal term of five years. The Rajya Sabha is a permanent house: members serve six-year terms and one-third retire every two years.\n\nThe **executive** carries laws out. The President is the formal head of state, but in practice acts on the advice of the Prime Minister and the council of ministers, who are collectively responsible to the Lok Sabha. If the Lok Sabha loses confidence in them, they must go. This is the parliamentary system.\n\nThe **judiciary** interprets laws and protects rights. The Supreme Court sits at the top, with high courts below it. Under Article 32 you can approach the Supreme Court directly for a fundamental right, and under Article 226 a high court. Courts can strike down a law that violates the Constitution; this is **judicial review**. In the Kesavananda Bharati case (1973) the Supreme Court held that Parliament can amend the Constitution but not destroy its basic structure."
+    },
+    {
+      "heading": "Federalism: who decides what",
+      "body": "India is a union of states with a strong centre. The Seventh Schedule divides subjects into three lists. The **Union List** (defence, foreign affairs, currency) is for Parliament alone. The **State List** (police, public health, agriculture) is mainly for state legislatures. The **Concurrent List** (education, forests, marriage) allows both, and if they clash the Union law generally prevails.\n\nA quick example: a state government runs its own police and public hospitals, but only the Union government can print currency or sign a treaty. A new law about a subject on the Concurrent List, say education, may be passed by Parliament and also by a state assembly. Knowing the lists lets you decide in seconds which government a news story is really about."
+    },
+    {
+      "heading": "How elections work",
+      "body": "The Election Commission of India, created under Article 324, conducts elections to Parliament, state legislatures and the offices of President and Vice-President. Every citizen aged 18 or above can vote, a limit lowered from 21 by the 61st Amendment in 1988. In Lok Sabha and assembly elections the system is **first past the post**: the candidate with the most votes in a constituency wins, even without a majority of all votes cast.\n\nSuppose three candidates in a constituency get 40,000, 35,000 and 25,000 votes. The first wins with 40 percent. Understanding this explains why a party can win many seats with a modest vote share. After results, the party or alliance that commands a majority in the Lok Sabha forms the government. To practise, take any news item about government and ask three questions: which organ is acting, under which list, and which article or rule applies."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Which right is this?",
+      "body": "A college refuses admission to a student only because of her religion. This touches Article 15, part of the right to equality, which prohibits discrimination on grounds of religion, race, caste, sex or place of birth. If the matter is serious, the student can approach the high court under Article 226, or the Supreme Court under Article 32. A related news item about a state promising free nutrition schemes would instead be a Directive Principle, a goal rather than an enforceable right.",
+      "takeaway": "Match the facts to a group of rights first, then ask whether it is enforceable (a right) or aspirational (a directive principle)."
+    },
+    {
+      "title": "Whose job is it?",
+      "body": "A young entrepreneur in Faridabad asks who to complain to about a broken municipal road, a delayed passport and a change in customs duty. Roads and local bodies fall to the state and municipality (State List), passports are a Union subject (foreign affairs), and customs duty is a Union tax. Three problems, three levels of government.",
+      "takeaway": "The three lists let you route a problem to the right government instead of blaming everyone."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gk-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "gk.rights-constitution",
+      "prompt": "Which of these is NOT currently a fundamental right?",
+      "options": [
+        "Right to property",
+        "Right to equality",
+        "Right to constitutional remedies",
+        "Right against exploitation"
+      ],
+      "answer": 0,
+      "why": "Property was removed from fundamental rights in 1978 and is now a legal right under Article 300A. The other three remain among the six groups."
+    },
+    {
+      "id": "gk-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "gk.elections",
+      "prompt": "The minimum age to vote in Indian elections is ____ years. (number)",
+      "accept": [
+        "18",
+        "eighteen"
+      ],
+      "why": "The 61st Amendment (1988) lowered the voting age from 21 to 18."
+    },
+    {
+      "id": "gk-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "gk.federalism",
+      "prompt": "A state wants to start its own currency to help local traders. What is the correct position?",
+      "options": [
+        {
+          "text": "Allowed, since the state controls its economy.",
+          "score": 0,
+          "feedback": "Currency is on the Union List, so only the Union can control it."
+        },
+        {
+          "text": "Not allowed, because currency is a Union List subject reserved for Parliament and the central bank.",
+          "score": 3,
+          "feedback": "The Seventh Schedule places currency under the Union, so a state cannot issue one."
+        },
+        {
+          "text": "Allowed if the Rajya Sabha agrees.",
+          "score": 1,
+          "feedback": "The Rajya Sabha cannot hand a Union subject to a state this way."
+        },
+        {
+          "text": "Allowed because it is on the Concurrent List.",
+          "score": 0,
+          "feedback": "Currency is not on the Concurrent List."
+        }
+      ],
+      "why": "Know the three lists: currency, defence and foreign affairs belong to the Union."
+    },
+    {
+      "id": "gk-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "gk.three-organs",
+      "prompt": "A law passed by Parliament is challenged because it seems to violate a fundamental right. In 4 to 6 sentences, explain which organ decides, how a citizen can approach it, and what it can do if the challenge succeeds.",
+      "minWords": 40,
+      "rubric": [
+        {
+          "id": "organ",
+          "label": "Names the judiciary",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing or wrong organ.",
+            "1": "Names a court vaguely.",
+            "2": "Names the Supreme Court or high court.",
+            "3": "Names the judiciary with its role as guardian of the Constitution."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "judiciary",
+              "supreme court",
+              "high court",
+              "court"
+            ],
+            "min": 1,
+            "label": "Mentions the judiciary or a court"
+          }
+        },
+        {
+          "id": "route",
+          "label": "Route for citizens",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Says \"go to court\".",
+            "2": "Mentions Article 32 or 226.",
+            "3": "Mentions both Articles with the right court for each."
+          }
+        },
+        {
+          "id": "power",
+          "label": "Judicial review outcome",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "Says the court can punish.",
+            "2": "Says the law can be struck down.",
+            "3": "Explains judicial review and striking down the unconstitutional part."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "judicial review",
+              "strike down",
+              "struck down",
+              "unconstitutional",
+              "invalid"
+            ],
+            "min": 1,
+            "label": "Explains striking down"
+          }
+        },
+        {
+          "id": "clarity",
+          "label": "Clear structure",
+          "weight": 20,
+          "descriptors": {
+            "0": "Confusing.",
+            "1": "Understandable but disorganised.",
+            "2": "Mostly clear.",
+            "3": "Clear and sequential."
+          }
+        }
+      ],
+      "modelAnswer": "The judiciary decides. A citizen whose fundamental right is affected can go directly to the Supreme Court under Article 32 or to the relevant high court under Article 226. The court examines whether the law conflicts with the Constitution. If it does, the court can declare the law, or the offending part, unconstitutional and void. This power is called judicial review, and it makes the Constitution supreme over ordinary laws.",
+      "guidance": "A strong answer names the judiciary, the two routes (Article 32 and 226) and judicial review. Common mistakes are saying the President or Parliament decides, or confusing the court striking down a law with the court making a new law. Mark yourself against each criterion honestly."
+    }
+  ],
+  "task": {
+    "title": "Map one news story to the system",
+    "brief": "Pick any three government-related news items from this week and map each to the organ, list and level of government involved.",
+    "steps": [
+      "Choose three items from a newspaper or news app.",
+      "For each, write which organ (legislature, executive, judiciary) is acting.",
+      "Write whether the subject is Union, State or Concurrent and the right or provision involved, if any.",
+      "Write one sentence in plain words summarising each."
+    ],
+    "checklist": [
+      "I mapped three stories",
+      "Each has an organ named",
+      "Each has a list or level named",
+      "My summaries avoid opinion"
+    ],
+    "evidencePrompt": "Paste your three mappings in one line each.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "gk-1.q1",
+      "type": "mcq",
+      "concept": "gk.rights-constitution",
+      "prompt": "The Constitution of India came into force on:",
+      "options": [
+        "15 August 1947",
+        "26 November 1949",
+        "26 January 1950",
+        "2 October 1950"
+      ],
+      "answer": 2,
+      "why": "It was adopted on 26 November 1949 and came into force on 26 January 1950. 15 August 1947 is independence."
+    },
+    {
+      "id": "gk-1.q2",
+      "type": "mcq",
+      "concept": "gk.three-organs",
+      "prompt": "To whom is the council of ministers collectively responsible?",
+      "options": [
+        "The President alone",
+        "The Lok Sabha",
+        "The Supreme Court",
+        "The Election Commission"
+      ],
+      "answer": 1,
+      "why": "In the parliamentary system the ministers answer to the directly elected Lok Sabha."
+    },
+    {
+      "id": "gk-1.q3",
+      "type": "mcq",
+      "concept": "gk.federalism",
+      "prompt": "Police is mainly a subject of the:",
+      "options": [
+        "Union List",
+        "State List",
+        "Concurrent List",
+        "Residuary powers of the President"
+      ],
+      "answer": 1,
+      "why": "Police and public order are on the State List."
+    },
+    {
+      "id": "gk-1.q4",
+      "type": "fill",
+      "concept": "gk.elections",
+      "prompt": "In Lok Sabha elections, the candidate with the most votes wins under the ____ system. (three words, e.g. first ___ the post)",
+      "accept": [
+        "first past the post",
+        "first-past-the-post",
+        "fptp"
+      ],
+      "why": "India uses first past the post, with no requirement of an absolute majority in the constituency."
+    }
+  ],
+  "bank": [
+    {
+      "id": "gk-1.b1",
+      "type": "mcq",
+      "concept": "gk.rights-constitution",
+      "prompt": "Which part of the Constitution lists goals the State should pursue, but which courts cannot directly enforce?",
+      "options": [
+        "Part III",
+        "Part IV",
+        "Article 32",
+        "Article 226"
+      ],
+      "answer": 1,
+      "why": "Part IV, the Directive Principles, is non-justiciable. Part III holds the enforceable fundamental rights."
+    },
+    {
+      "id": "gk-1.b2",
+      "type": "mcq",
+      "concept": "gk.three-organs",
+      "prompt": "Which body can declare a law unconstitutional?",
+      "options": [
+        "Rajya Sabha",
+        "Council of Ministers",
+        "Supreme Court and high courts",
+        "Election Commission"
+      ],
+      "answer": 2,
+      "why": "Judicial review is the courts' power to strike down laws that violate the Constitution."
+    },
+    {
+      "id": "gk-1.b3",
+      "type": "mcq",
+      "concept": "gk.elections",
+      "prompt": "Which body conducts elections to Parliament and the state legislatures?",
+      "options": [
+        "Supreme Court",
+        "Lok Sabha Secretariat",
+        "Election Commission of India",
+        "Finance Commission"
+      ],
+      "answer": 2,
+      "why": "Article 324 gives this task to the Election Commission of India."
+    }
+  ],
+  "cards": [
+    {
+      "id": "gk-1.c1",
+      "concept": "gk.rights-constitution",
+      "front": "Six groups of fundamental rights?",
+      "back": "Equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and constitutional remedies. They are in Part III, Articles 12 to 35."
+    },
+    {
+      "id": "gk-1.c2",
+      "concept": "gk.three-organs",
+      "front": "What is judicial review?",
+      "back": "The power of courts to test laws and executive acts against the Constitution and strike down those that violate it."
+    },
+    {
+      "id": "gk-1.c3",
+      "concept": "gk.federalism",
+      "front": "Three lists in the Seventh Schedule?",
+      "back": "Union List (Parliament), State List (states), Concurrent List (both, Union law prevails in a clash)."
+    },
+    {
+      "id": "gk-1.c4",
+      "concept": "gk.elections",
+      "front": "What is first past the post?",
+      "back": "The candidate with the most votes in a constituency wins, even without more than half of the votes."
+    }
+  ],
+  "reflection": "Which institution in this lesson affects your daily life most directly, and what would you want to understand better about how it works?",
+  "revision": {
+    "keyPoints": [
+      "The Constitution is supreme law, in force since 26 January 1950.",
+      "Fundamental rights are enforceable; directive principles are not.",
+      "Parliament makes law, the executive carries it out, the judiciary interprets it.",
+      "Three lists decide who governs which subject.",
+      "Elections run by the Election Commission use first past the post."
+    ],
+    "redo": "Name the six rights groups and the three lists from memory in two minutes."
+  }
+}

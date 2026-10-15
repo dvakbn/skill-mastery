@@ -1,0 +1,326 @@
+{
+  "id": "career-2",
+  "skillId": "career",
+  "n": 2,
+  "title": "Resume and Portfolio",
+  "summary": "Write action-and-impact bullets, shape a one-page ATS-friendly resume and use projects as proof of skill.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Rewrite weak resume lines into action-and-impact bullets.",
+    "Structure a clean one-page resume that passes basic ATS parsing.",
+    "Present two projects as proof and plan a simple portfolio."
+  ],
+  "concepts": [
+    {
+      "id": "career.action-impact",
+      "label": "Action-and-impact bullets"
+    },
+    {
+      "id": "career.one-page-ats",
+      "label": "One-page structure and ATS basics"
+    },
+    {
+      "id": "career.projects-proof",
+      "label": "Projects as proof"
+    },
+    {
+      "id": "career.simple-portfolio",
+      "label": "A simple portfolio"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "What a resume is for",
+      "body": "A resume has one job: to earn a conversation. Recruiters and hiring managers often scan each resume for under a minute, so it must communicate your value in a few seconds. Last time you built a self-map of strengths, values and interests. Your resume is the edited, evidence-based version of that map aimed at one type of role.\n\nThe reader asks three quick questions: Can this person do the job? Is there proof? Is it easy to read? Everything that does not help answer them should go. For a fresher, a one-page resume is the standard length; length is not a sign of quality."
+    },
+    {
+      "heading": "Action-and-impact bullets",
+      "body": "Weak bullets describe duties: \"Worked on a web application\". Strong bullets use the formula **action verb + what you did + how or with what + result**. A result can be a number, a speed-up, users served, errors prevented or a decision made.\n\n**Before:** \"Responsible for backend of college event portal.\"\n**After:** \"Built a Node.js and Supabase backend for a college event portal used by 400 students, cutting manual registration work from two days to under an hour.\"\n\nIf you lack exact numbers, use honest estimates or scale words such as \"for 3 teams\" and \"handled 200 records\". Never invent figures: interviewers will ask how you measured them. Start each bullet with a different strong verb such as built, reduced, designed, automated or tested, and keep each to one or two lines."
+    },
+    {
+      "heading": "One-page structure and ATS basics",
+      "body": "An **applicant tracking system (ATS)** is software that stores resumes and lets recruiters search them by keywords. To be read well by it, use a simple layout: one column, standard headings (Education, Skills, Projects, Experience), plain fonts and no text inside images, tables or icons. Save as PDF unless the posting asks for another format, and name the file clearly, for example Deepak_Raj_Resume.pdf.\n\nA good fresher order is: contact line, two-line summary targeting the role, skills grouped by type, projects, education, and certificates or achievements. Mirror the honest keywords from the posting, such as SQL, ABAP, debugging and reports, in your skills and bullets. Never paste keywords you cannot discuss."
+    },
+    {
+      "heading": "Projects as proof, and a simple portfolio",
+      "body": "With little work experience, **projects are your proof**. Choose two and describe each in three bullets: the problem, what you built and the result. Be ready to explain any line in depth: why this database design, what broke, how you fixed it.\n\nA **simple portfolio** is just a public, organised place where a stranger can see your work: a code repository with a readable description for each project, a short note on what you learned, and ideally screenshots or a short walkthrough. Three well-explained projects beat ten unexplained ones. For an ABAP target, add a small learning project, such as a documented report that reads two tables and displays a joined result, to show direction. Keep the portfolio current by adding one item whenever you finish something."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Rewriting three bullets",
+      "body": "Before: \"Did SQL work.\" After: \"Wrote 12 SQL queries with joins and aggregates to produce monthly attendance reports for 60 students.\" Before: \"Part of team project.\" After: \"Led a team of four to deliver a library management app in six weeks, coordinating tasks and fixing integration bugs.\"",
+      "takeaway": "Each stronger bullet names an action, the scale and the outcome."
+    },
+    {
+      "title": "A fresher resume skeleton",
+      "body": "Header: name, phone, email, city. Summary: \"MCA student with full-stack project experience, learning SAP ABAP.\" Skills: Languages (JavaScript, C#, SQL), Backend (Node.js, Express, Supabase), Learning (ABAP basics). Projects: two with three bullets each. Education and certificates last.",
+      "takeaway": "A single-column layout with standard headings is readable by people and by software."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "career-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "career.action-impact",
+      "prompt": "Which bullet is strongest?",
+      "options": [
+        "Responsible for testing",
+        "Worked on a team project",
+        "Tested a login module with 25 cases and caught 6 defects before release",
+        "Helped with the project"
+      ],
+      "answer": 2,
+      "why": "It starts with an action, states scale and shows a result. The others only name a duty or vague involvement."
+    },
+    {
+      "id": "career-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "career.one-page-ats",
+      "prompt": "The software recruiters use to store and search resumes by keywords is called an ____. (three-letter abbreviation)",
+      "accept": [
+        "ats",
+        "applicant tracking system"
+      ],
+      "why": "An applicant tracking system, or ATS, parses and ranks resumes, so simple layouts and honest keywords help."
+    },
+    {
+      "id": "career-2.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "career.projects-proof",
+      "prompt": "Your resume lists a React dashboard project, but in the interview you cannot explain how the data was fetched. What should you have done?",
+      "options": [
+        {
+          "text": "Keep it listed and hope nobody asks.",
+          "score": 0,
+          "feedback": "Interviewers usually probe projects, and an unexplained one damages trust."
+        },
+        {
+          "text": "List only projects you can explain deeply and rehearse your design choices and bugs.",
+          "score": 3,
+          "feedback": "Depth on fewer projects is proof; shallow claims are a risk."
+        },
+        {
+          "text": "Add more tools to the project description.",
+          "score": 1,
+          "feedback": "More tools you cannot explain make the problem worse."
+        },
+        {
+          "text": "Remove all projects from the resume.",
+          "score": 1,
+          "feedback": "Projects are your main proof as a fresher, so removing them weakens you."
+        }
+      ],
+      "why": "Projects work only as proof when you can discuss decisions, bugs and results in depth."
+    },
+    {
+      "id": "career-2.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "career.action-impact",
+      "prompt": "Rewrite these three weak lines into action-and-impact bullets: (1) \"Worked on a website.\" (2) \"Did database work for project.\" (3) \"Was part of a team.\" Invent realistic but modest details and mark any estimates with \"about\".",
+      "minWords": 43,
+      "rubric": [
+        {
+          "id": "verbs",
+          "label": "Strong opening action verbs",
+          "weight": 30,
+          "descriptors": {
+            "0": "No Action verbs given.",
+            "1": "Action verbs is vague or generic.",
+            "2": "Action verbs is clear but could be more specific.",
+            "3": "Action verbs is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "impact",
+          "label": "Scale or result in each bullet",
+          "weight": 40,
+          "descriptors": {
+            "0": "No Scale or result given.",
+            "1": "Scale or result is vague or generic.",
+            "2": "Scale or result is clear but could be more specific.",
+            "3": "Scale or result is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "honest",
+          "label": "Honest, modest specifics",
+          "weight": 30,
+          "descriptors": {
+            "0": "No Honest specifics given.",
+            "1": "Honest specifics is vague or generic.",
+            "2": "Honest specifics is clear but could be more specific.",
+            "3": "Honest specifics is specific, concrete and well reasoned."
+          }
+        }
+      ],
+      "modelAnswer": "1) Built a responsive Node.js event website for a college fest, handling about 300 registrations. 2) Designed a Supabase schema with 5 related tables and wrote queries that reduced duplicate student records to zero. 3) Coordinated a team of four, split tasks weekly and fixed integration bugs before the final demo.",
+      "guidance": "Strong answers begin with a different verb each time, include a number or scale in every bullet and stay believable. Common mistakes are repeating the same verb, inflating numbers and writing duties without outcomes. Score down any bullet with no result."
+    }
+  ],
+  "task": {
+    "title": "Rewrite your resume bullets",
+    "brief": "Produce a one-page resume draft with action-and-impact bullets and two explained projects.",
+    "steps": [
+      "Open your current resume or start a blank page.",
+      "Rewrite at least five bullets using verb, task, method and result.",
+      "Use single-column layout with standard headings and save as a PDF.",
+      "Write three bullets each for two projects and prepare a one-minute spoken explanation for each."
+    ],
+    "checklist": [
+      "Every bullet starts with an action verb",
+      "At least three bullets have a number or scale",
+      "The resume fits one page",
+      "I can explain each project aloud"
+    ],
+    "evidencePrompt": "Paste your two strongest rewritten bullets.",
+    "evidenceWords": 35,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "career-2.q1",
+      "type": "mcq",
+      "concept": "career.action-impact",
+      "prompt": "What belongs in a strong resume bullet?",
+      "options": [
+        "Action, method and result",
+        "A list of duties only",
+        "Long paragraphs",
+        "Only the tools used"
+      ],
+      "answer": 0,
+      "why": "Action, method and result show what you did and why it mattered; duties and tool lists do not."
+    },
+    {
+      "id": "career-2.q2",
+      "type": "mcq",
+      "concept": "career.one-page-ats",
+      "prompt": "Which layout is safest for ATS parsing?",
+      "options": [
+        "Two columns with icons",
+        "Single column with standard headings",
+        "Text inside images",
+        "A table of skills with graphics"
+      ],
+      "answer": 1,
+      "why": "Simple single-column text with standard headings is read correctly by ATS software."
+    },
+    {
+      "id": "career-2.q3",
+      "type": "fill",
+      "concept": "career.projects-proof",
+      "prompt": "For a fresher with little experience, ____ are the main proof of skill. (one word)",
+      "accept": [
+        "projects",
+        "project"
+      ],
+      "why": "Projects show what you can build and think through, which substitutes for work history."
+    },
+    {
+      "id": "career-2.q4",
+      "type": "mcq",
+      "concept": "career.simple-portfolio",
+      "prompt": "What makes a portfolio useful to a stranger?",
+      "options": [
+        "Ten unexplained repositories",
+        "A few organised projects with clear descriptions and what you learned",
+        "A flashy animated page only",
+        "Only a list of certificates"
+      ],
+      "answer": 1,
+      "why": "Clarity and explanation let a reviewer judge your thinking quickly."
+    }
+  ],
+  "bank": [
+    {
+      "id": "career-2.b1",
+      "type": "mcq",
+      "concept": "career.action-impact",
+      "prompt": "A friend writes \"Handled customer queries\". Which improvement is best?",
+      "options": [
+        "Handled many customer queries",
+        "Resolved about 40 customer queries a week, keeping response time under one day",
+        "Customer queries were handled by me",
+        "Handled customer queries well"
+      ],
+      "answer": 1,
+      "why": "Adding scale and a result turns a duty into evidence."
+    },
+    {
+      "id": "career-2.b2",
+      "type": "mcq",
+      "concept": "career.one-page-ats",
+      "prompt": "A posting asks for SQL and debugging. You have both skills. What should you do?",
+      "options": [
+        "Hide them to save space",
+        "Include them honestly in skills and bullets",
+        "Add ten more keywords you have not used",
+        "Put them in a picture"
+      ],
+      "answer": 1,
+      "why": "Honest keyword matching helps search and reading without creating claims you cannot defend."
+    },
+    {
+      "id": "career-2.b3",
+      "type": "mcq",
+      "concept": "career.projects-proof",
+      "prompt": "How many projects should a fresher resume highlight?",
+      "options": [
+        "As many as possible, even unfinished ones",
+        "Two or three that you can discuss in depth",
+        "None",
+        "Only team projects without your role"
+      ],
+      "answer": 1,
+      "why": "A few well-understood projects are stronger than a long, shallow list."
+    }
+  ],
+  "cards": [
+    {
+      "id": "career-2.c1",
+      "concept": "career.action-impact",
+      "front": "Formula for a strong resume bullet?",
+      "back": "Action verb plus what you did, how, and the result, ideally with a number or scale. Never invent figures."
+    },
+    {
+      "id": "career-2.c2",
+      "concept": "career.one-page-ats",
+      "front": "ATS-friendly resume rules?",
+      "back": "One column, standard headings, plain fonts, no text in images or tables, clear file name, and honest keywords from the posting."
+    },
+    {
+      "id": "career-2.c3",
+      "concept": "career.projects-proof",
+      "front": "Why are projects so valuable for freshers?",
+      "back": "They are proof of ability when you lack work history, as long as you can explain design choices, bugs and results."
+    },
+    {
+      "id": "career-2.c4",
+      "concept": "career.simple-portfolio",
+      "front": "What is a simple portfolio?",
+      "back": "A public, organised set of two or three explained projects with short notes on what you learned, updated as you finish new work."
+    }
+  ],
+  "reflection": "Which line on your current resume describes a duty instead of a result, and how would you rewrite it?",
+  "revision": {
+    "keyPoints": [
+      "A resume earns a conversation, nothing more.",
+      "Use action, method and result in every bullet.",
+      "One column, standard headings and honest keywords suit ATS.",
+      "Explain two or three projects deeply and keep a tidy portfolio."
+    ],
+    "redo": "Pick one bullet from your resume and rewrite it with an action verb and a result."
+  }
+}

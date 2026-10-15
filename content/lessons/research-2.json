@@ -1,0 +1,349 @@
+{
+  "id": "research-2",
+  "skillId": "research",
+  "n": 2,
+  "title": "Evaluating Sources",
+  "summary": "Judge whether a source deserves trust by checking authority, evidence, incentives and recency, and by reading laterally.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Judge a source on authority, evidence, incentives and recency instead of how professional it looks.",
+    "Use lateral reading to learn who is behind a page before trusting what it says.",
+    "Spot sponsored, thin or low-quality content and decide how much weight it deserves."
+  ],
+  "concepts": [
+    {
+      "id": "research.authority",
+      "label": "Authority and expertise"
+    },
+    {
+      "id": "research.evidence",
+      "label": "Evidence and recency"
+    },
+    {
+      "id": "research.incentives",
+      "label": "Incentives and sponsorship"
+    },
+    {
+      "id": "research.lateral",
+      "label": "Lateral reading"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Trust is earned by checks, not by looks",
+      "body": "In the previous lesson you framed a question and searched for sources. Now comes the harder part: deciding which of the pages you found deserve belief. A clean layout, a confident tone and a .org address prove almost nothing, because anyone can buy a template in an afternoon. Judge the source on four checks instead: **authority**, **evidence**, **incentives** and **recency**.\n\nThink of it as a quick audit, not a verdict. Most sources are neither perfect nor worthless; your job is to decide how much weight each deserves for *this* question."
+    },
+    {
+      "heading": "Authority and evidence",
+      "body": "**Authority** asks: does this author or organisation have a reason to know? Look for relevant expertise and a track record on this specific topic. A cardiologist writing about heart disease has authority; the same cardiologist writing about cryptocurrency does not. Authority is always *topic-specific*.\n\n**Evidence** asks: what does the claim rest on? Strong sources show their working: data with a stated method, named studies, original documents, or direct quotes with context. Weak sources use phrases like *experts say*, *studies show* or *everyone knows* with nothing you can trace. A claim with no way to check it is an opinion wearing a lab coat.\n\n**Recency** matters differently by topic. A 2012 article about a programming framework may describe a version nobody uses; a 2012 article about how photosynthesis works is still fine. Ask whether the facts in this area change quickly, then check the date the page was published or last updated."
+    },
+    {
+      "heading": "Incentives: who gains if you believe this?",
+      "body": "Every source has a reason to exist. A newspaper wants readers, a company wants customers, a charity wants donations, a coaching institute wants admissions. An incentive does not make a source false, but it tells you which direction errors are likely to lean.\n\nWatch for sponsored content: articles paid for by a brand, written to look like independent journalism. Signs include labels such as *partner content* or *advertorial*, a product named in nearly every paragraph, comparisons where one option always wins, and a button to buy or enrol at the end. A review site that earns a commission on each link clicked is also not neutral, even if it writes well.\n\nA useful question: *would this page exist if the product were bad?*"
+    },
+    {
+      "heading": "Lateral reading: leave the page to judge the page",
+      "body": "Professional fact-checkers do not study a site by reading its About page, because the site wrote that page about itself. They open new tabs and ask what *other* sources say about the site. This is **lateral reading**: moving sideways to check who is behind a source, rather than reading deeper into it.\n\nWorked example. You find a page called *National Institute for Digital Careers* claiming that 9 out of 10 ABAP freshers get placed within a month. Instead of reading the page closely, you search for the institute name alone. You find that its address matches a coaching centre selling a paid course, that no university lists it, and that the figure appears only on its own pages. Verdict: low authority, no traceable evidence, strong incentive. You would not use the number, though you might note the institute exists.\n\nMake it a habit: before you read a page for what it says, spend two minutes finding out what others say about it. Common mistake: judging by design, or trusting a page because it appeared first in a search."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Two articles on the same salary claim",
+      "body": "Source A is a placement brochure: *Our ABAP graduates earn very high salaries.* No figures, no method, photo of smiling students, enrol button on every screen.\n\nSource B is a survey report from an industry body: 1,200 respondents, the question wording, the date of collection and the margin of error all stated, with a note that freshers in smaller cities reported lower figures.\n\nScoring on the four checks: A fails evidence and incentives; B shows its method and admits limits.",
+      "takeaway": "The more a source shows its working and admits limits, the more weight it earns; vague warmth plus a sales button lowers it."
+    },
+    {
+      "title": "Lateral reading in four moves",
+      "body": "You meet a blog, *TechPulse Daily*, praising a laptop. Open a new tab. 1) Search *TechPulse Daily who owns*. 2) Find it is run by a laptop reseller. 3) Check two independent testers on the same model. 4) Return to the blog and read it as marketing, with the independent results as your main evidence.",
+      "takeaway": "Two minutes outside the page told you more than twenty minutes inside it."
+    },
+    {
+      "title": "Recency and topic speed",
+      "body": "You need a how-to for configuring a feature in a software tool. The best-looking guide is from six years ago. You check the tool's own release notes and find the menu was redesigned. Meanwhile, a six-year-old explanation of how a binary search works is still correct.",
+      "takeaway": "Match your date check to how fast the topic changes."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "research-2.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "research.authority",
+      "prompt": "A well-known physician publishes a long article claiming a particular smartphone is the best for students. How should you rate her authority on that claim?",
+      "options": [
+        "High, because doctors are trusted experts in general.",
+        "High, because the article is long and detailed.",
+        "Low for this claim: her expertise is in medicine, not phones, and authority is topic-specific.",
+        "Cannot be judged at all without reading the article twice."
+      ],
+      "answer": 2,
+      "hint": "Ask what she is actually trained to know.",
+      "why": "Authority is specific to the topic. Her medical expertise does not transfer to phone comparisons. Length and detail (option 2) are not authority, and you can judge her relevance without re-reading (option 4)."
+    },
+    {
+      "id": "research-2.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "research.lateral",
+      "prompt": "What name is given to the habit of opening new tabs to see what other sources say about a site, instead of reading deeper into the site itself? (two words)",
+      "accept": [
+        "lateral reading",
+        "lateral-reading"
+      ],
+      "hint": "Starts with the word lateral.",
+      "why": "This is lateral reading: moving sideways to check who is behind a source before trusting its own description of itself."
+    },
+    {
+      "id": "research-2.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "research.incentives",
+      "prompt": "Read this extract from a web page and evaluate it in 60-100 words: \"TOP 5 Best Online Courses for ABAP in 2026 - Our expert team tested every course! SkillRocket Academy is number one and rated 5/5 by 98% of students. Click Enrol Now to get 40% off today only. Other courses lack mentoring and placement help.\" Name at least two incentive or evidence red flags and say how you would check the page laterally.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "flags",
+          "label": "Red flags identified",
+          "weight": 40,
+          "descriptors": {
+            "0": "No red flags named.",
+            "1": "One vague flag, such as \"looks like an advert\".",
+            "2": "Two flags named but one is not explained.",
+            "3": "At least two flags clearly explained, such as the number-one ranking the page benefits from, the unexplained 98% figure, urgency pressure and the dismissal of rivals."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "incentive",
+              "sponsor",
+              "commission",
+              "advert",
+              "sell",
+              "enrol",
+              "evidence",
+              "98",
+              "urgency",
+              "biased",
+              "conflict"
+            ],
+            "min": 2,
+            "label": "Mentions at least two relevant terms such as incentive, advert, evidence or urgency"
+          }
+        },
+        {
+          "id": "lateral",
+          "label": "Lateral check proposed",
+          "weight": 35,
+          "descriptors": {
+            "0": "No check proposed.",
+            "1": "Says \"search more\" without saying what.",
+            "2": "Proposes one concrete outside check.",
+            "3": "Proposes concrete outside checks, such as who owns SkillRocket, independent student reviews, and whether any neutral body lists these courses."
+          }
+        },
+        {
+          "id": "verdict",
+          "label": "Clear overall verdict",
+          "weight": 25,
+          "descriptors": {
+            "0": "No verdict.",
+            "1": "Verdict given with no reasoning.",
+            "2": "Verdict with partial reasoning.",
+            "3": "Clear verdict, for example treat as marketing and not as evidence, with reasoning linked to the flags."
+          }
+        }
+      ],
+      "modelAnswer": "This page looks like marketing rather than independent evaluation. The top-ranked course is also the one with the enrol button, which is an incentive to rank it first, and the 98 per cent rating has no stated sample, method or source. The urgency phrase today only is a pressure tactic. I would search who owns the academy, read independent student discussions about it, and see whether any neutral body or employer mentions the course. Until then I would treat the page as an advert, not as evidence.",
+      "guidance": "A strong answer names specific red flags from the extract (ranked first by a seller, unexplained 98 per cent, pressure to buy now, belittling competitors) and proposes checks outside the page. Common mistakes: saying the page is fake (it may simply be biased), or only saying it looks unprofessional. Score yourself on whether each flag is tied to a quote and each check could really be done in two minutes."
+    },
+    {
+      "id": "research-2.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "research.lateral",
+      "prompt": "You are preparing a college talk and find a striking statistic on a polished website called Indian Youth Skills Council: \"72% of graduates cannot write a correct email.\" It has no named author. The talk is tomorrow. What do you do?",
+      "options": [
+        {
+          "text": "Use the statistic; the site looks official and the claim sounds plausible.",
+          "score": 0,
+          "feedback": "Looks and plausibility are not evidence. You would be repeating an untraceable number to an audience."
+        },
+        {
+          "text": "Search for the council itself, then look for the original survey; if neither can be found, drop the number or call it unverified.",
+          "score": 3,
+          "feedback": "Right: lateral reading on the organisation, then trace the figure to its source. If you cannot, you protect your credibility by not stating it as fact."
+        },
+        {
+          "text": "Use it but add \"some studies say\" to soften it.",
+          "score": 1,
+          "feedback": "Softening words do not fix a claim with no source; you are still passing it on."
+        },
+        {
+          "text": "Skip statistics entirely and use only your own opinions.",
+          "score": 1,
+          "feedback": "Over-correcting. Verified numbers strengthen a talk; the fix is checking, not avoiding evidence."
+        }
+      ],
+      "why": "The statistic has no author, method or origin, and the organisation is unknown. Check who they are laterally, trace the number, and only use it if both hold up."
+    }
+  ],
+  "task": {
+    "title": "Audit one real source",
+    "brief": "Pick a page you recently relied on and audit it with the four checks and a lateral search.",
+    "steps": [
+      "Choose a real article, blog post or video description you used in the last two weeks.",
+      "Write one line each for authority, evidence, incentives and recency.",
+      "Open a new tab and spend two minutes finding what others say about the author or site.",
+      "Give the source a trust rating from 1 to 5 and write what it is still good for."
+    ],
+    "checklist": [
+      "I chose a real source I actually used",
+      "I wrote all four checks",
+      "I did at least one lateral search",
+      "I gave a rating and a limited use"
+    ],
+    "evidencePrompt": "Write the source type, your rating, and the biggest red flag or reason for trust you found.",
+    "evidenceWords": 20,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "research-2.q1",
+      "type": "mcq",
+      "concept": "research.authority",
+      "prompt": "Which author has the most relevant authority for a claim about how SAP pricing models changed over time?",
+      "options": [
+        "A famous cricketer who uses SAP software in his business.",
+        "A licensing analyst who has published on enterprise software contracts for years.",
+        "A student blogger with many followers.",
+        "A news anchor who covered a software company once."
+      ],
+      "answer": 1,
+      "why": "Relevant, topic-specific experience gives authority. Fame and followers do not."
+    },
+    {
+      "id": "research-2.q2",
+      "type": "mcq",
+      "concept": "research.evidence",
+      "prompt": "Which sentence offers evidence you can actually check?",
+      "options": [
+        "Experts agree this method is the best.",
+        "Studies show remarkable results.",
+        "Everyone in the industry already knows this.",
+        "The 2023 survey of 800 freshers, described in the appendix, found 61% used the method."
+      ],
+      "answer": 3,
+      "why": "Only the last names a survey, a year, a sample and a figure you can look up. The others are vague appeals with nothing to trace."
+    },
+    {
+      "id": "research-2.q3",
+      "type": "mcq",
+      "concept": "research.incentives",
+      "prompt": "A phone review ends with \"Buy now\" links and the site earns a fee from each sale. What is the best conclusion?",
+      "options": [
+        "The review must be false.",
+        "Treat it with caution and cross-check with an independent tester, since the fee creates a lean toward positive reviews.",
+        "The review is automatically trustworthy because it is detailed.",
+        "Ignore every review that has any links."
+      ],
+      "answer": 1,
+      "why": "An incentive shows the likely direction of bias; it does not prove falsehood (option 1) and it is not a reason to dismiss every link (option 4). Detail alone (option 3) does not remove the incentive."
+    },
+    {
+      "id": "research-2.q4",
+      "type": "fill",
+      "concept": "research.lateral",
+      "prompt": "Fact-checkers judge an unfamiliar site by leaving it and searching for what others say. In one word, what do they avoid relying on first, since the site wrote it about itself: the \"About\" ____?",
+      "accept": [
+        "page",
+        "about page",
+        "us"
+      ],
+      "why": "The About page is the site's own description of itself, so it cannot independently confirm its own trustworthiness. Lateral reading looks outside it."
+    }
+  ],
+  "bank": [
+    {
+      "id": "research-2.b1",
+      "type": "mcq",
+      "concept": "research.evidence",
+      "prompt": "You read a 2014 blog post explaining the steps to install a development tool. What should you do first?",
+      "options": [
+        "Follow it step by step since it was written by someone confident.",
+        "Check whether the tool has changed since 2014, because installation steps change quickly.",
+        "Assume it is wrong because it is old.",
+        "Trust it if it has many comments."
+      ],
+      "answer": 1,
+      "why": "Fast-changing topics need a date check against current documentation. Old is not automatically wrong (option 3), but confident tone and comments (options 1, 4) do not prove it still works."
+    },
+    {
+      "id": "research-2.b2",
+      "type": "fill",
+      "concept": "research.incentives",
+      "prompt": "A news-style article is labelled \"Partner Content\" and mentions a brand in every paragraph. In one word, what kind of content is it likely to be (starts with s)?",
+      "accept": [
+        "sponsored"
+      ],
+      "why": "Partner content paid for by a brand is sponsored content: written to promote, even when it looks like independent reporting."
+    },
+    {
+      "id": "research-2.b3",
+      "type": "mcq",
+      "concept": "research.authority",
+      "prompt": "A charity publishes a report saying its own programme was a huge success. Which factor most limits how much weight you should give it?",
+      "options": [
+        "Its report is too long.",
+        "It is a charity, and charities are never honest.",
+        "It is evaluating its own work and benefits from the positive result, so independent evaluations should be sought.",
+        "It was published as a PDF."
+      ],
+      "answer": 2,
+      "why": "The incentive is self-assessment; independent evaluations reduce that conflict. Option 2 is an unfair generalisation, and format or length is irrelevant."
+    }
+  ],
+  "cards": [
+    {
+      "id": "research-2.c1",
+      "concept": "research.authority",
+      "front": "What does \"authority\" mean when judging a source?",
+      "back": "Having relevant, topic-specific expertise or a track record on this exact subject. A doctor is an authority on medicine, not on phones."
+    },
+    {
+      "id": "research-2.c2",
+      "concept": "research.evidence",
+      "front": "Name three signs of a source showing its evidence.",
+      "back": "Named data with method, traceable studies or documents, and quotes with context. Vague phrases such as \"experts say\" signal missing evidence."
+    },
+    {
+      "id": "research-2.c3",
+      "concept": "research.incentives",
+      "front": "Why does an incentive matter, and what question exposes it?",
+      "back": "It shows which way errors are likely to lean. Ask who gains if you believe this, and whether the page would exist if the product were bad."
+    },
+    {
+      "id": "research-2.c4",
+      "concept": "research.lateral",
+      "front": "What is lateral reading, in one line?",
+      "back": "Opening new tabs to see what others say about a source before reading deeper into it, instead of trusting its self-description."
+    }
+  ],
+  "reflection": "Think of a source you trusted quickly in the past, perhaps a video, a forwarded message or a coaching site. Which of the four checks would have changed your opinion, and what would you do differently now?",
+  "revision": {
+    "keyPoints": [
+      "Judge on authority, evidence, incentives and recency, not looks.",
+      "Authority is topic-specific.",
+      "Ask who gains if you believe this.",
+      "Read laterally: leave the page to judge the page.",
+      "Match the date check to how fast the topic changes."
+    ],
+    "redo": "Pick any article from your feed today and spend two minutes on a lateral search about its publisher; note one thing you learned."
+  }
+}

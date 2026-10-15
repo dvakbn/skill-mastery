@@ -1,0 +1,339 @@
+{
+  "id": "tech-1",
+  "skillId": "tech",
+  "n": 1,
+  "title": "A Method for Debugging",
+  "summary": "Replace guesswork with a repeatable loop: reproduce, isolate, hypothesise, test, fix and verify.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Apply the reproduce, isolate, hypothesise, test, fix, verify loop to a bug.",
+    "Read an error message and stack trace to find the first line worth checking.",
+    "Narrow a bug down quickly using binary search and rubber-duck explanation."
+  ],
+  "concepts": [
+    {
+      "id": "tech.method",
+      "label": "The debugging loop"
+    },
+    {
+      "id": "tech.error-messages",
+      "label": "Reading error messages"
+    },
+    {
+      "id": "tech.bisect",
+      "label": "Binary search on code"
+    },
+    {
+      "id": "tech.rubber-duck",
+      "label": "Rubber-duck explanation"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Debugging is a method, not a mood",
+      "body": "Most beginners debug by changing things and hoping. That works occasionally and teaches nothing. A reliable method has six steps:\n\n1. **Reproduce** the bug on demand. If you cannot make it happen, you cannot know when it is fixed.\n2. **Isolate** it: shrink the input and the code until the smallest case still fails.\n3. **Hypothesise**: write one sentence, 'I think X happens because Y'.\n4. **Test** the hypothesis with a print statement, a debugger breakpoint or a tiny experiment. Change one thing at a time.\n5. **Fix** the cause, not the symptom.\n6. **Verify**: re-run the original failing case and one nearby case, to be sure you did not break something else.\n\nHere is a classic. This function should average marks, but it prints the wrong thing:\n\n```js\nfunction average(marks) {\n  let total = 0;\n  for (let i = 0; i <= marks.length; i++) {\n    total += marks[i];\n  }\n  return total / marks.length;\n}\nconsole.log(average([60, 70, 80]));   // prints NaN\n```\n\nHypothesis: the loop reads one element too many. Test: print `marks[i]` inside the loop and you will see `undefined` on the last pass, because `i <= marks.length` allows `i = 3` in a three-element array. Adding `undefined` to a number gives `NaN`. Fix: use `i < marks.length`. Verify: the result is 70, and an empty array is worth a second check."
+    },
+    {
+      "heading": "Read the error message before anything else",
+      "body": "An error message is the program telling you exactly what it knows. Read it in three parts: the **type** (TypeError, ReferenceError, SyntaxError), the **message**, and the **stack trace**, which lists the calls that led there, most recent first.\n\n```\nTypeError: Cannot read properties of undefined (reading 'city')\n    at formatAddress (order.js:14:28)\n    at printLabel (label.js:6:10)\n    at main (app.js:22:3)\n```\n\nThis says: at line 14 of order.js, the code tried to read `.city` of something that was `undefined`. Start at the top frame inside your own code. But the top line is where it *crashed*, not always where the *mistake* is. Often `printLabel` passed in an undefined address, so follow the trace one frame down if line 14 looks fine.\n\nThe same habit applies in SAP work. A short dump or a system message such as a failed database read has a program name, a line and a reason. Copy the exact text into your notes. Paraphrasing loses the clues."
+    },
+    {
+      "heading": "Binary search: halve the problem",
+      "body": "When you do not know where the bug lives, do not read all 400 lines. Put a check at the midpoint, for example `console.log(total)` after line 200. If the value is already wrong there, the bug is in the first half; if it is still right, it is in the second half. Repeat. Each check halves the suspect area, so even 1,000 lines need at most about ten checks.\n\nThe same idea works elsewhere. With version control you can bisect commits: mark a good old commit and a bad new one, and test the commit in the middle. With a long input file, delete half the rows and see if the failure remains. With a configuration, disable half the settings.\n\nThe common mistake is changing three things at once. If the bug disappears you will not know which change fixed it, and if a new bug appears you will not know which change caused it."
+    },
+    {
+      "heading": "Rubber ducks and honest verification",
+      "body": "Rubber-duck debugging means explaining your code, line by line, out loud to an object or a patient friend. Explaining forces you to state what the code actually does rather than what you assumed it does, and the gap is often exactly where the bug is. Say things like 'this line sets total to zero; this loop runs while i is at most the length...' and you may hear the mistake yourself.\n\nBefore you ask a senior for help, prepare three things: what you expected, what happened instead (with the exact error text), and what you already tried. This takes five minutes, often solves the problem on its own, and makes you look like someone who is easy to help.\n\nFinally, keep a short bug note: symptom, cause, fix. After a few weeks you will see patterns, such as off-by-one errors, undefined values and wrong data types, and you will find them faster."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Shrinking a failing report",
+      "body": "A sales report script crashes on a file of 5,000 rows. You cut the file to 2,500 rows: still crashes. Cut to 1,250: no crash. The bad row is in the 1,250 you removed. After three more halvings you find row 1,873 has an empty amount field, and the code calls `.toFixed(2)` on `undefined`.\n\nHypothesis: empty amounts are not handled. Test: run the script on that single row. Fix: treat a blank amount as 0 or skip it with a warning. Verify: the full 5,000-row file runs, and the single row runs.",
+      "takeaway": "Isolation by halving found one bad row in about six experiments, with no reading of 5,000 lines."
+    },
+    {
+      "title": "Reading a trace from the top",
+      "body": "'ReferenceError: totl is not defined at calc.js:9'. Line 9 reads `return totl * rate;`. The type says a name was used that does not exist, and the name is `totl`. A typo for `total`. Fix the spelling, run again, and confirm the output.",
+      "takeaway": "Error type plus message plus line number usually names the problem outright. Read all three before touching the code."
+    },
+    {
+      "title": "A good help request",
+      "body": "'I expected the discount to be 10% for orders above 5,000 rupees. For an order of 5,000 exactly I get 0%. The code on line 31 uses `>`. I tried 5,001 and it works. I suspect the boundary should be `>=`, but I am not sure whether 5,000 itself qualifies.'",
+      "takeaway": "Expectation, actual result, evidence and a hypothesis let a colleague answer in one minute."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tech-1.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "tech.method",
+      "prompt": "A script sometimes prints a wrong total, but you cannot tell when. What should you do first?",
+      "options": [
+        "Rewrite the function from scratch.",
+        "Find the exact input or steps that make the bug appear every time.",
+        "Add try/catch around everything to hide the error.",
+        "Ask for a code review before testing anything."
+      ],
+      "answer": 1,
+      "hint": "You cannot confirm a fix for something you cannot trigger.",
+      "why": "Reproducing the bug reliably comes first, because every later step and the final verification depend on it. Rewriting guesses at the cause; try/catch hides the symptom; and review without a failing case has nothing concrete to examine."
+    },
+    {
+      "id": "tech-1.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "tech.error-messages",
+      "prompt": "What does this print? Write the exact output.\n\n```js\nconst marks = [60, 70, 80];\nlet total = 0;\nfor (let i = 0; i <= marks.length; i++) {\n  total += marks[i];\n}\nconsole.log(total);\n```",
+      "accept": [
+        "nan"
+      ],
+      "hint": "marks[3] does not exist.",
+      "why": "On the last pass i is 3, and marks[3] is undefined. 60 + 70 + 80 + undefined gives NaN, because arithmetic with undefined is not a number."
+    },
+    {
+      "id": "tech-1.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "tech.method",
+      "prompt": "Your colleague says: 'The login page works for me but fails for the client on their office laptop. Fix it.' Write a short debugging plan of 4 to 6 steps. Use the words reproduce, isolate and verify, and say what exact information you would ask for before changing any code.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "method",
+          "label": "Follows the loop in order",
+          "weight": 35,
+          "descriptors": {
+            "0": "No recognisable method; jumps straight to changing code.",
+            "1": "Mentions one or two steps but out of order or without detail.",
+            "2": "Most steps present in a sensible order.",
+            "3": "Reproduce, isolate, hypothesise, test, fix and verify all appear in a logical order."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "reproduce",
+              "isolate",
+              "verify"
+            ],
+            "min": 3,
+            "label": "Uses reproduce, isolate and verify"
+          }
+        },
+        {
+          "id": "info",
+          "label": "Asks for specific evidence",
+          "weight": 35,
+          "descriptors": {
+            "0": "No questions about the failure.",
+            "1": "Asks something vague such as 'what is wrong?'.",
+            "2": "Asks for either the exact error text or the browser and version.",
+            "3": "Asks for exact error text or screenshot, browser, steps taken and differences from your setup."
+          }
+        },
+        {
+          "id": "one-change",
+          "label": "One change at a time and a check",
+          "weight": 30,
+          "descriptors": {
+            "0": "Plans to change several things at once.",
+            "1": "Changes are mentioned but not controlled.",
+            "2": "Plans small changes and a re-test.",
+            "3": "Changes one thing at a time and re-tests the original failing case afterwards."
+          }
+        }
+      ],
+      "modelAnswer": "1. Ask the client for the exact error message or a screenshot, the browser and version, and the steps they follow. 2. Reproduce it: try the same browser, version and account on my side. 3. Isolate: compare their setup with mine, for example extensions, cookies, time zone and network proxy, changing one factor at a time. 4. Form a hypothesis, such as a blocked cookie, and test it. 5. Fix the cause in code or give the client a settings change. 6. Verify with the original failing steps on their laptop and re-check my own setup still works.",
+      "guidance": "A strong plan starts with evidence, not code. Look for specific requests such as the exact error text, browser version and steps. A common mistake is saying 'I will debug the code' without ever reproducing the failure, or listing several changes made together. Score each criterion honestly against the model answer."
+    },
+    {
+      "id": "tech-1.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "tech.bisect",
+      "prompt": "A 400-line data-cleaning script finishes without error, but the final CSV has wrong totals. You know the input was correct and the script is split into about ten steps. You have 20 minutes before a review. What do you do?",
+      "options": [
+        {
+          "text": "Read all 400 lines carefully from the top, hoping to spot it.",
+          "score": 1,
+          "feedback": "Reading can work but is slow, and you may not notice a subtle fault you have already read three times."
+        },
+        {
+          "text": "Print the running total after the fifth step. If it is already wrong, look at steps 1 to 5; if not, look at 6 to 10. Repeat on the half that holds the fault.",
+          "score": 3,
+          "feedback": "Binary search: each check halves the suspect lines, so four or five checks find the faulty step."
+        },
+        {
+          "text": "Change several likely lines at once and see whether the totals come right.",
+          "score": 0,
+          "feedback": "Multiple simultaneous changes hide which one mattered and can introduce new bugs."
+        },
+        {
+          "text": "Wrap the whole script in try/catch so that it stops complaining.",
+          "score": 0,
+          "feedback": "The script already runs without error; the fault is wrong output, not an exception."
+        }
+      ],
+      "why": "When you know the output is wrong but not where, a midpoint check halves the search space every time. It is faster and more dependable than reading everything or changing lines blindly."
+    }
+  ],
+  "task": {
+    "title": "Debug with a written log",
+    "brief": "Fix one real bug in your own code using the full loop and a short written log.",
+    "steps": [
+      "Pick a small bug from a college project or practice code. If you have none, plant one: change a < to <= in a loop.",
+      "Write the symptom, the exact error text if any, and the steps that reproduce it.",
+      "Write one hypothesis, test it with a print or breakpoint, and note the result.",
+      "Fix it, re-run the original case plus one nearby case, and write one line on the cause."
+    ],
+    "checklist": [
+      "I reproduced the bug before changing code",
+      "I wrote a hypothesis before testing",
+      "I changed one thing at a time",
+      "I verified with the original case and a nearby case"
+    ],
+    "evidencePrompt": "Write the symptom, your hypothesis, the cause and the fix in a few lines.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "tech-1.q1",
+      "type": "mcq",
+      "concept": "tech.method",
+      "prompt": "Which order is the correct debugging loop?",
+      "options": [
+        "Fix, test, reproduce, verify",
+        "Hypothesise, fix, isolate, reproduce",
+        "Reproduce, isolate, hypothesise, test, fix, verify",
+        "Isolate, verify, fix, hypothesise"
+      ],
+      "answer": 2,
+      "why": "You need a reliable failure first, then a small case, then a stated guess, a test of it, a fix of the cause and a final check. The other orders fix or verify before understanding the problem."
+    },
+    {
+      "id": "tech-1.q2",
+      "type": "mcq",
+      "concept": "tech.error-messages",
+      "prompt": "Which line of this trace should you open first?\n\n```\nTypeError: Cannot read properties of undefined (reading 'city')\n    at formatAddress (order.js:14:28)\n    at printLabel (label.js:6:10)\n```",
+      "options": [
+        "label.js line 6, because it is lower in the list",
+        "Any line; the trace order is random",
+        "The package manager's log",
+        "order.js line 14, the top frame in your own code"
+      ],
+      "answer": 3,
+      "why": "Traces list the most recent call first, so the top frame shows where the crash happened. If that line looks correct, follow the next frame to find who passed in the undefined value."
+    },
+    {
+      "id": "tech-1.q3",
+      "type": "fill",
+      "concept": "tech.bisect",
+      "prompt": "You are searching 1,000 lines for a bug and halve the suspect range with each check. About how many checks are needed at most? Write a number.",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "why": "1,000 halved repeatedly reaches one line after about ten steps, since 2 to the power 10 is 1,024."
+    },
+    {
+      "id": "tech-1.q4",
+      "type": "mcq",
+      "concept": "tech.rubber-duck",
+      "prompt": "Why does explaining code aloud to a rubber duck help find bugs?",
+      "options": [
+        "It forces you to state what the code actually does instead of what you assumed.",
+        "The duck's reactions point to the faulty line.",
+        "Speaking aloud makes the compiler run faster.",
+        "It replaces the need to test the fix."
+      ],
+      "answer": 0,
+      "why": "The benefit is in your own explanation: slowing down exposes assumptions that differ from reality. Nothing external happens, and testing is still required."
+    }
+  ],
+  "bank": [
+    {
+      "id": "tech-1.b1",
+      "type": "mcq",
+      "concept": "tech.method",
+      "prompt": "You fixed a bug where a discount failed for an order of exactly 5,000 rupees. What is the best verification?",
+      "options": [
+        "Run the original 5,000 case and a nearby case such as 4,999 and 5,001.",
+        "Assume it is fixed because the code compiles.",
+        "Run only the 5,000 case.",
+        "Ask a teammate to read the code once."
+      ],
+      "answer": 0,
+      "why": "A nearby-case check confirms you fixed the boundary without breaking the neighbours. Compiling proves nothing about logic, and a single case may hide a new fault."
+    },
+    {
+      "id": "tech-1.b2",
+      "type": "fill",
+      "concept": "tech.error-messages",
+      "prompt": "What does this print? Write the exact output.\n\n```js\nconst items = ['a', 'b', 'c'];\nconsole.log(items[items.length]);\n```",
+      "accept": [
+        "undefined"
+      ],
+      "why": "Array indexes run from 0 to length minus 1, so items[3] is outside the array. Reading it gives undefined rather than an error."
+    },
+    {
+      "id": "tech-1.b3",
+      "type": "mcq",
+      "concept": "tech.bisect",
+      "prompt": "A form stopped working after one of 40 recent commits. You know commit 1 was fine and commit 40 is broken. Which approach finds the culprit fastest?",
+      "options": [
+        "Test commit 1, then 2, then 3, in order.",
+        "Test commit 20, then keep halving whichever side holds the first failing commit.",
+        "Revert all 40 commits.",
+        "Read every diff before testing anything."
+      ],
+      "answer": 1,
+      "why": "Halving finds the first bad commit in about six tests (2 to the power 6 is 64, which is more than 40). Linear testing could take up to 39, and reverting everything throws away the good work."
+    }
+  ],
+  "cards": [
+    {
+      "id": "tech-1.c1",
+      "concept": "tech.method",
+      "front": "List the six steps of the debugging loop.",
+      "back": "Reproduce, isolate, hypothesise, test, fix, verify. Change one thing at a time and re-run the original failing case at the end."
+    },
+    {
+      "id": "tech-1.c2",
+      "concept": "tech.error-messages",
+      "front": "How do you read a stack trace?",
+      "back": "Note the error type and message, then open the top frame in your own code. If that line is fine, follow the next frame down to the caller."
+    },
+    {
+      "id": "tech-1.c3",
+      "concept": "tech.bisect",
+      "front": "What is binary search debugging?",
+      "back": "Check the midpoint of the code, data or commit history. Decide which half contains the fault, then repeat. Each check halves the suspect area."
+    },
+    {
+      "id": "tech-1.c4",
+      "concept": "tech.rubber-duck",
+      "front": "What do you bring when asking a senior for help?",
+      "back": "What you expected, what actually happened with the exact error text, and what you already tried."
+    }
+  ],
+  "reflection": "Think of the last bug that cost you more than an hour. Which step of the loop did you skip, and how would doing it have changed the time spent?",
+  "revision": {
+    "keyPoints": [
+      "Reproduce first; you cannot verify what you cannot trigger.",
+      "Read error type, message and top stack frame before editing.",
+      "Halve the suspect area instead of reading everything.",
+      "Change one thing at a time, then re-run the original case plus a neighbour.",
+      "Explain the code aloud to expose wrong assumptions."
+    ],
+    "redo": "Take any short function you wrote recently, plant one off-by-one bug, then find it again using a single midpoint print and one sentence of hypothesis."
+  }
+}

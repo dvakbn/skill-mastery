@@ -1,0 +1,329 @@
+{
+  "id": "career-4",
+  "skillId": "career",
+  "n": 4,
+  "title": "Interviews and Job Search Strategy",
+  "summary": "Prepare STAR stories and technical answers, track applications, handle offers and set a 12-month career plan.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Build three STAR stories from your own experience.",
+    "Prepare for technical interviews with a repeatable method.",
+    "Track applications, evaluate offers and draft a 12-month plan."
+  ],
+  "concepts": [
+    {
+      "id": "career.star-stories",
+      "label": "STAR stories"
+    },
+    {
+      "id": "career.technical-prep",
+      "label": "Technical interview preparation"
+    },
+    {
+      "id": "career.search-tracking",
+      "label": "Tracking the job search"
+    },
+    {
+      "id": "career.year-plan",
+      "label": "The 12-month career plan"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Interviews test evidence and thinking",
+      "body": "An interview is a structured conversation where the employer decides whether you can do the work and be taught. Earlier lessons covered your self-map, resume and online presence. The interview is where you prove them out loud. Interviewers use two kinds of questions: **behavioural** (tell me about a time you faced a deadline) and **technical** (explain a join, debug this code). Both reward clear thinking and honest answers more than memorised speeches.\n\nPreparation should feel like building a small library you can draw from: a handful of stories, a set of core concepts you can explain, and a few questions for the interviewer."
+    },
+    {
+      "heading": "STAR stories",
+      "body": "**STAR** stands for Situation, Task, Action, Result. It keeps answers short and evidence-based. Situation: one sentence of context. Task: what you were responsible for. Action: what *you* did, step by step. Result: the outcome, with a number if possible, and what you learned.\n\n**Worked example.** Question: \"Tell me about a time you handled a problem in a team.\" Answer: \"In our final-year project, our data kept duplicating (Situation). I owned the database layer (Task). I compared the insert logic, found a missing unique constraint, added it and wrote tests for three edge cases (Action). Duplicates dropped to zero and we presented without errors; I now check constraints early (Result).\" Prepare three stories covering teamwork, a failure or mistake, and a challenge you overcame, then adapt them to different questions. Use \"I\" for your actions, and keep each to about ninety seconds."
+    },
+    {
+      "heading": "Technical interview preparation",
+      "body": "For a fresher aiming at ABAP, interviewers expect strong fundamentals: SQL joins and keys, programming logic, data types, loops and conditions, basic database design, and a first understanding of SAP: what it is, what ABAP does, and common objects such as reports, tables and enhancements. Build a list of 30 core questions and answer each aloud in about a minute.\n\nUse a repeatable method: **define, example, trade-off**. Define the concept in a sentence, give a small example, mention when you would use it or where it fails. When you do not know, say so, then reason aloud: \"I have not used that, but I think it works like...\" Honest reasoning scores better than bluffing. Practise with a friend, or record yourself. Finally, prepare two thoughtful questions for them, such as what a fresher learns in the first three months."
+    },
+    {
+      "heading": "Tracking, offers and a 12-month plan",
+      "body": "Treat the job search like a small project. Keep a **tracker** with columns: company, role, date applied, source, contact, stage, next action and date, and result. Review it twice a week. Aim for steady effort, for example five tailored applications and two outreach messages weekly, and note what you learn from every rejection.\n\nWhen an offer arrives, read the letter fully: role, location, pay structure, notice or service agreement terms, and joining date. Ask for clarity politely, then decide against your priorities. Finally, write a **12-month plan** with a quarterly goal each: for example, Q1 finish ABAP fundamentals and two projects, Q2 apply widely and practise interviews, Q3 join and learn the project, Q4 earn a first certification or take on a bigger task. Review it monthly and adjust."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A STAR answer in ninety seconds",
+      "body": "Situation: Our group project had three people and one deadline. Task: I was in charge of testing. Action: I wrote a checklist of 20 test cases, ran them each evening and logged defects for the team. Result: We found 8 bugs before submission and scored full marks for functionality; I now start testing early.",
+      "takeaway": "The answer is short, uses \"I\", and ends with a result and a lesson."
+    },
+    {
+      "title": "A simple tracker row",
+      "body": "Company: Alpha Tech. Role: ABAP trainee. Applied: 3 Oct. Source: referral. Stage: technical round done. Next action: send thank-you note and revise joins by 10 Oct. Result: pending.",
+      "takeaway": "A next action with a date keeps momentum and prevents dropped follow-ups."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "career-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "career.star-stories",
+      "prompt": "What does the R in STAR stand for?",
+      "options": [
+        "Result",
+        "Responsibility",
+        "Reason",
+        "Reaction"
+      ],
+      "answer": 0,
+      "why": "Result is the outcome and the lesson. Responsibility belongs to the Task step."
+    },
+    {
+      "id": "career-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "career.technical-prep",
+      "prompt": "A repeatable method for explaining concepts is define, example and ____. (one word)",
+      "accept": [
+        "trade-off",
+        "tradeoff",
+        "trade off",
+        "tradeoffs",
+        "trade-offs"
+      ],
+      "why": "Mentioning the trade-off shows judgement, not only memory."
+    },
+    {
+      "id": "career-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "career.technical-prep",
+      "prompt": "An interviewer asks about a concept you have never used. What is the best reply?",
+      "options": [
+        {
+          "text": "Pretend you know it and give a confident guess.",
+          "score": 0,
+          "feedback": "Bluffing is usually exposed by one follow-up question."
+        },
+        {
+          "text": "Say you have not used it, then reason from what you know about similar ideas.",
+          "score": 3,
+          "feedback": "Honesty plus visible reasoning shows trainability."
+        },
+        {
+          "text": "Stay silent until they move on.",
+          "score": 0,
+          "feedback": "Silence gives no evidence of thinking."
+        },
+        {
+          "text": "Change the topic to your project.",
+          "score": 1,
+          "feedback": "Redirecting may seem evasive without acknowledging the question."
+        }
+      ],
+      "why": "Interviewers for freshers mainly test learning ability, so honest reasoning beats bluffing."
+    },
+    {
+      "id": "career-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "career.star-stories",
+      "prompt": "Write one STAR story, about 90 seconds spoken, from a team project, college event or past job. Label S, T, A and R and include a measurable or observable result and one lesson.",
+      "minWords": 41,
+      "rubric": [
+        {
+          "id": "structure",
+          "label": "All four STAR parts present",
+          "weight": 30,
+          "descriptors": {
+            "0": "No STAR structure given.",
+            "1": "STAR structure is vague or generic.",
+            "2": "STAR structure is clear but could be more specific.",
+            "3": "STAR structure is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "action",
+          "label": "Your own actions in specific steps",
+          "weight": 40,
+          "descriptors": {
+            "0": "No Your actions given.",
+            "1": "Your actions is vague or generic.",
+            "2": "Your actions is clear but could be more specific.",
+            "3": "Your actions is specific, concrete and well reasoned."
+          }
+        },
+        {
+          "id": "result",
+          "label": "Result and lesson",
+          "weight": 30,
+          "descriptors": {
+            "0": "No Result and lesson given.",
+            "1": "Result and lesson is vague or generic.",
+            "2": "Result and lesson is clear but could be more specific.",
+            "3": "Result and lesson is specific, concrete and well reasoned."
+          }
+        }
+      ],
+      "modelAnswer": "S: Our final-year project had duplicate student records. T: I owned the database layer. A: I compared insert logic, found no unique constraint, added one and wrote tests for three edge cases. R: Duplicates fell to zero and the demo ran cleanly; I now check constraints at design time.",
+      "guidance": "Strong answers use \"I\", describe two or three concrete steps and end with a result and lesson. Common mistakes are long context, saying \"we\" throughout and omitting the result. Time yourself: more than two minutes is too long."
+    }
+  ],
+  "task": {
+    "title": "Launch your tracker and STAR library",
+    "brief": "Set up a job-search tracker and write three STAR stories.",
+    "steps": [
+      "Create a tracker with company, role, date, source, stage, next action and result.",
+      "Add at least five roles you plan to apply for.",
+      "Write three STAR stories: teamwork, mistake, challenge.",
+      "Practise one story aloud and time it."
+    ],
+    "checklist": [
+      "Tracker has a next action for each row",
+      "Three STAR stories are written",
+      "One story timed under two minutes",
+      "I drafted a 12-month plan with quarterly goals"
+    ],
+    "evidencePrompt": "Paste your quarterly goals for the next 12 months.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "career-4.q1",
+      "type": "mcq",
+      "concept": "career.star-stories",
+      "prompt": "Which part of STAR should hold the most detail?",
+      "options": [
+        "Situation",
+        "Task",
+        "Action: what you personally did",
+        "Greeting"
+      ],
+      "answer": 2,
+      "why": "Your actions are the evidence; context should be brief."
+    },
+    {
+      "id": "career-4.q2",
+      "type": "fill",
+      "concept": "career.technical-prep",
+      "prompt": "When you do not know an answer, the best move is to say so and then ____ aloud. (one word)",
+      "accept": [
+        "reason",
+        "think"
+      ],
+      "why": "Reasoning aloud shows how you approach unknown problems."
+    },
+    {
+      "id": "career-4.q3",
+      "type": "mcq",
+      "concept": "career.search-tracking",
+      "prompt": "Which tracker column keeps momentum?",
+      "options": [
+        "Favourite colour",
+        "Next action with date",
+        "Company slogan",
+        "Salary dream"
+      ],
+      "answer": 1,
+      "why": "A dated next action prevents follow-ups from being forgotten."
+    },
+    {
+      "id": "career-4.q4",
+      "type": "mcq",
+      "concept": "career.year-plan",
+      "prompt": "A good 12-month plan is:",
+      "options": [
+        "One vague wish",
+        "Quarterly goals reviewed monthly",
+        "A list of 50 tasks",
+        "Fixed forever"
+      ],
+      "answer": 1,
+      "why": "Quarterly goals are specific enough to act on, and monthly review lets you adapt."
+    }
+  ],
+  "bank": [
+    {
+      "id": "career-4.b1",
+      "type": "mcq",
+      "concept": "career.star-stories",
+      "prompt": "You are asked about a failure. Which approach is best?",
+      "options": [
+        "Say you have never failed",
+        "Describe a real mistake, what you did to fix it and what you changed afterwards",
+        "Blame teammates",
+        "Give a one-word answer"
+      ],
+      "answer": 1,
+      "why": "Owning a mistake and showing learning builds credibility."
+    },
+    {
+      "id": "career-4.b2",
+      "type": "mcq",
+      "concept": "career.technical-prep",
+      "prompt": "Which prep habit best improves technical answers?",
+      "options": [
+        "Reading notes silently once",
+        "Answering core questions aloud in about a minute each",
+        "Memorising answers word for word",
+        "Skipping basics"
+      ],
+      "answer": 1,
+      "why": "Speaking aloud tests whether you truly understand and builds fluency."
+    },
+    {
+      "id": "career-4.b3",
+      "type": "mcq",
+      "concept": "career.search-tracking",
+      "prompt": "After a rejection, what is most useful?",
+      "options": [
+        "Delete the row",
+        "Note what you learned and update your preparation",
+        "Stop applying for a month",
+        "Argue with the recruiter"
+      ],
+      "answer": 1,
+      "why": "Capturing lessons turns rejections into improvement."
+    }
+  ],
+  "cards": [
+    {
+      "id": "career-4.c1",
+      "concept": "career.star-stories",
+      "front": "What is STAR?",
+      "back": "Situation, Task, Action, Result: a short structure for stories. Spend most time on your own actions and end with a result and lesson."
+    },
+    {
+      "id": "career-4.c2",
+      "concept": "career.technical-prep",
+      "front": "Method for technical answers?",
+      "back": "Define, give a small example, then mention a trade-off or limit. If unsure, say so and reason aloud."
+    },
+    {
+      "id": "career-4.c3",
+      "concept": "career.search-tracking",
+      "front": "What goes in a job-search tracker?",
+      "back": "Company, role, date, source, contact, stage, next action with date and result. Review it twice a week."
+    },
+    {
+      "id": "career-4.c4",
+      "concept": "career.year-plan",
+      "front": "How to build a 12-month career plan?",
+      "back": "One goal per quarter, such as learn, apply, join, deepen. Review monthly and adjust."
+    }
+  ],
+  "reflection": "Which of your experiences would make the strongest STAR story, and what result can you point to?",
+  "revision": {
+    "keyPoints": [
+      "STAR keeps answers short and evidence-based.",
+      "Define, example, trade-off; reason aloud when unsure.",
+      "A tracker with dated next actions keeps the search moving.",
+      "Plan quarterly and review monthly."
+    ],
+    "redo": "Say one STAR story aloud in under two minutes."
+  }
+}

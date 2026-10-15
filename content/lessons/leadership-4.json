@@ -1,0 +1,336 @@
+{
+  "id": "leadership-4",
+  "skillId": "leadership",
+  "n": 4,
+  "title": "Leading Teams Through Change",
+  "summary": "Understand how teams develop, run focused meetings, choose a decision method and keep a student or early-career team steady in uncertainty.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Recognise the four stages of team development and respond to each.",
+    "Run a meeting with purpose, agenda, decisions and action owners.",
+    "Choose a decision method and lead calmly when things are uncertain."
+  ],
+  "concepts": [
+    {
+      "id": "leadership.team-stages",
+      "label": "Team development stages"
+    },
+    {
+      "id": "leadership.meetings",
+      "label": "Effective meetings"
+    },
+    {
+      "id": "leadership.decision-making",
+      "label": "Team decision-making"
+    },
+    {
+      "id": "leadership.uncertainty",
+      "label": "Leading in uncertainty"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "How teams develop",
+      "body": "Earlier lessons covered leading individuals; now consider the team. Bruce Tuckman's model describes four stages that most new teams pass through:\n\n- **Forming**: polite, unsure, looking for direction. Leader job: clarify purpose and roles.\n- **Storming**: disagreements about method, roles and influence. Leader job: keep it task-focused, set working norms and listen.\n- **Norming**: agreed ways of working appear. Leader job: reinforce habits and share ownership.\n- **Performing**: the team works smoothly and solves its own problems. Leader job: step back and remove obstacles.\n\nA final-year project group typically storms in week three, when two members realise they pictured different projects. This is normal, not failure. Teams that skip the storming conversation often meet it later at a worse time."
+    },
+    {
+      "heading": "Meetings that work",
+      "body": "Most meetings waste time because nobody knows their purpose. Before calling one ask: **could this be a message?** If not, prepare:\n\n1. **Purpose and desired outcome**: \"Decide the database design\" is better than \"discuss database.\"\n2. **Agenda with times** sent in advance, with only the people who are needed.\n3. **Roles**: one person facilitates, one takes notes.\n4. **Close with decisions and actions**: who does what by when, read aloud before ending.\n5. **Send notes** within a day.\n\nKeep it to 30 minutes where possible. Start on time, and park off-topic points on a list instead of debating them. A weekly 20-minute stand-up asking \"done, next, blocked\" works well for student teams."
+    },
+    {
+      "heading": "Deciding as a team",
+      "body": "Choose the method to fit the decision:\n\n- **Leader decides** after consulting: quick, good for urgent or minor decisions, but lowers buy-in.\n- **Vote**: fair and fast for choices between clear options, but can leave a hurt minority.\n- **Consensus**: everyone can live with the choice; slow, best for important decisions affecting everyone.\n\nSay which method you are using before the discussion starts, so people do not feel cheated. A useful check is \"Can everyone live with this and support it?\" After deciding, record it, so it is not reopened every meeting. Disagree and commit means voicing doubts, then backing the final decision fully."
+    },
+    {
+      "heading": "Leading in uncertainty",
+      "body": "Requirements change, the client shifts the scope, or a key member falls sick. In uncertainty people look to the leader for steadiness. Four habits help:\n\n1. **Say what you know and what you do not**, plainly. Do not pretend.\n2. **Set a short horizon**: \"For the next week we will do these three things.\"\n3. **Communicate more often**, even a two-line update.\n4. **Involve the team** in options and stay calm in tone.\n\nExample: when the faculty guide changes the project topic a month before the deadline, a leader names the facts, resets the plan in one meeting and assigns the first week's tasks, rather than venting or freezing."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A storming-stage fix",
+      "body": "In week three, Kabir and Anita argue over whether to build a mobile app or a website. The leader, Divya, calls a 30-minute meeting: purpose is to decide the platform. She uses consensus, asks each to state interests (speed, demo ease), lists criteria, and the group picks the website for the demo with a mobile-friendly layout. She records the decision in the group chat.",
+      "takeaway": "Naming the method and criteria turned a personal clash into a task decision."
+    },
+    {
+      "title": "Agenda for a short meeting",
+      "body": "Subject: 25-min check-in, Wednesday 6 pm. Purpose: decide what to demo on Saturday. 1. Status of each module (5 min). 2. Risks (5 min). 3. Decide demo scope (10 min). 4. Actions (5 min). Facilitator: Divya; notes: Anita.",
+      "takeaway": "A timed agenda with a decision and roles keeps a meeting short and productive."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leadership-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "leadership.team-stages",
+      "prompt": "A team quarrels about roles in week three. Which stage is this and what should the leader do?",
+      "options": [
+        "Storming; keep it task-focused and agree norms",
+        "Forming; wait",
+        "Performing; step back",
+        "Norming; dissolve the team"
+      ],
+      "answer": 0,
+      "why": "Conflict over roles and methods is storming. Stepping back or waiting lets it worsen."
+    },
+    {
+      "id": "leadership-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "leadership.meetings",
+      "prompt": "A meeting should end by reading out decisions and action owners with ____. (one word)",
+      "accept": [
+        "deadlines",
+        "dates",
+        "deadline"
+      ],
+      "why": "Actions need names and dates so they happen."
+    },
+    {
+      "id": "leadership-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "leadership.decision-making",
+      "prompt": "Your team must decide the fest venue today, and it is a small choice between two halls. Which method is best?",
+      "options": [
+        {
+          "text": "Long consensus process",
+          "score": 1,
+          "feedback": "Consensus for a small, urgent choice wastes time."
+        },
+        {
+          "text": "A quick vote after listing pros and cons",
+          "score": 3,
+          "feedback": "A vote is fast and fair for a clear choice between options."
+        },
+        {
+          "text": "Wait for the principal to decide",
+          "score": 1,
+          "feedback": "It delays a decision the team can take."
+        },
+        {
+          "text": "Do not decide",
+          "score": 0,
+          "feedback": "Postponing leaves the team stuck."
+        }
+      ],
+      "why": "Use quick methods for small clear choices and save consensus for important ones."
+    },
+    {
+      "id": "leadership-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "leadership.uncertainty",
+      "prompt": "Your guide changes your project topic three weeks before the final submission. Write a short message (4 to 6 sentences) to your team that states what you know, what you do not, the next week plan and what you need from them.",
+      "minWords": 55,
+      "rubric": [
+        {
+          "id": "known",
+          "label": "Known and unknown",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "One of them.",
+            "3": "Both stated plainly."
+          }
+        },
+        {
+          "id": "plan",
+          "label": "Short-horizon plan",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "A plan.",
+            "3": "A concrete one-week plan with owners."
+          }
+        },
+        {
+          "id": "tone",
+          "label": "Calm, steady tone",
+          "weight": 20,
+          "descriptors": {
+            "0": "Panicked.",
+            "1": "Blaming.",
+            "2": "Neutral.",
+            "3": "Calm and reassuring."
+          }
+        },
+        {
+          "id": "ask",
+          "label": "Clear ask",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "An ask.",
+            "3": "A specific ask and time for the next update."
+          }
+        }
+      ],
+      "modelAnswer": "Team, the guide has changed our topic to a hospital queue tracker, effective now. What we know: the deadline is unchanged and we can reuse our login and database design. What we do not know yet: whether he accepts the same report format. This week: Arun redesigns the tables by Wednesday, Neha adapts the screens by Friday and I will meet the guide tomorrow. Please send me your concerns by tonight; I will update the group tomorrow at 6 pm.",
+      "guidance": "Strong messages are calm, factual and action-oriented. Weak ones vent or ask everyone to wait. Compare honestly against the model."
+    }
+  ],
+  "task": {
+    "title": "Run one proper meeting",
+    "brief": "Lead one short team meeting with agenda, roles and written actions.",
+    "steps": [
+      "Decide the purpose and the outcome you want.",
+      "Send an agenda with times beforehand.",
+      "Assign a facilitator and a note taker.",
+      "End by reading decisions and actions with owners and dates.",
+      "Send notes the same day."
+    ],
+    "checklist": [
+      "I stated a purpose and outcome",
+      "I sent an agenda",
+      "I ended with actions, owners and dates",
+      "I sent notes"
+    ],
+    "evidencePrompt": "Paste your agenda and your list of actions.",
+    "evidenceWords": 45,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "leadership-4.q1",
+      "type": "mcq",
+      "concept": "leadership.team-stages",
+      "prompt": "Which is the final stage of Tuckman model as listed here?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Performing",
+        "Norming"
+      ],
+      "answer": 2,
+      "why": "The stages go forming, storming, norming, performing."
+    },
+    {
+      "id": "leadership-4.q2",
+      "type": "fill",
+      "concept": "leadership.meetings",
+      "prompt": "Before calling a meeting ask whether it could be a ____. (one word)",
+      "accept": [
+        "message",
+        "email",
+        "mail"
+      ],
+      "why": "Many meetings are only information sharing that a message can do."
+    },
+    {
+      "id": "leadership-4.q3",
+      "type": "mcq",
+      "concept": "leadership.decision-making",
+      "prompt": "Which method gives the strongest buy-in for an important decision?",
+      "options": [
+        "Leader decides",
+        "Consensus",
+        "Coin toss",
+        "Vote with no discussion"
+      ],
+      "answer": 1,
+      "why": "Consensus aims for everyone to be able to support the choice, at the cost of time."
+    },
+    {
+      "id": "leadership-4.q4",
+      "type": "mcq",
+      "concept": "leadership.uncertainty",
+      "prompt": "In uncertainty, a leader should:",
+      "options": [
+        "Hide unknowns",
+        "State what is known and unknown and set a short plan",
+        "Wait for clarity",
+        "Promise outcomes"
+      ],
+      "answer": 1,
+      "why": "Honesty and a short-horizon plan keep the team steady."
+    }
+  ],
+  "bank": [
+    {
+      "id": "leadership-4.b1",
+      "type": "mcq",
+      "concept": "leadership.team-stages",
+      "prompt": "A new club committee meets for the first time and members are polite but unsure. The leader should mainly:",
+      "options": [
+        "Hold back",
+        "Clarify purpose and roles",
+        "Leave them to storm",
+        "Start performance reviews"
+      ],
+      "answer": 1,
+      "why": "Forming teams need direction and clarity."
+    },
+    {
+      "id": "leadership-4.b2",
+      "type": "mcq",
+      "concept": "leadership.meetings",
+      "prompt": "Which is the best meeting objective?",
+      "options": [
+        "Discuss the report",
+        "Decide who writes each chapter of the report by Friday",
+        "Catch up",
+        "See where we are"
+      ],
+      "answer": 1,
+      "why": "A decision-focused outcome keeps the meeting short and useful."
+    },
+    {
+      "id": "leadership-4.b3",
+      "type": "fill",
+      "concept": "leadership.decision-making",
+      "prompt": "Voicing doubts and then fully supporting the final decision is called disagree and ____. (one word)",
+      "accept": [
+        "commit"
+      ],
+      "why": "It keeps debate open before and unity after the decision."
+    }
+  ],
+  "cards": [
+    {
+      "id": "leadership-4.c1",
+      "concept": "leadership.team-stages",
+      "front": "Four stages of team development?",
+      "back": "Forming, storming, norming, performing. Leaders clarify at forming, steady conflict at storming, reinforce habits at norming and remove obstacles at performing."
+    },
+    {
+      "id": "leadership-4.c2",
+      "concept": "leadership.meetings",
+      "front": "Elements of a good meeting?",
+      "back": "Clear purpose and outcome, timed agenda, facilitator and note taker, actions with owners and dates, and notes sent after."
+    },
+    {
+      "id": "leadership-4.c3",
+      "concept": "leadership.decision-making",
+      "front": "Choosing a decision method?",
+      "back": "Leader decides for urgent or minor matters, vote for clear options and consensus for important decisions. Name the method first and record the result."
+    },
+    {
+      "id": "leadership-4.c4",
+      "concept": "leadership.uncertainty",
+      "front": "Leading in uncertainty?",
+      "back": "State what is known and unknown, set a short horizon plan, communicate often and involve the team calmly."
+    }
+  ],
+  "reflection": "Think of a group you were in that got stuck. Which stage was it in, and what would have helped?",
+  "revision": {
+    "keyPoints": [
+      "Storming is normal; handle it with norms.",
+      "Meetings need a purpose, agenda and actions.",
+      "Match decision method to the decision.",
+      "Be honest, short-horizon and calm in uncertainty."
+    ],
+    "redo": "Write a one-line purpose and three agenda items for your next meeting."
+  }
+}

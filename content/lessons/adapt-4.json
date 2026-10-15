@@ -1,0 +1,327 @@
+{
+  "id": "adapt-4",
+  "skillId": "adapt",
+  "n": 4,
+  "title": "Navigating New Environments",
+  "summary": "Handle the first 90 days, shifting requirements, new cultures and flexibility that keeps your principles.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Plan your first 90 days in a new role.",
+    "Respond well when requirements change.",
+    "Fit a new culture while holding your principles."
+  ],
+  "concepts": [
+    {
+      "id": "adapt.first-ninety",
+      "label": "First 90 days"
+    },
+    {
+      "id": "adapt.shifting-requirements",
+      "label": "Shifting requirements"
+    },
+    {
+      "id": "adapt.culture-fit",
+      "label": "Culture and fit"
+    },
+    {
+      "id": "adapt.flexible-principles",
+      "label": "Flexibility with principles"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "The first 90 days",
+      "body": "A new job, internship or project is a high-stakes adaptation. The first 90 days shape how people see you. Think in three phases. **Days 1 to 30, learn**: meet people, understand the team's goals, tools and rules, and ask many questions. Write a glossary of terms and acronyms. **Days 31 to 60, contribute**: take on small tasks, deliver reliably and ask for feedback. **Days 61 to 90, own**: take responsibility for a defined piece of work and propose one improvement. Agree expectations with your manager in week one: what does success look like at 30, 60 and 90 days?"
+    },
+    {
+      "heading": "Shifting requirements",
+      "body": "In client projects, requirements change: a feature is added, a deadline moves, a priority flips. Reacting with irritation hurts trust. Use a calm routine. **Clarify**: what exactly has changed and why? **Assess impact**: what does it affect in time, effort and quality? **Communicate**: state the impact and options, for example \"We can add this if we move the report to next sprint\". **Confirm in writing**: record the new decision. **Adjust**: update plans. Keep modular work and short feedback cycles so changes cost less. Distinguish normal change from endless scope growth; polite, documented trade-offs are the tool for that."
+    },
+    {
+      "heading": "Culture and fit",
+      "body": "Every workplace has unwritten rules: how formal people are, when meetings start, whether disagreement is voiced openly, how decisions are made. Observe in the first weeks. Notice who speaks in meetings, how people write emails, what is praised and how seniors are addressed. Ask a friendly colleague, \"Is there anything about how things work here that I should know?\" Adopt local habits that are harmless, such as meeting times, message style and dress norms. Find a **buddy or mentor** early. Being a good fit means respecting norms and contributing, not becoming someone else."
+    },
+    {
+      "heading": "Flexibility without losing principles",
+      "body": "Adapting does not mean agreeing to everything. Separate **preferences**, such as tools, schedules and style, where you should be flexible, from **principles**, such as honesty, safety and respect, where you should not bend. If a client asks you to hide a defect or misreport work, you stay firm, politely and early, and escalate to your manager if needed. A useful test: \"Would I be comfortable explaining this decision to my manager, a client and my family?\" Being flexible on the first group while steady on the second makes you both adaptable and trustworthy."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Changing requirement",
+      "body": "A client adds a new report in the final week. Ritu replies: \"I can add it. It needs two days, so testing would move to next Wednesday. Shall we proceed?\" She confirms by email. The client agrees to a smaller version.",
+      "takeaway": "Impact plus options turns a surprise into a decision."
+    },
+    {
+      "title": "A principle held",
+      "body": "Asked to mark a task as tested when it was not, Karan says: \"I cannot mark it as tested until I run it. I can finish by tomorrow morning.\" His lead accepts the delay.",
+      "takeaway": "Hold the principle, offer a practical alternative."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "adapt-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "adapt.first-ninety",
+      "prompt": "What is a good aim for days 1 to 30?",
+      "options": [
+        "Learn people, goals, tools and rules",
+        "Take over major decisions",
+        "Avoid questions",
+        "Criticise the process"
+      ],
+      "answer": 0,
+      "why": "The first month is for learning."
+    },
+    {
+      "id": "adapt-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "adapt.shifting-requirements",
+      "prompt": "When requirements change, first ____ what exactly changed and why. (one word)",
+      "accept": [
+        "clarify",
+        "ask",
+        "understand"
+      ],
+      "why": "Clarifying prevents wrong assumptions."
+    },
+    {
+      "id": "adapt-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "adapt.first-ninety",
+      "prompt": "Write a 30-60-90 day plan for your first job or internship: one sentence of goal per phase, plus two questions you will ask your manager in week one.",
+      "minWords": 49,
+      "rubric": [
+        {
+          "id": "phases",
+          "label": "Three phases with goals",
+          "weight": 40,
+          "descriptors": {
+            "0": "None.",
+            "1": "One phase.",
+            "2": "Two phases.",
+            "3": "Three clear phases."
+          }
+        },
+        {
+          "id": "questions",
+          "label": "Two good manager questions",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "One.",
+            "2": "Two vague.",
+            "3": "Two specific and useful."
+          }
+        },
+        {
+          "id": "realism",
+          "label": "Realistic and measurable",
+          "weight": 30,
+          "descriptors": {
+            "0": "Unrealistic.",
+            "1": "Vague.",
+            "2": "Mostly realistic.",
+            "3": "Realistic with signs of progress."
+          }
+        }
+      ],
+      "modelAnswer": "Days 1-30: learn the SAP landscape, team tools and the main project; complete onboarding tasks. Days 31-60: deliver two small ABAP fixes with review and ask for feedback. Days 61-90: own one report enhancement end to end and suggest one improvement. Questions: What does success look like at 90 days? Who should I ask when I am stuck?",
+      "guidance": "Strong plans move from learn to contribute to own, include measurable signs and ask specific manager questions."
+    },
+    {
+      "id": "adapt-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "adapt.flexible-principles",
+      "prompt": "A senior asks you to report a feature as complete although one test fails. What do you do?",
+      "options": [
+        {
+          "text": "Mark it complete to keep the peace.",
+          "score": 0,
+          "feedback": "This breaks basic honesty with others."
+        },
+        {
+          "text": "Explain politely that you will report it as nearly complete and fix the test by a stated time.",
+          "score": 3,
+          "feedback": "It is honest, practical and respectful."
+        },
+        {
+          "text": "Refuse and argue loudly.",
+          "score": 0,
+          "feedback": "Aggression harms trust badly."
+        },
+        {
+          "text": "Quit the job immediately.",
+          "score": 0,
+          "feedback": "This overreacts before trying solutions."
+        }
+      ],
+      "why": "Hold firm on integrity and offer a practical path."
+    }
+  ],
+  "task": {
+    "title": "Plan your first 90 days",
+    "brief": "Write a plan for a real or imagined new role and a response script for a requirement change.",
+    "steps": [
+      "Write one goal for each 30-day phase.",
+      "List three people you will meet in the first week.",
+      "Write a script for a changed requirement with impact and options.",
+      "Write one principle you will not bend and how you would say so."
+    ],
+    "checklist": [
+      "I wrote three phase goals",
+      "I listed three people",
+      "I wrote a change script",
+      "I wrote my principle"
+    ],
+    "evidencePrompt": "Write your goals, your change script and your principle.",
+    "evidenceWords": 30,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "adapt-4.q1",
+      "type": "mcq",
+      "concept": "adapt.first-ninety",
+      "prompt": "In week one you should agree with your manager:",
+      "options": [
+        "Holiday plans",
+        "Your salary",
+        "What success looks like at 30, 60 and 90 days",
+        "Seating"
+      ],
+      "answer": 2,
+      "why": "Clear expectations guide the first 90 days."
+    },
+    {
+      "id": "adapt-4.q2",
+      "type": "mcq",
+      "concept": "adapt.shifting-requirements",
+      "prompt": "After a requirement changes, communicate:",
+      "options": [
+        "Blame",
+        "Impact and options",
+        "Nothing",
+        "Only deadlines"
+      ],
+      "answer": 1,
+      "why": "Impact and options enable decisions."
+    },
+    {
+      "id": "adapt-4.q3",
+      "type": "mcq",
+      "concept": "adapt.culture-fit",
+      "prompt": "To learn unwritten rules you should:",
+      "options": [
+        "Observe and ask a colleague",
+        "Ignore them",
+        "Complain",
+        "Guess"
+      ],
+      "answer": 0,
+      "why": "Observation and questions reveal norms."
+    },
+    {
+      "id": "adapt-4.q4",
+      "type": "fill",
+      "concept": "adapt.flexible-principles",
+      "prompt": "Honesty and safety are examples of ____ you should not bend. (one word)",
+      "accept": [
+        "principles",
+        "principle"
+      ],
+      "why": "Principles stay firm while preferences flex."
+    }
+  ],
+  "bank": [
+    {
+      "id": "adapt-4.b1",
+      "type": "mcq",
+      "concept": "adapt.first-ninety",
+      "prompt": "Days 61 to 90 are about:",
+      "options": [
+        "Owning a piece of work",
+        "Hiding",
+        "Only listening",
+        "Quitting"
+      ],
+      "answer": 0,
+      "why": "By day 61 you should take ownership."
+    },
+    {
+      "id": "adapt-4.b2",
+      "type": "mcq",
+      "concept": "adapt.shifting-requirements",
+      "prompt": "Why confirm changes in writing?",
+      "options": [
+        "To blame",
+        "To avoid later confusion",
+        "To delay",
+        "To show off"
+      ],
+      "answer": 1,
+      "why": "Written confirmation prevents disputes."
+    },
+    {
+      "id": "adapt-4.b3",
+      "type": "mcq",
+      "concept": "adapt.culture-fit",
+      "prompt": "A buddy or mentor helps you:",
+      "options": [
+        "Learn unwritten rules faster",
+        "Avoid work",
+        "Skip training",
+        "Get promoted at once"
+      ],
+      "answer": 0,
+      "why": "A guide speeds up learning of norms."
+    }
+  ],
+  "cards": [
+    {
+      "id": "adapt-4.c1",
+      "concept": "adapt.first-ninety",
+      "front": "30-60-90 phases?",
+      "back": "Learn, contribute, own; agree success measures with your manager in week one."
+    },
+    {
+      "id": "adapt-4.c2",
+      "concept": "adapt.shifting-requirements",
+      "front": "Steps for changed requirements?",
+      "back": "Clarify, assess impact, communicate options, confirm in writing, adjust the plan."
+    },
+    {
+      "id": "adapt-4.c3",
+      "concept": "adapt.culture-fit",
+      "front": "How to learn culture?",
+      "back": "Observe how people speak and write, ask a friendly colleague, find a buddy, adopt harmless norms."
+    },
+    {
+      "id": "adapt-4.c4",
+      "concept": "adapt.flexible-principles",
+      "front": "Preference versus principle?",
+      "back": "Be flexible on preferences such as tools and style; stay firm on principles such as honesty and safety."
+    }
+  ],
+  "reflection": "Which principle of yours would be tested first in a high-pressure project, and how would you state it politely?",
+  "revision": {
+    "keyPoints": [
+      "Plan the first 90 days.",
+      "Handle changes with impact and options.",
+      "Observe and respect culture.",
+      "Stay flexible on preferences, firm on principles."
+    ],
+    "redo": "Rewrite your 90-day plan with measurable signs for each phase."
+  }
+}

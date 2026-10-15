@@ -1,0 +1,347 @@
+{
+  "id": "etiquette-3",
+  "skillId": "etiquette",
+  "n": 3,
+  "title": "Meals, Events and Cross-Cultural Awareness",
+  "summary": "Handle business meals, corporate events, hierarchy, cultural differences and gifts with courtesy and good judgement.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Behave well at business meals and corporate events.",
+    "Read hierarchy and cultural differences without stereotyping.",
+    "Handle gifts and hospitality within ethical limits."
+  ],
+  "concepts": [
+    {
+      "id": "etiquette.business-meals",
+      "label": "Business meals"
+    },
+    {
+      "id": "etiquette.corporate-events",
+      "label": "Corporate events"
+    },
+    {
+      "id": "etiquette.cultural-awareness",
+      "label": "Hierarchy and cultural awareness"
+    },
+    {
+      "id": "etiquette.gifts",
+      "label": "Gifts and hospitality"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Meals are working meetings with food",
+      "body": "After email and meeting etiquette, the next setting is the table. A business lunch or team dinner is not mainly about eating. It is a chance to build trust, and people notice how you handle it. Before you go, check any dietary needs, ask whether a vegetarian or Jain option exists, and learn who is hosting.\n\nAt the table, wait for the host to sit or begin. Place your phone away, order something easy to eat, since ribs or dishes that need heavy mess invite trouble, and avoid ordering the most expensive item unless the host suggests it. Chew with your mouth closed, pass dishes to the right if you are in a Western-style setting, and keep conversation light at first: travel, food, city, interests. Business topics follow the host's lead. If you do not drink alcohol, a simple \"No, thank you, I will have a lime soda\" is enough and needs no explanation."
+    },
+    {
+      "heading": "Corporate events and networking at them",
+      "body": "Training programmes, farewell parties and annual days are social but still professional. Arrive within the first hour, greet the senior people at your table, and speak with people from other teams rather than staying in your own group. Avoid alcohol or keep it very limited even if others do not, because tipsy behaviour is remembered for years. Do not gossip, argue about politics or religion, or post unflattering photos of colleagues.\n\nBefore leaving, thank your host and say goodbye to the people you spoke to. Follow up the next day with a short message to someone useful: \"It was nice to hear about the SAP migration project.\""
+    },
+    {
+      "heading": "Hierarchy and cross-cultural awareness",
+      "body": "Indian workplaces often show hierarchy through titles, seating and who speaks first. Many clients in other countries expect a flatter style, where first names are used and juniors disagree openly. Neither is wrong. Your skill is to observe, ask when unsure and adjust. Useful differences include: some cultures prefer direct feedback while others hint; punctuality is strict in some and flexible in others; small talk is valued before business in some places and skipped in others.\n\nAvoid stereotypes: treat a culture as a hint, not a rule about an individual. Practical steps: learn how to pronounce the person's name, use formal titles until invited otherwise, avoid jokes that depend on a culture or religion, and respect festivals and fasting. When you are unsure, say: \"Please tell me if I do something that is not the norm here.\""
+    },
+    {
+      "heading": "Gifts and hospitality",
+      "body": "Small, modest gifts can be a courtesy, such as a box of sweets at Diwali to a team. They become a problem when they are expensive, secret, or given while a decision is pending, because they can look like a bribe. Many companies have a gift policy with a value limit. Check it, and when in doubt, decline politely or declare it to your manager.\n\nHow to decline: \"That is very kind, but our policy does not let me accept it. I really appreciate the thought.\" If you give, choose something modest and suitable, and avoid items involving alcohol, leather or beef without knowing the recipient. Present with a short thank-you note. Hospitality such as a working lunch is normal; lavish trips are not."
+    }
+  ],
+  "examples": [
+    {
+      "title": "The lunch with a client",
+      "body": "Neha is invited to lunch with a client manager visiting from Germany. She arrives a few minutes early, waits for the host, orders a simple dish, and asks about the visitor's first trip to India. She talks business only after the host brings it up and thanks the host personally at the end.",
+      "takeaway": "Following the host, keeping choices simple and starting with light conversation make a meal comfortable for everyone."
+    },
+    {
+      "title": "A gift offer",
+      "body": "A vendor sends Arjun an expensive smartwatch the week before a purchase decision. Arjun thanks the vendor, returns it, and informs his manager in writing that he did so, citing company policy.",
+      "takeaway": "Timing and value turn a gift into a conflict of interest, so decline and tell your manager."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "etiquette-3.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "etiquette.business-meals",
+      "prompt": "At a business lunch hosted by your manager, when should you start eating?",
+      "options": [
+        "After the host starts or invites everyone to begin",
+        "As soon as your food arrives",
+        "Only after dessert",
+        "Before others to save time"
+      ],
+      "answer": 0,
+      "why": "Following the host is the standard courtesy at business meals; starting early can seem careless."
+    },
+    {
+      "id": "etiquette-3.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "etiquette.gifts",
+      "prompt": "A gift given while a business decision is pending can look like a ____. (one word)",
+      "accept": [
+        "bribe"
+      ],
+      "why": "Timing and value can turn a gift into an apparent bribe, which is why many firms limit or ban such gifts."
+    },
+    {
+      "id": "etiquette-3.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "etiquette.corporate-events",
+      "prompt": "At the annual party your seniors are drinking and urge you to have a drink. You do not want one. What is the best response?",
+      "options": [
+        {
+          "text": "Accept to avoid awkwardness.",
+          "score": 1,
+          "feedback": "Giving in against your wish can lead to regret and reputation risk."
+        },
+        {
+          "text": "Say loudly that drinking is wrong.",
+          "score": 0,
+          "feedback": "Judging others creates tension and embarrasses the group."
+        },
+        {
+          "text": "Smile, say \"No, thank you, I will have a mocktail,\" and continue chatting.",
+          "score": 3,
+          "feedback": "A short, friendly refusal with an alternative keeps the mood light and needs no justification."
+        },
+        {
+          "text": "Leave the party quietly.",
+          "score": 1,
+          "feedback": "Leaving without a word loses the chance to build relationships and may seem rude."
+        }
+      ],
+      "why": "A polite, brief refusal with an alternative drink respects your choice without criticising others."
+    },
+    {
+      "id": "etiquette-3.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "etiquette.cultural-awareness",
+      "prompt": "You are joining a first call with a client team from a country where first names are the norm, but your own manager is very formal. Write how you would open the call, how you would address people, and two cultural cautions you will keep in mind.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "opening",
+          "label": "Provides a suitable opening",
+          "weight": 25,
+          "descriptors": {
+            "0": "No opening.",
+            "1": "Generic greeting.",
+            "2": "Polite opening, no context.",
+            "3": "Warm, brief opening with context and small talk."
+          }
+        },
+        {
+          "id": "address",
+          "label": "Chooses a sensible address style",
+          "weight": 25,
+          "descriptors": {
+            "0": "Ignores style.",
+            "1": "Assumes first names.",
+            "2": "Uses titles but no reasoning.",
+            "3": "Starts formal then follows their lead."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "title",
+              "first name",
+              "formal",
+              "lead",
+              "invite"
+            ],
+            "min": 2,
+            "label": "Addresses naming style"
+          }
+        },
+        {
+          "id": "cautions",
+          "label": "Names two real cautions",
+          "weight": 30,
+          "descriptors": {
+            "0": "No cautions.",
+            "1": "One vague caution.",
+            "2": "Two cautions, one vague.",
+            "3": "Two specific and respectful cautions."
+          }
+        },
+        {
+          "id": "no-stereotype",
+          "label": "Avoids stereotyping",
+          "weight": 20,
+          "descriptors": {
+            "0": "Stereotypes people.",
+            "1": "Some generalising.",
+            "2": "Mostly neutral.",
+            "3": "Treats culture as a hint and checks individually."
+          }
+        }
+      ],
+      "modelAnswer": "I would open with \"Good morning, everyone, thank you for making time. I am Deepak, part of the ABAP support team.\" I would address people by title and surname until they invite first names, then follow their lead. Two cautions: avoid jokes about culture or religion, and note that time zones matter so I confirm the schedule in both time zones. I will treat these as hints and check what each person prefers.",
+      "guidance": "A strong answer opens warmly, adapts address style gradually, and gives concrete cautions such as time zones or direct feedback. A common mistake is generalising about a whole country. Show that you will observe and ask."
+    }
+  ],
+  "task": {
+    "title": "Prepare a meal and event checklist",
+    "brief": "Build a short personal checklist you will use before the next business meal or event.",
+    "steps": [
+      "Write three things to check before a business meal, such as dietary options and the host.",
+      "Write three events behaviours: arrival, alcohol choice, thanks.",
+      "Write a two-line polite refusal for a gift.",
+      "Share the checklist with a friend and ask what they would add."
+    ],
+    "checklist": [
+      "Checklist has three meal items",
+      "It has three events items",
+      "It has a gift refusal",
+      "It is short enough to use"
+    ],
+    "evidencePrompt": "Paste your checklist and the gift refusal lines.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "etiquette-3.q1",
+      "type": "mcq",
+      "concept": "etiquette.business-meals",
+      "prompt": "You are not sure what to order at a client dinner. Best approach:",
+      "options": [
+        "The most expensive dish",
+        "Something messy to show confidence",
+        "A simple dish that is easy to eat",
+        "Nothing at all"
+      ],
+      "answer": 2,
+      "why": "Simple, moderately priced dishes avoid mess and cost concerns, so attention stays on conversation."
+    },
+    {
+      "id": "etiquette-3.q2",
+      "type": "mcq",
+      "concept": "etiquette.corporate-events",
+      "prompt": "After a corporate event, a good follow-up is:",
+      "options": [
+        "No follow-up",
+        "A short next-day message to someone you met",
+        "Posting embarrassing photos",
+        "Complaining about the food"
+      ],
+      "answer": 1,
+      "why": "A brief message turns a social moment into a relationship."
+    },
+    {
+      "id": "etiquette-3.q3",
+      "type": "fill",
+      "concept": "etiquette.cultural-awareness",
+      "prompt": "Treat a cultural pattern as a hint, not a ____ about an individual. (one word)",
+      "accept": [
+        "rule"
+      ],
+      "why": "Culture offers hints; individuals vary, so observe and ask instead of assuming."
+    },
+    {
+      "id": "etiquette-3.q4",
+      "type": "mcq",
+      "concept": "etiquette.gifts",
+      "prompt": "A supplier offers an expensive gift while you are choosing a vendor. You should:",
+      "options": [
+        "Accept quietly",
+        "Decline politely and tell your manager",
+        "Ask for a bigger one",
+        "Keep it and say nothing"
+      ],
+      "answer": 1,
+      "why": "Declining and disclosing protects you from a conflict of interest."
+    }
+  ],
+  "bank": [
+    {
+      "id": "etiquette-3.b1",
+      "type": "mcq",
+      "concept": "etiquette.business-meals",
+      "prompt": "You are vegetarian and invited to a team lunch. Best approach:",
+      "options": [
+        "Skip the lunch",
+        "Tell the host in advance and ask about options",
+        "Eat before and watch others",
+        "Complain at the restaurant"
+      ],
+      "answer": 1,
+      "why": "Telling the host early lets them plan, avoiding awkward moments for everyone."
+    },
+    {
+      "id": "etiquette-3.b2",
+      "type": "mcq",
+      "concept": "etiquette.cultural-awareness",
+      "prompt": "A client from another country speaks very directly. You should:",
+      "options": [
+        "Take it personally",
+        "Understand it as a style difference and clarify tone if needed",
+        "Reply rudely",
+        "Avoid the client"
+      ],
+      "answer": 1,
+      "why": "Direct style is a cultural pattern; clarifying calmly keeps the relationship healthy."
+    },
+    {
+      "id": "etiquette-3.b3",
+      "type": "mcq",
+      "concept": "etiquette.gifts",
+      "prompt": "Which gift to a colleague at Diwali is most appropriate?",
+      "options": [
+        "A very costly watch",
+        "A modest box of sweets given openly",
+        "Cash in an envelope",
+        "A secret gift to the manager only"
+      ],
+      "answer": 1,
+      "why": "Modest, open gifts are a courtesy; costly or secret gifts raise ethical questions."
+    }
+  ],
+  "cards": [
+    {
+      "id": "etiquette-3.c1",
+      "concept": "etiquette.business-meals",
+      "front": "First rule at a business meal?",
+      "back": "Follow the host: sit, order and eat when they do, choose simple dishes, and keep early talk light."
+    },
+    {
+      "id": "etiquette-3.c2",
+      "concept": "etiquette.corporate-events",
+      "front": "Event behaviour in one line?",
+      "back": "Mingle beyond your team, go easy on or skip alcohol, avoid gossip, thank the host and follow up."
+    },
+    {
+      "id": "etiquette-3.c3",
+      "concept": "etiquette.cultural-awareness",
+      "front": "How to handle cultural differences?",
+      "back": "Observe, ask politely, use titles until invited, avoid stereotypes and treat culture as a hint, not a rule."
+    },
+    {
+      "id": "etiquette-3.c4",
+      "concept": "etiquette.gifts",
+      "front": "When is a gift a problem?",
+      "back": "When it is costly, secret, or given while a decision is pending; follow policy and tell your manager."
+    }
+  ],
+  "reflection": "Recall a time you felt unsure how to behave at a social or business gathering. What would you check or do differently next time?",
+  "revision": {
+    "keyPoints": [
+      "Follow the host at meals and keep choices simple.",
+      "Events are professional: moderate behaviour, mingle, thank and follow up.",
+      "Treat culture as a hint and ask politely.",
+      "Decline costly or badly timed gifts and tell your manager."
+    ],
+    "redo": "Write one polite sentence you could use to decline a drink and one to decline a gift."
+  }
+}

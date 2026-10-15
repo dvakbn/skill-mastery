@@ -1,0 +1,259 @@
+{
+ "id": "final",
+ "week": 9,
+ "day": 60,
+ "title": "Final Assessment: Your 60-Day Review",
+ "intro": "This is the final assessment of the 60-day programme. It samples all 26 skills. Part A is auto-graded from lessons you completed. Part B has a decision scenario, a role-play, a 90-day plan and a claim evaluation. It measures demonstrated ability rather than completion, so answer honestly and in detail. You can retake it later.",
+ "coverage": [],
+ "concepts": [
+  {
+   "id": "time.applied",
+   "label": "Time Management: applied"
+  },
+  {
+   "id": "negotiation.applied",
+   "label": "Negotiation: applied"
+  },
+  {
+   "id": "goals.applied",
+   "label": "Goal Setting and Execution: applied"
+  },
+  {
+   "id": "critical.applied",
+   "label": "Critical Thinking: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "final.a1",
+   "skills": [
+    "time",
+    "discipline",
+    "stress"
+   ],
+   "type": "scenario",
+   "concept": "time.applied",
+   "prompt": "Three weeks before a campus placement drive you realise you have not done any serious preparation and you are anxious. What is the best plan?",
+   "options": [
+    {
+     "text": "Panic and study all night every night.",
+     "score": 1,
+     "feedback": "Sleep loss and panic reduce learning."
+    },
+    {
+     "text": "List the key topics, plan daily focus blocks with review, protect sleep and ask a senior for a mock interview.",
+     "score": 3,
+     "feedback": "A structured plan with recovery works."
+    },
+    {
+     "text": "Give up on the drive.",
+     "score": 0,
+     "feedback": "Giving up ignores the three weeks you still have."
+    },
+    {
+     "text": "Copy answers without understanding.",
+     "score": 0,
+     "feedback": "Copying does not build real skill."
+    }
+   ],
+   "why": "A realistic plan, focus blocks and rest beat panic."
+  },
+  {
+   "id": "final.a2",
+   "skills": [
+    "negotiation",
+    "conflict",
+    "confidence"
+   ],
+   "type": "roleplay",
+   "concept": "negotiation.applied",
+   "setup": "Your manager asks you to take on an extra urgent task while you already have a deadline on Friday. You want to stay cooperative while protecting quality.",
+   "turns": [
+    {
+     "they": "Can you also take this urgent report? It is due Friday too.",
+     "options": [
+      {
+       "text": "Sure, no problem, I will do everything.",
+       "score": 1,
+       "feedback": "Agreeing silently risks quality and burnout.",
+       "reply": "Great, thanks."
+      },
+      {
+       "text": "I want to help. I have the module due on Friday. If I take this report, one of them will need to move. Which is the priority?",
+       "score": 3,
+       "feedback": "It states the limit, offers help and asks for a decision.",
+       "reply": "The report is more urgent."
+      },
+      {
+       "text": "No, that is not my job.",
+       "score": 0,
+       "feedback": "A blunt refusal damages cooperation.",
+       "reply": "That is disappointing."
+      }
+     ]
+    },
+    {
+     "they": "The report is a priority. The module can move to Monday.",
+     "options": [
+      {
+       "text": "Okay, I will work on both anyway.",
+       "score": 1,
+       "feedback": "Ignoring the offered change creates overload.",
+       "reply": "Do not overwork."
+      },
+      {
+       "text": "Thank you. I will deliver the report by Friday noon and the module by Monday noon, and confirm this by email.",
+       "score": 3,
+       "feedback": "Clear dates and written confirmation.",
+       "reply": "Perfect, thanks."
+      },
+      {
+       "text": "Fine, whatever.",
+       "score": 0,
+       "feedback": "A sulking reply weakens trust.",
+       "reply": "Is there a problem?"
+      }
+     ]
+    },
+    {
+     "they": "I might need help with testing the report too.",
+     "options": [
+      {
+       "text": "I cannot, I am busy.",
+       "score": 1,
+       "feedback": "A flat no without alternative is unhelpful.",
+       "reply": "Okay."
+      },
+      {
+       "text": "I can test it for two hours on Thursday afternoon. Could someone else cover the rest?",
+       "score": 3,
+       "feedback": "A clear limit with an alternative.",
+       "reply": "Good, I will ask Priya."
+      },
+      {
+       "text": "Why does everything come to me?",
+       "score": 0,
+       "feedback": "Complaining does not solve the issue.",
+       "reply": "Let us not start this."
+      }
+     ]
+    }
+   ],
+   "why": "State limits, offer help, ask for priorities and confirm in writing."
+  },
+  {
+   "id": "final.a3",
+   "skills": [
+    "goals",
+    "career",
+    "time",
+    "finance",
+    "adapt",
+    "discipline"
+   ],
+   "type": "written",
+   "concept": "goals.applied",
+   "prompt": "Write a 90-day plan for your own next step (for example, getting your first SAP ABAP role). Include a specific goal with a date, three monthly milestones, weekly habits with time blocks, a money or resources plan, a plan B and how you will review progress.",
+   "minWords": 86,
+   "rubric": [
+    {
+     "id": "goal",
+     "label": "Specific goal with date",
+     "weight": 20,
+     "descriptors": {
+      "0": "None.",
+      "1": "Vague.",
+      "2": "Clear but undated.",
+      "3": "Specific, measurable and dated."
+     }
+    },
+    {
+     "id": "milestones",
+     "label": "Monthly milestones and weekly habits",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "Milestones only.",
+      "2": "Habits only.",
+      "3": "Three milestones and weekly time-blocked habits."
+     }
+    },
+    {
+     "id": "resources",
+     "label": "Resources and plan B",
+     "weight": 25,
+     "descriptors": {
+      "0": "None.",
+      "1": "One of them.",
+      "2": "Both but vague.",
+      "3": "Both specific."
+     }
+    },
+    {
+     "id": "review",
+     "label": "Review and adaptation",
+     "weight": 25,
+     "descriptors": {
+      "0": "None.",
+      "1": "Mentioned only.",
+      "2": "Review dates.",
+      "3": "Review dates with adjustment rules."
+     }
+    }
+   ],
+   "modelAnswer": "Goal: receive at least two ABAP trainee interview calls and complete one end-to-end ABAP report project by 15 January. Month 1: finish core ABAP topics and 30 practice programs. Month 2: build the report project and apply to twenty companies. Month 3: complete ten mock interviews and follow up with contacts. Weekly: Monday to Friday 7 to 9 pm focus blocks, one weekend review session, 30 minutes of networking messages. Resources: Rs 3,000 for a course and a free practice system access. Plan B: apply also for junior web-development roles. Review: every Sunday check progress against milestones, adjust the next week and cut tasks if I am behind.",
+   "guidance": "Strong plans are specific, dated, realistic and include milestones, weekly time blocks, resources, plan B and scheduled reviews. Avoid vague statements such as \"work hard\"."
+  },
+  {
+   "id": "final.a4",
+   "skills": [
+    "critical",
+    "research",
+    "ai",
+    "writing"
+   ],
+   "type": "written",
+   "concept": "critical.applied",
+   "prompt": "You read this claim in a forwarded message: \"A new study proves that AI tools will replace all programmers within two years, so learning to code is pointless.\" Write 100 to 140 words evaluating the claim: what you would check, what tactics it uses, what a fair conclusion would be and how confident you are.",
+   "minWords": 74,
+   "rubric": [
+    {
+     "id": "checks",
+     "label": "Checks and evidence",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Generic.",
+      "2": "Some checks.",
+      "3": "Source tracing, study details and independent sources."
+     }
+    },
+    {
+     "id": "tactics",
+     "label": "Tactics and reasoning flaws",
+     "weight": 30,
+     "descriptors": {
+      "0": "None.",
+      "1": "One.",
+      "2": "Two with weak links.",
+      "3": "Absolute words, vague authority and urgency identified."
+     }
+    },
+    {
+     "id": "conclusion",
+     "label": "Balanced conclusion with confidence",
+     "weight": 35,
+     "descriptors": {
+      "0": "Accepts or rejects blindly.",
+      "1": "Conclusion without confidence.",
+      "2": "Balanced without reasons.",
+      "3": "Balanced conclusion with stated confidence and reasons."
+     }
+    }
+   ],
+   "modelAnswer": "I would first find the study itself and check who ran it, the sample, the date and what it actually measured; \"proves\", \"all\" and \"pointless\" are absolute words, and \"a new study\" is vague authority. I would look for two independent sources and reports from developers. The claim also uses fear to push a conclusion. A fair view is that tools will change many coding tasks, but evidence for replacing all programmers in two years is weak. My confidence that the claim is exaggerated is medium to high until I see the study.",
+   "guidance": "Strong answers trace the claim to its source, notice absolute wording and fear tactics, look for independent evidence and finish with a balanced conclusion and honest confidence level."
+  }
+ ]
+}

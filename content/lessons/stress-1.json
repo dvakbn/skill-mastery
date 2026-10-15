@@ -1,0 +1,342 @@
+{
+  "id": "stress-1",
+  "skillId": "stress",
+  "n": 1,
+  "title": "Understanding Stress",
+  "summary": "Learn what stress is, how it shows up in body and behaviour, and how to run a quick baseline check.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain the stress response and the difference between a stressor and stress.",
+    "Recognise your own early warning signs across body, mind and behaviour.",
+    "Run a two-minute baseline check and rate your current load."
+  ],
+  "concepts": [
+    {
+      "id": "stress.stress-response",
+      "label": "The stress response"
+    },
+    {
+      "id": "stress.stressor-vs-stress",
+      "label": "Stressors vs stress"
+    },
+    {
+      "id": "stress.warning-signs",
+      "label": "Early warning signs"
+    },
+    {
+      "id": "stress.good-vs-harmful",
+      "label": "Helpful vs harmful stress"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "What stress actually is",
+      "body": "Stress is the body and mind preparing to meet a demand. When you sense a challenge, such as an exam, a deadline or a hard conversation, your nervous system releases hormones including adrenaline and cortisol. Your heart rate rises, breathing quickens, muscles tense and attention narrows. This is the **stress response**, and it evolved to help you act fast.\n\nThe response is useful in short bursts. A student who feels a spike of alertness before an exam often performs better than one who feels nothing. The problem begins when the alarm keeps ringing with no recovery. Constant activation without rest wears down sleep, mood, concentration and health."
+    },
+    {
+      "heading": "Stressor versus stress",
+      "body": "Keep two words apart. A **stressor** is the demand or event: a deadline, noisy hostel, an unclear project brief, a family expectation. **Stress** is your reaction to it: the tight chest, racing thoughts, irritability. The same stressor produces different stress in different people, and in the same person on different days.\n\nThis distinction matters because it shows two levers. You can change or remove some stressors, for example by clarifying a brief or moving a deadline. You can also change how your body and mind respond, using skills you will learn in the next lessons. Treating every problem as only a stressor, or only a reaction, leaves one lever unused."
+    },
+    {
+      "heading": "Early warning signs",
+      "body": "Stress rarely announces itself as \"I am stressed\". It shows up as signals in three channels. **Body:** tension in neck and jaw, headaches, stomach discomfort, tiredness, disturbed sleep. **Mind:** racing thoughts, difficulty concentrating, constant worry, feeling overwhelmed. **Behaviour:** irritability, procrastination, skipping meals, scrolling late at night, withdrawing from friends.\n\nEveryone has a personal signature. One person notices it first in sleep, another in a short temper. Learning your first two or three signals gives you an early warning system, because acting at \"mildly tense\" is far easier than acting at \"overwhelmed\"."
+    },
+    {
+      "heading": "Helpful and harmful stress, and a baseline check",
+      "body": "Stress is most helpful when the demand is challenging but achievable and you recover afterwards. It becomes harmful when it is intense, long-lasting, or leaves no recovery time. A useful test: **Do I feel energised and focused, or drained and stuck?**\n\nThe **two-minute baseline check** has three steps. First, rate your stress from 0 to 10 right now. Second, scan body, mind and behaviour for your top signals. Third, name the main stressor in one sentence. Do this at the same time each day for a week and you will see patterns, such as Sunday evening spikes or a rise after late nights. This is a wellbeing skill, not a diagnosis. If stress feels unmanageable or lasts for weeks, talking to a doctor or counsellor is a sensible step."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Same stressor, different stress",
+      "body": "Two students receive the same project deadline. Asha feels a surge of focus, makes a plan and sleeps normally. Rohan feels tightness in his chest, avoids opening the file and stays up scrolling. The stressor is identical; the stress responses differ.",
+      "takeaway": "Stress lives in the reaction, which means the reaction can be trained."
+    },
+    {
+      "title": "A baseline check entry",
+      "body": "Tuesday, 9 pm. Stress 6/10. Body: tight shoulders, slept 5 hours. Mind: replaying a client call. Behaviour: skipped lunch, short with roommate. Main stressor: unclear feedback from the client.",
+      "takeaway": "Naming the stressor in one sentence makes it solvable: the next step is to ask the client for specifics."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "stress-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "stress.stressor-vs-stress",
+      "prompt": "A pending project deadline is best described as:",
+      "options": [
+        "The stress response",
+        "A stressor",
+        "A coping skill",
+        "A warning sign"
+      ],
+      "answer": 1,
+      "why": "A stressor is the external demand; the stress is your reaction to it. The deadline is the demand, so it is the stressor."
+    },
+    {
+      "id": "stress-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "stress.warning-signs",
+      "prompt": "Name the three channels in which early stress signals show up: body, mind and ____. (one word)",
+      "accept": [
+        "behaviour",
+        "behavior"
+      ],
+      "why": "Signals appear in body, mind and behaviour, such as procrastination or withdrawing from friends."
+    },
+    {
+      "id": "stress-1.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "stress.warning-signs",
+      "prompt": "Write your own baseline check: a 0-10 stress rating, your top two signals in body/mind/behaviour, and the main stressor in one sentence. Then name one small action that targets the stressor.",
+      "minWords": 35,
+      "rubric": [
+        {
+          "id": "rating",
+          "label": "Gives a 0-10 rating",
+          "weight": 20,
+          "descriptors": {
+            "0": "No rating given.",
+            "1": "Rating is vague.",
+            "2": "Rating given with brief context.",
+            "3": "Clear rating with context for the number."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\b(10|[0-9])\\s*(/|out of)?\\s*10?",
+            "label": "Includes a 0-10 number"
+          }
+        },
+        {
+          "id": "signals",
+          "label": "Names specific signals",
+          "weight": 30,
+          "descriptors": {
+            "0": "No signals named.",
+            "1": "Generic signals only.",
+            "2": "Two signals, mostly specific.",
+            "3": "Two or more specific signals across channels."
+          }
+        },
+        {
+          "id": "stressor",
+          "label": "States the stressor in one sentence",
+          "weight": 25,
+          "descriptors": {
+            "0": "No stressor named.",
+            "1": "Stressor is vague.",
+            "2": "Stressor named but long.",
+            "3": "One crisp sentence naming the demand."
+          }
+        },
+        {
+          "id": "action",
+          "label": "Names a small action on the stressor",
+          "weight": 25,
+          "descriptors": {
+            "0": "No action.",
+            "1": "Action is vague.",
+            "2": "Action is reasonable but not small.",
+            "3": "Small, specific, doable action."
+          }
+        }
+      ],
+      "modelAnswer": "Wednesday evening: stress 7/10. Body: tight neck, only 5 hours of sleep. Behaviour: I keep checking my phone instead of starting the report. Stressor: I do not know what the client wants in section 3. Action: I will send the client two specific questions tomorrow at 10 am.",
+      "guidance": "A strong answer gives a number, two concrete signals and a one-sentence stressor, then a small action such as sending one message. Avoid vague words like \"bad\" and avoid large actions like \"fix everything\". Score honestly against the model."
+    },
+    {
+      "id": "stress-1.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "stress.good-vs-harmful",
+      "prompt": "You have felt wired and irritable for three weeks, sleeping badly, and you keep postponing a task you usually enjoy. A friend says, \"Everyone is stressed, just push through.\" What is the best response?",
+      "options": [
+        {
+          "text": "Push through and say nothing.",
+          "score": 0,
+          "feedback": "Ignoring a three-week pattern lets it grow. Pushing through with no recovery is the harmful pattern."
+        },
+        {
+          "text": "Treat it as a signal: do a baseline check, add recovery time, and consider talking to someone you trust or a professional.",
+          "score": 3,
+          "feedback": "Persistent signals deserve action early, including support if they do not ease."
+        },
+        {
+          "text": "Take on more work to feel in control.",
+          "score": 1,
+          "feedback": "More load without recovery usually deepens the problem."
+        },
+        {
+          "text": "Wait for it to disappear after exams.",
+          "score": 1,
+          "feedback": "Waiting can work for short bursts but not for weeks of disrupted sleep and mood."
+        }
+      ],
+      "why": "Weeks of disrupted sleep, mood and motivation are a signal to act: reduce load, restore recovery and seek support if it persists."
+    }
+  ],
+  "task": {
+    "title": "Seven-day baseline log",
+    "brief": "Start a daily two-minute stress baseline and keep it for a week.",
+    "steps": [
+      "Pick a fixed time each day, ideally evening.",
+      "Write the 0-10 rating, top two signals and the main stressor in one sentence.",
+      "Do the first entry now.",
+      "After day 7 look for patterns in time of day and stressor type."
+    ],
+    "checklist": [
+      "I chose a fixed time",
+      "I wrote today's rating",
+      "I named two signals",
+      "I named the main stressor"
+    ],
+    "evidencePrompt": "Paste today's entry: rating, signals and stressor.",
+    "evidenceWords": 15,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "stress-1.q1",
+      "type": "mcq",
+      "concept": "stress.stress-response",
+      "prompt": "During the stress response, which change is expected?",
+      "options": [
+        "Slower heart rate",
+        "Faster heart rate and tense muscles",
+        "Deeper sleep",
+        "Wider attention"
+      ],
+      "answer": 1,
+      "why": "The stress response speeds the heart, tenses muscles and narrows attention to prepare for action."
+    },
+    {
+      "id": "stress-1.q2",
+      "type": "mcq",
+      "concept": "stress.stressor-vs-stress",
+      "prompt": "Which sentence uses \"stress\" correctly as a reaction?",
+      "options": [
+        "My exam is my stress.",
+        "My chest feels tight when I think of the exam.",
+        "The exam stress is on Friday.",
+        "I scheduled my stress for Monday."
+      ],
+      "answer": 1,
+      "why": "Stress is the reaction (tight chest). The exam is the stressor."
+    },
+    {
+      "id": "stress-1.q3",
+      "type": "mcq",
+      "concept": "stress.warning-signs",
+      "prompt": "Which is a behavioural early warning sign?",
+      "options": [
+        "Racing thoughts",
+        "Tight shoulders",
+        "Skipping meals and avoiding friends",
+        "A headache"
+      ],
+      "answer": 2,
+      "why": "Skipping meals and withdrawing are behaviours; racing thoughts are mind, tight shoulders and headache are body."
+    },
+    {
+      "id": "stress-1.q4",
+      "type": "fill",
+      "concept": "stress.good-vs-harmful",
+      "prompt": "Stress is most helpful when you have enough ____ afterwards. (one word)",
+      "accept": [
+        "recovery",
+        "rest"
+      ],
+      "why": "Short, manageable stress followed by recovery is helpful; stress without recovery becomes harmful."
+    }
+  ],
+  "bank": [
+    {
+      "id": "stress-1.b1",
+      "type": "mcq",
+      "concept": "stress.good-vs-harmful",
+      "prompt": "Which pattern most suggests stress has become harmful?",
+      "options": [
+        "A short burst of nerves before a presentation",
+        "Weeks of poor sleep, irritability and avoidance",
+        "Feeling alert during an exam",
+        "Excitement before a trip"
+      ],
+      "answer": 1,
+      "why": "Long-lasting disruption without recovery is the harmful pattern."
+    },
+    {
+      "id": "stress-1.b2",
+      "type": "mcq",
+      "concept": "stress.stressor-vs-stress",
+      "prompt": "Clarifying an unclear brief with your manager mainly works on:",
+      "options": [
+        "The stressor",
+        "Your breathing rate",
+        "Your sleep",
+        "Your posture"
+      ],
+      "answer": 0,
+      "why": "Clarifying removes ambiguity at the source, the stressor."
+    },
+    {
+      "id": "stress-1.b3",
+      "type": "mcq",
+      "concept": "stress.stress-response",
+      "prompt": "Why did the stress response evolve?",
+      "options": [
+        "To make us tired",
+        "To help us act quickly in a challenge",
+        "To cause worry",
+        "To slow digestion forever"
+      ],
+      "answer": 1,
+      "why": "It prepares the body to act quickly, which is useful in short bursts."
+    }
+  ],
+  "cards": [
+    {
+      "id": "stress-1.c1",
+      "concept": "stress.stress-response",
+      "front": "What happens in the stress response?",
+      "back": "Adrenaline and cortisol rise: faster heart rate, quicker breathing, tense muscles, narrowed attention, ready to act."
+    },
+    {
+      "id": "stress-1.c2",
+      "concept": "stress.stressor-vs-stress",
+      "front": "Stressor vs stress?",
+      "back": "Stressor = the demand or event. Stress = your body and mind reaction to it."
+    },
+    {
+      "id": "stress-1.c3",
+      "concept": "stress.warning-signs",
+      "front": "Three channels of early warning signs?",
+      "back": "Body (tension, sleep), mind (racing thoughts), behaviour (procrastination, withdrawing)."
+    },
+    {
+      "id": "stress-1.c4",
+      "concept": "stress.good-vs-harmful",
+      "front": "When does stress turn harmful?",
+      "back": "When it is intense or long-lasting and recovery time is missing."
+    }
+  ],
+  "reflection": "Which of your early warning signs appears first, and what usually triggers it?",
+  "revision": {
+    "keyPoints": [
+      "Stress is a reaction; a stressor is the demand.",
+      "Signals show up in body, mind and behaviour.",
+      "Short stress with recovery is helpful; no recovery is harmful.",
+      "A two-minute daily check reveals your patterns."
+    ],
+    "redo": "Do a two-minute baseline check now and write the rating and stressor in one sentence."
+  }
+}

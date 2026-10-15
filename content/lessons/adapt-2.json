@@ -1,0 +1,326 @@
+{
+  "id": "adapt-2",
+  "skillId": "adapt",
+  "n": 2,
+  "title": "Learning Agility",
+  "summary": "Learn new tools quickly using a fast-learning method, the Feynman technique, deliberate practice and a short learning plan.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Break a new tool down into a map of core ideas.",
+    "Use the Feynman technique to find gaps.",
+    "Write a two-week learning plan with practice."
+  ],
+  "concepts": [
+    {
+      "id": "adapt.learning-map",
+      "label": "Mapping a new tool"
+    },
+    {
+      "id": "adapt.feynman",
+      "label": "Feynman technique"
+    },
+    {
+      "id": "adapt.practice-loop",
+      "label": "Practice loop"
+    },
+    {
+      "id": "adapt.learning-plan",
+      "label": "Learning plan"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Learning how to learn",
+      "body": "In a first job you will repeatedly meet new tools: a version control system, a testing framework, a new module. Your speed at getting competent matters as much as what you already know. **Learning agility** is the ability to pick up new skills quickly and apply them. It comes from a few methods you can practise: map the territory, test your understanding by explaining it, practise on real tasks and plan your time."
+    },
+    {
+      "heading": "Map the territory first",
+      "body": "Before details, draw a **learning map** on one page: what is this tool for, what are its five to ten core concepts and how do they connect? For an unfamiliar SAP transaction or a new framework, find the official overview, a beginner tutorial and one real example. List the concepts, then rank them by how often you will use them. The 20% of features that cover 80% of daily work come first. Keep a glossary of new terms. Skip advanced features until you can complete a basic task from start to end. Beginners often feel pressure to master everything at once; resist it. A narrow but working skill gives you something to build on and shows your team you can already contribute, while the rest can be learned on the job as real needs appear."
+    },
+    {
+      "heading": "The Feynman technique",
+      "body": "The **Feynman technique** tests whether you really understand something. Step one: choose a concept. Step two: explain it in simple words as if to a beginner, in writing or aloud, without jargon. Step three: note where you stumble or fall back on technical words; these are the gaps. Step four: go back to the source, fill the gap and explain again. If you cannot explain a concept simply, you do not yet understand it. A rubber duck, a friend or a voice memo all work as audiences."
+    },
+    {
+      "heading": "Practice loop and learning plan",
+      "body": "Learning sticks through use. Use a **practice loop**: try a small task, check the result, fix errors and repeat with a slightly harder task. Mix in **retrieval**, such as writing a command from memory before looking it up. Then build a **learning plan** for two weeks: a target (\"create and test a simple report program\"), daily 45-minute sessions with a single focus, one small project to apply it and a checkpoint at day seven where you demonstrate what you can do. Share progress with someone, because explaining what you did makes you notice what you skipped. Write a two-line note at the end of each session: what I learned and what is still unclear. These notes become your own reference guide. If you are stuck for more than 25 minutes, ask for help; hiding confusion slows you down."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A one-page map",
+      "body": "To learn Git, Ashish lists: repository, commit, branch, merge, remote. He ranks commit and branch first, completes a small project using only those and learns merge later when he needs it.",
+      "takeaway": "Start with the few concepts used most."
+    },
+    {
+      "title": "A Feynman gap",
+      "body": "Asked to explain an index in a database, Leena says \"it makes lookups faster using a structure\". When asked how, she cannot answer. She reads about B-trees, then explains it as the index at the back of a book.",
+      "takeaway": "Stumbling reveals what to study next."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "adapt-2.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "adapt.learning-map",
+      "prompt": "What should you learn first about a new tool?",
+      "options": [
+        "The few core concepts used most often",
+        "All advanced features",
+        "The history of its company",
+        "Keyboard shortcuts only"
+      ],
+      "answer": 0,
+      "why": "Core, frequently used concepts give the fastest start."
+    },
+    {
+      "id": "adapt-2.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "adapt.feynman",
+      "prompt": "The Feynman technique asks you to explain a concept in ____ words. (one word)",
+      "accept": [
+        "simple",
+        "plain"
+      ],
+      "why": "If you cannot explain it simply, you have a gap."
+    },
+    {
+      "id": "adapt-2.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "adapt.learning-plan",
+      "prompt": "Choose a tool or skill you want to learn. Write a two-week plan: the target outcome, the daily 45-minute focus for the first three days, one small project, and a day-seven checkpoint.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "target",
+          "label": "Specific target outcome",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Clear but broad.",
+            "3": "Specific and testable."
+          }
+        },
+        {
+          "id": "schedule",
+          "label": "Daily focus for three days",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One day.",
+            "2": "Two days.",
+            "3": "Three specific days."
+          }
+        },
+        {
+          "id": "project",
+          "label": "Project and checkpoint",
+          "weight": 40,
+          "descriptors": {
+            "0": "None.",
+            "1": "One of them.",
+            "2": "Both but vague.",
+            "3": "Both specific with a demonstration."
+          }
+        }
+      ],
+      "modelAnswer": "Target: write and run three SQL queries with joins on a sample database. Day 1: tables and primary keys. Day 2: INNER JOIN with two tables. Day 3: LEFT JOIN and NULLs. Project: a student marks database with five tables. Day 7 checkpoint: solve six join problems without notes and explain two aloud.",
+      "guidance": "Strong plans have a testable outcome, small daily steps, a real project and a checkpoint. Avoid plans that only list topics."
+    },
+    {
+      "id": "adapt-2.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "adapt.practice-loop",
+      "prompt": "You have read three chapters on a framework but feel unsure. What is the best next step?",
+      "options": [
+        {
+          "text": "Read three more chapters.",
+          "score": 1,
+          "feedback": "More reading rarely builds real skill alone."
+        },
+        {
+          "text": "Build a small task using what you read, then check errors.",
+          "score": 3,
+          "feedback": "Practice with feedback builds ability."
+        },
+        {
+          "text": "Switch to another framework.",
+          "score": 0,
+          "feedback": "Switching resets your progress each time."
+        },
+        {
+          "text": "Wait until you feel ready.",
+          "score": 0,
+          "feedback": "Readiness mostly comes from doing."
+        }
+      ],
+      "why": "Practise with real tasks and feedback."
+    }
+  ],
+  "task": {
+    "title": "Learn something in 45 minutes",
+    "brief": "Pick a small tool or feature and learn it using the map, Feynman and a practice task.",
+    "steps": [
+      "Draw a one-page map with five concepts.",
+      "Complete one small practice task.",
+      "Explain the main concept aloud in simple words and note gaps.",
+      "Write what you will do tomorrow to fill the gaps."
+    ],
+    "checklist": [
+      "I drew a map",
+      "I completed a practice task",
+      "I explained aloud",
+      "I noted my gaps"
+    ],
+    "evidencePrompt": "Write your five concepts and one gap you found.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "adapt-2.q1",
+      "type": "mcq",
+      "concept": "adapt.learning-map",
+      "prompt": "A learning map shows:",
+      "options": [
+        "Only advanced topics",
+        "Your marks",
+        "Core concepts and connections",
+        "Prices"
+      ],
+      "answer": 2,
+      "why": "It organises key ideas and links."
+    },
+    {
+      "id": "adapt-2.q2",
+      "type": "mcq",
+      "concept": "adapt.feynman",
+      "prompt": "Stumbling in a Feynman explanation shows:",
+      "options": [
+        "A gap in understanding",
+        "Bad luck",
+        "You are done",
+        "The tool is bad"
+      ],
+      "answer": 0,
+      "why": "Stumbles reveal gaps."
+    },
+    {
+      "id": "adapt-2.q3",
+      "type": "mcq",
+      "concept": "adapt.practice-loop",
+      "prompt": "Retrieval practice means:",
+      "options": [
+        "Re-reading",
+        "Recalling from memory before checking",
+        "Highlighting",
+        "Copying"
+      ],
+      "answer": 1,
+      "why": "Recalling from memory strengthens learning."
+    },
+    {
+      "id": "adapt-2.q4",
+      "type": "fill",
+      "concept": "adapt.learning-plan",
+      "prompt": "A good plan has a checkpoint on day ____. (one word)",
+      "accept": [
+        "seven",
+        "7"
+      ],
+      "why": "The day-seven checkpoint lets you demonstrate progress."
+    }
+  ],
+  "bank": [
+    {
+      "id": "adapt-2.b1",
+      "type": "mcq",
+      "concept": "adapt.learning-map",
+      "prompt": "Which features come first?",
+      "options": [
+        "The rarest",
+        "The few that cover most daily work",
+        "The newest",
+        "The hardest"
+      ],
+      "answer": 1,
+      "why": "The 20 per cent that cover 80 per cent come first."
+    },
+    {
+      "id": "adapt-2.b2",
+      "type": "mcq",
+      "concept": "adapt.feynman",
+      "prompt": "Who is the ideal audience in Feynman?",
+      "options": [
+        "An expert",
+        "A beginner",
+        "Nobody",
+        "A critic"
+      ],
+      "answer": 1,
+      "why": "Explaining to a beginner forces simple language."
+    },
+    {
+      "id": "adapt-2.b3",
+      "type": "mcq",
+      "concept": "adapt.learning-plan",
+      "prompt": "If stuck for over 25 minutes, you should:",
+      "options": [
+        "Hide it",
+        "Ask for help",
+        "Quit",
+        "Wait a day"
+      ],
+      "answer": 1,
+      "why": "Asking early saves time."
+    }
+  ],
+  "cards": [
+    {
+      "id": "adapt-2.c1",
+      "concept": "adapt.learning-map",
+      "front": "One-page learning map?",
+      "back": "Purpose, five to ten core concepts, how they connect, ranked by frequency of use."
+    },
+    {
+      "id": "adapt-2.c2",
+      "concept": "adapt.feynman",
+      "front": "Feynman steps?",
+      "back": "Choose a concept, explain simply, note gaps, go back to the source and explain again."
+    },
+    {
+      "id": "adapt-2.c3",
+      "concept": "adapt.practice-loop",
+      "front": "Practice loop?",
+      "back": "Small task, check results, fix errors, repeat slightly harder; add retrieval."
+    },
+    {
+      "id": "adapt-2.c4",
+      "concept": "adapt.learning-plan",
+      "front": "Parts of a two-week plan?",
+      "back": "Target outcome, daily focused sessions, small project, day-seven checkpoint, help rule."
+    }
+  ],
+  "reflection": "Which new tool will you need soon, and what are its five core concepts?",
+  "revision": {
+    "keyPoints": [
+      "Map core concepts first.",
+      "Explain simply to find gaps.",
+      "Practise with feedback.",
+      "Plan two weeks with a checkpoint."
+    ],
+    "redo": "Pick a second tool and draw its one-page map in ten minutes."
+  }
+}

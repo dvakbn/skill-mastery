@@ -1,0 +1,326 @@
+{
+  "id": "research-4",
+  "skillId": "research",
+  "n": 4,
+  "title": "Synthesis and Research Briefs",
+  "summary": "Compare sources, state confidence honestly, attribute properly and write a one-page research brief.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Compare sources and note where they agree and differ.",
+    "State a confidence level with reasons.",
+    "Write a one-page brief with attribution."
+  ],
+  "concepts": [
+    {
+      "id": "research.comparing-sources",
+      "label": "Comparing sources"
+    },
+    {
+      "id": "research.confidence-levels",
+      "label": "Confidence levels"
+    },
+    {
+      "id": "research.attribution",
+      "label": "Attribution"
+    },
+    {
+      "id": "research.research-brief",
+      "label": "One-page research brief"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "From facts to understanding",
+      "body": "Finding facts is only half of research. **Synthesis** means combining what several sources say into a clear answer to your question. A list of summaries is not synthesis; synthesis says, \"Three sources agree on X, one disagrees on Y because of Z, so the best current view is W.\"\n\nStart with your question in one sentence, because without it every source seems equally relevant and your notes grow without direction. Good questions are narrow and decision-oriented, such as \"Which database should our project use for 500 users?\" rather than \"Tell me about databases\". Then read each source only for what it adds to that question, and record claim, evidence and date for each."
+    },
+    {
+      "heading": "Comparing sources",
+      "body": "Make a small table: rows are sources, columns are claims. Mark where sources **agree**, where they **differ** and where one is **silent**. Ask why differences exist: different dates, definitions, sample sizes or interests. Give more weight to sources that are recent, close to the data, transparent about method and free from obvious bias. Do not average conflicting claims; explain them. If one report says 40 per cent and another 60 per cent, the middle value 50 is probably wrong for both, but the reason for the gap may be the most valuable finding. Note it in your brief so the reader can judge for themselves."
+    },
+    {
+      "heading": "Confidence and attribution",
+      "body": "Be honest about how sure you are. Use three levels. **High**: several independent, reliable sources agree and evidence is direct. **Medium**: good sources but limited, dated or partly conflicting evidence. **Low**: single source, indirect evidence or strong disagreement. State the level and the reason in one line.\n\n**Attribution** means saying where each claim comes from: \"According to the 2024 annual report of X...\" Attribution lets readers check you, protects you from error and avoids passing others' work off as your own. Quote exactly when wording matters and paraphrase otherwise, always with the source."
+    },
+    {
+      "heading": "The one-page brief",
+      "body": "A research brief is for a busy reader. Use this structure: **Question** (one sentence), **Bottom line** (two or three sentences with confidence), **Key evidence** (three to five bullets with sources), **Disagreements and gaps**, **Recommendation or next step**. Keep to one page. Put the answer first, because most readers stop early. Remove anything that does not help the decision. Use plain words, short sentences and numbers with units. Before sharing, read the brief once as the reader and ask whether they could act on it in two minutes."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A brief on laptops",
+      "body": "Question: Which RAM size should a student buy for web development? Bottom line: 16 GB, medium confidence. Evidence: two reviews and two vendor guides agree on 16 GB for multiple tools. Gap: no direct benchmark for the student's stack. Next step: check the college lab setup.",
+      "takeaway": "Answer first, confidence stated, gaps honest."
+    },
+    {
+      "title": "Differences explained",
+      "body": "Two reports give different internet user counts. One counts monthly users and the other daily users; one is from 2021 and the other from 2024.",
+      "takeaway": "Differences often come from definitions and dates."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "research-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "research.comparing-sources",
+      "prompt": "Where sources conflict, you should:",
+      "options": [
+        "Average the numbers",
+        "Explain why they differ",
+        "Ignore both",
+        "Pick your favourite"
+      ],
+      "answer": 1,
+      "why": "Understand differences in date, definition and method."
+    },
+    {
+      "id": "research-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "research.confidence-levels",
+      "prompt": "A single indirect source supports only ____ confidence. (one word)",
+      "accept": [
+        "low"
+      ],
+      "why": "Single or indirect evidence means low confidence."
+    },
+    {
+      "id": "research-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "research.research-brief",
+      "prompt": "Write a mini research brief (question, bottom line with confidence, three evidence bullets with sources, one gap and next step) on a topic of your choice. Use clearly invented source names if needed, such as \"Source A\".",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "bottom",
+          "label": "Bottom line first with confidence",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Present but buried.",
+            "2": "Clear without confidence.",
+            "3": "Clear with a level and reason."
+          }
+        },
+        {
+          "id": "evidence",
+          "label": "Evidence with attribution",
+          "weight": 40,
+          "descriptors": {
+            "0": "None.",
+            "1": "Evidence without sources.",
+            "2": "Some attributed.",
+            "3": "Three attributed bullets."
+          }
+        },
+        {
+          "id": "gaps",
+          "label": "Gap and next step",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Gap only.",
+            "2": "Next step only.",
+            "3": "Both a real gap and a next step."
+          }
+        }
+      ],
+      "modelAnswer": "Question: Should our hostel group buy a shared router? Bottom line: Yes, medium confidence, because three of four sources show lower per-person cost and one flags signal limits. Evidence: Source A (price list) shows Rs 1,800 per router; Source B (user review) reports stable speeds for four users; Source C (manual) lists a 30 m range. Gap: no measurement in our building. Next step: test one borrowed router for two days.",
+      "guidance": "Strong briefs lead with the answer and its confidence, attribute each claim and name a real gap. Avoid long background."
+    },
+    {
+      "id": "research-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "research.attribution",
+      "prompt": "You want to use a statistic from an article in your brief. What is the best way?",
+      "options": [
+        {
+          "text": "Use it without a source because it is common knowledge.",
+          "score": 0,
+          "feedback": "Statistics need a source."
+        },
+        {
+          "text": "State the figure and name the article, author and date.",
+          "score": 3,
+          "feedback": "Clear attribution lets readers verify it."
+        },
+        {
+          "text": "Rewrite it as if you calculated it.",
+          "score": 0,
+          "feedback": "That misrepresents your work."
+        },
+        {
+          "text": "Quote the whole article.",
+          "score": 1,
+          "feedback": "Long quotes bury your own synthesis."
+        }
+      ],
+      "why": "Name the source so claims can be checked."
+    }
+  ],
+  "task": {
+    "title": "Draft a one-page brief",
+    "brief": "Write a real one-page brief on a question you care about.",
+    "steps": [
+      "Write the question in one sentence.",
+      "Gather three sources and note claim, evidence and date for each.",
+      "Write the bottom line with a confidence level.",
+      "Add gaps and a next step, then check every claim has a source."
+    ],
+    "checklist": [
+      "I wrote the question",
+      "I compared three sources",
+      "I stated confidence",
+      "I attributed each claim"
+    ],
+    "evidencePrompt": "Paste your question and bottom line with confidence.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "research-4.q1",
+      "type": "mcq",
+      "concept": "research.comparing-sources",
+      "prompt": "Synthesis differs from summary because it:",
+      "options": [
+        "Combines sources into an answer",
+        "Is shorter",
+        "Copies text",
+        "Skips evidence"
+      ],
+      "answer": 0,
+      "why": "Synthesis answers a question using several sources."
+    },
+    {
+      "id": "research-4.q2",
+      "type": "mcq",
+      "concept": "research.confidence-levels",
+      "prompt": "High confidence needs:",
+      "options": [
+        "One strong opinion",
+        "Popularity",
+        "Several independent reliable sources agreeing",
+        "A famous author"
+      ],
+      "answer": 2,
+      "why": "Agreement across independent sources supports high confidence."
+    },
+    {
+      "id": "research-4.q3",
+      "type": "mcq",
+      "concept": "research.attribution",
+      "prompt": "Attribution helps readers to:",
+      "options": [
+        "Skip reading",
+        "Check your claims",
+        "Avoid evidence",
+        "Shorten text"
+      ],
+      "answer": 1,
+      "why": "They can verify where each claim comes from."
+    },
+    {
+      "id": "research-4.q4",
+      "type": "fill",
+      "concept": "research.research-brief",
+      "prompt": "A research brief puts the ____ first. (one word)",
+      "accept": [
+        "answer",
+        "bottom line",
+        "conclusion"
+      ],
+      "why": "Busy readers want the answer at the top."
+    }
+  ],
+  "bank": [
+    {
+      "id": "research-4.b1",
+      "type": "mcq",
+      "concept": "research.comparing-sources",
+      "prompt": "A common reason sources differ is:",
+      "options": [
+        "Different definitions or dates",
+        "Bad paper",
+        "Magic",
+        "Word count"
+      ],
+      "answer": 0,
+      "why": "Definitions, dates and methods vary."
+    },
+    {
+      "id": "research-4.b2",
+      "type": "mcq",
+      "concept": "research.confidence-levels",
+      "prompt": "Which statement is honest?",
+      "options": [
+        "I am sure because it is online.",
+        "Medium confidence: good sources but limited data.",
+        "Everyone knows it.",
+        "No evidence needed."
+      ],
+      "answer": 1,
+      "why": "State the level and reason."
+    },
+    {
+      "id": "research-4.b3",
+      "type": "mcq",
+      "concept": "research.research-brief",
+      "prompt": "A brief should fit on:",
+      "options": [
+        "Ten pages",
+        "One page",
+        "A slide only",
+        "No limit"
+      ],
+      "answer": 1,
+      "why": "One page forces clarity."
+    }
+  ],
+  "cards": [
+    {
+      "id": "research-4.c1",
+      "concept": "research.comparing-sources",
+      "front": "How to compare sources?",
+      "back": "Make a table of sources against claims; mark agree, differ and silent; explain differences."
+    },
+    {
+      "id": "research-4.c2",
+      "concept": "research.confidence-levels",
+      "front": "Three confidence levels?",
+      "back": "High: independent sources agree. Medium: good but limited. Low: single or indirect evidence."
+    },
+    {
+      "id": "research-4.c3",
+      "concept": "research.attribution",
+      "front": "What is attribution?",
+      "back": "Saying who said what, where and when, so readers can check it."
+    },
+    {
+      "id": "research-4.c4",
+      "concept": "research.research-brief",
+      "front": "Brief structure?",
+      "back": "Question, bottom line with confidence, key evidence, gaps, next step."
+    }
+  ],
+  "reflection": "Think of a recent decision you made from one source. What would a second and third source have added?",
+  "revision": {
+    "keyPoints": [
+      "Synthesis combines sources into an answer.",
+      "Explain differences instead of averaging.",
+      "State confidence with reasons.",
+      "Lead a brief with the answer."
+    ],
+    "redo": "Rewrite one of your older notes as a one-page brief with confidence and sources."
+  }
+}

@@ -1,0 +1,196 @@
+{
+ "id": "week-1",
+ "week": 1,
+ "day": 7,
+ "title": "Week 1 Assessment: Foundations",
+ "intro": "This assessment checks whether you can apply the week's ideas on goals, time, English, reading, discipline and stress in realistic situations. Part A is auto-graded from your completed lessons. Part B asks you to decide, role-play and write. Take your time and answer as you would in real life.",
+ "coverage": [
+  "goals",
+  "english",
+  "time",
+  "reading",
+  "discipline",
+  "stress"
+ ],
+ "concepts": [
+  {
+   "id": "time.applied",
+   "label": "Time Management: applied"
+  },
+  {
+   "id": "english.applied",
+   "label": "English Fluency: applied"
+  },
+  {
+   "id": "goals.applied",
+   "label": "Goal Setting and Execution: applied"
+  }
+ ],
+ "passMark": 70,
+ "items": [
+  {
+   "id": "week-1.a1",
+   "skills": [
+    "time",
+    "discipline"
+   ],
+   "type": "scenario",
+   "concept": "time.applied",
+   "prompt": "It is 9 pm. You planned two hours of SQL practice today, but you spent the evening on messages and have a mock test tomorrow at 10 am. What is the best move?",
+   "options": [
+    {
+     "text": "Skip practice and hope the test goes well.",
+     "score": 0,
+     "feedback": "Hope is not a preparation plan."
+    },
+    {
+     "text": "Do a focused 50-minute block now on the weakest topic, phone away, and plan the rest for early morning.",
+     "score": 3,
+     "feedback": "A short focus block on the weak area is realistic and effective."
+    },
+    {
+     "text": "Study until 4 am without breaks.",
+     "score": 1,
+     "feedback": "Sleep loss will hurt tomorrow's performance."
+    },
+    {
+     "text": "Move the test to next week without asking.",
+     "score": 0,
+     "feedback": "You cannot unilaterally change commitments."
+    }
+   ],
+   "why": "A realistic recovery plan protects sleep and uses focus on the weakest topic."
+  },
+  {
+   "id": "week-1.a2",
+   "skills": [
+    "english",
+    "stress"
+   ],
+   "type": "roleplay",
+   "concept": "english.applied",
+   "setup": "You are in a short mock interview and the interviewer asks you to introduce yourself. You feel nervous and your voice is shaky.",
+   "turns": [
+    {
+     "they": "Please tell me a little about yourself.",
+     "options": [
+      {
+       "text": "Um, I am, like, a student, I guess.",
+       "score": 0,
+       "feedback": "Fillers and hedges lower the impression of confidence.",
+       "reply": "Could you tell me more about your studies?"
+      },
+      {
+       "text": "Take one slow breath, then: \"I am Deepak, an MCA student in Faridabad with a web-development background, aiming for an ABAP role.\"",
+       "score": 3,
+       "feedback": "A breath and a clear structured introduction show calm.",
+       "reply": "Good. What drew you towards ABAP?"
+      },
+      {
+       "text": "I will say everything about my whole life now.",
+       "score": 1,
+       "feedback": "Too long and unfocused for an introduction.",
+       "reply": "That is a lot. Let us move on."
+      }
+     ]
+    },
+    {
+     "they": "What drew you towards ABAP?",
+     "options": [
+      {
+       "text": "I do not know, it just seemed good.",
+       "score": 0,
+       "feedback": "A vague answer shows little preparation.",
+       "reply": "Hmm, okay."
+      },
+      {
+       "text": "I like solving business problems with code, and ABAP is central to SAP systems used by many large companies.",
+       "score": 3,
+       "feedback": "It is specific, honest and links interest to the role.",
+       "reply": "That is clear. How are you preparing?"
+      },
+      {
+       "text": "Everyone says it pays well.",
+       "score": 1,
+       "feedback": "Money alone is a weak motive to state.",
+       "reply": "I see. Anything else?"
+      }
+     ]
+    },
+    {
+     "they": "How are you preparing for the role?",
+     "options": [
+      {
+       "text": "I study when I can.",
+       "score": 1,
+       "feedback": "Vague; please give specifics.",
+       "reply": "Can you be more specific?"
+      },
+      {
+       "text": "I practise daily: one focus block on ABAP basics, weekly mini programs and a written review of my errors.",
+       "score": 3,
+       "feedback": "Specific habits show discipline and a system.",
+       "reply": "Impressive consistency."
+      },
+      {
+       "text": "I am not preparing yet.",
+       "score": 0,
+       "feedback": "This statement undermines your candidacy badly.",
+       "reply": "I see."
+      }
+     ]
+    }
+   ],
+   "why": "Calm breathing and specific, structured answers make a strong first impression."
+  },
+  {
+   "id": "week-1.a3",
+   "skills": [
+    "goals",
+    "reading",
+    "time"
+   ],
+   "type": "written",
+   "concept": "goals.applied",
+   "prompt": "Write a short plan (about 100 words) for the next two weeks that includes one specific goal, how you will break it into weekly steps, when each day you will do a focus block and a reading habit to support it.",
+   "minWords": 52,
+   "rubric": [
+    {
+     "id": "goal",
+     "label": "Specific measurable goal",
+     "weight": 30,
+     "descriptors": {
+      "0": "No goal.",
+      "1": "Vague goal.",
+      "2": "Clear but not measurable.",
+      "3": "Specific and measurable with a date."
+     }
+    },
+    {
+     "id": "steps",
+     "label": "Weekly steps and daily time",
+     "weight": 35,
+     "descriptors": {
+      "0": "None.",
+      "1": "Steps without times.",
+      "2": "Times without steps.",
+      "3": "Weekly steps with daily time blocks."
+     }
+    },
+    {
+     "id": "reading",
+     "label": "Reading habit linked to goal",
+     "weight": 35,
+     "descriptors": {
+      "0": "No reading habit.",
+      "1": "Mentioned only.",
+      "2": "A habit without links.",
+      "3": "A specific daily reading habit linked to the goal."
+     }
+    }
+   ],
+   "modelAnswer": "Goal: finish 40 ABAP practice problems by 28 October. Week 1: 20 problems on internal tables and loops; week 2: 20 on database reads and review of mistakes. Daily: a 50-minute focus block at 7 pm with my phone in another room. Reading: 20 minutes every morning of ABAP documentation and notes, writing two lines of summary. I will review progress each Sunday and adjust.",
+   "guidance": "Strong plans have a measurable goal with a date, weekly steps, specific daily times and a reading habit that supports the goal. Avoid general statements like \"study more\"."
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "creativity-4",
+  "skillId": "creativity",
+  "n": 4,
+  "title": "A Creative Practice",
+  "summary": "Build a capture system, use incubation and routines, beat blocks and complete a small portfolio project.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Set up a capture system for ideas.",
+    "Use incubation, routines and blocks-breakers.",
+    "Plan a small portfolio project with a finish date."
+  ],
+  "concepts": [
+    {
+      "id": "creativity.capture",
+      "label": "Capture system"
+    },
+    {
+      "id": "creativity.incubation",
+      "label": "Incubation and routines"
+    },
+    {
+      "id": "creativity.blocks",
+      "label": "Beating creative blocks"
+    },
+    {
+      "id": "creativity.portfolio",
+      "label": "Portfolio project"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Creativity as a habit",
+      "body": "Creative people are not waiting for lightning; they have habits that make ideas likely and catch them when they come. A creative practice has four parts: capture ideas, give them time to develop, keep going when stuck and produce visible work. This lesson turns the techniques you have learned into a routine you can keep for years."
+    },
+    {
+      "heading": "Capture system",
+      "body": "Ideas are fragile. You have a thought in the shower and it is gone by breakfast. A **capture system** is one place, always within reach, where every idea goes: a notes app, a pocket notebook or voice memos. Rules: one place only, write it immediately, no editing while capturing. Once a week spend ten minutes reviewing, tagging the promising ones and deleting the rest. Review is what turns a pile of scraps into a resource. Add small context to each note, such as where it came from and why it excited you. A bare note reading \"app idea\" is useless in a month, while \"app idea: queue tracker for the canteen, from waiting 25 minutes today\" can be developed immediately."
+    },
+    {
+      "heading": "Incubation and routines",
+      "body": "**Incubation** means stepping away from a problem so that your mind keeps working in the background. Work hard on a problem, then walk, shower, sleep or do something unrelated. Insight often arrives during the break. For this to work you must first immerse yourself in the problem. Pair it with a **routine**: the same time and place each day, a short warm-up and a clear start signal such as making tea. Even 30 minutes daily beats a rare eight-hour session. Protect the slot like an appointment. On low-energy days, do a smaller version, such as five minutes, rather than skipping, because keeping the chain unbroken matters more than the length of the session."
+    },
+    {
+      "heading": "Beating blocks and building a portfolio",
+      "body": "When stuck, try these: lower the bar (\"write the worst version\"), change the medium or location, set a five-minute timer, impose a constraint, work on a different part, or show someone a rough draft. Blocks often come from perfectionism and fear of judgement, not lack of ideas.\n\nA **portfolio project** is a small, finished, shareable piece that shows your ability: a mini web app, a case study or a short guide. Keep it small enough to finish in two weeks. Define the audience, the scope and the finish date, build in public view if you can, and write a short note about what you learned. For a student targeting a first job, two or three small finished projects count for more than many half-built ones."
+    }
+  ],
+  "examples": [
+    {
+      "title": "A capture habit",
+      "body": "Kavita keeps a pocket notebook. On Sunday she reviews it, stars three notes and moves two into a project list. One starred note became a college blog series.",
+      "takeaway": "Capture plus weekly review turns scraps into projects."
+    },
+    {
+      "title": "A small portfolio piece",
+      "body": "Sameer builds a tiny expense tracker in ten days, deploys it and writes a one-page note about design choices. He adds it to his resume as evidence of finishing.",
+      "takeaway": "A small finished project is evidence of ability."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "creativity-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "creativity.capture",
+      "prompt": "A good capture system is:",
+      "options": [
+        "One place always within reach",
+        "Several apps and papers",
+        "Memory only",
+        "Something used monthly"
+      ],
+      "answer": 0,
+      "why": "One reliable place prevents losing ideas."
+    },
+    {
+      "id": "creativity-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "creativity.incubation",
+      "prompt": "Stepping away from a problem so that your mind keeps working on it is called ____. (one word)",
+      "accept": [
+        "incubation"
+      ],
+      "why": "Incubation lets background thinking work."
+    },
+    {
+      "id": "creativity-4.e3",
+      "level": 2,
+      "type": "written",
+      "concept": "creativity.portfolio",
+      "prompt": "Plan a small portfolio project you could finish in two weeks. State what it is, the audience, the scope (what is in and out), the finish date and how you will share it.",
+      "minWords": 37,
+      "rubric": [
+        {
+          "id": "scope",
+          "label": "Small, defined scope",
+          "weight": 35,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Too big.",
+            "2": "Reasonable but vague.",
+            "3": "Small with clear in and out."
+          }
+        },
+        {
+          "id": "date",
+          "label": "Finish date and share plan",
+          "weight": 35,
+          "descriptors": {
+            "0": "Neither.",
+            "1": "One of them.",
+            "2": "Both but vague.",
+            "3": "Specific date and share plan."
+          }
+        },
+        {
+          "id": "audience",
+          "label": "Audience and purpose",
+          "weight": 30,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Named.",
+            "3": "Named and linked to the project value."
+          }
+        }
+      ],
+      "modelAnswer": "Project: a small SAP ABAP learning log site with ten short posts. Audience: other beginners and recruiters. In scope: ten posts, one summary page. Out of scope: comments and login. Finish date: 28 October. Share: post on LinkedIn and add it to my resume.",
+      "guidance": "Strong plans are small, give a date and name where it will be shown. Avoid projects that need months."
+    },
+    {
+      "id": "creativity-4.e4",
+      "level": 3,
+      "type": "scenario",
+      "concept": "creativity.blocks",
+      "prompt": "You have stared at a blank page for twenty minutes. What helps most?",
+      "options": [
+        {
+          "text": "Wait for inspiration.",
+          "score": 0,
+          "feedback": "Waiting rarely breaks a block."
+        },
+        {
+          "text": "Set a five-minute timer and write the worst possible version.",
+          "score": 3,
+          "feedback": "Lowering the bar starts the flow."
+        },
+        {
+          "text": "Delete the project.",
+          "score": 0,
+          "feedback": "This avoids the problem."
+        },
+        {
+          "text": "Scroll social media.",
+          "score": 0,
+          "feedback": "This only adds distraction."
+        }
+      ],
+      "why": "Lower the bar and start small."
+    }
+  ],
+  "task": {
+    "title": "Set up your practice",
+    "brief": "Create a capture system and plan a small portfolio project.",
+    "steps": [
+      "Choose one capture tool and add ten ideas today.",
+      "Schedule a 30-minute daily creative slot at a fixed time.",
+      "Plan one small project with scope and a finish date.",
+      "Block a weekly ten-minute review."
+    ],
+    "checklist": [
+      "I chose a capture tool",
+      "I scheduled a daily slot",
+      "I planned a project",
+      "I scheduled a weekly review"
+    ],
+    "evidencePrompt": "Write your tool, slot time and project finish date.",
+    "evidenceWords": 25,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "creativity-4.q1",
+      "type": "mcq",
+      "concept": "creativity.capture",
+      "prompt": "Weekly review of captured ideas helps to:",
+      "options": [
+        "Delete everything",
+        "Avoid work",
+        "Turn scraps into projects",
+        "Add apps"
+      ],
+      "answer": 2,
+      "why": "Review selects and develops promising ideas."
+    },
+    {
+      "id": "creativity-4.q2",
+      "type": "mcq",
+      "concept": "creativity.incubation",
+      "prompt": "Incubation works best after:",
+      "options": [
+        "Immersing in the problem",
+        "Ignoring it",
+        "Sleeping first",
+        "Only reading"
+      ],
+      "answer": 0,
+      "why": "You must work on the problem first."
+    },
+    {
+      "id": "creativity-4.q3",
+      "type": "mcq",
+      "concept": "creativity.blocks",
+      "prompt": "A common cause of creative blocks is:",
+      "options": [
+        "Perfectionism and fear of judgement",
+        "Lack of paper",
+        "Too many ideas",
+        "Weather"
+      ],
+      "answer": 0,
+      "why": "Fear of judgement often blocks starting."
+    },
+    {
+      "id": "creativity-4.q4",
+      "type": "fill",
+      "concept": "creativity.portfolio",
+      "prompt": "A portfolio project should be small enough to ____ in about two weeks. (one word)",
+      "accept": [
+        "finish",
+        "complete"
+      ],
+      "why": "Finished small projects are better evidence than large unfinished ones."
+    }
+  ],
+  "bank": [
+    {
+      "id": "creativity-4.b1",
+      "type": "mcq",
+      "concept": "creativity.capture",
+      "prompt": "Why keep one capture place?",
+      "options": [
+        "It avoids scattering ideas",
+        "It looks neat",
+        "It is cheaper",
+        "It is required"
+      ],
+      "answer": 0,
+      "why": "One place means ideas are not lost."
+    },
+    {
+      "id": "creativity-4.b2",
+      "type": "mcq",
+      "concept": "creativity.incubation",
+      "prompt": "A routine helps creativity by:",
+      "options": [
+        "Making starting easy",
+        "Removing ideas",
+        "Adding pressure",
+        "Replacing practice"
+      ],
+      "answer": 0,
+      "why": "A routine reduces the effort of starting."
+    },
+    {
+      "id": "creativity-4.b3",
+      "type": "mcq",
+      "concept": "creativity.portfolio",
+      "prompt": "For a first job, which is stronger?",
+      "options": [
+        "Many half-built projects",
+        "Two or three small finished projects",
+        "No projects",
+        "One huge unfinished project"
+      ],
+      "answer": 1,
+      "why": "Finished work shows ability."
+    }
+  ],
+  "cards": [
+    {
+      "id": "creativity-4.c1",
+      "concept": "creativity.capture",
+      "front": "Capture rules?",
+      "back": "One place, always within reach, write immediately, review weekly."
+    },
+    {
+      "id": "creativity-4.c2",
+      "concept": "creativity.incubation",
+      "front": "Incubation steps?",
+      "back": "Immerse in the problem, step away, let background thinking work, return."
+    },
+    {
+      "id": "creativity-4.c3",
+      "concept": "creativity.blocks",
+      "front": "Block breakers?",
+      "back": "Write the worst version, timer for five minutes, change place, add a constraint, show a rough draft."
+    },
+    {
+      "id": "creativity-4.c4",
+      "concept": "creativity.portfolio",
+      "front": "Portfolio project checklist?",
+      "back": "Small scope, named audience, finish date, share publicly, write what you learned."
+    }
+  ],
+  "reflection": "What is the smallest daily creative habit you could keep for a month, and at what time will you do it?",
+  "revision": {
+    "keyPoints": [
+      "Creativity is a habit.",
+      "Capture every idea in one place.",
+      "Use incubation and routines.",
+      "Finish a small project to show your work."
+    ],
+    "redo": "Review your captured ideas and pick one for a two-week project."
+  }
+}

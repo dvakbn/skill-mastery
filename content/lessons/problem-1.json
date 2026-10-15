@@ -1,0 +1,341 @@
+{
+  "id": "problem-1",
+  "skillId": "problem",
+  "n": 1,
+  "title": "Define the Real Problem",
+  "summary": "Write a clear problem statement, separate symptoms from root causes with 5 Whys and a fishbone diagram, and set scope and constraints.",
+  "difficulty": 1,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Write a problem statement that is specific, measurable and free of a hidden solution.",
+    "Use 5 Whys and a fishbone diagram to move from symptom to root cause.",
+    "Set the scope and constraints of a problem before solving it."
+  ],
+  "concepts": [
+    {
+      "id": "problem.problem-statement",
+      "label": "Problem statements"
+    },
+    {
+      "id": "problem.root-cause",
+      "label": "Symptoms vs root causes"
+    },
+    {
+      "id": "problem.five-whys-fishbone",
+      "label": "5 Whys and fishbone diagram"
+    },
+    {
+      "id": "problem.scope-constraints",
+      "label": "Scope and constraints"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Solving the wrong problem well",
+      "body": "Most wasted effort comes not from solving problems badly but from solving the wrong problem. A student who says \"I need a better study app\" may actually have a problem of waking up late. A team that says \"we need more testers\" may really have unclear requirements. The first skill of problem solving is to define the problem before touching solutions.\n\nA useful habit is to pause for ten minutes when a problem lands on you and ask: what exactly is wrong, for whom, how much, and since when?"
+    },
+    {
+      "heading": "Writing a problem statement",
+      "body": "A good **problem statement** is specific, measurable and does not smuggle in a solution. Compare:\n\n- Weak: \"We need a new attendance app.\"\n- Better: \"In the last month, 22 percent of class sessions started 10 or more minutes late because manual attendance takes too long.\"\n\nThe weak version names a solution (an app) and says nothing about the size of the problem. The better version states what is happening, how much, and the effect. A handy template: \"**[Who]** experiences **[what]** in **[situation]**, causing **[impact]**, measured by **[number]**.\" If you cannot put a number on it, say how you would measure it."
+    },
+    {
+      "heading": "Symptoms, root causes, 5 Whys and fishbone",
+      "body": "A **symptom** is what you can see; a **root cause** is the underlying reason that, if removed, stops the symptom from returning. Treating symptoms gives temporary relief: taking a painkiller for headaches caused by poor sleep.\n\n**5 Whys** means asking \"why?\" repeatedly, usually about five times. Example: The report was submitted late. Why? The data was wrong. Why? The numbers were copied by hand. Why? There is no export from the system. Why? The system was never set up for reports. Why? No one owned the report requirements. Root cause: unclear ownership of requirements. Fixing the lateness by working longer nights would never solve that.\n\nThe **fishbone (Ishikawa) diagram** helps when causes are many. Draw the problem at the head of a fish and add bones for categories such as People, Process, Tools, Environment and Materials. Brainstorm causes under each bone, then circle the likeliest and test them with data. Caution with 5 Whys: stop at a cause you can act on, and do not blame a person; ask what in the process allowed the error."
+    },
+    {
+      "heading": "Scope and constraints",
+      "body": "**Scope** says what is inside the problem and what is not. Without it, problems grow endlessly: \"fix hostel Wi-Fi\" can become \"redesign campus networking\". Write one line for in scope and one for out of scope. **Constraints** are the limits that any solution must respect: budget, deadline, skills available, rules, and people affected. For a final-year project the constraints might be two months, a team of three and no paid cloud services. Writing them early prevents beautiful solutions that cannot be used."
+    }
+  ],
+  "examples": [
+    {
+      "title": "From vague complaint to problem statement",
+      "body": "Complaint: \"Our team meetings are useless.\" After asking questions: \"In the last four weekly meetings of five people, 60 percent of the time (about 36 of 60 minutes) went to status updates that could be read, and decisions were postponed three times, causing two tasks to start late.\" The statement points to agenda and decision rules, not to \"bad people\".",
+      "takeaway": "Specific numbers and effects turn a complaint into something you can work on."
+    },
+    {
+      "title": "5 Whys on a failed lab test",
+      "body": "Karan failed the SQL practical. Why? He ran out of time. Why? He spent 20 minutes on one join. Why? He did not understand join conditions. Why? He only read examples and never wrote queries himself. Why? His study plan contained reading but no practice. Root cause: a study method without practice. Fix: schedule 30 minutes of daily query writing, rather than studying \"more hours\".",
+      "takeaway": "The fifth answer is a process you can change, not a feeling or a person to blame."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "problem-1.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "problem.problem-statement",
+      "prompt": "Which is the best problem statement?",
+      "options": [
+        "We need a better app.",
+        "The library queue is bad.",
+        "Between 5 and 6 pm, students wait an average of 18 minutes to issue a book, causing missed lectures.",
+        "Someone should fix the library."
+      ],
+      "answer": 2,
+      "why": "It states who, what, when, how much and the impact without naming a solution. The others are vague or jump to a solution."
+    },
+    {
+      "id": "problem-1.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "problem.root-cause",
+      "prompt": "The underlying reason that, if removed, stops a problem from returning is the ____ cause. (one word)",
+      "accept": [
+        "root"
+      ],
+      "why": "A root cause is the deepest actionable reason behind the symptom."
+    },
+    {
+      "id": "problem-1.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "problem.five-whys-fishbone",
+      "prompt": "Your project demo crashed. Which response best uses 5 Whys?",
+      "options": [
+        {
+          "text": "Say that the laptop was bad luck.",
+          "score": 1,
+          "feedback": "Blaming luck stops the inquiry at the surface."
+        },
+        {
+          "text": "Ask why repeatedly: crash, untested path, no test checklist, no one owned testing, so assign a test owner and add a pre-demo checklist.",
+          "score": 3,
+          "feedback": "Each answer moves toward a process you can fix."
+        },
+        {
+          "text": "Blame the teammate who wrote the module.",
+          "score": 0,
+          "feedback": "Blaming a person ignores the process that let the bug through."
+        },
+        {
+          "text": "Rewrite the entire project.",
+          "score": 1,
+          "feedback": "A rewrite is a big solution without a known cause."
+        }
+      ],
+      "why": "5 Whys moves from symptoms to a fixable process cause without blaming individuals."
+    },
+    {
+      "id": "problem-1.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "problem.scope-constraints",
+      "prompt": "Pick a real problem from your life or college (for example, missing assignment deadlines or an unreliable study routine). Write a problem statement with a number, one 5-Whys chain of at least four whys, and one line each for scope (in and out) and constraints.",
+      "minWords": 50,
+      "rubric": [
+        {
+          "id": "statement",
+          "label": "Specific problem statement",
+          "weight": 25,
+          "descriptors": {
+            "0": "Missing.",
+            "1": "Vague.",
+            "2": "Specific but no number.",
+            "3": "Specific, measurable and no hidden solution."
+          },
+          "auto": {
+            "type": "regex",
+            "pattern": "\\d",
+            "label": "Includes a number"
+          }
+        },
+        {
+          "id": "whys",
+          "label": "Why chain",
+          "weight": 35,
+          "descriptors": {
+            "0": "None.",
+            "1": "One or two whys.",
+            "2": "Four whys but stays on symptoms.",
+            "3": "Four or five whys reaching an actionable process cause."
+          }
+        },
+        {
+          "id": "scope",
+          "label": "Scope line",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "Only in scope.",
+            "2": "In and out, vague.",
+            "3": "In and out scope clearly stated."
+          }
+        },
+        {
+          "id": "constraints",
+          "label": "Constraints named",
+          "weight": 20,
+          "descriptors": {
+            "0": "None.",
+            "1": "One.",
+            "2": "Two.",
+            "3": "Time, money or skill limits that shape solutions."
+          }
+        }
+      ],
+      "modelAnswer": "Problem: In the last month I missed 3 of 8 assignment deadlines, losing about 15 marks. Whys: I started late; I misjudged time; I did not list deadlines; I only note them in class; no single place for tasks. Scope: my own assignments this semester; not group projects. Constraints: no spend, 20 minutes a day, works on my phone.",
+      "guidance": "Strong answers go beyond \"I am lazy\" to a fixable process cause. Check that the statement has a number and that the final why points at something you can change. Common mistakes are stopping at the first why and sneaking a solution into the statement."
+    }
+  ],
+  "task": {
+    "title": "Define one real problem",
+    "brief": "Take one problem you have been solving by feel and define it properly.",
+    "steps": [
+      "Describe the problem in one sentence and then rewrite it as a statement with who, what, how much and impact.",
+      "Run 5 Whys and stop at an actionable cause.",
+      "Draw a quick fishbone with at least four categories.",
+      "Write in-scope, out-of-scope and constraints.",
+      "Choose one cause to test first."
+    ],
+    "checklist": [
+      "My statement includes a number",
+      "I wrote at least four whys",
+      "I listed causes under four categories",
+      "I wrote scope and constraints"
+    ],
+    "evidencePrompt": "Paste your problem statement and the root cause you will test.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "problem-1.q1",
+      "type": "mcq",
+      "concept": "problem.problem-statement",
+      "prompt": "A good problem statement should NOT:",
+      "options": [
+        "Include a measure",
+        "Name who is affected",
+        "Contain a hidden solution",
+        "Describe impact"
+      ],
+      "answer": 2,
+      "why": "Naming the solution too early blocks better options."
+    },
+    {
+      "id": "problem-1.q2",
+      "type": "mcq",
+      "concept": "problem.root-cause",
+      "prompt": "Treating a symptom usually:",
+      "options": [
+        "Removes the problem forever",
+        "Gives temporary relief while the cause remains",
+        "Is always best",
+        "Finds the root cause"
+      ],
+      "answer": 1,
+      "why": "The problem returns because the cause is untouched."
+    },
+    {
+      "id": "problem-1.q3",
+      "type": "mcq",
+      "concept": "problem.five-whys-fishbone",
+      "prompt": "A fishbone diagram helps by:",
+      "options": [
+        "Grouping many possible causes under categories",
+        "Choosing the cheapest option",
+        "Deleting tasks",
+        "Setting deadlines"
+      ],
+      "answer": 0,
+      "why": "It organises brainstormed causes under People, Process, Tools and so on."
+    },
+    {
+      "id": "problem-1.q4",
+      "type": "mcq",
+      "concept": "problem.scope-constraints",
+      "prompt": "Constraints are:",
+      "options": [
+        "Limits any solution must respect",
+        "Optional wishes",
+        "The final answer",
+        "Causes"
+      ],
+      "answer": 0,
+      "why": "Budget, time, rules and skills limit what is workable."
+    }
+  ],
+  "bank": [
+    {
+      "id": "problem-1.b1",
+      "type": "mcq",
+      "concept": "problem.problem-statement",
+      "prompt": "A manager says \"sales are low, we need more ads.\" What is the best first step?",
+      "options": [
+        "Order more ads",
+        "Define how low, since when and for which customers",
+        "Fire the team",
+        "Ignore it"
+      ],
+      "answer": 1,
+      "why": "Define and measure the problem before choosing a solution."
+    },
+    {
+      "id": "problem-1.b2",
+      "type": "fill",
+      "concept": "problem.five-whys-fishbone",
+      "prompt": "The technique of asking \"why?\" about five times to reach a root cause is called the 5 ____. (one word)",
+      "accept": [
+        "whys"
+      ],
+      "why": "The method is called 5 Whys."
+    },
+    {
+      "id": "problem-1.b3",
+      "type": "mcq",
+      "concept": "problem.scope-constraints",
+      "prompt": "You are fixing slow loading of one web page. Which is out of scope?",
+      "options": [
+        "Image sizes on that page",
+        "Rebuilding the whole site design",
+        "Database query for that page",
+        "Caching for that page"
+      ],
+      "answer": 1,
+      "why": "A whole-site redesign is far bigger than the defined problem."
+    }
+  ],
+  "cards": [
+    {
+      "id": "problem-1.c1",
+      "concept": "problem.problem-statement",
+      "front": "What makes a problem statement good?",
+      "back": "Specific, measurable, states who and impact, and contains no hidden solution."
+    },
+    {
+      "id": "problem-1.c2",
+      "concept": "problem.root-cause",
+      "front": "Symptom vs root cause?",
+      "back": "A symptom is visible; a root cause is the actionable reason behind it. Fix the cause to stop recurrence."
+    },
+    {
+      "id": "problem-1.c3",
+      "concept": "problem.five-whys-fishbone",
+      "front": "What are 5 Whys and fishbone?",
+      "back": "Ask why repeatedly until you reach a fixable process cause; fishbone groups many causes under categories."
+    },
+    {
+      "id": "problem-1.c4",
+      "concept": "problem.scope-constraints",
+      "front": "Why set scope and constraints?",
+      "back": "Scope limits what you are solving; constraints state the limits of time, money, skills and rules."
+    }
+  ],
+  "reflection": "What problem are you currently attacking with solutions before you have defined it, and what would its problem statement be?",
+  "revision": {
+    "keyPoints": [
+      "Define the problem before solving.",
+      "A statement is specific, measurable and solution-free.",
+      "Use 5 Whys and fishbone to reach causes.",
+      "Fix scope and constraints early."
+    ],
+    "redo": "Write a measurable problem statement for one daily annoyance, then run 5 Whys."
+  }
+}

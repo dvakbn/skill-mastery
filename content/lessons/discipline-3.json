@@ -1,0 +1,360 @@
+{
+  "id": "discipline-3",
+  "skillId": "discipline",
+  "n": 3,
+  "title": "Systems Beat Motivation",
+  "summary": "Plan for low-energy days with minimum versions, a never-miss-twice rule and a streak method that survives lapses.",
+  "difficulty": 2,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Explain why motivation and energy rise and fall, and plan around your own cycle.",
+    "Write a three-tier habit with a minimum version you can do on your worst day.",
+    "Apply the never-miss-twice rule and a four-step recovery script after a lapse."
+  ],
+  "concepts": [
+    {
+      "id": "discipline.energy-cycles",
+      "label": "Energy and motivation cycles"
+    },
+    {
+      "id": "discipline.minimum-version",
+      "label": "Minimum versions"
+    },
+    {
+      "id": "discipline.never-miss-twice",
+      "label": "Never miss twice"
+    },
+    {
+      "id": "discipline.streaks",
+      "label": "Streaks and lapses"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Motivation is weather; a system is the roof",
+      "body": "Last time you shaped your environment so good habits were easier. Today's question is what happens on the days when even a well-designed environment is not enough, because you are tired, anxious or simply flat.\n\nMotivation behaves like weather: it changes by the day and you cannot schedule it. Energy follows body rhythms too. Most people have a high-energy window (often mid-morning or early evening), a dip after lunch, and a slump late at night. A **system** is whatever still works when the weather is bad: a fixed cue, a tiny starting action and a pre-decided fallback.\n\nA useful fact: motivation often *follows* action. Many people feel keen only after five minutes of starting. So the rule is not 'wait until I feel like it' but 'start small and let the feeling catch up'.\n\n*Worked example:* Aman plans two hours of ABAP practice every evening. During a heavy project week he gets home at 8:30 pm, exhausted, and does nothing for five days. His plan had one version only, so any bad day became a failed day. The fix is not more willpower; it is a plan with more than one size."
+    },
+    {
+      "heading": "Minimum versions: the three-tier habit",
+      "body": "Write every important habit in three sizes:\n\n- **Minimum** (2 to 10 minutes): so easy that you can do it when ill, travelling or stressed.\n- **Standard** (your normal plan): done on ordinary days.\n- **Stretch** (a bonus): done only when energy is high.\n\nFor ABAP study the tiers might be: Minimum, open the editor and write or read one SELECT statement (10 minutes). Standard, 60 minutes on one exercise from your course. Stretch, 120 minutes building a small report with a selection screen.\n\nTwo rules make this work. First, **choose the tier by your energy at the cue, not by guilt**. Second, **the minimum counts as a full success**. If a minimum feels like cheating, it is too big or your scoring is too harsh. A good minimum fails the 'worst day test': could I still do this on the worst day of the month? If not, shrink it.\n\nA common mistake is to set the minimum at half of the standard, which is still 30 minutes. Shrink by *effort*, not by fraction: the goal is to keep the identity of 'someone who shows up'."
+    },
+    {
+      "heading": "Never miss twice",
+      "body": "Everyone misses. What separates people who keep habits for years is what happens next. **One miss is an accident; two misses is the start of a new habit.** The rule is simple: after a missed day, the next day's minimum is non-negotiable.\n\nThe danger is the *what-the-hell effect*: after one slip you think 'my streak is ruined, so I may as well skip the week'. The slip was small; the story you tell about it is what does the damage.\n\nUse a four-step **recovery script** within 24 hours of a miss:\n\n1. **Notice**: say 'I missed yesterday' without adding 'because I am lazy'.\n2. **Name the cause**: practical, not personal (late bus, no charger, family function).\n3. **Shrink**: do the minimum version at the next cue, with no catching up.\n4. **Fix one thing**: move the cue, prepare the night before, or lower the standard for that day of the week.\n\nCatching up ('I'll do double tomorrow') is the wrong response; it makes tomorrow harder and teaches your brain that habits are punishments."
+    },
+    {
+      "heading": "Streaks and lapses: track the ratio, not the chain",
+      "body": "Streak counters are motivating until the day they reset to zero, and then they can be crushing. Use a streak as a tool, never as the judge of your character.\n\nA more forgiving measure is **consistency ratio**: days done divided by days planned. Suppose your week is Mon yes, Tue yes, Wed no, Thu yes, Fri yes, Sat no, Sun yes. That is 5 of 7 days, which is 71%. The next week you do 6 of 7, which is 86%. Over four weeks of 5, 6, 5 and 7 days you have done 23 of 28 days, which is 82%. The chain broke several times, yet the habit is clearly alive.\n\nSet a floor such as 'at least 5 days a week' and a trigger such as 'if I drop below 4, I shrink the plan'. Review weekly, not daily, so one bad day cannot rewrite the story. Remember that you are building the identity of a person who returns, not a person who is perfect."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Same person, two plans",
+      "body": "Plan A: 'Study ABAP 2 hours daily after college.' Result: 4 good days, then a bad week, then nothing for a month.\n\nPlan B: Minimum 10 minutes (one SELECT), Standard 60 minutes, Stretch 120 minutes, cue: after dinner plates are washed. On a bad Wednesday Aman does the 10-minute minimum, ticks it, and goes to bed. On Saturday he does the stretch.",
+      "takeaway": "Plan B has the same ambition but survives low-energy days; it also lets high-energy days pay extra."
+    },
+    {
+      "title": "A lapse recovery in practice",
+      "body": "Priya misses Monday and Tuesday because of a family function. Wednesday morning she writes: 'Missed 2 days. Cause: travel, no laptop. Fix: keep a notes app list of five ABAP questions to review on my phone when travelling.' That evening she does the 10-minute minimum, not a double session.",
+      "takeaway": "She names a practical cause, adds one fix, and returns at minimum size instead of punishing herself with catch-up work."
+    },
+    {
+      "title": "Reading a month of data",
+      "body": "Habit log for 30 days: 24 days done, 6 missed, longest streak 9 days, current streak 3. Consistency: 24 / 30 = 80%. A reader fixated on the current streak of 3 would feel like a failure; the ratio shows an 80% habit.",
+      "takeaway": "The ratio tells the truth about the habit; the streak counter only tells you about the last few days."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "discipline-3.e1",
+      "type": "mcq",
+      "level": 1,
+      "concept": "discipline.minimum-version",
+      "prompt": "You want to practise coding for 90 minutes each evening. Which is the best 'minimum version' for your worst days?",
+      "options": [
+        "Code for 45 minutes, which is half the plan.",
+        "Plan the whole week of practice on paper.",
+        "Skip the day and make it up on Sunday.",
+        "Open your editor and write one working 5-line program, about 10 minutes."
+      ],
+      "answer": 3,
+      "hint": "Think about the worst day of the month, not the average day.",
+      "why": "A minimum must pass the worst-day test, so it is an effort-sized action you can always do. Half the plan (45 minutes) is still too heavy on a flat day, planning is not practising, and skipping to make up later is the pattern that breaks habits."
+    },
+    {
+      "id": "discipline-3.e2",
+      "type": "fill",
+      "level": 1,
+      "concept": "discipline.streaks",
+      "prompt": "You planned a habit on 7 days this week and did it on 5 days. What is your consistency ratio, to the nearest whole percent? Write the number only.",
+      "accept": [
+        "71",
+        "71%",
+        "71 %",
+        "71.4",
+        "71.4%",
+        "71.43",
+        "71.43%"
+      ],
+      "hint": "Divide days done by days planned.",
+      "why": "5 divided by 7 is 0.714, so the ratio is about 71%. Looking at the ratio instead of a broken chain shows that the habit is still mostly working."
+    },
+    {
+      "id": "discipline-3.e3",
+      "type": "written",
+      "level": 2,
+      "concept": "discipline.minimum-version",
+      "prompt": "You want to practise SQL or ABAP for one hour each evening, but on lab days you reach home at 8:30 pm and are exhausted. Write a three-tier version (minimum, standard, stretch) of this habit with a time for each tier, one cue, and one rule for how you choose the tier on a given day.",
+      "minWords": 45,
+      "rubric": [
+        {
+          "id": "tiers",
+          "label": "Three clear tiers with times",
+          "weight": 35,
+          "descriptors": {
+            "0": "Only one version is given.",
+            "1": "Two tiers, or tiers without times.",
+            "2": "Three tiers with times, but the sizes are not clearly different.",
+            "3": "Three distinct tiers with realistic times (for example 10, 60 and 120 minutes)."
+          },
+          "auto": {
+            "type": "keywords",
+            "any": [
+              "minimum",
+              "standard",
+              "stretch"
+            ],
+            "min": 3,
+            "label": "Names minimum, standard and stretch"
+          }
+        },
+        {
+          "id": "minimum",
+          "label": "Minimum passes the worst-day test",
+          "weight": 30,
+          "descriptors": {
+            "0": "The minimum is as hard as the normal plan.",
+            "1": "The minimum is smaller but still needs 30+ minutes or heavy setup.",
+            "2": "The minimum is small, but it needs some preparation or setup.",
+            "3": "The minimum is under 10 minutes, needs almost no setup, and could be done at 8:30 pm exhausted."
+          }
+        },
+        {
+          "id": "rule",
+          "label": "Rule for choosing the tier",
+          "weight": 20,
+          "descriptors": {
+            "0": "No rule given.",
+            "1": "A rule exists but it is based on guilt or mood only.",
+            "2": "A rule based on energy or time, but vague.",
+            "3": "A clear if-then rule based on energy or time available, for example 'if I reach home after 8 pm, I do the minimum'."
+          }
+        },
+        {
+          "id": "cue",
+          "label": "Specific cue",
+          "weight": 15,
+          "descriptors": {
+            "0": "No cue.",
+            "1": "A vague time such as 'in the evening'.",
+            "2": "A time or place cue.",
+            "3": "A specific existing routine used as the cue (for example, after dinner dishes)."
+          }
+        }
+      ],
+      "modelAnswer": "Cue: after I finish dinner. Minimum (10 minutes): open the editor and write one SELECT query or one small program. Standard (60 minutes): one full course exercise. Stretch (120 minutes): build a small report with a selection screen on a weekend. Rule: if I reach home after 8 pm or feel drained, I do the minimum and count it as done; on ordinary days I do the standard; stretch only on Saturday when I have energy.",
+      "guidance": "A strong answer shows three different sizes, with the minimum small enough for 8:30 pm on a lab day. The most common mistake is a minimum like '30 minutes instead of 60', which is still a real study session. Check that your rule says what to do when you are tired, and that finishing the minimum is counted as a success. Score each criterion by comparing with the model answer honestly."
+    },
+    {
+      "id": "discipline-3.e4",
+      "type": "scenario",
+      "level": 3,
+      "concept": "discipline.never-miss-twice",
+      "prompt": "You had a 40-day study streak, but a family function made you miss three days in a row. The tracker has reset to zero and you think, 'I will restart properly next Monday.' It is Wednesday evening. What do you do?",
+      "options": [
+        {
+          "text": "Wait for Monday to restart so the new streak begins cleanly.",
+          "score": 1,
+          "feedback": "Waiting turns a three-day lapse into a five-day one and invites the what-the-hell effect."
+        },
+        {
+          "text": "Do double sessions for the next three days to catch up.",
+          "score": 0,
+          "feedback": "Catching up makes tomorrow harder and treats the habit as a debt to repay, which usually leads to another miss."
+        },
+        {
+          "text": "Tonight, do the 10-minute minimum, note the cause (travel, no laptop), add one fix, and judge the habit by 37 of 40 days.",
+          "score": 3,
+          "feedback": "This follows the recovery script: notice, name the cause, shrink and fix one thing, and it uses the ratio rather than the broken streak."
+        },
+        {
+          "text": "Drop the habit for now; you will pick it up after exams when life is calmer.",
+          "score": 1,
+          "feedback": "One lapse is not evidence that the habit does not fit; shrinking the habit is a better response than quitting."
+        }
+      ],
+      "why": "The best response restarts at once at minimum size and reads the lapse as data. Waiting, catching up and quitting all let one miss become several."
+    }
+  ],
+  "task": {
+    "title": "Build your three-tier habit and test it",
+    "brief": "Create a minimum, standard and stretch version of one real habit, then test the minimum tomorrow on purpose.",
+    "steps": [
+      "Pick one habit that matters to your goals, such as daily coding practice, reading or exercise.",
+      "Write its three tiers with exact times. Check the minimum against the worst-day test.",
+      "Write one if-then rule for choosing the tier, based on your energy.",
+      "Write your four-step recovery script (notice, name cause, shrink, fix one thing) on a card.",
+      "Do the minimum version tomorrow at your usual cue and log it."
+    ],
+    "checklist": [
+      "I wrote three tiers with times",
+      "My minimum is under 10 minutes",
+      "I wrote a tier-choosing rule",
+      "I wrote the four recovery steps",
+      "I scheduled the minimum test"
+    ],
+    "evidencePrompt": "Write your three tiers with times and your tier-choosing rule.",
+    "evidenceWords": 35,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "discipline-3.q1",
+      "type": "mcq",
+      "concept": "discipline.energy-cycles",
+      "prompt": "Which statement about motivation is most accurate?",
+      "options": [
+        "It stays the same if you set big goals.",
+        "It often arrives after you start a small action, so starting can come before feeling ready.",
+        "It should be present before any habit is attempted.",
+        "It is mainly a matter of character that cannot change."
+      ],
+      "answer": 1,
+      "why": "Motivation fluctuates daily and frequently follows action. Waiting for it to appear first is a common trap; the other options treat it as constant, a precondition or a fixed trait."
+    },
+    {
+      "id": "discipline-3.q2",
+      "type": "fill",
+      "concept": "discipline.minimum-version",
+      "prompt": "In a three-tier habit, what is the smallest, easiest version called? (one word)",
+      "accept": [
+        "minimum",
+        "the minimum",
+        "minimum version"
+      ],
+      "why": "The minimum version is the smallest action that still counts, so that bad days do not break the habit."
+    },
+    {
+      "id": "discipline-3.q3",
+      "type": "mcq",
+      "concept": "discipline.never-miss-twice",
+      "prompt": "You missed yesterday's habit. What does 'never miss twice' tell you to do today?",
+      "options": [
+        "Do the minimum version at your next cue, without catching up.",
+        "Do double today to make up for yesterday.",
+        "Wait until you feel ready.",
+        "Reset your goal to a bigger one."
+      ],
+      "answer": 0,
+      "why": "After one miss, return immediately at minimum size. Doubling up adds pressure, waiting invites a second miss, and a bigger goal makes the return harder."
+    },
+    {
+      "id": "discipline-3.q4",
+      "type": "mcq",
+      "concept": "discipline.streaks",
+      "prompt": "Why is a consistency ratio often a better measure than a streak counter?",
+      "options": [
+        "It is easier to cheat.",
+        "It shows only your best days.",
+        "It does not reset to zero after one miss, so one lapse cannot erase the evidence that the habit works.",
+        "It removes the need to track."
+      ],
+      "answer": 2,
+      "why": "A ratio such as 24 of 30 days stays informative after a lapse. A streak resets to zero and can make a mostly successful habit look like a failure."
+    }
+  ],
+  "bank": [
+    {
+      "id": "discipline-3.b1",
+      "type": "mcq",
+      "concept": "discipline.energy-cycles",
+      "prompt": "A student studies best at 7 am but keeps scheduling hard problems at 11 pm after being tired all day. What is the most useful change?",
+      "options": [
+        "Try harder at 11 pm.",
+        "Put the hardest work in the high-energy window and light tasks in the low one.",
+        "Stop scheduling study sessions.",
+        "Study only when inspired."
+      ],
+      "answer": 1,
+      "why": "Matching the task to your energy cycle gets more from the same hours. Trying harder at 11 pm relies on willpower, and dropping a schedule removes the system."
+    },
+    {
+      "id": "discipline-3.b2",
+      "type": "fill",
+      "concept": "discipline.streaks",
+      "prompt": "Over four weeks you did a gym habit on 5, 4, 6 and 5 days out of 28 planned days. How many days did you do in total?",
+      "accept": [
+        "20",
+        "20 days"
+      ],
+      "why": "5 + 4 + 6 + 5 = 20 days, a ratio of 20/28 which is about 71%."
+    },
+    {
+      "id": "discipline-3.b3",
+      "type": "mcq",
+      "concept": "discipline.never-miss-twice",
+      "prompt": "After missing a day, someone thinks 'the streak is gone, so I may as well skip this week.' What is this pattern called?",
+      "options": [
+        "The planning fallacy",
+        "The what-the-hell effect",
+        "Attention residue",
+        "Temptation bundling"
+      ],
+      "answer": 1,
+      "why": "The what-the-hell effect is giving up entirely after a small slip. The planning fallacy is about underestimating time, attention residue is about task switching, and temptation bundling pairs a habit with a treat."
+    }
+  ],
+  "cards": [
+    {
+      "id": "discipline-3.c1",
+      "concept": "discipline.energy-cycles",
+      "front": "How should you treat motivation when designing habits?",
+      "back": "As unreliable weather. Build a system with a fixed cue, a tiny start and a fallback, because motivation often follows action."
+    },
+    {
+      "id": "discipline-3.c2",
+      "concept": "discipline.minimum-version",
+      "front": "What are the three tiers of a habit, and what is the test for the minimum?",
+      "back": "Minimum, standard and stretch. The minimum must pass the worst-day test: you could still do it when ill, tired or travelling."
+    },
+    {
+      "id": "discipline-3.c3",
+      "concept": "discipline.never-miss-twice",
+      "front": "What are the four steps of the lapse recovery script?",
+      "back": "Notice the miss without self-blame, name a practical cause, shrink to the minimum version at the next cue, and fix one thing in your setup."
+    },
+    {
+      "id": "discipline-3.c4",
+      "concept": "discipline.streaks",
+      "front": "How do you calculate a consistency ratio?",
+      "back": "Days done divided by days planned. For example, 5 of 7 days is 71%. Review it weekly instead of watching the streak daily."
+    }
+  ],
+  "reflection": "Think of the last time you dropped a habit completely. What was the story you told yourself after the first miss, and what minimum version would have kept you going?",
+  "revision": {
+    "keyPoints": [
+      "Motivation is weather; build a system that works on bad days.",
+      "Write three tiers: minimum, standard, stretch. The minimum counts as success.",
+      "One miss is an accident; never miss twice.",
+      "Recover in four steps: notice, name the cause, shrink, fix one thing.",
+      "Track the consistency ratio (days done / days planned), not just the streak."
+    ],
+    "redo": "Look at one habit you care about and write its minimum version in one line, then say aloud what you will do after your next miss."
+  }
+}

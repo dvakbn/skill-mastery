@@ -1,0 +1,333 @@
+{
+  "id": "goals-4",
+  "skillId": "goals",
+  "n": 4,
+  "title": "Finishing Under Real Conditions",
+  "summary": "Limit work in progress, handle setbacks, cut scope smartly and draft a realistic 90-day plan.",
+  "difficulty": 3,
+  "minutes": {
+    "concept": 7,
+    "examples": 3,
+    "practice": 9,
+    "task": 6,
+    "quiz": 3
+  },
+  "objectives": [
+    "Limit work in progress so goals actually get finished.",
+    "Cut scope instead of quality or deadlines when time runs short.",
+    "Write a 90-day plan with a buffer and a setback protocol."
+  ],
+  "concepts": [
+    {
+      "id": "goals.wip-limit",
+      "label": "Limiting work in progress"
+    },
+    {
+      "id": "goals.setbacks",
+      "label": "Handling setbacks"
+    },
+    {
+      "id": "goals.scope-cutting",
+      "label": "Scope cutting"
+    },
+    {
+      "id": "goals.ninety-day",
+      "label": "The 90-day plan"
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "Why most goals stay unfinished",
+      "body": "You have learned to write goals, break them down and track them. The hardest part is finishing when life interferes. In reality you have exams, family events, an internship and five other plans competing for the same hours. Finishing is mostly a matter of choosing what not to do and responding calmly when things slip."
+    },
+    {
+      "heading": "Limit work in progress",
+      "body": "Starting is easy and finishing is rewarding, so people start many things. A student studying ABAP, learning a front-end framework, preparing for an aptitude test and building a side project has four half-done efforts and no finished result. Each switch also has a cost, because your mind has to reload context.\n\nSet a **work-in-progress (WIP) limit**: at most two active goals, and only one of them as your main focus for the quarter. Everything else goes onto a \"later\" list, which you reread monthly. A simple rule: you may start something new only when you finish or deliberately park something. Parking is allowed, but it must be written, with the reason and the restart condition."
+    },
+    {
+      "heading": "Handling setbacks and cutting scope",
+      "body": "A **setback** is a missed week, a failed attempt or an unexpected event. Use a short protocol: **notice** it without blaming yourself, **name** what happened in one sentence, **restart** with the smallest next action within 24 hours, and **log** the lesson. The aim is never to miss twice.\n\nWhen time shrinks, you have three levers: scope, time and quality. Most people quietly sacrifice quality, which hurts your reputation, or push the deadline, which destroys the plan. The better lever is usually **scope cutting**. Ask which parts deliver most of the value. A final-year project that should include login, dashboards, reports and email alerts can ship with login, one dashboard and one report, and list alerts as \"version two\". Separate must-haves from nice-to-haves early and write them down, so cutting is a calm decision instead of panic."
+    },
+    {
+      "heading": "The 90-day plan",
+      "body": "Ninety days is long enough for real progress and short enough to stay concrete. Build it in five steps. First, write one objective and two or three key results. Second, divide the 90 days into three 30-day blocks, each with a milestone. Third, reserve a **buffer**: assume about one week in the last month will be lost, and plan only 80 percent of your hours. Fourth, write your must-have and nice-to-have lists. Fifth, write a setback protocol and book a review on days 30, 60 and 85.\n\nExample: 90 days to reach interview-ready ABAP. Days 1 to 30, fundamentals and ten programs. Days 31 to 60, reports and a portfolio project. Days 61 to 90, mock interviews and applications. Review dates are in the calendar before day one."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Cutting scope the right way",
+      "body": "Neha has two weeks left for a college app with eight features. She lists value: login, notes list and search are essential; tags, dark mode, sharing, export and reminders are nice. She ships the three essentials, tests them properly, and puts the rest under version two.",
+      "takeaway": "Cut features, not testing; cutting early keeps quality and the deadline intact."
+    },
+    {
+      "title": "A setback protocol used",
+      "body": "Dev missed four study days after a family wedding. Notice: no guilt-spiral. Name: travel broke my routine. Restart: tonight, 20 minutes on one program. Log: next time, I will carry a minimum version plan for travel weeks. Back on track within a day.",
+      "takeaway": "A quick, small restart matters more than a perfect catch-up."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "goals-4.e1",
+      "level": 1,
+      "type": "mcq",
+      "concept": "goals.wip-limit",
+      "prompt": "Why set a work-in-progress limit?",
+      "options": [
+        "Because switching between many goals leaves each one unfinished and costs focus",
+        "To look busy",
+        "Because ambition is bad",
+        "To avoid planning"
+      ],
+      "answer": 0,
+      "why": "Too many active goals mean none finish and each switch costs focus. Limits are about finishing, not lowering ambition."
+    },
+    {
+      "id": "goals-4.e2",
+      "level": 1,
+      "type": "fill",
+      "concept": "goals.setbacks",
+      "prompt": "After a setback, the protocol aims to never miss ____. (one word)",
+      "accept": [
+        "twice"
+      ],
+      "why": "One miss is an accident; two in a row starts a new habit of stopping."
+    },
+    {
+      "id": "goals-4.e3",
+      "level": 2,
+      "type": "scenario",
+      "concept": "goals.scope-cutting",
+      "prompt": "With ten days left on a team project, you will not finish all features. What is the best move?",
+      "options": [
+        {
+          "text": "Skip testing so everything is technically finished.",
+          "score": 1,
+          "feedback": "Untested features create bugs in the demo and damage trust."
+        },
+        {
+          "text": "Agree with the team which features are must-haves, finish and test those, and list the rest for later.",
+          "score": 3,
+          "feedback": "Cutting scope protects both quality and the deadline."
+        },
+        {
+          "text": "Ask for an extension without telling anyone what is incomplete.",
+          "score": 0,
+          "feedback": "This hides the problem and rarely works."
+        },
+        {
+          "text": "Work overnight on every feature.",
+          "score": 1,
+          "feedback": "Exhaustion lowers quality and you may still not finish."
+        }
+      ],
+      "why": "When time is fixed, cut scope using must-have versus nice-to-have lists, not quality."
+    },
+    {
+      "id": "goals-4.e4",
+      "level": 3,
+      "type": "written",
+      "concept": "goals.ninety-day",
+      "prompt": "Write a compact 90-day plan for one goal of your own. Include an objective, three 30-day milestones, a buffer, two things you will park, and what you will do after a setback.",
+      "minWords": 60,
+      "rubric": [
+        {
+          "id": "milestones",
+          "label": "Three dated milestones",
+          "weight": 30,
+          "descriptors": {
+            "0": "None.",
+            "1": "One or two.",
+            "2": "Three but vague.",
+            "3": "Three clear outcomes, one per 30 days."
+          }
+        },
+        {
+          "id": "buffer",
+          "label": "Buffer and realistic load",
+          "weight": 20,
+          "descriptors": {
+            "0": "No buffer.",
+            "1": "Buffer mentioned.",
+            "2": "Buffer with amount.",
+            "3": "Buffer with amount and reason tied to real commitments."
+          }
+        },
+        {
+          "id": "parking",
+          "label": "Parked items with restart condition",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Items listed.",
+            "2": "Items with reason.",
+            "3": "Items with reason and restart condition."
+          }
+        },
+        {
+          "id": "setback",
+          "label": "Setback protocol",
+          "weight": 25,
+          "descriptors": {
+            "0": "None.",
+            "1": "Vague.",
+            "2": "Restart step only.",
+            "3": "Notice, name, restart within a day and log."
+          }
+        }
+      ],
+      "modelAnswer": "Objective: become interview-ready for ABAP roles. Days 1-30: finish fundamentals and write 10 programs. Days 31-60: build one report project. Days 61-90: eight mock interviews and 25 applications. Buffer: plan only 4 study hours of my 5 weekly and keep week 11 light for exams. Parked: Python course until my 90 days end, and the app idea until the project is done. Setback: restart with a 20-minute task within 24 hours and log the cause.",
+      "guidance": "A strong plan has one objective, three milestones, a realistic buffer, parked items with when you will revisit them and a calm setback routine. Avoid plans that use 100 percent of your hours and plans with no parked items. Score honestly."
+    }
+  ],
+  "task": {
+    "title": "Draft your 90-day plan",
+    "brief": "Write a one-page 90-day plan and apply a WIP limit to your current goals.",
+    "steps": [
+      "List every goal you are currently pursuing.",
+      "Choose one main goal and at most one secondary; park the rest with restart conditions.",
+      "Write three 30-day milestones and a buffer.",
+      "Write must-haves, nice-to-haves and a setback protocol, then book day-30 review."
+    ],
+    "checklist": [
+      "I limited active goals to two",
+      "My plan has three milestones and a buffer",
+      "I wrote must-haves and nice-to-haves",
+      "I booked a review date"
+    ],
+    "evidencePrompt": "List your main goal, parked goals and day-30 milestone.",
+    "evidenceWords": 40,
+    "minutes": 6
+  },
+  "quiz": [
+    {
+      "id": "goals-4.q1",
+      "type": "mcq",
+      "concept": "goals.wip-limit",
+      "prompt": "A sensible limit on active goals per quarter is:",
+      "options": [
+        "Ten",
+        "About two, with one main focus",
+        "As many as possible",
+        "Zero"
+      ],
+      "answer": 1,
+      "why": "Two active goals with one main focus keeps work finishable."
+    },
+    {
+      "id": "goals-4.q2",
+      "type": "mcq",
+      "concept": "goals.setbacks",
+      "prompt": "First step in the setback protocol?",
+      "options": [
+        "Blame yourself",
+        "Notice it without blame",
+        "Quit the goal",
+        "Plan a huge catch-up"
+      ],
+      "answer": 1,
+      "why": "Noticing calmly keeps you able to restart quickly."
+    },
+    {
+      "id": "goals-4.q3",
+      "type": "mcq",
+      "concept": "goals.scope-cutting",
+      "prompt": "When time runs short, you should usually cut:",
+      "options": [
+        "Testing",
+        "Scope",
+        "Sleep entirely",
+        "The deadline silently"
+      ],
+      "answer": 1,
+      "why": "Scope is the safest lever; quality and trust are costly to lose."
+    },
+    {
+      "id": "goals-4.q4",
+      "type": "fill",
+      "concept": "goals.ninety-day",
+      "prompt": "In a 90-day plan, a planned spare week or fraction of hours to absorb surprises is called a ____. (one word)",
+      "accept": [
+        "buffer"
+      ],
+      "why": "A buffer absorbs real-life interruptions."
+    }
+  ],
+  "bank": [
+    {
+      "id": "goals-4.b1",
+      "type": "mcq",
+      "concept": "goals.wip-limit",
+      "prompt": "You want to start a new course while two goals are active. What does a WIP rule say?",
+      "options": [
+        "Start it anyway",
+        "Finish or deliberately park one first",
+        "Quit both",
+        "Start it secretly"
+      ],
+      "answer": 1,
+      "why": "New starts require finishing or parking something with a written reason."
+    },
+    {
+      "id": "goals-4.b2",
+      "type": "mcq",
+      "concept": "goals.scope-cutting",
+      "prompt": "Which is a nice-to-have for a basic exam planner app?",
+      "options": [
+        "Adding and viewing exams",
+        "Saving data",
+        "Animated themes",
+        "Showing dates"
+      ],
+      "answer": 2,
+      "why": "Themes do not affect the core purpose; the others do."
+    },
+    {
+      "id": "goals-4.b3",
+      "type": "fill",
+      "concept": "goals.setbacks",
+      "prompt": "After a setback you should restart with the smallest next action within about how many hours? (number)",
+      "accept": [
+        "24",
+        "twenty four",
+        "twenty-four"
+      ],
+      "why": "Restarting within roughly 24 hours prevents one miss turning into a long break."
+    }
+  ],
+  "cards": [
+    {
+      "id": "goals-4.c1",
+      "concept": "goals.wip-limit",
+      "front": "What is a WIP limit?",
+      "back": "A cap on active goals, about two with one main focus. New starts only after finishing or deliberately parking something."
+    },
+    {
+      "id": "goals-4.c2",
+      "concept": "goals.setbacks",
+      "front": "Setback protocol steps?",
+      "back": "Notice without blame, name what happened, restart with a small action within 24 hours, log the lesson."
+    },
+    {
+      "id": "goals-4.c3",
+      "concept": "goals.scope-cutting",
+      "front": "Which lever to cut when time is short?",
+      "back": "Scope. Separate must-haves from nice-to-haves early and ship the essentials tested."
+    },
+    {
+      "id": "goals-4.c4",
+      "concept": "goals.ninety-day",
+      "front": "Parts of a 90-day plan?",
+      "back": "Objective, three 30-day milestones, buffer, must-have and nice-to-have lists, setback protocol and review dates."
+    }
+  ],
+  "reflection": "What are you currently pursuing that you should park, and what restart condition would you write for it?",
+  "revision": {
+    "keyPoints": [
+      "Finish by limiting active goals.",
+      "Never miss twice; restart small within a day.",
+      "Cut scope before cutting quality or the deadline.",
+      "A 90-day plan needs milestones, a buffer and review dates."
+    ],
+    "redo": "List your active goals, circle the main one and park one with a restart date."
+  }
+}
