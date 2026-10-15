@@ -72,7 +72,7 @@ Automatic checks (keywords, minimum sentences, forbidden phrases) cap a rating w
 
 ## SAP ABAP track
 
-A separate section (nav: ABAP). Step 1 is a 43-question diagnostic across 8 areas with an "I don't know" option, no feedback until submit, resume support, and a results page (by area, by level, concepts to fix, copyable summary). The data is `app/data/abap-diagnostic.json` (built from `tools/abap/diagnostic.mjs`); scoring is `app/js/engine/abap.js`. The 30-day plan is deliberately not built yet; it is designed from your diagnostic results.
+A separate section (nav: ABAP). Step 1 is a 43-question diagnostic across 8 areas with an "I don't know" option, no feedback until submit, resume support, and a results page (by area, by level, concepts to fix, copyable summary). The data is `app/data/abap-diagnostic.json` (built from `tools/abap/diagnostic.mjs`); scoring is `app/js/engine/abap.js`. The 30-day course (`app/data/abap-course.json`, built from `tools/abap/days/*.mjs` with `node tools/abap/course.mjs`) runs one chapter a day (about 60 minutes): read, examples, hands-on exercise in SAP Logon, quiz, review. A quiz below 70% (75% on checkpoints) triggers a reteach of the missed concepts with an extra exercise and a retest on different questions before the next day opens. Missed concepts return in warm-ups on a 1/3/7/14/30-day ladder. Days 1-5 are written; each later phase is written after the previous checkpoint. Code samples have not been executed on a real SAP system by the author, so tell me about any that fail.
 
 ## Adding AI later (not done now)
 
@@ -89,6 +89,7 @@ Settings → **Backup and recovery** downloads one JSON file with every attempt 
 ```
 node tests/engine.test.mjs        # 22 checks: grading, SRS, mastery gates, mistakes, recommendations, assessment scoring
 node tests/abap.test.mjs          # 8 checks: ABAP diagnostic bank and scoring
+node tests/abapcourse.test.mjs    # 13 checks: grading, gates, reteach loop, unlock, SRS, warm-up
 node tests/sync.test.mjs          # 9 checks: offline queue, idempotent retries, conflicts, new-device recovery (mock server)
 node tools/validate-content.mjs   # every lesson/assessment against the content schema
 node tools/serve.mjs 8765 &       # then:

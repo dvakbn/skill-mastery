@@ -1,6 +1,6 @@
 // Offline-first service worker: precaches the app shell and curriculum; network-first for data so updates arrive.
-const VERSION = 'sm-v5';
-const SHELL = ['./', 'index.html', 'styles.css', 'manifest.webmanifest', 'icon.svg', 'config.js', 'data/content.json', 'data/abap-diagnostic.json', 'js/engine/abap.js', 'js/views/abap.js',
+const VERSION = 'sm-v6';
+const SHELL = ['./', 'index.html', 'styles.css', 'manifest.webmanifest', 'icon.svg', 'config.js', 'data/content.json', 'data/abap-diagnostic.json', 'js/engine/abap.js', 'js/views/abap.js', 'js/views/abapday.js', 'js/engine/abapcourse.js', 'data/abap-course.json',
   'js/main.js', 'js/store.js', 'js/repo.js', 'js/sync.js', 'js/merge.js', 'js/auth.js', 'js/ai/provider.js',
   'js/engine/util.js', 'js/engine/grading.js', 'js/engine/srs.js', 'js/engine/derive.js', 'js/engine/schedule.js', 'js/engine/recommend.js', 'js/engine/assessment.js',
   'js/ui/lib.js', 'js/ui/items.js', 'js/views/today.js', 'js/views/lesson.js', 'js/views/review.js', 'js/views/assessment.js', 'js/views/plan.js', 'js/views/skills.js', 'js/views/progress.js', 'js/views/settings.js'];

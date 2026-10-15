@@ -60,3 +60,5 @@ nav.main{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--ca
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 .opt.dk{border-style:dashed}.opt.dk .k{opacity:.7}
+.mdh{font-size:1.05rem;margin:1.1em 0 .3em}.pre-wrap{position:relative}
+.daylink{display:block;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink)}.daylink.off{opacity:.55}.chk{display:block;padding:4px 0}.tag.bad{background:color-mix(in srgb,var(--bad) 14%,var(--card));color:var(--bad)}

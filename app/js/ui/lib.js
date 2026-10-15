@@ -18,13 +18,20 @@ export function md(src) {
   parts.forEach((part, i) => {
     if (i % 2) { out.push(`<pre><code>${esc(part.replace(/^[a-z]*\n/i, '').replace(/\n$/, ''))}</code></pre>`); return; }
     for (const block of part.split(/\n{2,}/)) {
-      const b = block.trim(); if (!b) continue; const lines = b.split('\n');
-      if (lines.every(l => /^\s*[-•]\s+/.test(l))) out.push('<ul>' + lines.map(l => `<li>${inline(l.replace(/^\s*[-•]\s+/, ''))}</li>`).join('') + '</ul>');
-      else if (lines.every(l => /^\s*\d+[.)]\s+/.test(l))) out.push('<ol>' + lines.map(l => `<li>${inline(l.replace(/^\s*\d+[.)]\s+/, ''))}</li>`).join('') + '</ol>');
-      else if (lines.length > 1 && lines.every(l => l.includes('|'))) { // simple table
+      const b = block.trim(); if (!b) continue; let lines = b.split('\n');
+      while (lines.length && /^#{2,4}\s+/.test(lines[0])) { out.push('<h3 class="mdh">' + inline(lines.shift().replace(/^#+\s+/, '')) + '</h3>'); }
+      if (!lines.length) continue;
+      if (lines.length > 1 && lines.every(l => l.includes('|'))) { // simple table
         const rows = lines.filter(l => !/^\s*\|?\s*:?-{2,}/.test(l)).map(l => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()));
         out.push('<div class="tablewrap"><table>' + rows.map((r, ri) => '<tr>' + r.map(c => ri === 0 ? `<th>${inline(c)}</th>` : `<td>${inline(c)}</td>`).join('') + '</tr>').join('') + '</table></div>');
-      } else out.push('<p>' + lines.map(inline).join('<br>') + '</p>');
+        continue;
+      }
+      const kind = l => /^\s*[-•]\s+/.test(l) ? 'ul' : /^\s*\d+[.)]\s+/.test(l) ? 'ol' : 'p';
+      let i2 = 0; while (i2 < lines.length) {
+        const k = kind(lines[i2]); let j = i2; while (j < lines.length && kind(lines[j]) === k) j++; const seg = lines.slice(i2, j); i2 = j;
+        if (k === 'p') out.push('<p>' + seg.map(inline).join('<br>') + '</p>');
+        else out.push(`<${k}>` + seg.map(l => `<li>${inline(l.replace(k === 'ul' ? /^\s*[-•]\s+/ : /^\s*\d+[.)]\s+/, ''))}</li>`).join('') + `</${k}>`);
+      }
     }
   });
   return out.join('');
