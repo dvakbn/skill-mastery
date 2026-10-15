@@ -1,0 +1,693 @@
+{
+ "version": 1,
+ "title": "SAP ABAP diagnostic",
+ "topics": [
+  {
+   "id": "basics",
+   "label": "Data declarations and types",
+   "blurb": "DATA, TYPES, CONSTANTS, inline declarations, type c, structures."
+  },
+  {
+   "id": "control",
+   "label": "Control flow, operators and strings",
+   "blurb": "IF, CASE, DO, loops, arithmetic, string handling."
+  },
+  {
+   "id": "itab",
+   "label": "Internal tables",
+   "blurb": "Table kinds, APPEND, LOOP, READ TABLE, SORT, field symbols."
+  },
+  {
+   "id": "sql",
+   "label": "Open SQL and database access",
+   "blurb": "SELECT, joins, FOR ALL ENTRIES, sy-subrc, performance, modern syntax."
+  },
+  {
+   "id": "dict",
+   "label": "Data Dictionary and SAP tools",
+   "blurb": "SE11, SE16, SE38, ST22, domains, data elements, foreign keys."
+  },
+  {
+   "id": "modular",
+   "label": "Modularisation",
+   "blurb": "FORM, function modules, methods, includes, parameter passing."
+  },
+  {
+   "id": "screen",
+   "label": "Selection screens, events and output",
+   "blurb": "PARAMETERS, SELECT-OPTIONS, report events, ALV."
+  },
+  {
+   "id": "oop",
+   "label": "OOP, errors and debugging",
+   "blurb": "Classes, visibility, exceptions, messages, the debugger."
+  }
+ ],
+ "questions": [
+  {
+   "id": "abap.d1",
+   "topic": "basics",
+   "level": 1,
+   "tag": "DATA declaration",
+   "prompt": "Which statement correctly declares an integer variable?",
+   "options": [
+    "VAR lv_count TYPE i.",
+    "DATA lv_count AS integer.",
+    "DATA lv_count TYPE i.",
+    "INT lv_count."
+   ],
+   "answer": 2,
+   "why": "The form is DATA name TYPE type. Type i is the built-in 4-byte integer."
+  },
+  {
+   "id": "abap.d2",
+   "topic": "basics",
+   "level": 1,
+   "tag": "Type c length",
+   "prompt": "What is displayed by this program?\n\n```\nDATA lv_code TYPE c LENGTH 5.\nlv_code = 'ABCDEFGH'.\nWRITE lv_code.\n```",
+   "options": [
+    "ABCDE",
+    "A short dump occurs",
+    "Nothing, the field stays empty",
+    "ABCDEFGH"
+   ],
+   "answer": 0,
+   "why": "A fixed-length type c field cuts the value on the right when the source is longer. There is no error and no warning at runtime."
+  },
+  {
+   "id": "abap.d3",
+   "topic": "basics",
+   "level": 2,
+   "tag": "CONSTANTS",
+   "prompt": "What happens with this code?\n\n```\nCONSTANTS gc_max TYPE i VALUE 10.\ngc_max = 20.\n```",
+   "options": [
+    "The value changes to 20",
+    "The assignment is silently ignored",
+    "A syntax error is reported when the program is checked",
+    "A short dump occurs at runtime"
+   ],
+   "answer": 2,
+   "why": "A constant cannot be changed. The compiler detects this at syntax check time, so the program cannot even be activated."
+  },
+  {
+   "id": "abap.d4",
+   "topic": "basics",
+   "level": 2,
+   "tag": "TYPES versus DATA",
+   "prompt": "What is the difference between TYPES and DATA?",
+   "options": [
+    "They are identical",
+    "TYPES creates a global variable and DATA a local one",
+    "DATA can only be used for internal tables",
+    "TYPES defines a data type and reserves no memory; DATA creates a variable of a type"
+   ],
+   "answer": 3,
+   "why": "TYPES describes a structure or type only. DATA creates an actual variable (memory) based on a type."
+  },
+  {
+   "id": "abap.d5",
+   "topic": "basics",
+   "level": 3,
+   "tag": "Inline declaration",
+   "prompt": "What does this statement do (ABAP 7.40 and later)?\n\n```\nDATA(lv_sum) = lv_a + lv_b.\n```",
+   "options": [
+    "It always declares lv_sum as type string",
+    "It only works inside classes",
+    "It is a syntax error because DATA needs a TYPE",
+    "It declares lv_sum on the spot, with the type derived from the right-hand side"
+   ],
+   "answer": 3,
+   "why": "Inline declarations create the variable where it is first used. The type comes from the expression, for example i if lv_a and lv_b are integers."
+  },
+  {
+   "id": "abap.d6",
+   "topic": "control",
+   "level": 1,
+   "tag": "IF / ELSEIF",
+   "prompt": "What is displayed?\n\n```\nDATA lv_n TYPE i VALUE 15.\nIF lv_n > 20.\n  WRITE 'A'.\nELSEIF lv_n > 10.\n  WRITE 'B'.\nELSE.\n  WRITE 'C'.\nENDIF.\n```",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "A and B"
+   ],
+   "answer": 1,
+   "why": "15 is not above 20, but it is above 10, so the ELSEIF branch runs and only B is written. Only one branch of an IF chain runs."
+  },
+  {
+   "id": "abap.d7",
+   "topic": "control",
+   "level": 1,
+   "tag": "DO and sy-index",
+   "prompt": "Which values of sy-index are written?\n\n```\nDO 3 TIMES.\n  WRITE sy-index.\nENDDO.\n```",
+   "options": [
+    "0, 1, 2",
+    "1, 2, 3",
+    "3, 3, 3",
+    "None: sy-index only works with WHILE"
+   ],
+   "answer": 1,
+   "why": "sy-index counts loop passes starting at 1 in DO and WHILE loops."
+  },
+  {
+   "id": "abap.d8",
+   "topic": "control",
+   "level": 2,
+   "tag": "EXIT in loops",
+   "prompt": "Inside a loop, which statement leaves the loop completely?",
+   "options": [
+    "SKIP",
+    "EXIT",
+    "CHECK",
+    "CONTINUE"
+   ],
+   "answer": 1,
+   "why": "EXIT ends the loop. CONTINUE and a failing CHECK only skip the rest of the current pass. SKIP is an output statement for lists."
+  },
+  {
+   "id": "abap.d9",
+   "topic": "control",
+   "level": 2,
+   "tag": "CONDENSE",
+   "prompt": "What does lv_t contain after CONDENSE?\n\n```\nDATA lv_t TYPE c LENGTH 30.\nlv_t = '  Hello    World'.\nCONDENSE lv_t.\n```",
+   "options": [
+    "Hello World",
+    "Hello    World (only the leading blanks are removed)",
+    "HelloWorld",
+    "Unchanged"
+   ],
+   "answer": 0,
+   "why": "CONDENSE removes leading blanks and reduces every gap between words to a single blank. NO-GAPS would remove the gaps entirely."
+  },
+  {
+   "id": "abap.d10",
+   "topic": "control",
+   "level": 3,
+   "tag": "Integer arithmetic",
+   "prompt": "What is displayed?\n\n```\nDATA lv_r TYPE i.\nlv_r = 7 / 2.\nWRITE lv_r.\n```",
+   "options": [
+    "3",
+    "4",
+    "3.5",
+    "A syntax error"
+   ],
+   "answer": 1,
+   "why": "7 / 2 is 3.5 and ABAP rounds commercially when the result goes into type i, so you get 4. Use 7 DIV 2 for integer division (3) and 7 MOD 2 for the remainder (1)."
+  },
+  {
+   "id": "abap.d11",
+   "topic": "itab",
+   "level": 1,
+   "tag": "APPEND",
+   "prompt": "Which statement adds the work area ls_emp as the last line of internal table lt_emp?",
+   "options": [
+    "APPEND ls_emp TO lt_emp.",
+    "ADD ls_emp TO lt_emp.",
+    "lt_emp = lt_emp + ls_emp.",
+    "PUSH ls_emp ONTO lt_emp."
+   ],
+   "answer": 0,
+   "why": "APPEND wa TO itab adds at the end. INSERT can add at a chosen position or key position."
+  },
+  {
+   "id": "abap.d12",
+   "topic": "itab",
+   "level": 1,
+   "tag": "LOOP AT INTO",
+   "prompt": "In each pass of LOOP AT lt_emp INTO ls_emp, what does ls_emp contain?",
+   "options": [
+    "The whole table",
+    "Only the key fields",
+    "A reference to the current row",
+    "A copy of the current row"
+   ],
+   "answer": 3,
+   "why": "INTO copies the row into the work area. Changing ls_emp does not change the table unless you use MODIFY. A field symbol (ASSIGNING) gives direct access."
+  },
+  {
+   "id": "abap.d13",
+   "topic": "itab",
+   "level": 2,
+   "tag": "READ TABLE sy-subrc",
+   "prompt": "READ TABLE lt_emp INTO ls_emp WITH KEY id = 5. finds no row. What is sy-subrc?",
+   "options": [
+    "0",
+    "4",
+    "8",
+    "-1"
+   ],
+   "answer": 1,
+   "why": "sy-subrc is 0 when a row is found and 4 when it is not. Always check it before using the work area."
+  },
+  {
+   "id": "abap.d14",
+   "topic": "itab",
+   "level": 2,
+   "tag": "DELETE ADJACENT DUPLICATES",
+   "prompt": "Why is the table normally sorted before DELETE ADJACENT DUPLICATES?",
+   "options": [
+    "Without SORT the statement raises a short dump",
+    "There is no reason; SORT has no effect here",
+    "SORT frees memory",
+    "The statement only removes duplicates that are next to each other, so equal rows must be neighbours"
+   ],
+   "answer": 3,
+   "why": "The statement compares only a row with its direct neighbour. SORT BY the compared fields puts duplicates together first."
+  },
+  {
+   "id": "abap.d15",
+   "topic": "itab",
+   "level": 3,
+   "tag": "Field symbols",
+   "prompt": "What is the main advantage of LOOP AT lt_emp ASSIGNING <fs_emp> over INTO ls_emp?",
+   "options": [
+    "It makes the loop run backwards",
+    "No copy of the row is made, and changes through <fs_emp> change the table row directly",
+    "It is the only way to read rows",
+    "It sorts the table"
+   ],
+   "answer": 1,
+   "why": "A field symbol points at the row in the table. This avoids copying and lets you modify in place without MODIFY."
+  },
+  {
+   "id": "abap.d16",
+   "topic": "itab",
+   "level": 3,
+   "tag": "BINARY SEARCH",
+   "prompt": "What must be true for READ TABLE lt_emp INTO ls_emp WITH KEY id = 5 BINARY SEARCH. to work correctly on a standard table?",
+   "options": [
+    "The table is sorted ascending by id",
+    "The table is a hashed table",
+    "The table has a header line",
+    "Nothing special is needed"
+   ],
+   "answer": 0,
+   "why": "Binary search assumes the table is sorted by the search key. On an unsorted standard table it can miss an existing row and return sy-subrc 4."
+  },
+  {
+   "id": "abap.d17",
+   "topic": "sql",
+   "level": 1,
+   "tag": "UP TO n ROWS",
+   "prompt": "What does UP TO 5 ROWS do?\n\n```\nSELECT * FROM scarr INTO TABLE lt_scarr UP TO 5 ROWS.\n```",
+   "options": [
+    "Reads exactly 5 rows or raises an error",
+    "Skips the first 5 rows",
+    "Reads at most 5 rows",
+    "Reads only 5 columns"
+   ],
+   "answer": 2,
+   "why": "UP TO n ROWS limits the result to n rows. If fewer exist you simply get fewer."
+  },
+  {
+   "id": "abap.d18",
+   "topic": "sql",
+   "level": 1,
+   "tag": "SELECT SINGLE sy-subrc",
+   "prompt": "After a successful SELECT SINGLE, what is sy-subrc?",
+   "options": [
+    "0",
+    "4",
+    "8",
+    "It is unchanged"
+   ],
+   "answer": 0,
+   "why": "sy-subrc is 0 when a row was found and 4 when nothing matched."
+  },
+  {
+   "id": "abap.d19",
+   "topic": "sql",
+   "level": 2,
+   "tag": "INTO TABLE versus ENDSELECT",
+   "prompt": "To read thousands of rows into an internal table, which is generally better?",
+   "options": [
+    "SELECT ... ENDSELECT with APPEND inside the loop",
+    "SELECT ... INTO TABLE lt_data (one array fetch)",
+    "A SELECT SINGLE inside a loop",
+    "They always perform the same"
+   ],
+   "answer": 1,
+   "why": "INTO TABLE fetches the rows in packages in one statement. A SELECT loop or repeated SELECT SINGLE is slower and wastes round trips."
+  },
+  {
+   "id": "abap.d20",
+   "topic": "sql",
+   "level": 2,
+   "tag": "INNER JOIN",
+   "prompt": "An INNER JOIN of tables A and B returns:",
+   "options": [
+    "All rows of both tables",
+    "Only rows that have no match",
+    "All rows of A, with empty B fields where there is no match",
+    "Only rows that have a matching partner in both tables"
+   ],
+   "answer": 3,
+   "why": "INNER JOIN keeps only matches. A LEFT OUTER JOIN keeps all rows of the left table."
+  },
+  {
+   "id": "abap.d21",
+   "topic": "sql",
+   "level": 2,
+   "tag": "SELECT inside LOOP",
+   "prompt": "Which is the classic database performance mistake?",
+   "options": [
+    "Using key fields in the WHERE clause",
+    "Selecting only the fields you need",
+    "A SELECT SINGLE inside a LOOP, causing one database call per row",
+    "One SELECT with a WHERE clause and INTO TABLE"
+   ],
+   "answer": 2,
+   "why": "Many small database calls are slow. Read everything needed once (join or FOR ALL ENTRIES) and process in memory."
+  },
+  {
+   "id": "abap.d22",
+   "topic": "sql",
+   "level": 3,
+   "tag": "FOR ALL ENTRIES and empty tables",
+   "prompt": "What is the danger when the driver table of FOR ALL ENTRIES is empty?",
+   "options": [
+    "It always causes a short dump",
+    "No rows are returned and sy-subrc is 4",
+    "The condition using the driver table is effectively dropped, so far more rows than intended can be read; check that the table is not empty first",
+    "It causes a syntax error"
+   ],
+   "answer": 2,
+   "why": "With an empty driver table the restriction does not behave as you expect and the selection can return far too much. Always guard with IF lt_driver IS NOT INITIAL. (Also note FOR ALL ENTRIES removes duplicate result rows.)"
+  },
+  {
+   "id": "abap.d23",
+   "topic": "sql",
+   "level": 3,
+   "tag": "New Open SQL syntax",
+   "prompt": "What is the @ sign for?\n\n```\nSELECT carrid, connid FROM spfli\n  INTO TABLE @DATA(lt_flights)\n  WHERE carrid = @lv_carrid.\n```",
+   "options": [
+    "It starts a comment",
+    "It marks ABAP host variables in the new Open SQL syntax",
+    "It begins a native SQL block",
+    "It concatenates strings"
+   ],
+   "answer": 1,
+   "why": "In the newer syntax (7.40 SP05+) host variables are escaped with @ and the field list is separated by commas."
+  },
+  {
+   "id": "abap.d24",
+   "topic": "dict",
+   "level": 1,
+   "tag": "SE38",
+   "prompt": "Which transaction is the standard editor for creating and changing a report program?",
+   "options": [
+    "ST22",
+    "SE16",
+    "SE11",
+    "SE38"
+   ],
+   "answer": 3,
+   "why": "SE38 is the ABAP Editor. SE80 (Object Navigator) also works. SE11 is the Dictionary, SE16 shows table data and ST22 shows short dumps."
+  },
+  {
+   "id": "abap.d25",
+   "topic": "dict",
+   "level": 1,
+   "tag": "SE16",
+   "prompt": "Which transaction displays the contents of a database table?",
+   "options": [
+    "SE16",
+    "SE38",
+    "SE93",
+    "SE37"
+   ],
+   "answer": 0,
+   "why": "SE16 (Data Browser) shows table entries. SE16N is a newer variant."
+  },
+  {
+   "id": "abap.d26",
+   "topic": "dict",
+   "level": 2,
+   "tag": "Domain versus data element",
+   "prompt": "Where are field labels (short, medium, long text) and F1 documentation maintained?",
+   "options": [
+    "In the domain",
+    "In the data element",
+    "In the table type",
+    "In the search help"
+   ],
+   "answer": 1,
+   "why": "A domain holds technical attributes (type, length). A data element gives it meaning: labels and documentation. A table field refers to a data element."
+  },
+  {
+   "id": "abap.d27",
+   "topic": "dict",
+   "level": 2,
+   "tag": "ST22",
+   "prompt": "Which transaction shows ABAP runtime errors (short dumps)?",
+   "options": [
+    "SE24",
+    "SE93",
+    "SM30",
+    "ST22"
+   ],
+   "answer": 3,
+   "why": "ST22 lists short dumps with the error text, the source line and the variable values at the time."
+  },
+  {
+   "id": "abap.d28",
+   "topic": "dict",
+   "level": 3,
+   "tag": "Foreign keys",
+   "prompt": "A foreign key defined for a field of a transparent table in SE11 mainly provides:",
+   "options": [
+    "Faster SELECT statements",
+    "Value checks for dialog input and input help; it does not check INSERT statements made in ABAP code",
+    "A database constraint that automatically blocks any invalid INSERT from ABAP code",
+    "Automatic archiving"
+   ],
+   "answer": 1,
+   "why": "DDIC foreign keys drive input checks on screens and input help. They are not enforced automatically on database writes from ABAP; you must check in code."
+  },
+  {
+   "id": "abap.d29",
+   "topic": "modular",
+   "level": 1,
+   "tag": "Function modules",
+   "prompt": "Which modularisation unit is stored in a function group and can be called from other programs (and remotely if RFC-enabled)?",
+   "options": [
+    "Function module",
+    "Include program",
+    "Macro",
+    "Subroutine (FORM)"
+   ],
+   "answer": 0,
+   "why": "Function modules are central, reusable and have a defined interface. Includes only split source code and FORMs are local to a program."
+  },
+  {
+   "id": "abap.d30",
+   "topic": "modular",
+   "level": 2,
+   "tag": "FORM parameters",
+   "prompt": "What is lv_r after the call?\n\n```\nPERFORM add USING 2 3 CHANGING lv_r.\n\nFORM add USING p_a TYPE i p_b TYPE i\n         CHANGING p_r TYPE i.\n  p_r = p_a + p_b.\nENDFORM.\n```",
+   "options": [
+    "0",
+    "5",
+    "23",
+    "A syntax error, because USING takes only variables"
+   ],
+   "answer": 1,
+   "why": "USING passes the inputs (literals are allowed), CHANGING passes the result back, so lv_r is 5."
+  },
+  {
+   "id": "abap.d31",
+   "topic": "modular",
+   "level": 2,
+   "tag": "Pass by value",
+   "prompt": "In a subroutine, what does USING VALUE(p_x) mean?",
+   "options": [
+    "p_x is passed by value: changes inside the subroutine do not affect the caller's variable",
+    "p_x can only hold strings",
+    "p_x is read from the database",
+    "p_x is a constant"
+   ],
+   "answer": 0,
+   "why": "Pass by value works on a copy. By reference (the default) works on the caller's variable."
+  },
+  {
+   "id": "abap.d32",
+   "topic": "modular",
+   "level": 2,
+   "tag": "Static method call",
+   "prompt": "Which syntax calls the static method get_date of class lcl_util?",
+   "options": [
+    "CALL lcl_util get_date.",
+    "lcl_util.get_date( )",
+    "lcl_util=>get_date( )",
+    "lcl_util->get_date( )"
+   ],
+   "answer": 2,
+   "why": "Static methods use the class name and =>. Instance methods use an object reference and ->."
+  },
+  {
+   "id": "abap.d33",
+   "topic": "modular",
+   "level": 3,
+   "tag": "Classic exceptions",
+   "prompt": "After CALL FUNCTION ... EXCEPTIONS not_found = 1 OTHERS = 2, how do you know an exception was raised?",
+   "options": [
+    "sy-subrc is not 0 (it holds the number assigned to the exception)",
+    "A message appears automatically",
+    "sy-index is set",
+    "The program always terminates"
+   ],
+   "answer": 0,
+   "why": "Classic function module exceptions set sy-subrc to the number you assigned. Check it directly after the call."
+  },
+  {
+   "id": "abap.d34",
+   "topic": "screen",
+   "level": 1,
+   "tag": "SELECT-OPTIONS",
+   "prompt": "Which statement creates a from-to range input on the selection screen?",
+   "options": [
+    "SELECT-OPTIONS",
+    "PARAMETER RANGE",
+    "RANGE-INPUT",
+    "PARAMETERS"
+   ],
+   "answer": 0,
+   "why": "PARAMETERS gives a single value. SELECT-OPTIONS gives a selection table with SIGN, OPTION, LOW and HIGH."
+  },
+  {
+   "id": "abap.d35",
+   "topic": "screen",
+   "level": 1,
+   "tag": "START-OF-SELECTION",
+   "prompt": "In an executable report, where does the main processing normally start after the selection screen?",
+   "options": [
+    "INITIALIZATION",
+    "TOP-OF-PAGE",
+    "LOAD-OF-PROGRAM",
+    "START-OF-SELECTION"
+   ],
+   "answer": 3,
+   "why": "START-OF-SELECTION runs after the user executes the selection screen. INITIALIZATION runs before the screen is shown."
+  },
+  {
+   "id": "abap.d36",
+   "topic": "screen",
+   "level": 2,
+   "tag": "IN with a selection table",
+   "prompt": "Given SELECT-OPTIONS s_carr FOR spfli-carrid., how do you use it in a SELECT?",
+   "options": [
+    "WHERE carrid BETWEEN s_carr",
+    "WHERE carrid = s_carr",
+    "WHERE carrid IN s_carr",
+    "WHERE s_carr CONTAINS carrid"
+   ],
+   "answer": 2,
+   "why": "A selection table is used with IN. It handles single values, ranges, patterns and exclusions at once."
+  },
+  {
+   "id": "abap.d37",
+   "topic": "screen",
+   "level": 2,
+   "tag": "AT SELECTION-SCREEN",
+   "prompt": "Which event is the standard place to validate selection screen input and show an error?",
+   "options": [
+    "END-OF-SELECTION",
+    "TOP-OF-PAGE",
+    "INITIALIZATION",
+    "AT SELECTION-SCREEN"
+   ],
+   "answer": 3,
+   "why": "AT SELECTION-SCREEN (or ON field) runs after input, so an error message there keeps the user on the screen."
+  },
+  {
+   "id": "abap.d38",
+   "topic": "screen",
+   "level": 3,
+   "tag": "ALV with CL_SALV_TABLE",
+   "prompt": "Which class gives the quickest way to show an internal table as an ALV grid in modern ABAP?",
+   "options": [
+    "CL_SALV_TABLE",
+    "CL_ABAP_TYPEDESCR",
+    "CL_GUI_FRONTEND_SERVICES",
+    "CL_BCS"
+   ],
+   "answer": 0,
+   "why": "cl_salv_table=>factory( ... ) followed by display( ) shows the table as an ALV with sorting and filtering built in."
+  },
+  {
+   "id": "abap.d39",
+   "topic": "oop",
+   "level": 1,
+   "tag": "Class parts",
+   "prompt": "An ABAP class consists of which two parts?",
+   "options": [
+    "Interface and include",
+    "Public and private programs",
+    "Definition and implementation",
+    "Header and footer"
+   ],
+   "answer": 2,
+   "why": "CLASS ... DEFINITION declares components; CLASS ... IMPLEMENTATION contains the method code."
+  },
+  {
+   "id": "abap.d40",
+   "topic": "oop",
+   "level": 1,
+   "tag": "BREAK-POINT",
+   "prompt": "Which statement hard-codes a stop at that line in the debugger?",
+   "options": [
+    "STOP-HERE.",
+    "HALT.",
+    "BREAK-POINT.",
+    "DEBUG."
+   ],
+   "answer": 2,
+   "why": "BREAK-POINT stops execution in the debugger. Use it only while developing and remove it before transport. A session breakpoint in the editor margin is cleaner."
+  },
+  {
+   "id": "abap.d41",
+   "topic": "oop",
+   "level": 2,
+   "tag": "Visibility",
+   "prompt": "An attribute declared in the PRIVATE SECTION can be accessed from:",
+   "options": [
+    "The class and its subclasses",
+    "Only inside the class itself",
+    "Only function modules",
+    "Any program"
+   ],
+   "answer": 1,
+   "why": "Private components are visible only within the class. Protected adds subclasses; public is visible to everyone."
+  },
+  {
+   "id": "abap.d42",
+   "topic": "oop",
+   "level": 2,
+   "tag": "Catching exceptions",
+   "prompt": "Which exception class is raised by a division by zero at runtime and can be caught with TRY ... CATCH?",
+   "options": [
+    "CX_SY_ZERODIVIDE",
+    "CX_SY_OPEN_SQL_DB",
+    "CX_DYNAMIC_CHECK",
+    "CX_NO_ZERO"
+   ],
+   "answer": 0,
+   "why": "CX_SY_ZERODIVIDE is raised by the runtime and is catchable, so you can handle the error instead of a short dump."
+  },
+  {
+   "id": "abap.d43",
+   "topic": "oop",
+   "level": 3,
+   "tag": "Message type X",
+   "prompt": "Which message type deliberately ends the program with a short dump?",
+   "options": [
+    "S",
+    "I",
+    "A",
+    "X"
+   ],
+   "answer": 3,
+   "why": "Type X raises the runtime error MESSAGE_TYPE_X. Type A ends the transaction with an abend message; S, I and E are normal messages."
+  }
+ ]
+}

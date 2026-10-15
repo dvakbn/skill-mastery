@@ -8,6 +8,7 @@ import { todayView, reflectView } from './views/today.js';
 import { lessonView } from './views/lesson.js';
 import { reviewView, practiceView } from './views/review.js';
 import { assessmentView } from './views/assessment.js';
+import { abapView } from './views/abap.js';
 import { planViewUI } from './views/plan.js';
 import { skillsView, skillDetailView, mistakesView } from './views/skills.js';
 import { progressView, historyView } from './views/progress.js';
@@ -53,7 +54,7 @@ async function boot() {
   function route() {
     const { name, arg, params } = parse(); curName = name; let v;
     try {
-      v = name === 'today' ? todayView(ctx) : name === 'reflect' ? reflectView(ctx) : name === 'lesson' ? lessonView(ctx, arg, params) : name === 'review' ? reviewView(ctx) : name === 'practice' ? practiceView(ctx, params) : name === 'assessment' ? assessmentView(ctx, arg, params)
+      v = name === 'today' ? todayView(ctx) : name === 'reflect' ? reflectView(ctx) : name === 'lesson' ? lessonView(ctx, arg, params) : name === 'review' ? reviewView(ctx) : name === 'practice' ? practiceView(ctx, params) : name === 'assessment' ? assessmentView(ctx, arg, params) : name === 'abap' ? abapView(ctx, arg)
         : name === 'plan' ? planViewUI(ctx) : name === 'skills' ? skillsView(ctx) : name === 'skill' ? skillDetailView(ctx, arg) : name === 'mistakes' ? mistakesView(ctx) : name === 'progress' ? progressView(ctx) : name === 'history' ? historyView(ctx) : name === 'settings' ? settingsView(ctx) : todayView(ctx);
     } catch (e) { return fatal('This screen failed to load.', e); }
     cur = v; $app.replaceChildren(v.el); document.querySelectorAll('nav.main a').forEach(a => a.classList.toggle('on', a.dataset.r === (['skill'].includes(name) ? 'skills' : ['lesson', 'review', 'practice', 'reflect', 'assessment'].includes(name) ? 'today' : name))); window.scrollTo({ top: 0 }); document.title = 'Skill Mastery';

@@ -70,6 +70,10 @@ Automatic checks (keywords, minimum sentences, forbidden phrases) cap a rating w
 
 **Plan.** Dates slide with your progress; you can jump to a day, skip an assessment or override a recommendation.
 
+## SAP ABAP track
+
+A separate section (nav: ABAP). Step 1 is a 43-question diagnostic across 8 areas with an "I don't know" option, no feedback until submit, resume support, and a results page (by area, by level, concepts to fix, copyable summary). The data is `app/data/abap-diagnostic.json` (built from `tools/abap/diagnostic.mjs`); scoring is `app/js/engine/abap.js`. The 30-day plan is deliberately not built yet; it is designed from your diagnostic results.
+
 ## Adding AI later (not done now)
 
 `app/js/ai/provider.js` is a registry with a `NullProvider`. A future provider can implement `reviewWritten`, `generateItems` and `explainMistake` (see the comment at the top of that file) and be registered without touching the curriculum, database, grading or history. No AI SDKs,
@@ -84,6 +88,7 @@ Settings → **Backup and recovery** downloads one JSON file with every attempt 
 
 ```
 node tests/engine.test.mjs        # 22 checks: grading, SRS, mastery gates, mistakes, recommendations, assessment scoring
+node tests/abap.test.mjs          # 8 checks: ABAP diagnostic bank and scoring
 node tests/sync.test.mjs          # 9 checks: offline queue, idempotent retries, conflicts, new-device recovery (mock server)
 node tools/validate-content.mjs   # every lesson/assessment against the content schema
 node tools/serve.mjs 8765 &       # then:
