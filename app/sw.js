@@ -1,5 +1,5 @@
 // Offline-first service worker: precaches the app shell and curriculum; network-first for data so updates arrive.
-const VERSION = 'sm-v2';
+const VERSION = 'sm-v3';
 const SHELL = ['./', 'index.html', 'styles.css', 'manifest.webmanifest', 'icon.svg', 'config.js', 'data/content.json',
   'js/main.js', 'js/store.js', 'js/repo.js', 'js/sync.js', 'js/merge.js', 'js/auth.js', 'js/ai/provider.js',
   'js/engine/util.js', 'js/engine/grading.js', 'js/engine/srs.js', 'js/engine/derive.js', 'js/engine/schedule.js', 'js/engine/recommend.js', 'js/engine/assessment.js',
