@@ -1,5 +1,5 @@
 // Offline-first service worker: precaches the app shell and curriculum; network-first for data so updates arrive.
-const VERSION = 'sm-v4';
+const VERSION = 'sm-v5';
 const SHELL = ['./', 'index.html', 'styles.css', 'manifest.webmanifest', 'icon.svg', 'config.js', 'data/content.json', 'data/abap-diagnostic.json', 'js/engine/abap.js', 'js/views/abap.js',
   'js/main.js', 'js/store.js', 'js/repo.js', 'js/sync.js', 'js/merge.js', 'js/auth.js', 'js/ai/provider.js',
   'js/engine/util.js', 'js/engine/grading.js', 'js/engine/srs.js', 'js/engine/derive.js', 'js/engine/schedule.js', 'js/engine/recommend.js', 'js/engine/assessment.js',
@@ -11,7 +11,7 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET' || url.origin !== location.origin) return; // never cache API calls (Supabase is cross-origin)
   e.respondWith((async () => {
     const cache = await caches.open(VERSION);
-    try { const res = await fetch(req); if (res.ok) cache.put(req, res.clone()); return res; }
+    try { const res = await fetch(req, { cache: 'no-cache' }); if (res.ok) cache.put(req, res.clone()); return res; }
     catch { const hit = await cache.match(req, { ignoreSearch: true }); if (hit) return hit; if (req.mode === 'navigate') return (await cache.match('index.html')) || Response.error(); return Response.error(); }
   })());
 });
